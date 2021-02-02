@@ -1,0 +1,11 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-8A97A41A-D799-4093-A835-2D48909427C5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E30A81AB-2DA6-4C53-8502-AD87E64EAFB9">Data protection</title>
+  <shortdesc>Data protection terms include different types of remote replication, volume snapshots, volume cloning, protection domains, and high availability with double Helix technology. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

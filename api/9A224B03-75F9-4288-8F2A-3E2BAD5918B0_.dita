@@ -1,0 +1,142 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-9A224B03-75F9-4288-8F2A-3E2BAD5918B0" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">EnableMaintenanceMode</title>
+  <shortdesc>You can use the <apiname>EnableMaintenanceMode</apiname> method to prepare a storage node for maintenance. Maintenance scenarios include any task that requires the node to be powered off or restarted.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>maintenance</keyword>
+        <keyword>enable</keyword>
+        <keyword>mode</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.75*" />
+          <colspec colnum="2" colname="col2" colwidth="1.40*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.27*" />
+          <colspec colname="col5" colnum="5" colwidth="1.16*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>forceWithUnresolvedFaults</parmname>
+              </entry>
+              <entry colname="col2">Force maintenance mode to be enabled for this node even with blocking cluster faults present.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">False</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>nodes</parmname>
+              </entry>
+              <entry colname="col2">The list of node IDs to put in maintenance mode. Only one node at a time is supported. </entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>perMinutePrimarySwapLimit</parmname>
+              </entry>
+              <entry colname="col2">The number of primary slices to swap per minute. If not specified, all primary slices will be swapped at once.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>timeout</parmname>
+              </entry>
+              <entry colname="col2">Specifies how long maintenance mode should remain enabled before it is  automatically disabled. Formatted as a time string (for example, HH:mm:ss). If not specified, maintenance mode will remain enabled until explicitly disabled.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1*" />
+          <colspec colnum="2" colname="col2" colwidth="2.04*" />
+          <colspec colnum="3" colname="col3" colwidth="1.16*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">asyncHandle</entry>
+              <entry colname="col2">You can use the <apiname>GetAsyncResult</apiname> method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.</entry>
+              <entry colname="col3"> integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">currentMode</entry>
+              <entry colname="col2">The current maintenance mode state of the node. Possible values:<ul id="GUID-0075BAD9-BC41-433A-8D59-F297730C737E"><li><option>Disabled</option>: No maintenance has been requested.</li><li><option>FailedToRecover</option>: The node failed to recover from maintenance mode.</li><li><option>RecoveringFromMaintenance</option>: The node is in the process of recovering from maintenance mode.</li><li><option>PreparingForMaintenance</option>: Actions are being taken to prepare a node to have maintenance performed.</li><li><option>ReadyForMaintenance</option>: The node is ready for maintenance to be performed.</li></ul></entry>
+              <entry colname="col3">MaintenanceMode (string)</entry>
+            </row>
+            <row>
+              <entry colname="col1">requestedMode</entry>
+              <entry colname="col2">The requested maintenance mode state of the node. Possible values:<ul id="GUID-819D1D88-5F9F-4FCB-B3B0-03E050E24973"><li><option>Disabled</option>: No maintenance has been requested.</li><li><option>FailedToRecover</option>: The node failed to recover from maintenance mode.</li><li><option>RecoveringFromMaintenance</option>: The node is in the process of recovering from maintenance mode.</li><li><option>PreparingForMaintenance</option>: Actions are being taken to prepare a node to have maintenance performed.</li><li><option>ReadyForMaintenance</option>: The node is ready for maintenance to be performed.</li></ul></entry>
+              <entry colname="col3">MaintenanceMode (string)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "EnableMaintenanceMode",
+  "params": {
+    "forceWithUnresolvedFaults": False,
+    "nodes": [6],
+    "perMinutePrimarySwapLimit" : 40,
+    "timeout" : "01:00:05"
+  },
+"id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": 
+      {
+        "requestedMode": "ReadyForMaintenance",
+        "asyncHandle": 1,
+        "currentMode": "Disabled"
+    }
+}</codeblock>
+    </section>
+    <section id="GUID-F07DFE27-F972-4977-A136-AFAFFF936581">
+      <title id="GUID-BC8CF522-DA97-4EAB-B115-66947A9D807A">New since version</title>
+      <p>12.2</p>
+    </section>
+  </refbody>
+</reference>

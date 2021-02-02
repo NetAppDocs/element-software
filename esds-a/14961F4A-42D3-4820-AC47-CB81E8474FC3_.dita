@@ -1,0 +1,21 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-14961F4A-42D3-4820-AC47-CB81E8474FC3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B82E720D-40D4-4B08-A10C-FC1A3AE0745F">Manage <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> storage</title>
+  <shortdesc>After you install <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> on your storage clusters, you can use Element UI or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>solidfire esds</keyword>
+        <keyword>volumes</keyword>
+        <keyword>accounts</keyword>
+        <keyword>snapshots</keyword>
+        <keyword>virtual volumes</keyword>
+        <keyword>remote replication</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-C0A17678-4498-4AFA-A43B-97E59954F8FF">Here are the links to the content for various storage management tasks:<ul id="GUID-1F452834-4644-4B99-9139-61AC2F09FE46"><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-5D26E692-461D-4C48-B294-44E57D79C70E.html" format="html" scope="external">Using basic options in the Element software UI</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-E93D3BAF-5A60-414D-86AF-0C1F86D43F26.html" format="html" scope="external">Working with user accounts</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-2D2EAC0D-DD28-4ACA-A189-AA45E982EFDB.html" format="html" scope="external">Working with volumes</xref>. You can also find information about applying a QoS policy to volumes here.</li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C1569B1B-4448-4EE3-876D-866C504AF75F.html" format="html" scope="external">Working with virtual volumes</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-EBCB1031-1B2D-472C-92E3-E0CB52B4156C.html" format="html" scope="external">Working with volume access groups and initiators</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-A6F6D2F0-D6A7-475D-A915-F6FDB5136890.html" format="html" scope="external">Working with snapshots</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-F4CA010F-DFEA-4988-A8A5-FC2C28D0E191.html" format="html" scope="external">Performing remote replication between clusters</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-8D9203FB-7A12-4F01-B1FA-DDF7CD5A7524.html" format="html" scope="external">Backing up and restoring volumes</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html" format="html" scope="external">Managing storage using Element APIs</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-B98B2215-0E35-4342-BD3E-33027D9DA64B.html" format="html" scope="external">Monitoring system performance</xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-mg-vcp/home.html" format="html" scope="external">NetApp Element Plug-in for vCenter Server overview</xref> You can navigate to specific tasks from the overview page.</li></ul><p>For more information and content related to managing storage using Element, see <xref href="https://docs.netapp.com/sfe-122/index.jsp" format="html" scope="external">SolidFire and Element 12.2 Documentation Center</xref>.</p></section>
+  </refbody>
+</reference>

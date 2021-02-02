@@ -1,0 +1,63 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-2D26E20D-B5A5-47F6-BAF5-8D8811330236" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0D9F07B9-C186-4090-9E45-0692B1C2E7AD">Pair clusters using a pairing key</title>
+  <shortdesc>If you have cluster administrator access to a local cluster but not the remote cluster, you can pair the clusters using a pairing key. A pairing
+key is generated on a local cluster and then sent securely to a cluster administrator at a remote site to establish a connection and complete
+the cluster pairing for real-time replication.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>remote replication</keyword>
+        <keyword>pairing key</keyword>
+        <keyword>pairing clusters</keyword>
+        <indexterm>pairing clusters<indexterm>pairing using pairing key</indexterm><indexterm>pairing without remote cluster access</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-565FCF6F-2BC5-4D25-8324-BB57CE1B73EA">
+      <step id="STEP_A6981728A9764EA18F6071D98007334F">
+        <cmd>On the local cluster, select <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Cluster Pairs</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_6DD660CCE8D24B9FAA46F46E3C0332CA">
+        <cmd>Click <uicontrol>Pair Cluster</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_9A8F738EC09649448A79D3C27F643700">
+        <cmd>Click <uicontrol>Start Pairing</uicontrol> and click <uicontrol>No</uicontrol> to indicate that you do not have access to the remote cluster.</cmd>
+      </step>
+      <step id="STEP_55A242915716488887E4836C50937565">
+        <cmd>Click <uicontrol>Generate Key</uicontrol>.</cmd>
+        <info>
+          <note id="GUID-308C787B-BEE7-4B86-B9CE-D37EEC99708D">This action generates a text key for pairing and creates an unconfigured cluster pair on the local cluster. If you do not complete the procedure, you will need to manually delete the cluster pair.</note>
+        </info>
+      </step>
+      <step id="STEP_65C75FE5526D4EE59A2650260257A531">
+        <cmd>Copy the cluster pairing key to your clipboard.</cmd>
+      </step>
+      <step id="STEP_5F2D2CACFF2A46F99EFB99BCC90F85AD">
+        <cmd>Make the pairing key accessible to the cluster administrator at the remote cluster site.</cmd>
+        <info>
+          <note id="GUID-FBEE4734-B9EC-425C-824C-2FC223C7C24A">The cluster pairing key contains a version of the MVIP, user name, password, and database information to
+permit volume connections for remote replication. This key should be treated in a secure manner and not stored in a
+way that would allow accidental or unsecured access to the user name or password.</note>
+        </info>
+        <info>
+          <note type="attention" id="GUID-138D3828-8A7D-4E3B-A2F6-018543E671FE">Do not modify any of the characters in the pairing key. The key becomes invalid if it is modified.</note>
+        </info>
+      </step>
+      <step id="STEP_5471D1D9D38A44ADA73F12217D6182F7">
+        <cmd>On the remote cluster, select <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Cluster Pairs</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_ECA0FD7BE45E46D98658886E5F7265BB">
+        <cmd>Click <uicontrol>Pair Cluster</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_144FE8E8F4574AFCAD7433DBFD124D90">
+        <cmd>Click <uicontrol>Complete Pairing</uicontrol> and enter the pairing key in the <uicontrol>Pairing Key</uicontrol> field (paste is the recommended method).</cmd>
+      </step>
+      <step id="STEP_ED5BA48B505D44BF98FE072C685D6571">
+        <cmd>Click  <uicontrol>Complete Pairing</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links />
+</task>

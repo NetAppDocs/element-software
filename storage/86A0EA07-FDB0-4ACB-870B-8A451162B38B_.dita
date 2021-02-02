@@ -1,0 +1,49 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-86A0EA07-FDB0-4ACB-870B-8A451162B38B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Volume pairing messages</title>
+  <shortdesc>You can view volume pairing messages during the initial pairing process from the <wintitle>Volume Pairs</wintitle> page under the  <wintitle>Data Protection</wintitle> tab. These messages can display on both source and target ends of the pair in the <wintitle>Replicating Volumes</wintitle> list view.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>replication<indexterm>messages during volume pairing</indexterm></indexterm>
+        <indexterm>volume pairs<indexterm>messages during volume pairing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_28CF1BCF7A014B449EB4E14A01A70EF0">
+      <dl>
+        <dlentry id="GUID-BA23D6C1-A1C8-42AA-A0B7-B08784915CBD">
+          <dt>PausedDisconnected</dt>
+          <dd> Source replication or sync RPCs timed out. Connection to the remote cluster has been lost. Check network connections to the cluster.</dd>
+        </dlentry>
+        <dlentry id="GUID-C0DD1F0A-897B-49AD-AE54-0D963630E73F">
+          <dt>ResumingConnected</dt>
+          <dd>The remote replication sync is now active. Beginning the sync process and waiting for data.</dd>
+        </dlentry>
+        <dlentry id="GUID-419FA09C-004F-40CE-832A-9FA1A0C031CF">
+          <dt>ResumingRRSync</dt>
+          <dd>A single helix copy of the volume metadata is being made to the paired cluster.</dd>
+        </dlentry>
+        <dlentry id="GUID-F1B9BE16-10D1-4EA7-ACD4-A5B73B0C2D70">
+          <dt>ResumingLocalSync</dt>
+          <dd>A double helix copy of the volume metadata is being made to the paired cluster.</dd>
+        </dlentry>
+        <dlentry id="GUID-329F6C67-0883-46DD-86CB-2B6EFB232A81">
+          <dt>ResumingDataTransfer</dt>
+          <dd>Data transfer has resumed. </dd>
+        </dlentry>
+        <dlentry id="GUID-E7289F8F-0715-49C2-BC3D-785B4CCE7D4C">
+          <dt>Active</dt>
+          <dd>Volumes are paired and data is being sent  from the source to the target volume and the data is in sync.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-6DBDEF38-76C9-4ED6-A503-B5F0980EF12E">
+          <dt>Idle</dt>
+          <dd>No replication activity is occurring.
+</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

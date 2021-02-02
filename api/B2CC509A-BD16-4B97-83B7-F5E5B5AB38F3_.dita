@@ -1,0 +1,83 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-B2CC509A-BD16-4B97-83B7-F5E5B5AB38F3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListSnapMirrorPolicies</title>
+  <shortdesc>The Element software web UI uses the <apiname>ListSnapMirrorPolicies</apiname> method to list all SnapMirror policies on a remote ONTAP system.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapmirror</keyword>
+        <keyword>policy</keyword>
+        <keyword>policies</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>ontap</keyword>
+        <keyword>listsnapmirrorpolicies</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.32*" />
+          <colspec colnum="2" colname="col2" colwidth="1.56*" />
+          <colspec colnum="3" colname="col3" colwidth="1.07*" />
+          <colspec colnum="4" colname="col4" colwidth="1.06*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">List only the policies associated with the specified endpoint ID. If no endpoint ID is provided, the system lists policies from all known  SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorPolicies</entry>
+              <entry colname="col2">A list of the SnapMirror policies on the ONTAP storage system.</entry>
+              <entry colname="col3">
+                <xref href="89262067-0606-4D30-8DDC-DFE6F47BEF07_.dita" outputclass="nopagenum">snapMirrorPolicy</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-B53DAE9B-57E6-4235-8C23-F9C7BF0DB40D">
+      <title id="GUID-76EFEB60-7783-44C4-B4A2-D1EDAC25B066">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

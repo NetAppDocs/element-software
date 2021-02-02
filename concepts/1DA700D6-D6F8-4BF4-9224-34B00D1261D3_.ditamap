@@ -1,0 +1,20 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-1DA700D6-D6F8-4BF4-9224-34B00D1261D3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-60F82E2F-B210-4CCB-A34A-5F879801360A">SolidFire Concepts: Submap: Security</title>
+  <topicref href="090EA68D-02C9-4154-9882-A1790C63A5A6_.dita" navtitle="SolidFire Concepts: Security">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="8501A4F1-FED5-4F6F-801E-D2C9A3642811_.dita" format="dita" navtitle="Encryption at rest">
+      <topicmeta>
+        <navtitle>SolidFire Element UG: Encryption at rest</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6CE78EDB-7A30-47EC-BE46-DE2C12151C13_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="4A9DF175-8B69-4939-A2C2-3A21DF80C999_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+  </topicref>
+</map>

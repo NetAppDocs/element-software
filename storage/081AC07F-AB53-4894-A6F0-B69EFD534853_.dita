@@ -1,0 +1,68 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-081AC07F-AB53-4894-A6F0-B69EFD534853" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-3F44AB88-88E0-4477-A13D-762AC5944441">Set up External key management</title>
+  <shortdesc>You can use these basic steps via the Element API to setup your external key management feature. Details of each API method can be found in the Element API Reference Guide. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>sign request</keyword>
+        <keyword>certificate authority</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-BA98D4B8-4717-414B-840E-64F127553F83">
+      <step>
+        <cmd>Establish a trust relationship with the External Key Server (EKS).</cmd>
+        <substeps id="GUID-CCF067C4-A865-494F-B6B8-B477CCC5CA57">
+          <substep>
+            <cmd>Create a public/private key pair for the Element cluster that is used to establish a trust relationship with the key server by calling the following API method: <userinput outputclass="linebreak">CreatePublicPrivateKeyPair</userinput></cmd>
+          </substep>
+          <substep>
+            <cmd>Get the certificate sign request (CSR) which the Certification Authority needs to sign. The CSR enables the key server to verify that the Element cluster that will be accessing the keys is authenticated as the Element cluster. Call the following API method: <userinput outputclass="linebreak">GetClientCertificateSignRequest</userinput></cmd>
+          </substep>
+          <substep>
+            <cmd>Use the EKS/Certificate Authority to sign the retrieved CSR. See third-party documentation for more information.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Create a server and provider on the cluster to communicate with the EKS. A key provider defines where a key should be obtained, and a server defines the specific attributes of the EKS that will be communicated with.</cmd>
+        <substeps id="GUID-81147813-3448-4AB3-B798-68B0BEA3E717">
+          <substep>
+            <cmd>Create a key provider where the key server details will reside by calling the following API method:  <userinput outputclass="linebreak">CreateKeyProviderKmip</userinput></cmd>
+          </substep>
+          <substep>
+            <cmd>Create a key server providing the signed certificate and the public key of the Certification Authority by calling the following API methods: <userinput outputclass="linebreak">CreateKeyServerKmip</userinput><userinput outputclass="linebreak">TestKeyServerKmip</userinput></cmd>
+            <info>
+              <p>If the test fails, verify your server connectivity and configuration. Then repeat the test.</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>Add the key server into the key provider container by calling the following API methods: <userinput outputclass="linebreak">AddKeyServerToProviderKmip</userinput><userinput outputclass="linebreak">TestKeyProviderKmip</userinput></cmd>
+            <info>
+              <p>If the test fails, verify your server connectivity and configuration. Then repeat the test.</p>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Enable encryption at rest.</cmd>
+        <substeps id="GUID-B34A095C-8AA9-4FED-A1E7-096F9FCF52EC">
+          <substep>
+            <cmd>Enable encryption at rest by providing the ID of the key provider that contains the key server used for storing the keys by calling the following API method: <userinput outputclass="linebreak">EnableEncryptionAtRest</userinput></cmd>
+          </substep>
+        </substeps>
+        <info>
+          <p>
+            <note id="GUID-5AE8E6AD-0597-41D5-93F3-80F81B4C1707">To enable encryption at rest using an external key management configuration, you must enable encryption at rest via the API. Enabling using the existing Element UI button will revert to using internally generated keys.</note>
+          </p>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link keyref="sfe-api" />
+    <link href="EE404D52-B621-4DE5-B141-2559768FB1D0_.dita#GUID-EE404D52-B621-4DE5-B141-2559768FB1D0" />
+  </related-links>
+</task>

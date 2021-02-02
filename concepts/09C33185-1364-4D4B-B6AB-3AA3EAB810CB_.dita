@@ -1,0 +1,19 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-09C33185-1364-4D4B-B6AB-3AA3EAB810CB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E1B61930-A0C7-4706-914E-C27C42A784E5">Contacting NetApp Support</title>
+  <shortdesc>If you need help with or have questions or comments about NetApp products, contact NetApp Support.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>contact</keyword>
+        <keyword>support</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <ul id="UL_73B9E0B3BC934C96B42AA926FBFA82E4">
+      <li id="LI_0293B8F0925E44DC9E675224C2520253">Web: <xref href="http://mysupport.netapp.com" format="http" scope="external">mysupport.netapp.com</xref></li>
+      <li id="LI_14209871113E4C86B8E51B6821729927">Phone:<ul id="UL_2F5EA296E51143BF89A453301C664C8C"><li id="LI_CAFB19FB18B749579F79DA9CB7FEB440">888.4.NETAPP (888.463.8277) (US and Canada)</li><li id="LI_98EF1068E8FA42AC976623BF5678F0A4">00.800.44.638277 (EMEA/Europe)</li><li id="LI_B3964A404225407DAE3F6EEEE8FE2CF4">+800.800.80.800 (Asia/Pacific)</li></ul></li>
+    </ul>
+  </conbody>
+</concept>

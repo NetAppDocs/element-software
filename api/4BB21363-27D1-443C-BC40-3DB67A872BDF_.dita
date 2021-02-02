@@ -1,0 +1,19 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-4BB21363-27D1-443C-BC40-3DB67A872BDF" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Asynchronous methods</title>
+  <shortdesc>Some API methods are asynchronous, which means that the operation they perform might not be complete when the method returns. Asynchronous methods return a handle that you can query to see the status of the operation; status information for some operations might include a percentage of completion.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>async</keyword>
+        <keyword>asynchronous</keyword>
+        <keyword>methods</keyword>
+        <keyword>API</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>When you query an asynchronous operation, its result can be one of the following types:<ul id="UL_1A720E276E8E4B3D86BF38BB4322474E"><li id="LI_2C1A02C8F95744689F01CCB17DE9CD29"><codeph>DriveAdd</codeph>: The system is adding a drive to the cluster.</li><li id="LI_244EE2AC9B2D41C3BD1335A2E6614C5F"><codeph>BulkVolume</codeph>: The system is performing a copy operation between volumes, such as a backup or restore.</li><li id="LI_0701CF69A7D74786994B44F85246B8FA"><codeph>Clone</codeph>: The system is cloning a volume. </li><li id="LI_EFFD990990E24977BA4FD178205D0F66"><codeph>DriveRemoval</codeph>: The system is copying data from a drive in preparation to remove it from the cluster.</li><li id="LI_9054270FC04F4FAD9EBEEB5133E4B3DE"><codeph>RtfiPendingNode</codeph>: The system is installing compatible software on a node before adding it to the cluster.</li></ul></p>
+    <p>Note the following points when using asynchronous methods or obtaining the status of a running asynchronous operation:<ul id="UL_0212A69C0995459C8714A8ED100A601F"><li id="LI_23495152617B415BB14227FB751FCB9B">Asynchronous methods are indicated in the individual method documentation.</li><li id="LI_A23B2178FBFA430EA8964CA960F86F3F">Asynchronous methods return an “asyncHandle”, which is a handle that is known by the issuing API method. You can use the handle to poll for the status or result of the asynchronous operation.</li><li id="LI_2F9597C16C2B4A9FA631C435A9C8AD2E">You can obtain the result of individual asynchronous methods with the <apiname>GetAsyncResult</apiname> method. When you use <apiname>GetAsyncResult</apiname> to query a completed operation, the system returns the result and automatically purges the result from the system. When you use <apiname>GetAsyncResult</apiname> to query an incomplete operation, the system returns the result but does not purge it.  </li><li id="LI_6F5CB1D9B41C48F09A63580FC29A193F">You can obtain the status and results of all running or completed asynchronous methods using the <apiname>ListAsyncResults</apiname> method. In this case, the system does not purge results for completed operations.</li></ul></p>
+  </conbody>
+</concept>

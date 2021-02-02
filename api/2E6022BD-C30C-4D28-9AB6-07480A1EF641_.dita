@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-2E6022BD-C30C-4D28-9AB6-07480A1EF641" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Response examples</title>
+  <shortdesc>Complete response examples are provided here.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>response</keyword>
+        <keyword>example</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-9B8A070E-6A9D-4CCD-A3C3-BDD2C8644D7B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-7B396F3C-BB6E-4853-B899-74E94CDB7652">Multi-factor authentication API methods</title>
+  <shortdesc> You can use multi-factor authentication (MFA) to manage user sessions using a third-party Identity Provider (IdP) via the Security Assertion Markup Language (SAML).</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>multi-factor</keyword>
+        <keyword>MFA</keyword>
+        <keyword>idp</keyword>
+        <keyword>authentication</keyword>
+        <keyword>methods</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

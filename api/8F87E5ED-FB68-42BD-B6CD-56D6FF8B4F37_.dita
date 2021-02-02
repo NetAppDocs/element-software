@@ -1,0 +1,112 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-8F87E5ED-FB68-42BD-B6CD-56D6FF8B4F37" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">DisableMaintenanceMode</title>
+  <shortdesc>You can use the <apiname>DisableMaintenanceMode</apiname> method to take a storage node out of maintenance mode. You should only disable maintenance mode after you have completed maintenance and the node is online.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>disable</keyword>
+        <keyword>maintenance</keyword>
+        <keyword>mode</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.75*" />
+          <colspec colnum="2" colname="col2" colwidth="1.40*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.27*" />
+          <colspec colname="col5" colnum="5" colwidth="1.16*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>nodes</parmname>
+              </entry>
+              <entry colname="col2">List of storage node IDs to take out of maintenance mode.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1*" />
+          <colspec colnum="2" colname="col2" colwidth="2.35*" />
+          <colspec colnum="3" colname="col3" colwidth="1.28*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">asyncHandle</entry>
+              <entry colname="col2">You can use the <apiname>GetAsyncResult</apiname> method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.</entry>
+              <entry colname="col3"> integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">currentMode</entry>
+              <entry colname="col2">The current maintenance mode state of the node. Possible values:<ul id="GUID-630FB88B-42A2-4688-B1F9-1F7769EDC21B"><li><option>Disabled</option>: No maintenance has been requested.</li><li><option>FailedToRecover</option>: The node failed to recover from maintenance mode.</li><li><option>Unexpected</option>: The node was found to be offline, but was in the <option>Disabled</option> mode.</li><li><option>RecoveringFromMaintenance</option>: The node is in the process of recovering from maintenance mode.</li><li><option>PreparingForMaintenance</option>: Actions are being taken to prepare a node to have maintenance performed.</li><li><option>ReadyForMaintenance</option>: The node is ready for maintenance to be performed.</li></ul></entry>
+              <entry colname="col3">MaintenanceMode (string)</entry>
+            </row>
+            <row>
+              <entry colname="col1">requestedMode</entry>
+              <entry colname="col2">The requested maintenance mode state of the node. Possible values:<ul id="GUID-B734C269-1462-48C5-9250-42F0B4412125"><li><option>Disabled</option>: No maintenance has been requested.</li><li><option>FailedToRecover</option>: The node failed to recover from maintenance mode.</li><li><option>Unexpected</option>: The node was found to be offline, but was in the <option>Disabled</option> mode.</li><li><option>RecoveringFromMaintenance</option>: The node is in the process of recovering from maintenance mode.</li><li><option>PreparingForMaintenance</option>: Actions are being taken to prepare a node to have maintenance performed.</li><li><option>ReadyForMaintenance</option>: The node is ready for maintenance to be performed.</li></ul></entry>
+              <entry colname="col3">MaintenanceMode (string)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "DisableMaintenanceMode",
+  "params": {
+    "nodes": [6]
+  },
+"id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": 
+      {
+        "requestedMode": "Disabled",
+        "asyncHandle": 1,
+        "currentMode": "Enabled"
+    }
+}</codeblock>
+    </section>
+    <section id="GUID-F07DFE27-F972-4977-A136-AFAFFF936581">
+      <title id="GUID-BC8CF522-DA97-4EAB-B115-66947A9D807A">New since version</title>
+      <p>12.2</p>
+    </section>
+  </refbody>
+</reference>

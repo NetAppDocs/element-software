@@ -1,0 +1,17 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-A6F6D2F0-D6A7-475D-A915-F6FDB5136890" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4B44A562-90AA-4299-B0BB-711791616340">Use volume snapshots for data protection</title>
+  <shortdesc>A volume snapshot is a point-in-time copy of a volume. You can take a snapshot of a volume and use the snapshot later if you need to roll a volume back  to the state it was in at the time the snapshot was created.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-1B05ADD6-AB6A-4926-9728-24DADEFA0DDE">
+      <p>Snapshots are similar to volume clones. However, snapshots are simply replicas of volume metadata, so you cannot mount or write to them. Creating a volume snapshot also takes only a small amount of system resources and space, which  makes snapshot creation faster than cloning.</p>
+      <p>You can take a snapshot of an individual volume or a set of volumes. </p>
+      <p>Optionally, replicate snapshots to a remote  cluster and use them as a backup copy of the volume. This enables you to roll back a volume to a specific point in time by using the replicated snapshot. Alternatively, you can create a clone of a volume from a replicated snapshot.</p>
+    </context>
+  </taskbody>
+</task>

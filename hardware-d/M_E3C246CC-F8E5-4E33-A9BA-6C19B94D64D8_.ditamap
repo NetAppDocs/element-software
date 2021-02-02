@@ -1,0 +1,88 @@
+﻿<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/bookmap/dtd/bookmap.dtd">
+<bookmap id="GUID-E3C246CC-F8E5-4E33-A9BA-6C19B94D64D8" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <booktitle id="GUID-CF4799E9-7B4E-4E69-BFB6-7CD8A7E1F7C2">
+    <booklibrary>
+      <ph conref="ISH_variables.dita#variables/PROD-HW">H-Series Hardware</ph>
+    </booklibrary>
+    <mainbooktitle>
+      <ph conref="ISH_variables.dita#variables/SFE-H410SREPL-MAINBOOKTITLE">Replacing a H410S node in a SolidFire cluster</ph>
+    </mainbooktitle>
+    <booktitlealt outputclass="subtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-H410SREPL-SUBTITLE" />
+    </booktitlealt>
+    <booktitlealt outputclass="eclipsetitle">
+      <ph conref="ISH_variables.dita#variables/SFE-H410SREPL-ECLIPSETITLE">Replacing a H410S node</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="runningtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-H410SREPL-RUNNINGTITLE">Replacing a H410S node in a SolidFire cluster</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="coverstamp">
+      <ph conref="ISH_variables.dita#variables/CMN-COVERSTAMP" />
+    </booktitlealt>
+    <booktitlealt outputclass="pagestamp">
+      <ph conref="ISH_variables.dita#variables/CMN-PAGESTAMP" />
+    </booktitlealt>
+  </booktitle>
+  <bookmeta>
+    <shortdesc>
+      <ph conref="ISH_variables.dita#variables/SFE-H410SREPL-SHORTDESC">Describes how to replace a failed H410S node in a SolidFire cluster.</ph>
+    </shortdesc>
+    <author>
+      <keyword conref="ISH_variables.dita#variables/CMN-AUTHOR">NetApp Information Engineering</keyword>
+    </author>
+    <othermeta content="netapp-fancy" name="branding" />
+    <othermeta name="docsubtype" content="Hardware User Guide" />
+    <othermeta content="hw" name="doccategory" />
+    <bookid>
+      <bookpartno>
+        <keyword conref="ISH_variables.dita#variables/SFE-H410SREPL-BOOKPARTNO" translate="no">215-14904</keyword>
+        <keyword translate="no" conref="ISH_variables.dita#variables/CMN-EDMARKER-NUM">_2020-06</keyword>
+        <keyword translate="yes" conref="ISH_variables.dita#variables/CMN-LANGMARKER">_en-us</keyword>
+      </bookpartno>
+      <edition>
+        <keyword translate="yes" conref="ISH_variables.dita#variables/CMN-EDMARKER-TEXT">June 2020</keyword>
+      </edition>
+    </bookid>
+    <data name="publishing-hooks">
+      <data format="pdf" name="ecm-primary-asset">
+        <keyword conref="ISH_variables.dita#variables/SFE-H410SREPL-ECMID-PRI">Replacing a H410S node</keyword>
+      </data>
+      <data name="doccenter-id">
+        <ph translate="no" conref="ISH_variables.dita#variables/CMN-DCID">sfe-120</ph>
+      </data>
+      <data name="plugin-id">
+        <keyword conref="ISH_variables.dita#variables/SFE-H410SREPL-PLUGINID">com.netapp.doc.sfe-h410srepl</keyword>
+      </data>
+      <data name="prodinfo">
+        <ph translate="no" conref="ISH_variables.dita#variables/CMN-PRODINFO">
+          <data name="nss-product">NetApp Element 12.0</data>
+        </ph>
+      </data>
+      <data name="last-mod-override">
+        <keyword translate="no" conref="ISH_variables.dita#variables/CMN-LASTMOD">2020-04-27</keyword>
+      </data>
+    </data>
+  </bookmeta>
+  <frontmatter otherprops="standalone-only">
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter format="ditamap" href="35798125-D231-47C2-9F69-D534C4F89C10_.ditamap" navtitle="CM: Storage node replacement">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </chapter>
+  <backmatter>
+    <mapref format="ditamap" href="9D2B5E6A-5903-4F16-BDF1-BCE601020BD7_.ditamap" navtitle="Legal information" otherprops="standalone-only">
+      <topicmeta>
+        <navtitle>Legal information</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref format="ditamap" href="F659D341-102E-48DB-A2D7-85745A30957F_.ditamap" navtitle="LNK: Storage node replacement flyer" processing-role="resource-only">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </mapref>
+  </backmatter>
+</bookmap>

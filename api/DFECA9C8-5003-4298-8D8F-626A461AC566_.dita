@@ -1,0 +1,16 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-DFECA9C8-5003-4298-8D8F-626A461AC566" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Virtual volume API methods</title>
+  <shortdesc> Element software virtual volume API methods enable you to manage virtual volumes (VVols). You can view existing VVols with these API methods as well as create, modify, and delete virtual volume storage containers. Although you cannot use these methods to operate on normal volumes, you can use the normal volume API methods to list information about VVols.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>virtual</keyword>
+        <keyword>volume</keyword>
+        <keyword>vvol</keyword>
+        <keyword>API</keyword>
+        <keyword>method</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

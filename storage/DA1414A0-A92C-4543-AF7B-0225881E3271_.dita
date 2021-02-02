@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-DA1414A0-A92C-4543-AF7B-0225881E3271" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D3090DF8-B5CE-4084-B819-656A8C2FF97B">View individual account performance details </title>
+  <shortdesc>You can view performance activity for individual accounts in a graphical format.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>accounts<indexterm>finding individual account data</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-1E2E63B9-A341-417B-BA0C-355E96260A41">
+      <p>The graph information provides I/O and throughput information for the account. The Average and Peak activity levels are shown in increments of 10-second reporting periods. These statistics include activity for all volumes assigned to the account.</p>
+    </context>
+    <steps id="GUID-872FF76F-2356-4BDD-BF79-25B1E7D75375">
+      <step id="STEP_9331A11CA8314B649F79F894DB108F1B">
+        <cmd>Select <menucascade><uicontrol>Management </uicontrol><uicontrol>Accounts</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_733BB5BADA2E4DED8ABE952AA943359B">
+        <cmd>Click the Actions icon for an account.</cmd>
+      </step>
+      <step id="STEP_5439981544F647E7A70A91F328358877">
+        <cmd>Click <uicontrol>View Details</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

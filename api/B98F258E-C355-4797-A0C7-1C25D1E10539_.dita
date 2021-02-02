@@ -1,0 +1,83 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-B98F258E-C355-4797-A0C7-1C25D1E10539" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListSnapMirrorSchedules</title>
+  <shortdesc>The Element software web UI uses the <apiname>ListSnapMirrorSchedules</apiname> method to get a list of schedules that are available on a remote ONTAP cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapmirror</keyword>
+        <keyword>schedule</keyword>
+        <keyword>schedules</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listsnapmirrorschedules</keyword>
+        <keyword>ontap</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.36*" />
+          <colspec colnum="2" colname="col2" colwidth="1.81*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.04*" />
+          <colspec colname="col5" colnum="5" colwidth="1.29*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">If provided, the system lists the schedules  of the endpoint with the specified SnapMirror endpoint ID. If not provided, the system lists the schedules of all known SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_B951BC9C8818445FADECE482F7A3960D">
+      <title id="GUID-F626A1E1-FE89-4149-A42A-97BA7B22E408">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_97E205A64986432382CFB165D83E5F4C">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.30*" />
+          <colspec colnum="3" colname="col3" colwidth="1.71*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorSchedules</entry>
+              <entry colname="col2">A list of the SnapMirror schedules on the remote ONTAP cluster.</entry>
+              <entry colname="col3">
+                <xref href="B8C75D05-5533-4215-BBE3-19395CA0B3D6_.dita">snapMirrorJobScheduleCronInfo</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-281A822C-75AE-4650-A096-7F0DAF2F3F46">
+      <title id="GUID-0A6C5377-EA1C-4951-BDAF-7FF02D2910E7">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

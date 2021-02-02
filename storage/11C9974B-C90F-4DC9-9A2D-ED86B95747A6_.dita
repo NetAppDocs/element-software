@@ -1,0 +1,37 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-11C9974B-C90F-4DC9-9A2D-ED86B95747A6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-128BA930-BD41-4632-A42F-03D2F43E79CE">Edit an initiator</title>
+  <shortdesc>You can change the alias of an existing initiator or add an alias if one does not already exist.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>initiators<indexterm>changing the alias</indexterm><indexterm>editing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-247560ED-00E9-4F41-B614-6212BCCC2045">
+      <p>To add a CHAP account name and credentials per initiator, you must use the <cmdname>ModifyInitiator</cmdname> API call to remove and add CHAP access and attributes. See API information for more details.</p>
+      <p>
+        <xref keyref="sfe-api" />
+      </p>
+    </context>
+    <steps id="GUID-AF5200A3-2E00-4256-9F14-7B7596F07D67">
+      <step id="STEP_2B9B74B0F46B4CE794DA5DDF6C747505">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Initiators</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_3F6E1BF3614E4B9B8244E33A183EC0DE">
+        <cmd>Click the Actions icon for the initiator you want to edit.</cmd>
+      </step>
+      <step id="STEP_229065FFF2064783AD2D9F7626B57DAF">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_A588D7548EB24216B217DBC5D1844E85">
+        <cmd>Enter a new alias for the initiator in the <uicontrol>Alias</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_000F0FB7EED342E0B2377B633EBD95B7">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

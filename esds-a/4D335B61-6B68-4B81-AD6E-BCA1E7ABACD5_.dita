@@ -1,0 +1,25 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B82E720D-40D4-4B08-A10C-FC1A3AE0745F">Use Element 12.2 APIs on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters</title>
+  <shortdesc>Several new APIs have been introduced in Element 12.2 that you can use on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>solidfire esds</keyword>
+        <keyword>api methods</keyword>
+        <keyword>enable maintenance mode</keyword>
+        <keyword>disable maintenance mode</keyword>
+        <keyword>get license key</keyword>
+        <keyword>set license key</keyword>
+        <keyword>create cluster API method</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-4B70CD28-23AE-42D2-9301-8C1850A0C819">
+      <p>For a comprehensive look at all the Element 12.2 APIs, see <xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html" format="html" scope="external">Element 12.2 API Reference</xref>.</p>
+    </section>
+    <section id="GUID-C0A17678-4498-4AFA-A43B-97E59954F8FF">Here is a list of new APIs in Element 12.2: <ul id="GUID-1F452834-4644-4B99-9139-61AC2F09FE46"><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-3B45CC91-76DF-4F44-9526-F8676F639D22.html" format="html" scope="external"><apiname>GetLicenseKey</apiname></xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-46D07046-2411-463E-8166-15463DC57A9B.html" format="html" scope="external"><apiname>SetLicenseKey</apiname></xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9A224B03-75F9-4288-8F2A-3E2BAD5918B0.html" format="html" scope="external"><apiname>EnableMaintenanceMode</apiname></xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-8F87E5ED-FB68-42BD-B6CD-56D6FF8B4F37.html" format="html" scope="external"><apiname>DisableMaintenanceMode</apiname></xref></li></ul><p>The following APIs have been updated to support <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters:<ul id="GUID-07ECC2AC-794E-47EB-B0FB-5BD7213F879C"><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-B4F5FCDC-0101-4ECD-906C-2D67240D7978.html" format="html" scope="external"><apiname>AddNodes</apiname></xref></li><li><xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9E105236-EDCF-4613-8504-C6685AF937A5.html" format="html" scope="external"><apiname>CreateCluster</apiname></xref><note id="GUID-505BF5AC-45A1-4631-B8D2-816AC0E8ACF4">New parameters, <apiname>OrderNumber</apiname>, <apiname>SerialNumber</apiname>, and <apiname>enableSoftwareEncryptionAtRest</apiname> have been added to the <apiname>CreateCluster</apiname> method in Element software 12.2. You must specify these parameters while using this API method for creating a cluster after you install <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>.</note></li></ul></p><p>The following APIs are not supported on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters:<ul id="GUID-B077DCB0-F11F-4C6D-A950-E4236DF74AA0"><li><apiname>ListClusterInterfacePreferences</apiname></li><li><apiname>ListNodeStats</apiname></li><li><apiname>DisableSsh</apiname></li><li><apiname>DisableClusterSsh</apiname></li><li><apiname>EnableClusterSsh</apiname></li><li><apiname>EnableSsh</apiname></li><li><apiname>GetIpmiConfig</apiname></li><li><apiname>GetIpmiInfo</apiname></li><li><apiname>GetSshInfo</apiname></li><li><apiname>ListNetworkInterfaces</apiname></li><li><apiname>ResetNode</apiname></li><li><apiname>RestartNetworking</apiname></li><li><apiname>ResetNetworkConfig</apiname></li><li><apiname>SetConfig</apiname></li><li><apiname>SetNetworkConfig</apiname></li><li><apiname>DisableBmcColdReset</apiname></li><li><apiname>EnableBmcColdReset</apiname></li><li><apiname>SetNtpInfo</apiname></li><li><apiname>TestAddressAvailability</apiname></li></ul></p><p>For more information and content related to managing storage using the Element UI and APIs, and Element Plug-in for vCenter Server, see <xref href="https://docs.netapp.com/sfe-122/index.jsp" format="html" scope="external">SolidFire and Element 12.2 Documentation Center</xref>. </p></section>
+  </refbody>
+</reference>

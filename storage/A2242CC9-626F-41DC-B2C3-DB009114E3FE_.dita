@@ -1,0 +1,24 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-A2242CC9-626F-41DC-B2C3-DB009114E3FE" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9D525708-0668-483C-B135-DB04EC9BA0FF">Troubleshoot drives</title>
+  <shortdesc>You can replace a failed  solid-state drive (SSD)  with a replacement drive. SSDs for SolidFire storage nodes  are hot-swappable. If you suspect an SSD has failed,  contact  NetApp Support to verify the failure and walk you through the proper resolution procedure.  NetApp Support also works with you to get a replacement drive according to your service-level agreement.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>drives</indexterm>
+        <indexterm>troubleshooting</indexterm>
+        <indexterm>solid-state drives<indexterm>troubleshooting</indexterm></indexterm>
+        <indexterm>SSDs<indexterm>troubleshooting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>How-swappable in this case means that you can remove a failed drive from an active node and replace it with a new SSD drive from NetApp. It is not recommended that you should remove non-failed drives on an active cluster. </p>
+    <p>You should maintain on-site spares suggested by  NetApp Support to allow for immediate replacement of the drive if it fails.<note id="GUID-A2D3C925-19E8-4131-B6EE-202D0AEB3430">For testing purposes, if you are simulating a drive failure by pulling a drive from a node, you must wait 30 seconds before inserting the drive back into the drive slot.
+</note></p>
+    <p>If a drive fails, Double Helix redistributes the data on the drive across the nodes remaining on the cluster. Multiple drive failures on the same node are not an issue since Element software protects against two copies of data residing on the same node. A failed drive results in the following events:<ul id="UL_064BCC0A152446429C2FF11633B51785"><li id="LI_1B3110A2B7B14EE491329889C5252663">Data is migrated off of the drive.</li><li id="LI_EB2DC9685F8E42A5980BACAA78A0EDD2">Overall cluster capacity is reduced by the capacity of the drive.</li><li id="LI_A4A01FF09DCA49B887A5B187B0CD3301">Double Helix data protection ensures that there are two valid copies of the data.</li></ul></p>
+    <p>
+      <note type="attention" id="GUID-5DB3C97D-444E-444F-BD3F-98F006B63FD5">SolidFire storage systems do not support removal of a drive if it results in an insufficient amount of storage to migrate data.</note>
+    </p>
+  </conbody>
+</concept>

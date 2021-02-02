@@ -1,0 +1,84 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-4A1DBCF8-66A1-4F0F-82E8-81D8AFF5FFFB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-579B4E3F-5B99-462F-9F88-CE559331DF7A">Mini CM: Element OS API RG: Volume snapshot methods</title>
+  <topicref href="98E68C38-F5E7-4844-9780-6A7D8EEBC9E1_.dita" navtitle="Volume snapshot API methods">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="D78904F7-46D5-4CB8-B7A1-18A54FABB7D4_.dita" navtitle="Snapshots overview">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="4F972457-9333-411B-99DB-BAF9F284DFC7_.dita" navtitle="CreateGroupSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="C63C1FA9-0D18-4FAD-A249-1F6939C06D4B_.dita" navtitle="CreateSchedule">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="CAE393DC-34D6-4FFF-BFAC-04AA9E77F7EC_.dita" navtitle="CreateSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="8DE5DC01-7A0A-4B8E-9685-5549FC6BF52F_.dita" navtitle="DeleteGroupSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="146C8E10-A07B-411A-8A87-516562805371_.dita" navtitle="DeleteSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="812A5EB4-DC59-461D-8764-9B3EF3A68515_.dita" navtitle="GetSchedule">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="71CC8EC8-E910-43D0-8951-B5DEF4AF8FA4_.dita" navtitle="ListGroupSnapshots">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="650DE835-222A-4065-8C6A-83340601A0D9_.dita" navtitle="ListSchedules">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="CB1CEF83-878A-4336-A5DC-06EED81BBF42_.dita" navtitle="ListSnapshots">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="AABF6EEB-ECD0-4EF6-839A-222A15B08BFE_.dita" navtitle="ModifyGroupSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="E13785EC-DDDD-4D29-AFB8-34E81C12C20D_.dita" navtitle="ModifySchedule">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="30FCD758-7643-43D7-BE55-E30CAFA1586B_.dita" navtitle="ModifySnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="E44B9639-7867-49F2-9F04-DB3BCF22EBCF_.dita" navtitle="RollbackToGroupSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="82E45A96-808A-421E-8DF0-3BC04BD5A5FD_.dita" navtitle="RollbackToSnapshot">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-9AC827C3-DD3D-4D46-AD2B-CE263D318935" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">fibreChannelPort</title>
+  <shortdesc>The <apiname>fibreChannelPort</apiname> object contains information about individual  ports on a node, or for an entire node in the cluster.  You can retrieve this information using the <apiname>ListNodeFibreChannelPortInfo</apiname> method. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>fibreChannelPort</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.01*" />
+          <colspec colnum="2" colname="col2" colwidth="3.07*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">firmware</entry>
+              <entry colname="col2">The version of the firmware installed on the  Fibre Channel port.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">hbaPort</entry>
+              <entry colname="col2">The ID of the individual host bus adapter (HBA) port.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">model</entry>
+              <entry colname="col2">Model of the HBA  on the port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">nPortID</entry>
+              <entry colname="col2">The unique  port node ID.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">pciSlot</entry>
+              <entry colname="col2">The slot containing the PCI card in the Fibre Channel node chassis.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">serial</entry>
+              <entry colname="col2">The serial number on the Fibre Channel port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">speed</entry>
+              <entry colname="col2">The speed of the HBA on the port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">state</entry>
+              <entry colname="col2">Possible values: <ul id="UL_306A8C0310DC47A6AAC67E4519365965"><li id="LI_B0D907F9A2364F36BD87187DEC645305"><option>Unknown</option></li><li id="LI_52EC40A12CF64073A9CC7F8A49FDB4A8"><option>NotPresent</option></li><li id="LI_B9E9C67CAEC940F1A7211AA2FEB9D33E"><option>Online</option></li><li id="LI_E37CDD6DE6C247E7AA502277F27741D7"><option>Offline</option></li><li id="LI_14F6D9CABBF64F18986FFB75D1FECB95"><option>Blocked</option></li><li id="LI_FBA6FBD170FF489299832F7B49A29066"><option>Bypassed</option></li><li id="LI_C76292726B924A03BEC903CBCC4EB226"><option>Diagnostics</option></li><li id="LI_7F69A678127C4F28B574A468C66C0C72"><option>Linkdown</option></li><li id="LI_328432A9B5D84D9FB643E92D778F41D4"><option>Error</option></li><li id="LI_664A8ECC53F14A708B1E729B063FEA2B"><option>Loopback</option></li><li id="LI_6015DC15A43B41F2A6D79D442891BB87"><option>Deleted</option></li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">switchWwn</entry>
+              <entry colname="col2">The World Wide Name of the  Fibre Channel switch port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">wwnn</entry>
+              <entry colname="col2">World Wide Node Name of the HBA node. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">wwpn</entry>
+              <entry colname="col2">World Wide Port Name assigned to the physical port of the HBA. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-ECE4C363-FD4B-4B4A-B0A7-2186780C5207" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA80FA59-1459-4A0A-85AF-4D108B0962FD">Node API methods</title>
+  <shortdesc>You can use node API methods to configure individual nodes. These methods operate on single nodes that need to be configured, are configured but not yet participating in a cluster, or are actively participating in a cluster. Node API methods enable you to view and modify settings for individual nodes and the cluster network used to communicate with the node.  You must run these methods against individual nodes; you cannot run per-node API methods against the address of the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>node</keyword>
+        <keyword>api</keyword>
+        <keyword>methods</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

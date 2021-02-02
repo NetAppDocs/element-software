@@ -1,0 +1,196 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-CAE393DC-34D6-4FFF-BFAC-04AA9E77F7EC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CreateSnapshot</title>
+  <shortdesc>You can use <apiname>CreateSnapshot</apiname> to create a point-in-time copy of a volume. You can create a snapshot from any  volume or from an existing snapshot.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>create</keyword>
+        <keyword>creating</keyword>
+        <keyword>snapshot</keyword>
+        <keyword>snapshots</keyword>
+        <keyword>CreateSnapshot</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_E22A2D51B5164ACDA60CAEE9094425BF">
+      <p>If you do not provide a SnapshotID with this API method, a snapshot is created from the volume's active branch. If the volume from which the snapshot is created is being replicated to a remote  cluster, the snapshot can also be replicated to the same target. Use the <parmname>enableRemoteReplication</parmname> parameter to enable snapshot replication.<note id="GUID-46B5194C-DB2D-4EF3-AE27-B3D6CACFE487">You can create snapshots if cluster fullness is at stage 1, 2, or 3. You cannot create snapshots when cluster fullness reaches stage 4 or 5.</note></p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.68*" />
+          <colspec colnum="2" colname="col2" colwidth="1.96*" />
+          <colspec colnum="3" colname="col3" colwidth="1.26*" />
+          <colspec colnum="4" colname="col4" colwidth="1.00*" />
+          <colspec colname="col5" colnum="5" colwidth="1.10*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>attributes</parmname>
+              </entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/ATTR_DESC" />
+              </entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>enableRemoteReplication</parmname>
+              </entry>
+              <entry colname="col2">Specifies whether the snapshot will be replicated to remote storage or not. Possible values:<ul id="UL_E56524F3B0A74CA4B30D6B5BEFCEEDD3"><li id="LI_8133DD337AE4499E84239C9D8FAE1DEE"><option>true</option>: The snapshot will be replicated to remote storage.</li><li id="LI_797EEF2C56CF4B468CCCB23471962362"><option>false</option>:The snapshot will not be replicated to remote storage.</li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>name</parmname>
+              </entry>
+              <entry colname="col2">The name of the snapshot. If no name is entered, the date and time the snapshot was taken is used. The maximum name length allowed is 255 characters.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>retention</parmname>
+              </entry>
+              <entry colname="col2">The amount of time the snapshot will be retained. If left empty, the snapshot is retained forever. Enter in the HH:mm:ss format.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorLabel</parmname>
+              </entry>
+              <entry colname="col2">The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>snapshotID</parmname>
+              </entry>
+              <entry colname="col2">Unique ID of a snapshot from which the new snapshot is made. The snapshotID passed must be a snapshot on the given volume.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeID</parmname>
+              </entry>
+              <entry colname="col2">Unique ID of the volume image from which to copy.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_873C7F4900E844F6BC96D6171089D47D">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">checksum</entry>
+              <entry colname="col2">A string that represents the correct digits in the stored snapshot. This checksum can be used later to compare other snapshots to detect errors in the data.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">snapshotID</entry>
+              <entry colname="col2">Unique ID of the new snapshot.</entry>
+              <entry colname="col3">Snapshot ID</entry>
+            </row>
+            <row>
+              <entry colname="col1">snapshot</entry>
+              <entry colname="col2">An object containing information about the newly created snapshot.</entry>
+              <entry colname="col3">
+                <xref href="F1156F7F-5B4C-43A0-BEA6-321D13DD4F77_.dita" outputclass="nopagenum">snapshot</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "CreateSnapshot",
+   "params": {
+      "volumeID": 1
+   },
+   "id": 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "checksum": "0x0",
+      "snapshot": {
+        "attributes": {},
+        "checksum": "0x0",
+        "createTime": "2016-04-04T17:14:03Z",
+        "enableRemoteReplication": false,
+        "expirationReason": "None",
+        "expirationTime": null,
+        "groupID": 0,
+        "groupSnapshotUUID": "00000000-0000-0000-0000-000000000000",
+        "name": "2016-04-04T17:14:03Z",
+        "snapshotID": 3110,
+        "snapshotUUID": "6f773939-c239-44ca-9415-1567eae79646",
+        "status": "done",
+        "totalSize": 5000658944,
+        "virtualVolumeID": null,
+        "volumeID": 1
+      },
+        "snapshotID": 3110
+  }
+}
+</codeblock>
+    </section>
+    <section id="GUID-F296CF6D-4552-4683-86FC-71908EF8EA99">
+      <title id="GUID-BC4CBA51-9997-4340-9C31-239A3E890938">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

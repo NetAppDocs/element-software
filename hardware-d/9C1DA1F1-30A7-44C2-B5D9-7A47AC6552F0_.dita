@@ -1,0 +1,21 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-9C1DA1F1-30A7-44C2-B5D9-7A47AC6552F0" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A55F733F-58FD-48AD-B968-CFEB969E881C">Replace H410S node in a SolidFire Cluster </title>
+  <shortdesc>You must replace a storage node in the event of CPU failure, Radian card problems, other motherboard issues, or if it does not power on. The instructions apply to H410S storage nodes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-FC116173-D22B-48AE-B5A1-1D99AA5E23BD">
+      <ul id="UL_7341D581EE9E46C1A762D3C7BD8AF6F5">
+        <li id="LI_A532BFC657EE4E1B8A9E24AC1349641E">You have verified that your storage node has failed.</li>
+        <li id="LI_99E7E6483D0E4FE5B88093A39EA23C81">You have a replacement storage node.</li>
+        <li id="LI_42724CF3825241FAA49D9D8D618A2214">You have an electrostatic discharge (ESD) wristband, or you have taken other antistatic protection.</li>
+        <li id="LI_9E6E2E28C74A4654A0F77A6279F017EC">You have labeled each cable that is connected to the storage node.</li>
+      </ul>
+    </prereq>
+    <context id="GUID-9F113FD5-3A2B-42A0-BCF7-4A2AAA58F44F">Alarms in the NetApp Element Software UI alert you when a storage node fails. You must use the <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> UI to get the serial number (service tag) of the failed node. You need this information to locate the failed node in the cluster. <p>The following figure shows the back of a two rack unit (2U), four-node chassis with four storage nodes:<image href="284AF46C-8488-4613-BF06-6B6891A81A30_Low.gif" id="IMAGE_12B8620394954B9996FFFA6F63994921" placement="break" outputclass="kprev"><alt>This figure shows the four-node chassis with four storage nodes.</alt></image></p></context>
+  </taskbody>
+</task>

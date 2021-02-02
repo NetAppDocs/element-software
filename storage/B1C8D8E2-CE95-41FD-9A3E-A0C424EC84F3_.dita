@@ -1,0 +1,13 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-B1C8D8E2-CE95-41FD-9A3E-A0C424EC84F3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-8110F332-46BC-4855-972A-6F3113B5321F">Enable multi-factor authentication</title>
+  <shortdesc>Multi-factor authentication (MFA) uses a third-party Identity Provider (IdP) via the Security Assertion Markup Language (SAML) to manage user sessions. MFA enables administrators to configure additional factors of authentication as required, such as password and text message, and password and email message.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>saml, idp, mfa</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

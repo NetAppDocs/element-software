@@ -1,0 +1,18 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F8079B69-BF9A-4DB4-8984-B63F31B62D44" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-140AA2B6-7620-4793-B680-5192EB188678">Set up zones for Fibre Channel nodes</title>
+  <shortdesc>When you create a new  cluster with   Fibre Channel nodes and  SolidFire storage nodes, the worldwide port name (WWPN) addresses for the  nodes are available in the web UI. You can use the WWPN addresses to zone the  Fibre Channel switch. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Fibre Channel nodes<indexterm>zoning</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>WWPNs are registered in the  system when you create a new cluster with  nodes. In the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI, you can find the WWPN addresses from the WWPN column of the <wintitle>FC Ports</wintitle> tab, which you access from the <wintitle>Cluster</wintitle> tab. </p>
+    <p>
+      <data keyref="ntap-tr-4619" />
+    </p>
+  </conbody>
+</concept>

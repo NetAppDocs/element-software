@@ -1,0 +1,34 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-F48B1B77-5E02-49C8-8DEB-C022A2AC3F09" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9D1EBFEE-AAD6-4696-9116-FF15648C00B1">Mini CM: Element OS API RG: Virtual networking methods</title>
+  <topicref href="B7D423C4-EB59-44A9-91CD-F6C9BBFFB772_.dita" navtitle="Multitenant networking API Methods">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="F9E23A9D-7BA2-4EB9-AECE-C9BBEC1976F1_.dita" navtitle="Virtual network naming conventions">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="C0D4BF32-7D44-4C92-9658-8C3A20172DDE_.dita" navtitle="AddVirtualNetwork">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="91A8EFD8-33B3-4877-B7F8-CF48405EA5FC_.dita" navtitle="ModifyVirtualNetwork">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="4FB67EF9-FF49-476E-BA97-E70DF2F78621_.dita" navtitle="ListVirtualNetworks">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="CAB5A5E6-796F-42F5-A1CC-6E7708651877_.dita" navtitle="RemoveVirtualNetwork">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

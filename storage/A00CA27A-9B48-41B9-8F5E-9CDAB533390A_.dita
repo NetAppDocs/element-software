@@ -1,0 +1,59 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A00CA27A-9B48-41B9-8F5E-9CDAB533390A" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Fibre Channel ports details</title>
+  <shortdesc>The <wintitle>FC Ports</wintitle> page on the <wintitle>Cluster</wintitle> tab provides information about the  Fibre Channel ports that are connected to the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Fibre Channel ports</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>The following list describes information about the Fibre Channel ports that are connected to the cluster:</p>
+      <dl>
+        <dlentry id="GUID-13C9907C-13EC-49B3-8486-79A00451B54E">
+          <dt>Node ID</dt>
+          <dd>The  node hosting the session for the connection.</dd>
+        </dlentry>
+        <dlentry id="GUID-4A686B3A-3F6F-4DD2-8859-2D1FF2FC0BE9">
+          <dt>Node Name</dt>
+          <dd>System-generated node name. </dd>
+        </dlentry>
+        <dlentry id="GUID-0BF1E2AA-7908-4399-ABA6-AEF9EE145BDF">
+          <dt>Slot</dt>
+          <dd> Slot number where the Fibre Channel port is located.</dd>
+        </dlentry>
+        <dlentry id="GUID-93AD1335-DD07-4532-BED4-57EDF5E445CF">
+          <dt>HBA Port</dt>
+          <dd>Physical port on the Fibre Channel host bus adapter (HBA).</dd>
+        </dlentry>
+        <dlentry id="GUID-E6155F1A-9BAC-46DB-B14D-45E17BEF1F8A">
+          <dt>WWNN</dt>
+          <dd>The world wide node name.</dd>
+        </dlentry>
+        <dlentry id="GUID-7E4971DA-331F-41D3-95CE-D9378A89B579">
+          <dt>WWPN</dt>
+          <dd>					The target world wide port name.</dd>
+        </dlentry>
+        <dlentry id="GUID-D53705A0-18AB-46F7-A3E5-121C7D98B234">
+          <dt>Switch WWN</dt>
+          <dd>World wide name of the Fibre Channel switch.</dd>
+        </dlentry>
+        <dlentry id="GUID-02DD60B7-0742-4F8B-8AC1-2D0D165391C0">
+          <dt>Port State</dt>
+          <dd>Current state of the port.</dd>
+        </dlentry>
+        <dlentry id="GUID-3E30DE82-2463-42E9-ADE1-F14ECBE4246D">
+          <dt>nPort ID</dt>
+          <dd>The node port ID on the Fibre Channel fabric.</dd>
+        </dlentry>
+        <dlentry id="GUID-A00C7744-C1FF-423F-85CE-152378407E25">
+          <dt>Speed</dt>
+          <dd>The negotiated Fibre Channel speed. Possible values are as follows:<ul id="UL_C5930FD1DC2846B78959105E0B794FEF"><li id="LI_4FA5353484824603B4CF547D086CC200">4Gbps</li><li id="LI_225F20DCB28F479E9089128415A502E9">8Gbps</li><li id="LI_788B8B6145BE468B84FFAAD0FFCD86BE">16Gbps</li></ul></dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

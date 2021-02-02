@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F9EA0C9A-8AAD-4E6F-A463-5C7EAE0C5408" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">SnapMirror API methods</title>
+  <shortdesc>SnapMirror API methods are used by the Element web UI for managing snapshots mirrored with remote ONTAP systems. These methods are meant for use by the Element web UI only. If you need API access to SnapMirror functionality, use the ONTAP APIs. Request and return examples are not provided for SnapMirror API methods.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SnapMirror</keyword>
+        <keyword>API</keyword>
+        <keyword>method</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

@@ -1,0 +1,15 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-659696AD-1BE6-4896-8E95-0D8B473421F7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-8F70991D-3B7D-407C-A85E-28A3619E191C">Setup overview</title>
+  <shortdesc>Before you get started, you might want to understand the sequence of installing and setting up <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <image placement="break" href="F29E748E-8A97-41CA-B04B-1AA655586DFA_Low.png" id="IMAGE_E2C25D44F8A9440385E129A80079DB01">
+      <alt>Setup workflow diagram</alt>
+    </image>
+  </conbody>
+</concept>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-5ABDD76E-97C2-4181-BD16-75E30AE3D31C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-95F18C28-107E-4324-B93D-1D4CAEDCFAA5">Remove initiators from an access
+        group</title>
+  <shortdesc>When you remove an initiator from an access group, it can no longer access the volumes in that volume access group. Normal account access to the volume is not disrupted.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>initiators<indexterm>removing from access groups</indexterm></indexterm>
+        <indexterm>access groups<indexterm>removing initiators</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-C6867827-0EFA-4512-B44C-CB3BAF0DC408">
+      <p>Modifying CHAP settings in an account or removing initiators or volumes from an access group can cause initiators to lose access to volumes unexpectedly. To verify that volume access will not be lost unexpectedly, always logout iSCSI sessions that will be affected by an account or access group change, and verify that initiators can reconnect to volumes after any changes to initiator settings and cluster settings have been completed.</p>
+    </context>
+    <steps id="GUID-0EFE4386-04D2-44A6-87BD-07F78D1F114E">
+      <step id="STEP_7FDC44A7E6AC4C7B8959E94A942246B6">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Access Groups</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_2B0602C46C6E4AC98E6DBE858F85322F">
+        <cmd>Click the Actions icon for the access group you want to remove.</cmd>
+      </step>
+      <step id="STEP_5F17E52500E84A458884AC07EA2108A2">
+        <cmd>In the resulting menu, select<uicontrol> Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D45D0DC0032D49C1A8A36F64A311A1ED">
+        <cmd>Under Add Initiators in the <uicontrol>Edit Volume Access Group</uicontrol> dialog box, click the arrow on the <uicontrol>Initiators</uicontrol> list.</cmd>
+      </step>
+      <step id="STEP_53558F2BF0504A92886BA37A9D99EEE7">
+        <cmd>Select the x icon for each initiator you want to remove from the access group.</cmd>
+      </step>
+      <step id="STEP_83200F82668C40D8B74A30045987B486">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

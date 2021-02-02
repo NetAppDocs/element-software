@@ -1,0 +1,24 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-9D2B5E6A-5903-4F16-BDF1-BCE601020BD7" toc="yes" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-7FB46E4E-7AE8-425C-97BD-DDFA4A1AA147">Legal information</title>
+  <topicref format="dita" href="1D541D69-7335-4270-8D2D-FCC4195EBC8F_.dita">
+    <topicmeta>
+      <navtitle>Copyright and trademark</navtitle>
+    </topicmeta>
+    <topicref format="dita" href="A434538D-3FD7-491E-9F29-7A3F17E7CA9B_.dita">
+      <topicmeta>
+        <navtitle>Copyright</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref format="dita" href="FFD19F77-EEF8-4346-87E0-6695EE7ED0B9_.dita">
+      <topicmeta>
+        <navtitle>Trademark</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref format="dita" href="63A732E0-84F9-4A6B-BE0E-5C9FC707EFA8_.dita">
+      <topicmeta>
+        <navtitle>Machine translation</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-D48578FF-C7DD-4A1C-B657-6CF67C4FB946" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0D9F07B9-C186-4090-9E45-0692B1C2E7AD">Pair volumes</title>
+  <shortdesc>After you have established a connection between clusters in a cluster pair, you can pair a volume on one cluster with a volume on the other cluster in the pair. When a volume pairing relationship is established, you must identify which volume is the replication target.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>replication<indexterm>volume pair</indexterm><indexterm>volume pairing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-021EE459-7D78-4167-B36B-AA2D5881DFC5">
+      <ul id="UL_3E1386C451A54897B7D72FDC9D4DB3AB">
+        <li id="LI_5002CAA1453042C493F476B52A729AD9">You have established a connection between clusters in a cluster pair.</li>
+        <li id="LI_481F6E59BE2C422FBD0AEC08A41AB301">You have cluster administrator privileges to one or both clusters being paired.</li>
+      </ul>
+    </prereq>
+    <context id="CONTEXT_1B5DB5FECD884EEDB4A8BD927FFB244D">
+      <p>You can pair two volumes for real-time replication that are stored on different storage clusters in a connected cluster pair. After you pair  two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing  continuous data protection (CDP). You can also assign either volume to be the source or target of the replication.</p>
+      <p>Volume pairings are always one-to-one. After a volume is part of a pairing with a volume on another cluster, you cannot pair it again with any other volume.</p>
+    </context>
+  </taskbody>
+</task>

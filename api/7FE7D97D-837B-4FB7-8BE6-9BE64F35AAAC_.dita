@@ -1,0 +1,144 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-7FE7D97D-837B-4FB7-8BE6-9BE64F35AAAC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ModifyVolumeAccessGroupLunAssignments</title>
+  <shortdesc>You can use the <apiname>ModifyVolumeAccessGroupLunAssignments</apiname> method to define custom LUN assignments for specific volumes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volumes</keyword>
+        <keyword>volume</keyword>
+        <keyword>defining</keyword>
+        <keyword>define</keyword>
+        <keyword>modify</keyword>
+        <keyword>modifying</keyword>
+        <keyword>edit</keyword>
+        <keyword>editing</keyword>
+        <keyword>change</keyword>
+        <keyword>changing</keyword>
+        <keyword>modifyvolumeaccessgrouplunassignments</keyword>
+        <keyword>access</keyword>
+        <keyword>group</keyword>
+        <keyword>lun</keyword>
+        <keyword>assignment</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_FA10B1638FE0462C81A530601FCF1B46">
+      <p>This method changes only LUN values set on the <parmname>lunAssignments</parmname> parameter in the volume access group. All other LUN assignments remain unchanged.</p>
+      <p>LUN assignment values must be unique for volumes in a volume access group. You cannot define duplicate LUN values within a volume access group. However, you can use the same LUN values again in different volume access groups.</p>
+      <note id="GUID-BC3379D7-1C0F-43DD-ABF5-353B8C3F9830">Valid LUN values are 0 through 16383. The system generates an exception if you pass a LUN value outside of this range. None of the specified LUN assignments are modified if there is an exception.</note>
+      <note type="caution" id="GUID-68087446-C184-45C9-9774-ACB30D9368F9">If you change a LUN assignment for a volume with active I/O, the I/O can be disrupted. You should change the server configuration before changing volume LUN assignments.</note>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_DF663FD2692D4B0E9711C63602ACBDFE">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.68*" />
+          <colspec colnum="2" colname="col2" colwidth="1.99*" />
+          <colspec colnum="3" colname="col3" colwidth="1.12*" />
+          <colspec colnum="4" colname="col4" colwidth="1.16*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeAccessGroupID</parmname>
+              </entry>
+              <entry colname="col2">Unique volume access group ID for which the LUN assignments will be modified. </entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>lunAssignments</parmname>
+              </entry>
+              <entry colname="col2">The volume IDs with new  assigned  LUN values.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_B951BC9C8818445FADECE482F7A3960D">
+      <title id="GUID-F626A1E1-FE89-4149-A42A-97BA7B22E408">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_97E205A64986432382CFB165D83E5F4C">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="2.26*" />
+          <colspec colnum="2" colname="col2" colwidth="1.44*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">volumeAccessGroupLunAssignments</entry>
+              <entry colname="col2">An object containing details of the modified volume access group LUN assignments.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ModifyVolumeAccessGroupLunAssignments",
+   "params": {
+       "volumeAccessGroupID" : 218,
+       "lunAssignments" : [
+           {"volumeID" : 832, "lun" : 0},
+           {"volumeID" : 834, "lun" : 1}
+        ]
+    },
+    "id" : 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "volumeAccessGroupLunAssignments": {
+      "deletedLunAssignments": [],
+      "lunAssignments": [
+        {
+          "lun": 0,
+          "volumeID": 832
+        },
+        {
+          "lun": 1,
+          "volumeID": 834
+        }
+      ],
+      "volumeAccessGroupID": 218
+    }
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-A768F805-9379-444B-BF07-BF0F32F4F905">
+      <title id="GUID-5F511911-C2F9-4A2F-BA1B-59431B101B22">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

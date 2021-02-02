@@ -1,0 +1,82 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-05220D97-0268-4CE5-B251-54D166F68A4D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Virtual volume details</title>
+  <shortdesc>The <wintitle>Virtual Volumes</wintitle> page of the <wintitle>VVols</wintitle> tab provides information about each active virtual volume on the cluster, such as volume ID, snapshot ID, parent virtual volume ID, and virtual volume ID.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>virtual volumes<indexterm>viewing high-level VVol performance activity</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <dl>
+        <dlentry id="GUID-CAF0A282-1A8F-493C-93CB-AA02E8F3F615">
+          <dt>Volume ID</dt>
+          <dd> The ID of the underlying volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-96B15FEF-E3A8-498F-AD1C-46BD02EA1582">
+          <dt>Snapshot ID</dt>
+          <dd>The ID of the underlying volume snapshot. The value is 0 if the virtual volume does not represent a SolidFire  snapshot.</dd>
+        </dlentry>
+        <dlentry id="GUID-B8511722-70D7-4D7D-9B85-028DBB6DC9DB">
+          <dt>Parent Virtual Volume ID</dt>
+          <dd>The virtual volume ID of the parent virtual volume. If the ID is all zeros, the virtual volume is independent with no link to a parent.</dd>
+        </dlentry>
+        <dlentry id="GUID-F475AF82-D5F2-43CB-8B49-0587588F015A">
+          <dt>Virtual Volume ID</dt>
+          <dd>The UUID of the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-B6B7B1ED-DE07-40C9-9332-BF755D0683E9">
+          <dt>Name</dt>
+          <dd>The name assigned to the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-3ED0918D-EC4E-4088-AF02-5ECE804A2877">
+          <dt>Storage Container</dt>
+          <dd>The storage container that owns the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-94A5E4CA-2CC3-4674-9A38-12CC0A0B3A19">
+          <dt>Guest OS Type</dt>
+          <dd>Operating system associated with the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-78B32D90-88B7-4869-A571-9E4D7F4036E1">
+          <dt>Virtual Volume Type</dt>
+          <dd>The virtual volume type: Config, Data, Memory, Swap, or Other.</dd>
+        </dlentry>
+        <dlentry id="GUID-65A3124A-DBB3-46AB-85FB-D9519BD5ABF9">
+          <dt>Access</dt>
+          <dd>The read-write permissions assigned to the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-2CC9062C-3986-44B1-A06D-2F24451C19F8">
+          <dt>Size</dt>
+          <dd>The size of the virtual volume in GB or GiB.</dd>
+        </dlentry>
+        <dlentry id="GUID-DAADF896-5FE2-4F61-A1DE-D2D2BD35322E">
+          <dt>Snapshots</dt>
+          <dd>The number of associated snapshots. Click the number to link to snapshot details.</dd>
+        </dlentry>
+        <dlentry id="GUID-658EC5EC-FB72-4C6F-B598-8A68156737F7">
+          <dt>Min IOPS</dt>
+          <dd>The minimum IOPS QoS setting of the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-ADF36740-2E89-4785-8930-FF601E614D47">
+          <dt>Max IOPS</dt>
+          <dd>The maximum IOPS QoS setting of the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-5B6008D9-F0FD-40C8-BA83-1DA68C0CBDCC">
+          <dt>Burst IOPS</dt>
+          <dd>The maximum burst QoS setting of the virtual volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-E34D4742-CA72-4220-80F9-C5C616CB8DF4">
+          <dt>VMW_VmID</dt>
+          <dd>Information in fields prefaced with "VMW_" are defined by VMware.</dd>
+        </dlentry>
+        <dlentry id="GUID-413AA6C2-7816-493E-B6A8-55CE86907608">
+          <dt>Create Time</dt>
+          <dd>The time the virtual volume creation task was completed.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

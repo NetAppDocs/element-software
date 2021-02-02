@@ -1,0 +1,70 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-7CCCA323-A7E4-4E2E-9A8D-30731177C1D1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-99744DF1-5B72-4ACC-B08A-5EC8F772EB25">Run system tests using the per-node UI</title>
+  <shortdesc>You can test changes to the network settings after you commit them to the network configuration. You can run the tests to ensure that the storage node is stable and can be brought online without any issues.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>storage nodes</keyword>
+        <keyword>running system tests</keyword>
+        <keyword>system tests</keyword>
+        <keyword>network settings</keyword>
+        <keyword>testing changes</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="PREREQ_B9F71A1424DF4974A51C6539E91D99F0">
+      <p>You have logged in to the per-node UI for the storage node.</p>
+    </prereq>
+    <steps id="GUID-CF222605-A811-4701-AE53-8CE8627EFBEC">
+      <step id="STEP_0BD2DDBE47D64F7BB26737A351810A8B">
+        <cmd>Click <uicontrol>System Tests</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D1C524749714496CBF729F03B879AD04">
+        <cmd>Click <uicontrol>Run Test</uicontrol> next to the test you want to run or select <uicontrol>Run All Tests</uicontrol>.</cmd>
+        <info>
+          <note id="GUID-4C7A9C5C-4BAB-4C55-96BE-780CC1EF1DA6">Running all test operations can be time consuming and should be done only at the direction of NetApp Support.</note>
+          <dl>
+            <dlentry id="GUID-9A9ABAD6-9287-4DF0-90AC-C4116AC0B735">
+              <dt>Test Connected Ensemble</dt>
+              <dd>Tests and verifies the connectivity to a database ensemble. By default, the test uses the ensemble for the cluster the node is associated with. Alternatively you can provide a different ensemble to test connectivity.</dd>
+            </dlentry>
+            <dlentry id="GUID-08340A5D-AE0C-4E5C-901B-F242BD4EF47A">
+              <dt>Test Connect Mvip</dt>
+              <dd>Pings the specified management virtual IP (MVIP) address and then executes a simple API call to the MVIP to verify connectivity. By default, the test uses the MVIP for the cluster the node is associated with.</dd>
+            </dlentry>
+            <dlentry id="GUID-0B0768BD-2632-44CB-B8A0-E6FEE8B36609">
+              <dt>Test Connect Svip</dt>
+              <dd>Pings the specified storage virtual IP (SVIP) address using Internet Control Message Protocol (ICMP) packets that match the Maximum Transmission Unit (MTU) size set on the network adapter. It then connects to the SVIP as an iSCSI initiator. By default, the test uses the SVIP for the cluster the node is associated with.</dd>
+            </dlentry>
+            <dlentry id="GUID-072EAD60-9BD6-4101-84BE-E3635CF0C488">
+              <dt>Test Hardware Config</dt>
+              <dd>Tests that all hardware configurations are correct, validates firmware versions are correct, and confirms all drives are installed and running properly. This is the same as factory testing. <note id="GUID-8BB47E03-2144-417B-82DE-B0581FF6B94D">This test is resource intensive and should only be run if requested by NetApp Support.</note></dd>
+            </dlentry>
+            <dlentry id="GUID-E0F86C0D-3809-4D91-A829-9D23FE66773D">
+              <dt>Test Local Connectivity</dt>
+              <dd>Tests the connectivity to all of the other nodes in the cluster by pinging the cluster IP (CIP) on each node. This test will only be displayed on a node if the node is part of an active cluster.</dd>
+            </dlentry>
+            <dlentry id="GUID-F24BD4C3-C764-401F-A08E-8F85ED9DFC46">
+              <dt>Test Locate Cluster</dt>
+              <dd>Validates that the node can locate the cluster specified in the cluster configuration.</dd>
+            </dlentry>
+            <dlentry id="GUID-44422E62-4D44-4683-9453-E2D8B3296BA3">
+              <dt>Test Network Config</dt>
+              <dd>Verifies that the configured network settings match the network settings being used on the system. This test is not intended to detect hardware failures when a node is actively participating in a cluster.</dd>
+            </dlentry>
+            <dlentry id="GUID-C5488A62-6841-4B5D-89F7-ED00E23E8513">
+              <dt>Test Ping</dt>
+              <dd>Pings a specified list of hosts or, if none are specified, dynamically builds a list of all registered nodes in the cluster and pings each for simple connectivity.</dd>
+            </dlentry>
+            <dlentry id="GUID-3C7B015A-A9C8-42C3-97AD-358B4A71C37C">
+              <dt>Test Remote Connectivity</dt>
+              <dd>Tests the connectivity to all nodes in remotely paired clusters by pinging the cluster IP (CIP) on each node. This test will only be displayed on a node if the node is part of an active cluster.</dd>
+            </dlentry>
+          </dl>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-DF968BB8-5135-48CF-8968-BC2CACEE03B6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">StartClusterPairing</title>
+  <shortdesc>You can use the <apiname>StartClusterPairing</apiname> method to create an encoded key from a cluster that is used to pair with another cluster. The key created from this API method is used in the <apiname>CompleteClusterPairing</apiname> method to establish a cluster pairing. You can pair a cluster with a maximum of four other  clusters.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>pair</keyword>
+        <keyword>pairing</keyword>
+        <keyword>start</keyword>
+        <keyword>starting</keyword>
+        <keyword>startclusterpairing</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has no input parameter.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.71*" />
+          <colspec colnum="3" colname="col3" colwidth="1.01*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">clusterPairingKey</entry>
+              <entry colname="col2">A string of characters that is used by the <xref href="641B6474-C25A-4D39-A64A-813BCEE7781B_.dita" outputclass="nopagenum">CompleteClusterPairing</xref> API method.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">clusterPairID</entry>
+              <entry colname="col2"> Unique identifier for the cluster pair.  </entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "StartClusterPairing",
+   "params": {
+      },
+   "id" : 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": {
+     "clusterPairID": 1,
+     "clusterPairingKey": "7b22636c7573746572506169724944223a312c22636c75737465725061697255554944223a2231636561313336322d346338662d343631612d626537322d373435363661393533643266222c22636c7573746572556e697175654944223a2278736d36222c226d766970223a223139322e3136382e3133392e313232222c226e616d65223a224175746f54657374322d63307552222c2270617373776f7264223a22695e59686f20492d64774d7d4c67614b222c22727063436f6e6e656374696f6e4944223a3931333134323634392c22757365726e616d65223a225f5f53465f706169725f50597a796647704c7246564432444a42227d"
+   }
+}</codeblock>
+    </section>
+    <section id="GUID-E4B57A61-80BA-440D-8C6C-8E629E9892D7">
+      <title id="GUID-10558A08-921D-4840-8C25-BF632E882324">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

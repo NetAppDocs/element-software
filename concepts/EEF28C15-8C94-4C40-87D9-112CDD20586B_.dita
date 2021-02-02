@@ -1,0 +1,41 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-EEF28C15-8C94-4C40-87D9-112CDD20586B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4F43C108-5C69-4CC6-A158-6F66ED409CD2">Where to find additional information</title>
+  <shortdesc>You can learn more about tasks related to the SolidFire storage system in <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> SolidFire Documentation Center and from the resources available on the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> SolidFire Resources page.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SolidFire storage system<indexterm>additional documentation about</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-9B4DC17A-1979-4985-BE92-7FEE5F6CD817">
+      <p>In the Documentation Center, you can also find information about hardware installation and maintenance, additional content resources available, links to known issues and resolved issues, and the latest release notes.</p>
+      <p>
+        <dl>
+          <dlentry id="GUID-F5C65A7E-7170-4D14-8769-41A8A39D812A">
+            <dt>NetApp SolidFire Resources page </dt>
+            <dd>Provides resources about <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software, including links to video content and technical reports.<p><xref keyref="ntap-resources-solidfire" /></p></dd>
+          </dlentry>
+          <dlentry id="GUID-3C731141-404E-48A6-BA99-991669B3C8F5">
+            <dt>NetApp SolidFire Documentation Center</dt>
+            <dd>Provides information about hardware installation and maintenance, additional content resources available, links to known issues and resolved issues, and the latest release notes.<p><xref keyref="ntap-doccenters-sfe-113" /></p></dd>
+          </dlentry>
+          <dlentry id="GUID-4973A11C-89B2-4985-A00E-D87FF834B401">
+            <dt>
+              <xref href="https://kb.netapp.com/app/answers/answer_view/a_id/1000941/loc/en_US" format="https" scope="external">NetApp SolidFire Element Known Issues</xref>
+            </dt>
+            <dd>Provides a list of known issues in the current and earlier versions of <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software.</dd>
+          </dlentry>
+          <dlentry id="GUID-FE48EC44-AC31-45E2-A17F-682CE029E0A5">
+            <dt>
+              <xref href="https://kb.netapp.com/app/answers/answer_view/a_id/1000933" format="https" scope="external">NetApp SolidFire Element  Resolved Issues</xref>
+            </dt>
+            <dd>Provides a list of resolved issues in the current and earlier versions of <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software.</dd>
+          </dlentry>
+        </dl>
+      </p>
+    </section>
+  </refbody>
+</reference>

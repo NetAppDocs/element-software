@@ -1,0 +1,135 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-D6064A39-811C-4697-A453-6160D2EC46D9" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetBootstrapConfig</title>
+  <shortdesc>You can use the <apiname>GetBootstrapConfig</apiname> method to get cluster and node information from the bootstrap configuration file.  Use this API method on an individual node before it has been joined with a cluster. The information this method returns is used in the cluster configuration interface when you create a cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>getting</keyword>
+        <keyword>bootstrap</keyword>
+        <keyword>information</keyword>
+        <keyword>node</keyword>
+        <keyword>GetBootstrapConfig</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_5FDA59FBD6494362B4FEAB7754574A08">
+      <title id="GUID-7ADFB091-8720-4647-BC9E-B921EA6418D2">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="2.19*" />
+          <colspec colnum="3" colname="col3" colwidth="1.31*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">clusterName</entry>
+              <entry colname="col2">Name of the cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">mvip</entry>
+              <entry colname="col2">Cluster MVIP address. Empty if the node is not part of a cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeName</entry>
+              <entry colname="col2">Name of the node.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodes</entry>
+              <entry colname="col2">List of information  about each node that is actively waiting to join the cluster. Possible values:<ul id="UL_5B57B1B87D1A41B986E711583778B169"><li id="LI_62204899A4FB4A0D846E737FA6F65CCB"><option>chassisType</option>: (string) Hardware platform of the node.</li><li id="LI_B5E7312C6178402BBF95E12DD7A232DA"><option>cip</option>:   (string) Cluster IP address of the node.</li><li id="LI_EDFFC9EA23684C68B2E49AED34EFCAB8"><option>compatible</option>: (boolean) Indicates if the node is compatible with the node the API call was executed against.</li><li id="LI_537950135FA149A8A122F1F7FD96F88C"><option>hostname</option>: (string) Host name of the node.</li><li id="LI_3B749A868518480CABF893BEC927004A"><option>mip</option>: (string) The IPv4 management IP address of the node.</li><li id="LI_844B1CA9DFCA4EF183F094CE4455AB9F"><option>mipV6</option>: (string) The IPv6 management IP address of the node.</li><li id="LI_22970EFECD344267954D369DD7FCDA2D"><option>nodeType</option>: (string)Model name of the node.</li><li id="LI_C4FD52411F6F444192C128B0694154B7"><option>version</option>: (string)Version of  software currently installed on the node.</li></ul></entry>
+              <entry colname="col3">JSON object array</entry>
+            </row>
+            <row>
+              <entry colname="col1">svip</entry>
+              <entry colname="col2">Cluster SVIP address. Null if the node is not part of a cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">version</entry>
+              <entry colname="col2">Version of  <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software currently installed on the node that was called by this API method.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "GetBootstrapConfig",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+	"id":1,
+	"result":{
+		"clusterName":"testname",
+		"nodeName":"testnode",
+		"svip": "10.117.1.5",
+		"mvip": "10.117.1.6",
+		"nodes":[
+			{
+				"chassisType":"R630",
+				"cip":"10.117.115.16",
+				"compatible":true,
+				"hostname":"NLABP1132",
+				"mip":"10.117.114.16",
+				"mipV6":"fd20:8b1e:b256:45a::16",
+				"nodeType":"SF2405",
+				"role":"Storage",
+				"version":"11.0"
+			},
+			{
+				"chassisType":"R630",
+				"cip":"10.117.115.17",
+				"compatible":true,
+				"hostname":"NLABP1133",
+				"mip":"10.117.114.17",
+				"mipV6":"fd20:8b1e:b256:45a::17",
+				"nodeType":"SF2405",
+				"role":"Storage",
+				"version":"11.0"
+			},
+			{
+				"chassisType":"R630",
+				"cip":"10.117.115.18",
+				"compatible":true,
+				"hostname":"NLABP1134",
+				"mip":"10.117.114.18",
+				"mipV6":"fd20:8b1e:b256:45a::18",
+				"nodeType":"SF2405",
+				"role":"Storage",
+				"version":"11.0"
+			}
+		],
+		"version":"11.0"
+	}
+}</codeblock>
+    </section>
+    <section id="GUID-FF6DD87C-A364-455F-88EC-7D3106E6855B">
+      <title id="GUID-CA2482D0-7161-4910-A79B-B9C1CE02C355">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

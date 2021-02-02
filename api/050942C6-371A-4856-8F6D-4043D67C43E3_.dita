@@ -1,0 +1,79 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-050942C6-371A-4856-8F6D-4043D67C43E3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">RemoveClusterAdmin</title>
+  <shortdesc>You can use the <apiname>RemoveClusterAdmin</apiname> method to remove a cluster admin, an LDAP cluster admin, or a third-party Identity Provider (IdP) cluster admin. You cannot remove the "admin" Cluster Admin account.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>admin</keyword>
+        <keyword>remove</keyword>
+        <keyword>removing</keyword>
+        <keyword>removeclusteradmin</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_B5F56F6334AB4B7C944DE83AA1F8DE2A">
+      <p>When an IdP cluster admin is removed that has authenticated sessions associated with a third-party Identity Provider IdP, those sessions will either logout or possibly experience a loss of access rights within their current session. The access rights loss will depend on whether the removed IdP cluster admin matched one of multiple IdP cluster admins from a given user’s SAML attributes. The remaining set of matching IdP cluster admins results in a reduced set of aggregate access rights. Other cluster admin user types are logged out when their cluster admins are removed.</p>
+      <title id="GUID-1AD63595-A115-45C0-B9B5-016F0D6E77A2">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2*" />
+          <colspec colnum="2" colname="col2" colwidth="1.5*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <colspec colnum="4" colname="col4" colwidth="*" />
+          <colspec colname="col5" colnum="5" colwidth="1.25*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value</entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>clusterAdminID</parmname>
+              </entry>
+              <entry colname="col2">ClusterAdminID for the Cluster Admin to remove.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has no return values.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "RemoveClusterAdmin",
+   "params": {
+     "clusterAdminID"  : 2
+   },
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+ "id" : 1
+ "result" : { }  
+}</codeblock>
+    </section>
+    <section id="GUID-DD4D72B7-EAF4-4AAA-8140-52E65AC73A3F">
+      <title id="GUID-D67EE48F-3F79-4755-B4AF-344C4E6A9037">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

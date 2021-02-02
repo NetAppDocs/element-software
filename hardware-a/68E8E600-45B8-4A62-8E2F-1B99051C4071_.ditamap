@@ -1,0 +1,55 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-68E8E600-45B8-4A62-8E2F-1B99051C4071" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5621EFDC-9B2F-406B-AF9C-5189457C723C">LNK: SolidFire chassis replacement flyer</title>
+  <mapref format="ditamap" href="3545CCF9-919C-47C7-8E79-D2DC324FA88A_.ditamap" navtitle="Key collection - IE standard key definitions">
+    <topicmeta>
+      <navtitle>Key collection: IE standard key definitions</navtitle>
+    </topicmeta>
+  </mapref>
+  <reltable toc="no" id="RELTABLE_5368C49F1BCB44A5AB3230AB65BBFFAC">
+    <relheader>
+      <relcolspec linking="sourceonly" />
+      <relcolspec linking="targetonly" />
+    </relheader>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+  </reltable>
+</map>

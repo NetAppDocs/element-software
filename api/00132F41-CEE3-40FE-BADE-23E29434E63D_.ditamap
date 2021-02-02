@@ -1,0 +1,94 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-00132F41-CEE3-40FE-BADE-23E29434E63D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-579B4E3F-5B99-462F-9F88-CE559331DF7A">Mini CM: Element OS API RG: Volume snapshot methods</title>
+  <topicref href="CDC5C37E-E98C-44B1-A329-68C001471C05_.dita" format="dita" navtitle="SolidFire Element API RG: Security API methods">
+    <topicmeta>
+      <navtitle>SolidFire Element API RG: Security API methods</navtitle>
+    </topicmeta>
+    <topicref href="D014C5B0-6E41-4FA4-8E78-8C7AB4BC76F6_.dita" format="dita" navtitle="SolidFire Element API RG: AddKeyServerToProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: AddKeyServerToProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2D8F174F-3829-40D7-A985-C8D015249578_.dita" format="dita" navtitle="SolidFire Element API RG: CreateKeyProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CreateKeyProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="AF4E3E38-909A-4749-AB03-E8C34B90191B_.dita" format="dita" navtitle="SolidFire Element API RG: CreateKeyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CreateKeyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="420619CB-87E5-4B0E-94FC-F692B468C0FC_.dita" format="dita" navtitle="SolidFire Element API RG: CreatePublicPrivateKeyPair">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CreatePublicPrivateKeyPair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B6EBBE6B-23B7-42BE-9B27-C769912860FC_.dita" format="dita" navtitle="SolidFire Element API RG: DeleteKeyProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DeleteKeyProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="40E8D088-D93A-4066-9ED0-9D257F2241FB_.dita" format="dita" navtitle="SolidFire Element API RG: DeleteKeyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DeleteKeyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E667D925-E180-47EA-B55A-C84BDA24AC85_.dita" navtitle="DisableEncryptionAtRest">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="ED4ED1B8-DB44-4320-8F4E-A81010277586_.dita" navtitle="EnableEncryptionAtRest">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="FD0E5005-40FF-4F3C-A5B9-9B6041E98804_.dita" format="dita" navtitle="SolidFire Element API RG: GetClientCertificateSignRequest">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetClientCertificateSignRequest</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DABED164-3105-423A-817A-4685B3E362E4_.dita" format="dita" navtitle="SolidFire Element API RG: GetKeyProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetKeyProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B474E4EA-6F32-48AC-A099-ED1A0DC79C96_.dita" format="dita" navtitle="SolidFire Element API RG: GetKeyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetKeyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E17F1ADA-33A1-4195-B8D5-480D43393EBA_.dita" format="dita" navtitle="SolidFire Element API RG: ListKeyProvidersKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListKeyProvidersKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DCE6FF96-0023-40BF-AA19-D4520D012902_.dita" format="dita" navtitle="SolidFire Element API RG: ListKeyServersKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListKeyServersKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="466A7CAC-20E3-4944-9994-56DDC4D61E2F_.dita" format="dita" navtitle="SolidFire Element API RG: ModifyKeyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ModifyKeyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F08AE853-FAB1-46F0-B66D-0AA96A0FC786_.dita" format="dita" navtitle="SolidFire Element API RG: RemoveKeyServerFromProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: RemoveKeyServerFromProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="5191BFCB-F147-40BA-93C2-E53E09BEC748_.dita" format="dita" navtitle="SolidFire Element API RG: TestKeyProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: TestKeyProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2E9E0467-6731-4713-A4AE-6DA57C9F1A3A_.dita" format="dita" navtitle="SolidFire Element API RG: TestKeyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: TestKeyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

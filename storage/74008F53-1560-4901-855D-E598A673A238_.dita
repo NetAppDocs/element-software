@@ -1,0 +1,39 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-74008F53-1560-4901-855D-E598A673A238" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-578A5933-FCE1-4A0A-8710-E3A60A804CFD">Add SnapMirror labels to snapshots</title>
+  <shortdesc>SnapMirror labels specify the snapshot retention policy on the SnapMirror endpoint. You can add labels to snapshots and group snapshots.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapmirror labels</keyword>
+        <indexterm>SnapMirror<indexterm>adding labels to snaphots</indexterm></indexterm>
+        <indexterm>SnapMirror labels<indexterm>adding to snapshots</indexterm><indexterm>specifying retention policies</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="PREREQ_8F82833F633442A78441C9CC3ED29807">
+      <p>
+        <ul id="UL_1FC1DA370C6645FC89BB3614F3547D27">
+          <li id="LI_18684792E10B4EC18A1B164C8EAEECB8">SnapMirror is enabled on the cluster.</li>
+          <li id="LI_7C63561D778A42729054A6A08117A3F8">The label you want to add already exists in ONTAP.</li>
+        </ul>
+      </p>
+    </prereq>
+    <context id="GUID-A594D39E-5F42-4CD1-9702-6939B23F4E45">You can view available labels from an existing SnapMirror relationship dialog box or the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ONC-SYSMGR">ONTAP System Manager</ph>.<note type="attention" id="GUID-4C5C5BBC-005C-4656-A653-23BCD49D68B5">When adding a label to a group snapshot, any existing labels to individual snapshots are overwritten.</note></context>
+    <steps id="GUID-87AD79D7-AB84-40CE-937C-69C2561C11DD">
+      <step id="STEP_FD3F87A2479941EF8A80486068993AAB">
+        <cmd>Click <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Snapshots</uicontrol></menucascade> or <uicontrol>Group Snapshots</uicontrol> page.</cmd>
+      </step>
+      <step id="STEP_901ACF9EE8674F188FC4F5393EEEC360">
+        <cmd>Click the Actions icon for the snapshot or group snapshot you want to add a SnapMirror label to.</cmd>
+      </step>
+      <step id="STEP_9E3FB00660E944BF8674846045AE6B8E">
+        <cmd>In the <uicontrol>Edit Snapshot </uicontrol> dialog box, enter text in the <uicontrol>SnapMirror Label</uicontrol> field. The label must match a rule label in the policy applied to the SnapMirror relationship.</cmd>
+      </step>
+      <step id="STEP_200F207AEAA5401FB980F928758193E8">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-AB17455F-BC34-402F-8A51-BD9613CF55B2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-84D91D99-4CA9-4036-A0B4-8CCA4C167932">LNK Support: Installation and setup guide</title>
+  <keydef keys="sfe-isg" processing-role="resource-only" />
+  <mapref href="20BD1071-0E23-49A5-8863-AC961037E760_.ditamap" format="ditamap" />
+  <mapref format="ditamap" href="3545CCF9-919C-47C7-8E79-D2DC324FA88A_.ditamap" navtitle="Key collection - IE standard key definitions">
+    <topicmeta>
+      <navtitle>Key collection: IE standard key definitions</navtitle>
+    </topicmeta>
+  </mapref>
+  <reltable toc="no" id="RELTABLE_06B69BF7D043454893B654608C61CCAE">
+    <relheader>
+      <relcolspec linking="sourceonly" />
+      <relcolspec linking="targetonly" />
+    </relheader>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+  </reltable>
+</map>

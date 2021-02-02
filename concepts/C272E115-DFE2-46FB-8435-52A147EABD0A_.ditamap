@@ -1,0 +1,14 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-C272E115-DFE2-46FB-8435-52A147EABD0A" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-C9888022-6428-42B2-9B96-BB8CCF410202">SolidFire Concepts: Submap: HCI Cloud concepts</title>
+  <topicref href="5E78F6A3-C550-4323-A218-7F9BC68DA7C5_.dita" navtitle="SolidFire Concepts: HCI cloud concepts">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="063AB560-8944-4154-B4F6-840B4BFDA313_.dita" navtitle="SolidFire Concepts: Cloud products">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

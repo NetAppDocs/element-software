@@ -1,0 +1,61 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-91B3381A-4843-4AD5-8657-B56FBAF740DC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A55F733F-58FD-48AD-B968-CFEB969E881C">Prepare to replace H410S node in the cluster</title>
+  <shortdesc>You must remove the failed storage node correctly from the cluster in the NetApp Element software UI before you install the replacement node. You can do this without causing any service interruption. You must obtain the serial number of the failed storage node from the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI and match it with the serial number on the sticker at the back of the node. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-9F113FD5-3A2B-42A0-BCF7-4A2AAA58F44F" />
+    <steps id="STEPS_B49E00A3F1A54288A84DB60BB77F3E9B">
+      <step id="STEP_F4E66B448A23416C98F956CE890972B1">
+        <cmd>In the Element UI, select <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Drives</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_478D579BA5C64221B92DBAE51E3DA197">
+        <cmd>Remove the drives from the node  using one of the following methods:</cmd>
+        <choicetable keycol="0" id="CHOICETABLE_E373A06F8D2A43329409FA1BB8012F8A">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>Steps</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>To remove individual drives</choption>
+            <chdesc>
+              <ol id="OL_62E564B7822C4128BEFA847CAFEC865E">
+                <li id="LI_A0BDEA0480384C73A8FE473E3C4760E8">Click <uicontrol>Actions</uicontrol> for the drive you want to remove.</li>
+                <li id="LI_457314F3290A45F899505450776B04ED">Click <uicontrol>Remove</uicontrol>.</li>
+              </ol>
+            </chdesc>
+          </chrow>
+          <chrow>
+            <choption>To remove multiple drives</choption>
+            <chdesc>
+              <ol id="OL_0EF9EFE49AA84140A4C19CAE31C9841B">
+                <li id="LI_0B47D4D3499E4EB0A4CDBC91FCCAA1D6">Select all the drives you want to remove, and click <uicontrol>Bulk Actions</uicontrol>. </li>
+                <li id="LI_A26CACB3C5FD43588A10722522B18B73">Click <uicontrol>Remove</uicontrol>.</li>
+              </ol>
+            </chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Nodes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step>
+        <cmd>Note the serial number (service tag) of the failed node. You will take the serial number you noted to your chassis and match it with the serial number on the sticker at the back of the node.</cmd>
+        <info />
+      </step>
+      <step>
+        <cmd>After you note the serial number, remove the node from the cluster as follows:</cmd>
+        <info>
+          <ol id="GUID-5C9C4FCF-7D58-4667-AB9E-F5A2FB458961">
+            <li>Click the <uicontrol>Actions</uicontrol> button for the node you want to remove.</li>
+            <li>Click <uicontrol>Remove</uicontrol>.</li>
+          </ol>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

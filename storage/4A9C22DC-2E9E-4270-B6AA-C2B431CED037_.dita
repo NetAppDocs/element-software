@@ -1,0 +1,90 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-4A9C22DC-2E9E-4270-B6AA-C2B431CED037" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B5F1401F-EE72-4CE3-8F24-98805696E99E">Pair volumes using a pairing key</title>
+  <shortdesc>If you do not have cluster admin credentials for a remote cluster, you can pair a volume with another volume on a remote cluster using a pairing key.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volumes<indexterm>pairing using a pairing key</indexterm></indexterm>
+        <indexterm>replication<indexterm>pairing volumes using a volume ID</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-021EE459-7D78-4167-B36B-AA2D5881DFC5">
+      <ul id="UL_3E1386C451A54897B7D72FDC9D4DB3AB">
+        <li id="LI_5002CAA1453042C493F476B52A729AD9">Ensure that the clusters containing the volumes are paired.</li>
+        <li id="LI_481F6E59BE2C422FBD0AEC08A41AB301">Ensure that there is a volume on the remote cluster to use for the pairing.<note id="GUID-6F057B3B-F4D9-4EEB-B033-D2DBCDE72C4A">You can assign a replication source and target after the pairing process. A replication source or target can be either volume in a volume pair. You should create a target volume that contains no data and has the exact characteristics of the source volume, such as size,  block size setting for the volumes (either 512e or 4k), and QoS configuration. If you assign an existing volume as the replication target, the data on that volume will be overwritten. The target volume can be greater or equal in size to the source volume, but it cannot be smaller.</note></li>
+      </ul>
+    </prereq>
+    <steps id="GUID-4E0025C2-73A3-4B7D-AFA3-1AA03633E92C">
+      <step id="STEP_F5AD9BA8955449318E0A824EA97C44CC">
+        <cmd>Select <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_9BFE83C36D2F4D67BCC51788407FDC14">
+        <cmd>Click Actions icon for the volume you want to pair.</cmd>
+      </step>
+      <step id="STEP_B041215F164A4645A1D181841D7F9962">
+        <cmd>Click <uicontrol>Pair</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_36F5013D722C44139E4C836927449689">
+        <cmd>In the <uicontrol>Pair Volume</uicontrol> dialog box, select <uicontrol>Start Pairing</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_47611D204FF344DD94BD4DAA95C9E11C">
+        <cmd>Select <uicontrol>I Do Not</uicontrol> to indicate that you do not have access to the remote cluster.</cmd>
+      </step>
+      <step id="STEP_D49F9422E9544D85AE737FDBE260F065">
+        <cmd>Select a <uicontrol>Replication Mode</uicontrol> from the list:</cmd>
+        <info>
+          <ul id="UL_5A18F6F1E9C04618B20EA230E6B42D72">
+            <li id="LI_810EAAE5A0A74C84AEC29C9AEF907CDF">
+              <uicontrol>Real-time (Asynchronous)</uicontrol>: Writes are acknowledged to the client after they are committed on the source cluster.</li>
+            <li id="LI_98B630EB94DB4631BFCFE7CA1C2D42ED">
+              <uicontrol>Real-time (Synchronous)</uicontrol>: Writes are acknowledged to the client after they are committed on both the source and target clusters.</li>
+            <li id="LI_4F477A5A6E9C4A98AB48965A51D5C743">
+              <uicontrol>Snapshots Only</uicontrol>: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.</li>
+          </ul>
+        </info>
+      </step>
+      <step id="STEP_65C9B0B679C949CC953E904EF79783ED">
+        <cmd>Click <uicontrol>Generate Key</uicontrol>.</cmd>
+        <info>
+          <note id="GUID-308C787B-BEE7-4B86-B9CE-D37EEC99708D">This action generates a text key for pairing and creates an unconfigured volume pair on the local cluster. If you do not complete the procedure, you will need to manually delete the volume pair.</note>
+        </info>
+      </step>
+      <step id="STEP_90FF3DC576014D0EBAB6131528346678">
+        <cmd>Copy the pairing key to your computer's clipboard.</cmd>
+      </step>
+      <step id="STEP_2C91953272454BB499F3234838B9EE73">
+        <cmd> 	 	 	Make the pairing key accessible to the cluster admin at the remote cluster site.</cmd>
+        <info>
+          <note id="GUID-FBEE4734-B9EC-425C-824C-2FC223C7C24A">The volume pairing key should be treated in a secure manner and not used in a way that would allow accidental or unsecured access.</note>
+        </info>
+        <info>
+          <note type="attention" id="GUID-138D3828-8A7D-4E3B-A2F6-018543E671FE">Do not modify any of the characters in the pairing key. The key becomes invalid if it is modified.</note>
+        </info>
+      </step>
+      <step id="STEP_6EC5543D975C4F32BEF7019819C19CE6">
+        <cmd>In the remote cluster Element UI, select <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_A63BBE2F3B78412BB399971082CF2334">
+        <cmd>Click the Actions icon for the volume you want to pair.</cmd>
+      </step>
+      <step id="STEP_76AA1B68FB54481985B694049C9C8160">
+        <cmd>Click <uicontrol>Pair</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_138A2F6EF4AB435B9A0E941E12D7485F">
+        <cmd>In the <uicontrol>Pair Volume</uicontrol> dialog box, select <uicontrol>Complete Pairing</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_50312255CC854D1A96D9FA407B464EF4">
+        <cmd>Paste the pairing key from the other cluster into the <uicontrol>Pairing Key</uicontrol> box.</cmd>
+      </step>
+      <step id="STEP_9867BF09DD00415FAE78FC6357F31E04">
+        <cmd>Click <uicontrol>Complete Pairing</uicontrol>.</cmd>
+        <info>
+          <p>After you confirm the pairing, the two clusters begin the process of connecting the volumes for pairing.  During the pairing process, you can see messages in the <uicontrol>Volume Status</uicontrol> column of the <uicontrol>Volume Pairs</uicontrol> window. The volume pair displays <codeph>PausedMisconfigured</codeph> until the volume pair source and target are assigned.</p>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

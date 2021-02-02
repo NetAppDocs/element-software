@@ -1,0 +1,89 @@
+﻿<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/bookmap/dtd/bookmap.dtd">
+<bookmap id="GUID-2FC3F8CD-5B19-4D9F-8E07-2E00F400AC5D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <booktitle id="GUID-35217111-09AB-4625-9AF1-F6DECB96D409">
+    <booklibrary />
+    <mainbooktitle>
+      <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-MAINBOOKTITLE">Replacing a power supply unit in a SolidFire chassis</ph>
+    </mainbooktitle>
+    <booktitlealt outputclass="subtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-SUBTITLE" />
+    </booktitlealt>
+    <booktitlealt outputclass="eclipsetitle">
+      <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-ECLIPSETITLE">Replacing a power supply unit</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="runningtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-RUNNINGTITLE">Replacing a power supply unit in a SolidFire chassis</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="coverstamp">
+      <ph conref="ISH_variables.dita#variables/CMN-COVERSTAMP" />
+    </booktitlealt>
+    <booktitlealt outputclass="pagestamp">
+      <ph conref="ISH_variables.dita#variables/CMN-PAGESTAMP" />
+    </booktitlealt>
+  </booktitle>
+  <bookmeta>
+    <shortdesc>
+      <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-SHORTDESC">Describes how to replace a failed power supply unit in a SolidFire chassis.</ph>
+    </shortdesc>
+    <author>
+      <keyword conref="ISH_variables.dita#variables/CMN-AUTHOR">NetApp Information Engineering</keyword>
+    </author>
+    <othermeta content="netapp-fancy" name="branding" />
+    <othermeta name="docsubtype" content="Hardware User Guide" />
+    <othermeta content="hw" name="doccategory" />
+    <bookid>
+      <bookpartno>
+        <keyword conref="ISH_variables.dita#variables/SFE-PSUREPL-BOOKPARTNO" translate="no">215-13321</keyword>
+        <keyword translate="no" conref="ISH_variables.dita#variables/CMN-EDMARKER-NUM">_2020-04</keyword>
+        <keyword translate="yes" conref="ISH_variables.dita#variables/CMN-LANGMARKER">_en-us</keyword>
+      </bookpartno>
+      <edition>
+        <keyword translate="yes" conref="ISH_variables.dita#variables/CMN-EDMARKER-TEXT">April 2020</keyword>
+      </edition>
+    </bookid>
+    <data name="publishing-hooks">
+      <data format="pdf" name="ecm-primary-asset">
+        <keyword conref="ISH_variables.dita#variables/SFE-PSUREPL-ECMID-PRI">Replacing a power supply unit</keyword>
+      </data>
+      <data format="epub" name="ecm-secondary-asset">
+        <ph conref="ISH_variables.dita#variables/SFE-PSUREPL-ECMID-SEC" />
+      </data>
+      <data name="doccenter-id">
+        <ph translate="no" conref="ISH_variables.dita#variables/CMN-DCID">sfe-120</ph>
+      </data>
+      <data name="plugin-id">
+        <keyword conref="ISH_variables.dita#variables/SFE-PSUREPL-PLUGINID">com.netapp.doc.sfe-psurepl</keyword>
+      </data>
+      <data name="prodinfo">
+        <ph translate="no" conref="ISH_variables.dita#variables/CMN-PRODINFO">
+          <data name="nss-product">NetApp Element 12.0</data>
+        </ph>
+      </data>
+      <data name="last-mod-override">
+        <keyword translate="no" conref="ISH_variables.dita#variables/SFE-PSUREPL-LASTMOD">2020-04-27</keyword>
+      </data>
+    </data>
+  </bookmeta>
+  <frontmatter otherprops="standalone-only">
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter format="ditamap" href="C1F69D21-7709-4D38-8A47-991CB163263B_.ditamap" navtitle="CM: SolidFire SSD replacement flyer">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </chapter>
+  <backmatter>
+    <mapref format="ditamap" href="9D2B5E6A-5903-4F16-BDF1-BCE601020BD7_.ditamap" navtitle="Legal information" otherprops="standalone-only">
+      <topicmeta>
+        <navtitle>Legal information</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref format="ditamap" href="6933864A-EC26-4C9F-9D6F-B310E206076D_.ditamap" navtitle="LNK: SolidFire chassis replacement flyer" processing-role="resource-only">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </mapref>
+  </backmatter>
+</bookmap>

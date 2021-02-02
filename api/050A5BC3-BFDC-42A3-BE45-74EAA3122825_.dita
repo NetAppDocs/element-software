@@ -1,0 +1,103 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-050A5BC3-BFDC-42A3-BE45-74EAA3122825" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">PurgeDeletedVolumes</title>
+  <shortdesc>You can use the <apiname>PurgeDeletedVolumes</apiname> method to immediately and permanently purge volumes that have been deleted; you can use this method to purge up to 500 volumes at one time. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>purge</keyword>
+        <keyword>purging</keyword>
+        <keyword>multiple</keyword>
+        <keyword>deleted</keyword>
+        <keyword>purgedeletedvolumes</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_E0D93443A54F40F2A51AACAD19370D51">
+      <p>You must delete volumes using <apiname>DeleteVolumes</apiname> before they can be purged. Volumes are purged automatically after a period of time, so usage of this method is not typically required.</p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_DF663FD2692D4B0E9711C63602ACBDFE">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.56*" />
+          <colspec colnum="2" colname="col2" colwidth="2.18*" />
+          <colspec colnum="3" colname="col3" colwidth="1.16*" />
+          <colspec colnum="4" colname="col4" colwidth="1.18*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeIDs</parmname>
+              </entry>
+              <entry colname="col2">A list of volumeIDs of volumes to be purged from the system.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>accountIDs</parmname>
+              </entry>
+              <entry colname="col2">A list of accountIDs. All of the volumes from all of the specified accounts are purged from the system.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeAccessGroupIDs</parmname>
+              </entry>
+              <entry colname="col2">A list of volumeAccessGroupIDs. All of the volumes from all of the specified volume access groups are purged from the system.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note id="GUID-3B1D8B4F-53E1-4FB9-B38A-021B8E0BE233">You can specify only one of the above parameters per method call. Specifying more than one, or none, results in an error.</note>
+    </section>
+    <section id="SECTION_B951BC9C8818445FADECE482F7A3960D">
+      <title id="GUID-F626A1E1-FE89-4149-A42A-97BA7B22E408">Return values</title>
+      <p>This method has no return values.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "PurgeDeletedVolumes",
+   "params": {
+      "accountIDs" : [1, 2, 3]
+   },
+   "id" : 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id" : 1,
+  "result": {}
+}</codeblock>
+    </section>
+    <section id="GUID-DC61D9FB-5D2B-48B2-A322-7D7F71E45F20">
+      <title id="GUID-E785F953-76AC-4189-B708-EB0664E955F9">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

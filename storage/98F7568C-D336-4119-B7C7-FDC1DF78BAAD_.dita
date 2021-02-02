@@ -1,0 +1,30 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-98F7568C-D336-4119-B7C7-FDC1DF78BAAD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-82A4092D-7F10-4E20-A5D4-77BCD7A4F1B0">Delete an account</title>
+  <shortdesc>You can delete an account when it is no longer needed.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>accounts<indexterm>deleting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-83907554-89AB-4987-919A-732FDF26A834">Delete and purge any volumes associated with the account before you delete the account.<note type="attention" id="GUID-AC4A8716-ABE9-4673-AFDA-826042BE403B">Persistent volumes that are associated with management services are assigned to a new account that is created during installation or upgrade. If you are using persistent volumes, do not modify or delete their associated account.</note></prereq>
+    <steps id="GUID-054A1AA3-4648-4288-B6D3-8E0889B805B4">
+      <step id="STEP_91C265A5C94D4128BF7AA8BC1F49A3D6">
+        <cmd>Select  <menucascade><uicontrol>Management</uicontrol><uicontrol>Accounts</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_E7777FEC3FEC43F2B02C0088E91C6463">
+        <cmd>Click the Actions icon for the account you want to delete.</cmd>
+      </step>
+      <step id="STEP_D2B08359A858444285E649050A4E60BE">
+        <cmd>In the resulting menu, select <uicontrol>Delete</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_4E480C74831D4800BA9521D68248A836">
+        <cmd>Confirm the action.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links />
+</task>

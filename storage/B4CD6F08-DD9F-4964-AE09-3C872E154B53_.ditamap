@@ -1,0 +1,46 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-B4CD6F08-DD9F-4964-AE09-3C872E154B53" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-35E3958E-129D-496B-9715-AFE1B8D07B27">SolidFire Element UG: Mini map: FIPS</title>
+  <topicref collection-type="sequence" outputclass="workflow" href="4645FF0D-3FCD-4440-91A9-A47F7BCC5C50_.dita">
+    <topicref href="A4322547-9038-4701-9696-62189445385C_.dita">
+      <topicmeta>
+        <navtitle>Avoiding mixing nodes for FIPS drives</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4F6E514C-109F-4027-968A-FA02DCE3B535_.dita">
+      <topicmeta>
+        <navtitle>Enabling encryption at rest</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="FA598222-5FFD-458F-9D5D-C246EC49BE5F_.dita">
+      <topicmeta>
+        <navtitle>Identifying whether nodes are ready for the FIPS drive feature</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="17BD44BD-E201-4D0F-9B51-416E4FFCFA53_.dita">
+      <topicmeta>
+        <navtitle>Enablilng FIPS drives</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4B572C11-05A6-45E9-8B54-8302B68D8312_.dita">
+      <topicmeta>
+        <navtitle>Checking the FIPS drive status</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F939922C-0D6A-4749-9BDD-2C3A7338A96C_.dita">
+      <topicmeta>
+        <navtitle>Troubleshooting the FIPS drives feature</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+  <topicref href="5CA0E6C4-A333-482D-A0C5-3DD498EC61DF_.dita" navtitle="Enabling FIPS 140-2 on your cluster">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="2C91ED92-7DAA-464E-A738-7389BF1214D7_.dita" navtitle="SSL ciphers">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,111 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-EE25FAAF-17A1-4EBF-811B-24E40D5595B8" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B539DE27-BC0A-43FC-8421-D1B7097961A1">LNK: Element OS SG Link support map</title>
+  <keydef keys="sfe-sg" processing-role="resource-only" />
+  <mapref href="8780D31B-5D67-4CBD-A510-F0535CA681D6_.ditamap" navtitle="Key collection - project - SolidFire" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="3545CCF9-919C-47C7-8E79-D2DC324FA88A_.ditamap" navtitle="Key collection - IE standard key definitions">
+    <topicmeta>
+      <navtitle>Key collection: IE standard key definitions</navtitle>
+    </topicmeta>
+  </mapref>
+  <reltable id="RELTABLE_998413B56F9A47C39A8F4B77BB02B4C1" toc="no">
+    <relheader>
+      <relcolspec linking="sourceonly" />
+      <relcolspec linking="targetonly" />
+    </relheader>
+    <relrow>
+      <relcell>
+        <topicref href="92277504-3696-4457-94DE-AB2FB2B6DD03_.dita" navtitle="Configuring a storage node">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+      <relcell>
+        <topicref href="3C5966CD-2EDE-43E2-BE78-6F2000888C6F_.dita" navtitle="Configuring the node using the TUI">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="3769D893-F94A-4E73-918F-E963970E4E99_.dita" navtitle="Configuring the node using the node UI">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="5D0AE0DE-68BF-4CA7-A1E9-3C18175959A9_.dita" navtitle="Creating a new cluster">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="63C6957D-C58F-4036-8865-EF9A20C1493A_.dita" navtitle="Node states">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref href="3C5966CD-2EDE-43E2-BE78-6F2000888C6F_.dita" navtitle="Configuring the node using the TUI">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+      <relcell>
+        <topicref href="5D0AE0DE-68BF-4CA7-A1E9-3C18175959A9_.dita" navtitle="Creating a new cluster">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell>
+        <topicref keyref="ntap-kba-1029989" />
+      </relcell>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref href="3769D893-F94A-4E73-918F-E963970E4E99_.dita" navtitle="Configuring the node using the node UI">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+      <relcell>
+        <topicref href="3C5966CD-2EDE-43E2-BE78-6F2000888C6F_.dita" navtitle="Configuring the node using the TUI">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+    <relrow>
+      <relcell>
+        <topicref href="E74A9E45-C8ED-46B4-925B-134B0A4F67F2_.dita" navtitle="Configuring a Fibre Channel node">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+      <relcell>
+        <topicref href="18CC0C99-3C7D-4235-AB8C-62999B46692F_.dita" navtitle="Adding Fibre Channel nodes to a cluster">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="684FD22E-8DA6-4F47-A56B-56C130D04706_.dita" navtitle="Creating a new cluster with Fibre Channel nodes">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>

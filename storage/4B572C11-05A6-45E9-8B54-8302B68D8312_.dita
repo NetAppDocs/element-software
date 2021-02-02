@@ -1,0 +1,33 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-4B572C11-05A6-45E9-8B54-8302B68D8312" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E3380007-E816-4EE7-8733-FA2A1512A7D6">Check the FIPS drive status</title>
+  <shortdesc>You can check whether the FIPS drives feature is enabled on the cluster by using the <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> GetFeatureStatus API method, which shows whether the FIPS Drives Enabled Status is true or false.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>fips</keyword>
+        <keyword>security</keyword>
+        <keyword>federal information processing standards</keyword>
+        <keyword>140-2</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-4CA0608F-8990-4463-926A-ACB8E80BADAB">
+      <step>
+        <cmd>Using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API, check the FIPS drives feature on the cluster by entering:  </cmd>
+        <info>
+          <userinput outputclass="linebreak">GetFeatureStatus</userinput>
+        </info>
+      </step>
+      <step>
+        <cmd>Review the results of the <cmdname>GetFeatureStatus</cmdname> API call. If the FIPS Drives <parmname>enabled</parmname> value is True, the FIPS drives feature is enabled. </cmd>
+        <stepxmp>
+          <codeblock xml:space="preserve">{"enabled": true,
+"feature": "FipsDrives" 
+}</codeblock>
+        </stepxmp>
+      </step>
+    </steps>
+  </taskbody>
+</task>

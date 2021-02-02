@@ -1,0 +1,58 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-C4F63296-8428-4034-B091-19AC15A02C80" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-71C5100F-13F1-4A5F-B250-0352ADCFD90F">Configure Network Time Protocol servers for
+                the cluster to query</title>
+  <shortdesc> You can instruct each node in a cluster to query a Network Time Protocol
+                (NTP) server for updates. The cluster contacts only configured servers and requests
+                NTP information from them.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>broadcast client<indexterm>enabling</indexterm></indexterm>
+        <indexterm>network time protocol</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-9B45E0F8-58CF-4A1B-BE0B-E6BE40CC4259">
+      <p>You must have cluster administrator privileges to configure
+                                this setting.</p>
+    </prereq>
+    <context id="CONTEXT_9595DEEA9F344D1C9EE2B22464EB3B20">
+      <p>Configure NTP on the cluster to point to a local NTP server. You can use
+                                the IP address or the FQDN host name. The default NTP server at
+                                cluster creation time is set to us.pool.ntp.org; however, a
+                                connection to this site cannot always be made depending on the
+                                physical location of the SolidFire cluster.</p>
+      <p>Using the FQDN depends on whether the individual storage node’s DNS
+                                settings are in place and operational. To do so, configure the DNS
+                                servers on every storage node and ensure that the ports are open by
+                                reviewing the Network Port Requirements page. </p>
+      <p>You can enter up to five different NTP
+servers.
+</p>
+      <note id="GUID-EC24C0BE-41E4-4098-B0AD-7946E5F95B63">You can use both IPv4 and IPv6 addresses.
+</note>
+    </context>
+    <steps id="GUID-EE9EF1CF-6407-4214-8FE9-655258BD4FAC">
+      <step>
+        <cmd>Configure a list of IPs and/or FQDNs in the server settings.
+                                </cmd>
+      </step>
+      <step>
+        <cmd>Ensure that the DNS is set properly on the nodes. </cmd>
+      </step>
+      <step id="STEP_FE160DD072084531BABB1C8B1B1E5CE7">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Settings</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_B745A38EB73242BAA08F56C61D8E1C3D">
+        <cmd>Under Network Time Protocol Settings, select
+                                                <uicontrol>No</uicontrol>, which uses the standard
+                                        NTP configuration. </cmd>
+      </step>
+      <step id="STEP_82F4AC3A8089472B9D5249E4302F068B">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

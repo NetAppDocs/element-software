@@ -1,0 +1,101 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-E713FF14-FCC7-4861-9B5F-3DFEE53AF785" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">Shutdown</title>
+  <shortdesc>You can use the <apiname>Shutdown</apiname> method to restart or shutdown the nodes in a cluster. You can shut down a single node, multiple nodes, or all of the nodes in the cluster using this method.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>shutdown</keyword>
+        <keyword>node</keyword>
+        <keyword>shutting</keyword>
+        <keyword>down</keyword>
+        <keyword>shut</keyword>
+        <keyword>restart</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.5*" />
+          <colspec colnum="2" colname="col2" colwidth="2*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <colspec colnum="4" colname="col4" colwidth="*" />
+          <colspec colname="col5" colnum="5" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>nodes</parmname>
+              </entry>
+              <entry colname="col2">List of NodeIDs for the nodes to be restarted or shut down.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>option</parmname>
+              </entry>
+              <entry colname="col2">Action to take for the cluster. Possible values:<ul id="UL_C733FED4F21F45A1A18F9295B2EF407F"><li id="LI_B4A4D49092F44322B61F354DD81AB4C7"><option>restart</option>: Restarts the cluster.</li><li id="LI_3C0D4B8531DB43D39AF5FB26BA314C14"><option>halt</option>: Performs a full power-off.</li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">
+                <option>restart</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has no return value.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "Shutdown",
+   "params": {
+     "nodes": [
+       2,
+       3,
+       4
+     ],
+     "option": "halt"
+   },
+   "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{ 
+  "id" : 1, 
+  "result" : {
+     "failed": [],
+     "successful": [
+          6
+      [
+   } 
+}</codeblock>
+    </section>
+    <section id="GUID-021077CB-3B09-4022-B75A-E9E8486CB7FF">
+      <title id="GUID-FAD057EC-BFAC-4B8B-8558-D9CE1828C37E">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

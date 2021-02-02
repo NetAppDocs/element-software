@@ -1,0 +1,134 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-063DEC26-A63F-4897-8E60-1D9CD8144007" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-DEB85593-AE9B-486D-B3F5-5E010AFA5319">Create a SnapMirror relationship</title>
+  <shortdesc>You must create a SnapMirror relationship in the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SnapMirror relationships<indexterm>creating</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-099EA5C3-BC27-41ED-A077-AD01AB8B956A">SnapMirror is enabled on the volume.<note id="GUID-6175FDC9-31CD-4EB4-99B9-F23B4577155B">When a volume is not yet enabled for SnapMirror and you select to create a relationship from the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI, SnapMirror is automatically enabled on that volume.</note></prereq>
+    <steps id="GUID-A4266249-84CB-4A3F-B1DF-AD027CDDD1BD">
+      <step id="STEP_3265D5FB8C014CCEAE6C4CB5D3D29CC5">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_70F2C471CA324002830CF7F9A875EB81">
+        <cmd>Click the Actions icon for the volume that is to be a part of the relationship.</cmd>
+      </step>
+      <step id="STEP_68C76BA6FBD442339027462E612623A5">
+        <cmd>Click <uicontrol>Create a SnapMirror Relationship</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_F4C5D20F0CCD4996A884ACBCFE33036E">
+        <cmd>In the <uicontrol>Create a SnapMirror Relationship</uicontrol> dialog box, select an endpoint from the <uicontrol>Endpoint</uicontrol> list.</cmd>
+      </step>
+      <step id="STEP_4C10DD890B37457C8603E4A343912F96">
+        <cmd>Select if the relationship will be created using a new ONTAP volume or an existing ONTAP volume.</cmd>
+      </step>
+      <step id="STEP_A2095F2936EB4A1BA550998323C94E80">
+        <cmd>To create a new ONTAP volume in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI, click <uicontrol>Create new volume</uicontrol>.</cmd>
+        <info>
+          <ol id="OL_51ED5411A12A4CA8960A82F22EAE6B44">
+            <li id="LI_B6CEED17FA9D47E0BC1F2901310028D2">Select the <uicontrol>Storage Virtual Machine</uicontrol> for this relationship.</li>
+            <li id="LI_C0D9B5923F024EE8A87FE968FB478D09">Select the <uicontrol>Aggregate</uicontrol> from the drop-down list.</li>
+            <li id="LI_4EC8F27FC3DE4EF7A1A60F5175BE9609">In the <uicontrol>Volume Name Suffix</uicontrol> field, enter a suffix.<note id="GUID-A52219ED-76B0-4F2D-9A61-2B0E8DA259B8">The system detects the source volume name and copies it to the <uicontrol>Volume Name</uicontrol> field. The suffix you enter appends the name.</note></li>
+            <li id="LI_76135CA5B3B342298A2EB7A7CC048948">Click <uicontrol>Create Destination Volume</uicontrol>.</li>
+          </ol>
+        </info>
+      </step>
+      <step id="STEP_96E5C2F0EB0D461A8EE76A484C400DE3">
+        <cmd>To use an existing ONTAP volume, click <uicontrol>Use existing volume</uicontrol>.</cmd>
+        <info>
+          <ol id="OL_27D38C6D4B5F4BD0A4574670CD67BE80">
+            <li id="LI_7323458E737C42008A750A0CC0A2AA3F">Select the <uicontrol>Storage Virtual Machine</uicontrol> for this relationship.</li>
+            <li id="LI_88E6DAA7F9094E9A8328DD9FE4764082">Select the volume that is the destination for this new relationship.</li>
+          </ol>
+        </info>
+      </step>
+      <step id="STEP_92D368432EBE4C519F00E52E32639549">
+        <cmd>In the <uicontrol>Relationship Details</uicontrol> section, select a policy. If the selected policy has keep rules, the Rules table displays the rules and associated labels.</cmd>
+      </step>
+      <step importance="optional" id="STEP_1E349E6412CD4AA8BAD502846A3FA6CB">
+        <cmd>Select a schedule.</cmd>
+        <info>This determines how often the relationship creates copies.</info>
+      </step>
+      <step importance="optional" id="STEP_CE863FA913584E378A8DAC93F7C53966">
+        <cmd>In the <uicontrol>Limit Bandwidth to</uicontrol> field, enter the maximum amount of bandwidth that can be consumed by data transfers associated with this relationship.</cmd>
+      </step>
+      <step>
+        <cmd>Review additional details: </cmd>
+        <info>
+          <dl>
+            <dlentry id="GUID-E7289F8F-0715-49C2-BC3D-785B4CCE7D4C">
+              <dt>State</dt>
+              <dd>
+                <p> Current relationship state of the destination
+                                    volume. Possible values are:<ul id="UL_75242748000B43FEA0ABB6A38816107C"><li id="LI_FBF1FE7B22F44904907090CAEF4647F3">uninitialized:
+                                            The destination volume has not been initialized.</li><li id="LI_369AA83596034D93859E16706EC6F3B7">snapmirrored:
+                                            The destination volume has been initialized and is ready
+                                            to receive SnapMirror updates.</li><li id="LI_49E387EE843B498492E17D71A4DD22A0">broken-off: The
+                                            destination volume is read/write and snapshots are
+                                            present.</li></ul></p>
+              </dd>
+            </dlentry>
+            <dlentry id="GUID-6DBDEF38-76C9-4ED6-A503-B5F0980EF12E">
+              <dt>Status</dt>
+              <dd>
+                <p>Current status of the relationship. Possible values
+                                    are idle, transferring, checking, quiescing, quiesced, queued,
+                                    preparing, finalizing, aborting, and breaking.</p>
+              </dd>
+            </dlentry>
+            <dlentry id="GUID-43515D02-B056-492B-A571-4766C11CC8C6">
+              <dt>Lag Time</dt>
+              <dd>The amount of time in seconds that the destination
+                                system lags behind the source system. The lag time must be no more
+                                than the transfer schedule interval.</dd>
+            </dlentry>
+            <dlentry id="GUID-435495D9-C5F2-4D68-BCAA-493B93E36D49">
+              <dt>Bandwidth Limit</dt>
+              <dd>The maximum amount of bandwidth that can be consumed by
+                                data transfers associated with this relationship.</dd>
+            </dlentry>
+            <dlentry id="GUID-717CA58B-0995-47E7-A9F3-BDDEB5828137">
+              <dt>Last Transferred</dt>
+              <dd>Timestamp of the last transferred snapshot. Click for
+                                further information.</dd>
+            </dlentry>
+            <dlentry id="GUID-6B340F3D-513C-4E8D-9B03-2F65CA6DD3BA">
+              <dt>Policy Name</dt>
+              <dd>The name of the ONTAP SnapMirror policy for the
+                                relationship.</dd>
+            </dlentry>
+            <dlentry id="GUID-90E779C9-B63D-412A-9CC6-EECE110D9BD9">
+              <dt>Policy Type</dt>
+              <dd>
+                <p>Type of ONTAP SnapMirror policy selected for the
+                                    relationship. Possible values are:<ul id="UL_13F102A4AFA043C4AD641B1287D458E4"><li id="LI_5412D308B5314C40A264F9372A455F89">async_mirror</li><li id="LI_56385DA69E73402898BFFC9056B6EFA3">mirror_vault</li></ul></p>
+              </dd>
+            </dlentry>
+            <dlentry id="GUID-47C4B455-DB75-441A-8CA0-251DF10B3946">
+              <dt>Schedule Name</dt>
+              <dd>Name of the pre-existing schedule on the ONTAP system
+                                selected for this relationship.</dd>
+            </dlentry>
+          </dl>
+        </info>
+      </step>
+      <step id="STEP_D400C4BE79F54129BBE6A12DDE56F01E">
+        <cmd>To not initialize at this time, ensure that the <uicontrol>Initialize</uicontrol> check box is not selected.</cmd>
+        <info>
+          <note id="GUID-DD5CABA9-9C41-48AA-89CA-0F9A5F5E8CD0">Initialization can be time-consuming. You might want to run this during off-peak hours. Initialization performs a baseline transfer; it makes a snapshot copy of the source volume, then transfers that copy and all the data blocks it references to the destination volume. You can initialize manually or use a schedule to start the initialization process (and subsequent updates) according to the schedule.</note>
+        </info>
+      </step>
+      <step id="STEP_3301CE644EB84AE482F062F6AA9AD3E8">
+        <cmd>Click <uicontrol>Create Relationship</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_805A0C7871164F87A24D91FF8E2B0FA1">
+        <cmd>Click <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>SnapMirror Relationships</uicontrol></menucascade> to view this new SnapMirror relationship.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

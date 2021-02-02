@@ -1,0 +1,12 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-5E78F6A3-C550-4323-A218-7F9BC68DA7C5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9CE0BE5F-C877-4AED-A8C4-BD58FA26E82B">
+    <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> cloud concepts</title>
+  <shortdesc>When working with cloud services on  <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph>, you might find it helpful to understand cloud terminology and  <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> cloud services. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

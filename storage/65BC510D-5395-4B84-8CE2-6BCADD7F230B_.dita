@@ -1,0 +1,45 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-65BC510D-5395-4B84-8CE2-6BCADD7F230B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9EEB74FB-7809-48A8-98A3-54C4BB417EB9">Change the mode of replication</title>
+  <shortdesc>You can edit volume pair properties to change the replication mode of the volume pair relationship.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume pairs<indexterm>editing</indexterm></indexterm>
+        <indexterm>paired volumes<indexterm>editing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-EA9B4B84-A6B4-4414-844C-2103F8D539E3">
+      <step id="STEP_377FBCF79F4E4DE08E7D7EA97E4909ED">
+        <cmd>Select <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Volume Pairs</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_180494946AB34A2BB88AEF71C9300E55">
+        <cmd>Click the Actions icon for the volume pair.</cmd>
+      </step>
+      <step id="STEP_DFAAB725B10C48D7A39A547BE1137215">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_7E08B7E98ED24BE986382C871D3A0780">
+        <cmd>In the <uicontrol>Edit Volume Pair</uicontrol> pane, select a new replication mode:</cmd>
+        <info>
+          <ul id="UL_3FFF125AAD154456A5A2C0C4B2B1CB58">
+            <li id="LI_117337AA07A1467EB06A78281B019D51">
+              <uicontrol>Real-time (Asynchronous)</uicontrol>: Writes are acknowledged to the client after they are committed on the source cluster.</li>
+            <li id="LI_F51F1479C9E94DC3B40669250A7AABAD">
+              <uicontrol>Real-time (Synchronous)</uicontrol>: Writes are acknowledged to the client after they are committed on both the source and target clusters.</li>
+            <li id="LI_4FF4247999ED4B94895B7A6780496A51">
+              <uicontrol>Snapshots Only</uicontrol>: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.</li>
+          </ul>
+        </info>
+        <info>
+          <note type="attention" id="GUID-138D3828-8A7D-4E3B-A2F6-018543E671FE">Changing the mode of replication changes the mode immediately. Be sure that you have coordinated  these changes at both sites.</note>
+        </info>
+      </step>
+      <step id="STEP_5BB1399A17AD4E749DA1EEB80D8AFE3F">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-015EBB4C-B591-4BD9-9F4E-2E654604B5BC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-957797DC-2166-444D-AF52-0953310AD041">Concept guide mini map: Management node (2.0)</title>
+  <topicref href="3B8189D5-40A7-4783-AB42-BD24D4E3E5F4_.dita" format="dita">
+    <topicmeta>
+      <navtitle>Management node (mNode) for Element software</navtitle>
+    </topicmeta>
+    <topicref href="66349A84-049A-4937-95EA-0F41C1823E84_.dita" format="dita">
+      <topicmeta>
+        <navtitle>Management services for SolidFire all-flash arrays</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="CC60B711-EFE2-4A58-A087-DEE0E052DBA1_.dita" format="dita">
+      <topicmeta>
+        <navtitle>Persistent volumes</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

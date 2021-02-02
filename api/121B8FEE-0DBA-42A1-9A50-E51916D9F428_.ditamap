@@ -1,0 +1,419 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-121B8FEE-0DBA-42A1-9A50-E51916D9F428" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1D9EA0D-FD71-42EB-A4F0-09D1AFBFED4D">Mini CM: Element OS API RG: Common objects</title>
+  <topicref href="5BEC2F81-3D25-4430-AF64-1A0746E8645C_.dita" navtitle="Common objects">
+    <topicmeta>
+      <navtitle>Common objects</navtitle>
+    </topicmeta>
+    <topicref href="82DE288D-086C-45D6-8B57-541CC0D197D9_.dita" navtitle="Account">
+      <topicmeta>
+        <navtitle>account</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3AD1993C-F735-49BD-9CA1-795611E4EB81_.dita" navtitle="authSessionInfo">
+      <topicmeta>
+        <navtitle>authSessionInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="90D50460-A9B5-4AAC-989A-31B4C6CE633A_.dita" navtitle="bulkVolumeJob">
+      <topicmeta>
+        <navtitle>bulkVolumeJob</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F54EBAE1-31AA-47AE-B9A1-7923462C25DD_.dita" navtitle="binding (virtual volumes)">
+      <topicmeta>
+        <navtitle>binding (VVols)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="5B1A2A55-7011-4EE1-9439-6BCC99BE829A_.dita" navtitle="certificateDetails">
+      <topicmeta>
+        <navtitle>certificateDetails</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="EE62880B-E120-4B13-AECE-6F01701D84A3_.dita" navtitle="cluster">
+      <topicmeta>
+        <navtitle>cluster</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="418E4F2C-DC78-4EDE-897E-4A6DBE7E3136_.dita" navtitle="clusterAdmin">
+      <topicmeta>
+        <navtitle>clusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="87DA1C5F-566B-4352-B261-16FE1C649140_.dita" navtitle="clusterCapacity">
+      <topicmeta>
+        <navtitle>clusterCapacity</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="65C01B06-AA84-495E-BFF7-F3417080C5B1_.dita" navtitle="clusterConfig">
+      <topicmeta>
+        <navtitle>clusterConfig</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="707E8557-E6B8-4407-8336-49B03318CCDB_.dita" navtitle="clusterInfo">
+      <topicmeta>
+        <navtitle>clusterInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E7A9638D-BB5C-4FEE-87B6-AC5F82224BCC_.dita" navtitle="clusterPair">
+      <topicmeta>
+        <navtitle>clusterPair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="648EA1C8-62A6-4B26-ACDA-BE13FA1FCEAC_.dita" navtitle="clusterStats">
+      <topicmeta>
+        <navtitle>clusterStats</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A3BF3960-E007-49AF-9415-8B59998E06D2_.dita" format="dita" navtitle="SolidFire Element API RG: clusterStructure">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: clusterStructure</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="17A7A3D9-BE48-40E8-85DB-A99E4788FB06_.dita" navtitle="drive">
+      <topicmeta>
+        <navtitle>drive</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4AF3B27D-47F1-4B45-ADD3-5108FE840D7C_.dita" navtitle="driveStats">
+      <topicmeta>
+        <navtitle>driveStats</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="852FB654-8C61-4C40-95DC-E4D13CD38B63_.dita" navtitle="error">
+      <topicmeta>
+        <navtitle>error</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DECC9605-5B3D-4B3E-BC60-8CAD5F1F71D4_.dita" navtitle="event">
+      <topicmeta>
+        <navtitle>event</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="1043A79A-26BC-4A5B-ABC1-6AA979395BB1_.dita" navtitle="fault">
+      <topicmeta>
+        <navtitle>fault</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9AC827C3-DD3D-4D46-AD2B-CE263D318935_.dita" navtitle="fibreChannelPort">
+      <topicmeta>
+        <navtitle>fibreChannelPort</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="31E15502-F2CD-470C-955A-3F44FF258053_.dita" format="dita" navtitle="SolidFire Element API RG: fipsErrorNodeReport">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: fipsErrorNodeReport</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="EC81749A-DE1B-424A-A2CC-6B930DFD7B53_.dita" format="dita" navtitle="SolidFire Element API RG: fipsNodeReport">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: fipsNodeReport</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0E72C9C3-7B69-4BBB-A6BB-35C0BE3C2171_.dita" format="dita" navtitle="SolidFire Element API RG: fipsReport">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: fipsReport</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D1B28CA8-8B72-43C0-9167-E8FC1622647E_.dita" navtitle="groupSnapshot">
+      <topicmeta>
+        <navtitle>groupSnapshot</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F1FD446E-998C-435C-B535-A8309578A51B_.dita" navtitle="hardwareInfo">
+      <topicmeta>
+        <navtitle>hardwareInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3DF45F87-C429-4237-A2DB-8BD95884CEAD_.dita" navtitle="host">
+      <topicmeta>
+        <navtitle>host</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B1C5CBC2-E8DC-4C04-B4D3-24A902A305AB_.dita" navtitle="idpConfigInfo">
+      <topicmeta>
+        <navtitle>idpConfigInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="367C88D1-A57C-471F-AFF8-80ED30505CE1_.dita" navtitle="initiator">
+      <topicmeta>
+        <navtitle>initiator</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A21261A1-F299-4B63-8D33-E5F1A1B69E71_.dita" format="dita" navtitle="SolidFire Element API RG: keyProviderKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: keyProviderKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7270F444-0FE6-4083-B744-AB9125845A00_.dita" format="dita" navtitle="SolidFire Element API RG: keyServerKmip">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: keyServerKmip</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DE815075-8717-4076-854C-A536A4AD9948_.dita" navtitle="ldapConfiguration">
+      <topicmeta>
+        <navtitle>ldapConfiguration</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="EF73EEE2-D01D-45CE-9EA7-8A23BC34459C_.dita" format="dita" navtitle="SolidFire Element API RG: loggingServer">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: loggingServer</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2D2820A8-46F0-42EC-8E3C-0FD461192F17_.dita" format="dita" navtitle="SolidFire Element API RG: network (bonded interfaces)">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: network (bonded interfaces)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DFA8061E-0AB3-46F9-BF01-A03180126073_.dita" format="dita" navtitle="SolidFire Element API RG: network (config)">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: network (config)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="FCEB5E3C-9EAB-4A24-A3B5-BCFBB3AAC0B2_.dita" format="dita" navtitle="SolidFire Element API RG: network (ethernet interfaces)">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: network (ethernet interfaces)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="ED73162E-154F-488F-B67D-604D820FF4D9_.dita" format="dita" navtitle="SolidFire Element API RG: network (local interfaces)">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: network (local interfaces)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B73842B5-B7BB-4CAF-8CD5-5B7697AA1A76_.dita" navtitle="network (SNMP)">
+      <topicmeta>
+        <navtitle>network (SNMP)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3C9C6A57-FA43-4C9C-821E-FDC41FEDFAED_.dita" format="dita" navtitle="SolidFire Element API RG: networkInterface">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: networkInterface</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="712A07DF-4D58-43F1-8979-72F2350DFF71_.dita" navtitle="node">
+      <topicmeta>
+        <navtitle>node</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B41956E9-C549-44A8-A85B-6AC0AF839953_.dita" navtitle="nodeProtectionDomains">
+      <topicmeta>
+        <navtitle>nodeProtectionDomains</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E79CE78F-B120-498E-AE8B-35BADA6BD627_.dita" navtitle="nodeStats">
+      <topicmeta>
+        <navtitle>nodeStats</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="1EE3C81D-A086-41E9-98F1-587FE3CFDF18_.dita" navtitle="ontapVersionInfo">
+      <topicmeta>
+        <navtitle>ontapVersionInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0D44548D-D6A2-48C5-850A-D5E6AE96E805_.dita" navtitle="pendingActiveNode">
+      <topicmeta>
+        <navtitle>pendingActiveNode</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="300B1EB7-8350-4A69-A285-5376D8FC6C04_.dita" navtitle="pendingNode">
+      <topicmeta>
+        <navtitle>pendingNode</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A0203EE1-6230-4344-8869-9CC98CD40186_.dita" format="dita" navtitle="protectionDomain">
+      <topicmeta>
+        <navtitle>protectionDomain</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="AD973DAB-428F-42FE-AE10-05C5A546612D_.dita" format="dita" navtitle="protectionDomainLevel">
+      <topicmeta>
+        <navtitle>protectionDomainLevel</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="657DCC84-DF5A-4149-B060-6BFCF8614F3E_.dita" format="dita" navtitle="protectionDomainResiliency">
+      <topicmeta>
+        <navtitle>protectionDomainResiliency</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D721824D-5C2A-427E-8F84-91C725670AB7_.dita" format="dita" navtitle="protectionDomainTolerance">
+      <topicmeta>
+        <navtitle>protectionDomainTolerance</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2223AC38-738B-46AE-95A4-F632E58A78D2_.dita" format="dita" navtitle="SolidFire Element API RG: protectionSchemeResiliency">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: protectionSchemeResiliency</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="030A40FD-22CC-4C4A-B7E0-66CF98B68477_.dita" format="dita" navtitle="SolidFire Element API RG: protectionSchemeTolerance">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: protectionSchemeTolerance</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="770D0070-BEEE-4649-B797-9970A6E26E15_.dita" navtitle="protocolEndpoint">
+      <topicmeta>
+        <navtitle>protocolEndpoint</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="C7889507-FDB8-4122-87C8-4454E242A381_.dita" navtitle="QoS">
+      <topicmeta>
+        <navtitle>QoS</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DA77C164-C43D-4D66-9419-1761B44BF84D_.dita" navtitle="QoSPolicy">
+      <topicmeta>
+        <navtitle>QoSPolicy</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="EDBC9E38-AAFB-4441-A5F1-86414706CC5A_.dita" format="dita" navtitle="SolidFire Element API RG: remoteClusterSnapshotStatus">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: remoteClusterSnapshotStatus</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="55B4CFE9-5B0C-4322-9B2A-AA40A95F7D9D_.dita" navtitle="schedule">
+      <topicmeta>
+        <navtitle>schedule</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8CA088EB-D99B-47A4-8A07-01713223C2C7_.dita" navtitle="session (Fibre Channel)">
+      <topicmeta>
+        <navtitle>session (Fibre Channel)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="146B70DD-8F69-4314-A584-AB52BC9B2561_.dita" navtitle="session (iSCSI)">
+      <topicmeta>
+        <navtitle>session (iSCSI)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3D91B9BA-8F67-4AA6-A0EF-8531652E22C5_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorAggregate">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorAggregate</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="807C6DAE-0232-4760-9530-F58D574FAC59_.dita" navtitle="snapMirrorClusterIdentity">
+      <topicmeta>
+        <navtitle>snapMirrorClusterIdentity</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F1AE9DA5-32BE-4F9B-A506-B28DE38BA579_.dita" navtitle="snapMirrorEndpoint">
+      <topicmeta>
+        <navtitle>snapMirrorEndpoint</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B8C75D05-5533-4215-BBE3-19395CA0B3D6_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorJobScheduleCronInfo">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorJobScheduleCronInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DA91E922-3494-4C3A-96F3-1BEF3EBC2D26_.dita" navtitle="snapMirrorLunInfo">
+      <topicmeta>
+        <navtitle>snapMirrorLunInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0D3D8341-271A-449C-A72B-5745A58F55E8_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorNetworkInterface">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorNetworkInterface</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2E1B22DC-E2A8-4BE1-B425-C5EDCACBE351_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorNode">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorNode</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="89262067-0606-4D30-8DDC-DFE6F47BEF07_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorPolicy">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorPolicy</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="515CFADB-FA47-41C8-822F-5FD437FC80D7_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorPolicyRule">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorPolicyRule</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0407240B-7ECA-4578-AF2D-0E86B5B7E5DB_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4AA24263-5C5F-4A7A-943B-A6CA9C698122_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorVolume">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorVolume</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0FB080D4-31B0-40E9-9364-E5329C936780_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorVolumeInfo">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorVolumeInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8BAFBDDF-244E-48E5-891B-C10CE60323E1_.dita" format="dita" navtitle="SolidFire Element API RG: snapMirrorVserver">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snapMirrorVserver</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="31B870DA-FD9A-43ED-AEF4-B238B9D8BC06_.dita" navtitle="snapMirrorVserverAggregateInfo">
+      <topicmeta>
+        <navtitle>snapMirrorVserverAggregateInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F1156F7F-5B4C-43A0-BEA6-321D13DD4F77_.dita" navtitle="snapshot">
+      <topicmeta>
+        <navtitle>snapshot</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9DE5A2E4-BC91-4257-BFF5-978AB73C9DEC_.dita" format="dita" navtitle="SolidFire Element API RG: snmpTrapRecipient">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: snmpTrapRecipient</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="210986D7-3338-404E-9989-29ECE6647496_.dita" navtitle="storageContainer">
+      <topicmeta>
+        <navtitle>storageContainer</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7F6E058B-88C5-4962-8D35-8244FF2C34D1_.dita" navtitle="syncJob">
+      <topicmeta>
+        <navtitle>syncJob</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="ABDDC443-4EC9-4681-8558-D211F4022BB3_.dita" navtitle="task (virtual volumes)">
+      <topicmeta>
+        <navtitle>task (virtual volumes)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="5060C701-37EF-49BD-B829-BA3D97B4C96A_.dita" navtitle="usmUser">
+      <topicmeta>
+        <navtitle>usmUser</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="AE6C0D33-B356-4138-A7D6-65972BE1A8BC_.dita" navtitle="virtualNetwork">
+      <topicmeta>
+        <navtitle>virtualNetwork</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="019FD2CE-5FEB-4489-85AE-859B62F88085_.dita" navtitle="virtualVolume">
+      <topicmeta>
+        <navtitle>virtualVolume</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2618DB75-6838-444A-905F-F9E2B8FDA803_.dita" navtitle="volume">
+      <topicmeta>
+        <navtitle>volume</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="983B6CF9-007D-4728-8EEA-934F45B236D6_.dita" navtitle="volumeAccessGroup">
+      <topicmeta>
+        <navtitle>volumeAccessGroup</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0EFA7076-7703-45BB-B628-636F175986F0_.dita" navtitle="volumePair">
+      <topicmeta>
+        <navtitle>volumePair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="233A6D4E-181E-4CB5-934C-A12493CC66E8_.dita" navtitle="volumeStats">
+      <topicmeta>
+        <navtitle>volumeStats</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

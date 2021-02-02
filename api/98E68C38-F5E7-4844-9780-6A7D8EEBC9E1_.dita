@@ -1,0 +1,15 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-98E68C38-F5E7-4844-9780-6A7D8EEBC9E1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Volume snapshot API methods</title>
+  <shortdesc>Element software volume snapshot API methods enable you to manage volume snapshots. You can create, modify, clone, and delete volume snapshots using the volume snapshot API methods.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>snapshot</keyword>
+        <keyword>API</keyword>
+        <keyword>method</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

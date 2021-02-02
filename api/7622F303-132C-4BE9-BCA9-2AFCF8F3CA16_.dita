@@ -1,0 +1,82 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-7622F303-132C-4BE9-BCA9-2AFCF8F3CA16" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetSnapMirrorClusterIdentity</title>
+  <shortdesc>The Element software web UI uses <apiname>GetSnapMirrorClusterIdentity</apiname> to get identity information about the ONTAP cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>SnapMirror</keyword>
+        <keyword>cluster</keyword>
+        <keyword>identity</keyword>
+        <keyword>GetSnapMirrorClusterIdentity</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.22*" />
+          <colspec colnum="2" colname="col2" colwidth="1.99*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.06*" />
+          <colspec colname="col5" colnum="5" colwidth="1.30*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">If provided, the system lists the cluster identity of the endpoint with the specified snapMirrorEndpointID. If not provided, the system lists the cluster identity of all known SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_873C7F4900E844F6BC96D6171089D47D">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.28*" />
+          <colspec colnum="2" colname="col2" colwidth="1.00*" />
+          <colspec colnum="3" colname="col3" colwidth="1.55*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorClusterIdentity</entry>
+              <entry colname="col2">A list of cluster identities of SnapMirror endpoints.</entry>
+              <entry colname="col3">
+                <xref href="807C6DAE-0232-4760-9530-F58D574FAC59_.dita" outputclass="nopagenum">snapMirrorClusterIdentity</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-0411E875-929C-461D-B2A1-ECDD6469FA9B">
+      <title id="GUID-517976D0-3165-40D5-A4E7-4873220DD509">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

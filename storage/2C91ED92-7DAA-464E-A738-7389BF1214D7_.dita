@@ -1,0 +1,67 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-2C91ED92-7DAA-464E-A738-7389BF1214D7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">SSL ciphers</title>
+  <shortdesc>SSL ciphers are encryption algorithms used by hosts to establish a secure communication. There are standard ciphers that Element software supports and non-standard ones when FIPS 140-2 mode is enabled.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SSL ciphers</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_4ABC8B4D59A444E7BEB6C16E9D44492A">
+      <p>The following lists provide the standard Secure Socket Layer (SSL) ciphers supported
+                by Element software and the SSL ciphers supported when FIPS 140-2 mode is
+                enabled:</p>
+      <dl>
+        <dlentry id="GUID-AB78B9E8-3323-42CA-B70B-1AC0547EFABC">
+          <dt>FIPS 140-2 disabled</dt>
+          <dd>TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A</dd>
+          <dd>TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A</dd>
+          <dd>TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A </dd>
+          <dd>TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A</dd>
+          <dd>TLS_RSA_WITH_3DES_EDE_CBC_SHA (rsa 2048) - C</dd>
+          <dd>TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_IDEA_CBC_SHA (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_RC4_128_MD5 (rsa 2048) - C</dd>
+          <dd>TLS_RSA_WITH_RC4_128_SHA (rsa 2048) - C</dd>
+          <dd>TLS_RSA_WITH_SEED_CBC_SHA (rsa 2048) - A</dd>
+        </dlentry>
+        <dlentry id="GUID-CD0A894E-8B45-44B0-8E66-6F5FC4EB9D47">
+          <dt>FIPS 140-2 enabled</dt>
+          <dd>TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A</dd>
+          <dd>TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A</dd>
+          <dd>TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A</dd>
+          <dd>TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (sect571r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (sect571r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (sect571r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A</dd>
+          <dd>TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (sect571r1) - A</dd>
+          <dd>TLS_RSA_WITH_3DES_EDE_CBC_SHA (rsa 2048) - C </dd>
+          <dd>TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A </dd>
+          <dd>TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A </dd>
+          <dd>TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A </dd>
+          <dd>TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A</dd>
+          <dd>TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

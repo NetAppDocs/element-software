@@ -1,0 +1,149 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-6C6520B7-B232-46DC-97E5-6FA97B13F59A" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListServices</title>
+  <shortdesc>You can use the <apiname>ListServices</apiname> method to list services information for nodes, drives, current software, and other services that are running on the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>storage</keyword>
+        <keyword>cluster</keyword>
+        <keyword>services</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listservices</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">services</entry>
+              <entry colname="col2">Services that are running on drives and nodes.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ListServices",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">"id": 1,
+"result": {
+	"services": [
+		{
+			"drive": {
+				"assignedService": 22,
+				"asyncResultIDs": [],
+				"attributes": {},
+				"capacity": 300069052416,
+				"customerSliceFileCapacity": 0,
+				"driveID": 5,
+				"driveStatus": "assigned",
+				"driveType": "block",
+				"failCount": 0,
+				"nodeID": 4,
+				"reservedSliceFileCapacity": 0,
+				"serial": "scsi-SATA_INTEL_SSDSC2",
+				"slot": 3
+			},
+			"drives": [
+				{
+					"assignedService": 22,
+					"asyncResultIDs": [],
+					"attributes": {},
+					"capacity": 300069052416,
+					"customerSliceFileCapacity": 0,
+					"driveID": 5,
+					"driveStatus": "assigned",
+					"driveType": "Block",
+					"failCount": 0,
+					"nodeID": 4,
+					"reservedSliceFileCapacity": 0,
+					"serial": "scsi-SATA_INTEL_SSDSC2",
+					"slot": 3
+				}
+			],
+			"node": {
+				"associatedFServiceID": 0,
+				"associatedMasterServiceID": 1,
+				"attributes": {},
+				"cip": "10.117.63.18",
+				"cipi": "Bond10G",
+				"fibreChannelTargetPortGroup": null,
+				"mip": "10.117.61.18",
+				"mipi": "Bond1G",
+				"name": "node4",
+				"nodeID": 4,
+				"nodeSlot": "",
+				"platformInfo": {
+					"chassisType": "R620",
+					"cpuModel": "Intel(R) Xeon(R) CPU",
+					"nodeMemoryGB": 72,
+					"nodeType": "SF3010",
+					"platformConfigVersion": "10.0"
+				},
+				"sip": "10.117.63.18",
+				"sipi": "Bond10G",
+				"softwareVersion": "10.0",
+				"uuid": "4C4C4544-0053",
+				"virtualNetworks": []
+			},
+			"service": {
+				"associatedBV": 0,
+				"associatedTS": 0,
+				"associatedVS": 0,
+				"asyncResultIDs": [
+					1
+				],
+				"driveID": 5,
+				"driveIDs": [
+					5
+				],
+				"firstTimeStartup": true,
+				"ipcPort": 4008,
+				"iscsiPort": 0,
+				"nodeID": 4,
+				"serviceID": 22,
+				"serviceType": "block",
+				"startedDriveIDs": [],
+				"status": "healthy"
+			}
+		}
+	]
+}</codeblock>
+    </section>
+    <section id="GUID-863B1A5A-C833-4C06-8D87-2CBC371B767B">
+      <title id="GUID-BAEF4E61-9FA6-4535-9B67-4BD7EBCBEE0A">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

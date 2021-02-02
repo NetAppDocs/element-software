@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-89188D12-C113-48E2-B169-99D5FAC29E25" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B9E0517C-8432-44D0-AB76-D65B4C406193">SnapMirror overview</title>
+  <shortdesc> Systems running  <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> support SnapMirror functionality to copy and restore snapshots with <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> ONTAP systems.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Element and ONTAP<indexterm>replicating between clusters</indexterm></indexterm>
+        <indexterm>SnapMirror relationships<indexterm>managing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>Systems running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>  can communicate directly with SnapMirror on ONTAP systems 9.3 or higher. The <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API provides methods to enable SnapMirror functionality on clusters, volumes, and snapshots. Additionally, the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI includes all necessary functionality to manage SnapMirror relationships between <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software and ONTAP systems.</p>
+    <p>You can replicate ONTAP originated volumes to <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> volumes in specific use cases with limited functionality. For more information, see ONTAP documentation.</p>
+  </conbody>
+</concept>

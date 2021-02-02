@@ -1,0 +1,13 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-8C98800D-0641-4ABE-94C2-22DF8173141F" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6DD6AF89-5FF3-42E5-BD2E-00CF12518DDB">Using group snapshots for data protection task</title>
+  <shortdesc>You can create a group snapshot of a related set of volumes to preserve a point-in-time copy of the metadata for each volume. You can use the group snapshot in the future as a backup or rollback to restore the state of the group of volumes to a previous state.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>group snapshots</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody />
+</task>

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-DBBED90A-A128-4BFE-9001-ED93C62DBAFB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetAsyncResult</title>
+  <shortdesc>You can use <apiname>GetAsyncResult</apiname> to retrieve the result of asynchronous method calls. Some method calls require some time to run, and might not be finished when the system sends the initial response. To obtain the status or result of the method call, use <apiname>GetAsyncResult</apiname> to poll the asyncHandle value returned by the method. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>async</keyword>
+        <keyword>asynchronous</keyword>
+        <keyword>results</keyword>
+        <keyword>result</keyword>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>GetAsyncResult</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_AAB866F101714A6391CBF821A8544D17">
+      <p>
+        <apiname>GetAsyncResult</apiname> returns the overall status of the operation (in progress, completed, or error) in a standard fashion, but the actual data returned for the operation depends on the original method call and the return data is documented with each method.</p>
+      <p>If the <parmname>keepResult</parmname> parameter is missing or false, the asyncHandle becomes inactive when the result is returned, and later attempts to query that asyncHandle return an error. You can keep the asyncHandle active for future queries by setting the <parmname>keepResult</parmname> parameter to <option>true</option>.</p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.36*" />
+          <colspec colnum="2" colname="col2" colwidth="2.07*" />
+          <colspec colnum="3" colname="col3" colwidth="1.49*" />
+          <colspec colnum="4" colname="col4" colwidth="1.33*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>asyncHandle</parmname>
+              </entry>
+              <entry colname="col2">A value that was returned from the original asynchronous method call.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>keepResult</parmname>
+              </entry>
+              <entry colname="col2">If true, <apiname>GetAsyncResult</apiname> does not remove the asynchronous result upon returning it, enabling future queries to that asyncHandle.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.85*" />
+          <colspec colnum="3" colname="col3" colwidth="1.07*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">status</entry>
+              <entry colname="col2">Status of the asynchronous method call. Possible values:<ul id="UL_92687E908EFF4AD9A7ED6C0B4C797C90"><li id="LI_5443B16A85DF40E093C5D34BBBAECC6E"><option>running</option>: The method is still running.</li><li id="LI_971C41EABAEA47C2A15BACF59A3654F2"><option>complete</option>: The method is complete and the result or error is available.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">result</entry>
+              <entry colname="col2">If the asynchronous method successfully completed, this is the result of the asynchronous operation. If the asynchronous operation failed, this member is not present.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">error</entry>
+              <entry colname="col2">If the status is complete and the asynchronous method failed, this member includes the error details. If the asynchronous operation succeeded, this member is not present.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">resultType</entry>
+              <entry colname="col2">The type of operation the asynchronous method call is or was performing.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">details</entry>
+              <entry colname="col2">If the status is running, this member includes information relevant to the method's current operation. If the asynchronous method is not running, this member is not present.</entry>
+              <entry colname="col3">JSON Object</entry>
+            </row>
+            <row>
+              <entry colname="col1">createTime</entry>
+              <entry colname="col2">The time that the asynchronous method was called, in UTC+0 format.</entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+            <row>
+              <entry colname="col1">lastUpdateTime</entry>
+              <entry colname="col2">The time that the asynchronous method's status was last updated, in UTC+0 format.</entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note type="note" id="GUID-1CD2DEB1-E7CC-4EC7-A28D-37700A92B5B9">The return value of <apiname>GetAsyncResult</apiname> is essentially a nested version of the standard JSON response with an additional status field.</note>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "GetAsyncResult",
+  "params": {
+      "asyncHandle" : 389
+},
+"id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example: method error </title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "error": {
+      "code": 500,
+      "message": "DBClient operation requested on a non-existent path at [/asyncresults/1]",
+      "name": "xDBNoSuchPath"
+   },
+   "id": 1
+}</codeblock>
+      <p>If "response" were the JSON response object from the <apiname>GetAsyncResult</apiname> call, then "response.error" would correspond to an error with the <apiname>GetAsyncResult</apiname> method itself (such as querying a non-existent asyncHandle).</p>
+    </section>
+    <section id="SECTION_1A1D848D4E554A65BD0DFF93709B180F">
+      <title id="GUID-BD318506-0EC7-4DD9-8AA8-7CBFD504BD93">Response example: asynchronous task error</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": {
+     "createTime": "2016-01-01T02:05:53Z",
+     "error": {
+       "bvID": 1,
+       "message": "Bulk volume job failed",
+       "name": "xBulkVolumeScriptFailure",
+       "volumeID": 34
+     },
+     "lastUpdateTime": "2016-01-21T02:06:56Z",
+     "resultType": "BulkVolume",
+     "status": "complete"
+   }
+}
+</codeblock>
+      <p>The “response.result.error” would correspond to an error result from the original method call.</p>
+    </section>
+    <section id="SECTION_7CCF7F7284BE4C59B0A51409AD4CE798">
+      <title id="GUID-FAD19A45-5F97-40AF-9DE7-D798182530EC">Response example: asynchronous task success</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": {
+     "createTime": "2016-01-01T22:29:18Z",
+     "lastUpdateTime": "2016-01-01T22:45:51Z",
+     "result": {
+       "cloneID": 25,
+       "message": "Clone complete.",
+       "volumeID": 47
+     },
+     "resultType": "Clone",
+     "status": "complete"
+   }
+}
+</codeblock>
+      <p>The “response.result.result” is the return value for the original method call if the call completed successfully. </p>
+    </section>
+    <section id="GUID-7AB6359E-AB39-4596-8103-F67B5D7292F3">
+      <title id="GUID-E68C7E9F-D327-4D44-8699-3DA0F3D668C2">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

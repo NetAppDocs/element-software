@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-D678E078-96C9-45E4-941D-75413CED3BDC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-1C04414F-7CFF-4B35-9305-850DF97428C2">Disable the Terms of Use banner</title>
+  <shortdesc>You can disable the Terms of Use banner. With the banner disabled, the user is no longer requested to accept the terms of use when using the Element UI.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Terms of Use<indexterm>disabling</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-6B8D2F64-44BB-4E85-A0CC-CF686CE97EA0">
+      <ul id="UL_5D4025E8741E4FF1A878C2A01DADAA5C">
+        <li id="LI_50E06951C6A140FA922E377CA350C258">You must have cluster administrator privileges to configure Terms of Use.</li>
+        <li id="LI_9A567EE1981E4144BD4A46A90793DB41">Ensure that Terms of Use is enabled.</li>
+      </ul>
+    </prereq>
+    <steps id="GUID-EBEDA9D6-501D-4677-859C-94CF41339545">
+      <step id="STEP_9673EECA381E4DAF9A56520E275FADA9">
+        <cmd>Click <menucascade><uicontrol>Users</uicontrol><uicontrol>Terms of Use</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_4C684EB5DB9A4EFBAE74CFF19A1685D3">
+        <cmd>Click <uicontrol>Disable</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

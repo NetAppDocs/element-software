@@ -1,0 +1,63 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-1406061B-259C-4B5E-8D19-F6BF9A92AB57" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-45451DE3-A223-4D04-A2FC-625FCBDD3A50">Create a volume access group</title>
+  <shortdesc>You can create volume access groups by mapping initiators to a collection of volumes for secured access. You can then grant access to the volumes in the group with an account CHAP initiator secret and target secret.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>access groups<indexterm>creating</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-E6271F29-EBF1-4868-A494-CE5AF9D0DFEE">
+      <p>If you use initiator-based CHAP, you can add CHAP credentials for a single initiator in a volume access group, providing more security. This enables you to apply this option for volume access groups that already exist. </p>
+    </context>
+    <steps id="GUID-27140652-BC49-4A23-8FD6-92342308D089">
+      <step id="STEP_F31DD815F803430E85E05440014E2633">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Access Groups</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_B49B96B75619419AADB4A70D68016612">
+        <cmd>Click <uicontrol>Create Access Group</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_5097D8087AE54BE5963F3719F26099B2">
+        <cmd>Enter a name for the volume access group in the <uicontrol>Name</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_338EA21649864BDE9C534EBF6F49FBE1">
+        <cmd>Add an initiator to the volume access group in one of the following ways:</cmd>
+        <choicetable keycol="0" id="CHOICETABLE_0C5AE073793D4619A65C2125F6DC0490">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>Description</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Adding a Fibre Channel initiator</choption>
+            <chdesc>
+              <ol id="OL_3C5E00018B2E445D8A4448F18A0CE052">
+                <li id="LI_B206A40AECCB4B329AA3B96E8DF06919">Under Add Initiators, select an existing Fibre Channel initiator from the Unbound Fibre Channel Initiators list.</li>
+                <li id="LI_516E0E17A3B8469399DA94DEE06FE174">Click <uicontrol>Add FC Initiator</uicontrol>.<note id="GUID-4DA54D1D-8174-41C1-A6D5-888175F03393">You can create an initiator during this step if you click the <uicontrol>Create Initiator</uicontrol> link, enter an initiator name, and click <uicontrol>Create</uicontrol>. The system automatically adds the initiator to the Initiators list after you create it. A sample of the format is as follows:<codeblock xml:space="preserve">5f:47:ac:c0:5c:74:d4:02</codeblock></note></li>
+              </ol>
+            </chdesc>
+          </chrow>
+          <chrow>
+            <choption>Adding an iSCSI initiator</choption>
+            <chdesc>Under Add Initiators, select an existing initiator from the Initiators list.<note id="GUID-D23D36C9-7A54-48E2-9A44-7DCED6B7A420">You can create an initiator during this step if you click the <uicontrol>Create Initiator</uicontrol> link, enter an initiator name, and click <uicontrol>Create</uicontrol>. The system automatically adds the initiator to the Initiators list after you create it. A sample of the format is as follows:<codeblock xml:space="preserve">iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b</codeblock></note><note type="tip" id="GUID-A7477ED6-1A28-47E4-AF3B-AFFC70971388">You can find the initiator IQN for each volume by selecting <uicontrol>View Details</uicontrol> in the Actions menu for the volume on the <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol><uicontrol>Active</uicontrol></menucascade> list.</note><p>When you modify an initiator, you can toggle the <cmdname>requiredCHAP</cmdname> attribute to <cmdname>True</cmdname>, which enables you to set the target initiator secret. For details, see API  information about the  <cmdname>ModifyInitiator</cmdname> API method.  </p><p><xref keyref="sfe-api" /></p></chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step id="STEP_EB4B3B6D78914F5DBBE09637039AD752" importance="optional">
+        <cmd>Add more initiators as needed.</cmd>
+      </step>
+      <step id="STEP_4079543FE592492AB5979191B9EFD577">
+        <cmd>Under Add Volumes, select a volume from the <uicontrol>Volumes</uicontrol> list.</cmd>
+        <stepresult>The volume appears in the <uicontrol>Attached Volumes</uicontrol> list.</stepresult>
+      </step>
+      <step id="STEP_11560191439C4BF8AEB7B3398D63F484" importance="optional">
+        <cmd>Add more volumes as needed.</cmd>
+      </step>
+      <step id="STEP_3C2C81C661984874BF63349A2FA04ED2">
+        <cmd>Click <uicontrol>Create Access Group</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

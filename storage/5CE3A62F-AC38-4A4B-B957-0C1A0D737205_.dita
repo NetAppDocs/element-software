@@ -1,0 +1,165 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-5CE3A62F-AC38-4A4B-B957-0C1A0D737205" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4A3B44CA-431D-4CF1-9073-4756DEDAE9F2">Test the LDAP Configuration</title>
+  <shortdesc>After configuring LDAP, you should test it by using either the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI or the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>
+        API <cmdname>TestLdapAuthentication</cmdname> method.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-9FA23442-D9CB-4C64-933A-29416BB40482">
+      <step>
+        <cmd>To test the LDAP configuration with the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>
+                    UI, do the following: </cmd>
+        <substeps id="GUID-447FFAEA-A4AA-4512-AABF-C369CB93A9CE">
+          <substep>
+            <cmd>Click
+                            <menucascade><uicontrol>Cluster</uicontrol><uicontrol>LDAP</uicontrol></menucascade>.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>Test LDAP Authentication</uicontrol>. </cmd>
+          </substep>
+          <substep>
+            <cmd>Resolve any issues by using the information in the table below: </cmd>
+            <info>
+              <table frame="all">
+                <tgroup cols="2" align="left">
+                  <colspec colname="c1" colnum="1" colwidth="1*" />
+                  <colspec colname="c2" colnum="2" colwidth="1*" />
+                  <thead>
+                    <row>
+                      <entry>Error message</entry>
+                      <entry>Description</entry>
+                    </row>
+                  </thead>
+                  <tbody>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPUserNotFound</msgph>
+                        </p>
+                      </entry>
+                      <entry>
+                        <ul id="GUID-653C3E96-0612-4844-936A-07FD4D259F68">
+                          <li>The user being tested was not found in the
+                                                  configured <codeph>userSearchBaseDN</codeph>
+                                                  subtree.</li>
+                          <li>The <codeph>userSearchFilter</codeph> is
+                                                  configured incorrectly.</li>
+                        </ul>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPBindFailed</msgph> (Error: Invalid
+                                                  credentials)</p>
+                      </entry>
+                      <entry>
+                        <ul id="GUID-2C50AC01-AE7A-4807-A12F-E9CA8C5044BE">
+                          <li>The username being tested is a valid LDAP
+                                                  user, but the password provided is incorrect.</li>
+                          <li>The username being tested is a valid LDAP
+                                                  user, but the account is currently disabled.</li>
+                        </ul>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPSearchBindFailed</msgph>  (Error:
+                                                  Can’t contact LDAP server)</p>
+                      </entry>
+                      <entry>
+                        <p>The LDAP server URI is incorrect.</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPSearchBindFailed</msgph> (Error:
+                                                  Invalid credentials)</p>
+                      </entry>
+                      <entry>
+                        <p>The read-only username or password is configured
+                                                  incorrectly.</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPSearchFailed</msgph> (Error: No such
+                                                  object)</p>
+                      </entry>
+                      <entry>
+                        <p>The <codeph>userSearchBaseDN</codeph> is not a
+                                                  valid location within the LDAP tree.</p>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <p>
+                          <msgph>xLDAPSearchFailed</msgph>
+                                                  (Error: Referral)</p>
+                      </entry>
+                      <entry>
+                        <ul id="GUID-EB4AEFC9-2C74-472D-9151-28360EFE04F6">
+                          <li>The <codeph>userSearchBaseDN</codeph> is not a
+                                                  valid location within the LDAP tree.</li>
+                          <li>The <codeph>userSearchBaseDN</codeph> and
+                                                  <codeph>groupSearchBaseDN</codeph> are in a nested
+                                                  OU. This can cause permission issues. The
+                                                  workaround is to include the OU in the user and
+                                                  group base DN entries, (for example:
+                                                  <codeph>ou=storage, cn=company,
+                                                  cn=com</codeph>)</li>
+                        </ul>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>To test the LDAP configuration with the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>
+                    API, do the following: </cmd>
+        <substeps id="GUID-D65467A3-9AAF-4912-A221-42B9B60738F6">
+          <substep>
+            <cmd>Call the <cmdname>TestLdapAuthentication</cmdname> method. </cmd>
+            <stepxmp>
+              <codeblock xml:space="preserve">{
+  "method":"TestLdapAuthentication",
+     "params":{
+        "username":"admin1",
+        "password":"admin1PASS
+      },
+      "id": 1
+}</codeblock>
+            </stepxmp>
+          </substep>
+          <substep>
+            <cmd>Review the results. If the API call is successful, the results include
+                            the specified user's distinguished name and a list of groups in which
+                            the user is a member.</cmd>
+            <stepxmp>
+              <codeblock xml:space="preserve">{
+"id": 1
+     "result": {
+         "groups": [
+              "CN=StorageMgmt,OU=PTUsers,DC=prodtest,DC=solidfire,DC=net"
+         ],
+         "userDN": "CN=Admin1 Jones,OU=PTUsers,DC=prodtest,DC=solidfire,DC=net"
+     }
+}</codeblock>
+            </stepxmp>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-25909752-DFAE-4FEC-ACB2-3B460696BB88" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">iSCSI session details</title>
+  <shortdesc>You can view information about the iSCSI sessions that are connected to the cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>iSCSI sessions</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>The following list describes the information that you can find about the iSCSI sessions:</p>
+      <dl>
+        <dlentry id="GUID-68B424A8-BF49-42B4-8048-B7FCCE5142C6">
+          <dt>Node</dt>
+          <dd> The node hosting the primary metadata partition for the volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-F26E2282-B6BF-4EF1-BA4B-82FD48E6B357">
+          <dt>Account</dt>
+          <dd> The name of the account that owns the volume. If value is blank, a dash (-) is displayed.</dd>
+        </dlentry>
+        <dlentry id="GUID-F47CF973-B707-4F17-A0FE-D7D9BC8A6738">
+          <dt>Volume</dt>
+          <dd>The volume name identified on the node.</dd>
+        </dlentry>
+        <dlentry id="GUID-C72F4758-B1D1-419C-BAE6-C0491C3755A1">
+          <dt>Volume ID</dt>
+          <dd>ID of the volume associated with the Target IQN.</dd>
+        </dlentry>
+        <dlentry id="GUID-69EFE4A2-9A30-4451-B0F4-4335DAABF21E">
+          <dt>Initiator ID</dt>
+          <dd>A system-generated ID for the initiator.                    </dd>
+        </dlentry>
+        <dlentry id="GUID-3A7E52C9-BBD8-4B97-880C-0BD22A394D37">
+          <dt>Initiator Alias</dt>
+          <dd>An optional name for the initiator that makes finding the initiator easier when in a long list.     </dd>
+        </dlentry>
+        <dlentry id="GUID-380DF176-1098-4CAB-A928-7FE1A3CE6D57">
+          <dt>Initator IP</dt>
+          <dd> The IP address of the endpoint that initiates the session.</dd>
+        </dlentry>
+        <dlentry id="GUID-F05A77EB-476B-448E-B845-37B8E99ECAA8">
+          <dt>Initiator IQN</dt>
+          <dd> The IQN of the endpoint that initiates the session.</dd>
+        </dlentry>
+        <dlentry id="GUID-707EC4AD-A571-48F5-A042-7E2E8BA5E4B1">
+          <dt>Target IP</dt>
+          <dd> The IP address of the node hosting the volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-5686CFB3-AC07-4E65-801A-DD023063932F">
+          <dt>Target IQN</dt>
+          <dd>The IQN of the volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-6D3A1005-9502-45CB-A92D-4BBFCADA9A91">
+          <dt>Created On</dt>
+          <dd> Date the session was established.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

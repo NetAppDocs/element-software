@@ -1,0 +1,42 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-44D16707-7A9F-4896-BD0B-5F7CE1BFB563" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-172619CF-45B2-48A3-9DF8-66FECCD0517B">Create a target volume with read or write access</title>
+  <shortdesc>The replication process involves two endpoints: the source and the target volume. When you create the target volume, the volume is automatically set to read/write mode to accept the data during the replication. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-F061473A-D561-417D-B64C-02F912042107" />
+    <steps id="GUID-4CA74506-C94E-47B1-AD27-B067B020EF26">
+      <step id="STEP_2A6B13F8A07B42B5BFE27FE9F6FF5FD2">
+        <cmd>Select <menucascade><uicontrol>Management</uicontrol><uicontrol> Volumes</uicontrol></menucascade>. </cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Create Volume</uicontrol>. </cmd>
+      </step>
+      <step>
+        <cmd>In the Create a New Volume dialog box, enter the Volume Name.   </cmd>
+      </step>
+      <step>
+        <cmd>Enter the total size of the volume, select a block size for the volume, and  select the account that should have access to the volume.   </cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Create Volume</uicontrol>. </cmd>
+      </step>
+      <step>
+        <cmd>In the Active window, click the Actions icon for the volume. </cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Edit</uicontrol>. </cmd>
+      </step>
+      <step>
+        <cmd>Change the account access level to Replication Target. </cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Save Changes</uicontrol>. </cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

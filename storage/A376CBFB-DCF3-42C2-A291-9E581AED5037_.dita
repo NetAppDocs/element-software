@@ -1,0 +1,47 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-A376CBFB-DCF3-42C2-A291-9E581AED5037" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-3E9ECC12-089E-4D24-AB36-E4D285A07D32">External Key Management API Commands</title>
+  <shortdesc>List of all of the APIs available for managing and configuring EKM.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p />
+    <p>Used for establishing a trust relationship between the cluster and external customer-owned servers:</p>
+    <p>
+      <ul id="GUID-FEB3E251-7BA1-454D-AE79-00979BD1C723">
+        <li>CreatePublicPrivateKeyPair</li>
+        <li>GetClientCertificateSignRequest</li>
+      </ul>
+    </p>
+    <p>Used for defining the specific details of external customer-owned servers:</p>
+    <p>
+      <ul id="GUID-26A760DE-74DF-44E0-8E18-187A37AE00AF">
+        <li>CreateKeyServerKmip</li>
+        <li>ModifyKeyServerKmip</li>
+        <li>DeleteKeyServerKmip</li>
+        <li>GetKeyServerKmip</li>
+        <li>ListKeyServersKmip</li>
+        <li>TestKeyServerKmip</li>
+      </ul>
+    </p>
+    <p>Used for creating and maintaining key providers which manage external key servers:</p>
+    <p>
+      <ul id="GUID-9322325D-D363-410A-B8B1-75766A12BC30">
+        <li>CreateKeyProviderKmip</li>
+        <li>DeleteKeyProviderKmip</li>
+        <li>AddKeyServerToProviderKmip</li>
+        <li>RemoveKeyServerFromProviderKmip</li>
+        <li>GetKeyProviderKmip</li>
+        <li>ListKeyProvidersKmip</li>
+        <li>TestKeyProviderKmip</li>
+      </ul>
+    </p>
+    <p> For information about the API methods, see API reference information.</p>
+    <p>
+      <xref keyref="sfe-api" />
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,18 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-24E9B891-824A-4914-B559-48598BA9387B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D0E749CC-C78C-4C2D-9488-902A90E7D728">Configure SolidFire system options after
+        deployment</title>
+  <shortdesc>After you set up your SolidFire system, you might want to perform some optional tasks. Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards (FIPS) security.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>deployment<indexterm>post deployment options</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <related-links>
+    <link href="B1C8D8E2-CE95-41FD-9A3E-A0C424EC84F3_.dita" />
+    <link href="057D852C-9C1C-458A-9161-328EDA349B00_.dita" />
+    <link href="4645FF0D-3FCD-4440-91A9-A47F7BCC5C50_.dita" />
+  </related-links>
+</task>

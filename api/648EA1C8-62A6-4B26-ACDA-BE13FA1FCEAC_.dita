@@ -1,0 +1,183 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-648EA1C8-62A6-4B26-ACDA-BE13FA1FCEAC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">clusterStats</title>
+  <shortdesc>The <apiname>clusterStats</apiname> object contains statistical data for a cluster. Many of the volume-related statistics contained in the object are averaged for all volumes in the cluster. You can use the <apiname>GetClusterStats</apiname> method to retrieve this information for a cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>objects</keyword>
+        <keyword>clusterStats</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="col1" colwidth="1.88*" />
+          <colspec colnum="2" colname="col2" colwidth="1.94*" />
+          <colspec colname="col03" colnum="3" colwidth="1.85*" />
+          <colspec colnum="4" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col03">Calculation</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">actualIOPS</entry>
+              <entry colname="col2">Current actual IOPS for the entire cluster in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">averageIOPSize</entry>
+              <entry colname="col2">Average size in bytes of recent I/O to the cluster in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">clientQueueDepth</entry>
+              <entry colname="col2">The number of outstanding read and write operations to the cluster. </entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">clusterUtilization</entry>
+              <entry colname="col2">The percentage of the cluster's max IOPS currently being utilized. This is computed as clusterUtilization = normalizedIOPS / maxIOPS (from <apiname>GetClusterCapacity</apiname>).</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">float</entry>
+            </row>
+            <row>
+              <entry colname="col1">latencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete operations to a cluster in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">normalizedIOPS</entry>
+              <entry colname="col2">Average number of IOPS for the entire cluster in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readBytes</entry>
+              <entry colname="col2">The total cumulative bytes read from the cluster since the creation of the cluster.  </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readBytesLastSample</entry>
+              <entry colname="col2">The total number of bytes read from the cluster during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readLatencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete read operations to the cluster in the last 500 milliseconds.  </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readLatencyUSecTotal</entry>
+              <entry colname="col2">The total time spent performing read operations since the creation of the cluster.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readOps</entry>
+              <entry colname="col2">The total cumulative read operations to the cluster since the creation of the cluster.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readOpsLastSample</entry>
+              <entry colname="col2">The total number of read operations during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">samplePeriodMSec</entry>
+              <entry colname="col2">The length of the sample period, in milliseconds.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">servicesCount</entry>
+              <entry colname="col2">The number of services running on the cluster. If equal to the servicesTotal, this indicates that valid statistics were collected from all nodes. </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">servicesTotal</entry>
+              <entry colname="col2">The total number of expected services running on the cluster.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">timestamp</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/TS_D" />
+              </entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+            <row>
+              <entry colname="col1">unalignedReads</entry>
+              <entry colname="col2">The total cumulative unaligned read operations to a cluster since the creation of the cluster.  </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">unalignedWrites</entry>
+              <entry colname="col2">The total cumulative unaligned write operations to a cluster since the creation of the cluster. </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeBytes</entry>
+              <entry colname="col2">The total cumulative bytes written to the cluster since the creation of the cluster.  </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeBytesLastSample</entry>
+              <entry colname="col2">The total number of bytes written to the cluster during the last sample period.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeLatencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete write operations to a cluster in the last 500 milliseconds.  </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeLatencyUSecTotal</entry>
+              <entry colname="col2">The total time spent performing write operations since the creation of the cluster.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeOps</entry>
+              <entry colname="col2">The total cumulative write operations to the cluster since the creation of the cluster.  </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeOpsLastSample</entry>
+              <entry colname="col2">The total number of write operations during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

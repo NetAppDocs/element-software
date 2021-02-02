@@ -1,0 +1,60 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-4547879A-1307-4D74-8E0D-98C332502A46" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">SnapMirror relationship actions</title>
+  <shortdesc>You can configure a relationship from the <wintitle>SnapMirror Relationships</wintitle> page of the <wintitle>Data Protection</wintitle>  tab. The options from the Actions icon are described here.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SnapMirror<indexterm>configuring relationships</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_28CF1BCF7A014B449EB4E14A01A70EF0">
+      <dl>
+        <dlentry id="GUID-0BDD764B-DBBD-4739-B175-7277C35D6CA0">
+          <dt>Edit</dt>
+          <dd>Edits the policy used or schedule for the relationship.</dd>
+        </dlentry>
+        <dlentry id="GUID-4E8BA9DA-CE82-4FFD-9A43-4DBF18720036">
+          <dt>Delete</dt>
+          <dd>Deletes the  SnapMirror relationship. This function does not delete the destination volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-4C62F9B7-2730-480D-BFA6-A75D0497661B">
+          <dt>Initialize</dt>
+          <dd>Performs the first initial baseline transfer of data to establish a new relationship.</dd>
+        </dlentry>
+        <dlentry id="GUID-B687D71B-1DAC-4840-8DE1-06E6633A339B">
+          <dt>Update</dt>
+          <dd>Performs an on-demand update of the relationship, replicating any new data and Snapshot copies included since the last update to the destination.</dd>
+        </dlentry>
+        <dlentry id="GUID-B48697D5-E2C9-49A2-930E-E5C1B5A37A41">
+          <dt>Quiesce</dt>
+          <dd>Prevents any further updates for a relationship.</dd>
+        </dlentry>
+        <dlentry id="GUID-E8470800-2243-41F2-BFD9-2C94E7CA2160">
+          <dt>Resume</dt>
+          <dd>Resumes a relationship that is quiesced.</dd>
+        </dlentry>
+        <dlentry id="GUID-59133CCE-3869-49DD-B140-A7AACB82B042">
+          <dt>Break</dt>
+          <dd>Makes the destination volume read-write and stops all current and future transfers.  Determine that clients are not using the original source volume, because the reverse resync operation makes the original source volume read-only.</dd>
+        </dlentry>
+        <dlentry id="GUID-C94707E4-5E16-48A1-8559-02B777E43DDB">
+          <dt>Resync</dt>
+          <dd>Reestablishes a broken relationship in the same direction before the  break occurred.</dd>
+        </dlentry>
+        <dlentry id="GUID-6F35D338-ABA7-4889-934C-C34B6F87DDD7">
+          <dt>Reverse Resync</dt>
+          <dd>	Automates the necessary steps to create and initialize a new relationship in the opposite direction.  This can be done only if the existing relationship is in a broken state. This operation will not delete the current relationship. The original source volume reverts to the most recent common Snapshot copy and resynchronizes with the destination. Any changes that are made to the original source volume since the last successful  SnapMirror update are lost. Any changes that were made to, or new data written into the current destination volume is sent back to the original source volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-90AF716E-AF79-4174-BBED-C61996B0EDCC">
+          <dt>Abort</dt>
+          <dd>
+            <p>	Cancels a current transfer in progress. If a  SnapMirror update is issued for an aborted relationship, the relationship continues with the last transfer from the last restart checkpoint that was created before the abort occurred.</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-CB605A07-D58A-43E1-B1C0-841396E36946" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6F29EA2F-3671-474C-8D79-BA33A1B37C22">Creating a group snapshot </title>
+  <shortdesc>You can create a snapshot of a group of volumes, and you can also create a group snapshot schedule to automate group snapshots. A single group snapshot can consistently snapshot up to 32 volumes at one time.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>group snapshots<indexterm>creating</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-8DD28426-0E64-4341-94A4-8A2D74E4E70F">
+      <step id="STEP_C50365C298C4446292496F0097BDFA08">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_C5BD7F3FB2AA4933A9CC9F7C4441FC8B">
+        <cmd>Use the check boxes to select multiple volumes for a group of volumes.</cmd>
+      </step>
+      <step id="STEP_E3207075ED104105946BB75BD8D0C1E6">
+        <cmd>Click <uicontrol>Bulk Actions</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_C060D672D8F4481DA6FE852131C32B95">
+        <cmd>Click <uicontrol>Group Snapshot</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_90AD234AE10C41EAB9D4EDCC59279F26">
+        <cmd>Enter a new group snapshot name in the Create Group Snapshot of Volumes dialog box.</cmd>
+      </step>
+      <step id="STEP_8AD4352491284F9097C8E83D286DFAF7" importance="optional">
+        <cmd>Select the <uicontrol>Include Each Group Snapshot Member in Replication When Paired</uicontrol> check box to ensure that each snapshot is captured in replication when the parent volume is paired.</cmd>
+      </step>
+      <step id="STEP_E2B968418E6F44B4A3607E049703C67F">
+        <cmd>Select a retention option for the group snapshot:</cmd>
+        <choices id="CHOICES_04788F55DB4046BF9A20D39C16931149">
+          <choice id="CHOICE_E9F55DF963904A2DBB048B6AEF8F1A51">Click <uicontrol>Keep Forever</uicontrol> to retain the snapshot on the system indefinitely.</choice>
+          <choice id="CHOICE_ADCD6C6A9D0F4E8A8CECF290305C5E04">Click <uicontrol>Set Retention Period</uicontrol> and use the date spin boxes to choose a length of time for the system to retain the
+snapshot.</choice>
+        </choices>
+      </step>
+      <step id="STEP_DFAAEA4E5C8B4871A8186BE7C80638A8">
+        <cmd>To take a single, immediate snapshot, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_5950C119A285435392DAAA24876C08A3">
+          <substep id="SUBSTEP_527837DEC6D0449AAF733EDF0E1EA982">
+            <cmd>Click <uicontrol>Take Group Snapshot Now</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_B0FB58F1ED894D46A143AC76CA18A25E">
+            <cmd>Click <uicontrol>Create Group Snapshot</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_F1DCE11CF0EF4508AAB8396EF1FBA9CC">
+        <cmd>To schedule the snapshot to run at a future time, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_706C736A51454C2DB847D5A6E9DD7ACE">
+          <substep id="SUBSTEP_0F0A5A7B29B6429D84CE192A50DEC3FE">
+            <cmd>Click <uicontrol>Create Group Snapshot Schedule</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_7E829EF5A60B4A66923B6EBBA600E87B">
+            <cmd>Enter a <uicontrol>New Schedule Name</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_0D7C15D08DF94FBC9581C90F4D4F36CE">
+            <cmd>Select a <uicontrol>Schedule Type</uicontrol> from the list.</cmd>
+          </substep>
+          <substep id="SUBSTEP_85C1FD832D184D5EBE56739923FD074B" importance="optional">
+            <cmd>Select the <uicontrol>Recurring Schedule</uicontrol> check box to repeat the scheduled snapshot periodically.</cmd>
+          </substep>
+          <substep id="SUBSTEP_328C82FC91A14F1B849E91288E787BE0">
+            <cmd>Click <uicontrol>Create Schedule</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

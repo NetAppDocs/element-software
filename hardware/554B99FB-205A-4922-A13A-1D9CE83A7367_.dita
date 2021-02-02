@@ -1,0 +1,26 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-554B99FB-205A-4922-A13A-1D9CE83A7367" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-2553365E-42CA-41F3-89D8-DF25066237F1">Create a new cluster</title>
+  <shortdesc>After you add the storage node to your installation and configure the new
+        storage resource, you are ready to create a new storage cluster</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-0D076DEF-6B23-4690-A930-8C610B106DEB">
+      <step>
+        <cmd>From a client on the same network as the newly configured node, access the NetApp Element
+                    software UI by entering the node’s IP address.</cmd>
+      </step>
+      <step>
+        <cmd>Enter the required information in the <uicontrol>Create a New Cluster
+                    </uicontrol>window.</cmd>
+        <info>
+          <xref keyref="sfe-sg" />
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

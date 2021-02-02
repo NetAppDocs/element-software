@@ -1,0 +1,143 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-D93406CB-0FEC-4F22-A96D-5036D65F9BC2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ResetNode</title>
+  <shortdesc>You can use the <apiname>ResetNode</apiname> method to reset a node to the  factory settings. All data,  packages (software upgrades, etc), configurations, and log files are deleted from the node when you call this method. However, network settings for the node are preserved during this operation. Nodes that are participating in a cluster cannot be reset to the factory settings.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>node<indexterm>resetting to factory settings</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-181ABE75-3AAA-465A-AEF3-0C51D4EEB541">
+      <note conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/GUID-1C655CD3-BB33-45ED-A89C-B65E1DB4FD6E" id="GUID-B8D9279E-3747-42B4-92F4-F411AAA653ED" />
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <p>The <apiname>ResetNode</apiname> API can only be used on nodes that are in an "Available" state. It cannot be used on nodes that are "Active" in a cluster, or in a "Pending" state.</p>
+      <note type="caution" id="GUID-C2AE851A-3CDF-4E97-B602-513A6E012998">This method clears any customer data that is on the node.</note>
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.50*" />
+          <colspec colnum="2" colname="col2" colwidth="1.58*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.61*" />
+          <colspec colname="col5" colnum="5" colwidth="1.01*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>build</parmname>
+              </entry>
+              <entry colname="col2">Used to specify the URL to a  remote <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software image to which the node will be reset.</entry>
+              <entry colname="col3">URL</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>force</parmname>
+              </entry>
+              <entry colname="col2">Set to <option>true</option> to reset the node.   </entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>options</parmname>
+              </entry>
+              <entry colname="col2">Used to enter specifications for running the reset operations.  Details are be provided by NetApp Support, if required.</entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has no return values.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ResetNode",
+   "params": {
+      "build" : "file:///sf/rtfi/image/filesystem.squashfs",
+      "force" : true
+              },
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": null,
+  "result": {
+    "rtfiInfo": {
+      "build": "file:///sf/rtfi/image/filesystem.squashfs",
+      "generation": "9",
+      "options": {
+        "edebug": "",
+        "sf_auto": "0",
+        "sf_bond_mode": "ActivePassive",
+        "sf_check_hardware": "0",
+        "sf_disable_otpw": "0",
+        "sf_fa_host": "",
+        "sf_hostname": "SF-FA18",
+        "sf_inplace": "1",
+        "sf_inplace_die_action": "kexec",
+        "sf_inplace_safe": "0",
+        "sf_keep_cluster_config": "0",
+        "sf_keep_data": "0",
+        "sf_keep_hostname": "0",
+        "sf_keep_network_config": "0",
+        "sf_keep_paths": "\"/var/log/hardware.xml\"",
+        "sf_max_archives": "5",
+        "sf_nvram_size": "",
+        "sf_oldroot": "",
+        "sf_postinst_erase_root_drive": "0",
+        "sf_root_drive": "",
+        "sf_rtfi_cleanup_state": "",
+        "sf_secure_erase": "1",
+        "sf_secure_erase_retries": "5",
+        "sf_slice_size": "",
+        "sf_ssh_key": "1",
+        "sf_ssh_root": "1",
+        "sf_start_rtfi": "1",
+        "sf_status_httpserver": "1",
+        "sf_status_httpserver_stop_delay": "5m",
+        "sf_status_inject_failure": "",
+        "sf_status_json": "0",
+        "sf_support_host": "sfsupport.solidfire.com",
+        "sf_test_hardware": "0",
+        "sf_upgrade": "0",
+        "sf_upgrade_firmware": "0",
+        "sf_upload_logs_url": ""
+     },
+      "statusUrlAll": "http://192.168.130.20/status/all.json",
+      "statusUrlCurrent": "http://192.168.130.20/status/current.json"
+    }
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-497E9871-DADD-46EB-AE0D-D3E13405C6BE">
+      <title id="GUID-17984669-E635-40B5-8482-B8E0D4D1BE48">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

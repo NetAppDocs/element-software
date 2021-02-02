@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-3A81252D-4801-4936-96BB-B7E8960D17E6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-F76DD55A-F820-42F0-BD1A-7248EF6FE618">NetApp HCI storage nodes</title>
+  <shortdesc>
+    <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> HCI storage nodes are hardware that provide the storage resources for a <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> HCI system. Drives in the node contain block and metadata space for data storage and data management. Each node contains a factory image of <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>. <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> HCI storage nodes can be managed using the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> Management extension point.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>about HCI storage nodes</indexterm>
+        <keyword>HCI storage nodes</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

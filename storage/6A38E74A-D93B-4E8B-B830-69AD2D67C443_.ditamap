@@ -1,0 +1,254 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-6A38E74A-D93B-4E8B-B830-69AD2D67C443" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D08944CB-506E-4E9A-A5C9-65A47B47FD71">SolidFire Element UG: Mini map: System management</title>
+  <topicref href="C2B3F8E8-9D67-429A-B93A-8DD338123F15_.dita" navtitle="System management">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="E54EF120-2F00-4F43-B7CA-CCCBAAD1B5B6_.dita" navtitle="Managing cluster administrator users">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="71DE4117-82E4-40BA-B644-3CC6EEDA5BAA_.dita" navtitle="Storage cluster user types">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="297560F5-8882-459A-B7DB-AE3023DB5B93_.dita" navtitle="Cluster Admins details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="C253B751-2078-4FBB-AFFA-E07C59CD9035_.dita" navtitle="Creating a cluster administrator account">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="3BADB4CB-B4AE-43D1-BC6D-CD395D07CB09_.dita" navtitle="Editing cluster administrator permissions">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="073C14D6-4D16-4839-B532-F76175CF2437_.dita" navtitle="Changing passwords for cluster administrator accounts">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="A15B6B32-02B6-4BC3-9732-56BED19A82A9_.dita" navtitle="Managing LDAP">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="2B561319-53A3-4FB9-A78C-7A629302E1A4_.dita" format="dita">
+          <topicmeta />
+        </topicref>
+        <topicref href="1955E167-00D8-492C-A59A-EA7E225770C0_.dita" navtitle="Configuring LDAP">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="42EF7533-353E-4E06-980D-E33E4A53AEC8_.dita" format="dita">
+          <topicmeta />
+        </topicref>
+        <topicref href="011305D4-FD6F-4222-BCFC-8DC5612C836C_.dita" navtitle="LDAP details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="5CE3A62F-AC38-4A4B-B957-0C1A0D737205_.dita" format="dita">
+          <topicmeta />
+        </topicref>
+        <topicref href="178D9A39-E88C-4B37-9372-ECC7E26E465D_.dita" navtitle="Disabling LDAP">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+    </topicref>
+    <mapref href="A38454BF-3025-485A-9381-3DBFB5CD4AE8_.ditamap" format="ditamap">
+      <topicmeta>
+        <navtitle>MFA</navtitle>
+      </topicmeta>
+    </mapref>
+    <topicref href="E8C722F0-6814-4E55-A1B5-DC37490D52E4_.dita" navtitle="Configuring cluster settings">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="C238E415-E83C-4F1F-92D4-E0534B601FCA_.dita" navtitle="Setting cluster full threshold">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="D3AA4130-04BD-4855-BABE-C6DB2DCBE2BF_.dita" navtitle="Enabling and disabling support access">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="EE404D52-B621-4DE5-B141-2559768FB1D0_.dita" navtitle="Enabling and disabling encryption for a cluster">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="B125C7A4-61FE-416E-BE6C-FD2B7C6E4219_.dita" navtitle="Managing Terms of Use">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="19B77E8A-9692-4E21-80DB-289D2BC3564F_.dita" navtitle="Enabling Terms of Use">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="8119952E-B4FA-4EA2-B343-969BAFCF9E52_.dita" navtitle="Editing Terms of Use">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="D678E078-96C9-45E4-941D-75413CED3BDC_.dita" navtitle="Disabling Terms of Use">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+      <topicref href="52A16B67-5C2E-4167-B5D7-FFE01CC83545_.dita" format="dita">
+        <topicmeta />
+        <topicref href="C4F63296-8428-4034-B091-19AC15A02C80_.dita" navtitle="Enabling a broadcast client">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="C06F2537-8B1C-452F-A76A-7CBF3F413731_.dita" format="dita">
+          <topicmeta />
+        </topicref>
+      </topicref>
+      <topicref href="3659E887-79B7-4270-9AE0-A51B2C9D320B_.dita" navtitle="Managing SNMP">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="6A50F48D-529C-497E-A3DD-468BA04B5F1E_.dita" navtitle="SNMP details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="C590E413-4D43-48DD-B107-ECF52A9D9E0E_.dita" navtitle="Configuring an SNMP requestor">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="DC41016C-C86D-41B9-8F90-57D15381C1D3_.dita" navtitle="Configuring an SNMP USM user">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="4DFC0F96-C9BF-4044-96C1-F0E1B25C4562_.dita" navtitle="Configuring SNMP traps">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="5159AB68-DDA6-4871-8F44-3D79A308CFF4_.dita" navtitle="Viewing management information base files">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+      <topicref href="4CB998AB-1EA5-4636-BBEA-CAF8136C9313_.dita" navtitle="Managing drives">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="A3B49E6A-0ADE-43AD-AFED-AE16C0E43CC3_.dita" navtitle="Drives details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+      <topicref href="989AB84A-49BE-4A2D-B928-84C59C2E5E9E_.dita" navtitle="Managing nodes">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="6F275AE5-26EB-4DDB-BBC5-F0FB85F8B92C_.dita" navtitle="Adding a node to a cluster">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="353F1C18-BE5A-488C-8033-7CC20C9D316A_.dita" navtitle="Node versioning and compatibility">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="D1EEF0AB-B0FF-4B23-86E7-D31403DBB450_.dita" navtitle="Cluster capacity in a mixed node environment">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="63C6957D-C58F-4036-8865-EF9A20C1493A_.dita" navtitle="Node states">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="28126107-394F-40A5-99AF-603D5F83C938_.dita" navtitle="Node details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="84E47FE7-D684-4874-B252-0A398453642D_.dita" navtitle="Viewing individual node details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+      <topicref href="05D78ECC-0437-4544-BA61-47F47629BD02_.dita" navtitle="Viewing Fibre Channel ports details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="A00CA27A-9B48-41B9-8F5E-9CDAB533390A_.dita" navtitle="Fibre Channel ports details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="C99A77D6-669D-409A-9FAE-94FECADFCC77_.dita" navtitle="Managing virtual networks">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+        <topicref href="F0B2AC65-02BE-4C6B-9DA6-E7125207FDAB_.dita" navtitle="Virtual networks details">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="3D123503-3079-4DCA-AED4-5B2EB09B8131_.dita" navtitle="Adding a virtual network">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="0446C4AD-16BF-48A7-8BC0-5181A8AD8552_.dita" navtitle="Enabling virtual routing and forwarding">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="324A19EC-6F82-46D6-87A2-82EE24FA1DEA_.dita" navtitle="Editing a virtual network">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="90C406C7-EBEA-4E78-B68B-8266A49B7A66_.dita" navtitle="Editing VRF VLANs">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+        <topicref href="DE616CE8-44AE-47FB-B721-87BA0E194806_.dita" navtitle="Deleting a virtual network">
+          <topicmeta>
+            <navtitle />
+          </topicmeta>
+        </topicref>
+      </topicref>
+    </topicref>
+    <mapref href="B4CD6F08-DD9F-4964-AE09-3C872E154B53_.ditamap" format="ditamap">
+      <topicmeta>
+        <navtitle>FIPS</navtitle>
+      </topicmeta>
+    </mapref>
+    <mapref href="1ABFDE79-621D-4A5E-9205-6ABA165C290B_.ditamap" format="ditamap">
+      <topicmeta>
+        <navtitle>External key management EKM</navtitle>
+      </topicmeta>
+    </mapref>
+  </topicref>
+</map>

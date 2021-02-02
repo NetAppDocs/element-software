@@ -1,0 +1,67 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-D6ECC8DF-1767-45DC-8AA4-BB898297A566" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B46C214A-995F-4F62-A124-BE08BA565D69">Key definitions [netapp-external-sites] NetApp at external sites</title>
+  <keydef keys="extdl-trident-main" format="html" scope="external" href="https://netapp.io/persistent-storage-provisioner-for-kubernetes/" navtitle="NetApp Trident" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>NetApp Trident</navtitle>
+      <linktext>NetApp Trident</linktext>
+      <critdates>
+        <created date="2019-10-31" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-postman" format="html" scope="external" href="https://github.com/solidfire/postman" navtitle="SolidFire Postman API testing suite" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire Postman API testing suite</navtitle>
+      <linktext>SolidFire Postman API testing suite</linktext>
+      <critdates>
+        <created date="2019-07-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-pwrshll" format="html" scope="external" href="https://github.com/solidfire/PowerShell" navtitle="SolidFire PowerShell" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire PowerShell</navtitle>
+      <linktext>SolidFire PowerShell</linktext>
+      <critdates>
+        <created date="2019-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-sfcli" format="html" scope="external" href="https://github.com/solidfire/solidfire-cli" navtitle="SolidFire Command Line Interface" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire Command Line Interface</navtitle>
+      <linktext>SolidFire Command Line Interface</linktext>
+      <critdates>
+        <created date="2019-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-sdk-java" format="html" scope="external" href="https://github.com/solidfire/solidfire-sdk-java" navtitle="SolidFire SDK Java" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire SDK Java</navtitle>
+      <linktext>SolidFire SDK Java</linktext>
+      <critdates>
+        <created date="2019-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-sdk-net" format="html" scope="external" href="https://github.com/solidfire/solidfire-sdk-dotnet" navtitle="SolidFire SDK .NET" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire SDK .NET</navtitle>
+      <linktext>SolidFire SDK .NET</linktext>
+      <critdates>
+        <created date="2019-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="extdl-github-sf-sdk-python" format="html" scope="external" href="https://github.com/solidfire/solidfire-sdk-python" navtitle="SolidFire SDK Python" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>SolidFire SDK Python</navtitle>
+      <linktext>SolidFire SDK Python</linktext>
+      <critdates>
+        <created date="2019-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+</map>

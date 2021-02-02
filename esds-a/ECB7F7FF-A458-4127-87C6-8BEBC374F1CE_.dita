@@ -1,0 +1,32 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-ECB7F7FF-A458-4127-87C6-8BEBC374F1CE" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5B8DD2F3-181E-4425-8907-31E14946B8F2">Monitor your <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters</title>
+  <shortdesc>You can monitor the performance of your <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters and view the inventory using the NetApp Hybrid Cloud Control UI. You can also collect logs for troubleshooting using the NetApp Hybrid Cloud Control UI.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds installation</keyword>
+        <keyword>hcc</keyword>
+        <keyword>hybrid cloud control</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>
+      <ul id="GUID-D79F17A1-CDDE-4A80-B896-F05A81562A49">
+        <li>
+          <xref href="https://docs.netapp.com/us-en/hci/docs/task_hcc_nodes.html" format="html" scope="external">View your inventory on the Nodes page</xref>
+        </li>
+        <li>
+          <xref href="https://docs.netapp.com/us-en/hci/docs/task_hcc_volumes.html" format="html" scope="external">Monitor volumes on your storage cluster</xref>
+        </li>
+        <li>
+          <xref href="https://docs.netapp.com/us-en/hci/docs/task_hcc_activeiq.html" format="html" scope="external">Monitor performance, capacity, and cluster health with SolidFire Active IQ</xref>
+        </li>
+        <li>
+          <xref href="47E97C7C-ABA3-4B77-963B-C1546EFF1123_.dita" format="dita" outputclass="nopagenum">Collect logs for troubleshooting</xref>
+        </li>
+      </ul>
+    </p>
+  </conbody>
+</concept>

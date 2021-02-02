@@ -1,0 +1,22 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-006EF14D-C07F-423B-A4C3-52B5E0620D1B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-1AB00E13-5AFE-4E5A-B0E4-C35DFF674DE7">Upgrade storage nodes </title>
+  <shortdesc>You can upgrade the Element software on the storage nodes of your cluster using the HealthTools suite. You can use HealthTools from a connected or dark site. You must use management node 11.0, 11.1, or later to use the latest HealthTools.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Element OS upgrade</keyword>
+        <keyword>Element software upgrade</keyword>
+        <keyword>upgrading Element software</keyword>
+        <keyword>HealthTools upgrade</keyword>
+        <keyword>sfinstall</keyword>
+        <keyword>H610S upgrade</keyword>
+        <keyword>H410S upgrade</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>To update your Element storage as part of an end-to-end system upgrade, follow the upgrade sequence for your system: <xref format="html" href="https://docs.netapp.com/us-en/hci/docs/concept_hci_upgrade_overview.html" scope="external">NetApp Documentation: Upgrades overview</xref></p>
+    <note type="important" id="GUID-60E0E4CE-F745-4EB1-A910-D2E4E15E868D">If you are upgrading an H610S series node to Element 12.0 or later, there are additional steps required to complete the storage upgrade for each node. See the following topic for H610S procedures: <xref format="html" href="https://docs.netapp.com/us-en/hci/docs/task_hcc_upgrade_element_software.html" scope="external">NetApp Documentation: Upgrade Element Storage</xref></note>
+  </conbody>
+</concept>

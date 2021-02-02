@@ -1,0 +1,59 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-8649E738-2E67-4A31-9CA5-AF2DDB60CE50" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-54783437-40BE-48CD-A78F-03D2E8B1FC45">Mini CM: Element OS API RG: Response examples</title>
+  <topicref href="2E6022BD-C30C-4D28-9AB6-07480A1EF641_.dita" navtitle="Response examples">
+    <topicmeta>
+      <navtitle>Response examples</navtitle>
+    </topicmeta>
+    <topicref href="8CFD2FB5-B7CF-4EEB-B011-29BE7D4DEB68_.dita" navtitle="GetConfig">
+      <topicmeta>
+        <navtitle>Response example (GetConfig)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2355359A-8644-4729-95D7-7AE0DDAB7DE2_.dita" navtitle="GetClusterHardwareInfo">
+      <topicmeta>
+        <navtitle>Response example (GetClusterHardwareInfo)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6F730BE7-9B4B-4C7D-A238-5C74E071EA49_.dita" format="dita" navtitle="SolidFire Element API RG: Response Example (GetLldpInfo)">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: Response Example (GetLldpInfo)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B55106BE-47BF-4304-9770-5A33545ECA7C_.dita" navtitle="GetNetworkConfig">
+      <topicmeta>
+        <navtitle>Response example (GetNetworkConfig)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4DC573AD-40D9-499B-82E3-B4B2B4D4F7B9_.dita" navtitle="GetNodeHardwareInfo (output for iSCSI)">
+      <topicmeta>
+        <navtitle>Response example (GetNodeHardwareInfo - iSCSI)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="C733FB76-5DD0-40B7-B613-50932FCB326C_.dita" navtitle="GetNodeHardwareInfo (output for Fibre Channel nodes)">
+      <topicmeta>
+        <navtitle>Response example (GetNodeHardwareInfo - Fibre Channel)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="C418CAF1-551F-46F5-AB0C-D9DE39C697F0_.dita" navtitle="GetNvramInfo">
+      <topicmeta>
+        <navtitle>Response example (GetNvramInfo)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2A439CB9-9EFE-4B98-98D3-04AB4BE45E61_.dita" navtitle="ListActiveNodes">
+      <topicmeta>
+        <navtitle>Response example (ListActiveNodes)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="527B3CAF-1676-4CC6-9BBB-71D9C41EAABC_.dita" navtitle="ListActiveVolumes">
+      <topicmeta>
+        <navtitle>Response example (ListActiveVolumes)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0CC08B83-BC66-4B4B-805A-0B24EB1530F4_.dita" navtitle="TestHardwareConfig">
+      <topicmeta>
+        <navtitle>Response example (TestHardwareConfig)</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

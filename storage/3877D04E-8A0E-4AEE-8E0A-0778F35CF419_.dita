@@ -1,0 +1,40 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-3877D04E-8A0E-4AEE-8E0A-0778F35CF419" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-FC383D15-8543-44C3-98CD-07E7E9A311D4">Cloning a volume from a snapshot</title>
+  <shortdesc> You can create a new volume from a snapshot of a volume. When you do this, the system uses the snapshot information to clone a new volume using the data contained on the volume at the time the snapshot was created. This process stores information about other snapshots of the volume in the newly created volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume snapshots<indexterm>cloning volumes from</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-EE76F7C0-EA5C-4735-BB36-E6238D1F0363">
+      <step id="STEP_F724F812C74C471D9A35670931065624">
+        <cmd>Click <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Snapshots</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_AC9F678444254CE5A7159C88F41B6361">
+        <cmd>Click the Actions icon for the snapshot you want to use for the volume clone.</cmd>
+      </step>
+      <step id="STEP_02E20D22253245EA9BC2AD95C9D7C54E">
+        <cmd> In the resulting menu, click <uicontrol>Clone Volume From Snapshot</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_241C8D2C3C564C1A9A15CAC5F62858FC">
+        <cmd>Enter a <uicontrol>Volume Name</uicontrol> in the <uicontrol>Clone Volume From Snapshot</uicontrol> dialog box.</cmd>
+      </step>
+      <step id="STEP_F666491B702340C68BBA01F9FA7B652B">
+        <cmd>Select a <uicontrol>Total Size</uicontrol> and size units for the new volume.</cmd>
+      </step>
+      <step id="STEP_B10FD4851D36440BA2905F5A5E41C44C">
+        <cmd>Select an <uicontrol>Access</uicontrol> type for the volume.</cmd>
+      </step>
+      <step id="STEP_ABB6DC3B57234C8990FCC75664DF0D9F">
+        <cmd>Select an <uicontrol>Account</uicontrol> from the list to associate with the new volume.</cmd>
+      </step>
+      <step id="STEP_CBA48A4A64F644BE859FA2406D94B39F">
+        <cmd>Click <uicontrol>Start Cloning</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

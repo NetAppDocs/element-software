@@ -1,0 +1,60 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-895E8AF1-A89F-4553-8193-A43EF89E1537" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E2344224-C3AA-42A5-9843-DE6126D56957">Request object members</title>
+  <shortdesc>Each Element software API request has the following basic parts: </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>request</keyword>
+        <keyword>object</keyword>
+        <keyword>members</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-4171B017-9732-4104-BDB6-92009E3DB12F">
+      <table id="TABLE_FD622AB4FFE84AE39AAA29571A20CDCB">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.48*" />
+          <colspec colnum="3" colname="col3" colwidth="1.15*" />
+          <colspec colnum="4" colname="col4" colwidth="1.31*" />
+          <colspec colname="col5" colnum="5" colwidth="1.08*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value</entry>
+              <entry colname="col5">Required</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">method</entry>
+              <entry colname="col2">Name of the method to be invoked.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">parameters</entry>
+              <entry colname="col2">Object containing the parameters to the method being invoked. Named parameters are required. Positional parameters (passed as an array) are not allowed.</entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">{}</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">id</entry>
+              <entry colname="col2">Identifier used to match the request to response, returned in the result.
+</entry>
+              <entry colname="col3">string or integer</entry>
+              <entry colname="col4">{}</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

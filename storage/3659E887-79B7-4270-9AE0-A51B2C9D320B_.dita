@@ -1,0 +1,16 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-3659E887-79B7-4270-9AE0-A51B2C9D320B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-BBC72521-1F0A-43F3-9B1C-625DD6D2C023">Manage SNMP</title>
+  <shortdesc>You can configure Simple Network Management Protocol (SNMP) in your cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SNMP<indexterm>managing</indexterm><indexterm>configuring</indexterm></indexterm>
+        <indexterm>MIB files<indexterm>viewing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>You can select an SNMP requestor, select which version of SNMP to use, identify the SNMP User-based Security Model (USM) user, and configure traps to monitor the SolidFire cluster. You can also view and access management information base files.<note id="GUID-4F03E663-F9EF-45C2-81A8-368A8C381CE9">You can use both IPv4 and IPv6 addresses.</note></p>
+  </conbody>
+</concept>

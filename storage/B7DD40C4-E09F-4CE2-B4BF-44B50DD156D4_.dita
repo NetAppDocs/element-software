@@ -1,0 +1,38 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-B7DD40C4-E09F-4CE2-B4BF-44B50DD156D4" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4A974514-F67A-443A-84DC-C7FE6CB7F2FF">Delete a virtual volume</title>
+  <shortdesc>Although virtual volumes should always be deleted from the VMware Management Layer, the functionality for you to delete virtual
+volumes is enabled from the Element UI. You should only delete a virtual volume from the Element UI when absolutely necessary, such as when vSphere fails to clean up virtual volumes on SolidFire storage.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>virtual volumes<indexterm>using the Element UI to delete a VVol</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-950BBBD5-DCC2-434A-87A3-13C48B4B2A50">
+      <step id="STEP_D1D07BD8B35A4C90ADDC1964C0FA40BA">
+        <cmd>Select <menucascade><uicontrol>VVols</uicontrol><uicontrol>Virtual Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_424E9272334D4925BA2718C78E45011E">
+        <cmd>Click the Actions icon for the virtual volume you want to delete.</cmd>
+      </step>
+      <step id="STEP_C5B71BBFA7BA4F53B19FF65212E20A41">
+        <cmd>In the resulting menu, select <uicontrol>Delete</uicontrol>.</cmd>
+        <info>
+          <note type="attention" id="GUID-F25A4E32-33A0-46B9-9DF2-737C5FFF51E5">You should delete a virtual volume from the VMware Management Layer to ensure that the virtual volume is properly unbound before deletion. You should only delete a virtual volume from the Element UI when absolutely necessary, such as when vSphere fails to clean up virtual volumes on SolidFire storage. If you delete a virtual volume from the Element UI, the volume will be purged immediately.</note>
+        </info>
+      </step>
+      <step id="STEP_1AE5544D2B4842B5BE0D440F1C64E49D">
+        <cmd>Confirm the action.</cmd>
+      </step>
+      <step id="STEP_3F8E9CDA12B74856B2A167552F32ADE3">
+        <cmd>Refresh the list of virtual volumes to confirm that the virtual volume has been removed.</cmd>
+      </step>
+      <step id="STEP_AADF9BC19ECB4C07A6B8E736212417D7" importance="optional">
+        <cmd importance="optional">Select <menucascade><uicontrol>Reporting</uicontrol><uicontrol>Event Log</uicontrol></menucascade> to confirm that the purge has been successful.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

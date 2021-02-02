@@ -1,0 +1,40 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-297560F5-8882-459A-B7DB-AE3023DB5B93" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Cluster Admins details</title>
+  <shortdesc>On the <wintitle>Cluster Admins</wintitle> page of the <wintitle>Users</wintitle> tab, you can view the following information. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster admin</keyword>
+        <indexterm>cluster administrator accounts<indexterm>details</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <dl>
+        <dlentry id="GUID-CAF0A282-1A8F-493C-93CB-AA02E8F3F615">
+          <dt>ID</dt>
+          <dd>Sequential number assigned to the cluster administrator account.</dd>
+        </dlentry>
+        <dlentry id="GUID-96B15FEF-E3A8-498F-AD1C-46BD02EA1582">
+          <dt>Username</dt>
+          <dd>The name given to the cluster administrator account when it was created.</dd>
+        </dlentry>
+        <dlentry id="GUID-B8511722-70D7-4D7D-9B85-028DBB6DC9DB">
+          <dt>Access</dt>
+          <dd>The user permissions assigned to the user account. Possible values:<ul id="UL_2CD7AAA79EBF449DA8C84C6376811D7B"><li id="LI_EC72078DD7644204A1D4C67991156C98">read</li><li id="LI_B5A7956DD01644F0BA569D79C2C4EC89">reporting</li><li id="LI_CB82C72243474302B2146EEFB9A55450">nodes</li><li id="LI_70C55B1992D74A46836D0F6C5924CB6A">drives</li><li id="LI_9C973CCA03D14949B0CFBA87B137EB98">volumes</li><li id="LI_C74C22DDCED646B3B5041A09D444D9D7">accounts</li><li id="LI_6302803A5DB34075BAAAAD6D92442B47">clusterAdmins</li><li id="LI_74A2835AB7524E6A8623D634BF549F21">administrator</li></ul><note id="GUID-89F20499-4C78-421D-A535-862D847DB336">All permissions are available to the administrator access type.</note></dd>
+        </dlentry>
+        <dlentry id="GUID-F475AF82-D5F2-43CB-8B49-0587588F015A">
+          <dt>Type</dt>
+          <dd>The type of cluster administrator. Possible values:
+<ul id="UL_27468646898F4E2E9E16DA8AF0D10FCD"><li id="LI_9D3423469036401893885ABA602575CB">Cluster</li><li id="LI_9ECBF49DEE5B46E58D9EF8517295E2D7">Ldap</li></ul></dd>
+        </dlentry>
+        <dlentry id="GUID-B6B7B1ED-DE07-40C9-9332-BF755D0683E9">
+          <dt>Attributes</dt>
+          <dd> If the cluster administrator account was created using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API, this column shows any name-value pairs that were set using that method. See  the <cite>NetApp Element  Software API Reference Guide</cite>.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-036F5935-4E4F-4E58-8B8E-2F780CD4A939" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-03AED386-0FB7-4EC4-A719-6FBADE9B0FA2">Edit active volumes</title>
+  <shortdesc>You can modify volume attributes such as QoS values, volume size, and the unit of measurement in which byte values are calculated. You can also modify account access for replication usage or to restrict access to the volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volumes<indexterm>editing volume settings</indexterm><indexterm>changing volume size</indexterm><indexterm>changing volume QoS</indexterm><indexterm>changing volume access mode</indexterm><indexterm>changing associated account for a volume</indexterm><indexterm>changing volume access</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-4FBDEE52-895E-49D2-BCAB-4BDB93474A98">
+      <p>You can resize a volume when there is sufficient space on the cluster under the following conditions: <ul id="UL_3E1386C451A54897B7D72FDC9D4DB3AB"><li id="LI_3B5740A48F3C47049BF70253201B1EDD">Normal operating conditions.</li><li id="LI_481F6E59BE2C422FBD0AEC08A41AB301">Volume errors or failures are being reported.</li><li id="LI_AF7BE355CBE946C99359C779DF2B0A30">The volume is being cloned.</li><li id="LI_5AF7BBEFB8F6485A89D968626FBAB161">The volume is being resynced.</li></ul></p>
+    </context>
+    <steps id="GUID-D59F67CC-D90A-4837-BABA-B3A65C56A822">
+      <step id="STEP_1B6F13BAD15545438F48A62B7FEBC6A9">
+        <cmd>Select  <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_D1310C37DDFB4EBF87338D4835EE4E3E">
+        <cmd>In the <uicontrol>Active</uicontrol> window, click the Actions icon for the volume you want to edit.</cmd>
+      </step>
+      <step id="STEP_2E1CBE8868334632B4033CBB3DEF9F6F">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_1FE0A3050656461EB7885F0A8BB3D177" importance="optional">
+        <cmd>Change the total size of the volume.</cmd>
+        <info>
+          <note id="GUID-D2111955-2730-4B8B-8B88-6599CEF26AFF">
+            <ul id="UL_3749F2FB7E704810A108DF91E0AF5AB7">
+              <li id="LI_1019CF74E4E24B45B63DB06DFDA5F211">You can increase, but not decrease, the size of the volume. You can only resize one volume in a single resizing operation. Garbage collection operations and software upgrades do not interrupt the resizing operation.</li>
+              <li id="LI_5BC057979C114B328D4FD6AFACFD143D">If you are adjusting volume size for replication, you should first increase the size of the volume assigned as the replication target. Then you can resize the source volume. The target volume can be greater or equal in size to the source volume, but it cannot be smaller.</li>
+            </ul>
+          </note>
+          <note conref="469EA388-6B36-4721-A7CD-E5BF52B69C66_.dita#GUID-469EA388-6B36-4721-A7CD-E5BF52B69C66/GUID-B2DDE438-2CCB-4297-BC7C-BC63F0F7E3FC" id="GUID-9C229D9B-2A5F-49E6-8F49-558B3463E131" />
+        </info>
+      </step>
+      <step id="STEP_A6C48DA022F54EF2864467365F9BF56E" importance="optional">
+        <cmd>Select a different account access level of one of the following:</cmd>
+        <choices id="CHOICES_61A7FFDAF9BF4523B9EEE4650BBAADDC">
+          <choice id="CHOICE_3AD3DD262C3843EAAA53E68A66B51264">Read Only</choice>
+          <choice id="CHOICE_D24EE3915E0C433C9801892033287FA3">Read/Write</choice>
+          <choice id="CHOICE_D12D29B3CB494F048BE490C4B3DD8CCC">Locked</choice>
+          <choice id="CHOICE_32510F1474B543F78CF51CBA4643C73F">Replication Target</choice>
+        </choices>
+      </step>
+      <step importance="optional" id="STEP_21406CBC768740E8B515CEB84183886F">
+        <cmd>Select the account that should have access to the volume.</cmd>
+        <info>If the account does not
+exist, click the <uicontrol>Create Account</uicontrol> link, enter a new account name, and click <uicontrol>Create</uicontrol>. The account is created and associated with
+the volume.</info>
+        <info>
+          <note id="GUID-030AE018-B5C4-49DC-971C-999CB2B84DCC">If there are more than 50 accounts, the list does not appear. Begin typing and the auto-complete function displays possible values for you to choose.</note>
+        </info>
+      </step>
+      <step id="STEP_5B6390EB476F44DE98EC243EB4674C3C" importance="optional">
+        <cmd>To change the selection in  <uicontrol>Quality of Service</uicontrol>, do  one of  the following:</cmd>
+        <substeps id="SUBSTEPS_DB224325FEE242EEBF2D7231E26A9D4F">
+          <substep id="SUBSTEP_0E7EC84C88C64632BEA7D9D79DD85CD9">
+            <cmd>Under <uicontrol>Policy</uicontrol>, you can select an existing QoS policy, if available.</cmd>
+          </substep>
+          <substep id="SUBSTEP_258B8B8B9E1247E7B5BB73B5EEFBBD67">
+            <cmd>Under <uicontrol>Custom Settings</uicontrol>, set customized minimum, maximum, and burst values for IOPS or use the default QoS values.</cmd>
+            <info>
+              <note id="GUID-8E729F53-E5B3-4362-9290-CFEF2A57DA08">If you are using QoS policies on a volume, you can set custom QoS to remove the QoS policy affiliation with the volume. Custom QoS will override and adjust QoS policy values for volume QoS settings.</note>
+              <note id="GUID-5910C617-8274-45F6-9FCE-462547515B4D" type="tip">When you change IOPS values, you should increment in tens or hundreds. Input values require valid whole numbers.</note>
+              <note type="tip" id="GUID-E0D751FC-A1B8-47CB-8A3C-B419D9C19761">Configure volumes with an extremely high burst value. This allows the system to process occasional large block sequential workloads more quickly, while still constraining the sustained IOPS for a volume.</note>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_D0CA085AC7504A798828E1E01AC9F605">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-84E47FE7-D684-4874-B252-0A398453642D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-920EA0AB-71F3-4FC9-9EEC-106D7B629DA1"> View individual node details</title>
+  <shortdesc>You can view details for individual nodes such as service tags, drive details, and graphics for utilization and drive statistics. The <wintitle>Nodes</wintitle> page of the <wintitle>Cluster</wintitle> tab provides the <wintitle>Version</wintitle> column where you can view the software version of each node.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>nodes<indexterm>viewing details for individual</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-F80EF774-E9C2-402C-8500-7AE4674DCE86">
+      <step id="STEP_5BD78C78BC8D429196E72CCED50677DE">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Nodes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_4B85FFD77B264444B4D7228EF94479BD">
+        <cmd>Click the Actions icon for a node.</cmd>
+      </step>
+      <step id="STEP_14C559ED53694C3DB599838C678E88C8">
+        <cmd>Click <uicontrol>View Details</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

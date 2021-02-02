@@ -1,0 +1,15 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-5D26E692-461D-4C48-B294-44E57D79C70E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-53A427BE-A4D4-4EB9-ADF7-9267781B14E1">Use basic options in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software UI</title>
+  <shortdesc>The <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> web user interface (<ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI) enables you to monitor and perform common tasks on your SolidFire system. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-2F15D819-43E9-45B9-BB0F-EA7D725B4CEB">
+      <p>You can search for information with filters, sort lists, see API commands activated by UI activity, and provide feedback. </p>
+    </context>
+  </taskbody>
+</task>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-1A1A6D81-2378-47F1-B20F-79D107EC8B87" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A6413AFF-6FD2-4FF9-B32B-212BFF5F5D22">View system alerts</title>
+  <shortdesc>You can view alerts for information about cluster faults or errors in the system. Alerts can be information, warnings, or  errors and are a good indicator of how well the cluster is running. Most errors resolve themselves automatically. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>alerts<indexterm>viewing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="CONTEXT_0998FBC10A32485DB58EEE90C6411691">
+      <p>You can use the <apiname>ListClusterFaults</apiname> API method to automate alert monitoring. This enables you to be notified about all alerts that occur.</p>
+    </context>
+    <steps id="GUID-256E48BE-C300-4EED-BA13-68016D1092DD">
+      <step id="STEP_5138FCD257F74FD9BA03B03A7F8C4E0F">
+        <cmd>In the Element UI, select <menucascade><uicontrol>Reporting</uicontrol><uicontrol>Alerts</uicontrol></menucascade>.</cmd>
+        <info>The system refreshes the alerts on the page every 30 seconds.</info>
+        <info>For every event, you see the following information:<table id="TABLE_41CD4B542D8C4A7896A24410F9071755"><tgroup cols="2"><colspec colnum="1" colname="col1" colwidth="1.00*" /><colspec colnum="2" colname="col2" colwidth="2.07*" /><thead><row><entry colname="col1">Item</entry><entry colname="col2">Description</entry></row></thead><tbody><row><entry colname="col1">ID</entry><entry colname="col2">Unique ID associated with a cluster alert. </entry></row><row><entry colname="col1">Severity</entry><entry colname="col2">The degree of importance of the alert. Possible values:<ul id="UL_0B9A745166A64462AEAC415FFCFFD6EE"><li id="LI_902832C25F5341C08389C3A85CB94EED">warning: A minor issue that might soon require attention. System upgrades are still allowed.</li><li id="LI_CBA2E8E6FE084AFF8E5512407F18F0CC">error: A failure that might cause performance degradation or loss of high availability (HA). Errors generally should not affect service otherwise.</li><li id="LI_1C15A3BF8FF5403694D0C5A2BB333602">critical: A serious failure that affects service. The system is unable to serve API or client I/O requests. Operating in this state could lead to potential loss of data.</li><li id="LI_D8EBF2518C4744529C16980BD062FAB6">bestPractice: A recommended system configuration best practice is not being used.</li></ul></entry></row><row><entry colname="col1">Type</entry><entry colname="col2">The component that the fault affects. Can be node, drive, cluster, service, or volume.</entry></row><row><entry colname="col1">Node</entry><entry colname="col2">Node ID for the node that this fault refers to. Included for node and drive faults, otherwise set to - (dash). </entry></row><row><entry colname="col1">Drive ID</entry><entry colname="col2">Drive ID for the drive that this fault refers to. Included for drive faults, otherwise set to - (dash).</entry></row><row><entry colname="col1">Error Code</entry><entry colname="col2">A descriptive code that indicates what caused the fault.</entry></row><row><entry colname="col1">Details</entry><entry colname="col2">A description of the fault with additional details.</entry></row><row><entry colname="col1">Date</entry><entry colname="col2">The date and time the fault was logged.</entry></row></tbody></tgroup></table></info>
+      </step>
+      <step id="STEP_EF9B9A2736D3491F945B2383B9DC9ECE">
+        <cmd>Click <uicontrol>Show Details</uicontrol> for an individual alert to view information about the alert.</cmd>
+      </step>
+      <step id="STEP_409F87FC18A34D11A6BB4C89B5E06276">
+        <cmd>To view the details of all alerts on the page, click the Details column.</cmd>
+        <info>After the system resolves an alert, all information about the alert including the date it was resolved is moved to the Resolved area. </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

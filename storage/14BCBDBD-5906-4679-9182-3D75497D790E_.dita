@@ -1,0 +1,35 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-14BCBDBD-5906-4679-9182-3D75497D790E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5FE37C26-C1AE-4491-9751-DED228E9F3E6"> Remove MDSS drives</title>
+  <shortdesc>You can remove the multi-drive slice service (MDSS) drives. This procedure applies only if the node has multiple slice drives.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>MDSS drives<indexterm>removing</indexterm></indexterm>
+        <indexterm>multi-drive slice service</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-24A57ABC-E43C-493C-825B-69D9C5A07CB2">
+      <note id="GUID-88CF7924-00EE-4EE2-9445-10B9EC4D84B4">If the system slice drive and the slot 2 drive fail, the system will shutdown slice services and remove the drives. If there is no failure and you remove the drives, both drives must be removed at the same time.</note>
+    </context>
+    <steps id="GUID-67CEBC6F-2352-43E3-BD67-47A0C9B99662">
+      <step id="STEP_375C73825BE24C54A15C5B93D8F44F53">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Drives</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_2E733F0E7A634985AA8470D7D522F6B6">
+        <cmd>From the <uicontrol>Available</uicontrol> drives tab, click the check box for the slice drives being removed.</cmd>
+      </step>
+      <step id="STEP_3DE0E2F1CC5C43B493A3199461E5B0AF">
+        <cmd>Click <uicontrol>Bulk Actions</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_C14460C94D06438185A1248C0C7AEA2F">
+        <cmd>Click <uicontrol>Remove</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_92E1A9DC3B0B4D238E8FA0BF6B0FB5E5">
+        <cmd>Confirm the action.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

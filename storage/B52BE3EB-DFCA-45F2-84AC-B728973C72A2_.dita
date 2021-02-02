@@ -1,0 +1,35 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-B52BE3EB-DFCA-45F2-84AC-B728973C72A2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0B8BAD3D-BC1F-4342-B9D5-EB19DDB3961D">Assign LUNs to Fibre Channel volumes</title>
+  <shortdesc>You can change the LUN assignment for a Fibre Channel volume in a volume access group. You can also make Fibre Channel volume LUN assignments when you create a volume access group.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volumes<indexterm>assigning LUNs to Fibre Channel volumes</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-59A9A405-6666-4149-8A89-F0BB9FB74D9C">Assigning new Fibre Channel LUNs is an advanced function and could have unknown consequences on the connecting host. For example, the new LUN ID might not be automatically discovered on the host, and the host might require a rescan to discover the new LUN ID.</context>
+    <steps id="GUID-FC8F61BF-6503-4FD6-9FD3-A6B3204EFC05">
+      <step id="STEP_B10780EBFFEE42A08BB44ABC474A9842">
+        <cmd>Select  <menucascade><uicontrol>Management </uicontrol><uicontrol>Access Groups</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_B2707B31B3844E3CAAEEC599D27D5D94">
+        <cmd>Click the Actions icon for the access group you want to edit.</cmd>
+      </step>
+      <step id="STEP_B9780DD0F27C4969A9EF4AE62E676DA8">
+        <cmd>In the resulting menu, select<uicontrol> Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_0F55FA0622A743A192911F4C33098F8E">
+        <cmd>Under <uicontrol>Assign LUN IDs</uicontrol> in the <uicontrol>Edit Volume Access Group</uicontrol> dialog box, click the arrow on the <uicontrol>LUN Assignments</uicontrol> list.</cmd>
+      </step>
+      <step id="STEP_0915706506C34631A3F59D0696057582">
+        <cmd>For each volume in the list that you want to assign a LUN to, enter  a new value in the corresponding <uicontrol>LUN</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_56694B28C6724F5C99217384075CECD0">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

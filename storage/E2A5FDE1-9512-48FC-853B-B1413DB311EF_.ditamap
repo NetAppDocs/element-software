@@ -1,0 +1,144 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-E2A5FDE1-9512-48FC-853B-B1413DB311EF" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-46C5BE78-122F-4A58-B901-8AC957680FFF">SolidFire Element UG: Minimap: System monitoring and troubleshooting</title>
+  <topicref href="B98B2215-0E35-4342-BD3E-33027D9DA64B_.dita" navtitle="System monitoring and troubleshooting">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="E8E2F836-B719-40BF-8232-B3566A842083_.dita" navtitle="Viewing information about system events">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="B663F514-A0E1-4F6B-9080-4DA5609F6C33_.dita" navtitle="Event types">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="C805436C-33C2-44A5-A1AF-8B943E7F883C_.dita" navtitle="Viewing status of running tasks">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="1A1A6D81-2378-47F1-B20F-79D107EC8B87_.dita" navtitle="Viewing system alerts">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="548D6BB2-6BA0-4F16-B07D-BE2CE39A3238_.dita" navtitle="Cluster fault codes">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="32649DC2-C82E-4DA4-ACBB-1CB4601969B8_.dita" navtitle="Viewing node performance activity">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="B5DD1692-90DF-4AF1-9697-6815599220DA_.dita" navtitle="Viewing volume performance">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="A7AE4958-8BD7-435E-BA68-8ED2F7B1650E_.dita" navtitle="Volume performance details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="EA9D7B3E-B4D2-42E9-86F0-5DE75A761920_.dita" navtitle="Viewing iSCSI sessions">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="25909752-DFAE-4FEC-ACB2-3B460696BB88_.dita" navtitle="iSCSI session details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="13D5C36A-6F78-4FA1-B9D8-3054710B387C_.dita" navtitle="Viewing Fibre Channel sessions">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="B64C5E50-4FA1-49A4-BB3E-5542B471A6C0_.dita" navtitle="Fibre Channel session details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="A2242CC9-626F-41DC-B2C3-DB009114E3FE_.dita" navtitle="Troubleshooting drives">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="7CCA8AAA-4791-4A8F-B575-1FB0D05C1D3C_.dita" navtitle="Removing failed drives from the cluster">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="CC6E54F4-9630-4487-BC7D-392BA6C09628_.dita" navtitle="Basic MDSS drive troubleshooting">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="13A02C7B-022D-44A1-BE85-3A8D681B873C_.dita" navtitle="Adding MDSS drives">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="14BCBDBD-5906-4679-9182-3D75497D790E_.dita" navtitle="Removing MDSS drives">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="E5BA4651-FEB2-4541-8D7B-7D4D533D96E2_.dita" navtitle="Troubleshooting nodes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="171C0AA5-8F6E-4EAC-8BB6-FC942B9922ED_.dita" navtitle="Powering down a cluster">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="29C85E35-0E86-4BA9-90B5-9640F2F2AD94_.dita" navtitle="Working with per-node utilities">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="35DD1677-05FE-4396-9654-343137102D3D_.dita" navtitle="Accessing per-node settings">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="566AFF21-A13E-45AF-96CC-BC06874F3B95_.dita" navtitle="Per-node network settings details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="D1FC9552-82D3-4A8F-93DE-E69C5F75BFE5_.dita" navtitle="Per-node cluster settings details">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="7CCCA323-A7E4-4E2E-9A8D-30731177C1D1_.dita" navtitle="Running system tests">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="27467275-D9F2-4179-966D-531AE63B7A53_.dita" navtitle="Running system utilities from the per-node UI">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+    </topicref>
+    <topicref href="529DF679-E933-44F5-A856-4A4F6FC662BD_.dita" format="dita" navtitle="SolidFire Element UG: (GH redirect) Working with the management node">
+      <topicmeta>
+        <navtitle>SolidFire Element UG: (GH redirect) Working with the management node</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="58E03E89-C183-4E23-B9B4-8D466210E8B4_.dita" navtitle="Understanding cluster fullness levels">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

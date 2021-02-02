@@ -1,0 +1,85 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-159006C6-CD3D-4CC1-961F-33AB3689254C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetOntapVersionInfo</title>
+  <shortdesc>The <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> web UI uses <apiname>GetOntapVersionInfo</apiname> to get information about API version support from the ONTAP cluster in a SnapMirror relationship.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>ontap</keyword>
+        <keyword>version</keyword>
+        <keyword>info</keyword>
+        <keyword>information</keyword>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>api</keyword>
+        <keyword>support</keyword>
+        <keyword>getontapversioninfo</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.22*" />
+          <colspec colnum="2" colname="col2" colwidth="1.99*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.06*" />
+          <colspec colname="col5" colnum="5" colwidth="1.30*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">If provided, the system lists the version information from the endpoint with the specified snapMirrorEndpointID. If not provided, the system lists the version information of all known SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_873C7F4900E844F6BC96D6171089D47D">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.28*" />
+          <colspec colnum="2" colname="col2" colwidth="1.00*" />
+          <colspec colnum="3" colname="col3" colwidth="1.55*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">ontapVersionInfo</entry>
+              <entry colname="col2">The software version information of the ONTAP endpoint.</entry>
+              <entry colname="col3">
+                <xref href="1EE3C81D-A086-41E9-98F1-587FE3CFDF18_.dita" outputclass="nopagenum">ontapVersionInfo</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-F90C5507-AF2C-4D04-AC98-1D220CC717C9">
+      <title id="GUID-5CC8FF99-6EFE-4B2F-864C-97BA74C64E70">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

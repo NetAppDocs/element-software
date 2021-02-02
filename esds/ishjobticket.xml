@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<job-specification combinelanguages="no" comparewitholderversion="no">
+  <parameter name="FMAPID">GUID-5E9B6023-7172-4D11-9AC6-F273D52722FC</parameter>
+  <parameter name="FPUBINCLUDECOMMENTS"></parameter>
+  <parameter name="FPUBINCLUDEMETADATA"></parameter>
+  <parameter name="FPUBWATERMARK"></parameter>
+  <parameter name="MODIFIED-ON">02/02/2021 08:45:54</parameter>
+  <parameter name="FISHPUBREVIEWENDDATE"></parameter>
+  <parameter name="FISHPUBLNGCOMBINATION">en</parameter>
+  <parameter name="FISHOUTPUTFORMATREF">Catalyst Test</parameter>
+  <parameter name="FISHPUBSTATUS">Pending</parameter>
+  <parameter name="FISHPUBLISHER">bmegan</parameter>
+  <parameter name="FNETAPPDRAFT"></parameter>
+  <parameter name="FNETAPPSHOWDRAFTCOMMENTS"></parameter>
+  <parameter name="FISHEMAIL">bmegan@netapp.com</parameter>
+  <parameter name="outputformat">Catalyst Test</parameter>
+  <parameter name="required-resolution">Low, High, Source</parameter>
+  <parameter name="output-fileextension">zip</parameter>
+  <parameter name="export-document-type">ISHPublication</parameter>
+  <parameter name="export-document-level">lng</parameter>
+  <parameter name="export-document">GUID-5E9B6023-7172-4D11-9AC6-F273D52722FC</parameter>
+  <parameter name="event-identifier">PUBLISH IECMS05 20210202084554641 2121232610</parameter>
+  <parameter name="event-name">PUBLISH</parameter>
+  <parameter name="start-date">20210202084606</parameter>
+  <parameter name="publisher">bmegan</parameter>
+  <parameter name="email-address">bmegan@netapp.com</parameter>
+  <parameter name="export-report">GUID-5E9B6023-7172-4D11-9AC6-F273D52722FC.report.xml</parameter>
+  <parameter name="export-ishlngref">2538444</parameter>
+  <parameter name="releasecandidate">no</parameter>
+  <parameter name="autocomplete-versions-using-language">en</parameter>
+  <parameter name="export-start-document">GUID-15F523D4-AF2E-4B8C-81C2-DEF8E7BE6226</parameter>
+  <parameter name="export-resources">GUID-995FC0C5-D9D5-4D65-8D52-AC9DEF059811, GUID-B01AC38A-19B3-4560-A16A-9EB688C59C9E, GUID-DA95F911-6E09-4585-84A8-285D0683A551, GUID-5E03C380-AAFC-4A6E-B825-769F14457F9D</parameter>
+  <parameter name="baseline-name">SolidFire eSDS Install Guide-v5-GUID-5E9B6023-7172-4D11-9AC6-F273D52722FC-2021/01/28 16:44:56</parameter>
+  <parameter name="export-path">C:\InfoShare\Data\Publish\Data\qavdb0e2g4h\work\5\en</parameter>
+  <parameter name="resourcelanguage">en</parameter>
+  <parameter name="language">en</parameter>
+  <parameter name="hyperlink-separator">#</parameter>
+  <parameter name="documenttitle">SolidFire eSDS Install Guide</parameter>
+</job-specification>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-E74A9E45-C8ED-46B4-925B-134B0A4F67F2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EE1C8622-0873-4611-A69B-DDA3AF868AAD">Configure a Fibre Channel node</title>
+  <shortdesc> Fibre Channel nodes enable you to connect the cluster to a Fibre Channel network fabric.  Fibre Channel nodes are added in pairs, and operate in active-active mode (all  nodes actively process traffic for the cluster). Clusters running  <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software version 9.0 and later support up to four  nodes; clusters running previous versions support a maximum of two  nodes. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Fibre Channel nodes<indexterm>configuring</indexterm></indexterm>
+        <indexterm>FC nodes<indexterm>configuring</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>You must ensure that the following conditions are met before you configure a Fibre Channel node:<ul id="UL_2101598F0C8C47878997C6BFCE20E52A"><li id="LI_2C2DB53C830B4C52BE426BB410856990">At least two Fibre Channel nodes are connected to Fibre Channel switches.</li><li id="LI_C39A74867B184AE0B9F145DB5E1BA9EA">All SolidFire Fibre Channel ports should be connected to your Fibre Channel fabric. The four SolidFire Bond10G network connections should be connected in one LACP bond group at the switch level. This will enable the best overall performance from the Fibre Channel systems.</li><li>Review and validate all best practices for Fibre Channel clusters included in this <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> Knowledge Base article.<p><xref href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/SolidFire_FC_cluster_best_practice" format="html" scope="external">SolidFire FC cluster best practice</xref></p></li></ul></p>
+    <p>Network and cluster configuration steps are the same for Fibre Channel nodes and storage nodes.</p>
+    <p>When you create a new  cluster with   Fibre Channel nodes and  SolidFire storage nodes, the worldwide port name (WWPN) addresses for the  nodes are available in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI. You can use the WWPN addresses to zone the  Fibre Channel switch. </p>
+    <p>WWPNs are registered in the  system when you create a new cluster with  nodes. In the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI, you can find the WWPN addresses from the WWPN column of the <wintitle>FC Ports</wintitle> tab, which you access from the <wintitle>Cluster</wintitle> tab. </p>
+  </conbody>
+</concept>

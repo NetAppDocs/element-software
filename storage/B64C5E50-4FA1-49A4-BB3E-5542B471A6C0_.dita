@@ -1,0 +1,53 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-B64C5E50-4FA1-49A4-BB3E-5542B471A6C0" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Fibre Channel session details</title>
+  <shortdesc>You can find information about the active Fibre Channel (FC) sessions that are connected to the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Fibre Channel sessions<indexterm>information about</indexterm></indexterm>
+        <indexterm>FC sessions<indexterm>information about</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>The following list describes the information you can find about the FC sessions connected to the cluster:</p>
+      <dl>
+        <dlentry id="GUID-13C9907C-13EC-49B3-8486-79A00451B54E">
+          <dt>Node ID</dt>
+          <dd>The  node hosting the session for the connection.</dd>
+        </dlentry>
+        <dlentry id="GUID-4A686B3A-3F6F-4DD2-8859-2D1FF2FC0BE9">
+          <dt>Node Name</dt>
+          <dd>System-generated node name. </dd>
+        </dlentry>
+        <dlentry id="GUID-0BF1E2AA-7908-4399-ABA6-AEF9EE145BDF">
+          <dt>Initiator ID</dt>
+          <dd>A system-generated ID for the initiator.</dd>
+        </dlentry>
+        <dlentry id="GUID-93AD1335-DD07-4532-BED4-57EDF5E445CF">
+          <dt>Initiator WWPN</dt>
+          <dd>The initiating worldwide port name.  </dd>
+        </dlentry>
+        <dlentry id="GUID-E6155F1A-9BAC-46DB-B14D-45E17BEF1F8A">
+          <dt>Initiator Alias</dt>
+          <dd>An optional name for the initiator that makes finding the initiator easier when in a long list.</dd>
+        </dlentry>
+        <dlentry id="GUID-7E4971DA-331F-41D3-95CE-D9378A89B579">
+          <dt>Target WWPN</dt>
+          <dd>					The target worldwide port name.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-D53705A0-18AB-46F7-A3E5-121C7D98B234">
+          <dt>Volume Access Group</dt>
+          <dd>Name of the volume access group that the session belongs to.</dd>
+        </dlentry>
+        <dlentry id="GUID-02DD60B7-0742-4F8B-8AC1-2D0D165391C0">
+          <dt>Volume Access Group ID</dt>
+          <dd>System-generated ID for the access group.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

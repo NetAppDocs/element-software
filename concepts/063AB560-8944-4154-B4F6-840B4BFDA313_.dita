@@ -1,0 +1,39 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-063AB560-8944-4154-B4F6-840B4BFDA313" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B96FA3C6-D59A-4611-AF54-637AC4DE51E4">Cloud services on <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph></title>
+  <shortdesc>With <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph>, a hybrid cloud infrastructure that serves as a deployment engine supporting <ph conref="ISH_variables.dita#variables/NTAP-KUBERNETES-SVC">NetApp Kubernetes Service</ph>, you can set up a cloud native development pipeline quickly and easily.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>While there are many <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> cloud services, the following lists only those services that you can use with <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph>. </p>
+    <p>You can find trials of these products and information on <ph conref="ISH_variables.dita#variables/NTAP-CLOUD-CENT">NetApp Cloud Central</ph>. </p>
+    <p>
+      <xref scope="external" href="https://cloud.netapp.com/home" />
+    </p>
+    <dl>
+      <dlentry id="GUID-5B72BEC9-7C93-43C0-B0D8-071DA9D19E37">
+        <dt>
+          <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph>
+          <ph conref="ISH_variables.dita#variables/CLOUD-INSIGHTS">Cloud Insights</ph>
+        </dt>
+        <dd>Enables you to monitor, troubleshoot, and optimize cost across all resources including public clouds and private data centers. <p>Using <ph conref="ISH_variables.dita#variables/CLOUD-INSIGHTS">Cloud Insights</ph>, you can visualize your topology with automated discovery to see end-to-end service paths. You’ll know how your systems are performing and being used. When a performance-level violation is detected, you get data to help you determine the root cause of the violation.</p><p>You can also identify unused or abandoned resources. Knowing the performance requirements of your applications helps you identify when they might be overprovisioned. </p><p><ph conref="ISH_variables.dita#variables/CLOUD-INSIGHTS">Cloud Insights</ph> monitors <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> storage system performance, throughput, capacity, and IOPs by using a specfic <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> data collector. </p></dd>
+      </dlentry>
+      <dlentry id="GUID-83167B65-758D-4D21-8E1A-23E9389A48E3">
+        <dt>
+          <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph>
+          <ph conref="ISH_variables.dita#variables/CLOUD-VOLS-SVC">Cloud Volumes Service</ph>
+        </dt>
+        <dd>Enables you to move workloads and applications to the cloud and manage them. As a fully managed file service, <ph conref="ISH_variables.dita#variables/CLOUD-VOLS-SVC">Cloud Volumes Service</ph>  supports NFS, SMB, or dual protocol support; you do not need to manage Windows or Linux servers just to provide file services. <p><ph conref="ISH_variables.dita#variables/CLOUD-VOLS-SVC">Cloud Volumes Service</ph> provides shared persistent storage with high throughput and low latency. </p><p>When deployed with <ph conref="ISH_variables.dita#variables/NTAP-KUBERNETES-SVC">NetApp Kubernetes Service</ph>, <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> clusters appear in <ph conref="ISH_variables.dita#variables/CLOUD-VOLS-SVC">Cloud Volumes Service</ph>. </p></dd>
+      </dlentry>
+      <dlentry id="GUID-C44F1683-5C88-491F-A931-8292927EE208">
+        <dt>
+          <ph conref="ISH_variables.dita#variables/NTAP-KUBERNETES-SVC">NetApp Kubernetes Service</ph>
+        </dt>
+        <dd>Enables you to create a Kubernetes cluster quickly, run and manage your cloud infrastructure with <ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> as the provider, deploy cloud-based microservices, and simplify your DevOps workflow. <p><ph conref="ISH_variables.dita#variables/NTAP-HCI">NetApp HCI</ph> can be deployed using <ph conref="ISH_variables.dita#variables/NTAP-KUBERNETES-SVC">NetApp Kubernetes Service</ph> and communicates with the service in the cloud. </p></dd>
+      </dlentry>
+    </dl>
+  </conbody>
+</concept>

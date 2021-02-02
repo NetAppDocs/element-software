@@ -1,0 +1,44 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-DB172D9B-3DB4-4CD7-8639-387B34733139" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1D9EA0D-FD71-42EB-A4F0-09D1AFBFED4D">Mini CM: Element OS API RG: Common methods</title>
+  <topicref href="E31FF616-A034-46C5-8953-BEF6D1A095A8_.dita" navtitle="Common methods">
+    <topicmeta>
+      <navtitle>Common methods</navtitle>
+    </topicmeta>
+    <topicref href="15DDDB47-3109-477F-8552-9A84B798149F_.dita" navtitle="GetAPI">
+      <topicmeta>
+        <navtitle>GetAPI</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DBBED90A-A128-4BFE-9001-ED93C62DBAFB_.dita" navtitle="GetAsyncResult">
+      <topicmeta>
+        <navtitle>GetAsyncResult</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F8296E0C-CCE0-4C1C-9906-7B9C498A7D5B_.dita" navtitle="GetCompleteStats">
+      <topicmeta>
+        <navtitle>GetCompleteStats</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="C2228C86-B02C-47D0-9AEE-AFBAF7F6A1F8_.dita" navtitle="GetLimits">
+      <topicmeta>
+        <navtitle>GetLimits</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="808D5F2A-E367-450C-A61C-56032E4025AA_.dita" navtitle="GetOrigin">
+      <topicmeta>
+        <navtitle>GetOrigin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3684189D-28A5-4B41-ABAB-B3B83B7A8E96_.dita" navtitle="GetRawStats">
+      <topicmeta>
+        <navtitle>GetRawStats</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8443A939-9E40-4B46-BB6A-FCA2C9196A99_.dita" navtitle="ListAsyncResults">
+      <topicmeta>
+        <navtitle>ListAsyncResults</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

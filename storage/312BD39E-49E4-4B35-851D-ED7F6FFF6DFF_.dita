@@ -1,0 +1,22 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-312BD39E-49E4-4B35-851D-ED7F6FFF6DFF" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-BAD19ED9-A10C-4495-A9FD-AC13CAEFD115"> Fibre Channel nodes</title>
+  <shortdesc>SolidFire Fibre Channel nodes provide connectivity to a Fibre Channel switch, which you can connect to Fibre Channel clients. Fibre Channel nodes act as a protocol converter between the Fibre Channel and iSCSI protocols; this enables you to add Fibre Channel connectivity to any new or existing SolidFire cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Fibre Channel nodes</indexterm>
+        <indexterm>nodes<indexterm>Fibre Channel</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>Fibre Channel nodes have the following characteristics:</p>
+    <ul id="UL_913B516FCF3B4F33BF83060C8D038553">
+      <li id="LI_951289F3D0E94884BD7A84CA9B5C1A3D">Fibre Channel switches manage the state of the fabric, providing optimized interconnections.</li>
+      <li id="LI_71E2C01DC58D490192E0E645ABF5608B">The traffic between two ports flows through the switches only; it is not transmitted to any other port.</li>
+      <li id="LI_B3901B25A5D34A4899145431ED493CEC">Failure of a port is isolated and does not affect operation of other ports.</li>
+      <li id="LI_DF14D4EAE60E4F10B52BD95E31640F10">Multiple pairs of ports can communicate simultaneously in a fabric.</li>
+    </ul>
+  </conbody>
+</concept>

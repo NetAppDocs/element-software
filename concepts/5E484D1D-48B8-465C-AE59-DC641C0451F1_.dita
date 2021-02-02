@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-5E484D1D-48B8-465C-AE59-DC641C0451F1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E398B155-8A83-42AB-8E59-F123DE239C6C">Snapshot-only replication</title>
+  <shortdesc>Snapshot-only data protection replicates changed data at specific points of time to a remote cluster. Only those snapshots that are created on the source cluster are replicated. Active writes from the source volume are not. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>You can set the frequency of the snapshot replications. </p>
+    <p>Snapshot replication does not affect asynchronous or synchronous replication. </p>
+  </conbody>
+</concept>

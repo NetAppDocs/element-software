@@ -1,0 +1,44 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-FA8DB8C7-9299-4C01-84E5-55FD75FEAB46" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EF37C592-ECA5-4C17-A2F0-D6D8315B02FB"> Sort lists</title>
+  <shortdesc>You can sort list information by one or more criteria on certain pages in the Element UI. This helps you arrange the information you need on the screen.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Element UI<indexterm>sorting lists</indexterm><indexterm>sorting information</indexterm><indexterm>using sort criteria</indexterm><indexterm>sorting on single column</indexterm><indexterm>sorting on multiple columns</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-CC8D4FFD-6A4F-48CF-9B4C-EE034B6FFA6F">
+      <step id="STEP_180926F9CF5E4093967F148B48E999BF">
+        <cmd>To sort on a single column, click the column heading until the information is sorted in the desired order.</cmd>
+      </step>
+      <step id="STEP_C17489BB20854B4781C69B6A2B65EDD6">
+        <cmd>To sort using multiple columns, click the column heading for each column you want to sort by until the information in each column is sorted in the desired order.</cmd>
+        <info>
+          <p>The Sort button appears when you sort using multiple columns.</p>
+        </info>
+      </step>
+      <step id="STEP_5B26F8C7507047FAA14C5094E9C1923F">
+        <cmd>To reorder the sort criteria, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_334ECC6A5DAE48F78DBC633EC0BDEAA7">
+          <substep id="SUBSTEP_A4D12B015CC54B27BBC8139C8EF7ECE2">
+            <cmd>Click <uicontrol>Sort</uicontrol>.</cmd>
+            <info>The system populates the Sort By field with your column selections.</info>
+          </substep>
+          <substep id="SUBSTEP_D4522336512D47DE896E9C314279EEAD">
+            <cmd>Arrange the columns in the Sort By field in the order you want the list to be sorted.</cmd>
+            <info>The system sorts the list information.</info>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_D45FD3499B6F47038640D7379ABF57F9">
+        <cmd>To remove a single sort criterion, click the <uicontrol>Remove</uicontrol> icon next to the name of a sort criteria.</cmd>
+      </step>
+      <step id="STEP_2AABF0DDF8BE48949CA125358CBCFB5B" importance="optional">
+        <cmd> To remove all sort criteria, click <uicontrol>Clear All</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

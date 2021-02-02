@@ -1,0 +1,139 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-E8D4159B-E617-4ADE-91F2-83A93216F023" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListVolumeAccessGroups</title>
+  <shortdesc>You can use the <apiname>ListVolumeAccessGroups</apiname> method to get information about the volume access groups that are currently in the system. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>access</keyword>
+        <keyword>group</keyword>
+        <keyword>groups</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listvolumeaccessgroups</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_DF663FD2692D4B0E9711C63602ACBDFE">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.73*" />
+          <colspec colnum="2" colname="col2" colwidth="1.94*" />
+          <colspec colnum="3" colname="col3" colwidth="1.13*" />
+          <colspec colnum="4" colname="col4" colwidth="1.15*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>limit</parmname>
+              </entry>
+              <entry colname="col2">Maximum number of volumeAccessGroup objects to return. Mutually exclusive with the <parmname>volumeAccessGroups</parmname> parameter.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">Unlimited</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>startVolumeAccessGroupID</parmname>
+              </entry>
+              <entry colname="col2">The volume access group ID at which to begin the listing. Mutually exclusive with the <parmname>volumeAccessGroups</parmname> parameter.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">0</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeAccessGroups</parmname>
+              </entry>
+              <entry colname="col2">List of volumeAccessGroupID values to retrieve. Mutually exclusive with the <parmname>startVolumeAccessGroupID</parmname> and <parmname>limit</parmname> parameters. </entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">[]</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_B951BC9C8818445FADECE482F7A3960D">
+      <title id="GUID-F626A1E1-FE89-4149-A42A-97BA7B22E408">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_97E205A64986432382CFB165D83E5F4C">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.16*" />
+          <colspec colnum="2" colname="col2" colwidth="1.00*" />
+          <colspec colnum="3" colname="col3" colwidth="1.08*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">volumeAccessGroups</entry>
+              <entry colname="col2">A list of objects describing each volume access group.</entry>
+              <entry colname="col3">
+                <xref href="983B6CF9-007D-4728-8EEA-934F45B236D6_.dita" outputclass="nopagenum">volumeAccessGroup</xref> array</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeAccessGroupsNotFound</entry>
+              <entry colname="col2">A list of volume access groups not found by the system. Present if you used the <parmname>volumeAccessGroups</parmname> parameter and the system was unable to find one or more volume access groups that you specified.</entry>
+              <entry colname="col3">integer array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ListVolumeAccessGroups",
+   "params": {
+      "startVolumeAccessGroupID": 3,
+      "limit"   : 1
+   },
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "volumeAccessGroups": [
+      {
+        "attributes": {},
+        "deletedVolumes": [],
+        "initiatorIDs": [],
+        "initiators": [],
+        "name": "example1",
+        "volumeAccessGroupID": 3,
+        "volumes": []
+      }
+    ]
+  }
+}
+</codeblock>
+    </section>
+    <section id="GUID-04300C15-D9AA-4333-8CCA-FDA32D95022A">
+      <title id="GUID-524CC598-E28D-4AF1-ACAB-27B8357FA8A4">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

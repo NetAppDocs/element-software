@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-17BD44BD-E201-4D0F-9B51-416E4FFCFA53" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-92AB2E3A-36FA-4C0A-A72F-036F94894763">Enable the FIPS drives feature</title>
+  <shortdesc>You can enable the FIPS drives feature by using the <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> EnableFeature API method. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>fips</keyword>
+        <keyword>security</keyword>
+        <keyword>federal information processing standards</keyword>
+        <keyword>140-2</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-4C9F61C8-1DF9-4FA4-8724-33D10EC64CD3">
+      <p>Encryption at Rest must be enabled on the cluster and all nodes and drives must be FIPS capable, as indicated when the <cmdname>GetFipsReport</cmdname> displays a Ready status for all nodes.</p>
+    </prereq>
+    <steps id="GUID-347EAC2F-4D21-4383-BEFE-A88E5B5CCE60">
+      <step>
+        <cmd>Using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API, enable FIPS on all drives by entering:  </cmd>
+        <info>
+          <userinput outputclass="linebreak">EnableFeature params: FipsDrives</userinput>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

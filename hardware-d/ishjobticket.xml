@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<job-specification combinelanguages="no" comparewitholderversion="no">
+  <parameter name="FMAPID">GUID-6547DBA0-E5E1-45AB-9869-C47160A6DE4A</parameter>
+  <parameter name="FPUBINCLUDECOMMENTS"></parameter>
+  <parameter name="FPUBINCLUDEMETADATA"></parameter>
+  <parameter name="FPUBWATERMARK"></parameter>
+  <parameter name="MODIFIED-ON">02/02/2021 09:13:09</parameter>
+  <parameter name="FISHPUBREVIEWENDDATE"></parameter>
+  <parameter name="FISHPUBLNGCOMBINATION">en</parameter>
+  <parameter name="FISHOUTPUTFORMATREF">Catalyst Test</parameter>
+  <parameter name="FISHPUBSTATUS">Pending</parameter>
+  <parameter name="FISHPUBLISHER">bmegan</parameter>
+  <parameter name="FNETAPPDRAFT"></parameter>
+  <parameter name="FNETAPPSHOWDRAFTCOMMENTS"></parameter>
+  <parameter name="FISHEMAIL">bmegan@netapp.com</parameter>
+  <parameter name="outputformat">Catalyst Test</parameter>
+  <parameter name="required-resolution">Low, High, Source</parameter>
+  <parameter name="output-fileextension">zip</parameter>
+  <parameter name="export-document-type">ISHPublication</parameter>
+  <parameter name="export-document-level">lng</parameter>
+  <parameter name="export-document">GUID-6547DBA0-E5E1-45AB-9869-C47160A6DE4A</parameter>
+  <parameter name="event-identifier">PUBLISH IECMS05 20210202091309229 1183236330</parameter>
+  <parameter name="event-name">PUBLISH</parameter>
+  <parameter name="start-date">20210202091317</parameter>
+  <parameter name="publisher">bmegan</parameter>
+  <parameter name="email-address">bmegan@netapp.com</parameter>
+  <parameter name="export-report">GUID-6547DBA0-E5E1-45AB-9869-C47160A6DE4A.report.xml</parameter>
+  <parameter name="export-ishlngref">2538843</parameter>
+  <parameter name="releasecandidate">yes</parameter>
+  <parameter name="autocomplete-versions-using-language">en</parameter>
+  <parameter name="export-start-document">GUID-E3C246CC-F8E5-4E33-A9BA-6C19B94D64D8</parameter>
+  <parameter name="export-resources">GUID-995FC0C5-D9D5-4D65-8D52-AC9DEF059811, GUID-22B98CC6-0C68-4F6E-8242-CBF0680F04A3, GUID-B01AC38A-19B3-4560-A16A-9EB688C59C9E</parameter>
+  <parameter name="baseline-name">H410S replacement for SolidFire clusters-v3-GUID-6547DBA0-E5E1-45AB-9869-C47160A6DE4A-2021/01/29 17:47:57</parameter>
+  <parameter name="export-path">C:\InfoShare\Data\Publish\Data\ru0hlym5pc5\work\3\en</parameter>
+  <parameter name="resourcelanguage">en</parameter>
+  <parameter name="language">en</parameter>
+  <parameter name="hyperlink-separator">#</parameter>
+  <parameter name="documenttitle">H410S replacement for SolidFire clusters</parameter>
+</job-specification>

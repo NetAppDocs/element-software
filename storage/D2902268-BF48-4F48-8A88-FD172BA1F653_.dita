@@ -1,0 +1,22 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-D2902268-BF48-4F48-8A88-FD172BA1F653" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4AF40DE4-CA3A-4F48-83ED-BBCEC19D38CC">Additional information for Multi-factor authentication</title>
+  <shortdesc>You should be aware of the following caveats in relation to multi-factor authentication.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>
+      <ul id="GUID-594707F2-786F-4A7A-BF3C-36C7B69550B8">
+        <li>In order to refresh IdP certificates that are no longer valid, you will need to use a non-IdP admin user to call the following API method: <userinput outputclass="linebreak">UpdateIdpConfiguration</userinput></li>
+        <li>MFA is incompatible with certificates that are less than 2048 bits in length. By default, a 2048-bit SSL certificate is created on the cluster. You should avoid setting a smaller sized certificate when calling the API method: <userinput outputclass="linebreak">SetSSLCertificate</userinput><note id="GUID-4E580C9B-E0CB-4ED7-BBB8-864E50FEC489">If the cluster is using a certificate that is less than 2048 bits pre-upgrade, the cluster certificate must be updated with a 2048-bit or greater certificate after upgrade to Element 12.0 or later.</note></li>
+        <li>IdP admin users cannot be used to make API calls directly (for example, via SDKs or Postman) or used for other integrations (for example, OpenStack Cinder or vCenter Plug-in). Add either LDAP cluster admin users or local cluster admin users if you need to create users that have these abilities.</li>
+      </ul>
+    </p>
+  </conbody>
+  <related-links>
+    <link keyref="sfe-api" />
+  </related-links>
+</concept>

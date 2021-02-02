@@ -1,0 +1,24 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-1ABFDE79-621D-4A5E-9205-6ABA165C290B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9EBED61F-73E0-4376-BC0B-014591C3496A">SoldiFire Element UG: Mini map: External Key Management (EKM)</title>
+  <topicref collection-type="sequence" outputclass="workflow" href="057D852C-9C1C-458A-9161-328EDA349B00_.dita">
+    <topicmeta>
+      <navtitle>External Key Management</navtitle>
+    </topicmeta>
+    <topicref href="081AC07F-AB53-4894-A6F0-B69EFD534853_.dita">
+      <topicmeta>
+        <navtitle>Setting up External Key Management</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="191E91CB-7028-4486-888E-BE26F8AC8801_.dita">
+      <topicmeta>
+        <navtitle>Recovering inaccessible or invalid Authentication Keys</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A376CBFB-DCF3-42C2-A291-9E581AED5037_.dita">
+      <topicmeta>
+        <navtitle>EKM API Commands</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,167 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-0F179C97-93BF-44D2-A5B0-478516DA1BBF" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">StartBulkVolumeRead</title>
+  <shortdesc>You can use the <apiname>StartBulkVolumeRead</apiname> method to start a bulk volume read session on a specified volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>read</keyword>
+        <keyword>session</keyword>
+        <keyword>start</keyword>
+        <keyword>starting</keyword>
+        <keyword>bulk</keyword>
+        <keyword>startbulkvolumeread</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_B86DC8F3B2974D14AC66B8C65AA07E54">
+      <p>Only two bulk volume processes can run simultaneously on a volume. When you initialize the session, data is read from a  SolidFire storage volume to be stored on an external backup source. The external data is accessed by a web server running on an <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> storage node. Server interaction information for external data access is passed by a script running on the storage system. </p>
+      <p>At the start of a bulk volume read operation, a snapshot of the volume is made and the snapshot is deleted when the read has completed. You can also read a snapshot of the volume by entering the ID of the snapshot as a parameter. When you read a previous snapshot, the system does not create a new snapshot of the volume, nor does it delete the previous snapshot when the read completes.<note id="GUID-5A44B979-CE29-4332-806F-AE5B7E695856">This process creates a new snapshot if the ID of an existing snapshot is not provided. Snapshots can be created if cluster fullness is at stage 2 or 3. Snapshots are not created when cluster fullness is at stage 4 or 5.</note></p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.89*" />
+          <colspec colnum="2" colname="col2" colwidth="2.30*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.08*" />
+          <colspec colname="col5" colnum="5" colwidth="1.11*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>format</parmname>
+              </entry>
+              <entry colname="col2">The format of the volume data. Can be either:<ul id="UL_88466518BB344CACB7758C0C4BD9113E"><li id="LI_3D9F24FBC878403F930B2D456F37E011"><option>uncompressed</option>: Every byte of the volume is returned without any compression.</li><li id="LI_D942AFB74BA44DDB9564734449264596"><option>native</option>:  Opaque data is returned that is smaller and more efficiently stored and written on a subsequent bulk volume write.</li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeID</parmname>
+              </entry>
+              <entry colname="col2">The ID of the volume to be read.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>snapshotID</parmname>
+              </entry>
+              <entry colname="col2">The ID of a previously created snapshot used for bulk volume reads. If no ID is entered, a snapshot of the current active volume image is made.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>script</parmname>
+              </entry>
+              <entry colname="col2">The name of an executable script. If no script name is given, the key and URL are necessary to access <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> storage nodes. The script is run on the primary node, and the key and URL are returned to the script so the local web server can be contacted.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>scriptParameters</parmname>
+              </entry>
+              <entry colname="col2">JSON parameters to pass to the script.</entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>attributes</parmname>
+              </entry>
+              <entry colname="col2">JSON attributes for the bulk volume job.</entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">asyncHandle</entry>
+              <entry colname="col2">The ID of the asynchronous process to be checked for completion.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">key</entry>
+              <entry colname="col2">Opaque key uniquely identifying the session.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">url</entry>
+              <entry colname="col2">URL to access the node's web server.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "StartBulkVolumeRead",
+   "params": {
+      "volumeID" : 5,
+      "format"  : "native",
+      "snapshotID" : 2
+   },
+   "id": 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+      "id" : 1,
+   "result" : {
+      "asyncHandle" : 1,
+      "key" : "11eed8f086539205beeaadd981aad130",
+      "url" : "https://127.0.0.1:44000/"
+   }
+}</codeblock>
+    </section>
+    <section id="GUID-F6BBD65F-5668-41F0-80D3-9E7F1EAF7584">
+      <title id="GUID-DCB54D4D-28E3-4B27-B775-59F8DA642A61">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

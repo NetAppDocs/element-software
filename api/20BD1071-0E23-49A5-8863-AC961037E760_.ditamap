@@ -1,0 +1,132 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-20BD1071-0E23-49A5-8863-AC961037E760" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6687079D-4F57-40BB-BE16-B483E451E28F">Key definitions [ netapp-doc-sfe-all | eclipse | external-scoped ] SolidFire publication keys for SolidFire Doc Center</title>
+  <keydef keys="sfe-rn" scope="external" format="html" href="https://library.netapp.com/ecmdocs/ECMLP2864256/html/frameset.html" navtitle="NetApp Element Release Notes" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>NetApp Element Release Notes</navtitle>
+      <linktext>NetApp Element Release Notes</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-cseries" scope="external" format="pdf" href="https://www.netapp.com/us/media/solidfire-isi-web.pdf" navtitle="Installing and setting up the C-series hardware" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing and setting up the C-series hardware</navtitle>
+      <linktext>Installing and setting up the C-series hardware</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-sfnodes-isi" scope="external" format="pdf" href="https://www.netapp.com/us/media/netapp-solidfire-10-getting-started-guide.pdf" navtitle="Installing and setting up the SF-series hardware" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing and setting up the SF-series hardware</navtitle>
+      <linktext>Installing and setting up the SF-series hardware</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-fcnodes-isi" scope="external" format="pdf" href="https://www.netapp.com/us/media/netapp-solidfire-fibre-channel-getting-started-guide.pdf" navtitle="Installing and setting up the Fibre Channel nodes" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing and setting up the Fibre Channel nodes</navtitle>
+      <linktext>Installing and setting up the Fibre Channel nodes</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sf-isi-poster" scope="external" format="pdf" href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2856174" navtitle="NetApp H-Series Element Storage Nodes Installation and Setup Instructions" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>NetApp H-Series Element Storage Nodes Installation and Setup
+                Instructions</navtitle>
+      <linktext>NetApp H-Series Element Storage Nodes Installation and Setup
+                Instructions</linktext>
+      <critdates>
+        <created date="2019-02-05" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-concepts" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-117/topic/com.netapp.doc.sfe-concepts/home.html" navtitle="Understanding SolidFire storage system concepts" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Understanding SolidFire storage system concepts</navtitle>
+      <linktext>Understanding SolidFire storage system concepts</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-sg" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-sg/home.html" navtitle="Setting up storage with Element software" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Setting up storage with Element software</navtitle>
+      <linktext>Setting up storage with Element software</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-ug" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-ug/home.html" navtitle="Managing storage with Element software" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Managing storage with Element software</navtitle>
+      <linktext>Managing storage with Element software</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-api" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html" navtitle="Managing storage with the Element API" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Managing storage with the Element API</navtitle>
+      <linktext>Managing storage with the Element API</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-mg-mn" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-mg-mn/home.html" navtitle="Configuring system settings using the management node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Configuring system settings using the management node</navtitle>
+      <linktext>Configuring system settings using the management node</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-mg-vcp" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-mg-vcp/home.html" navtitle="Managing storage with the Element Plug-in for vCenter Server" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Managing storage with the Element Plug-in for vCenter Server</navtitle>
+      <linktext>Managing storage with the Element Plug-in for vCenter Server</linktext>
+      <critdates>
+        <created date="2019-01-28" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-ssdrepl" scope="external" otherprops="keyscope-external" format="html" href="../com.netapp.doc.sfe-ssdrepl/home.html" navtitle="Replacing drives for SolidFire storage nodes" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing drives for SolidFire storage nodes</navtitle>
+      <linktext>Replacing drives for SolidFire storage nodes</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-psurepl" scope="external" otherprops="keyscope-external" format="html" href="../com.netapp.doc.sfe-psurepl/home.html" navtitle="Replacing a failed power supply unit in a SolidFire chassis" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a failed power supply unit in a SolidFire chassis</navtitle>
+      <linktext>Replacing a failed power supply unit in a SolidFire chassis</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="sfe-chassrepl" scope="external" otherprops="keyscope-external" format="html" href="../com.netapp.doc.sfe-chassrepl/home.html" navtitle="Replacing a failed SolidFire chassis" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a failed SolidFire chassis</navtitle>
+      <linktext>Replacing a failed SolidFire chassis</linktext>
+      <critdates>
+        <created date="2019-04-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+</map>

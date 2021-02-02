@@ -1,0 +1,78 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-710A86B5-0591-444C-BDB1-99C153E59AC8" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B549C1B0-E59C-46E0-AFDD-3B8D09A18AFD"> Restore a volume from backup on a SolidFire storage cluster</title>
+  <shortdesc>You can restore a volume from a backup on a SolidFire storage cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume backups<indexterm>restoring from a SolidFire storage cluster</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-B81B4112-F344-438C-80E0-5865D888650A">
+      <p>When backing up or restoring from one cluster to another, the system generates a key to be used as authentication between the clusters. This bulk volume write key allows the source cluster to authenticate with the destination cluster, providing a level of security when writing to the destination volume. As part of the backup or restore process, you need to generate a bulk volume write key from the destination volume before starting the operation.</p>
+    </context>
+    <steps id="GUID-662EF94E-7B43-4BBB-AD59-2506557CD537">
+      <step id="STEP_4D3B05FB83A54FAA80A0AB6E31E306AA">
+        <cmd>On the destination cluster, click <menucascade><uicontrol>Management </uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_2D5754D4B22F43F182F5655B04BCD4A6">
+        <cmd>Click the Actions icon for the volume you want to restore.</cmd>
+      </step>
+      <step id="STEP_6DD1C511B7FE4C719FF0377628313577">
+        <cmd>In the resulting menu, click <uicontrol>Restore from</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_5381712FD1964C9CA6D083847693D7A5">
+        <cmd>In the <uicontrol>Integrated Restore</uicontrol> dialog box, under <uicontrol>Restore from</uicontrol>, select <uicontrol>SolidFire</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_15A28CD502E845AC8F8EE68C3E3D9478">
+        <cmd>Select the option that matches the backup under <uicontrol>Data Format</uicontrol>:</cmd>
+        <info>
+          <ul id="UL_8C94B0D7EA574501862C3A172BD4ACE5">
+            <li id="LI_B547C819ADF24BF8934074B89EF77B2A">
+              <uicontrol>Native</uicontrol>: A compressed format readable only by SolidFire storage systems.</li>
+            <li id="LI_3AB7D8647AE54F43AA28F60242B60E27">
+              <uicontrol>Uncompressed</uicontrol>: An uncompressed format compatible with other systems.</li>
+          </ul>
+        </info>
+      </step>
+      <step id="STEP_8B886059C1454DC8BB268754698E059F">
+        <cmd>Click <uicontrol>Generate Key</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_FCB9D867B8EB490AA24951D7C9331A92">
+        <cmd>Copy the <uicontrol>Bulk Volume Write Key</uicontrol> information to the clipboard.</cmd>
+      </step>
+      <step id="STEP_29576EF59A8D443B830538B16B149232">
+        <cmd>On the source cluster, click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_2B822AEB9ADB488BA77367EC13566E7D">
+        <cmd>Click the Actions icon for the volume you want to use for the restore.</cmd>
+      </step>
+      <step id="STEP_BF9B5F9616F144CEAEDC70B79EDF3094">
+        <cmd>In the resulting menu, click <uicontrol>Backup to</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D31F2F6BA0CF4E40AADD02C8724E8AFF">
+        <cmd>In the <uicontrol>Integrated Backup</uicontrol> dialog box, select <uicontrol>SolidFire</uicontrol> under <uicontrol>Backup to</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_B44BC7326F4E4E64A9FFF604B338B949">
+        <cmd>Select the option that matches the backup under <uicontrol>Data Format</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_389951156B7F4833B12FADE8197264AE">
+        <cmd>Enter the management virtual IP address of the destination volume's cluster in the <uicontrol>Remote Cluster MVIP</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_72C4E25AA58941478F113BBF300F93ED">
+        <cmd>Enter the remote cluster user name in the <uicontrol>Remote Cluster Username</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_4DA28D6C6C0E472E9E643DD16DF4056B">
+        <cmd>Enter the remote cluster password in the <uicontrol>Remote Cluster Password</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_39468431AF5F42848750CA761A0C06D5">
+        <cmd>Paste the key from your clipboard into the <uicontrol>Bulk Volume Write Key</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_1F5804A786C7494FB93E290237A58DB1">
+        <cmd>Click <uicontrol>Start Read</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-D78904F7-46D5-4CB8-B7A1-18A54FABB7D4" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Snapshots overview</title>
+  <shortdesc>A volume snapshot is a point-in-time copy of a volume. You can use snapshots to roll a volume back to the state it was in at the time the snapshot was created.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapshot</keyword>
+        <keyword>overview</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p> You can group volume snapshots together so that related volumes can be backed up or rolled back in a consistent manner.  A group snapshot captures a point-in-time image of all volume slice files. You can then use the image to roll back a group of volumes to a point-in-time state and ensure that all data is consistent across all volumes in the group. </p>
+    <p> You can schedule volume snapshots to occur autonomously at defined intervals. You can define intervals by time, days of the week, or days of the month. You can also use scheduled snapshots to ensure snapshots are backed up to remote storage for archiving purposes.</p>
+  </conbody>
+</concept>

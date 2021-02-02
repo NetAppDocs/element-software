@@ -1,0 +1,48 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-1B9B1F3F-2B72-4BA3-B57F-CC10599AB995" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0A1E4202-B9AD-43BB-B6DB-F551E10D3DA8">Set up multi-factor authentication</title>
+  <shortdesc>You can use these basic steps via the Element API to set up your cluster to use multi-factor authentication. Details of each API method can be found in the Element API Reference Guide. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>idp json</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-ECE9CEA3-522D-4F6A-884A-5298DB22839F">
+      <step>
+        <cmd>Create a new third-party Identity Provider (IdP) configuration for the cluster by calling the following API method and passing the IdP metadata in JSON format: <userinput outputclass="linebreak">CreateIdpConfiguration</userinput></cmd>
+        <info>
+          <p>IdP metadata, in plain text format, is retrieved from the third-party IdP. This metadata needs to be validated to ensure that it is correctly formatted in JSON. There are numerous JSON formatter applications available that you can use, for example:<xref format="html" href="https://freeformatter.com/json-escape.html" scope="external" />.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Retrieve cluster metadata, via spMetadataUrl, to copy to the third-party IdP by calling the following API method: <userinput outputclass="linebreak">ListIdpConfigurations</userinput></cmd>
+        <info>
+          <p>spMetadataUrl is a URL used to retrieve service provider metadata from the cluster for the IdP in order to establish a trust relationship.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Configure SAML assertions on the third-party IdP to include the “NameID” attribute to uniquely identify a user for audit logging and for Single Logout to function properly.</cmd>
+      </step>
+      <step>
+        <cmd>Create one or more cluster administrator user accounts authenticated by a third-party IdP for authorization by calling the following API method:<userinput outputclass="linebreak">AddIdpClusterAdmin</userinput></cmd>
+        <info>
+          <p>
+            <note id="GUID-F2DEF161-7865-424B-A8CB-EF4B39D6FA85">The username for the
+                            IdP cluster Administrator should match the SAML attribute Name/Value
+                            mapping for the desired effect, as shown in the following examples:<ul id="GUID-01339955-4C3B-4D51-8CD0-68ACD24F37D9"><li>email=bob@company.com – where the IdP is configured
+                                    to release an email address in the SAML attributes.</li><li>group=cluster-administrator - where the IdP is
+                                    configured to release a group property in which all users should
+                                    have access.</li></ul>Note that the SAML attribute Name/Value pairing is case-sensitive
+                            for security purposes.</note>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>Enable MFA for the cluster by calling the following API method: <userinput outputclass="linebreak">EnableIdpAuthentication</userinput></cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

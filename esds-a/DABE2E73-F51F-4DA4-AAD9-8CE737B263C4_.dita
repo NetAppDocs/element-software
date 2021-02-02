@@ -1,0 +1,25 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-DABE2E73-F51F-4DA4-AAD9-8CE737B263C4" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B82E720D-40D4-4B08-A10C-FC1A3AE0745F">Maintain systems running <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph></title>
+  <shortdesc>This includes using the maintenance mode and replacing drives in your <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> system. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>solidfire esds</keyword>
+        <keyword>volumes</keyword>
+        <keyword>accounts</keyword>
+        <keyword>snapshots</keyword>
+        <keyword>virtual volumes</keyword>
+        <keyword>remote replication</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-FD3553AF-F315-48F3-AA8C-8E52989547C8">
+      <p>
+        <note id="GUID-4D60CBBB-F3D9-436A-ADE5-D59B500B963B">Hardware replacement is the responsibility of the customer or server vendor.</note>
+      </p>
+    </section>
+  </refbody>
+</reference>

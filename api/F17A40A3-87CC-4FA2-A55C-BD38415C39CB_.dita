@@ -1,0 +1,115 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F17A40A3-87CC-4FA2-A55C-BD38415C39CB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListAllNodes</title>
+  <shortdesc>You can use the <apiname>ListAllNodes</apiname> method to list active and pending nodes in the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>node</keyword>
+        <keyword>nodes</keyword>
+        <keyword>all</keyword>
+        <keyword>listallnodes</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">nodes</entry>
+              <entry colname="col2">List of objects describing active nodes in the cluster.</entry>
+              <entry colname="col3">
+                <xref href="712A07DF-4D58-43F1-8979-72F2350DFF71_.dita" outputclass="nopagenum">node</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">pendingActiveNodes</entry>
+              <entry colname="col2">List of objects describing pending active nodes for the cluster.</entry>
+              <entry colname="col3">
+                <xref href="0D44548D-D6A2-48C5-850A-D5E6AE96E805_.dita" outputclass="nopagenum">pendingActiveNode</xref> array</entry>
+            </row>
+            <row>
+              <entry colname="col1">pendingNodes</entry>
+              <entry colname="col2">List of objects describing pending nodes for the cluster.</entry>
+              <entry colname="col3">
+                <xref href="300B1EB7-8350-4A69-A285-5376D8FC6C04_.dita" outputclass="nopagenum">pendingNode</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ListAllNodes",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+	"id": 1,
+	"result": {
+		"nodes": [
+			{
+				"associatedFServiceID": 0,
+				"associatedMasterServiceID": 1,
+				"attributes": {},
+				"chassisName": "CT5TV12",
+				"cip": "10.1.1.1",
+				"cipi": "Bond10G",
+				"fibreChannelTargetPortGroup": null,
+				"mip": "10.1.1.1",
+				"mipi": "Bond1G",
+				"name": "NLABP0704",
+				"nodeID": 1,
+				"nodeSlot": "",
+				"platformInfo": {
+					"chassisType": "R620",
+					"cpuModel": "Intel",
+					"nodeMemoryGB": 72,
+					"nodeType": "SF3010",
+					"platformConfigVersion": "0.0.0.0"
+				},
+				"sip": "10.1.1.1",
+				"sipi": "Bond10G",
+				"softwareVersion": "11.0",
+				"uuid": "4C4C4544-0054",
+				"virtualNetworks": []
+			}
+		],
+		"pendingActiveNodes": [],
+		"pendingNodes": []
+	}
+}</codeblock>
+    </section>
+    <section id="GUID-4F446DDC-6441-411F-9DD7-6E2923815617">
+      <title id="GUID-27D3F60D-2A78-4571-A9E5-61318A0F37A5">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

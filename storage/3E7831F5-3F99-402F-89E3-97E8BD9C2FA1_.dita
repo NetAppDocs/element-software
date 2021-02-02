@@ -1,0 +1,42 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-3E7831F5-3F99-402F-89E3-97E8BD9C2FA1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-1F25AC0B-F32B-4949-8461-17BC9CB34060">Enable SnapMirror on the volume</title>
+  <shortdesc>You must enable SnapMirror on the volume in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI. This allows replication of data to specified ONTAP volumes. This is permission from the administrator of the cluster running <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> for SnapMirror to control a volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SnapMirror<indexterm>enabling on the volume</indexterm></indexterm>
+        <indexterm>enabling SnapMirror on the volume</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-4E89CD1F-AC64-47E6-9145-C51A86B351DD">
+      <ul id="UL_CDBBC3AAE0B842068A0EF69804528EA4">
+        <li id="LI_B16CA895AA8741E6BE1F30F13626AD01">You have enabled SnapMirror in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI for the cluster.</li>
+        <li id="LI_0ED2CF847899431780F1665E975C0BF6">A SnapMirror endpoint is available.</li>
+        <li id="LI_B2D5323BD860419D83FD0B30F2A2A06A">The volume must be 512e block size.</li>
+        <li id="LI_89A37D84BDF14FB59E340A7F4F171E42">The volume is not participating in remote replication.</li>
+        <li id="LI_46DB4CDB67864A0883472E3C5EF34515">The volume access type is not Replication Target.</li>
+      </ul>
+      <note id="GUID-D4732FD4-5D79-4747-84FC-85986163333E">You can also set this property when creating or cloning a volume.</note>
+    </prereq>
+    <steps id="GUID-5AE9E5C1-B17E-4E2F-AE91-240BA396E393">
+      <step id="STEP_DF93679836F94B9985741EF5FD56C291">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_55EE2B70BE6C49CAAF89FBAAC37456B8">
+        <cmd>Click the Actions icon for the volume you want to enable SnapMirror for.</cmd>
+      </step>
+      <step id="STEP_DF8EABDF38CE484794C4CCBCFE566A11">
+        <cmd>In the resulting menu, select <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_DB724BFCEDB94EF08F4A1832A4AB311E">
+        <cmd>In the <uicontrol>Edit Volume</uicontrol> dialog box, select the check box <uicontrol>Enable SnapMirror</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_16E6F6464A5148EAA020FE195C8A6741">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

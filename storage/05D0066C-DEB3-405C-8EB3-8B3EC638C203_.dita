@@ -1,0 +1,50 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-05D0066C-DEB3-405C-8EB3-8B3EC638C203" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Group snapshot details</title>
+  <shortdesc>The <wintitle>Group Snapshots</wintitle> page on the <wintitle>Data Protection</wintitle> tab provides information about the group snapshots.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>group snapshots</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <dl>
+        <dlentry id="GUID-6113C980-B479-4DC4-BFB4-54F9C26572F5">
+          <dt>ID</dt>
+          <dd>The system-generated ID for the group snapshot.</dd>
+        </dlentry>
+        <dlentry id="GUID-47D88301-4B27-40FF-B634-1AD4B21ED7F9">
+          <dt>UUID</dt>
+          <dd>The unique ID of the group snapshot.</dd>
+        </dlentry>
+        <dlentry id="GUID-793A98AE-FCD2-4920-8324-6B87C7410D6E">
+          <dt>Name</dt>
+          <dd>User-defined name for the group snapshot.</dd>
+        </dlentry>
+        <dlentry id="GUID-7206EF83-018C-4B27-B1DE-A48FC20BF108">
+          <dt>Create Time</dt>
+          <dd>The time at which the group snapshot was created.</dd>
+        </dlentry>
+        <dlentry id="GUID-65261F8C-EFFF-4416-9F4A-445CAF95B1E6">
+          <dt>Status</dt>
+          <dd>The current status of the snapshot. Possible values:<ul id="UL_135D7C10C6FD4EC3BF3C22CF1F33432A"><li id="LI_C22DB2ED55FB41C8BA6E6005EAD67C42"><option>Preparing</option>: The snapshot is being prepared for use and is not yet writable.</li><li id="LI_B45DCA90DD844DF08E8F76672A64E227"><option>Done</option>: This snapshot has finished preparation and is now usable.</li><li id="LI_D1FDD720470B4FF58D3258D1104BFF01"><option>Active</option>: The snapshot is the active branch.</li></ul></dd>
+        </dlentry>
+        <dlentry id="GUID-F4912D1A-9112-4C8E-B211-7E1F9828352B">
+          <dt># Volumes</dt>
+          <dd>The number of volumes in the group. </dd>
+        </dlentry>
+        <dlentry id="GUID-C57332A2-FB0F-4CDA-AA25-368847CC8DA7">
+          <dt>Retain Until</dt>
+          <dd>The day and time the snapshot will be deleted.</dd>
+        </dlentry>
+        <dlentry id="GUID-8D1ECF92-D7CB-44B9-9B5E-937CE1334E3D">
+          <dt>Remote Replication</dt>
+          <dd>Indication of whether or not the snapshot is enabled for replication to a remote SolidFire cluster. Possible values:<ul id="UL_E61B7A34AB6343788B381E0D80331B40"><li id="LI_4A21DD7BA9F74FF280E3FB2BCB64ADA4"><option>Enabled</option>: The snapshot is enabled for remote replication.</li><li id="LI_0A99A5B3B4744196AAAE6FBDFD07239A"><option>Disabled</option>: The snapshot is not enabled for remote replication.</li></ul></dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

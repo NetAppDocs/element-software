@@ -1,0 +1,180 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-D107BB20-7D33-4016-BCE2-179438EB5538" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CloneMultipleVolumes</title>
+  <shortdesc>You can use the <apiname>CloneMultipleVolumes</apiname> method to create a clone of a group of specified volumes. You can assign a consistent set of characteristics to a group of multiple volumes when they are cloned together.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>clone</keyword>
+        <keyword>cloning</keyword>
+        <keyword>multiple</keyword>
+        <keyword>CloneMultipleVolumes</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_123EFFDE7B044A0AACF924EB3D3C9789">
+      <p>Before using the <parmname>groupSnapshotID</parmname> parameter to clone the volumes in a group snapshot, you must first create the group snapshot using the <xref href="4F972457-9333-411B-99DB-BAF9F284DFC7_.dita" outputclass="nopagenum">CreateGroupSnapshot</xref> API method or the web UI. Using <parmname>groupSnapshotID</parmname> is optional when cloning multiple volumes.</p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.46*" />
+          <colspec colnum="2" colname="col2" colwidth="2.71*" />
+          <colspec colnum="3" colname="col3" colwidth="1.53*" />
+          <colspec colnum="4" colname="col4" colwidth="1.00*" />
+          <colspec colname="col5" colnum="5" colwidth="1.59*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>access</parmname>
+              </entry>
+              <entry colname="col2">New default access method for the new volumes if not overridden by information passed in the volume's array.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>enableSnapMirrorReplication</parmname>
+              </entry>
+              <entry colname="col2">Determines whether the volume can be used for replication with SnapMirror endpoints. Possible values:<ul id="UL_8BDE0225D5B1406A8200A0B60571C2D9"><li id="LI_3BF922A3A37E4035A0E3B1263576AE12"><option>true</option></li><li id="LI_BC4A645B296E4328A4250DF00BC5F1D5"><option>false</option></li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>groupSnapshotID</parmname>
+              </entry>
+              <entry colname="col2">ID of the group snapshot to use as a basis for the clone.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>newAccountID</parmname>
+              </entry>
+              <entry colname="col2">New account ID for the volumes if not overridden by information passed in the volumes array.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>volumes</parmname>
+              </entry>
+              <entry colname="col2">Collection of members that you specify for the new volumes. Members:<ul id="UL_426C9EF20B0648ABB5A629AFE92DD691"><li id="LI_B6871ABDD0BC4DBA8B9E1025BB41A223"><option>volumeID</option>: (Required)</li><li id="LI_1D54EFC31E864D40AA787F63A68AC65D"><option>access</option>: (Optional) Can be one of readOnly, readWrite, locked, or replicationTarget.</li><li id="LI_81929FE3F20A4427AECC6BE426AFCC76"><option>attributes</option>: (Optional) List of name-value pairs in JSON object format.</li><li id="LI_321DE43BC35945DABDED8F93169C562B"><option>name</option>: (Optional) New name for the clone.</li><li id="LI_9EF7DDBBE3704BC7B3FFE1A726A7F521"><option>newAccountID</option>: (Optional) Account ID for the new volumes.</li><li id="LI_90653074CA48496D86ACA2E5F0F0476C" importance="optional"><option>newSize</option>: (Optional) Total size of the volume, in bytes. Size is rounded up to the nearest megabyte.</li></ul> If optional members are not specified, the values are inherited from the source volumes.</entry>
+              <entry colname="col3">JSON object array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes (<option>volumeID</option>)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_873C7F4900E844F6BC96D6171089D47D">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">asyncHandle</entry>
+              <entry colname="col2">A value returned from an asynchronous method call.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">groupCloneID</entry>
+              <entry colname="col2">Unique ID of the new group clone.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">members</entry>
+              <entry colname="col2">List of volumeIDs for the source and destination volume pairs.</entry>
+              <entry colname="col3">JSON object array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "CloneMultipleVolumes",
+   "params": {
+       "volumes": [
+           {
+              "volumeID": 5
+              "name":"foxhill",
+              "access":"readOnly"
+              },
+           {
+              "volumeID": 18
+              },
+           {
+             "volumeID": 20
+              }
+     ]
+   },
+   "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "asyncHandle": 12,
+    "groupCloneID": 4,
+    "members": [
+     {
+      "srcVolumeID": 5,
+      "volumeID": 29
+     },
+     {
+      "srcVolumeID": 18,
+      "volumeID": 30
+     },
+     {
+      "srcVolumeID": 20,
+      "volumeID": 31
+      }
+    ]
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-217A62CB-D832-4C60-8BA6-40E9EF976889">
+      <title id="GUID-B5DA1FCF-651F-45C4-9E25-CFC23448EE88">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

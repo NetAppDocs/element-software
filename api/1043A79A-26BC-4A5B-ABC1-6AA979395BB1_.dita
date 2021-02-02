@@ -1,0 +1,108 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-1043A79A-26BC-4A5B-ABC1-6AA979395BB1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">fault</title>
+  <shortdesc>The <apiname>fault</apiname> object contains information about faults that are detected in the cluster. The <apiname>ListClusterFaults</apiname> method returns cluster fault information.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>fault</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.13*" />
+          <colspec colnum="2" colname="col2" colwidth="1.70*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">clusterFaultID</entry>
+              <entry colname="col2">The unique ID associated with each cluster fault.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">code</entry>
+              <entry colname="col2">The fault code for the specific fault that was detected. For further details, see Cluster Fault Codes.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">data</entry>
+              <entry colname="col2">Additional fault-specific information.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">date</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/TS_D" />
+              </entry>
+              <entry colname="col3">ISO 8601 string</entry>
+            </row>
+            <row>
+              <entry colname="col1">details</entry>
+              <entry colname="col2">The description of the fault with additional details.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">driveID</entry>
+              <entry colname="col2">The first drive ID in the driveIDs list. If the driveIDs list is empty (which means that no faults were returned that deal with drives), this value is 0.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">driveIDs</entry>
+              <entry colname="col2">A list of driveID values for the drives that this fault refers to. Included for faults dealing with drives. If none, this is an empty array.</entry>
+              <entry colname="col3"> integer array</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeHardwareFaultID</entry>
+              <entry colname="col2">The identifier assigned to a hardware fault on the cluster.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeID</entry>
+              <entry colname="col2">The node ID for the node that this fault refers to. Included for node and drive faults, otherwise set to 0.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">resolved</entry>
+              <entry colname="col2">The resolved status of the fault. Possible values: <ul id="UL_C097A796EA284F3191242A211E184559"><li id="LI_4BACC24FF00D49F69C0B728367F2B5C0"><option>true</option>: The fault is no longer detected.</li><li id="LI_F4D89E77F3BD40D48953FD83EA6E25CE"><option>false</option>: The fault is still present.</li></ul></entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+            <row>
+              <entry colname="col1">resolvedDate</entry>
+              <entry colname="col2">The date and time the fault was resolved.</entry>
+              <entry colname="col3">ISO 8601 string</entry>
+            </row>
+            <row>
+              <entry colname="col1">serviceID</entry>
+              <entry colname="col2">The service associated with the fault. This value is "0" (zero) if the fault is not associated with a service.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">severity</entry>
+              <entry colname="col2">The severity of the fault. Possible values:<ul id="UL_34988EA2DA734D66B9394392E29245B5"><li id="LI_6A599D9394454DA784B90877917C3021"><option>warning</option>: A minor issue. The cluster is functioning and upgrades are allowed at this severity level.</li><li id="LI_DE1BA77EB11A45F4B650FC0F9BE48714"><option>error</option>: A failure that generally should not affect service (except possible performance degradation or loss of HA). Some features might be disabled.</li><li id="LI_8487D4F4B91E49B7891C7AE8D9F26C86"><option>critical</option>: A serious failure that is affecting service. The system is unable to serve API requests or client I/O and is at risk of data loss.</li><li id="LI_EE2B2C6E71EC4E5696177D16B15F7ACB"><option>bestPractice</option>: Faults triggered by sub-optimal system configuration.  							</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">type</entry>
+              <entry colname="col2">The type of fault. Possible values:<ul id="UL_C5ED6B7ACC4549039FE61EC20F923458"><li id="LI_4B1C0AD3C3D24411857415A51195F26E"><option>node</option>: A fault affecting an entire node.</li><li id="LI_B14A6FF7CCBD40DEB9CBC8F8D53D4F4C"><option>drive</option>: A fault affecting an individual drive.</li><li id="LI_E703F1A0E45D44DD98598B8A44480D65"><option>cluster</option>: A fault affecting the entire cluster.</li><li id="LI_FD384642163C47EDBADC00B223FB2BCD"><option>service</option>: A fault affecting a service on the cluster.</li><li id="LI_220FB5658CF347AEA05E863BE76DA837"><option>volume</option>: A fault affecting an individual volume.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

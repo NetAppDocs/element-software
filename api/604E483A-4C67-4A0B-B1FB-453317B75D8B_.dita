@@ -1,0 +1,117 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-604E483A-4C67-4A0B-B1FB-453317B75D8B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetClusterCapacity</title>
+  <shortdesc>You can use the <apiname>GetClusterCapacity</apiname> to return high-level capacity measurements for an entire storage cluster. This method returns fields that you can use to calculate the efficiency rates shown in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> web UI. You can use the efficiency calculations in scripts to return the efficiency rates for thin provisioning, deduplication, compression, and overall efficiency.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>capacity</keyword>
+        <keyword>getting</keyword>
+        <keyword>get</keyword>
+        <keyword>measurements</keyword>
+        <keyword>measure</keyword>
+        <keyword>deduplication</keyword>
+        <keyword>GetClusterCapacity</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-6613BEE8-5D75-4EE6-B806-0EEB49B872F3">Efficiency calculations</title>
+      <p>Use the following equations to calculate thin provisioning, deduplication, and compression. These equations apply to <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> 8.2 and later.</p>
+      <ul id="UL_9C80570B3B43489EB11DE58F18D737FF">
+        <li id="LI_0652BD9C4C2545F4BFA771B30522B55A">thinProvisioningFactor = (nonZeroBlocks + zeroBlocks) / nonZeroBlocks</li>
+        <li id="LI_B509DD93983C48FEB5EB8C47A9FC55B1">deDuplicationFactor = (nonZeroBlocks + snapshotNonZeroBlocks) / uniqueBlocks
+</li>
+        <li id="LI_9863E0E6A2284C37BF5FBC0D8592C33C">compressionFactor = (uniqueBlocks * 4096) / (uniqueBlocksUsedSpace * 0.93)
+</li>
+      </ul>
+    </section>
+    <section id="SECTION_066AE2D024094516B6ACC9EBF9446696">
+      <title id="GUID-A2B280F6-7F5F-4189-811F-A39BBD90B1BB">Overall efficiency rate calculation</title>
+      <p>Use the following equation to calculate overall cluster efficiency using the results of the thin provisioning, deduplication, and compression efficiency calculations. </p>
+      <ul id="UL_C487AA5BA25C4DAB8670CF50AA750A9D">
+        <li id="LI_DAF6C6B4248F4933A5F625224A8060EA">efficiencyFactor = thinProvisioningFactor * deDuplicationFactor * compressionFactor</li>
+      </ul>
+    </section>
+    <section id="SECTION_2C41D85553D04454BFEB8BFE379D2853">
+      <title id="GUID-12CB8D3F-3344-4BD3-9BFA-8747717EC911">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">clusterCapacity</entry>
+              <entry colname="col2">Capacity measurements for the storage cluster.</entry>
+              <entry colname="col3">
+                <xref href="87DA1C5F-566B-4352-B261-16FE1C649140_.dita" outputclass="nopagenum">clusterCapacity</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "GetClusterCapacity",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "clusterCapacity": {
+      "activeBlockSpace": 236015557096,
+      "activeSessions": 20,
+      "averageIOPS": 0,
+      "clusterRecentIOSize": 0,
+      "currentIOPS": 0,
+      "maxIOPS": 150000,
+      "maxOverProvisionableSpace": 259189767127040,
+      "maxProvisionedSpace": 51837953425408,
+      "maxUsedMetadataSpace": 404984011161,
+      "maxUsedSpace": 12002762096640,
+      "nonZeroBlocks": 310080350,
+      "peakActiveSessions": 20,
+      "peakIOPS": 0,
+      "provisionedSpace": 1357931085824,
+      "snapshotNonZeroBlocks": 0,
+      "timestamp": "2016-10-17T21:24:36Z",
+      "totalOps": 1027407650,
+      "uniqueBlocks": 108180156,
+      "uniqueBlocksUsedSpace": 244572686901,
+      "usedMetadataSpace": 8745762816,
+      "usedMetadataSpaceInSnapshots": 8745762816,
+      "usedSpace": 244572686901,
+      "zeroBlocks": 352971938
+    }
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-E7611D5D-F518-4C6E-8E8B-57A33E4005E7">
+      <title id="GUID-A4F076DA-43CA-40B0-B8B5-7FB2E960113A">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

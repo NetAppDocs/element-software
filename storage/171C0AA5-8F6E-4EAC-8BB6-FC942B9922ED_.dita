@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-171C0AA5-8F6E-4EAC-8BB6-FC942B9922ED" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0BB523BC-865E-4E4D-B5A4-AAF6ED6131BE">Power down a cluster</title>
+  <shortdesc>You can power down an entire cluster after you have contacted NetApp Support and completed preliminary steps.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>clusters<indexterm>powering down</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="PREREQ_11025CB8C4D344359D74DF7C52E63024">
+      <p>Prepare the cluster for shutdown by doing the following:<ul id="UL_3172926CA9E94D22B97C2BDBB37AF02A"><li id="LI_BBF5B5E76C804E91A2B20A411E88E3C7">Stop all I/O.</li><li id="LI_90B6B9AC67B44D7B8763AAAAC846FEFA">Disconnect all iSCSI sessions.</li></ul></p>
+    </prereq>
+    <steps id="GUID-EA375705-B485-4E87-B142-5A5424B46295">
+      <step id="STEP_A3BCE6DB25694FB8BB0B8B2DF411B9C3">
+        <cmd>Navigate to the management virtual IP (MVIP) address on the cluster to open the Element UI.</cmd>
+      </step>
+      <step id="STEP_10D9561B2B3F482495E3970046A783FA">
+        <cmd>Note the nodes listed in the Nodes list.</cmd>
+      </step>
+      <step id="STEP_F2D80BADAEC34BA68B6A20397BED9BF2">
+        <cmd>Run the <apiname>Shutdown</apiname> API method with the <option>halt</option> option specified on each Node ID in the cluster.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

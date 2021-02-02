@@ -1,0 +1,39 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-35288B03-3633-4446-9B72-2F043929783E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1D9EA0D-FD71-42EB-A4F0-09D1AFBFED4D">Mini CM: Element OS API RG: About the SolidFire API</title>
+  <topicref href="D10750FA-F83E-43C2-A44D-4125D3719CA4_.dita" navtitle="About the SolidFire API">
+    <topicmeta>
+      <navtitle>About the SolidFire API</navtitle>
+    </topicmeta>
+    <topicref href="895E8AF1-A89F-4553-8193-A43EF89E1537_.dita" navtitle="Request object members">
+      <topicmeta>
+        <navtitle>Request object members</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E68FD145-9E48-476D-A20D-5328875ED00D_.dita" navtitle="Response object members">
+      <topicmeta>
+        <navtitle>Response object members</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="50E8EE05-D429-42F2-AC49-2A018DEC3D9D_.dita" navtitle="Request endpoints">
+      <topicmeta>
+        <navtitle>Request endpoints</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A7D66191-3AE4-4ACD-9078-20877733AF30_.dita" navtitle="Authentication">
+      <topicmeta>
+        <navtitle>Authentication</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4BB21363-27D1-443C-BC40-3DB67A872BDF_.dita" navtitle="Asynchronous methods">
+      <topicmeta>
+        <navtitle>Asynchronous methods</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7BC7F31B-9A6A-4DA0-BBCC-6A94E6A8F747_.dita" navtitle="Attributes">
+      <topicmeta>
+        <navtitle>Attributes</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

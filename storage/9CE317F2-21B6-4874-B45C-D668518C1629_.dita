@@ -1,0 +1,35 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-9CE317F2-21B6-4874-B45C-D668518C1629" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-2EFEDFC1-6A8F-4781-9295-B948A0E8431E">Apply a QoS policy to volumes</title>
+  <shortdesc>You can bulk apply an existing QoS policy to one or more volumes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>QoS policies<indexterm>applying to volumes</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-EADAF5EE-75B4-4C5D-BA27-C6DEC1C85852">The QoS policy you want to bulk apply exists. </prereq>
+    <steps id="GUID-1137E586-7B3E-439E-957E-BC2BE7D722DD">
+      <step id="STEP_CC760BB2611C4ADB8BC7EAEB1BFEE80E">
+        <cmd>Select  <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_F8C18F71D031479E97A0CFAFCB587FB7">
+        <cmd>In the list of volumes, check the box next to any volumes you want to apply the QoS policy to.</cmd>
+      </step>
+      <step id="STEP_59B717B91B724B6E93B17A9AC9CB536B">
+        <cmd>Click <uicontrol>Bulk Actions</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_61FC4A4F456B45A586A6960CC99F9D09">
+        <cmd>In the resulting menu, click <uicontrol>Apply QoS Policy</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_269308704F224F0B892710D0F83872E7">
+        <cmd>Select the QoS policy from the drop-down list.</cmd>
+      </step>
+      <step id="STEP_74D45F0C9BD444C6B8137060E8FC9D4C">
+        <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

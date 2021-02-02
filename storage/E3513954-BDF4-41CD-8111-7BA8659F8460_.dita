@@ -1,0 +1,34 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-E3513954-BDF4-41CD-8111-7BA8659F8460" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4A974514-F67A-443A-84DC-C7FE6CB7F2FF">Edit a storage container</title>
+  <shortdesc>You can modify storage container CHAP authentication in the Element UI.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>virtual volumes<indexterm>changing CHAP authentication on a storage container</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-950BBBD5-DCC2-434A-87A3-13C48B4B2A50">
+      <step id="STEP_D1D07BD8B35A4C90ADDC1964C0FA40BA">
+        <cmd>Select <menucascade><uicontrol>VVols</uicontrol><uicontrol>Storage Containers</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_424E9272334D4925BA2718C78E45011E">
+        <cmd>Click the Actions icon for the storage container you want to edit.</cmd>
+      </step>
+      <step id="STEP_C5B71BBFA7BA4F53B19FF65212E20A41">
+        <cmd>In the resulting menu, select <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_FDB2365219314426A512B56C678871EE">
+        <cmd>Under CHAP Settings, edit the Initiator Secret and Target Secret credentials used for authentication.</cmd>
+        <info>
+          <note type="tip" id="GUID-EAD238EB-1EFC-41A7-91EF-9220F330818C">If you do not change the CHAP Settings credentials, they remain the same. If you make the credentials fields blank, the system automatically generates new secrets.</note>
+        </info>
+      </step>
+      <step id="STEP_3F8E9CDA12B74856B2A167552F32ADE3">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

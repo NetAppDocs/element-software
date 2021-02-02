@@ -1,0 +1,81 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-BBE793F6-F72F-4709-B71D-864133918DB1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-749A2153-63E3-49DD-BC89-A508986E73EC"> Clone a volume</title>
+  <shortdesc>You can create a clone of a single volume or multiple volumes to make a point-in-time copy of the data. When you clone a volume, the system creates a snapshot of the volume and then creates a copy of the data referenced by the snapshot. This is an asynchronous process, and the amount of time the process requires depends on the size of the volume you are cloning and the current cluster load.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volumes<indexterm>cloning</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-AAD6FBCA-12E0-4B2E-B676-EACEB93BE40B">
+      <p>The cluster supports up to two running clone requests per volume at a time and up to eight active volume clone operations at a time. Requests beyond these limits are queued for later processing.<note id="GUID-C1E9D9D9-E274-486D-BC8D-151166DD7B6C">Operating systems differ in how they treat cloned volumes. VMware ESXi will treat a cloned volume as a volume copy or snapshot volume. The volume will be an available device to use to create a new datastore. For more information on mounting clone volumes and handling snapshot LUNs, see VMware documentation on <xref href="https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.storage.doc/GUID-EEFEB765-A41F-4B6D-917C-BB9ABB80FC80.html" format="html" scope="external">mounting a VMFS datastore copy</xref> and <xref href="https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.storage.doc/GUID-EBAB0D5A-3C77-4A9B-9884-3D4AD69E28DC.html" format="html" scope="external">managing duplicate VMFS datastores</xref>.</note></p>
+      <note type="attention" id="GUID-4F38E7BF-8C0C-475E-9BED-97FB4E72D4C8">Before you truncate a cloned volume by cloning to a smaller size, ensure that you prepare the partitions so that they fit into the smaller volume.</note>
+    </context>
+    <steps id="GUID-26BA23ED-C226-4D26-9238-261C98C81C6E">
+      <step id="STEP_2D8E02B58F954318A60DFF0A6B768027">
+        <cmd>Select <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_9C3BE4B50D3D4D5A8858D0EC934184C8">
+        <cmd>To clone a single volume, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_E0686D6DAAFF40F0887A855850EABA58">
+          <substep id="SUBSTEP_7FF32663A32D4F04947C8D55A739A2B2">
+            <cmd>In the list of volumes on the <uicontrol>Active</uicontrol> page, click the Actions icon for the volume you want to clone.</cmd>
+          </substep>
+          <substep id="SUBSTEP_D48CB36B2176489988B106A5E76A3F02">
+            <cmd>In the resulting menu, click <uicontrol>Clone</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_09BF055AAB65453B95D6A6A2A7D935D6">
+            <cmd>In the <uicontrol>Clone Volume</uicontrol> window, enter a volume name for the newly cloned volume.</cmd>
+          </substep>
+          <substep id="SUBSTEP_7B02F25C478E4577B9FE1497530818BB">
+            <cmd>Select a size and measurement for the volume using the <uicontrol>Volume Size</uicontrol> spin box and list.</cmd>
+            <info>
+              <note conref="469EA388-6B36-4721-A7CD-E5BF52B69C66_.dita#GUID-469EA388-6B36-4721-A7CD-E5BF52B69C66/GUID-B2DDE438-2CCB-4297-BC7C-BC63F0F7E3FC" id="GUID-7D28FD19-8231-45B7-B0D2-AB8911AA35C3" />
+            </info>
+          </substep>
+          <substep id="SUBSTEP_5C21A9C20CEC4440952F224158903DA4">
+            <cmd>Select the type of access for the newly cloned volume.</cmd>
+          </substep>
+          <substep id="SUBSTEP_F359E58D99844F13ABA59494539B28FE">
+            <cmd>Select an account to associate with the newly cloned volume from the <uicontrol>Account</uicontrol> list.</cmd>
+            <info>
+              <note id="GUID-D9EE96F2-0C28-44A6-A12F-0F3E9C36B58A">You can create an account during this step if you click the <uicontrol>Create Account </uicontrol> link, enter an account name, and click <uicontrol>Create</uicontrol>. The system automatically adds the account to the <uicontrol>Account</uicontrol> list after you create it.</note>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_D81F8AA07EBB484192846A666A2096FC">
+        <cmd>To clone multiple volumes, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_AECF0DDC5A8E4C6ABA4F0C6983470820">
+          <substep id="SUBSTEP_184CB6C2682249329AC5BCAC32A05BAA">
+            <cmd>In the list of volumes on the <uicontrol>Active</uicontrol> page, check the box next to any volumes you want to clone.</cmd>
+          </substep>
+          <substep id="SUBSTEP_CED6A23243214592BE6CEC5807C773A2">
+            <cmd>Click <uicontrol>Bulk Actions</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_B7A8229F759048EF87D83CFB08BA17A6">
+            <cmd>In the resulting menu, select <uicontrol>Clone</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_7FABD7A2F7724C209D2A81699480209C">
+            <cmd>In the <uicontrol>Clone Multiple Volumes</uicontrol> dialog box, enter a prefix for the cloned volumes in the <uicontrol>New Volume Name Prefix</uicontrol> field.</cmd>
+          </substep>
+          <substep id="SUBSTEP_7696F94536A545ECBF389D0B782379DE">
+            <cmd>Select an account to associate with the cloned volumes from the <uicontrol>Account</uicontrol> list.</cmd>
+          </substep>
+          <substep id="SUBSTEP_8EEFC36B88BD4EAF876BBB723F7F5B52">
+            <cmd>Select the type of access for the cloned volumes.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_BCF8DC75585F4F19ADE6FA9CA05BE3FC">
+        <cmd>Click <uicontrol>Start Cloning</uicontrol>.</cmd>
+        <info>
+          <note id="GUID-11ECDAF1-CD78-4D8F-AD13-C73239383AFF">Increasing the volume size of a clone results in a new volume with additional free space at the end of the volume. Depending on how you use the volume, you might need to extend partitions or create new partitions in the free space to make use of it.</note>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

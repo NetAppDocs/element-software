@@ -1,0 +1,44 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-8A1064BA-48E8-409D-BF66-A24887F94C05" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-003EEBC6-F0E3-4282-9489-B2D163E19E69">Mini CM: Element OS API RG: Administrator methods</title>
+  <topicref href="D686ACA0-9345-4A2C-86AC-F66A2B69D706_.dita" navtitle="Administrator methods">
+    <topicmeta>
+      <navtitle>Administrator methods</navtitle>
+    </topicmeta>
+    <topicref href="B7754E5C-AEBC-4458-83DB-6CC316B22627_.dita" navtitle="AddClusterAdmin">
+      <topicmeta>
+        <navtitle>AddClusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7BB18EB7-BC36-43FA-91FA-ED95C71E6A54_.dita" navtitle="GetCurrentClusterAdmin">
+      <topicmeta>
+        <navtitle>GetCurrentClusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3ED65013-0080-4FE3-8002-3649FE0F429D_.dita" navtitle="GetLoginBanner">
+      <topicmeta>
+        <navtitle>GetLoginBanner</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9F3442E3-73E5-4042-BB9B-4EFBA071E668_.dita" navtitle="ListClusterAdmins">
+      <topicmeta>
+        <navtitle>ListClusterAdmins</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="754DF916-AD89-4040-BD91-1A836A3704E1_.dita" navtitle="ModifyClusterAdmin">
+      <topicmeta>
+        <navtitle>ModifyClusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="050942C6-371A-4856-8F6D-4043D67C43E3_.dita" navtitle="RemoveClusterAdmin">
+      <topicmeta>
+        <navtitle>RemoveClusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="99A7F234-4D32-497D-9CC9-E3C91473F19E_.dita" navtitle="SetLoginBanner">
+      <topicmeta>
+        <navtitle>SetLoginBanner</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

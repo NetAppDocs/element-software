@@ -1,0 +1,44 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-8780D31B-5D67-4CBD-A510-F0535CA681D6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-8A963D51-6CE7-4EA4-A7A3-E7D3A0BAA6BF">Key collection - project - SolidFire</title>
+  <mapref href="20BD1071-0E23-49A5-8863-AC961037E760_.ditamap" navtitle="Key definitions [ netapp-doc-sfe-113 | eclipse | external-scoped ] SolidFire publication keys for SolidFire Doc Center" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="7BD63B20-3504-4A86-96D5-F9C00377540D_.ditamap" navtitle="Key definitions [ netapp-doc-sfe-113 | eclipse | peer-scoped ] SolidFire publication keys for SolidFire Doc Center" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="D6ECC8DF-1767-45DC-8AA4-BB898297A566_.ditamap" navtitle="Key definitions [netapp-external-sites] NetApp at external sites" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="FE2171C6-A57E-408C-8C28-2C7C82A49EAC_.ditamap" format="ditamap" navtitle="Key definitions [ netapp-doc-hci | traditional ] HCI doc center targets">
+    <topicmeta>
+      <navtitle>NetApp HCI traditional keys</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="973D7D67-2FD3-4C39-A7D7-14741E3BE66C_.ditamap" navtitle="Key definitions [ntap-video-embed] Keys for embeddable video (limited support)" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="044733A1-D51F-4D61-A873-E954D5A9ADB5_.ditamap" navtitle="Key definitions [ntap-video-link] Keys for link-only video" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="87B6F1F1-144C-4FEE-874B-739BE1BE5604_.ditamap" navtitle="Key definitions [netapp-doc-vsc-vmware] - PDF targets for VSC (Virtual Storage Console) and related products" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-doc-vsc-vmware] - PDF targets for VSC (Virtual Storage Console) for VMware vSphere</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="007B1416-EB6F-488A-8370-C10C0C9186A2_.ditamap" navtitle="Key definitions [netapp-doc-cdot] - In this version: Eclipse targets for ONTAP 9.1 GA (for use by non-Eclipse libraries)" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-doc-cdot] - PDF targets for Clustered Data ONTAP</navtitle>
+    </topicmeta>
+  </mapref>
+</map>

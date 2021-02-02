@@ -1,0 +1,224 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-43EAB171-DB23-413F-BECB-8492BC80B2FB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-40F602B1-9805-4579-AA8F-02D0477A8C79">Mini CM: Element OS API RG: Volume methods</title>
+  <topicref href="2FBE8572-51B5-40EA-B52D-C45A4BD06181_.dita" navtitle="Volume API methods">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="C1F2DAF2-A39A-420F-9404-926C34BE0769_.dita" navtitle="CancelClone">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="18B4F643-2FED-44E1-9F11-F9012212387C_.dita" navtitle="CancelGroupClone">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="D107BB20-7D33-4016-BCE2-179438EB5538_.dita" navtitle="CloneMultipleVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="C56823FF-38EA-4920-B194-B260AB1C53F0_.dita" navtitle="CloneVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="B68F9808-B4C6-4258-8B8A-11BD7DBA139A_.dita" navtitle="CopyVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="51C11769-140E-4CAD-9F35-E296655827B6_.dita" navtitle="CreateQoSPolicy">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="8C40809D-E168-4EC8-9888-97003DA70F4E_.dita" navtitle="CreateVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="250444DA-1407-4AD3-92D8-A8F344B78C99_.dita" navtitle="CreateBackupTarget">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="FF35E5B5-C8C4-47D6-AD32-6647700FD237_.dita" navtitle="DeleteQoSPolicy">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="3CA0C3E6-844A-407C-BD79-4BE11BA57422_.dita" navtitle="DeleteVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="ED170BDA-FB53-4C74-BE26-0CA521749BD0_.dita" navtitle="DeleteVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="0AC375AD-C835-4FA1-B901-92BBDB1CDEDC_.dita" navtitle="GetBackupTarget">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="419A284E-3DF5-4C20-9F49-FFC18969AF75_.dita" navtitle="GetVolumeStats">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="A15A18C4-7831-4E09-9438-0F99380D34AB_.dita" navtitle="GetDefaultQoS">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="8901CF53-6A57-4D0D-8423-CA244B912C2B_.dita" navtitle="GetQoSPolicy">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="7828483F-B1C7-4A80-8F07-6E89B306EBAB_.dita" navtitle="GetVolumeCount">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="FE39F0CF-88D1-4917-9686-0D78BCCDBD93_.dita" navtitle="GetVolumeEfficiency">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="F35EA971-EC17-4A30-AA08-A731C8025FD9_.dita" navtitle="ListActiveVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="783C9EFF-1964-41F2-8801-F1CD4D5A65D4_.dita" navtitle="ListBackupTargets">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="1F7C47A7-4D4C-402E-B38D-E82D647C6EBF_.dita" navtitle="ListBulkVolumeJobs">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="ABD56184-634B-49CA-AFE8-D343C03B3996_.dita" navtitle="ListDeletedVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="990C4CE1-7C53-473F-801E-C4CAAFFCAE60_.dita" navtitle="ListQoSPolicies">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="AB202AAA-B2DF-477C-A537-EDDBD58117B7_.dita" navtitle="ListSyncJobs">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="6739F9A5-111F-4735-8D42-5DB40EF9D1A9_.dita" format="dita" navtitle="SolidFire Element API RG: ListVolumeQoSHistograms">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListVolumeQoSHistograms</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="BD2C7F9B-07CB-4001-A3A0-88394C0CF98F_.dita" navtitle="ListVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="6E678D41-3185-4DA6-9FE2-F9BB6C3AE613_.dita" navtitle="ListVolumeStats">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="13BE91A0-31C4-42B0-B422-CC3443F3B838_.dita" navtitle="ListVolumesForAccount">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="C286F92C-92F9-4E23-B0F6-6F1C3235F25A_.dita" navtitle="ListVolumeStatsByAccount">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="B96012BD-E1FC-41AB-9DD0-18CEA8C4B81E_.dita" navtitle="ListVolumeStatsByVirtualVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="1C7E9583-01A9-4B86-B1B1-7AF30261F189_.dita" navtitle="ListVolumeStatsByVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="532E7618-CFFB-4B63-A2AE-F0E1605F952F_.dita" navtitle="ListVolumeStatsByVolumeAccessGroup">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="541C738E-CD99-403F-9774-811DA6066F57_.dita" navtitle="ModifyBackupTarget">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="F0EF048B-3FDE-43BA-9AA9-7C493803999C_.dita" navtitle="ModifyQoSPolicy">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="60EE1FE0-1A96-4B4F-B4B2-3B65BE1C0E9B_.dita" navtitle="ModifyVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="AC44A1A1-152A-4275-A12A-8C96CBEB6A76_.dita" navtitle="ModifyVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="76529086-9133-46CC-88FC-5FFA793F3606_.dita" navtitle="PurgeDeletedVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="050A5BC3-BFDC-42A3-BE45-74EAA3122825_.dita" navtitle="PurgeDeletedVolumes">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="B592BE8A-01DD-4344-9120-08E9DC9EB80F_.dita" navtitle="RemoveBackupTarget">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="06B01F04-6E00-41FB-8CF2-DF3224C26F1A_.dita" navtitle="RestoreDeletedVolume">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="894798EC-CFB3-4B83-A5F0-566B709CFD97_.dita" navtitle="SetDefaultQoS">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="0F179C97-93BF-44D2-A5B0-478516DA1BBF_.dita" navtitle="StartBulkVolumeRead">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="A935FC71-956B-43FC-9141-45594B43B2DF_.dita" navtitle="StartBulkVolumeWrite">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="0EC9259F-30B1-447A-8887-2D2F03A7D79F_.dita" navtitle="UpdateBulkVolumeStatus">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

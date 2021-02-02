@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "file:///D|/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/topic.dtd"[
+]>
+<topic id="variables" xml:lang="en">
+  <!-- this file is used in a Netapp custiomization to store variables in and use them as conrefs -->
+  <title>Exported Variables</title>
+  <shortdesc>These are Trisoft Variables that were converted to DITA conrefs in order to be able to compare changes to exported source XML</shortdesc>
+  <body>
+    <p>
+      <ph id="SFE-PSUREPL-MAINBOOKTITLE">Replacing a power supply unit in a SolidFire chassis</ph>
+      <ph id="SFE-PSUREPL-SUBTITLE" />
+      <ph id="SFE-PSUREPL-ECLIPSETITLE">Replacing a power supply unit</ph>
+      <ph id="SFE-PSUREPL-RUNNINGTITLE">Replacing a power supply unit in a SolidFire chassis</ph>
+      <ph id="CMN-COVERSTAMP"></ph>
+      <ph id="CMN-PAGESTAMP" />
+      <ph id="SFE-PSUREPL-SHORTDESC">Describes how to replace a failed power supply unit in a SolidFire chassis.</ph>
+      <keyword id="CMN-AUTHOR">NetApp Information Engineering</keyword>
+      <keyword translate="no" id="SFE-PSUREPL-BOOKPARTNO">215-13321</keyword>
+      <keyword translate="no" id="CMN-EDMARKER-NUM">_2020-04</keyword>
+      <keyword translate="yes" id="CMN-LANGMARKER">_en-us</keyword>
+      <keyword translate="yes" id="CMN-EDMARKER-TEXT">April 2020</keyword>
+      <keyword id="SFE-PSUREPL-ECMID-PRI">Replacing a power supply unit</keyword>
+      <ph id="SFE-PSUREPL-ECMID-SEC">
+        <!--No EPUB-->
+      </ph>
+      <ph translate="no" id="CMN-DCID">sfe-120</ph>
+      <keyword id="SFE-PSUREPL-PLUGINID">com.netapp.doc.sfe-psurepl</keyword>
+      <ph translate="no" id="CMN-PRODINFO">
+        <data name="nss-product">NetApp Element 12.0</data>
+      </ph>
+      <keyword translate="no" id="SFE-PSUREPL-LASTMOD">2020-04-27</keyword>
+    </p>
+  </body>
+  <related-links></related-links>
+</topic>

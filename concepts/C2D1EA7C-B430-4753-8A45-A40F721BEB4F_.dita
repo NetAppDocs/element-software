@@ -1,0 +1,32 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-C2D1EA7C-B430-4753-8A45-A40F721BEB4F" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-51CD9E9A-5DDC-46A0-B4EC-1C43F0AC3FFC"> SolidFire architecture overview</title>
+  <shortdesc>
+    <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/SOLIDFIRE_OVERVIEW" />
+  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>A SolidFire storage system includes the following hardware components: </p>
+    <ul id="UL_640BF2A2421F43E586FEAF232C44CA02">
+      <li id="LI_FA12DB14A04A4EFA97BDC39A94DCE069">Cluster, the hub of the SolidFire storage system, includes a collection of nodes.</li>
+      <li id="LI_16744C29B4AE495B979AA66F75FCFEDA">Nodes are the hardware components grouped into a cluster. There are two types of nodes:<ul id="UL_B50EF29F4DEC441FAE95FBC365F1CB48"><li id="LI_ACB3D4A7E11546B69FA12B734A94B61B">Storage nodes, which are servers containing a collection of drives</li><li id="LI_C0CDED337480449AA473B5D4E26E7E0E">Fibre Channel (FC) nodes, which you use to connect to FC clients</li></ul></li>
+      <li id="LI_54D69399DB9B485A83619A78D148DA65">Drives are used in storage nodes and store data for the cluster. A storage node contains two types of drives:<ul id="UL_0D657875C2494835AAF51613B5C13940"><li id="LI_A058535A22A44BFAA58732E03094550A">Volume metadata drives store information that defines the volumes and other objects within a cluster.</li><li id="LI_D3DCEDB000DA4F338C609A4F77559AA5">Block drives store data blocks for volumes.</li></ul></li>
+    </ul>
+    <p>
+      <image href="70AF2CD2-E417-4E5B-93E0-46167CFC72F7_Low.gif" placement="inline">
+        <alt>Element Software architectural diagram</alt>
+      </image>
+    </p>
+    <p>You manage the system by using <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software or a VMware vSphere Web Client. </p>
+    <ul id="GUID-C9C47736-B8BD-4918-94F8-A5B1D48A7178">
+      <li>
+        <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software runs on the hardware and you can use it to create a cluster and manage storage services. </li>
+      <li>The <ph conref="ISH_variables.dita#variables/VCP-LONG">NetApp Element Plug-in for vCenter Server</ph> (also referred to as the vCenter Plug-in, or VCP) is a web-based tool integrated with the VMware vSphere Web Client user interface (UI). The plug-in is an alternative scalable, user-friendly interface for VMware vSphere that can manage and monitor storage resources, including datastores, volumes, quality of service, storage cluster components, and data protection.</li>
+    </ul>
+    <p>By default, <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> sends performance and alert statistics to the <ph conref="ISH_variables.dita#variables/NTAP-IBMNSERIES">NetApp</ph> SolidFire <ph conref="ISH_variables.dita#variables/ACTIVE-IQ">Active IQ</ph> Collector. <ph conref="ISH_variables.dita#variables/NTAP-IBMNSERIES">NetApp</ph> Support monitors this data and alerts you to any performance issues. </p>
+  </conbody>
+</concept>

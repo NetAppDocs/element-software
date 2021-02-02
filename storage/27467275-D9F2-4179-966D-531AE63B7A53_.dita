@@ -1,0 +1,66 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-27467275-D9F2-4179-966D-531AE63B7A53" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-99744DF1-5B72-4ACC-B08A-5EC8F772EB25">Run system utilities using the per-node UI</title>
+  <shortdesc>You can use the per-node UI for the storage node to create or delete support bundles, reset configuration settings for drives, and restart network or cluster services.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>nodes<indexterm>running system utilities</indexterm><indexterm>resetting</indexterm></indexterm>
+        <indexterm>support bundle<indexterm>creating</indexterm></indexterm>
+        <indexterm>drives<indexterm>resetting</indexterm></indexterm>
+        <indexterm>Element software services<indexterm>restarting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="PREREQ_B9F71A1424DF4974A51C6539E91D99F0">
+      <p>You have logged in to the per-node UI for the storage node.</p>
+    </prereq>
+    <steps id="GUID-CF222605-A811-4701-AE53-8CE8627EFBEC">
+      <step id="STEP_0BD2DDBE47D64F7BB26737A351810A8B">
+        <cmd>Click <uicontrol>System Utilities</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D1C524749714496CBF729F03B879AD04">
+        <cmd>Click the button for the system utility that you want to run.</cmd>
+        <info>
+          <dl>
+            <dlentry id="GUID-EEAC0569-533B-431A-B7A4-C2CE0E610D45">
+              <dt>Control Power</dt>
+              <dd>Reboots, power cycles, or shuts down the node. <note type="attention" id="GUID-74E6D478-B8D0-45FD-9C3A-680BECECBD40">This operation causes temporary loss of networking connectivity.</note>Specify the following parameters:<ul id="GUID-5B40DEA7-9820-4BB0-B20B-92FB47767B52"><li>Action: Options include <option>Restart</option> and <option>Halt</option> (power off).</li><li>Wakeup Delay: Any additional time before the node comes back online. </li></ul></dd>
+            </dlentry>
+          </dl>
+          <dl>
+            <dlentry id="GUID-45E2D1B6-092A-4661-A9B7-586759FBD917">
+              <dt>Collect Node Logs</dt>
+              <dd>Creates a support bundle under the node's <filepath>/tmp/bundles</filepath> directory. <p>Specify the following parameters:<ul id="GUID-D8239C3F-285C-4FFE-97B3-494BF3C4F478"><li>Bundle Name: Unique name for each support bundle created. If no name is provided, then "supportbundle" and the node name are used as the file name.</li><li>Extra Args: This parameter is fed to the <cmdname>sf_make_support_bundle</cmdname> script. This parameter should be used only at the request of NetApp Support.</li><li>Timeout Sec: Specify the number of seconds to wait for each individual ping response.</li></ul></p></dd>
+            </dlentry>
+            <dlentry id="GUID-7FBC0A4D-2C67-484D-B644-91D65FF62F69">
+              <dt>Delete Node Logs</dt>
+              <dd>Deletes any current support bundles on the node that were created using <uicontrol>Create Cluster Support Bundle</uicontrol> or the <apiname>CreateSupportBundle</apiname> API method.</dd>
+            </dlentry>
+            <dlentry id="GUID-6F473F53-C60B-4639-9A41-BD3403B4278D">
+              <dt>Reset Drives</dt>
+              <dd>Initializes drives and removes all data currently residing on the drive. You can reuse the drive in an existing node or in an upgraded node.<p>Specify the following parameter:<ul id="GUID-111F8AD5-524D-4217-8AC2-75C0506D1215"><li>Drives: List of device names (not driveIDs) to reset.</li></ul></p></dd>
+            </dlentry>
+            <dlentry id="GUID-7FBC1AD6-2098-4008-8849-3F0CCC13910A">
+              <dt>Reset Network Config</dt>
+              <dd>Helps resolve network configuration issues for an individual node and resets an individual node's network configuration to the factory default settings.</dd>
+            </dlentry>
+            <dlentry id="GUID-C09407F1-992A-41D0-9011-87050F91459F">
+              <dt>Reset Node</dt>
+              <dd>Resets a node to the factory settings. All data is removed but network settings for the node are preserved during this operation. Nodes can only be reset if they are unassigned to a cluster and in <option>Available</option> state.<note type="attention" id="GUID-1CF2FC0A-C85A-49D8-BFD0-272BF3E0152C">All data, packages (software upgrades), configurations, and log files are deleted from the node when you use this option.</note></dd>
+            </dlentry>
+            <dlentry id="GUID-05A34E80-B563-4259-9C26-5B7D0CA71C19">
+              <dt>Restart Networking</dt>
+              <dd>Restarts all networking services on a node.<note type="attention" id="GUID-E3EAF626-3CD6-4143-B44B-FF03409DEC39">This operation can cause temporary loss of network connectivity.</note></dd>
+            </dlentry>
+            <dlentry id="GUID-41D89750-CE18-4903-901C-2D7E0F70C120">
+              <dt>Restart Services</dt>
+              <dd>Restarts Element software services on a node.<note type="attention" id="GUID-F80E3E14-CE41-41B9-8AAD-B2D078266299">This operation can cause temporary node service interruption. You should perform this operation only at the direction of NetApp Support.</note><p>Specify the following parameters:<ul id="GUID-6B71D406-F69E-4FE7-AB73-6D8D087D1C78"><li>Service: Service name to be restarted.</li><li>Action: Action to perform on the service. Options include <option>start</option>, <option>stop</option> and <option>restart</option>.</li></ul></p></dd>
+            </dlentry>
+          </dl>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

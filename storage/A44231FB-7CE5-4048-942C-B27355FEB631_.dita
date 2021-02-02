@@ -1,0 +1,61 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-A44231FB-7CE5-4048-942C-B27355FEB631" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A7E71428-16BB-445F-BB90-2120D091CEE7"> Create a SnapMirror endpoint</title>
+  <shortdesc>You must create a SnapMirror endpoint in the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI before you can create a relationship.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>endpoints</keyword>
+        <indexterm>SnapMirror<indexterm>creating endpoints</indexterm><indexterm>endpoints</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-70CB86E0-063F-43B8-9368-B2F31BE65E0A">
+      <ul id="UL_3D930BA69DC843E9BED1230FC7AD2081">
+        <li id="LI_051831E45B8A42B88D4175EB01B5838B">You have enabled SnapMirror in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI for the storage cluster.</li>
+        <li id="LI_7348B5D5C244460999C88C7D869A11D6">You know the ONTAP credentials for the endpoint.</li>
+      </ul>
+    </prereq>
+    <context id="GUID-C4313B93-C2FB-4F68-9333-4E28F48655EC">
+      <p>A SnapMirror endpoint is an ONTAP cluster that serves as a replication target for a
+                cluster running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. Before you create
+                a SnapMirror relationship, you first create a SnapMirror endpoint. </p>
+      <p>You can create and manage up to four SnapMirror endpoints on a storage cluster
+                running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. </p>
+      <note id="GUID-42574BB3-54A6-4270-A585-B0D7AC0F3E01">If an existing endpoint was originally created using the API and credentials were
+                not saved, you can see the endpoint in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>
+                UI and verify its existence, but it cannot be managed using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI. This endpoint can then only be managed
+                using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API. For information about the API
+                methods, see API reference information.<p><xref keyref="sfe-api" /></p></note>
+    </context>
+    <steps id="GUID-CEE6404F-A853-43F2-B807-7F7C9E48FC2E">
+      <step id="STEP_4657987EAAB54C339E1A2A913017FD8A">
+        <cmd>Click <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>SnapMirror Endpoints</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_55624C60FA6F4427BE3A77FD1E0ECEA4">
+        <cmd>Click <uicontrol>Create Endpoint</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D024EFCC83134E1D9B3211D63E232EC9">
+        <cmd>In the <uicontrol>Create a New Endpoint</uicontrol> dialog box, enter the cluster management IP address of the ONTAP system.</cmd>
+      </step>
+      <step id="STEP_95608F9C031E4BBDB718FDB38AA93BA8">
+        <cmd>Enter the ONTAP administrator credentials associated with the endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Review additional details: </cmd>
+        <info>
+          <ul id="GUID-8D804943-6CD9-424E-9FFF-DCD9966449AE">
+            <li>LIFs: Lists the ONTAP intercluster logical interfaces used to
+                            communicate with <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph>. </li>
+            <li>Status: Shows the current status of the SnapMirror endpoint. Possible
+                            values are: connected, disconnected, and unmanaged. </li>
+          </ul>
+        </info>
+      </step>
+      <step id="STEP_9727343C4E1C4920A150DE17ABFD6629">
+        <cmd>Click <uicontrol>Create Endpoint</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

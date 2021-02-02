@@ -1,0 +1,29 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-C5DE4685-99B7-46A1-B49F-7C3021100E34" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4C9926A1-F27E-4E40-8DFA-E4D4FF94BECA">Supported modes of replication for paired clusters</title>
+  <shortdesc>The following modes of replication are supported on the paired clusters:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>supported</keyword>
+        <keyword>replication</keyword>
+        <keyword>modes</keyword>
+        <keyword>clusters</keyword>
+        <keyword>paired</keyword>
+        <keyword>pair</keyword>
+        <keyword>pairs</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-00D8C19B-641C-4F78-91FD-CA6280B1D51C">
+      <p>
+        <ul id="UL_ACE067490BEE46CE971DD5768F44EBE9">
+          <li id="LI_A4CD6EEC55F9466B9FC6DCC676561F89">Asynchronous replication of data:  The data sent to the replication target volume is sent asynchronously. The system does not wait for an acknowledgment to be sent before writing data. </li>
+          <li id="LI_2A79500C1F5245BE8608DEADAFE4B2A8">Synchronous replication of data: The data sent to the replication target volume is sent synchronously. When the I/O operations sent from the host are acknowledged by the system, the system acknowledgment is sent back to the host and the data is sent to the replication target volume.    </li>
+          <li id="LI_82AB2B77E21148228CC14A51FAC82735">Snapshots-only replication of data: Only volume snapshots  are replicated to the target cluster.  </li>
+        </ul>
+      </p>
+    </section>
+  </refbody>
+</reference>

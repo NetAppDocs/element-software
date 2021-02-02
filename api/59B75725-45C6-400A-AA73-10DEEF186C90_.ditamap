@@ -1,0 +1,19 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-59B75725-45C6-400A-AA73-10DEEF186C90" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-393A1B89-EAE0-4F5C-A244-1F868E6AA026">Mini CM: Element OS API RG: Appendices</title>
+  <topicref href="F21B6379-A33E-4DFD-80DA-5DD23A57EF40_.dita" navtitle="Appendix 1: Cluster fault codes">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </topicref>
+  <topicref href="AE58B164-AAFA-4435-847D-62E838A6ED9F_.dita" navtitle="Appendix 2: Access control">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </topicref>
+  <mapref href="8649E738-2E67-4A31-9CA5-AF2DDB60CE50_.ditamap" navtitle="Mini CM: Element OS API RG: Response examples" format="ditamap">
+    <topicmeta>
+      <navtitle>Response Examples</navtitle>
+    </topicmeta>
+  </mapref>
+</map>

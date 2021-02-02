@@ -1,0 +1,45 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-3C5966CD-2EDE-43E2-BE78-6F2000888C6F" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-361C3322-17B4-4FE5-AA7F-C14779F3BDEC">Configuring the node using the TUI</title>
+  <shortdesc>You can use the terminal user interface (TUI) to perform initial configuration for new nodes. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>nodes<indexterm>configuring using TUI</indexterm></indexterm>
+        <indexterm>TUI</indexterm>
+        <indexterm>terminal user interface</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-3A384144-A37E-42A1-9E0F-06217DBEDA55">
+      <p>You should configure the Bond1G (Management) and Bond10G (Storage) interfaces for separate subnets. Bond1G and Bond10G interfaces configured for the same subnet causes routing problems when storage traffic is sent via the Bond1G interface. If you must use the same subnet for management and storage traffic, manually configure management traffic to use the Bond10G interface. You can do this for each node using the <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Nodes</uicontrol></menucascade> page of the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI. </p>
+    </context>
+    <steps id="GUID-E37EEE7E-D6B8-45E4-B363-6B97CBEF44BB">
+      <step id="STEP_211ABE20286740F3B7BF26BC19B843B1">
+        <cmd>Attach a keyboard and monitor to the node and then power on the node. </cmd>
+        <info>The NetApp Storage Main menu of the TUI appears on the tty1 terminal. </info>
+        <info>
+          <note id="GUID-0EE4B908-CB78-4BD2-8118-89F0FD69B226">If the node cannot reach your configuration server, the TUI displays an error message. Check your configuration server connection or the networking connection to resolve the error.</note>
+        </info>
+      </step>
+      <step>
+        <cmd>Select <menucascade><uicontrol>Network</uicontrol><uicontrol>Network Config</uicontrol></menucascade>.</cmd>
+        <info>
+          <note type="tip" id="GUID-31021202-5D09-49C4-AF3A-C1AF660BE837">To navigate through the menu, press the Up or Down arrow keys. To move to another button or to the fields from the buttons, press <uicontrol>Tab</uicontrol>. To navigate between fields, use the Up or Down arrow keys.</note>
+        </info>
+      </step>
+      <step id="STEP_8EFA233E34A84096B1B3E88D34701E8B">
+        <cmd>Select <uicontrol>Bond1G (Management)</uicontrol> or <uicontrol>Bond10G (Storage)</uicontrol> to configure the 1G and 10G network settings for the node.</cmd>
+      </step>
+      <step id="STEP_E6C56A69DCD2443DA72C385B904E04F4">
+        <cmd>For the Bond mode and Status fields, press <uicontrol>Tab</uicontrol> to select the Help button and identify the available options. </cmd>
+        <info>All the nodes in a cluster must have identical cluster names. Cluster names are case-sensitive. If a DHCP server is running on the network with available IP addresses, the 1GbE address appears in the Address field.</info>
+      </step>
+      <step id="STEP_9F8BAFAE652C4EF1B57B381152D8B096">
+        <cmd>Press <uicontrol>Tab</uicontrol> to select the <uicontrol>OK</uicontrol> button and save the changes. </cmd>
+        <info>The node is put in a pending state and can be added to an existing cluster or a new cluster.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

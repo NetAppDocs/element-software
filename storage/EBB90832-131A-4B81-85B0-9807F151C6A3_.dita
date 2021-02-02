@@ -1,0 +1,31 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-EBB90832-131A-4B81-85B0-9807F151C6A3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9E93F692-D6A2-4BEA-8972-F177652FB97E">Create a QoS policy</title>
+  <shortdesc>You can create QoS policies and apply them when creating volumes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>QoS policies<indexterm>creating</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-73B78F1A-F8F1-4D14-8763-4E286BEE91E0">
+      <step id="STEP_A3DAD05EC27D46C0BEB30F5137055F04">
+        <cmd>Select  <menucascade><uicontrol>Management </uicontrol><uicontrol>QoS Policies</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_DEC2B14BF16E47C4B49D078A02394392">
+        <cmd>Click <uicontrol>Create QoS Policy</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_1988E794FCFB4268891C1091BEC8CC28">
+        <cmd>Enter the <uicontrol>Policy Name</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_CC994D26B2854F448C230E1B153802FA">
+        <cmd>Enter the<uicontrol> Min IOPS</uicontrol>, <uicontrol>Max IOPS</uicontrol>, and <uicontrol>Burst IOPS </uicontrol> values.</cmd>
+      </step>
+      <step id="STEP_5C3072947DCD4E5F9F7A5E875281C390">
+        <cmd>Click <uicontrol>Create QoS Policy</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

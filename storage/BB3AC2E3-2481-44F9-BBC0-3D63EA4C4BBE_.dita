@@ -1,0 +1,57 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-BB3AC2E3-2481-44F9-BBC0-3D63EA4C4BBE" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EAB8B7C2-500D-44E7-B2CD-FFB7FC910104">Back up a volume to an OpenStack Swift object store</title>
+  <shortdesc>You can back up volumes to external object stores that are compatible with OpenStack Swift.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volumes<indexterm>backing up to OpenStack Swift</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-98824001-267C-401C-8694-6DFE1E8F60CD">
+      <step id="STEP_4336591F7AF94529A712BABF9129FCE7">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_24AB5AA3AC704407B27EEA8106EF3170">
+        <cmd>Click the Actions icon for the volume to back up.</cmd>
+      </step>
+      <step id="STEP_E5F2BAED12004819A5BC41FA52EA09A8">
+        <cmd>In the resulting menu, click <uicontrol>Backup to</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_E6C79159521D419F8CF0BF717D4898FB">
+        <cmd>In the <uicontrol>Integrated Backup</uicontrol> dialog box under <uicontrol>Backup to</uicontrol>, select <uicontrol>Swift</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_7D3885C3A8F945648E52120E4022DC12">
+        <cmd>Select a data format under <uicontrol>Data Format</uicontrol>:</cmd>
+        <info>
+          <ul id="UL_A80733A5CD774463AB693378CA3E7C16">
+            <li id="LI_208B84BA4A9643898601FD9C3BFAEF33">
+              <uicontrol>Native</uicontrol>: A compressed format readable only by SolidFire storage systems.</li>
+            <li id="LI_318A28837F224818B0F870F11B1A61D7">
+              <uicontrol>Uncompressed</uicontrol>: An uncompressed format compatible with other systems.</li>
+          </ul>
+        </info>
+      </step>
+      <step id="STEP_34870E1CEBC0458DA56056420992D4A3">
+        <cmd>Enter a URL to use to access the object store in the <uicontrol>URL</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_EE6A21F3105B4130858CE3CFD1B28166">
+        <cmd>Enter a user name for the account in the <uicontrol>Username</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_B82BE5865333474BB72A6A38F22FCBF6">
+        <cmd>Enter the authentication key for the account in the <uicontrol>Authentication Key</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_69865A1EA9BE449AAA531C2C2F876EF4">
+        <cmd>Enter the container in which to store the backup in the <uicontrol>Container</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_A331028DAAED4A77973B5019DC6DAF17" importance="optional">
+        <cmd>Enter a name tag to append to the prefix in the <uicontrol>Nametag</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_83B16DF8660E4C528558DBFEA1A60E8B">
+        <cmd>Click <uicontrol>Start Read</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

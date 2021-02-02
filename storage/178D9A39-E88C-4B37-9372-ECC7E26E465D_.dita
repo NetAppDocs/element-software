@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-178D9A39-E88C-4B37-9372-ECC7E26E465D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-33D6ABB9-BD43-4968-B48E-67515987E8AB">Disable LDAP</title>
+  <shortdesc>You can disable LDAP integration using the Element UI. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>LDAP<indexterm>disabling</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="PREREQ_81015AA6EDD74CE596EC902A6C6721BC">
+      <p>You have made a  note of all the configuration settings, because disabling LDAP erases all settings.</p>
+    </prereq>
+    <steps id="GUID-039E81C4-AF1C-486B-9FDA-447653F53699">
+      <step id="STEP_B8F8D7BF377A4C2C8681E486F2B1A657">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>LDAP</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_E8F5425EBD6247E980704C7A7404C0DE">
+        <cmd>Click <uicontrol>No</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_27796D24E21D49A3BA493BD1219FD82D">
+        <cmd>Click <uicontrol>Disable LDAP</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

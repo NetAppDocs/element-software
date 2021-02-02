@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-3B8189D5-40A7-4783-AB42-BD24D4E3E5F4" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A25B60FA-FA31-4F3F-9E36-2D67CB5B46C8">Management node for <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software</title>
+  <shortdesc>The management node (mNode) is a virtual machine that runs in parallel with one or more <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software-based storage clusters. It is used to upgrade and provide system services including monitoring and telemetry, manage cluster assets and settings, run system tests and utilities, and enable NetApp Support access for troubleshooting.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>what is the management node</keyword>
+        <keyword>what is the mNode</keyword>
+        <indexterm>management node<indexterm>About the mNode</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>As of the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> 11.3 release, the management node functions as a microservice host, allowing for quicker updates of select software services outside of major releases. These microservices or management services, such as the Active IQ collector, QoSSIOC for the vCenter Plug-in, and mNode service, are updated frequently as service bundles. Additional services including HealthTools for storage node software upgrades and support tools (remote support tunneling) are also available from the management node.</p>
+  </conbody>
+</concept>

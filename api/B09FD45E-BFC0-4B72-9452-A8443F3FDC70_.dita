@@ -1,0 +1,226 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-B09FD45E-BFC0-4B72-9452-A8443F3FDC70" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CheckPingOnVlan</title>
+  <shortdesc>You can use the <apiname>CheckPingOnVlan</apiname> method to test network connectivity on a temporary VLAN when performing pre-deployment network validation. <apiname>CheckPingOnVlan</apiname> creates a temporary VLAN interface, sends ICMP packets to all nodes in the storage cluster using the VLAN interface, and then removes the interface. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>VLAN</keyword>
+        <keyword>pre-deployment</keyword>
+        <keyword>network</keyword>
+        <keyword>validation</keyword>
+        <keyword>validate</keyword>
+        <keyword>validating</keyword>
+        <keyword>check</keyword>
+        <keyword>checking</keyword>
+        <keyword>CheckPingOnVlan</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colname="col1" colnum="1" colwidth="2.03*" />
+          <colspec colname="col2" colnum="2" colwidth="2.23*" />
+          <colspec colname="col3" colnum="3" colwidth="1.00*" />
+          <colspec colname="col4" colnum="4" colwidth="1.07*" />
+          <colspec colname="col5" colnum="5" colwidth="1.31*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>attempts</parmname>
+              </entry>
+              <entry colname="col2">Specifies the number of times the system should repeat the test ping.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">
+                <option>5</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>hosts</parmname>
+              </entry>
+              <entry colname="col2">Specifies a comma-separated list of addresses or hostnames of devices to ping. </entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">The nodes in the cluster</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>interface</parmname>
+              </entry>
+              <entry colname="col2">The existing (base) interface from which the pings should be sent. Possible values:<ul id="UL_6B28A99D74304619B554924B511D54E3"><li id="LI_0DFEDECAB707408F85FE820BD8DC5265"><option>Bond10G</option>: Send pings from the Bond10G interface.</li><li id="LI_63CE49A1D5D14C9CB0496C6F8E85A454"><option>Bond1G</option>: Send pings from the Bond1G interface.</li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>packetSize</parmname>
+              </entry>
+              <entry colname="col2">Specifies the number of bytes to send in the ICMP packet that is sent to each IP. The number of bytes must be less than the maximum MTU specified in the network configuration.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>pingTimeoutMsec</parmname>
+              </entry>
+              <entry colname="col2">Specifies the number of milliseconds to wait for each individual ping response.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">500 ms</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>prohibitFragmentation</parmname>
+              </entry>
+              <entry colname="col2">Enables the DF (Do not Fragment) flag for the ICMP packets.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>sourceAddressV4</parmname>
+              </entry>
+              <entry colname="col2">The source IPv4 address to use in the ICMP ping packets.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>sourceAddressV6</parmname>
+              </entry>
+              <entry colname="col2">The source IPv6 address to use in the ICMP ping packets.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>totalTimeoutSec</parmname>
+              </entry>
+              <entry colname="col2">Specifies the time in seconds the ping should wait for a system response before issuing the next ping attempt or ending the process. </entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">
+                <option>5</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>virtualNetworkTag</parmname>
+              </entry>
+              <entry colname="col2">The VLAN ID to use when sending the ping packets.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colname="col1" colnum="1" colwidth="*" />
+          <colspec colname="col2" colnum="2" colwidth="*" />
+          <colspec colname="col3" colnum="3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">details</entry>
+              <entry colname="col2">List of each IP the node was able to communicate with and ping response statistics.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+    "method": "CheckPingOnVlan",
+    "params": {
+        "interface": "Bond10G",
+        "virtualNetworkTag": 4001,
+        "sourceAddressV4": "192.168.41.4",
+        "hosts": "192.168.41.2"
+},
+"id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "details": {
+      "192.168.41.2": {
+        "individualResponseCodes": [
+          "Success",
+          "Success",
+          "Success",
+          "Success",
+          "Success"
+        ],
+        "individualResponseTimes": [
+          "00:00:00.000373",
+          "00:00:00.000098",
+          "00:00:00.000097",
+          "00:00:00.000074",
+          "00:00:00.000075"
+        ],
+        "individualStatus": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "interface": "Bond10G",
+        "responseTime": "00:00:00.000143",
+        "sourceAddressV4": "192.168.41.4",
+        "successful": true,
+        "virtualNetworkTag": 4001
+      }
+    },
+    "duration": "00:00:00.244379",
+    "result": "Passed"
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-7CE3DE21-FA0F-4017-84C3-691D8DB9061D">
+      <title id="GUID-9F121A61-C583-4CB0-9690-69098FC84334">New since version</title>
+      <p>11.1</p>
+    </section>
+  </refbody>
+</reference>

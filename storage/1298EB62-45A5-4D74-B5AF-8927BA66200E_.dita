@@ -1,0 +1,43 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-1298EB62-45A5-4D74-B5AF-8927BA66200E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">QoS policies details</title>
+  <shortdesc>You can view details of QoS policies from  the <wintitle>Management</wintitle> tab.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>QoS policies<indexterm>viewing details</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <dl>
+        <dlentry id="GUID-C7572A68-091C-4D66-88AB-661FBBC4605A">
+          <dt>ID</dt>
+          <dd>The system-generated ID for the QoS policy.</dd>
+        </dlentry>
+        <dlentry id="GUID-253FE216-5F97-4AE8-8CF2-9067F8D335D1">
+          <dt>Name</dt>
+          <dd>The user-defined name for the QoS policy.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-8EC534D4-F9FB-4265-9F8D-2BBB45BA984C">
+          <dt>Min IOPS</dt>
+          <dd>The minimum number of IOPS guaranteed for the volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-6FB4AEDB-8415-4D72-8326-986F4B6DFA8C">
+          <dt>Max IOPS</dt>
+          <dd>The maximum number of IOPS allowed for the volume.</dd>
+        </dlentry>
+        <dlentry id="GUID-3BBCE1B8-A7EC-49F4-8F4C-56E0991B80FC">
+          <dt>Burst IOPS</dt>
+          <dd>The maximum number of IOPS allowed over a short period of time for the volume. Default = 15,000.</dd>
+        </dlentry>
+        <dlentry id="GUID-96F5AF31-A681-4E45-A2E1-C3EDE10F24DB">
+          <dt>Volumes</dt>
+          <dd>Shows the number of volumes using the policy. This number links to a table of volumes that have the policy applied.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-5D1995A7-7FD7-45AE-BDDB-8B749D5FEC08" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Volume access group details</title>
+  <shortdesc>The <wintitle>Access Groups</wintitle> page on the <wintitle>Management</wintitle> tab provides information about volume access groups.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume access groups</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">The following information is displayed:<dl><dlentry id="GUID-6EFB441A-2EB4-48B4-B000-EFD9353A1EE7"><dt>ID</dt><dd>The system-generated ID for the access group.</dd></dlentry><dlentry id="GUID-8BECE0C7-4F08-47C2-97FC-374DFF19D467"><dt>Name</dt><dd>The name given to the access group when it was created.   </dd></dlentry><dlentry id="GUID-71C5EDAD-A59D-485E-8EA4-B038B48A4BBD"><dt>Active Volumes</dt><dd>                        The number of active volumes in the access group.
+</dd></dlentry><dlentry id="GUID-585FFC12-EFAE-476B-80E3-524C0BE7572C"><dt>Compression</dt><dd>                        The compression efficiency score for the access group.
+</dd></dlentry><dlentry id="GUID-D9BC4C6F-305E-4050-8DA7-568486BEA8B1"><dt>Deduplication</dt><dd>                        The deduplication efficiency score for the access group.
+</dd></dlentry><dlentry id="GUID-2DCE3FC5-9C5E-4B25-AA7F-D6C8BF8DC6A2"><dt>Thin Provisioning</dt><dd>The thin provisioning efficiency score for the access group.
+</dd></dlentry><dlentry id="GUID-3D238BB8-3DB9-4B91-AB6B-A7BCACE4A696"><dt>Overall Efficiency</dt><dd>                        The overall efficiency score for the access group.</dd></dlentry><dlentry id="GUID-A060921E-CAB8-4DBC-BCA2-9964C8AEF9A0"><dt>Initiators</dt><dd>The number of initiators connected to the access group. </dd></dlentry></dl></section>
+  </refbody>
+</reference>

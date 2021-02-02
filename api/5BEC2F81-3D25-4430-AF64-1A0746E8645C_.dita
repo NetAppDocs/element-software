@@ -1,0 +1,13 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-5BEC2F81-3D25-4430-AF64-1A0746E8645C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Common objects</title>
+  <shortdesc>The Element software  API uses JSON objects to represent organized data concepts. Many of these API methods make use of these objects  for data input and output. This section documents these commonly used  objects; objects that are only used within a single method are documented with that method instead of in this section.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>common</keyword>
+        <keyword>objects</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

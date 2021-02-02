@@ -1,0 +1,37 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-766DD4C7-B233-4E00-82E8-1D01B74B0699" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6F197BE1-C61C-439B-B727-809621BD0E22">Remove volumes from an access group</title>
+  <shortdesc>When you remove a volume from an access group, the group no longer has access to that volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>access groups<indexterm>removing volumes</indexterm></indexterm>
+        <indexterm>volumes<indexterm>removing from access groups</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-E720F840-B4E4-4CB2-A098-643E76775A56">Modifying CHAP settings in an account or removing initiators or volumes from an access group can cause initiators to lose access to volumes unexpectedly. To verify that volume access will not be lost unexpectedly, always logout iSCSI sessions that will be affected by an account or access group change, and verify that initiators can reconnect to volumes after any changes to initiator settings and cluster settings have been completed.</context>
+    <steps id="GUID-82A9B85D-18C6-4D6A-8152-9394AB670F5C">
+      <step id="STEP_79596707F20A4FDA93C7AD7942A11EA9">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Access Groups</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_96F7E9BB01564F468BF9EAB2BA0A1F7B">
+        <cmd>Click the Actions icon for the access group you want to remove volumes from.</cmd>
+      </step>
+      <step id="STEP_90444090055B4902B6EDB6D1D63F4E0D">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_4AE4C2BA177747B483EB55467A236CCB">
+        <cmd>Under Add Volumes in the <uicontrol>Edit Volume Access Group</uicontrol> dialog box, click the arrow on the <uicontrol>Attached Volumes</uicontrol> list.</cmd>
+      </step>
+      <step id="STEP_C9F1039B788640EBA33484883008C459">
+        <cmd>Select the volume you want to  remove from the list and click the <uicontrol>x</uicontrol> icon to remove the volume from the list.</cmd>
+        <stepresult>You can remove more volumes by repeating this step.</stepresult>
+      </step>
+      <step id="STEP_862B537474B64A93BFC2DFEA401A788F">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

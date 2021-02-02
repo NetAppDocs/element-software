@@ -1,0 +1,66 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-8CA088EB-D99B-47A4-8A07-01713223C2C7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">session (Fibre Channel)</title>
+  <shortdesc>The <apiname>session</apiname> object contains  information about each  Fibre Channel session that is visible to the cluster and what target ports it is visible on. You can retrieve this information with the <apiname>ListFibreChannelSessions</apiname> API method. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>session</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.22*" />
+          <colspec colnum="2" colname="col2" colwidth="2.45*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">initiatorWWPN</entry>
+              <entry colname="col2">The World Wide Port Name (WWPN) of the initiator that is logged into the target port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeID</entry>
+              <entry colname="col2">The node that owns the  Fibre Channel session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiator</entry>
+              <entry colname="col2">Information about this  Fibre Channel session's server initiator. Members: <ul id="UL_A62ACA84F42A49B89F3182D7F1AB3C13"><li id="LI_F73E4D48B7074447AB6F6A50C9056614"><option>alias</option>: The friendly name assigned to the initiator.</li><li id="LI_02964D0DC23140BAA89C6878FE541742"><option>attributes</option>: The attributes of this initiator.</li><li id="LI_3B2C8A5386EF48CC972C1B67E366AC6C"><option>initiatorID</option>: The ID of this initiator.</li><li id="LI_C1A0858FBB2B4EFB9005EE4C5F0BC943"><option>initiatorName</option>: The name of this initiator.</li><li id="LI_0D2477FD722946EDBD791F421DBA042A"><option>volumeAccessGroups</option>: A list of volume access groups associated with this initiator.</li></ul></entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">serviceID</entry>
+              <entry colname="col2">The service ID of the target port involved in this session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">targetWWPN</entry>
+              <entry colname="col2">The WWPN of the target port involved in this session.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeAccessGroupID</entry>
+              <entry colname="col2">The ID of the volume access group to which the initiatorWWPN belongs. If not in a volume access group, this value is null.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

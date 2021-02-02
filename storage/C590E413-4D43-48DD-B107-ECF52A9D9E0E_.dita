@@ -1,0 +1,38 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-C590E413-4D43-48DD-B107-ECF52A9D9E0E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6E893157-04FD-42B2-A8EC-A1602506C5FD">Configure an SNMP requestor</title>
+  <shortdesc>When SNMP version 2 is enabled, you can enable or disable a requestor, and configure requestors to receive authorized SNMP requests. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SNMP requestor</keyword>
+        <indexterm>SNMP<indexterm>configuring requestors</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-A0D92F9D-6660-4313-9C95-C1720AB3E841">
+      <step id="STEP_3A8BB86B295640FE897693571F6F4090">
+        <cmd>Click <menucascade><uicontrol>Cluster &gt; SNMP</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_1FD8C9DBDC76469FB28C52509C115042">
+        <cmd>Under <uicontrol>General SNMP Settings</uicontrol>, click <uicontrol>Yes</uicontrol> to enable SNMP.</cmd>
+      </step>
+      <step id="STEP_C3CB68D10E7049EAA2D978F41B6FEFE7">
+        <cmd>From the <uicontrol>Version</uicontrol> list, select <uicontrol>Version 2</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_0658026374E0440C8CBAFFF555714824">
+        <cmd>In the <uicontrol>Requestors</uicontrol> section, enter the <uicontrol>Community String</uicontrol> and <uicontrol>Network</uicontrol> information.</cmd>
+        <info>
+          <note id="GUID-5906F188-7E5F-4561-B6D2-AB506F6A85F4">By default, the community string is public, and the network is localhost. You can change these default settings.</note>
+        </info>
+      </step>
+      <step id="STEP_DCCA1BD359D6459483B99E9D3723BAFF" importance="optional">
+        <cmd importance="optional">To add another requestor, click <uicontrol>Add a Requestor</uicontrol> and enter the <uicontrol>Community String</uicontrol> and <uicontrol>Network</uicontrol> information.</cmd>
+      </step>
+      <step id="STEP_93D6332CF8904B8C8BCB726958B59F00">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

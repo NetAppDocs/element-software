@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "file:///D|/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/topic.dtd"[
+]>
+<topic id="variables" xml:lang="en">
+  <!-- this file is used in a Netapp custiomization to store variables in and use them as conrefs -->
+  <title>Exported Variables</title>
+  <shortdesc>These are Trisoft Variables that were converted to DITA conrefs in order to be able to compare changes to exported source XML</shortdesc>
+  <body>
+    <p>
+      <ph id="PROD-SFE">
+        <tm tmtype="reg">NetApp</tm>
+        <tm tmtype="reg">Element</tm> 12.2</ph>
+      <ph id="SFE-API-MAINBOOKTITLE">API Reference Guide</ph>
+      <ph id="SFE-API-SUBTITLE" />
+      <ph id="SFE-API-ECLIPSETITLE">Managing storage with the Element API</ph>
+      <ph id="SFE-API-RUNNINGTITLE">NetApp Element API Reference Guide</ph>
+      <ph id="CMN-COVERSTAMP"></ph>
+      <ph id="CMN-PAGESTAMP" />
+      <ph id="SFE-API-SHORTDESC">Describes the features of the NetApp Element API and provides information about the prerequisites for using the API. It also describes how to use the API to accomplish tasks with NetApp SolidFire storage.</ph>
+      <keyword id="CMN-AUTHOR">NetApp Information Engineering</keyword>
+      <keyword translate="no" id="SFE-API-BOOKPARTNO">215-15139</keyword>
+      <keyword translate="no" id="CMN-EDMARKER-NUM">_2020-11</keyword>
+      <keyword translate="yes" id="CMN-LANGMARKER">_en-us</keyword>
+      <keyword translate="yes" id="CMN-EDMARKER-TEXT">November 2020</keyword>
+      <keyword id="SFE-API-ECMID-PRI">Managing storage with the Element API</keyword>
+      <keyword id="SFE-API-ECMID-SEC">Managing storage with the Element API</keyword>
+      <ph translate="no" id="CMN-DCID">sfe-122</ph>
+      <keyword id="SFE-API-PLUGINID">com.netapp.doc.sfe-api</keyword>
+      <keyword translate="no" id="SFE-API-LASTMOD" />
+      <ph translate="no" id="CMN-PRODINFO">
+        <data name="nss-product">NetApp Element 12.2</data>
+      </ph>
+      <ph id="ELEMENT-SHORT">Element</ph>
+      <ph id="SDS-LONG">SolidFire Enterprise SDS</ph>
+      <ph id="NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>
+      <ph id="SDS-SHORT">SolidFire eSDS</ph>
+      <ph id="NTAP-IBM">NetApp</ph>
+    </p>
+  </body>
+  <related-links></related-links>
+</topic>

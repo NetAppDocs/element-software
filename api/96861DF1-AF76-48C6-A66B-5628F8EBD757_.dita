@@ -1,0 +1,16 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-96861DF1-AF76-48C6-A66B-5628F8EBD757" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">System configuration API methods</title>
+  <shortdesc>System configuration API methods enable you to obtain and set configuration values that apply to all nodes in the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>system</keyword>
+        <keyword>config</keyword>
+        <keyword>configuration</keyword>
+        <keyword>methods</keyword>
+        <keyword>api</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

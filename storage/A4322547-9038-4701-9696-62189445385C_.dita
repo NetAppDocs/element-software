@@ -1,0 +1,26 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-A4322547-9038-4701-9696-62189445385C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-3BDA1CC9-DD36-4F48-8AA5-BEF33EEDC2C8">Avoid mixing nodes for FIPS drives</title>
+  <shortdesc>To prepare for enabling the FIPS drives feature, you should avoid mixing nodes where some are FIPS drives capable and some are not. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>fips</keyword>
+        <keyword>security</keyword>
+        <keyword>federal information processing standards</keyword>
+        <keyword>140-2</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-1EFA996C-3A22-4361-A868-5C5087D8AEE9">
+      <p>A cluster is considered FIPS drives compliant based on the following conditions:</p>
+      <ul id="GUID-0C16D3C3-3460-40E5-BA04-ADD9E12A645E">
+        <li>All drives are certified as FIPS drives. </li>
+        <li>All nodes are FIPS drives nodes.</li>
+        <li>Encryption at Rest (EAR) is enabled. </li>
+        <li>The FIPS drives feature is enabled. All drives and nodes must be FIPS capable and Encryption at Rest must be enabled in order to enable the FIPS drive feature. </li>
+      </ul>
+    </context>
+  </taskbody>
+</task>

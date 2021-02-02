@@ -1,0 +1,20 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-B663F514-A0E1-4F6B-9080-4DA5609F6C33" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Event types</title>
+  <shortdesc>The system reports multiple types of events; each event is an operation that the system has completed. Events can be routine, normal events or events that require administrator attention. The Event Types column on the <wintitle>Event Log</wintitle> page indicates in which part of the system the event occurred.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>event log<indexterm>event types</indexterm></indexterm>
+        <indexterm>event types</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <note id="GUID-B7EF6139-6281-4EE3-9405-84864755BD80">The system does not log read-only API commands in the event log.</note>
+      <p>The following list describes the types of events that appear in the event log:</p>
+    </section>
+    <section conref="5C1C462C-1939-45E3-8684-5316E08D54A6_.dita#GUID-5C1C462C-1939-45E3-8684-5316E08D54A6/SECTION_0A932973431948D896C44E96EFF8CFF2" id="GUID-529B26D7-A038-4325-912A-1D5632521A6A" />
+  </refbody>
+</reference>

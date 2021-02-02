@@ -1,0 +1,25 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-D1EEF0AB-B0FF-4B23-86E7-D31403DBB450" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9C530DFC-E844-4195-BE81-4A89F7D77DB1"> Cluster capacity in a mixed node environment</title>
+  <shortdesc>You can mix different types of nodes in a cluster. The SF-Series 2405, 3010, 4805, 6010, 9605, 9010, 19210, 38410 and the H-Series can coexist in a cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>clusters<indexterm>mixed nodes</indexterm></indexterm>
+        <indexterm>clusters<indexterm>capacity</indexterm></indexterm>
+        <indexterm>mixed nodes<indexterm>cluster capacity</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>The H-Series consists of H610S-1, H610S-2, H610S-4, and H410S nodes. These nodes are both 10GbE and 25GbE capable.</p>
+    <p>It is best to not intermix non-encrypted and encrypted nodes.  In a mixed node cluster, no node can be larger than 33 percent of the total cluster capacity. For instance, in a cluster with four SF-Series 4805 nodes, the largest node that can be added alone is an SF-Series 9605. The cluster capacity threshold is calculated based on the potential loss of the largest node in this situation.</p>
+    <p>Beginning with <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> 12.0, the following SF-series storage nodes are not supported: </p>
+    <ul id="GUID-90070703-435F-4470-BD41-0FD8F140E9A2">
+      <li>SF3010</li>
+      <li>SF6010</li>
+      <li>SF9010</li>
+    </ul>
+    <p>If you upgrade one of these storage nodes to <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> 12.0, you will see an error stating that this node is not supported by <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> 12.0.</p>
+  </conbody>
+</concept>

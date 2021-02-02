@@ -1,0 +1,39 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-3545CCF9-919C-47C7-8E79-D2DC324FA88A" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-DB2A1DC6-B3FC-4824-8F30-D210633049D2">Key collection - IE standard key definitions</title>
+  <mapref href="DCB77390-6A27-4EE4-9DE1-405212CFC6CC_.ditamap" navtitle="Key definitions [ netapp-bol-02 ] - Key definitions for Bugs Online pages (second of two)" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [ netapp-bol-02 ] - Key definitions for Bugs Online pages (second of two)</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="E0CA98CC-A3CE-41D6-9AB7-BD02FBF9280D_.ditamap" navtitle="Key definitions [ netapp-bol1 ] - Key definitions for Bugs Online pages (first of two)" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [ netapp-bol1 ] - Key definitions for Bugs Online pages (first of two)</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="22DBBAF1-30E5-49F3-A688-51FEB6ABA337_.ditamap" navtitle="Key definitions [netapp-kba] - Third-generation KB" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-kba] - Third-generation KB</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="7B39D244-D031-46F5-8C60-FB202630F606_.ditamap" navtitle="Key definitions [netapp-kb-deprecated] - First-generation KB system" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-kb-deprecated] - First-generation KB system</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="073F593F-8E96-4E16-A357-F8C473983EF6_.ditamap" navtitle="Key definitions [netapp-tr] - NetApp Technical Reports" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-tr] - NetApp Technical Reports</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="D90718DC-C882-4368-857E-501E569069F0_.ditamap" navtitle="Key definitions [netapp-main] - Non-IE NetApp targets" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [netapp-main] - Non-IE NetApp targets</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref href="0C63584A-BA1D-4002-9BEC-57DCDE92536F_.ditamap" navtitle="Key definitions [third-party] - Third-party external links" format="ditamap">
+    <topicmeta>
+      <navtitle>Key definitions [third-party] - Third-party external links</navtitle>
+    </topicmeta>
+  </mapref>
+</map>

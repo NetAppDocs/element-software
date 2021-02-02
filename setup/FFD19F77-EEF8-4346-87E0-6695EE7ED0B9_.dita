@@ -1,0 +1,12 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-FFD19F77-EEF8-4346-87E0-6695EE7ED0B9" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B4D8796C-965B-41F6-9556-231F7D06DB71">Trademark</title>
+  <refbody>
+    <section id="GUID-8252AC68-A5B4-4EB2-8D54-C5B1B42963AE">
+      <p>NETAPP, the NETAPP logo, and the marks listed on the <wintitle>NetApp Trademarks</wintitle> page are trademarks of NetApp, Inc. Other company and product names may be trademarks of their respective owners.</p>
+      <p>
+        <xref href="http://www.netapp.com/us/legal/netapptmlist.aspx" format="html" scope="external">http://www.netapp.com/us/legal/netapptmlist.aspx</xref>
+      </p>
+    </section>
+  </refbody>
+</reference>

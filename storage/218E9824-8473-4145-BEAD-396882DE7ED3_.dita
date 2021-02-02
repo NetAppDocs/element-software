@@ -1,0 +1,158 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-218E9824-8473-4145-BEAD-396882DE7ED3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4628C4F4-D004-4279-A0FD-FFDAEC84D06C">SolidFire_conrefs</title>
+  <shortdesc>Contains conrefs we've converted from old content as well as new items.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p />
+    <section id="SECTION_1A1D3AF13FBA4A689E251708C69D514E">
+      <title id="GUID-C793A749-899B-41BE-ABC2-043240BF9EF5">Element OS API Reference Guide conrefs</title>
+      <p>
+        <ph id="TS_D">The current time in UTC+0 format.</ph>
+      </p>
+      <p>
+        <ph id="QOSPOLID">The ID for the policy whose QoS settings should be applied to the specified volumes.  This parameter is mutually exclusive with the <parmname>qos</parmname> parameter.</ph>
+      </p>
+      <p>
+        <ph id="CURVE_DESC">The curve is a set of key-value pairs. The keys are the I/O sizes in bytes. The values represent the cost of performing an IOP at a specific I/O size. The curve is calculated relative to a 4096 byte operation set at 100 IOPS. </ph>
+      </p>
+      <p>
+        <ph id="ATTR_DESC">List of name-value pairs in JSON object format.</ph>
+      </p>
+      <p>
+        <ph id="ZEROBLOK_DESC">The total number of empty 4KiB blocks without data after the last round of garbage collection operation has completed.</ph>
+      </p>
+      <p>
+        <ph id="NONZEROBLK_DESC">The total number of 4KiB blocks that contain data after the last garbage collection operation has completed.</ph>
+      </p>
+      <p>
+        <ph id="MIPI_DESC">The network interface used for node management.</ph>
+      </p>
+      <p>
+        <ph id="SIPI_DESC">The network interface used for storage traffic.</ph>
+      </p>
+      <p>
+        <ph id="SVIP_DESC">The floating (virtual) IP address for the cluster on the storage (iSCSI) network.</ph>
+      </p>
+      <p>
+        <ph id="MVIP_DESC">The floating (virtual) IP address for the cluster on the management network.</ph>
+      </p>
+      <p>
+        <ph id="CIP_DESC">The cluster IP address assigned to the node.</ph>
+      </p>
+      <p>
+        <ph id="MIP_DESC">The management IP address assigned to the node.</ph>
+      </p>
+      <p>
+        <ph id="SIP_DESC">The storage (iSCSI) IP address assigned to the node.</ph>
+      </p>
+      <p>
+        <note id="GUID-6F902F82-1CEF-4C73-9803-6222A78F9D36" spectitle="CLUSTER_FULLNESS">You can create snapshots if cluster fullness is at stage 1, 2, or 3. You cannot create snapshots when cluster fullness reaches stage 4 or 5.</note>
+      </p>
+      <p>
+        <ph id="HCI_N_PORTS">You might need to allow the following  ports through your datacenter's edge firewall so that you can manage the system remotely and allow clients outside of your datacenter to connect to resources. Some of these  ports might not be required, depending on how you use the system. All ports are TCP unless stated otherwise, and should be open bidirectionally.</ph>
+      </p>
+      <p>
+        <ph id="APIRG_INIT_SECRET">The CHAP secret to use for the initiator. This secret must be 12-16 characters in length and should be impenetrable. The initiator CHAP secret must be unique and cannot be the same as the target CHAP secret.</ph>
+      </p>
+      <p>
+        <ph id="APIRG_TARGET_SECRET">The CHAP secret to use for the target (mutual CHAP authentication). This secret must be 12-16 characters in length and should be impenetrable. The target CHAP  secret must be unique and cannot be the same as the initiator CHAP secret.</ph>
+      </p>
+      <p>
+        <ph id="PROT_DOMAIN_NODE_ONLY">For systems running Element software 11.x, enabling virtual volumes before or after setting protection domain monitoring causes the cluster protection domains feature to function only at node level.</ph>
+      </p>
+    </section>
+    <section id="SECTION_C37B5A2F4BD3418FB7ECD17B51408BA1">
+      <title id="GUID-ED0CE533-B064-48B0-BE5D-1CFDE48DBDBE">Concepts Guide Conrefs</title>
+      <p>
+        <ph id="FABRIC_ORCHESTRATOR_OVERVIEW">Enables you to deploy a centralized data control plane to discover, manage, control, and govern your data estate, no matter where it is. </ph>
+      </p>
+      <p>
+        <ph id="SOLIDFIRE_OVERVIEW">A SolidFire all-flash storage system is comprised of discrete hardware components (drive and nodes) that are combined into a single pool of storage resources through <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> running independently on each node. This unified cluster presents as a single storage system for use by external clients and is managed as a single entity through the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software UI, API and other management tools.</ph>
+      </p>
+      <p>
+        <ph id="PROD_ELEMENT_UI">Enables you to set up SolidFire storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure. <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> is the storage operating system at the heart of a SolidFire cluster. <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources and present as a single storage system to external clients. <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software is responsible for all cluster coordination, scale and management of the system as a whole. The software interface is built upon the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API.</ph>
+      </p>
+      <p>
+        <ph id="ELEMENT_OVERVIEW_SENTENCE">
+          <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> is the storage operating system at the heart of a SolidFire cluster. <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources and present as a single storage system to external clients. <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software is responsible for all cluster coordination, scale and management of the system as a whole. The software interface is built upon the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API.</ph>
+      </p>
+      <p>
+        <ph id="PROD_ELEMENT_API"> Enables you to use a set of objects, methods, and routines to manage SolidFire storage. The <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API is based on the JSON-RPC protocol over HTTPS. You can monitor API operations in the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI by enabling the API Log; this enables you to see the methods that are being issued to the system. You can enable both requests and responses to see how the system replies to the methods that are issued.</ph>
+      </p>
+      <p>
+        <ph id="PROD_VCP_UI">Enables you to configure and manage storage clusters running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. The plug-in provides an alternative interface for the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI within VMware vSphere. </ph>
+      </p>
+      <p>
+        <ph id="PROD_MNODE">Enables you to upgrade and provide system services including monitoring and telemetry, manage cluster assets and settings, run system tests and utilities, and provide NetApp Support access for troubleshooting. The management node (mNode) is a virtual machine that runs in tandem with an <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software-based storage cluster. </ph>
+      </p>
+      <p>
+        <ph id="PROD_ACTIVEIQ">A web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.</ph>
+      </p>
+      <p>
+        <ph id="PERSIST_VOL_ACC">If you are using persistent volumes with the management node, do not modify the account name of the account associated with these volumes.</ph>
+      </p>
+      <p>
+        <ph id="PERSIST_VOL">If you are using persistent volumes with the management node, do not modify the names of the persistent volumes. </ph>
+      </p>
+      <p>
+        <ph id="MNODE_SNAP_BAD">Snapshots of the management node virtual machine are not supported; taking and restoring from a snapshot of a management node in a production environment might lead to unpredictable behavior.</ph>
+      </p>
+    </section>
+    <section id="GUID-F83ADCC5-C34A-4005-A4F2-4D22E122017F">
+      <title id="GUID-ABEBFACE-BC4B-4761-BC7C-50DF219A0292">Cloud Volumes and Fabric Orchestrator Conrefs </title>
+      <p>
+        <ph id="CLOUDVOLUMES_ONPREM">Provides a fully managed private cloud storage service that is available for customers within their own on-premise data centers. NetApp configures and manages your infrastructure so you don't have to. This new storage consumption model offers high performance storage for customers and partners wanting a cloud-like OPEX billing model managed by our world-class NetApp cloud operation experts.</ph>
+      </p>
+      <p>
+        <ph id="CLOUDVOLUMES_ONHCI">Enables you to self manage your data center on your NetApp HCI compute and storage resources. NetApp HCI provides the platform for NetApp Kubernetes Service and Cloud Volumes, both of which are essential to have in your Data Fabric.</ph>
+      </p>
+      <p>
+        <ph id="CLOUD_NKS_USER_CLUSTER">user cluster</ph>
+      </p>
+      <p>
+        <ph>
+          <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph> does not support this method. If you use this method on a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> system, the method will return an error.</ph>
+      </p>
+    </section>
+    <section id="GUID-6DA6DFB1-B3E8-40CB-AE06-FA553A827219">
+      <title id="GUID-169C12F7-F527-4E94-B7CB-2B9918F0A7E8">NetApp SolidFire VASA Provider</title>
+      <p>
+        <ph id="NETAPP_SF_VASA_PATCH">VASA support for multiple vCenters is available as an upgrade patch if you have already registered a VASA provider with your vCenter. To install, download the VASA39 .tar.gz file from the <xref format="html" href="https://mysupport.netapp.com/products/element_software/VASA39/index.html" scope="external">NetApp Software Downloads</xref> site and follow the directions in the manifest.</ph>
+        <ph id="NETAPP_SF_VASA_CERT">The <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> VASA provider uses a NetApp certificate. With this patch, the certificate is used unmodified by vCenter to support multiple vCenters for VASA and VVols use. Do not modify the certificate. Custom SSL certificates are not supported by VASA.</ph>
+      </p>
+    </section>
+    <section id="GUID-D33031D3-C3D6-4DFB-A7A4-A44B97262D5F">
+      <title id="GUID-92D40865-DEA3-41D2-8AFC-7A1518270159">Release Note vSphere 6.0 Support</title>
+      <p>
+        <ph id="RELEASENOTE_SUPPORT">Beginning at the vSphere 6.0 end of general support date, NetApp HCI will no longer include support for vSphere 6.0 in future releases. Beginning with the NetApp HCI 1.8 release, NetApp HCI will no longer allow vSphere 6.0 to be deployed on NetApp HCI compute nodes. The addition of NetApp HCI compute nodes into a vSphere 6.0 cluster will no longer be supported. NetApp will not provide technical support for vSphere 6.0 after March 12, 2020. Future Element software versions 12.x and later will not support vSphere 6.0. Element 11.x versions and earlier will continue to support vSphere 6.0 until the vSphere 6.0 end of general support on March 12, 2020.</ph>
+      </p>
+    </section>
+    <section id="GUID-077CEA11-ABA2-4F5D-810C-23935D9C3E46">
+      <title id="GUID-7F8ADB63-3363-4C7E-B0BE-7A20CD27B7B9">Release Note VASA provider multi-vCenter support statement</title>
+      <p>
+        <ph id="NETAPP_SF_VASA_PATCH_RN_STATEMENT">VASA support for up to 10 vCenters is available as an upgrade patch if you have already registered a VASA provider with your vCenter. To install, follow the directions in the VASA39 manifest and download the .tar.gz file from the <xref format="html" href="https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/vasa39" scope="external">NetApp Software Downloads</xref> site.</ph>
+      </p>
+      <p>
+        <ph id="NETAPP_SF_VASA_PATCH_RN_STATEMENT2">The <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> VASA provider uses a NetApp certificate. With this patch, the certificate is used unmodified by vCenter to support multiple vCenters for VASA and VVols use. Do not modify the certificate. Custom SSL certificates are not supported by VASA.</ph>
+      </p>
+    </section>
+    <section id="GUID-DD6A8511-5ED1-4A84-AB99-B8FE74B7F7F9">
+      <title id="GUID-230C9D6D-184E-4341-9E97-67749A784AC8">CRUX unsupported API method note</title>
+      <p>
+        <note id="GUID-1C655CD3-BB33-45ED-A89C-B65E1DB4FD6E">
+          <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph> does not support this method. If you use this method on a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> system, the method will return an error.</note>
+      </p>
+    </section>
+    <section id="GUID-F188DDB7-853A-43DF-9641-B80867D979A5">
+      <title id="GUID-8A5DB592-46B2-4DB5-8606-51AD09E8747C">CRUX unsupported UI feature note</title>
+      <p>
+        <note id="GUID-053C6154-130F-49D5-AE3F-71494E83F3FD">This feature is unavailable in <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph> clusters.</note>
+      </p>
+    </section>
+  </conbody>
+</concept>

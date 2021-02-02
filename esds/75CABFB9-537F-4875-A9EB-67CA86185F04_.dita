@@ -1,0 +1,33 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-75CABFB9-537F-4875-A9EB-67CA86185F04" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EB0657AB-7D93-420D-AE4E-F655B7CF174C">Considerations for network configuration for <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph></title>
+  <shortdesc>Before you install <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>, you must set up the required networks on the storage nodes running RHEL. You are responsible for network routing in your environment. You can use the best practices provided as a framework.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>software-defined storage</keyword>
+        <keyword>networks</keyword>
+        <keyword>linux host routing</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>
+      <note type="important" id="GUID-920D2ADD-2D1B-4F75-BB66-2ABD01DCDE6F">
+        <ul id="GUID-FAAD3BE4-8315-4EB0-96FC-A9F5181861AF">
+          <li>Use bonded or teamed interfaces.</li>
+          <li>Use the same interface names for all the nodes in the cluster (example: team-mgt for each node's management interface and team-stg for each node's storage interface).</li>
+          <li>Ensure that NetworkManager is running.</li>
+          <li>Ensure that the <cmdname>NetworkManager-dispatcher-routing-rules</cmdname> package is installed on all storage nodes for policy-based routing.</li>
+          <li>See <xref href="https://www.netapp.com/us/media/tr-4763.pdf" format="pdf" scope="external">Best Practices for Networking and Network Maintenance on NetApp SolidFire Storage Systems</xref>.</li>
+          <li>Configure the management and storage networks on each node to use multiple, redundant physical interfaces via bond or team configurations.</li>
+          <li>For information about network teaming, see <xref href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/ch-configure_network_teaming" format="html" scope="external">Configure network teaming</xref>. </li>
+          <li>By default, all storage node 10GbE interfaces are enabled with a maximum transmission unit (MTU) of 9000 bytes. For optimal performance, configure all server-side storage interfaces with the same MTU as the NetApp SolidFire storage nodes. You should configure network switches to support an MTU of at least 9016 bytes or more to account for jumbo frame overhead and for proper forwarding through the network. If you want to change this configuration to support a lower MTU setting, you should contact NetApp Support.</li>
+          <li>See the following table for information about the storage and management networks that <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> requires for the different types of traffic:<table frame="all" rowsep="1" colsep="1"><title id="GUID-4E691D4C-6187-4A48-A542-03BAAE02E8A7" /><tgroup cols="2"><colspec colname="c1" colnum="1" colwidth="1*" /><colspec colname="c2" colnum="2" colwidth="1*" /><thead><row><entry>Type of network</entry><entry>Description</entry></row></thead><tbody><row><entry>Storage network</entry><entry><ul id="GUID-A0107021-5BC3-40F2-9964-2873C71C567C"><li>Includes all storage/iSCSI traffic.</li><li>Can be routed if you want to mount from hosts located on a different layer 3 network or if you plan to replicate data between clusters.</li><li>Should be configured with network interfaces on the same layer 2 broadcast domain.</li></ul></entry></row><row><entry>Management network</entry><entry><ul id="GUID-7F37B38A-168D-4218-BBCC-94C3DA89E9B2"><li>Includes all management traffic.</li><li>Can be routed if you want to access the cluster API or UI from a different layer 3 network.</li><li>Should be configured with network interfaces on the same layer 2 broadcast domain.</li></ul></entry></row></tbody></tgroup></table></li>
+        </ul>
+        <p>For examples and tips to configure the host network, see <xref href="2C193C92-F40A-4799-978F-D926532CF3F4_.dita" format="dita" outputclass="nopagenum">here</xref>.</p>
+      </note>
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-C8DEE601-3545-4ABD-9C32-D6553DA57EB7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-41E98CD6-8DCC-4BCC-B39C-96568EBB2390">Mini CM: Element OS API RG: Create Cluster API Methods</title>
+  <topicref href="209D6962-A737-4EBF-9661-78C8AD7C8924_.dita" navtitle="Create Cluster API Methods">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="F4CFC6A8-8289-48B3-83E7-3F5B892CD578_.dita" format="dita" navtitle="SolidFire Element API RG: CheckProposedCluster">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CheckProposedCluster</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9E105236-EDCF-4613-8504-C6685AF937A5_.dita" navtitle="CreateCluster">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="D6064A39-811C-4697-A453-6160D2EC46D9_.dita" navtitle="GetBootstrapConfig">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

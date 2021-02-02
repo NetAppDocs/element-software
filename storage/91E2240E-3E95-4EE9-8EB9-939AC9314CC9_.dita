@@ -1,0 +1,69 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-91E2240E-3E95-4EE9-8EB9-939AC9314CC9" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-38C7A5D7-5E27-481C-A5B1-2C6E14B1D439"> Restore a volume from backup on an OpenStack Swift object store</title>
+  <shortdesc>You can restore a volume from a backup on an OpenStack Swift object store.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume backups<indexterm>restoring from OpenStack Swift</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-68773C89-443F-416F-85CE-04014D119ACC">
+      <step id="STEP_344657B39494463E938541EF48A535D4">
+        <cmd>Click <menucascade><uicontrol>Reporting </uicontrol><uicontrol>Event Log</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_4C520D30B3204863B8C6D8EBCEDCF358">
+        <cmd>Locate the backup event that created the backup you need to restore.</cmd>
+      </step>
+      <step id="STEP_CDA6E2BFCE434B5AAFC5A4CA45488A7C">
+        <cmd>In the <uicontrol>Details</uicontrol> column for the event, click <uicontrol>Show Details</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_7E1309C0D56B4710B8F15F9CA9E43E1A">
+        <cmd>Copy the manifest information to your clipboard.</cmd>
+      </step>
+      <step id="STEP_CD0E5A23B1C048239E2F3D0CAF50A586">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_13C08679D93C4898BF5E4E089B1E4817">
+        <cmd>Click the Actions icon for the volume you want to restore.</cmd>
+      </step>
+      <step id="STEP_C4ED10F3BD60485E848DEA378DB5422F">
+        <cmd>In the resulting menu, click <uicontrol>Restore from</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_A9B3FBA0B6F2448F8B9A192E90FF5ED7">
+        <cmd>In the <uicontrol>Integrated Restore</uicontrol> dialog box under <uicontrol>Restore from</uicontrol>, select <uicontrol>Swift</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_79EE29F3297B4AFFA9A3973E28369A97">
+        <cmd>Select the option that matches the backup under <uicontrol>Data Format</uicontrol>:</cmd>
+        <info>
+          <ul id="UL_CDF5B5FA11E64CDDB4D579D93009A008">
+            <li id="LI_4EE82447B4A648409FFDAE08C3BC84EF">
+              <uicontrol>Native</uicontrol>: A compressed format readable only by SolidFire storage systems.</li>
+            <li id="LI_B7AC96DAA2024F26821C6C96C4C612A1">
+              <uicontrol>Uncompressed</uicontrol>: An uncompressed format compatible with other systems.</li>
+          </ul>
+        </info>
+      </step>
+      <step id="STEP_EF183DD298784EE5BF7FEAEE99C32CCB">
+        <cmd>Enter a URL to use to access the object store in the <uicontrol>URL</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_824E56D6CB5D499887949E67971E1859">
+        <cmd>Enter a user name for the account in the <uicontrol>Username</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_681F213898A74E95BD55A744F513988B">
+        <cmd>Enter the authentication key for the account in the <uicontrol> Authentication Key</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_115E4A98EE7342A690D079DE486A2DAC">
+        <cmd>Enter the name of the container in which the backup is stored in the <uicontrol>Container</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_5D72AF6CF49743DA9C0C1FDA3349F6D5">
+        <cmd>Paste the manifest information into the <uicontrol>Manifest</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_076D6F3B6E6D4A6F8ECB1CEFA8EA73C0">
+        <cmd>Click <uicontrol>Start Write</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

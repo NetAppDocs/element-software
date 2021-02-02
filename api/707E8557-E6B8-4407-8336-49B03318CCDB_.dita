@@ -1,0 +1,132 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-707E8557-E6B8-4407-8336-49B03318CCDB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">clusterInfo</title>
+  <shortdesc>The <apiname>clusterInfo</apiname> object contains information that the node uses to communicate with the cluster. You can get this information with the <apiname>GetClusterInfo</apiname> API method.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>clusterInfo</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.60*" />
+          <colspec colnum="2" colname="col2" colwidth="2.31*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">attributes</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/ATTR_DESC" />
+              </entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">defaultProtectionScheme</entry>
+              <entry colname="col2">The protection scheme used by default for new volumes, unless a protection scheme is provided with the <xref href="8C40809D-E168-4EC8-9888-97003DA70F4E_.dita" outputclass="nopagenum">CreateVolume</xref> method call. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">enabledProtectionSchemes</entry>
+              <entry colname="col2">A list of all protection schemes that have been enabled on this storage cluster.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">encryptionAtRestState</entry>
+              <entry colname="col2">The state of the Encryption at Rest feature. Possible values:<ul id="UL_C1796891C620496AAB9D36B750BF942A"><li id="LI_98A81E32B4344A7B820B5DF76ABFB763"><option>Enabling</option>: Encryption at rest is being enabled.</li><li id="LI_6AF91880C8884C82904C094943DFD44E"><option>Enabled</option>: Encryption at rest is enabled.</li><li id="LI_DD90E59B19314643A59B9BB383314994"><option>Disabling</option>: Encryption at rest is being disabled.</li><li id="LI_17C608CB32B949A19C670019033B03FB"><option>Disabled</option>: Encryption at rest is disabled.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">ensemble</entry>
+              <entry colname="col2">The nodes that are participating in the cluster.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">mvip</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/MVIP_DESC" />
+              </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">mvipInterface</entry>
+              <entry colname="col2">The physical interface associated with the MVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">mvipNodeID</entry>
+              <entry colname="col2">The node that holds the master MVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">mvipVlanTag</entry>
+              <entry colname="col2">The VLAN identifier for the MVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">name</entry>
+              <entry colname="col2">The unique cluster name.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">repCount</entry>
+              <entry colname="col2">The number of replicas of each piece of data to store in the cluster. The valid value is "2".</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">supportedProtectionSchemes</entry>
+              <entry colname="col2">A list of all protection schemes that are supported on this storage cluster.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">svip</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/SVIP_DESC" />
+              </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">svipInterface</entry>
+              <entry colname="col2">The physical interface associated with the master SVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">svipNodeID</entry>
+              <entry colname="col2">The node holding the master SVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">svipVlanTag</entry>
+              <entry colname="col2">The VLAN identifier for the master SVIP address.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">uniqueID</entry>
+              <entry colname="col2">The unique ID for the cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">uuid</entry>
+              <entry colname="col2">The unique identifier for the cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

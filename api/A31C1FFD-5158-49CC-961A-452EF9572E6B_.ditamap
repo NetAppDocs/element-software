@@ -1,0 +1,69 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-A31C1FFD-5158-49CC-961A-452EF9572E6B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-46BD118D-5BFA-40C0-AD6C-36A44FF8806F">Mini CM: Element OS API RG: Replication API methods</title>
+  <topicref href="21C0FB9A-EFCF-40F7-9F3D-0DF4A065C2BE_.dita" navtitle="Replication API methods">
+    <topicmeta>
+      <navtitle>Replication API methods</navtitle>
+    </topicmeta>
+    <topicref href="9F17D61B-1AEA-4574-BDBA-0A08763F1CB3_.dita" navtitle="Cluster pairing order of operations">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="D38841E2-A8F0-459A-A5B1-8189AD4329B5_.dita" navtitle="Volume pairing order of operations">
+      <topicmeta>
+        <navtitle>Volume pairing order of operations</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="C5DE4685-99B7-46A1-B49F-7C3021100E34_.dita" navtitle="Supported modes of replication">
+      <topicmeta>
+        <navtitle>Supported modes of replication</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="641B6474-C25A-4D39-A64A-813BCEE7781B_.dita" navtitle="CompleteClusterPairing">
+      <topicmeta>
+        <navtitle>CompleteClusterPairing</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6ED53CAB-66DA-4941-89C4-C7DBAB15A3D8_.dita" navtitle="CompleteVolumePairing">
+      <topicmeta>
+        <navtitle>CompleteVolumePairing</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="81988091-7713-4AA7-BF45-7FA0008B24E7_.dita" navtitle="ListClusterPairs">
+      <topicmeta>
+        <navtitle>ListClusterPairs</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="25800AF8-8B65-4F1C-A96A-82306995AC0C_.dita" navtitle="ListActivePairedVolumes">
+      <topicmeta>
+        <navtitle>ListActivePairedVolumes</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="1B2BDC76-45B9-47F4-91A0-A61B1BDEAA17_.dita" navtitle="ModifyVolumePair">
+      <topicmeta>
+        <navtitle>ModifyVolumePair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E16ECEE0-A7B1-4748-89ED-CB92C67BFBE8_.dita" navtitle="RemoveClusterPair">
+      <topicmeta>
+        <navtitle>RemoveClusterPair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="404757DC-985D-4B28-AE16-694AC060182A_.dita" navtitle="RemoveVolumePair">
+      <topicmeta>
+        <navtitle>RemoveVolumePair</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DF968BB8-5135-48CF-8968-BC2CACEE03B6_.dita" navtitle="StartClusterPairing">
+      <topicmeta>
+        <navtitle>StartClusterPairing</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E1001889-7B3E-4FD4-9D08-C13A462C9AD1_.dita" navtitle="StartVolumePairing">
+      <topicmeta>
+        <navtitle>StartVolumePairing</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

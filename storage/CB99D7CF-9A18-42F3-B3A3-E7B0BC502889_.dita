@@ -1,0 +1,44 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-CB99D7CF-9A18-42F3-B3A3-E7B0BC502889" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-CD831BB3-DBFD-45C2-89E6-995312D76740"> Edit an account</title>
+  <shortdesc>You can edit an account to change the status, change the CHAP secrets, or modify the account name.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>accounts<indexterm>editing</indexterm><indexterm>changing CHAP</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-F92D087A-6F6C-4B94-891D-AFAD2F16C832">Modifying CHAP settings in an account or removing initiators or volumes from an access group can cause initiators to lose access to volumes unexpectedly. To verify that volume access will not be lost unexpectedly, always log out iSCSI sessions that will be affected by an account or access group change, and verify that initiators can reconnect to volumes after any changes to initiator settings and cluster settings have been completed.<note type="attention" id="GUID-24AC39A7-DB95-4358-9150-28A713DB6E20">Persistent volumes that are associated with management services are assigned to a new account that is created during installation or upgrade. If you are using persistent volumes, do not modify or delete their associated account.</note></context>
+    <steps id="GUID-A4D2E576-3CEC-4B63-B31F-9FA82E74EF79">
+      <step id="STEP_D83C4141DFF64EF9BB09205A97587FD1">
+        <cmd>Select  <menucascade><uicontrol>Management</uicontrol><uicontrol>Accounts</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_BBCFAC23DE544F9291BF63D4D135DF6A">
+        <cmd>Click the Actions icon for an account.</cmd>
+      </step>
+      <step id="STEP_33F321B8D941473899B0B0C1703CF037">
+        <cmd>In the resulting menu, select <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_BD9CAF02F9B046D196BDF0977FFA982D" importance="optional">
+        <cmd importance="optional">Edit the <uicontrol>Username</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_F603A612E1CF4F7F8BC9617A1D12D2DD" importance="optional">
+        <cmd>Click the <uicontrol>Status</uicontrol> drop-down list and select a different status.</cmd>
+        <info>
+          <note type="attention" id="GUID-138D3828-8A7D-4E3B-A2F6-018543E671FE">Changing the status to <uicontrol>locked</uicontrol> terminates all iSCSI connections to the account, and the account is no longer accessible. Volumes associated with the account are maintained; however, the volumes are not iSCSI discoverable.</note>
+        </info>
+      </step>
+      <step id="STEP_FCC5263DF7E749E88DFF13ACA4CFE36A" importance="optional">
+        <cmd>Under <uicontrol>CHAP Settings</uicontrol>, edit the <uicontrol>Initiator Secret</uicontrol> and <uicontrol>Target Secret</uicontrol> credentials used for node session authentication.</cmd>
+        <info>
+          <note id="GUID-308C787B-BEE7-4B86-B9CE-D37EEC99708D">If you do not change the <uicontrol>CHAP Settings</uicontrol> credentials, they remain the same. If you make the credentials fields blank, the system generates new passwords.</note>
+        </info>
+      </step>
+      <step id="STEP_3881E5B08BA043C4B0A0AB0EE9DC1B58">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

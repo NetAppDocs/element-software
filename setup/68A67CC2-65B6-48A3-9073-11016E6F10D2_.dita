@@ -1,0 +1,53 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-68A67CC2-65B6-48A3-9073-11016E6F10D2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-29B387F5-1B66-4612-8427-46DD3CADA494">Create a volume access group for Fibre Channel
+        clients</title>
+  <shortdesc>Volume access groups enable communication between Fibre Channel clients and volumes on a SolidFire storage system. Mapping Fibre Channel client initiators (WWPN) to the volumes in a volume access group enables secure data I/O between a Fibre Channel network and a SolidFire volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume access group for Fibre Channel clients<indexterm>creating</indexterm></indexterm>
+        <indexterm>Fibre Channel clients<indexterm>creating a volume access group</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-91BDD006-C052-4681-88E2-08935D2B8F18">
+      <p>You can also add iSCSI initiators to a volume access group; this gives the initiators access to the same volumes in the volume access group.</p>
+    </context>
+    <steps id="GUID-B740FB39-FFC4-40A4-A078-4D0BACA839DD">
+      <step id="STEP_72F9ED07529C43A2BF9F9B44CED3D4B4">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Access Groups</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_5C958CA16A0B4FE1AE655C5F58CD3F93">
+        <cmd>Click <uicontrol>Create Access Group</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_D93779D60DCF4B69B052EFDD4A3B0B4D">
+        <cmd>Enter a name for the volume access group in the <uicontrol>Name</uicontrol> field.</cmd>
+      </step>
+      <step id="STEP_BBCD3D657ACC4E0AA2A87D5744B08B5D">
+        <cmd>Select and add the Fibre Channel initiators from the <uicontrol>Unbound Fibre Channel Initiators</uicontrol> list.</cmd>
+        <info>
+          <note id="GUID-D19B7E67-97FA-486F-8413-AC8958DE6938">You can add or delete initiators at a later time.</note>
+        </info>
+      </step>
+      <step id="STEP_D8D6BBAFFB4D43F986FE4A6751719E2B" importance="optional">
+        <cmd>Select and add an iSCSI initiator from the <uicontrol>Initiators</uicontrol> list.</cmd>
+      </step>
+      <step id="STEP_E050D20199044DBF80E80B2882FCB114">
+        <cmd>To attach volumes to the access group, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_7612AF16933148A787571DBCE1586D6B">
+          <substep id="SUBSTEP_75F72589C5384F678FA2A20F0F86EBF9">
+            <cmd>Select a volume from the <uicontrol>Volumes</uicontrol> list.</cmd>
+          </substep>
+          <substep id="SUBSTEP_F48FC645D2834F1FA5C95F823B908BC9">
+            <cmd>Click <uicontrol>Attach Volume</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_0CBB6BBB1AE84D7FADA2CAB024F244F4">
+        <cmd>Click <uicontrol>Create Access Group</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

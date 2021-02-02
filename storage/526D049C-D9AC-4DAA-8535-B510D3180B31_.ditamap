@@ -1,0 +1,17 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-526D049C-D9AC-4DAA-8535-B510D3180B31" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-45E3E9E1-548B-4E53-90FC-F35BD3C801BD">SolidFire Element UG: Mini map: Post deployment options</title>
+  <topicref href="24E9B891-824A-4914-B559-48598BA9387B_.dita" navtitle="Configuring system options after deployment">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="A4AB4B9C-C616-4B33-9456-329E4DEE61C3_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="1BE54252-BB62-4549-8678-2A683EF7DCC9_.dita" navtitle="Changing the Element software default SSL certificate">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

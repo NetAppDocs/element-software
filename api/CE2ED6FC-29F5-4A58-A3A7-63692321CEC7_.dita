@@ -1,0 +1,151 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-CE2ED6FC-29F5-4A58-A3A7-63692321CEC7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListClusterFaults</title>
+  <shortdesc>You can use the <apiname>ListClusterFaults</apiname> method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>fault</keyword>
+        <keyword>faults</keyword>
+        <keyword>listclusterfaults</keyword>
+        <keyword>error</keyword>
+        <keyword>errors</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.5*" />
+          <colspec colnum="2" colname="col2" colwidth="2*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <colspec colnum="4" colname="col4" colwidth="*" />
+          <colspec colname="col5" colnum="5" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>bestPractices</parmname>
+              </entry>
+              <entry colname="col2">Include faults triggered by sub-optimal system configuration. Possible values:<ul id="UL_2F38789EE8714292A03B83B5D8A02B2A"><li id="LI_BFA8ABB9D69349109484CEC6A7536130"><option>true</option></li><li id="LI_023667D124A247D68E697E67C09E56EB"><option>false</option></li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>faultTypes</parmname>
+              </entry>
+              <entry colname="col2">Determines the types of faults returned. Possible values: <ul id="UL_445609F0E71244E08F7457792EEA5B80"><li id="LI_2ADC8E8AA8B9408CB0B35482F82CE9D6"><option>current</option>: List active, unresolved faults.</li><li id="LI_C68B2258B5D142199DD5119159E5C14B"><option>resolved</option>: List faults that were previously detected and resolved.</li><li id="LI_AA2CF06712B14C4AA6D1B9A893461F49"><option>all</option>: List both current and resolved faults. You can see the fault status in the “resolved” member of the <apiname>fault</apiname>  object.</li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">
+                <option>all</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">faults</entry>
+              <entry colname="col2">An object describing the requested cluster faults.</entry>
+              <entry colname="col3">
+                <xref href="1043A79A-26BC-4A5B-ABC1-6AA979395BB1_.dita" outputclass="nopagenum">fault</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "ListClusterFaults",
+    "params": {
+      "faultTypes": "current",
+      "bestPractices": true
+    },
+    "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "faults": [
+      {
+        "clusterFaultID": 1,
+        "code": "notUsingLACPBondMode",
+        "data": null,
+        "date": "2016-04-26T14:57:04.275286Z",
+        "details": "Bond1G interfaces found not using LACP bond mode. Nodes not set to LACP bond mode: {1,2,4,5}",
+        "driveID": 0,
+        "driveIDs": [],
+        "nodeHardwareFaultID": 0,
+        "nodeID": 0,
+        "resolved": false,
+        "resolvedDate": "",
+        "serviceID": 0,
+        "severity": "bestPractice",
+        "type": "cluster"
+      },
+      {
+        "clusterFaultID": 9,
+        "code": "disconnectedClusterPair",
+        "data": null,
+        "date": "2016-04-26T20:40:08.736597Z",
+        "details": "One of the clusters in a pair may have become misconfigured or disconnected.  Remove the local pairing and retry pairing the clusters. Disconnected Cluster Pairs: []. Misconfigured Cluster Pairs: [3]",
+        "driveID": 0,
+        "driveIDs": [],
+        "nodeHardwareFaultID": 0,
+        "nodeID": 0,
+        "resolved": false,
+        "resolvedDate": "",
+        "serviceID": 0,
+        "severity": "warning",
+        "type": "cluster"
+      }
+    ]
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-EA1BABF6-9043-4872-9EB2-AA57CEB44FFF">
+      <title id="GUID-9B089B56-9208-4B32-B3F9-C00B084E255B">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,84 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-61C18B66-3EC3-41AE-B6F1-DDF097ECB7AD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetClusterState</title>
+  <shortdesc>You can use the <apiname>GetClusterState</apiname> API method to indicate if a node is part of a cluster or not.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>state</keyword>
+        <keyword>getting</keyword>
+        <keyword>get</keyword>
+        <keyword>getclusterstate</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="2.96*" />
+          <colspec colnum="3" colname="col3" colwidth="1.17*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">cluster</entry>
+              <entry colname="col2">Name of the cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">state</entry>
+              <entry colname="col2">
+                <ul id="UL_3E251EBCA38B404E922ECE144677401D">
+                  <li id="LI_C8AD58D8B04C47C18717D64FABBB8DEB">
+                    <option>Available</option>: Node has not been configured with a cluster name.</li>
+                  <li id="LI_9F7EE739929340BD8966A7F09DC06831">
+                    <option>Pending</option>: Node is pending for a specific named cluster and can be added.</li>
+                  <li id="LI_6443CB437C9D495C88D10D5EADA967F0">
+                    <option>Active</option>: Node is an active member of a cluster and may not be added to another cluster.</li>
+                </ul>
+              </entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "GetClusterState",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id" : 1,
+   "result" : 
+      "cluster" :  "Cluster101"
+      "state" : "Active"      
+}</codeblock>
+    </section>
+    <section id="GUID-301DADE6-A01F-45E0-863E-8DD5328E0392">
+      <title id="GUID-8C2EC507-5B96-4113-81A3-2E14E89126EA">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

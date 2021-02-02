@@ -1,0 +1,21 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-F9E23A9D-7BA2-4EB9-AECE-C9BBEC1976F1" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Virtual network naming conventions</title>
+  <shortdesc>NetApp Element storage systems use monotonically increasing numbers as unique identifiers for all objects in the system.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>storage</keyword>
+        <keyword>system</keyword>
+        <keyword>naming</keyword>
+        <keyword>convention</keyword>
+        <keyword>virtual</keyword>
+        <keyword>network</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>When you create a new volume, the new volumeID is an increment of exactly 1. This convention holds true with virtual networks in  storage clusters running  <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. The first virtual network you create in an  <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> cluster has a VirtualNetworkID of 1. This ID is not the same thing as a VLAN tag number. </p>
+    <p>You can use VirtualNetworkID and the VirtualNetworkTag (VLAN tag) interchangeably where noted in the API methods. </p>
+  </conbody>
+</concept>

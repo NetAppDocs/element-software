@@ -1,0 +1,141 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-1FE64781-FDF5-46BE-B5AF-15D755CD5CF6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetHardwareConfig</title>
+  <shortdesc>You can use the <apiname>GetHardwareConfig</apiname> method to get the hardware configuration information for a node.   </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>node</keyword>
+        <keyword>hardware</keyword>
+        <keyword>config</keyword>
+        <keyword>configuration</keyword>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>gethardwareconfig</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">hardwareConfig</entry>
+              <entry colname="col2">List of hardware information and current settings.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "GetHardwareConfig",
+   "params": {},
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>Responses for this method are similar to the following example.</p>
+      <codeblock xml:space="preserve">{
+    "id": 1,
+    "result": {
+        "hardwareConfig": {
+            "biosRevision": "1.0",
+            "biosVendor": [
+                "NetApp",
+                "SolidFire"
+            ],
+            "biosVersion": "1.1.2",
+            "blockDriveSizeBytes": 300069052416,
+            "blockDrives": [
+                "/dev/slot0",
+                "/dev/slot1",
+                "/dev/slot2",
+                "/dev/slot3",
+                "/dev/slot4",
+                "/dev/slot5",
+                "/dev/slot6",
+                "/dev/slot7",
+                "/dev/slot8",
+                "/dev/slot9"
+            ],
+            "blockServiceFormat": "Standard",
+            "bmcFirmwareRevision": "1.6",
+            "bmcIpmiVersion": "2.0",
+            "chassisType": "R620",
+            "cpuCores": 6,
+            "cpuCoresEnabled": 6,
+            "cpuModel": "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
+            "cpuThreads": 12,
+            "driveSizeBytesInternal": 400088457216,
+            "fibreChannelFirmwareRevision": "",
+            "fibreChannelModel": "",
+            "fibreChannelPorts": {},
+            "idracVersion": "1.06.06",
+            "ignoreFirmware": [],
+            "memoryGB": 72,
+            "memoryMhz": 1333,
+            "networkDriver": [
+                "bnx2x"
+            ],
+            "nicPortMap": {
+                "PortA": "eth2",
+                "PortB": "eth3",
+                "PortC": "eth0",
+                "PortD": "eth1"
+            },
+            "nodeType": "SF3010",
+            "numCpu": 2,
+            "numDrives": 10,
+            "numDrivesInternal": 1,
+            "nvramTempMonitorEnable": false,
+            "rootDrive": "/dev/sdimm0",
+            "scsiBusExternalDriver": "mpt3sas",
+            "scsiBusInternalDriver": "ahci",
+            "sliceDriveSizeBytes": 299988156416,
+            "sliceDrives": [
+                "/dev/sdimm0p4"
+            ],
+            "slotOffset": 0,
+            "solidfireDefaults": {
+                "bufferCacheGB": 12,
+                "configuredIops": 50000,
+                "cpuDmaLatency": -1,
+                "driveWriteThroughputMBPerSleep": 10,
+                "maxDriveWriteThroughputMBPerSec": 175,
+                "maxIncomingSliceSyncs": 10,
+                "postCallbackThreadCount": 8,
+                "sCacheFileCapacity": 100000000,
+                "sliceFileLogFileCapacity": 5000000000
+            }
+        }
+    }
+}</codeblock>
+    </section>
+    <section id="GUID-632CC6CF-82BE-4976-AFD8-AF7FF6AD5A69">
+      <title id="GUID-FC149CB2-EFD2-4669-AC8C-143E8598048C">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

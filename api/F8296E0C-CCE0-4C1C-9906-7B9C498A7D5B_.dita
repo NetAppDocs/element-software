@@ -1,0 +1,17 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F8296E0C-CCE0-4C1C-9906-7B9C498A7D5B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetCompleteStats</title>
+  <shortdesc>NetApp engineering uses the <apiname>GetCompleteStats</apiname> API method to test new features. The data returned from <apiname>GetCompleteStats</apiname> is not documented, changes frequently, and is not guaranteed to be accurate.  You should not use <apiname>GetCompleteStats</apiname> for collecting performance data or any other management integration with a  storage cluster running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_066AE2D024094516B6ACC9EBF9446696">Use the following supported API methods to retrieve statistical information:<ul id="UL_2EBB81163F7B450CB1DFCE5DABD420F3"><li id="LI_D850DB31A58B4490BFE3AC9A1E5DB4CE"><xref href="419A284E-3DF5-4C20-9F49-FFC18969AF75_.dita" outputclass="nopagenum">GetVolumeStats</xref></li><li id="LI_488A2C09BB2341718A2AC65A09FA7AFA"><xref href="63BEAEDE-74F7-421E-9360-08F166A603F4_.dita" outputclass="nopagenum">GetClusterStats</xref></li><li id="LI_1FAB35BDA6CD47A990DDAA3D57FC3C53"><xref href="546B06AC-3767-453F-A0D2-626F82744E3B_.dita" outputclass="nopagenum">GetNodeStats</xref></li><li id="LI_F98A8F83390A4B10B8E9CC2595474E35"><xref href="0F415932-AB29-4722-9E1B-55FD425957B7_.dita" outputclass="nopagenum">GetDriveStats</xref></li></ul></section>
+    <section id="GUID-6F637ECE-BDF8-417C-8BED-15FA7017EDDE">
+      <title id="GUID-A79F1DD9-CA92-4E8B-AF60-8997734B97BB">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-E922D45C-512D-4907-B77E-3230598516AA" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-328993EE-E48C-4A5F-8D16-8BD49512BC59">Create a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster</title>
+  <shortdesc>After you configure the cluster name on each <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> storage node, you can create a cluster using either the per-node UI or the Element API.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>installing solidfire esds</keyword>
+        <keyword>create cluster</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-CCE43AD4-E9CE-4CFE-83C0-6F369F2884E3">
+      <note type="important" id="GUID-9BD2FEAB-4BE9-4951-890B-25AD73EF56FA">Software Encryption at Rest is enabled by default for <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters. If you want to change the default, you must do so when you create the cluster using the <apiname>CreateCluster</apiname> API method. </note>
+    </context>
+    <steps id="GUID-E838F850-E35F-49BA-BE3F-30FA28E19B94">
+      <step>
+        <cmd>Choose from one of the following options:</cmd>
+        <choices id="GUID-DBC72F92-7D1D-472F-AA26-C904EE9767DA">
+          <choice>Use the per-node UI:<ol id="GUID-81CB589A-09F1-4034-BACA-2BA33DAC4C3D"><li>Open the per-node management node UI: <uicontrol>https://&lt;node_mip&gt;:442</uicontrol>.</li><li>From the left-hand navigation, click <uicontrol>Create Cluster</uicontrol>. </li><li>Select the checkboxes for the nodes. The <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> nodes will be displayed as SFc100.</li><li> Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number. <note id="GUID-7A13D149-BF72-4FC4-9178-E6BA8F4BA961">You cannot change the MVIP and SVIP addresses after the cluster is created.</note><note type="important" id="GUID-24EF5160-59CF-49F8-BC58-D5AF381910BB">If you do not specify the order number and serial number, the create cluster operation will fail.</note><p><image placement="break" href="2EFFF13B-0C20-43D8-B3A7-BD0B89AABF63_Low.png" /></p></li><li>Confirm that you have read the NetApp End User License Agreement. </li><li>Click <uicontrol>Create Cluster</uicontrol>. </li><li>To verify that cluster was created, log in to the cluster: <uicontrol>http://&lt;mvip_ip&gt;</uicontrol>. </li><li>Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct. </li></ol></choice>
+          <choice>Use the <apiname>CreateCluster</apiname> API method.<p>This method has the following input parameters:<table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2"><tgroup cols="5"><colspec colnum="1" colname="col1" colwidth="1.32*" /><colspec colnum="2" colname="col2" colwidth="1.77*" /><colspec colnum="3" colname="col3" colwidth="1.00*" /><colspec colnum="4" colname="col4" colwidth="1.24*" /><colspec colname="col5" colnum="5" colwidth="1.14*" /><thead><row><entry colname="col1">Name</entry><entry colname="col2">Description</entry><entry colname="col3">Type</entry><entry colname="col4">Default value </entry><entry colname="col5">Required </entry></row></thead><tbody><row><entry colname="col1"><parmname>acceptEula</parmname></entry><entry colname="col2">Indicate your acceptance of the End User License Agreement when creating this cluster. To accept the EULA, set this parameter to <option>true</option>.</entry><entry colname="col3">boolean</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>attributes</parmname></entry><entry colname="col2">List of name-value pairs in JSON object format.</entry><entry colname="col3">JSON object</entry><entry colname="col4">None</entry><entry colname="col5">No</entry></row><row><entry colname="col1"><parmname>enableSoftwareEncryptionAtRest</parmname></entry><entry colname="col2">Enable this parameter to use software-based encryption at rest. Defaults to <option>true</option> on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters. Defaults to <option>false</option> on all other clusters.</entry><entry colname="col3">boolean</entry><entry colname="col4"><option>true</option></entry><entry colname="col5">No</entry></row><row><entry colname="col1"><parmname>mvip</parmname></entry><entry colname="col2">Floating (virtual) IP address for the cluster on the management network.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>nodes</parmname></entry><entry colname="col2">CIP/SIP addresses of the initial set of nodes making up the cluster. This node's IP must be in the list.</entry><entry colname="col3">string array</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>orderNumber</parmname></entry><entry colname="col2">Alphanumeric sales order number. Required on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5"><p>No (hardware-based platforms)</p><p>Yes (software-based platforms)</p></entry></row><row><entry colname="col1"><parmname>password</parmname></entry><entry colname="col2">Initial password for the cluster admin account.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>serialNumber</parmname></entry><entry colname="col2">Nine-digit alphanumeric Serial Number. Required on <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5"><p>No (hardware-based platforms)</p><p>Yes (software-based platforms)</p></entry></row><row><entry colname="col1"><parmname>svip</parmname></entry><entry colname="col2">Floating (virtual) IP address for the cluster on the storage (iSCSI) network.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>username</parmname></entry><entry colname="col2">User name for the cluster admin.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row></tbody></tgroup></table></p><p>See the following example request:<screen xml:space="preserve">
+{
+  "method": "CreateCluster",
+  "params": {
+    "acceptEula": true,
+    "mvip": "10.0.3.1",
+    "svip": "10.0.4.1",
+    "repCount": 2,
+    "username": "Admin1",
+    "password": "9R7ka4rEPa2uREtE",
+    "attributes": {
+      "clusteraccountnumber": "axdf323456"
+    },
+    "nodes": [
+      "10.0.2.1",
+      "10.0.2.2",
+      "10.0.2.3",
+      "10.0.2.4"
+    ]
+  },
+  "id": 1
+}</screen></p>For more information about this method, see <xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9E105236-EDCF-4613-8504-C6685AF937A5.html" format="html" scope="external">here</xref>.</choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>

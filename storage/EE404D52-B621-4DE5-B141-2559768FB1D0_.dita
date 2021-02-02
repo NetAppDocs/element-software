@@ -1,0 +1,68 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-EE404D52-B621-4DE5-B141-2559768FB1D0" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-955547E5-3F8B-4008-A1D0-2B9BF055F426">Enable and disable encryption for a
+        cluster</title>
+  <shortdesc>With SolidFire clusters, you can encrypt all data stored on the cluster. You
+        can enable and disable cluster-wide encryption at rest. This feature is not enabled by
+        default.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>encryption at rest<indexterm>disabling</indexterm><indexterm>enabling</indexterm></indexterm>
+        <indexterm>encryption<indexterm>disabling encryption at rest</indexterm><indexterm>enabling encryption at rest</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-5EC8A409-41DB-4C83-9A9D-2776CD9CE1C5">
+      <ul id="UL_0737D0A1FC3F4DA1BE1AE1BCB52C4063">
+        <li id="LI_127BFC8940D5496F8625B7BA9F2420AE">You must have cluster administrator privileges to change encryption settings.</li>
+        <li id="LI_3DDDE0899F0D486F9DB6B3382901A4E1">Ensure that the cluster is in a healthy state before changing encryption settings.</li>
+      </ul>
+    </prereq>
+    <context id="GUID-7206BBEB-B49B-4322-87DE-ABD3B5A89E8A">
+      <p>All drives in storage nodes capable of encryption leverage AES 256-bit
+                encryption at the drive level. Each drive has its own encryption key, which is
+                created when the drive is first initialized. When you enable the encryption feature,
+                a cluster-wide password is created, and chunks of the password are then distributed
+                to all nodes in the cluster. No single node stores the entire password. The password
+                is then used to password-protect all access to the drives. The password is needed to
+                unlock the drive and then not needed unless power is removed from the drive or the
+                drive is locked. </p>
+      <p>Enabling the encryption at rest feature does not affect performance or
+                efficiency on the cluster. Additionally, if an encryption-enabled drive or node is
+                removed from the cluster with the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> API or <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI, encryption at rest will be disabled on
+                the drives. After the drive is removed, the drive can be secure erased by using the
+                    <apiname>SecureEraseDrives</apiname> API method. If a drive or node
+                is forcibly removed from the cluster, the data remains protected by the cluster-wide
+                password and the drive’s individual encryption keys.</p>
+      <note conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/GUID-053C6154-130F-49D5-AE3F-71494E83F3FD" id="GUID-23FF3E65-DA61-43A6-8F22-C616E8262048" />
+      <p>Another type of encryption at rest, Software Encryption at Rest
+                available in <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph> nodes, enables all
+                data written to the SSDs in a storage cluster to be encrypted. This provides a
+                primary layer of encryption in <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph>
+                nodes that do not include Self-Encrypting Drives (SEDs). </p>
+      <p>
+        <xref href="http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-sds-ig//GUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html" format="html" scope="external"> SolidFire Enterprise SDS
+                    overview</xref>
+      </p>
+      <p>You can enable encryption at rest using the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI or API. </p>
+      <p>To enable Software Encryption at Rest using the API, use the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph><cmdname>EnableEncryptionAtRest</cmdname> API command. </p>
+      <p>
+        <xref format="html" href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-ED4ED1B8-DB44-4320-8F4E-A81010277586.html" scope="external"> EnableEncryptionAtRest API
+                    method</xref>
+      </p>
+    </context>
+    <steps id="GUID-D483FAA3-67F4-409E-89DE-6854EA4424A9">
+      <step id="STEP_D9F905ACE52E458BAEEB0B6838A63E7C">
+        <cmd>Click <menucascade><uicontrol>Cluster </uicontrol><uicontrol>Settings</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_E151F88725264BE28A5EE489EAB7E626">
+        <cmd>Click <uicontrol>Enable Encryption at Rest</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_18B0910D79B04B4587B79AB0ABA25537" importance="optional">
+        <cmd importance="optional">To disable encryption at rest, click <uicontrol>Disable Encryption at Rest</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

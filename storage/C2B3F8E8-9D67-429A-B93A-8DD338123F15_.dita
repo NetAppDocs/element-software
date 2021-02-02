@@ -1,0 +1,15 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-C2B3F8E8-9D67-429A-B93A-8DD338123F15" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-713BF726-2F34-4965-B50B-07A83150BFFC">System management</title>
+  <shortdesc>You can manage your system in the Element UI. This includes creating and managing cluster administrators, managing cluster settings, and upgrading software.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>system<indexterm>management</indexterm></indexterm>
+        <indexterm>managing cluster settings</indexterm>
+        <indexterm>upgrading software</indexterm>
+        <indexterm>managing cluster administrator users</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

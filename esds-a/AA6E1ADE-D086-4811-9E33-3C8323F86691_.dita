@@ -1,0 +1,40 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-AA6E1ADE-D086-4811-9E33-3C8323F86691" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-328993EE-E48C-4A5F-8D16-8BD49512BC59">Uninstall <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> on the node</title>
+  <shortdesc>You can “reset” a node on which you installed <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> by removing <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> on the node. To reinstate <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> on the node, you must perform all the installation steps. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>uninstalling solidfire esds</keyword>
+        <keyword>ansible role</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-E838F850-E35F-49BA-BE3F-30FA28E19B94">
+      <step>
+        <cmd>Remove drives from the cluster by using the Element UI or the <apiname>RemoveDrives</apiname> API method.</cmd>
+        <info>This results in the system migrating data from the node's drives to other drives in the cluster. The time this process takes is dependent on how much data must be migrated.</info>
+      </step>
+      <step>
+        <cmd>Remove the node from the cluster using either the Element UI or the <xref href="https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-905F44D2-9475-4644-B968-7ECCB359DD15.html" format="html" scope="external"><apiname>RemoveNodes</apiname></xref> API method.</cmd>
+      </step>
+      <step>
+        <cmd>Ping the hosts (nodes) you defined in the inventory file to verify that Ansible can communicate with them.</cmd>
+      </step>
+      <step>
+        <cmd>Remove <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> from the node as follows:</cmd>
+        <info>
+          <screen xml:space="preserve">yum remove solidfire-element</screen>
+        </info>
+      </step>
+      <step>
+        <cmd>Remove persistent data from the directory as follows:</cmd>
+        <info>
+          <screen xml:space="preserve">rm -rf /opt/sf</screen>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

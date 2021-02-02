@@ -1,0 +1,61 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A21261A1-F299-4B63-8D33-E5F1A1B69E71" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">keyProviderKmip</title>
+  <shortdesc>The <apiname>keyProviderKmip</apiname> object describes a Key Management Interoperability Protocol (KMIP) key provider. A key provider is both a mechanism and a location for retrieving authentication keys for use with cluster features such as Encryption at Rest.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>key provider</keyword>
+        <keyword>KMIP</keyword>
+        <keyword>keys</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.56*" />
+          <colspec colnum="2" colname="col2" colwidth="2.79*" />
+          <colspec colnum="3" colname="col3" colwidth="1*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">keyProviderID</entry>
+              <entry colname="col2">The ID of the KMIP key provider. This is a unique value assigned by the cluster during key provider creation which cannot be changed.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">keyProviderIsActive</entry>
+              <entry colname="col2">True if the KMIP key provider is active. A provider is considered active if there are outstanding keys which were created but not yet deleted and therefore assumed to still be in use.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+            <row>
+              <entry colname="col1">keyProviderName</entry>
+              <entry colname="col2">The name of the KMIP key provider.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">keyServerIDs</entry>
+              <entry colname="col2">A key server ID that is associated with this provider. The server must be added before this provider can become active. The server cannot be removed while this provider is active. Only one server ID is supported for each provider.</entry>
+              <entry colname="col3">integer array</entry>
+            </row>
+            <row>
+              <entry colname="col1">kmipCapabilities</entry>
+              <entry colname="col2">The capabilities of this KMIP key provider including details about the underlying library, FIPS compliance, SSL provider, etc.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

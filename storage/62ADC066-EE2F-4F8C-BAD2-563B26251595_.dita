@@ -1,0 +1,63 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-62ADC066-EE2F-4F8C-BAD2-563B26251595" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B7C5AD9C-110A-42E1-B669-86806EC5CFC0">Editing a snapshot schedule</title>
+  <shortdesc>You can modify existing snapshot schedules. After modification, the next time the schedule runs it uses the updated attributes. Any snapshots created by the original schedule remain on the storage system.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>snapshot schedules<indexterm>editing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-849F5F57-D308-4FDD-97E4-11B28DD4AD17">
+      <step id="STEP_F118F0D35AE04E02BCD3651148941E31">
+        <cmd>Click <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Schedules</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_71E32E9B9ADD4CC1A0294160AB6453A7">
+        <cmd>Click the Actions icon for the schedule you want to change.</cmd>
+      </step>
+      <step id="STEP_611EAB864CE441BBAD42D79DAB1543B3">
+        <cmd>In the resulting menu, click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_2CDCEB25D20D45F99E4B15244FEDF481">
+        <cmd>In the <uicontrol>Volume IDs CSV</uicontrol> field, modify the single volume ID or comma-separated list of volume IDs currently included in the snapshot operation.</cmd>
+      </step>
+      <step id="STEP_157789C37B0A497BBB3F8A66CB5AF78C">
+        <cmd>To pause or resume the schedule, select from the following options:</cmd>
+        <choices id="CHOICES_40805FA5C3AA49C197512D4DE0ACCF05">
+          <choice id="CHOICE_14050C5D3D27441FB7113122F93757D7">To pause an active schedule, select <uicontrol>Yes</uicontrol> from the <uicontrol>Manually Pause Schedule</uicontrol> list.</choice>
+          <choice id="CHOICE_978C5959615A464486E7723384A22118">To resume a paused schedule, select <uicontrol>No</uicontrol> from the <uicontrol>Manually Pause Schedule</uicontrol> list.</choice>
+        </choices>
+      </step>
+      <step id="STEP_969755079AC74279ADA65E6DEFB9580A">
+        <cmd>Enter a different name for the schedule in the <uicontrol>New Schedule Name</uicontrol> field if desired.</cmd>
+      </step>
+      <step id="STEP_67EFD5B859284AC8B767B642551C90C6">
+        <cmd>To change the schedule to run on different days of the week or month, select <uicontrol>Schedule Type</uicontrol> and change the schedule from the options provided.</cmd>
+      </step>
+      <step id="STEP_86388907C51E4BBA95F8D87CD6422FF3" importance="optional">
+        <cmd>Select <uicontrol>Recurring Schedule</uicontrol> to repeat the snapshot schedule indefinitely.</cmd>
+      </step>
+      <step id="STEP_2DF166CC652F4ED180D985518985AF8E" importance="optional">
+        <cmd>Enter or modify the name for the new snapshot in the <uicontrol>New Snapshot Name</uicontrol> field.</cmd>
+        <info>
+          <p>If you leave the field blank, the system uses the time and date of the snapshot's creation as the name.</p>
+        </info>
+      </step>
+      <step id="STEP_6527561A3D3041878B273D19FEE75387" importance="optional">
+        <cmd>Select the <uicontrol>Include Snapshots in Replication When Paired</uicontrol> check box to ensure that the snapshots are captured in replication when the parent volume is paired.</cmd>
+      </step>
+      <step id="STEP_3001FA21511A48DA99C5DF6DF4086DD4">
+        <cmd>To change the retention setting, select from the following options:</cmd>
+        <choices id="CHOICES_2B77D2590002455DBF7478D485BD3D85">
+          <choice id="CHOICE_1CD5A3692B344D25B12D062DEC885F54">Click <uicontrol>Keep Forever</uicontrol> to retain the snapshot on the system indefinitely.</choice>
+          <choice id="CHOICE_6CE5E2CA31B840828378C1A586C1F1F2">Click <uicontrol>Set Retention Period</uicontrol> and use the date spin boxes to select a length of time for the system to retain the snapshot.</choice>
+        </choices>
+      </step>
+      <step id="STEP_2D92FBC8D74B466E84630D6739A90773">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

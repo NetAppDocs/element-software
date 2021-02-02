@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-EFCE5303-1E7E-4AB9-A4A0-B511F693CB44" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Initiator API methods</title>
+  <shortdesc>Initiator methods enable you to add, remove, view, and modify iSCSI initiator objects, which handle communication between the storage system and external storage clients. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>initiator</keyword>
+        <keyword>method</keyword>
+        <keyword>methods</keyword>
+        <keyword>API</keyword>
+        <keyword>managing</keyword>
+        <keyword>manage</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

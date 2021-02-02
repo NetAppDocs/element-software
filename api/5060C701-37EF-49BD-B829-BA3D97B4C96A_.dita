@@ -1,0 +1,61 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-5060C701-37EF-49BD-B829-BA3D97B4C96A" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">usmUser</title>
+  <shortdesc>You can use the SNMP <apiname>usmUser</apiname> object with the  <apiname>SetSnmpInfo</apiname> API method to configure SNMP on the storage cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>usmUser</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="3.08*" />
+          <colspec colnum="3" colname="col3" colwidth="1.05*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">access</entry>
+              <entry colname="col2">The type of SNMP access for this user. Possible values:<ul id="UL_93102DB6F7EB4120B11ACBC18259C824"><li id="LI_A29FB3964BC04A0DA26956905D5385C2"><option>rouser</option>: Read-only access.</li><li id="LI_1AABC945A5524FF4AD5AC9811CE5505F"><option>rwuser</option>: Read-write access. All <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software MIB objects are read-only.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">name</entry>
+              <entry colname="col2">The name of the user. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">password</entry>
+              <entry colname="col2">The password of the user. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">passphrase</entry>
+              <entry colname="col2">The passphrase of the user. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">secLevel</entry>
+              <entry colname="col2">The type of credentials required for this user. Possible values: <ul id="UL_78884FB9F5D2460DB90B8945F58E6257"><li id="LI_309AE0C4E84A4FD78CAEB11E63A0C248"><option>noauth</option>: No password or passphrase is required. </li><li id="LI_59ADDA13C075498F998766EA89B144BA"><option>auth</option>: A password is required for user access.</li><li id="LI_28B9C81B705C4D6E964EB0F6CCD0020D"><option>priv</option>: A password and passphrase are required for user access.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

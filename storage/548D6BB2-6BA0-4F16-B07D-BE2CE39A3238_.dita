@@ -1,0 +1,19 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-548D6BB2-6BA0-4F16-B07D-BE2CE39A3238" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Cluster fault codes</title>
+  <shortdesc>The system reports an error or a state that might be of interest by generating a fault code, which is listed on the <wintitle>Alerts</wintitle> page. These codes help you determine what component of the system experienced the alert and why the alert was generated. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>alerts<indexterm>error codes</indexterm></indexterm>
+        <indexterm>cluster fault codes</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>The following list outlines the different types of codes:</p>
+    </section>
+    <section conref="5C1C462C-1939-45E3-8684-5316E08D54A6_.dita#GUID-5C1C462C-1939-45E3-8684-5316E08D54A6/SECTION_6B7423FA01A744CFA23D5F0DF4C06CEF" id="GUID-77C72E92-0058-4970-81C4-DF7CE968B9FD" />
+  </refbody>
+</reference>

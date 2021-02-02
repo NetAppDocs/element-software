@@ -1,0 +1,50 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-10E4C2F8-AB63-4DAE-8928-29B7CB0EC2F5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Account details</title>
+  <shortdesc>The <wintitle>Accounts</wintitle> page on the <wintitle>Management</wintitle> tab provides information about each account in the system, such as ID, user name, and  efficiency details for the volumes assigned to each account.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>accounts<indexterm>understanding system data</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <dl>
+        <dlentry id="GUID-0EF0A4D6-FAF8-4622-8359-D14686926C6F">
+          <dt>ID</dt>
+          <dd>The system-generated ID for the account.</dd>
+        </dlentry>
+        <dlentry id="GUID-8066A4B6-B8D3-4DB1-A39F-56FCB5FC7E44">
+          <dt>Username</dt>
+          <dd>The name given to the account when it was created.</dd>
+        </dlentry>
+        <dlentry id="GUID-E98688D1-747F-4972-A75A-0969AF752D03">
+          <dt>Status</dt>
+          <dd>The status of the account. Possible values:<ul id="UL_7DBA0C5E9AE945B29ADAC5C48476E402"><li id="LI_F94B76FD0D1D46A3927BA150A38465F4"><option>active</option>: An active account.</li><li id="LI_88826ADC9BF6416DB8C1A5533901FDA4"><option>locked</option>: A locked account.</li><li id="LI_F2A5752B1D1546C9AE074A30447D5A70"><option>removed</option>: An account that has been deleted and purged.</li></ul></dd>
+        </dlentry>
+        <dlentry id="GUID-1DD5CBBC-96DB-4454-BCF6-FB14AAA00680">
+          <dt>Active Volumes</dt>
+          <dd>The number of active volumes assigned to the account.</dd>
+        </dlentry>
+        <dlentry id="GUID-598F2F24-A948-42A2-AEA7-4CAEF979B5E1">
+          <dt>Compression</dt>
+          <dd>The compression efficiency score for the volumes assigned to the account.</dd>
+        </dlentry>
+        <dlentry id="GUID-886F1D66-D10F-4492-8607-4587EEF5C070">
+          <dt>Deduplication</dt>
+          <dd>                        The deduplication efficiency score for the volumes assigned to the account.</dd>
+        </dlentry>
+        <dlentry id="GUID-3EC49A29-5003-417F-88C9-DC9E488A7568">
+          <dt>Thin Provisioning</dt>
+          <dd>The thin provisioning efficiency score for the volumes assigned to the account.</dd>
+        </dlentry>
+        <dlentry id="GUID-4234D5E9-48C8-458C-98E9-9DCC4BC1F015">
+          <dt>Overall Efficiency</dt>
+          <dd>                        The overall efficiency score for the volumes assigned to the account.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

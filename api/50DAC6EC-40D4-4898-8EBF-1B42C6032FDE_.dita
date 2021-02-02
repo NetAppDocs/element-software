@@ -1,0 +1,72 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-50DAC6EC-40D4-4898-8EBF-1B42C6032FDE" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-6611984D-3362-4B8D-8EC5-C94A580A70E0">DisableBmcColdReset</title>
+  <shortdesc>You can use the <apiname>DisableBmcColdReset</apiname> method to disable the background task that periodically resets the Baseboard Management Controller (BMC) for all nodes in the cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>BMC cold reset</keyword>
+        <keyword>BMC reset</keyword>
+        <keyword>disable BMC</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-181ABE75-3AAA-465A-AEF3-0C51D4EEB541">
+      <note conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/GUID-1C655CD3-BB33-45ED-A89C-B65E1DB4FD6E" id="GUID-B8D9279E-3747-42B4-92F4-F411AAA653ED" />
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has no input parameter.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.60*" />
+          <colspec colnum="2" colname="col2" colwidth="1.62*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">cBmcResetDurationMinutes</entry>
+              <entry colname="col2">Returns the time between reset intervals. The interval should always be 0 after the command completes.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "DisableBmcColdReset",
+  "params": {},
+  "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+    "id": 1,
+    "result": {
+        "cBmcResetDurationMinutes": 0
+    }
+}
+</codeblock>
+    </section>
+    <section id="GUID-04D6FB07-3AF9-412A-83A0-0677DD29DEE7">
+      <title id="GUID-8CE3704E-5700-4942-955A-AC6A8E518C34">New since version</title>
+      <p>12.0</p>
+    </section>
+  </refbody>
+</reference>

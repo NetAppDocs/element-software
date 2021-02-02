@@ -1,0 +1,210 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-FAF99A22-7B95-41DC-AB18-A37D9E79ED1C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetIpmiInfo</title>
+  <shortdesc>You can use the <apiname>GetIpmiInfo</apiname> method to display a detailed reporting of sensors (objects) for node fans, intake and exhaust temperatures, and power supplies  that are monitored by the system. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>hardware</keyword>
+        <keyword>sensor</keyword>
+        <keyword>info</keyword>
+        <keyword>ipmi</keyword>
+        <keyword>report</keyword>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>getipmiinfo</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-181ABE75-3AAA-465A-AEF3-0C51D4EEB541">
+      <note conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/GUID-1C655CD3-BB33-45ED-A89C-B65E1DB4FD6E" id="GUID-B8D9279E-3747-42B4-92F4-F411AAA653ED" />
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.82*" />
+          <colspec colnum="3" colname="col3" colwidth="1.24*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">sensors</entry>
+              <entry colname="col2">Detailed information from each sensor within a node. </entry>
+              <entry colname="col3">JSON object array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "GetIpmiInfo", 
+  "params": {},
+  "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p> Due to the length of the returned response for this API method, portions of the response have been intentionally eliminated from this document. What is included are the portions of the hardware information that the system monitors in order to ensure the node is running at optimum performance.</p>
+      <codeblock xml:space="preserve">{
+  "id": 1,			
+    "result": {
+      "nodes": [
+        {
+          "nodeID": 1,
+          "result": {
+               "ipmiInfo": {
+                 "sensors": [
+                   {
+                     "entityID": "7.1 (System Board)",
+                     "sensorID": "0x72",
+                     "sensorName": "SEL",
+                     "sensorType": "Event Logging Disabled",
+                     "uniqueSensorID": "7.1:0x72"
+                   },
+                   {
+                     "assertionsEnabled": [
+                     "General Chassis intrusion"
+                     ],
+                     "deassertionsEnabled": [
+                     "General Chassis intrusion"
+                     ],
+                     "entityID": "7.1 (System Board)",
+                     "sensorID": "0x73",
+                     "sensorName": "Intrusion",
+                     "sensorType": "Physical Security",
+                     "uniqueSensorID": "7.1:0x73"
+                  },
+                  {THIS ENTIRE SECTION IS REPEATED FOR EACH FAN IN THE SYSTEM
+                     "assertionEvents": [],
+                     "assertionsEnabled": [],
+                     "deassertionsEnabled": [],
+                     "entityID": "7.1 (System Board)",
+                     "eventMessageControl": "Per-threshold",
+                     "lowerCritical": "720.000",
+                     "lowerNonCritical": "840.000",
+                     "maximumSensorRange": "Unspecified",      
+                     "minimumSensorRange": "Unspecified",
+                     "negativeHysteresis": "600.000",
+                     "nominalReading": "10080.000",
+                     "normalMaximum": "23640.000",
+                     "normalMinimum": "16680.000",
+                     "positiveHysteresis": "600.000",
+                     "readableThresholds": "lcr lnc",
+                     "sensorID": "0x30",
+                     "sensorName": "Fan1A RPM",
+                     "sensorReading": "4440 (+/- 120) RPM",
+                     "sensorType": "Fan",
+                     "settableThresholds": "",
+                     "status": "ok",
+                     "thresholdReadMask": "lcr lnc",
+                     "uniqueSensorID": "7.1:0x30"
+                  },
+                       .
+                       . 
+                       .     
+                  {THIS ENTIRE SECTION IS REPEATED FOR THE EXHAUST TEMPERATURE OF EACH NODE
+                     "assertionEvents": [],
+                     "assertionsEnabled": [],
+                     "entityID": "7.1 (System Board)",
+                     "eventMessageControl": "Per-threshold",
+                     "lowerCritical": "3.000",
+                     "lowerNonCritical": "8.000",
+                     "maximumSensorRange": "Unspecified",
+                     "minimumSensorRange": "Unspecified",
+                     "negativeHysteresis": "1.000",
+                     "nominalReading": "23.000",
+                     "normalMaximum": "69.000",
+                     "normalMinimum": "11.000",
+                     "positiveHysteresis": "1.000",
+                     "readableThresholds": "lcr lnc unc ucr",
+                     "sensorID": "0x1",
+                     "sensorName": "Exhaust Temp",
+                     "sensorReading": "44 (+/- 1) degrees C",
+                     "sensorType": "Temperature",
+                     "settableThresholds": "",
+                     "status": "ok",
+                     "uniqueSensorID": "7.1:0x1",
+                     "upperCritical": "75.000",
+                     "upperNonCritical": "70.000"
+                 },		
+                 {THIS ENTIRE SECTION IS REPEATED FOR THE INLET TEMPERATURE OF EACH NODE
+                     "assertionEvents": [],
+                     "assertionsEnabled": [],
+                     "deassertionsEnabled": [],
+                     "entityID": "7.1 (System Board)",
+                     "eventMessageControl": "Per-threshold",
+                     "lowerCritical": "-7.000",
+                     "lowerNonCritical": "3.000",
+                     "maximumSensorRange": "Unspecified",
+                     "minimumSensorRange": "Unspecified",
+                     "negativeHysteresis": "1.000",
+                     "nominalReading": "23.000",
+                     "normalMaximum": "69.000",
+                     "normalMinimum": "11.000",
+                     "positiveHysteresis": "1.000",
+                     "readableThresholds": "lcr lnc unc ucr",
+                     "sensorID": "0x4",
+                     "sensorName": "Inlet Temp",
+                     "sensorReading": "20 (+/- 1) degrees C",
+                     "sensorType": "Temperature",
+                     "settableThresholds": "lcr lnc unc ucr",
+                     "status": "ok",
+                     "thresholdReadMask": "lcr lnc unc ucr",
+                     "uniqueSensorID": "7.1:0x4",
+                     "upperCritical": "47.000",
+                     "upperNonCritical": "42.000"
+                 },
+                 {THIS ENTIRE SECTION IS REPEATED FOR EACH POWER SUPPLY ON EACH NODE
+                     "assertionEvents": [],
+                     "assertionsEnabled": [],
+                     "entityID": "10.2 (Power Supply)",
+                     "eventMessageControl": "Per-threshold",
+                     "maximumSensorRange": "Unspecified",
+                     "minimumSensorRange": "Unspecified",
+                     "negativeHysteresis": "Unspecified",
+                     "nominalReading": "0.000",
+                     "normalMaximum": "0.000",
+                     "positiveHysteresis": "Unspecified",
+                     "readableThresholds": "No Thresholds",
+                     "sensorID": "0x6d",
+                     "sensorName": "Voltage 2",
+                     "sensorReading": "118 (+/- 0) Volts",
+                     "sensorType": "Voltage",
+                     "settableThresholds": "No Thresholds",
+                     "status": "ok",
+                     "uniqueSensorID": "10.2:0x6d"
+                 },
+                        .
+                        .
+                        .
+                 }
+               ]
+             }
+           }
+         }
+       ]
+     }		
+   }</codeblock>
+    </section>
+    <section id="GUID-71E98120-5005-471B-83C6-1DF0CBD2A6AA">
+      <title id="GUID-D1E109A6-823B-4C35-8A27-6A06FB28835A">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

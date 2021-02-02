@@ -1,0 +1,15 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-CC3F8725-81B5-44DA-AF99-22689B9E4EDD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5B8DD2F3-181E-4425-8907-31E14946B8F2">Perform post-installation tasks for <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph></title>
+  <shortdesc>After you install <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>, your next steps would be to configure the cluster name on each <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> node. You can then create a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds installation</keyword>
+        <keyword>create cluster</keyword>
+        <keyword>cluster</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

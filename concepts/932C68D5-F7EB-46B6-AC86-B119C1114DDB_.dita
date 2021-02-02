@@ -1,0 +1,11 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-932C68D5-F7EB-46B6-AC86-B119C1114DDB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-A2C813D2-B9B5-433C-9E43-1849A67EB9B5">Remote replication types</title>
+  <shortdesc>Remote replication of data can take the form of synchronous, asynchronous, or snapshot-only replication. Remote replication can also include replication of data between <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> and ONTAP systems using SnapMirror technology. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

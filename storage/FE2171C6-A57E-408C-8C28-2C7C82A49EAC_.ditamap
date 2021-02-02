@@ -1,0 +1,277 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-FE2171C6-A57E-408C-8C28-2C7C82A49EAC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-54C1E7AC-4B04-4EBD-ACD8-4DABB0FB256D">Key definitions [ netapp-doc-hci | traditional
+        ] HCI doc center targets</title>
+  <keydef keys="h600s-isi" scope="peer" otherprops="keyscope-peer" format="html" href="../com.netapp.ndc.h600s-isi/home.html" navtitle="Installing the hardware" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing the hardware</navtitle>
+      <linktext>Installing the hardware</linktext>
+      <critdates>
+        <created date="2018-09-11" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="h600s-isi-poster" scope="external" otherprops="keyscope-peer" format="pdf" href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2853955" navtitle="H600S Series Storage Nodes Installation and Setup Instructions" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>H600S Series Storage Nodes Installation and Setup Instructions</navtitle>
+      <linktext>H600S Series Storage Nodes Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2019-02-05" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-isi-hci-poster" format="pdf" scope="external" href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2856176" navtitle="NetApp HCI Compute and Storage Nodes Installation and Setup Instructions" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>NetApp HCI Compute and Storage Nodes Installation and Setup
+                Instructions</navtitle>
+      <linktext>NetApp HCI Compute and Storage Nodes Installation and Setup
+                Instructions</linktext>
+      <critdates>
+        <created date="2018-11-02" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-isi-h610c-poster" format="pdf" scope="external" href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2850917" navtitle="H610C Compute Nodes Installation and Setup Instructions" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>H610C Compute Nodes Installation and Setup Instructions</navtitle>
+      <linktext>H610C Compute Nodes Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2018-12-04" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-ude-170" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-ude-170/home.html" navtitle="NetApp HCI 1.7 Deployment Guide" processing-role="resource-only">
+    <topicmeta>
+      <navtitle> NetApp HCI 1.7 Deployment Guide</navtitle>
+      <linktext>NetApp HCI 1.7 Deployment Guide</linktext>
+      <critdates>
+        <created date="2019-09-12" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-ude-16p1" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-ude-16p1/home.html" navtitle="NetApp HCI 1.6P1 Deployment Guide" processing-role="resource-only">
+    <topicmeta>
+      <navtitle> NetApp HCI 1.6P1 Deployment Guide</navtitle>
+      <linktext>NetApp HCI 1.6P1 Deployment Guide</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-ude-160" scope="external" otherprops="keyscope-external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-ude-160/home.html" navtitle="NetApp HCI 1.6 Deployment Guide" processing-role="resource-only">
+    <topicmeta>
+      <navtitle> NetApp HCI 1.6 Deployment Guide</navtitle>
+      <linktext>NetApp HCI 1.6 Deployment Guide</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-mnode-170" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-mnode-170/home.html" navtitle="Working with the management node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Working with the management node</navtitle>
+      <linktext>Working with the management node</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-mnode-16p1" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-mnode-16p1/home.html" navtitle="Working with the management node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Working with the management node</navtitle>
+      <linktext>Working with the management node</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-mnode-160" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-mnode-160/home.html" navtitle="Working with the management node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Working with the management node</navtitle>
+      <linktext>Working with the management node</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-vcp-170-ug" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-vcp-ug-170/home.html" navtitle="Using VCP to manage NetApp HCI" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Using VCP to manage NetApp HCI</navtitle>
+      <linktext>Using VCP to manage NetApp HCI</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-vcp-16p1-ug" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-vcp-ug-16p1/home.html" navtitle="Using VCP to manage NetApp HCI" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Using VCP to manage NetApp HCI</navtitle>
+      <linktext>Using VCP to manage NetApp HCI</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-vcp-160-ug" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-vcp-ug-160/home.html" navtitle="Using VCP to manage NetApp HCI" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Using VCP to manage NetApp HCI</navtitle>
+      <linktext>Using VCP to manage NetApp HCI</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-rn-141" format="html" scope="external" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-rn-141/home.html" navtitle="NetApp HCI 1.4P1 Release Notes" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>NetApp HCI 1.4P1 Release Notes</navtitle>
+      <linktext>Using VCP to manage NetApp HCI</linktext>
+      <critdates>
+        <created date="2019-02-15" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hci-vcp-141-ug" format="html" scope="external" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hci-vcp-ug-141/home.html" navtitle="Using VCP to manage NetApp HCI" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Using VCP to manage NetApp HCI</navtitle>
+      <linktext>Using VCP to manage NetApp HCI</linktext>
+      <critdates>
+        <created date="2019-02-15" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-chassis-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-chassis-repl/home.html" navtitle="Replacing a chassis" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a chassis in an H-series system</navtitle>
+      <linktext>Replacing a chassis in an H-series system</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-comnode-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-comnode-repl/home.html" navtitle="Replacing a failed compute node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a failed compute node</navtitle>
+      <linktext>Replacing a failed compute node</linktext>
+      <critdates>
+        <created date="2017-11-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-stornode-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-stornode-repl/home.html" navtitle="Replacing a failed storage node" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a failed storage node</navtitle>
+      <linktext>Replacing a failed storage node</linktext>
+      <critdates>
+        <created date="2017-11-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-pwr-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-pwr-repl/home.html" navtitle="Replacing a failed power supply unit in an H-series system" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a failed power supply unit in an H-series system</navtitle>
+      <linktext>Replacing a failed power supply unit in an H-series system</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-rail-inst" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-rail-inst/home.html" navtitle="Installing rails" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing rails</navtitle>
+      <linktext>Installing rails</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-ssd-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-ssd-repl/home.html" navtitle="Replacing a solid-state drive" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing a solid-state drive</navtitle>
+      <linktext>Replacing a solid-state disk drive</linktext>
+      <critdates>
+        <created date="2017-10-16" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-h600srail-inst" scope="external" format="html" href="../com.netapp.doc.hs-h600srail-inst/home.html" navtitle="Installing rails" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing rails</navtitle>
+      <linktext>Rail installation</linktext>
+      <critdates>
+        <created date="2018-10-25" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-ssdh600s-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-ssdh600s-repl/home.html" navtitle="Replacing drives" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing drives</navtitle>
+      <linktext>Drive replacement</linktext>
+      <critdates>
+        <created date="2018-10-25" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-pwrh600s-repl" scope="external" format="html" href="../com.netapp.doc.hs-pwrh600s-repl/home.html" navtitle="Replacing power supply unit" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Replacing power supply unit</navtitle>
+      <linktext>Power supply replacement</linktext>
+      <critdates>
+        <created date="2018-10-25" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-nodeh600s-repl" scope="external" format="html" href="https://docs.netapp.com/hci/topic/com.netapp.doc.hs-nodeh600s-repl/home.html" navtitle="Replacing chassis" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Chassis replacement</navtitle>
+      <linktext>Chassis replacement</linktext>
+      <critdates>
+        <created date="2018-11-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="h600s-isg" scope="external" format="html" href="../com.netapp.doc.h600s-isg/home.html" navtitle="Installing and setting up the H600S series storage nodes" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing and setting up the H600S series storage nodes</navtitle>
+      <linktext>Installing and setting up the H610C hardware</linktext>
+      <critdates>
+        <created date="2019-02-05" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-h610crail-inst" scope="external" format="html" href="../com.netapp.doc.hs-h610crail-inst/home.html" navtitle="Rail installation" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Rail installation</navtitle>
+      <linktext>Rail installation</linktext>
+      <critdates>
+        <created date="2018-12-03" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="h610c-isg" scope="external" format="html" href="../com.netapp.doc.h610c-isg/home.html" navtitle="Installing and setting up the H610C hardware" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Installing and setting up the H610C hardware</navtitle>
+      <linktext>Installing and setting up the H610C hardware</linktext>
+      <critdates>
+        <created date="2018-12-04" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-pwrh610c-repl" scope="external" format="html" href="../com.netapp.doc.hs-pwrh610c-repl/home.html" navtitle="Power supply replacement" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Power supply replacement</navtitle>
+      <linktext>Power supply replacement</linktext>
+      <critdates>
+        <created date="2018-12-04" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="hs-chash610c-repl " scope="external" format="html" href="../com.netapp.doc.hs-chash610c-repl/home.html" navtitle="Replacing chassis" processing-role="resource-only">
+    <topicmeta>
+      <navtitle>Chassis replacement</navtitle>
+      <linktext>Chassis replacement</linktext>
+      <critdates>
+        <created date="2018-12-14" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+</map>

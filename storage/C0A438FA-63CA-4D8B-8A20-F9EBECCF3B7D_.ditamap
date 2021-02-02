@@ -1,0 +1,59 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-C0A438FA-63CA-4D8B-8A20-F9EBECCF3B7D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9F7656ED-B1EB-4E54-AA3C-C26AAF318493">SolidFire Element UG: Collector Map</title>
+  <mapref format="ditamap" href="FC7F477B-C542-4EC4-ACD9-D5BEAD2B2778_.ditamap" navtitle="SolidFire Element UG: Mini map: Introduction to the SolidFire storage system">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref href="526D049C-D9AC-4DAA-8535-B510D3180B31_.ditamap" navtitle="SolidFire Element UG: Mini map: Post deployment options" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <topicref href="006EF14D-C07F-423B-A4C3-52B5E0620D1B_.dita" format="dita" navtitle="SolidFire Element UG: (GH HCI redirect) Upgrading storage nodes">
+    <topicmeta>
+      <navtitle>SolidFire Element UG: (GH HCI redirect) Upgrading storage nodes</navtitle>
+    </topicmeta>
+  </topicref>
+  <topicref href="1A953030-336F-438F-8B89-617EAFFB4321_.dita" format="dita" navtitle="SolidFire Element UG: (redirect) Updating management services for Element all-flash storage installations">
+    <topicmeta>
+      <navtitle>SolidFire Element UG: (redirect) Updating management services for Element all-flash storage installations</navtitle>
+    </topicmeta>
+  </topicref>
+  <mapref href="973F1816-49DC-435A-A9A3-A686995AC335_.ditamap" navtitle="Element UG: Mini Map: Basic UI options" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="6A38E74A-D93B-4E8B-B830-69AD2D67C443_.ditamap" navtitle="SolidFire Element UG: Mini map: System management">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="4B7B27FA-90AC-475D-8AD4-41089B217ADF_.ditamap" navtitle="SolidFire Element UG: Mini map: Data management" scope="local">
+    <topicmeta>
+      <navtitle>Data Management</navtitle>
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="64F74D0C-7912-4E00-8B0B-4F61A86CEF5D_.ditamap" navtitle="SolidFire Element UG: Mini map: Data protection">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="E2A5FDE1-9512-48FC-853B-B1413DB311EF_.ditamap" navtitle="SolidFire Element UG: Minimap: System monitoring and troubleshooting">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <topicref href="377F6296-4AEC-415D-9153-005CE4FF88EA_.dita" otherprops="standalone-only" format="dita">
+    <topicmeta>
+      <navtitle>Contacting NetApp Support</navtitle>
+    </topicmeta>
+  </topicref>
+  <topicref href="EF26E5A4-1684-418F-9E2A-332EDF1F8FF2_.dita" format="dita" navtitle="HCI comp repl: Related documentation">
+    <topicmeta>
+      <navtitle>Related documentation</navtitle>
+    </topicmeta>
+  </topicref>
+</map>

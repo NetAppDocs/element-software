@@ -1,0 +1,129 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-4BC90A1C-A6A1-48F7-9D9E-A1D9FF4CA5A2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D5E1BFFB-632F-4334-8C80-F2CEF903FE62">ListIdpConfigurations</title>
+  <shortdesc>You can use the <apiname>ListIdpConfigurations</apiname> method to list configurations for third-party IdPs. Optionally, you can provide either the <codeph>enabledOnly</codeph> flag to retrieve the currently enabled IdP configuration or an IdP metadata UUID or IdP name to query information for a specific IdP configuration.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>configs configurations</keyword>
+        <keyword>idp configs </keyword>
+        <keyword>list</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.00*" />
+          <colspec colnum="2" colname="col2" colwidth="2.04*" />
+          <colspec colnum="3" colname="col3" colwidth="1.13*" />
+          <colspec colnum="4" colname="col4" colwidth="1.17*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>enabledOnly</parmname>
+              </entry>
+              <entry colname="col2">Filters the result to return the currently enabled IdP configuration.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>idpConfigurationID</parmname>
+              </entry>
+              <entry colname="col2">UUID for the third-party IdP configuration.</entry>
+              <entry colname="col3">UUID</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>idpName</parmname>
+              </entry>
+              <entry colname="col2">Retrieves IdP configuration information for a specific IdP name.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">idpConfigInfos</entry>
+              <entry colname="col2">Information on the third-party IdP configuration(s).</entry>
+              <entry colname="col3">
+                <xref href="B1C5CBC2-E8DC-4C04-B4D3-24A902A305AB_.dita#GUID-B1C5CBC2-E8DC-4C04-B4D3-24A902A305AB/GUID-7DAF8B5D-7803-417F-822B-F5B1A4E3EA93" format="dita">idpConfigInfo</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "ListIdpConfigurations",
+  "params": {}
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+    "result": {
+        "idpConfigInfo": {
+        "enabled": true,
+        "idpConfigurationID": "f983c602-12f9-4c67-b214-bf505185cfed",
+        "idpMetadata": "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\r\n
+        &lt;EntityDescriptor xmlns=\"urn:oasis:names:tc:SAML:2.0:metadata\"\r\n
+        xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"\r\n
+        xmlns:shibmd=\"urn:mace:shibboleth:metadata:1.0\"\r\n
+        xmlns:xml=\"http://www.w3.org/XML/1998/namespace\"\r\n
+        ...&lt;/Organization&gt;\r\n
+        &lt;/EntityDescriptor&gt;",
+        "idpName": "https://privider.name.url.com",
+        "serviceProviderCertificate": "-----BEGIN CERTIFICATE-----\n
+        MI...BHi\n
+        -----END CERTIFICATE-----\n",
+        "spMetadataUrl": "https://10.193.100.100/auth/ui/saml2"
+        }
+    }
+}</codeblock>
+    </section>
+    <section id="GUID-CADF30D4-39FC-4360-9ECE-36C7049D413E">
+      <title id="GUID-603F3725-DC22-421F-B089-387992B30BB6">New since version</title>
+      <p>12.0</p>
+    </section>
+  </refbody>
+</reference>

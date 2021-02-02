@@ -1,0 +1,58 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A3B49E6A-0ADE-43AD-AFED-AE16C0E43CC3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Drives details</title>
+  <shortdesc>The <wintitle>Drives</wintitle> page on the <wintitle>Cluster</wintitle> tab provides a list of the active drives in the cluster. You can filter the page by selecting from the <option>Active</option>, <option>Available</option>, <option>Removing</option>, <option>Erasing</option>, and <option>Failed</option> tabs.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>drives</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>When you first initialize a cluster, the active drives list is empty. You can add drives that are unassigned to a cluster and listed in the <option>Available</option> tab after a new  SolidFire cluster is created. </p>
+      <p>The following elements appear in the list of active drives.</p>
+      <dl>
+        <dlentry id="GUID-E22367AD-8CA2-47D9-A2C7-342A8E123C0C">
+          <dt>Drive ID</dt>
+          <dd>The sequential number assigned to the drive.</dd>
+        </dlentry>
+        <dlentry id="GUID-BF8C9943-132E-4D7A-8F58-565F8B89C572">
+          <dt>Node ID</dt>
+          <dd>The node number assigned when the node is added to the cluster. </dd>
+        </dlentry>
+        <dlentry id="GUID-CE84EEC6-A89C-4CC7-8342-837DB1C5E46B">
+          <dt>Node Name</dt>
+          <dd>The name of the node that houses the drive. </dd>
+        </dlentry>
+        <dlentry id="GUID-AABA996D-93C5-4D1A-9497-23FA219722D6">
+          <dt>Slot</dt>
+          <dd>The slot number where the drive is physically located.</dd>
+        </dlentry>
+        <dlentry id="GUID-D5DD8BF3-A372-489E-AA6E-2D0FD46B9DA1">
+          <dt>Capacity</dt>
+          <dd>The size of the drive, in GB.</dd>
+        </dlentry>
+        <dlentry id="GUID-8C561C77-F4B1-4E18-83EC-F447E7612794">
+          <dt>Serial</dt>
+          <dd>The serial number of the drive.</dd>
+        </dlentry>
+        <dlentry id="GUID-A133774D-BA07-4D77-BEDB-133FA151BF40">
+          <dt>Wear Remaining</dt>
+          <dd>The wear level indicator. <p>The storage system reports the approximate amount of wear available
+on each solid-state drive (SSD) for writing and erasing data. A
+drive that has consumed 5 percent of its designed write and erase
+cycles reports 95 percent wear remaining. The system does not
+refresh drive wear information automatically; you can refresh or
+close and reload the page to refresh the information.
+</p></dd>
+        </dlentry>
+        <dlentry id="GUID-00C99B43-3592-492D-9A57-E5B702A65BB5">
+          <dt>Type</dt>
+          <dd>The type of drive. The type can be either block or metadata.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

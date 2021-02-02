@@ -1,0 +1,48 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-E21825D6-A26B-4101-9AC9-F64EF2786A7E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">DisableSnmp</title>
+  <shortdesc>You can use the <apiname>DisableSnmp</apiname> method to disable SNMP on the cluster nodes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SNMP</keyword>
+        <keyword>disable</keyword>
+        <keyword>disabling</keyword>
+        <keyword>DisableSnmp</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has no input parameter.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has no return value.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "DisableSnmp",
+  "params": {},
+  "id" : 1
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{ 
+  "result" : {}, 
+  "id" : 1 
+}
+</codeblock>
+    </section>
+    <section id="GUID-83CD3958-A8F9-4603-B21C-47ED2C8D0D3F">
+      <title id="GUID-E8267BD2-5D0E-4C53-896A-E9F2C75D66C2">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

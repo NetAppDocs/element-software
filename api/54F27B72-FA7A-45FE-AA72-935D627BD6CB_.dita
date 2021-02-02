@@ -1,0 +1,119 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-54F27B72-FA7A-45FE-AA72-935D627BD6CB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListVirtualVolumeBindings</title>
+  <shortdesc>You can use the <apiname>ListVirtualVolumeBindings</apiname> method to get a list of all virtual volumes in the cluster that are bound to protocol endpoints.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>virtual</keyword>
+        <keyword>volume</keyword>
+        <keyword>vvol</keyword>
+        <keyword>cluster</keyword>
+        <keyword>bound</keyword>
+        <keyword>protocol</keyword>
+        <keyword>endpoint</keyword>
+        <keyword>binding</keyword>
+        <keyword>bindings</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listvirtualvolumebindings</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="3.30*" />
+          <colspec colnum="2" colname="col2" colwidth="2.17*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.25*" />
+          <colspec colname="col5" colnum="5" colwidth="1.21*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>virtualVolumeBindingIDs</parmname>
+              </entry>
+              <entry colname="col2">A list of virtual volume binding IDs for which to retrieve information. If you omit this parameter, the method returns information about all virtual volume bindings.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_D71FA12623F54999967FE61833E626EC">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.14*" />
+          <colspec colnum="2" colname="col2" colwidth="2.28*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">bindings</entry>
+              <entry colname="col2">A list of objects describing all virtual volumes in the cluster that are bound to protocol endpoints.</entry>
+              <entry colname="col3">
+                <xref href="F54EBAE1-31AA-47AE-B9A1-7923462C25DD_.dita" outputclass="nopagenum">binding</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "ListVirtualVolumeBindings",
+    "params": {
+    },
+    "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "bindings": [
+      {
+        "protocolEndpointID": "5dd53da0-b9b7-43f9-9b7e-b41c2558e92b",
+        "protocolEndpointInBandID": "naa.6f47acc2000000016a67746700000000",
+        "protocolEndpointType": "SCSI",
+        "virtualVolumeBindingID": 177,
+        "virtualVolumeHostID": "564de1a4-9a99-da0f-8b7c-3a41dfd64bf1",
+        "virtualVolumeID": "269d3378-1ca6-4175-a18f-6d4839e5c746",
+        "virtualVolumeSecondaryID": "0xe200000000a6"
+      }
+    ]
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-EF0486C6-A5F3-4205-889A-F690626C013A">
+      <title id="GUID-0BBA077C-8B1E-48E5-88AF-3170931F1656">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

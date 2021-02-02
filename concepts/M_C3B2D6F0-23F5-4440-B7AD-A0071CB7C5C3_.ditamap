@@ -1,0 +1,90 @@
+﻿<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/bookmap/dtd/bookmap.dtd">
+<bookmap id="GUID-C3B2D6F0-23F5-4440-B7AD-A0071CB7C5C3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <booktitle id="GUID-65749B28-999E-45D7-958A-483350AF97D6">
+    <booklibrary>
+      <ph conref="ISH_variables.dita#variables/PROD-SFE">
+        <tm tmtype="reg">NetApp</tm>
+        <tm tmtype="reg">Element</tm> 12.2</ph>
+    </booklibrary>
+    <mainbooktitle>
+      <ph conref="ISH_variables.dita#variables/SFE-CONCEPTS-MAINBOOKTITLE">Concepts Guide</ph>
+    </mainbooktitle>
+    <booktitlealt outputclass="subtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-CONCEPTS-SUBTITLE" />
+    </booktitlealt>
+    <booktitlealt outputclass="eclipsetitle">
+      <ph conref="ISH_variables.dita#variables/SFE-CONCEPTS-ECLIPSETITLE">Understanding SolidFire storage system concepts</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="runningtitle">
+      <ph conref="ISH_variables.dita#variables/SFE-CONCEPTS-RUNNINGTITLE">NetApp SolidFire Concepts Guide</ph>
+    </booktitlealt>
+    <booktitlealt outputclass="coverstamp">
+      <ph conref="ISH_variables.dita#variables/CMN-COVERSTAMP" />
+    </booktitlealt>
+    <booktitlealt outputclass="pagestamp">
+      <ph conref="ISH_variables.dita#variables/CMN-PAGESTAMP" />
+    </booktitlealt>
+  </booktitle>
+  <bookmeta>
+    <shortdesc>
+      <ph conref="ISH_variables.dita#variables/SFE-CONCEPTS-SHORTDESC">Provides an architectural overview of a SolidFire storage system, and describes concepts, including data protection and storage efficiency.</ph>
+    </shortdesc>
+    <author>
+      <keyword conref="ISH_variables.dita#variables/CMN-AUTHOR">NetApp Information Engineering</keyword>
+    </author>
+    <keywords />
+    <othermeta content="netapp-fancy" name="branding" />
+    <othermeta content="User Guide" name="docsubtype" />
+    <othermeta content="sw" name="doccategory" />
+    <bookid>
+      <bookpartno>
+        <keyword translate="no" conref="ISH_variables.dita#variables/SFE-CONCEPTS-BOOKPARTNO">215-14248</keyword>
+      </bookpartno>
+      <edition>
+        <keyword conref="ISH_variables.dita#variables/CMN-EDMARKER-TEXT" translate="yes">September 2019</keyword>
+      </edition>
+    </bookid>
+    <data name="publishing-hooks">
+      <data format="pdf" name="ecm-primary-asset">
+        <keyword conref="ISH_variables.dita#variables/SFE-CONCEPTS-ECMID-PRI">Understanding SolidFire storage system concepts</keyword>
+      </data>
+      <data format="epub" name="ecm-secondary-asset">
+        <keyword conref="ISH_variables.dita#variables/SFE-CONCEPTS-ECMID-SEC">Understanding SolidFire storage system concepts</keyword>
+      </data>
+      <data name="doccenter-id">
+        <ph translate="no" conref="ISH_variables.dita#variables/CMN-DCID">sfe-122</ph>
+      </data>
+      <data name="plugin-id">
+        <keyword conref="ISH_variables.dita#variables/SFE-CONCEPTS-PLUGINID">com.netapp.doc.sfe-concepts</keyword>
+      </data>
+      <data name="last-mod-override">
+        <keyword translate="no" conref="ISH_variables.dita#variables/SFE-CONCEPTS-LASTMOD" />
+      </data>
+    </data>
+  </bookmeta>
+  <frontmatter otherprops="standalone-only">
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="32278D80-919A-4101-9D22-76659865252D_.ditamap" navtitle="SolidFire Concepts Guide: Collector Map" scope="local" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </chapter>
+  <backmatter>
+    <mapref format="ditamap" href="9D2B5E6A-5903-4F16-BDF1-BCE601020BD7_.ditamap" navtitle="Legal information" otherprops="standalone-only">
+      <topicmeta>
+        <navtitle>Legal information</navtitle>
+      </topicmeta>
+    </mapref>
+    <booklists>
+      <indexlist />
+    </booklists>
+    <mapref href="E8BB9890-BFF9-49A3-AA4F-53F95E084F07_.ditamap" navtitle="LNK: Concepts Guide Link support map" processing-role="resource-only" scope="local" format="ditamap">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </mapref>
+  </backmatter>
+</bookmap>

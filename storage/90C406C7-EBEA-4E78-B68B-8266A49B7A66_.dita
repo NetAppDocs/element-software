@@ -1,0 +1,32 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-90C406C7-EBEA-4E78-B68B-8266A49B7A66" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-7AA9792F-3505-4937-98B6-929C57534EED"> Edit VRF VLANs</title>
+  <shortdesc>You can change VRF VLAN attributes, such as VLAN name, netmask, gateway, and IP address blocks.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>virtual routing and forwarding<indexterm>VLANs</indexterm></indexterm>
+        <indexterm>VRF VLANs<indexterm>editing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-8D6A70F4-C81F-430B-8C7B-3C8015D2B448">
+      <step id="STEP_6A2A47345DFF4BE1981257A6EB121C15">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Network</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_17F71056B24143158392B0944385341F">
+        <cmd>Click the Actions icon for the VLAN you want to edit.</cmd>
+      </step>
+      <step id="STEP_FA77FF85518B45AC8ACB9D42E84E70C5">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_332F92EBACCC478DA55597CD039BA377">
+        <cmd>Enter the new attributes for the VRF VLAN in the <uicontrol>Edit VLAN</uicontrol> dialog box.</cmd>
+      </step>
+      <step id="STEP_56062B3E15094A2E89FDD4900AC1D0C6">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

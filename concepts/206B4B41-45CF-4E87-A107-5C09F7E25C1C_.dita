@@ -1,0 +1,13 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-206B4B41-45CF-4E87-A107-5C09F7E25C1C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E30A81AB-2DA6-4C53-8502-AD87E64EAFB9">Storage</title>
+  <shortdesc>Element OS running on the SolidFire storage system enables clients to securely and reliably store, access, and modify data on the volumes hosted by a cluster. Each volume is physically stored on the flash-based drives in each storage node.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p />
+  </conbody>
+</concept>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-073C14D6-4D16-4839-B532-F76175CF2437" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B27E4724-BB75-4FB8-97BF-7FB8D3BE33A3">Change passwords for cluster administrator
+        accounts</title>
+  <shortdesc>You can use the Element UI to change cluster administrator passwords.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>cluster administrator accounts<indexterm>changing password</indexterm></indexterm>
+        <indexterm>passwords<indexterm>cluster administrator account</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-6A67356E-CEF2-4BB9-86B9-A8C856E19D40">
+      <note id="GUID-12CE5C6C-9583-4BCE-BEFA-42236B3DBFE9">To change the password for the cluster administrator in the management node, see management node documentation.<p><xref href="https://docs.netapp.com/us-en/hci/docs/task_mnode_work_overview.html" format="html" scope="external">Management node overview</xref></p></note>
+    </context>
+    <steps id="GUID-957A1D13-25CE-43AD-8271-A38B59DAE31F">
+      <step id="STEP_210E3C5AFD844E2D87E615FF2EC983B2">
+        <cmd>Click <menucascade><uicontrol>Users </uicontrol><uicontrol>Cluster Admins</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_7FC09F6E4CD34E559544E3816CB6A41B">
+        <cmd>Click the Actions icon for the cluster administrator you want to edit.</cmd>
+      </step>
+      <step id="STEP_51C3E49FDBD9461B914CD50C19B1446F">
+        <cmd>Click <uicontrol>Edit</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_051D4D494A4E4CBEAEC9CB66ADABEE75">
+        <cmd>In the Change Password field, enter a new password and confirm it.</cmd>
+      </step>
+      <step id="STEP_A8103D87B9A04CB2BB94B06BE64236D4">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

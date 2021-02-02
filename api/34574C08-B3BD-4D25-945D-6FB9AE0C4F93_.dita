@@ -1,0 +1,138 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-34574C08-B3BD-4D25-945D-6FB9AE0C4F93" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListDriveStats</title>
+  <shortdesc>You can use the <apiname>ListDriveStats</apiname> method to list   high-level activity measurements for multiple drives in the cluster. By default, this method returns statistics for all drives in the cluster, and these measurements are cumulative from the addition of the drive to the cluster. Some values this method returns are specific to block drives, and some are specific to metadata drives.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>drive</keyword>
+        <keyword>drives</keyword>
+        <keyword>stats</keyword>
+        <keyword>statistics</keyword>
+        <keyword>listdrivestats</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_5FDA59FBD6494362B4FEAB7754574A08">
+      <title id="GUID-1D17088F-12C0-41CC-8FF3-B63A2F887D9A">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.14*" />
+          <colspec colnum="2" colname="col2" colwidth="1.97*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.25*" />
+          <colspec colname="col5" colnum="5" colwidth="1.15*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>drives</parmname>
+              </entry>
+              <entry colname="col2">List of drive IDs (<option>driveID</option>) for which to return drive statistics. If you omit this parameter, measurements for all drives are returned.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.76*" />
+          <colspec colnum="3" colname="col3" colwidth="1.38*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">driveStats</entry>
+              <entry colname="col2">List of drive activity information for each drive.</entry>
+              <entry colname="col3">
+                <xref href="4AF3B27D-47F1-4B45-ADD3-5108FE840D7C_.dita" outputclass="nopagenum">driveStats</xref> array</entry>
+            </row>
+            <row>
+              <entry colname="col1">errors</entry>
+              <entry colname="col2">This list contains the <option>driveID</option> and associated error message. It is always present, and empty if there are no errors.</entry>
+              <entry colname="col3">JSON object array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "method": "ListDriveStats",
+  "params": {
+    "drives":[22,23]
+  }
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 1,
+  "result": {
+    "driveStats": [
+      {
+        "driveID": 22,
+        "failedDieCount": 0,
+        "lifeRemainingPercent": 84,
+        "lifetimeReadBytes": 30171004403712,
+        "lifetimeWriteBytes": 103464755527680,
+        "powerOnHours": 17736,
+        "readBytes": 14656542,
+         "readOps": 3624,
+        "reallocatedSectors": 0,
+        "reserveCapacityPercent": 100,
+        "timestamp": "2016-03-01T00:19:24.782735Z",
+        "totalCapacity": 300069052416,
+        "usedCapacity": 1783735635,
+        "usedMemory": 879165440,
+        "writeBytes": 2462169894,
+        "writeOps": 608802
+      }
+    ],
+    "errors": [
+      {
+        "driveID": 23,
+        "exception": {
+          "message": "xStatCheckpointDoesNotExist",
+          "name": "xStatCheckpointDoesNotExist"
+        }
+      }
+    ]
+  }
+}</codeblock>
+    </section>
+    <section id="GUID-E89F5EE7-C697-4EF6-BD02-0D9D785A5DBE">
+      <title id="GUID-6FD0DD0C-DFB0-42EE-A6D4-BFDCBEBBD707">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

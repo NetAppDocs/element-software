@@ -1,0 +1,88 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-566AFF21-A13E-45AF-96CC-BC06874F3B95" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Network settings details from the per-node UI</title>
+  <shortdesc>You can change the storage node network settings to give the node a new set of network attributes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>nodes<indexterm>changing network settings</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_62A0E423E2AE4DF8B9551B5911831A2E">
+      <p>You can see the network settings for a storage node on the <uicontrol>Network Settings</uicontrol> page when you log in to the node (<filepath>https://&lt;node IP&gt;:442/hcc/node/network-settings</filepath>). You can select either <uicontrol>Bond1G</uicontrol> (management) or <uicontrol>Bond10G</uicontrol> (storage) settings. The following list describes the settings that you can modify when a storage node is in <option>Available</option>, <option>Pending</option>, or <option>Active</option> state:</p>
+      <note id="GUID-C3590BB7-8BB6-401A-9507-ED267BCC5A40">If you are running a SolidFire Enterprise SDS cluster, most networking settings in the per-node UI cannot be modified after node deployment.</note>
+      <dl>
+        <dlentry id="GUID-7549770B-F1AF-4601-A039-44E012FD794E">
+          <dt>Method</dt>
+          <dd>The method used to configure the interface. Possible methods: <ul id="UL_63D32ABC571D4208A27626BCB5DAABB4"><li id="LI_FAF72EB26B4D47EF9040063EE80D48B0"><option>loopback</option>: Used to define the IPv4 loopback interface.</li><li id="LI_A55C8A449F074B03936E3D7E10F3C554"><option>manual</option>: Used to define interfaces for which no configuration is done by default.</li><li id="LI_6A82614726934013974B0D669EBB208B"><option>dhcp</option>: Used to obtain an IP address via DHCP.</li><li id="LI_4B7E7428D39C455CB994FAA6CC8A4A89"><option>static</option>: Used to define Ethernet interfaces with statically allocated IPv4 addresses.</li></ul></dd>
+        </dlentry>
+        <dlentry id="GUID-1AB35517-3A07-4760-B9EE-8F37E9F25B8B">
+          <dt>Link Speed</dt>
+          <dd>The speed negotiated by the virtual NIC.</dd>
+        </dlentry>
+        <dlentry id="GUID-087B5FCD-9A07-4E42-9125-B16C63E3067E">
+          <dt>IPv4 Address</dt>
+          <dd>The IPv4 address for the eth0 network.</dd>
+        </dlentry>
+        <dlentry id="GUID-F3824555-AEC8-4657-83BA-5AF879300BD3">
+          <dt>IPv4 Subnet Mask</dt>
+          <dd>Address subdivisions of the IPv4 network.</dd>
+        </dlentry>
+        <dlentry id="GUID-F94C3296-5DCD-47DF-91E0-A85BB16A7B0F">
+          <dt>IPv4 Gateway Address</dt>
+          <dd>Router network address to send packets out of the local network.</dd>
+        </dlentry>
+        <dlentry id="GUID-8EC2080C-431E-44A4-97EF-53BC155C3A71">
+          <dt>IPv6 Address</dt>
+          <dd>The IPv6 address for the eth0 network.</dd>
+        </dlentry>
+        <dlentry id="GUID-09702DDA-2421-4639-A62C-01EAA5ECCFB5">
+          <dt>IPv6 Gateway Address</dt>
+          <dd>Router network address to send packets out of the local network.</dd>
+        </dlentry>
+        <dlentry id="GUID-07014421-A6A1-49E2-8506-67536CEEFDA2">
+          <dt>MTU</dt>
+          <dd>Largest packet size that a network protocol can transmit. Must be greater than or equal to 1500. If you add a second storage NIC, the value should be 9000.</dd>
+        </dlentry>
+        <dlentry id="GUID-3776E94D-3022-40DB-821C-E735176C3F8F">
+          <dt>DNS Servers</dt>
+          <dd>Network interface used for cluster communication.</dd>
+        </dlentry>
+        <dlentry id="GUID-C4F91C51-D756-48D1-AF7F-015923065BC4">
+          <dt>Search Domains</dt>
+          <dd>Search for additional MAC addresses available to the system.</dd>
+        </dlentry>
+        <dlentry id="GUID-C3C09AAE-19C1-4E8F-AF5B-EE62864C18AF">
+          <dt>Bond Mode</dt>
+          <dd>
+            <p>Can be one of the following modes: </p>
+            <ul id="UL_0DCB9281CC0443C980A3FBB84C8C767B">
+              <li id="LI_79432C3CA63740EF8B488D2F6E59D73E">
+                <option>ActivePassive</option> (default)</li>
+              <li id="LI_D704382249254B88803E07F0DE98B7C2">
+                <option>ALB</option>
+              </li>
+              <li id="LI_47F64F0504C34A0C92025BD929B3AC27">
+                <option>LACP</option>
+              </li>
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry id="GUID-355DC64F-9720-444D-959F-D1FB1C59EE7F">
+          <dt>Status</dt>
+          <dd>Possible values:<ul id="UL_E9E45598C15A4F90BDFB94038E7F653A"><li id="LI_C88A786DB32644578A5D8C2FCFE5EA4A"><option>UpAndRunning</option></li><li id="LI_5BE7DA6B7DFB498D9B791545AE0AD41D"><option>Down</option></li><li id="LI_597A95DD3F47434F9470ECB9BF19917E"><option>Up</option></li></ul></dd>
+        </dlentry>
+        <dlentry id="GUID-7F2EA8FA-17E5-49FA-91CB-63FE4234A3D2">
+          <dt>Virtual Network Tag</dt>
+          <dd>Tag assigned when the virtual network was created.</dd>
+        </dlentry>
+        <dlentry id="GUID-84D19C4D-6FC4-411F-82FA-BDFDC7289C9E">
+          <dt>Routes</dt>
+          <dd>Static routes to specific hosts or networks via the associated interface the routes are configured to use.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

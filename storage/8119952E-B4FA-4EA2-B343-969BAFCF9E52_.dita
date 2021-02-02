@@ -1,0 +1,35 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-8119952E-B4FA-4EA2-B343-969BAFCF9E52" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-8ED2C75A-38AD-4928-A3C2-DBBBD26103A6">Edit the Terms of Use banner</title>
+  <shortdesc>You can edit the text that a user sees when they select the Terms of Use login banner.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Terms of Use<indexterm>configuring</indexterm><indexterm>editing</indexterm></indexterm>
+        <indexterm>login banner</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-51688045-A9B3-4F70-B184-FFC34C93E93E">
+      <ul id="UL_6A60F619BE6340EE921B394000DB4BCE">
+        <li id="LI_2FD396F9D7D149A5BC5553B031FB9C07">You must have cluster administrator privileges to configure Terms of Use.</li>
+        <li id="LI_C9D8C76B5C6443F4A325143064734023">Ensure that the Terms of Use feature is enabled.</li>
+      </ul>
+    </prereq>
+    <steps id="GUID-0FE89BB0-A2E2-4C3E-AC8B-603BAC8FFCDB">
+      <step id="STEP_80F1817018A44CDFA0EA59A84D4915C1">
+        <cmd>Click <menucascade><uicontrol>Users</uicontrol><uicontrol>Terms of Use</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_225D813A0DD74FC1A8EFBAFA00D6751B">
+        <cmd>In the <uicontrol>Terms of Use </uicontrol> dialog box, edit the text that you want to appear.</cmd>
+        <info>
+          <note id="GUID-CEB2E82D-AE69-4C7D-AC73-28B4BD65A547">Do not exceed 4096 characters.</note>
+        </info>
+      </step>
+      <step id="STEP_67BB76B62097469B8A870185D884C432">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

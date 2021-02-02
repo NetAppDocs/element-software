@@ -1,0 +1,19 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-899FFC9B-C5AE-45E5-B766-F502A324F92B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-C744A9B9-FC07-45E1-B59A-ED5F82C71F67">SolidFire Concepts: Submap: SolidFire architecture overview</title>
+  <topicref href="C2D1EA7C-B430-4753-8A45-A40F721BEB4F_.dita" navtitle="SolidFire architecture overview">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="7035B44F-AFB6-405C-8582-2E005F702FFC_.dita" navtitle="SolidFire Active IQ">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="2C284F24-CBF2-470B-8890-367148874647_.dita" navtitle="SolidFire Concepts: SolidFire software interfaces">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

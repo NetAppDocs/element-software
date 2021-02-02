@@ -1,0 +1,13 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-7278E260-F55A-4068-A010-66F56E1AEE74" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-BB6228AE-675A-4DB8-89AC-7C96FE8F4749">Networking</title>
+  <shortdesc>The network setup for a SolidFire system consists of switch and port requirements. The implementation of these depends on your system.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>networking<indexterm>overview</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

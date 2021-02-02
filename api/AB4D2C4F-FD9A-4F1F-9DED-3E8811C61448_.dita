@@ -1,0 +1,94 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-AB4D2C4F-FD9A-4F1F-9DED-3E8811C61448" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">BreakSnapMirrorVolume</title>
+  <shortdesc>The <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> web UI uses the <apiname>BreakSnapMirrorVolume</apiname> method to break the SnapMirror relationship between an ONTAP source container and <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> target volume. Breaking an <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> SnapMirror volume is useful if an ONTAP system becomes unavailable while replicating data to an <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> volume. This feature enables a storage administrator  to take control of an <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> SnapMirror volume, break its relationship with the remote ONTAP system, and revert the volume to a previous snapshot.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SnapMirror</keyword>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>break</keyword>
+        <keyword>breaking</keyword>
+        <keyword>relationship</keyword>
+        <keyword>ONTAP</keyword>
+        <keyword>source</keyword>
+        <keyword>snapshot</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_5FDA59FBD6494362B4FEAB7754574A08">
+      <title id="GUID-1D17088F-12C0-41CC-8FF3-B63A2F887D9A">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.03*" />
+          <colspec colnum="2" colname="col2" colwidth="2.47*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.01*" />
+          <colspec colname="col5" colnum="5" colwidth="1.01*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>volumeID</parmname>
+              </entry>
+              <entry colname="col2">The volume on which to perform the break operation.  The volume access mode must be <option>snapMirrorTarget</option>.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>snapshotID</parmname>
+              </entry>
+              <entry colname="col2">Roll back the volume to the snapshot identified by this ID. The default behavior is to roll back to the most recent snapshot.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>preserve</parmname>
+              </entry>
+              <entry colname="col2">Preserve any snapshots newer than the snapshot identified by <parmname>snapshotID</parmname>. Possible values:<ul id="UL_CDE983DBF44D4B929EDBDE31CCD1E87C"><li id="LI_CF666DCE30B74C7F940E3D61992FB604"><option>true</option>: Preserve snapshots newer than <parmname>snapshotID</parmname>.</li><li id="LI_1DE19FE984B4461DA36064FB075515E8"><option>false</option>: Do not preserve snapshots newer than <parmname>snapshotID</parmname>.</li></ul>If false, any snapshots newer than <parmname>snapshotID</parmname> are deleted.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>access</parmname>
+              </entry>
+              <entry colname="col2">Resulting volume access mode. Possible values:<ul id="UL_6C40A8F2D4DF4B81BCEA3824E518A47C"><li id="LI_4DDDBE793FD54BEB8F38219D3E1285BA"><option>readWrite</option></li><li id="LI_D200E6BC39764CC9AE38BB56B2F80465"><option>readOnly</option></li><li id="LI_5DB79AA084234D2889A14FE1F3919CF5"><option>locked</option></li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">
+                <option>readWrite</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has no return values.</p>
+    </section>
+    <section id="GUID-2F2243CA-1735-4553-95BB-3F33C1335615">
+      <title id="GUID-9E68EA75-3D05-4829-ABB7-8DE01FF955BF">New since version</title>
+      <p>10.0</p>
+    </section>
+  </refbody>
+</reference>

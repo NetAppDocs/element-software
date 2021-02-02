@@ -1,0 +1,23 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-191E91CB-7028-4486-888E-BE26F8AC8801" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B8F8118E-6F96-42C6-9B7E-08B7AD69878E">Recover inaccessible or invalid Authentication
+        Keys</title>
+  <shortdesc>Occasionally, an error can occur that requires user intervention. In the event of an error, a cluster fault (referred to as a <term>cluster fault code</term>) will be generated. The two most likely cases are described here.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>slice drive error</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <ol id="GUID-FADCCF48-3D4D-4175-9EB0-BDB950D0292F">
+      <li>The cluster is unable to unlock the drives due to a <cmdname>KmipServerFault</cmdname> cluster fault. This can occur when the cluster first boots up and the key server is inaccessible or the required key is unavailable.<ol id="GUID-4282C4BC-4859-4C8A-91EC-7138EC9A540F"><li>Follow the recovery steps in the cluster fault codes (if any).</li></ol></li>
+      <li> A <cmdname>sliceServiceUnhealthy</cmdname> fault might be set because the metadata drives have been marked as failed and placed into the "Available" state.<ol id="GUID-0B3049FB-2CDF-4D6B-BD69-31D40EA42A8F"><li>Re-add the drives.</li><li>After 3 to 4 minutes, check that the <cmdname>sliceServiceUnhealthy</cmdname> fault has cleared.</li></ol></li>
+    </ol>
+    <p>See cluster fault code information.</p>
+    <p>
+      <xref href="548D6BB2-6BA0-4F16-B07D-BE2CE39A3238_.dita#GUID-548D6BB2-6BA0-4F16-B07D-BE2CE39A3238" format="dita" />
+    </p>
+  </conbody>
+</concept>

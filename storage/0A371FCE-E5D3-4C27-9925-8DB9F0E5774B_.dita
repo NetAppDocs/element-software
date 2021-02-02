@@ -1,0 +1,12 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-0A371FCE-E5D3-4C27-9925-8DB9F0E5774B" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-BBC72521-1F0A-43F3-9B1C-625DD6D2C023">Data management</title>
+  <shortdesc>You can manage the  data in a cluster running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software from  the Management tab in the Element UI. Available cluster management functions include creating and managing  data volumes, user accounts, volume access groups, initiators, and Quality of Service (QoS) policies.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>cluster data management<indexterm>overview of functions</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

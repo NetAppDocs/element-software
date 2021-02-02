@@ -1,0 +1,128 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-E79CE78F-B120-498E-AE8B-35BADA6BD627" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">nodeStats</title>
+  <shortdesc>The <apiname>nodeStats</apiname> object contains high-level activity measurements for a node. You can use the <apiname>GetNodeStats</apiname> and <apiname>ListNodeStats</apiname> API methods to get some or all of the <apiname>nodeStats</apiname> objects. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>nodestats</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.37*" />
+          <colspec colnum="2" colname="col2" colwidth="2.35*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">count</entry>
+              <entry colname="col2">The number of total samples in the nodeStats object.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">cpu</entry>
+              <entry colname="col2">CPU usage, in %.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">cpuTotal</entry>
+              <entry colname="col2">Monotonically increasing value of cpu utilization.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">cBytesIn</entry>
+              <entry colname="col2">Bytes in on the cluster interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">cBytesOut</entry>
+              <entry colname="col2">Bytes out on the cluster interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">sBytesIn</entry>
+              <entry colname="col2">Bytes in on the storage interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">sBytesOut</entry>
+              <entry colname="col2">Bytes out on the storage interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">mBytesIn</entry>
+              <entry colname="col2">Bytes in on the management interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">mBytesOut</entry>
+              <entry colname="col2">Bytes out on the management interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">networkUtilizationCluster</entry>
+              <entry colname="col2">Network interface utilization (in %) for the cluster network interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">networkUtilizationStorage</entry>
+              <entry colname="col2">Network interface utilization (in %) for the storage network interface.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readLatencyUSecTotal</entry>
+              <entry colname="col2">Monotonically increasing value of total time spent performing read operations to the node.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readOps</entry>
+              <entry colname="col2">Monotonically increasing value of total read operations to a node.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">ssLoadHistogram</entry>
+              <entry colname="col2">Histogram data illustrating slice service load over time.</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">timestamp</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/TS_D" />
+              </entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+            <row>
+              <entry colname="col1">usedMemory</entry>
+              <entry colname="col2">Total memory usage in bytes.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeLatencyUSecTotal</entry>
+              <entry colname="col2">Monotonically increasing value of total time spent performing write operations to the node.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeOps</entry>
+              <entry colname="col2">Monotonically increasing value of total write operations to a node.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

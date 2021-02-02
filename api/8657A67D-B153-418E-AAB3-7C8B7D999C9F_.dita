@@ -1,0 +1,82 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-8657A67D-B153-418E-AAB3-7C8B7D999C9F" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListSnapMirrorAggregates</title>
+  <shortdesc>The Element software web UI uses the <apiname>ListSnapMirrorAggregates</apiname> method to list all SnapMirror aggregates that are available on the remote ONTAP system. An aggregate describes a set of physical storage resources.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapmirror</keyword>
+        <keyword>aggregate</keyword>
+        <keyword>aggregates</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listsnapmirroraggregates</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.32*" />
+          <colspec colnum="2" colname="col2" colwidth="1.56*" />
+          <colspec colnum="3" colname="col3" colwidth="1.07*" />
+          <colspec colnum="4" colname="col4" colwidth="1.06*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">Return only the aggregates associated with the specified endpoint ID. If no endpoint ID is provided, the system lists aggregates from all known  SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorAggregates</entry>
+              <entry colname="col2">A list of the aggregates available on the ONTAP storage system. </entry>
+              <entry colname="col3">
+                <xref href="3D91B9BA-8F67-4AA6-A0EF-8531652E22C5_.dita" outputclass="nopagenum">snapMirrorAggregate</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-86311922-5687-4859-B5A4-900FBBF611D4">
+      <title id="GUID-29AFE35B-8460-4CEF-8FF1-CD82D4707B98">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

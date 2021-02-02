@@ -1,0 +1,68 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-7BC7F31B-9A6A-4DA0-BBCC-6A94E6A8F747" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Attributes</title>
+  <shortdesc>Many of the API requests and responses use objects as well as simple types. Objects are a collection of key-value pairs, where the value is a simple type or possibly another object. Attributes are custom name-value pairs that can be set by the user in JSON objects.  Some methods enable you to add attributes when creating or modifying objects.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>QoS</keyword>
+        <keyword>object</keyword>
+        <keyword>Quality</keyword>
+        <keyword>Service</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_5CF4083484814801A4A2308A06BCE86E">
+      <p> There is a 1000-byte limit on encoded attribute objects. </p>
+    </section>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object member</title>
+      <p>This object contains the following member:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">attributes</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/ATTR_DESC" />
+              </entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_79750BA437FB474BBED2E7ADB1460212">
+      <title id="GUID-2C56B245-3172-44CF-B0C2-954A593B2301">Request example</title>
+      <p>The following request example uses the <apiname>AddClusterAdmin</apiname> method:</p>
+      <codeblock xml:space="preserve">{
+   "method": "AddClusterAdmin",
+   "params": {
+      "username": "joeadmin",
+      "password": "68!5Aru268)$",
+      "access": [
+         "volume",
+         "reporting"
+      ],
+      "attributes": {
+         "name1": "value1",
+         "name2": "value2",
+         "name3": "value3"
+      }
+   }
+}
+</codeblock>
+    </section>
+  </refbody>
+</reference>

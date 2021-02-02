@@ -1,0 +1,30 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-691215CA-3A69-4F07-B0E3-E80541F8E870" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-99573A51-258D-4E85-8068-5CC2ABEF1140">Delete volume pairs</title>
+  <shortdesc>You can delete a volume pair if want to remove a pair association between two volumes.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>volume pairs</keyword>
+        <indexterm>volume pairs<indexterm>deleting</indexterm></indexterm>
+        <indexterm>paired volumes<indexterm>deleting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-F03FB30A-24E0-4F44-B05F-AD09268B0DAD">
+      <step id="STEP_1FDC1DADBC7044728C782BAE5894B1BE">
+        <cmd>Select <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Volume Pairs</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_A36FAE4CCD8B47958671698F15DB489F">
+        <cmd>Click the Actions icon for the volume pair you want to delete.</cmd>
+      </step>
+      <step id="STEP_775C4B3133B748BDAE36BFE4483E0AD0">
+        <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_CDB20E137218418692CF13A1FEAB9D73">
+        <cmd>Confirm the message.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

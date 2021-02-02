@@ -1,0 +1,124 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-8CFD2FB5-B7CF-4EEB-B011-29BE7D4DEB68" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetConfig</title>
+  <shortdesc>The <apiname>GetConfig</apiname> method returns a response similar to the following example. Due to length, the response contains information for one node of the cluster only.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>response</keyword>
+        <keyword>example</keyword>
+        <keyword>getconfig</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <codeblock xml:space="preserve">{
+    "id": 1,
+    "result": {
+        "config": {
+            "cluster": {
+                "cipi": "Bond10G",
+                "cluster": "AutoTest2-Fjqt",
+                "encryptionCapable": true,
+                "ensemble": [
+                    "1:10.1.1.0",
+                    "3:10.1.1.0",
+                    "4:10.1.1.0"
+                ],
+                "mipi": "Bond1G",
+                "name": "NLABP2605",
+                "nodeID": 1,
+                "pendingNodeID": 0,
+                "role": "Storage",
+                "sipi": "Bond10G",
+                "state": "Active",
+                "version": "11.0"
+            },
+            "network": {
+            "Bond10G": {
+                "#default": false,
+                "address": "10.1.1.0",
+                "auto": true,
+                "bond-downdelay": "0",
+                "bond-fail_over_mac": "None",
+                "bond-miimon": "100",
+                "bond-mode": "ActivePassive",
+                "bond-primary_reselect": "Failure",
+                "bond-slaves": "eth0 eth1",
+                "bond-updelay": "200",
+                "dns-nameservers": "10.1.1.0, 10.1.1.0",
+                "dns-search": "ten.test.company.net., company.net.",
+                "family": "inet",
+                "gateway": "10.1.1.0",
+                "linkSpeed": 10000,
+                "macAddress": "c8:1f:66:ee:59:b9",
+                "macAddressPermanent": "00:00:00:00:00:00",
+                "method": "static",
+                "mtu": "9000",
+                "netmask": "255.255.240.0",
+                "network": "10.1.1.0",
+                "physical": {
+                    "address": "10.1.1.0",
+                    "macAddress": "c8:1f:66:ee:59:b9",
+                    "macAddressPermanent": "00:00:00:00:00:00",
+                    "mtu": "9000",
+                    "netmask": "255.255.240.0",
+                    "network": "10.1.1.0",
+                    "upAndRunning": true
+                },
+                "routes": [],
+                "status": "UpAndRunning",
+                "symmetricRouteRules": [
+                    "ip route add 10.1.1.1/20 dev Bond1G src 10.1.2.2 table Bond1G",
+                    "ip rule add from 10.1.1.1 table Bond1G",
+                    "ip route add default via 10.1.1.254"
+                ],
+                "upAndRunning": true,
+                "virtualNetworkTag": "0"
+            },
+            "eth0": {
+                "auto": true,
+                "bond-master": "Bond10G",
+                "family": "inet",
+                "linkSpeed": 10000,
+                "macAddress": "c8:1f:66:ee:59:b9",
+                "macAddressPermanent": "c8:1f:66:ee:59:b9",
+                "method": "bond",
+                "physical": {
+                    "address": "0.0.0.0",
+                    "macAddress": "c8:1f:66:ee:59:b9",
+                    "macAddressPermanent": "c8:1f:66:ee:59:b9",
+                    "netmask": "N/A",
+                    "network": "N/A",
+                    "upAndRunning": true
+                },
+                "status": "UpAndRunning",
+                "upAndRunning": true
+            },
+            "lo": {
+                "auto": true,
+                "family": "inet",
+                "linkSpeed": 0,
+                "macAddress": "00:00:00:00:00:00",
+                "macAddressPermanent": "00:00:00:00:00:00",
+                "method": "loopback",
+                "physical": {
+                    "address": "0.0.0.0",
+                    "macAddress": "00:00:00:00:00:00",
+                    "macAddressPermanent": "00:00:00:00:00:00",
+                    "netmask": "N/A",
+                    "network": "N/A",
+                    "upAndRunning": true
+                },
+                "status": "UpAndRunning",
+                "upAndRunning": true
+            }
+        }
+        }
+    }
+}
+</codeblock>
+    </section>
+  </refbody>
+</reference>

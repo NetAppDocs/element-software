@@ -1,0 +1,34 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-D3AA4130-04BD-4855-BABE-C6DB2DCBE2BF" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-955547E5-3F8B-4008-A1D0-2B9BF055F426">Enable and disable support access</title>
+  <shortdesc>You can enable support access to temporarily allow <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph> support personnel access to storage nodes via SSH for troubleshooting.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>support access<indexterm>enabling</indexterm><indexterm>disabling</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-5EC8A409-41DB-4C83-9A9D-2776CD9CE1C5">
+      <p>You must have cluster admin privileges to change support access.</p>
+      <p>
+        <note conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/GUID-053C6154-130F-49D5-AE3F-71494E83F3FD" id="GUID-B62DAD90-8E73-4D17-A7E7-76DFC57F1CB5" />
+      </p>
+    </prereq>
+    <steps id="GUID-D483FAA3-67F4-409E-89DE-6854EA4424A9">
+      <step id="STEP_D9F905ACE52E458BAEEB0B6838A63E7C">
+        <cmd>Click <menucascade><uicontrol>Cluster </uicontrol><uicontrol>Settings</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_E151F88725264BE28A5EE489EAB7E626">
+        <cmd>In the Enable / Disable Support Access section, enter the duration (in hours) that you want to allow support to have access.</cmd>
+      </step>
+      <step id="STEP_BF85577378BD4746B473FAA9C21C736A">
+        <cmd>Click <uicontrol>Enable Support Access</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_EE1E9727BFC64F9590D26139737606FD" importance="optional">
+        <cmd>To disable support access, click <uicontrol>Disable Support Access</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

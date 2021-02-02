@@ -1,0 +1,40 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-1F9B853D-FDEC-43AB-B413-5379802A0BE5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EF889B15-9646-410E-94C9-C3C8B360A648">SolidFire Concepts: Submap: Data protection</title>
+  <topicref href="8A97A41A-D799-4093-A835-2D48909427C5_.dita" navtitle="Data protection">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="932C68D5-F7EB-46B6-AC86-B119C1114DDB_.dita" navtitle="Remote replication types">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+      <topicref href="D155A32F-BDF0-4D56-B0AA-722FD8E414C2_.dita" navtitle="Synchronous and asynchronous replication between clusters">
+        <topicmeta>
+          <navtitle />
+        </topicmeta>
+      </topicref>
+      <topicref href="5E484D1D-48B8-465C-AE59-DC641C0451F1_.dita" format="dita" navtitle="Snapshot-only replication">
+        <topicmeta />
+      </topicref>
+      <topicref href="8815F608-C163-4C71-9739-38A7E65E1D72_.dita" format="dita" navtitle="Replication between Element and ONTAP clusters using SnapMirror">
+        <topicmeta />
+      </topicref>
+    </topicref>
+    <topicref href="4D7ABEF4-FD76-467D-B99E-F5082C454D51_.dita" format="dita" navtitle="Volume snapshots for data protection">
+      <topicmeta />
+    </topicref>
+    <topicref href="6F0552D4-A03B-402E-BF53-C01CDA745373_.dita" format="dita" navtitle="Volume clones">
+      <topicmeta />
+    </topicref>
+    <topicref href="86D2E37B-24B4-401D-B568-F443359D71EB_.dita" format="dita" navtitle="Backup and restore process overview for SolidFire storage">
+      <topicmeta />
+    </topicref>
+    <topicref href="04EF8789-18F9-4821-88A4-6A1767DD402E_.dita" format="dita" navtitle="Protection domains">
+      <topicmeta />
+    </topicref>
+    <topicref href="266C7236-2402-4E82-803D-02EA4171ABFF_.dita" format="dita" navtitle="Double Helix high availability">
+      <topicmeta />
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-1A68639F-41C9-4B00-BE43-30C45759D86C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA80FA59-1459-4A0A-85AF-4D108B0962FD">Cluster API methods</title>
+  <shortdesc> Element software cluster API methods enable you to manage the configuration and topology of the storage cluster and the nodes that belong to a storage cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster</keyword>
+        <keyword>API</keyword>
+        <keyword>methods</keyword>
+        <keyword>method</keyword>
+        <keyword>manage</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>Some cluster API methods operate on nodes that are part of a cluster, or have been configured to join a cluster.  You can add nodes to a new cluster or to an existing cluster.  Nodes that are ready to be added to a cluster are in a "pending" state, which means they have been configured but not yet added to the cluster.</p>
+  </conbody>
+</concept>

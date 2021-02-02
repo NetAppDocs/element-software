@@ -1,0 +1,66 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F1AE9DA5-32BE-4F9B-A506-B28DE38BA579" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">snapMirrorEndpoint</title>
+  <shortdesc>The <apiname>snapMirrorEndpoint</apiname> object contains information about the remote SnapMirror storage systems communicating with the <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> storage cluster. You can retrieve this information with the <apiname>ListSnapMirrorEndpoints</apiname> API method.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>snapMirrorEndpoint</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.66*" />
+          <colspec colnum="2" colname="col2" colwidth="3.32*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorEndpointID</entry>
+              <entry colname="col2">The unique identifier for the object in the local cluster.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">managementIP</entry>
+              <entry colname="col2">The cluster management  IP address of the endpoint.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">clusterName</entry>
+              <entry colname="col2">The ONTAP cluster name. This value is  automatically populated with the value of “clusterName” from the <apiname>snapMirrorClusterIdentity</apiname> object.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">username</entry>
+              <entry colname="col2">The management user name for the ONTAP system.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">ipAddresses</entry>
+              <entry colname="col2">List of the inter-cluster storage IP addresses for all nodes in the cluster. You can get these IP addresses with the  <apiname>ListSnapMirrorNetworkInterfaces</apiname> method.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">isConnected</entry>
+              <entry colname="col2">The connectivity status of the control link to the ONTAP cluster.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

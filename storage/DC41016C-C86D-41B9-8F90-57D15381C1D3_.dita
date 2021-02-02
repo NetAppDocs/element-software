@@ -1,0 +1,34 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-DC41016C-C86D-41B9-8F90-57D15381C1D3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B045F055-ED02-44E9-8600-EE31EDECCDD3"> Configure an SNMP USM user </title>
+  <shortdesc> When you enable SNMP version 3, you need to configure a USM user to receive authorized SNMP requests.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>SNMP<indexterm>configuring USM users</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-844F6882-D6A0-4782-846E-40BDFE978736">
+      <step id="STEP_5C67523190754F5BAA24B0F686808344">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>SNMP</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_B80D60CE3796461BA35EB094FED09AB4">
+        <cmd>Under <uicontrol>General SNMP Settings</uicontrol>, click <uicontrol>Yes</uicontrol> to enable SNMP.</cmd>
+      </step>
+      <step id="STEP_078AFC9E5449408FAE025A02CBAAEA4C">
+        <cmd>From the <uicontrol>Version</uicontrol> list, select <uicontrol>Version 3</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_B97ECE1DC4494D28B30DC362AE2CECE7">
+        <cmd>In the <uicontrol>USM Users</uicontrol> section, enter the name, password, and passphrase.</cmd>
+      </step>
+      <step id="STEP_7BBB6CE444204F26952B57B13DCA0EDB" importance="optional">
+        <cmd importance="optional">To add another USM user, click <uicontrol>Add a USM User</uicontrol> and enter the name, password, and passphrase. </cmd>
+      </step>
+      <step id="STEP_9DED4B83BB144F9E87714E62F223251F">
+        <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

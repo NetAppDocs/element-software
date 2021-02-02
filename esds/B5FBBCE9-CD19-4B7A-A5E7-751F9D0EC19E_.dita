@@ -1,0 +1,39 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-B5FBBCE9-CD19-4B7A-A5E7-751F9D0EC19E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-328993EE-E48C-4A5F-8D16-8BD49512BC59">Set license key for <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph></title>
+  <shortdesc> When you create a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster, you need the license key information. NetApp Support will also need the license key information for help with issue resolution. The license key for the <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster consists of the cluster's order number combined with the serial number, and activates the capacity term license model you have purchased. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>capacity model</keyword>
+        <keyword>license key</keyword>
+        <keyword>set license key</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-8581672A-8336-4C86-B865-587929ED03AB">You can use the <apiname>SetLicenseKey</apiname> method to set the license key for the <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> storage cluster. The <apiname>SetLicenseKey</apiname> method has the following input parameters:<table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2"><tgroup cols="5"><colspec colnum="1" colname="col1" colwidth="1.5*" /><colspec colnum="2" colname="col2" colwidth="2*" /><colspec colnum="3" colname="col3" colwidth="*" /><colspec colnum="4" colname="col4" colwidth="*" /><colspec colname="col5" colnum="5" colwidth="*" /><thead><row><entry colname="col1">Name</entry><entry colname="col2">Description</entry><entry colname="col3">Type</entry><entry colname="col4">Default value </entry><entry colname="col5">Required </entry></row></thead><tbody><row><entry colname="col1"><parmname>orderNumber</parmname></entry><entry colname="col2">The new sales order number for this storage cluster.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row><row><entry colname="col1"><parmname>serialNumber</parmname></entry><entry colname="col2">The new serial number for this storage cluster.</entry><entry colname="col3">string</entry><entry colname="col4">None</entry><entry colname="col5">Yes</entry></row></tbody></tgroup></table>This method has the following return values:<table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3"><tgroup cols="3"><colspec colnum="1" colname="col1" colwidth="*" /><colspec colnum="2" colname="col2" colwidth="*" /><colspec colnum="3" colname="col3" colwidth="*" /><thead><row><entry colname="col1">Name</entry><entry colname="col2">Description</entry><entry colname="col3">Type</entry></row></thead><tbody><row><entry colname="col1">orderNumber</entry><entry colname="col2">The new sales order number of the storage cluster.</entry><entry colname="col3">string</entry></row><row><entry colname="col1">serialNumber</entry><entry colname="col2">The new serial number of the storage cluster.</entry><entry colname="col3">string</entry></row></tbody></tgroup></table></context>
+    <steps id="GUID-E838F850-E35F-49BA-BE3F-30FA28E19B94">
+      <step>
+        <cmd>Use the <apiname>SetLicenseKey</apiname> API method as shown in the following example: </cmd>
+        <info>Requests for this method are similar to the following example:<screen xml:space="preserve">
+{
+  "method": "SetLicenseKey",
+  "params": {
+    "orderNumber": "33601",
+    "serialNumber": "30G56E3WV"   },
+   "id" : 1
+}</screen><p>This method returns a response similar to the following example: <screen xml:space="preserve">
+{
+   "id" : 1,
+   "result" : {
+      "serialNumber": "30G56E3WV",
+      "orderNumber": "33601"
+     }
+   }
+}</screen></p></info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

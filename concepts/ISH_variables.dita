@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "file:///D|/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/topic.dtd"[
+]>
+<topic id="variables" xml:lang="en">
+  <!-- this file is used in a Netapp custiomization to store variables in and use them as conrefs -->
+  <title>Exported Variables</title>
+  <shortdesc>These are Trisoft Variables that were converted to DITA conrefs in order to be able to compare changes to exported source XML</shortdesc>
+  <body>
+    <p>
+      <ph id="PROD-SFE">
+        <tm tmtype="reg">NetApp</tm>
+        <tm tmtype="reg">Element</tm> 12.2</ph>
+      <ph id="SFE-CONCEPTS-MAINBOOKTITLE">Concepts Guide</ph>
+      <ph id="SFE-CONCEPTS-SUBTITLE" />
+      <ph id="SFE-CONCEPTS-ECLIPSETITLE">Understanding SolidFire storage system concepts</ph>
+      <ph id="SFE-CONCEPTS-RUNNINGTITLE">NetApp SolidFire Concepts Guide</ph>
+      <ph id="CMN-COVERSTAMP"></ph>
+      <ph id="CMN-PAGESTAMP" />
+      <ph id="SFE-CONCEPTS-SHORTDESC">Provides an architectural overview of a SolidFire storage system, and describes concepts, including data protection and storage efficiency.</ph>
+      <keyword id="CMN-AUTHOR">NetApp Information Engineering</keyword>
+      <keyword translate="no" id="SFE-CONCEPTS-BOOKPARTNO">215-14248</keyword>
+      <keyword translate="yes" id="CMN-EDMARKER-TEXT">September 2019</keyword>
+      <keyword id="SFE-CONCEPTS-ECMID-PRI">Understanding SolidFire storage system concepts</keyword>
+      <keyword id="SFE-CONCEPTS-ECMID-SEC">Understanding SolidFire storage system concepts</keyword>
+      <ph translate="no" id="CMN-DCID">sfe-122</ph>
+      <keyword id="SFE-CONCEPTS-PLUGINID">com.netapp.doc.sfe-concepts</keyword>
+      <keyword translate="no" id="SFE-CONCEPTS-LASTMOD" />
+      <ph id="ELEMENT-SHORT">Element</ph>
+      <ph id="VCP-LONG">NetApp Element Plug-in for vCenter Server</ph>
+      <ph id="NTAP-IBM">NetApp</ph>
+      <ph id="NTAP-HCI">NetApp HCI</ph>
+      <ph id="NTAP-KUBERNETES-SVC">NetApp Kubernetes Service</ph>
+      <ph id="NTAP-CLOUD-CENT">NetApp Cloud Central</ph>
+      <ph id="CLOUD-INSIGHTS">Cloud Insights</ph>
+      <ph id="CLOUD-VOLS-SVC">Cloud Volumes Service</ph>
+      <ph id="NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>
+      <ph id="SDS-LONG">SolidFire Enterprise SDS</ph>
+      <ph id="ONC-SYSMGR">ONTAP System Manager</ph>
+      <ph id="NTAP-IBMNSERIES">NetApp</ph>
+      <ph id="ACTIVE-IQ">Active IQ</ph>
+      <ph id="SDS-SHORT">SolidFire eSDS</ph>
+    </p>
+  </body>
+  <related-links></related-links>
+</topic>

@@ -1,0 +1,243 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-233A6D4E-181E-4CB5-934C-A12493CC66E8" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">volumeStats</title>
+  <shortdesc>The <apiname>volumeStats</apiname> object contains statistical data for an individual volume. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>volumeStats</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <p>You can use the following methods to get <apiname>volumeStats</apiname> objects for some or all volumes:<ul id="UL_D476AE5D347A49048DAA1684E2F434DB"><li id="LI_E7FAA3DF5E3743C49B391C92813DB0FD"><xref href="419A284E-3DF5-4C20-9F49-FFC18969AF75_.dita" outputclass="nopagenum">GetVolumeStats</xref></li><li id="LI_E09A1BFA6BF14392BFFB4F05002AD588"><xref href="C286F92C-92F9-4E23-B0F6-6F1C3235F25A_.dita" outputclass="nopagenum">ListVolumeStatsByAccount</xref></li><li id="LI_9E92B40758A4454890BED599E75F5E46"><xref href="1C7E9583-01A9-4B86-B1B1-7AF30261F189_.dita" outputclass="nopagenum">ListVolumeStatsByVolume</xref></li><li id="LI_CCCB5BFE5DD949E8A00290DFEAE38F2F"><xref href="532E7618-CFFB-4B63-A2AE-F0E1605F952F_.dita" outputclass="nopagenum">ListVolumeStatsByVolumeAccessGroup</xref></li></ul></p>
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="col1" colwidth="1.39*" />
+          <colspec colnum="2" colname="col2" colwidth="1.83*" />
+          <colspec colname="col03" colnum="3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col3" colwidth="1.01*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col03">Calculation</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">accountID</entry>
+              <entry colname="col2">The ID of the account of the volume owner.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">actualIOPS</entry>
+              <entry colname="col2">The current actual IOPS to the volume in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">asyncDelay</entry>
+              <entry colname="col2">                        The length of time since the volume was last synced with the remote cluster. If the volume is not paired, this is null. <note id="GUID-03D01558-FEBA-4515-898B-065240BF0211">A target volume in an active replication state always has an asyncDelay of 0 (zero). Target volumes  are system-aware during replication and assume asyncDelay is accurate at all times.</note></entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">ISO 8601 duration string or null</entry>
+            </row>
+            <row>
+              <entry colname="col1">averageIOPSize</entry>
+              <entry colname="col2">The average size in bytes of recent I/O to the volume in the last 500 milliseconds.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">burstIOPSCredit</entry>
+              <entry colname="col2">The total number of IOP credits available to the user. When volumes are not using up to the configured maxIOPS, credits are accrued. </entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">clientQueueDepth</entry>
+              <entry colname="col2">The number of outstanding read and write operations to the volume.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">clusterUtilization</entry>
+              <entry colname="col2">The amount of cluster capacity being utilized.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">float</entry>
+            </row>
+            <row>
+              <entry colname="col1">desiredMetadataHosts</entry>
+              <entry colname="col2">The metadata (slice) services being migrated to if the volume metadata is being migrated between metadata  services. A "null" value means the volume is not migrating.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">latencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete operations to the volume in the last 500 milliseconds. A "0" (zero) value means there is no I/O to the volume.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">metadataHosts</entry>
+              <entry colname="col2">The metadata (slice) services on which the volume metadata resides. Possible values:<ul id="UL_EC611043CC0043D68110080DF82B9871"><li id="LI_0CD65B8553EB4104A11DCF12A9B9293F"><option>primary</option>: The primary metadata  services hosting the volume. </li><li id="LI_48900D2410CB40FF831C2F79E763CB50"><option>liveSecondaries</option>: Secondary metadata services that are currently in a "live" state.</li><li id="LI_D7FB5193C96D4124A4BC375F6DD2B96B"><option>deadSecondaries</option>: Secondary metadata services that are in a dead state. </li></ul></entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">nonZeroBlocks</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/NONZEROBLK_DESC" />
+              </entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readBytes</entry>
+              <entry colname="col2">The total cumulative bytes read from the volume since the creation of the volume.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readBytesLastSample</entry>
+              <entry colname="col2">The total number of bytes read from the volume during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readLatencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete read operations to the volume in the last 500 milliseconds. </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readLatencyUSecTotal</entry>
+              <entry colname="col2">The total time spent performing read operations from the volume.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readOps</entry>
+              <entry colname="col2">The total read operations to the volume since the creation of the volume.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">readOpsLastSample</entry>
+              <entry colname="col2">The total number of read operations during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">samplePeriodMSec</entry>
+              <entry colname="col2">The length of the sample period, in milliseconds.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">throttle</entry>
+              <entry colname="col2">A floating value between 0 and 1 that represents how much the system is throttling clients below their maxIOPS because of re-replication of data, transient errors, and snapshots taken.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">float</entry>
+            </row>
+            <row>
+              <entry colname="col1">timestamp</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/TS_D" />
+              </entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+            <row>
+              <entry colname="col1">unalignedReads</entry>
+              <entry colname="col2">The total cumulative unaligned read operations to a volume  since the creation of the volume. </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">unalignedWrites</entry>
+              <entry colname="col2">The total cumulative unaligned write operations to a volume since the creation of the volume. </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeAccessGroups</entry>
+              <entry colname="col2">The list of IDs of volume access group(s) to which a volume belongs.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer array</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeID</entry>
+              <entry colname="col2">The ID of the volume.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeSize</entry>
+              <entry colname="col2">Total provisioned capacity in bytes.</entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeUtilization</entry>
+              <entry colname="col2">A floating point value that describes how fully the client is using the volume's input / output capabilities in comparison with the maxIOPS QoS setting for that volume. Possible values:<ul id="UL_F5C51B0CD64C4F16AAB35747EBF0E642"><li id="LI_4E3C0C2C47D648B2AB5E7F2D08A3F0AE"><option>0</option>: The client is not using the volume.</li><li id="LI_9052BD55F4244B7C8B2E5D786E977664"><option>0.01 to 0.99</option>: The client is not fully utilizing the volume's IOPS capabilities.</li><li><option>1.00</option>: The client is fully utilizing the volume up to the IOPS limit set by the maxIOPS setting.</li><li id="LI_277D793649CB4F5A8BE1363C03EB3A82"><option>&gt; 1.00</option>: The client is utilizing more than the limit set by maxIOPS. This is possible when the burstIOPS QoS setting is set higher than maxIOPS. For example, if maxIOPS is set to 1000 and burstIOPS is set to 2000, the <codeph>volumeUtilization</codeph> value would be 2.00 if the client fully utilizes the volume.</li></ul></entry>
+              <entry colname="col03">N/A</entry>
+              <entry colname="col3">float</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeBytes</entry>
+              <entry colname="col2">The total cumulative bytes written to the volume since the creation of the volume. </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeBytesLastSample</entry>
+              <entry colname="col2">The total number of bytes written to the volume during the last sample period.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeLatencyUSec</entry>
+              <entry colname="col2">The average time, in microseconds, to complete write operations to a volume in the last 500 milliseconds. </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeLatencyUSecTotal</entry>
+              <entry colname="col2">The total time spent performing write operations to the volume.</entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeOps</entry>
+              <entry colname="col2">The total cumulative write operations to the volume since the creation of the volume. </entry>
+              <entry colname="col03">Monotonically increasing</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">writeOpsLastSample</entry>
+              <entry colname="col2">The total number of write operations during the last sample period.</entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">zeroBlocks</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/ZEROBLOK_DESC" />
+              </entry>
+              <entry colname="col03">Point in time</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

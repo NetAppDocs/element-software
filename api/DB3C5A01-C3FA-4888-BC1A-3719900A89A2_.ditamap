@@ -1,0 +1,194 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-DB3C5A01-C3FA-4888-BC1A-3719900A89A2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1D9EA0D-FD71-42EB-A4F0-09D1AFBFED4D">Mini CM: Element OS API RG: System configuration API methods</title>
+  <topicref href="96861DF1-AF76-48C6-A66B-5628F8EBD757_.dita" navtitle="System configuration API methods">
+    <topicmeta>
+      <navtitle>System configuration API methods</navtitle>
+    </topicmeta>
+    <topicref href="50DAC6EC-40D4-4898-8EBF-1B42C6032FDE_.dita" navtitle="SolidFire Element API RG: DisableBmcColdReset">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DisableBmcColdReset</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="36EC3F52-60B4-472B-ACFB-421B654CE3DA_.dita" format="dita" navtitle="SolidFire Element API RG: DisableClusterSsh">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DisableClusterSsh</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="E21825D6-A26B-4101-9AC9-F64EF2786A7E_.dita" navtitle="DisableSnmp">
+      <topicmeta>
+        <navtitle>DisableSnmp</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9E6F5E99-728A-435C-9F5A-C124F5281127_.dita" navtitle="SolidFire Element API RG: EnableBmcColdReset">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: EnableBmcColdReset</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D0EA3A04-A1DD-401D-BE84-39CA757113BA_.dita" format="dita" navtitle="SolidFire Element API RG: EnableClusterSsh">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: EnableClusterSsh</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="0AA7CB37-5509-4EB1-ADBA-82D509AFDA72_.dita" navtitle="EnableSnmp">
+      <topicmeta>
+        <navtitle>EnableSnmp</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2F5E97CF-A1C6-441B-AF58-B6C514CB3ADB_.dita" navtitle="SolidFire Element API RG: GetBinAssignmentProperties">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetBinAssignmentProperties</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="53451BDC-8D36-4C6C-8C37-88EDBE75A373_.dita" format="dita" navtitle="SolidFire Element API RG: GetClusterSshInfo">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetClusterSshInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="EF1B26D7-289D-40E8-887C-37164CBB5764_.dita" format="dita" navtitle="SolidFire Element API RG: GetClusterStructure">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetClusterStructure</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3BBC2859-CF62-43B0-9004-1A3B8B01A2CE_.dita" format="dita" navtitle="SolidFire Element API RG: GetFipsReport">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetFipsReport</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="FA6E4D94-D699-4D99-8812-9ABDBE13D7FE_.dita" format="dita" navtitle="SolidFire Element API RG: GetLldpConfig">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetLldpConfig</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="AD6A0FC6-0817-461E-BF88-18C4727B32C4_.dita" format="dita" navtitle="SolidFire Element API RG: GetLldpInfo">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetLldpInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D67A9D8E-B0F9-4D10-A657-6A3333AED160_.dita" format="dita" navtitle="SolidFire Element API RG: GetNodeFipsDrivesReport">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetNodeFipsDrivesReport</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6FE2DB4E-408D-4EDD-8CA0-0B6C1B689D4E_.dita" navtitle="GetNtpInfo">
+      <topicmeta>
+        <navtitle>GetNtpInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="64A7049D-A5FA-435A-AF59-19904C88B528_.dita" navtitle="GetNvramInfo">
+      <topicmeta>
+        <navtitle>GetNvramInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3E210130-6CA4-474A-9196-8AFD0A66A714_.dita" navtitle="GetNvramInfo">
+      <topicmeta>
+        <navtitle>GetProtectionDomainLayout</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7E811420-03B7-4F45-A625-50503B44E998_.dita" navtitle="GetRemoteLoggingHosts">
+      <topicmeta>
+        <navtitle>GetRemoteLoggingHosts</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3799C030-D8AE-47DC-B796-12CA2B628932_.dita" navtitle="GetSnmpACL">
+      <topicmeta>
+        <navtitle>GetSnmpACL</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="FB75E024-4FA0-41F2-AB91-DAE95F0410CA_.dita" navtitle="GetSnmpInfo">
+      <topicmeta>
+        <navtitle>GetSnmpInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="511CEFAE-9C39-4A4B-905F-0C9680D94BFD_.dita" navtitle="GetSnmpState">
+      <topicmeta>
+        <navtitle>GetSnmpState</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D5883DCA-4490-49D1-8C66-1A8EF82C83EC_.dita" navtitle="GetSnmpTrapInfo">
+      <topicmeta>
+        <navtitle>GetSnmpTrapInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="72FAD2AA-5F41-48FB-9ADF-187A84C7C5B5_.dita" navtitle="GetSSLCertificate">
+      <topicmeta>
+        <navtitle>GetSSLCertificate</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3161C86F-0C59-4617-9937-A503D97764E3_.dita" format="dita" navtitle="SolidFire Element API RG: ListProtectionDomainLevels">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListProtectionDomainLevels</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="2968642C-D372-421F-A374-7FC8F8AA81AF_.dita" navtitle="RemoveSSLCertificate">
+      <topicmeta>
+        <navtitle>RemoveSSLCertificate</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="336B2082-78D8-4C90-AC36-1F09F70D13BB_.dita" format="dita" navtitle="SolidFire Element API RG: ResetNetworkConfig">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ResetNetworkConfig</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DCA3A98B-74ED-4ECA-B78B-95F02E525A28_.dita" format="dita" navtitle="SolidFire Element API RG: ResetSupplementalTlsCiphers">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ResetSupplementalTlsCiphers</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="93A6B147-C93E-4348-90E0-0F91A8C67422_.dita" format="dita" navtitle="SolidFire Element API RG: SetClusterStructure">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: SetClusterStructure</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B520E37E-5978-4E5B-BAA8-4513B5D741CA_.dita" format="dita" navtitle="SolidFire Element API RG: SetLldpConfig">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: SetLldpConfig</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="75A88A0E-DFB0-4E5D-B23F-2763BFC42A4E_.dita" navtitle="SetNtpInfo">
+      <topicmeta>
+        <navtitle>SetNtpInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6FDB60E9-3BAF-48E1-AFD3-9DF10A071DA4_.dita" navtitle="SetNtpInfo">
+      <topicmeta>
+        <navtitle>SetProtectionDomainLayout</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4D516CBA-861B-4BE4-8BEA-72BD6DCDB77D_.dita" navtitle="SetRemoteLoggingHosts">
+      <topicmeta>
+        <navtitle>SetRemoteLoggingHosts</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F46F9A11-DB0D-4C47-8D59-987D3102F972_.dita" navtitle="SetSnmpACL">
+      <topicmeta>
+        <navtitle>SetSnmpACL</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8380D031-CFC6-4BB5-99AA-D41BE0E445BD_.dita" navtitle="SetSnmpInfo">
+      <topicmeta>
+        <navtitle>SetSnmpInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="92D1B433-2284-45FA-8771-D45A1DD92480_.dita" navtitle="SetSnmpTrapInfo">
+      <topicmeta>
+        <navtitle>SetSnmpTrapInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="D10D13EF-76D7-4FA7-AAA4-E8B81DBB7087_.dita" navtitle="SetSSLCertificate">
+      <topicmeta>
+        <navtitle>SetSSLCertificate</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="163E7603-7BE9-43BB-B35A-9342EE2C924E_.dita" navtitle="SnmpSendTestTraps">
+      <topicmeta>
+        <navtitle>SnmpSendTestTraps</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3067E28D-C6BF-4D22-8B3D-996F5F965B1F_.dita" format="dita" navtitle="SolidFire Element API RG: TestAddressAvailability">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: TestAddressAvailability</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

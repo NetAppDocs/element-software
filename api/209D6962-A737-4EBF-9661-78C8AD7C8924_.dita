@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-209D6962-A737-4EBF-9661-78C8AD7C8924" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Cluster creation API Methods</title>
+  <shortdesc>You can use these API methods to create a storage cluster. All of these methods need to be used against the API endpoint on a single node.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>API</keyword>
+        <keyword>methods</keyword>
+        <keyword>cluster</keyword>
+        <keyword>create</keyword>
+        <keyword>creation</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

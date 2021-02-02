@@ -1,0 +1,72 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-92E486F0-0339-4FD3-85BB-8770926A0929" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">QoS value limits</title>
+  <shortdesc>You can find information about the possible minimum and maximum values for Quality of Service (QoS).</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Quality of Service (QoS)<indexterm>minimum possible values</indexterm><indexterm>maximum possible values</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <table id="TABLE_6E04E47A5357456F984350E82542F813">
+      <tgroup cols="7">
+        <colspec colname="col001" colnum="1" colwidth="1.03*" />
+        <colspec colname="col01" colnum="2" colwidth="1.16*" />
+        <colspec colnum="3" colname="col1" colwidth="1.00*" />
+        <colspec colname="col004" colnum="4" colwidth="1.21*" />
+        <colspec colname="col04" colnum="5" colwidth="1.20*" />
+        <colspec colname="col4" colnum="6" colwidth="1.45*" />
+        <colspec colnum="7" colname="col2" colwidth="1.76*" />
+        <thead>
+          <row>
+            <entry namest="col001" nameend="col1" />
+            <entry namest="col004" nameend="col2">I/O size maximum value</entry>
+          </row>
+          <row>
+            <entry colname="col001">Parameters</entry>
+            <entry colname="col01">Minimum value </entry>
+            <entry colname="col1">Default</entry>
+            <entry colname="col004">4KB</entry>
+            <entry colname="col04">8KB</entry>
+            <entry colname="col4">16KB</entry>
+            <entry colname="col2">262KB</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry colname="col001">Min IOPS</entry>
+            <entry colname="col01">50</entry>
+            <entry colname="col1">50</entry>
+            <entry colname="col004">15,000</entry>
+            <entry colname="col04">9,375*</entry>
+            <entry colname="col4">5556*</entry>
+            <entry colname="col2">385*</entry>
+          </row>
+          <row>
+            <entry colname="col001">Max IOPS</entry>
+            <entry colname="col01">100</entry>
+            <entry colname="col1">15,000</entry>
+            <entry colname="col004">200,000**</entry>
+            <entry colname="col04">125,000</entry>
+            <entry colname="col4">74,074</entry>
+            <entry colname="col2">5128</entry>
+          </row>
+          <row>
+            <entry colname="col001">Burst IOPS</entry>
+            <entry colname="col01">100</entry>
+            <entry colname="col1">15,000</entry>
+            <entry colname="col004">200,000**</entry>
+            <entry colname="col04">125,000 </entry>
+            <entry colname="col4">74,074</entry>
+            <entry colname="col2">5128</entry>
+          </row>
+          <row>
+            <entry namest="col001" nameend="col2">*These estimations are approximate.<p>**Max IOPS and Burst IOPS can be set as high as 200,000; however, this setting is allowed only to effectively uncap the performance of a volume. Real-world maximum performance of a volume is limited by cluster usage and per-node performance.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

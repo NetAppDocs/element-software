@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-DE616CE8-44AE-47FB-B721-87BA0E194806" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-60F3AE82-7169-44BF-A0CC-745193D3215C">Delete a virtual network</title>
+  <shortdesc>You can remove a virtual network object. You must add the address blocks to another virtual network before you remove a virtual network.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>virtual networks<indexterm>deleting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-2C2D2C4C-4229-4C8A-AE98-8F91084E988F">
+      <step id="STEP_50B9BA082CC34B659380B2C8D9851C8A">
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Network</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_8B964A8639254B1BB5F53AFF79D51A02">
+        <cmd>Click the Actions icon for the VLAN you want to delete.</cmd>
+      </step>
+      <step id="STEP_69EE33440D754C78BE8289AAD730EA0F">
+        <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_3BF57E9180734DB79631293114BB7F40">
+        <cmd>Confirm the message.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

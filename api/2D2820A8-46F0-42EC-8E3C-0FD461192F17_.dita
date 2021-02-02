@@ -1,0 +1,411 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-2D2820A8-46F0-42EC-8E3C-0FD461192F17" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">network (bonded interfaces)</title>
+  <shortdesc>The <apiname>network</apiname> (bonded interfaces) object contains configuration information for bonded network interfaces on a storage node. You can use the <apiname>GetConfig</apiname> and <apiname>GetNetworkConfig</apiname> methods to obtain this information for a storage node. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>network</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.55*" />
+          <colspec colnum="2" colname="col2" colwidth="3.37*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">address</entry>
+              <entry colname="col2">The IPv4 address assigned to this interface on the node.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">addressV6</entry>
+              <entry colname="col2">The IPv6 management address assigned to the Bond1G interface on the node.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-downdelay</entry>
+              <entry colname="col2">Time to wait before disabling a slave after a link failure has been detected.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-fail_over_mac</entry>
+              <entry colname="col2"> The configuration of the MAC address of the network interface.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-miimon</entry>
+              <entry colname="col2">How often the MII link state is inspected for link failures.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-mode</entry>
+              <entry colname="col2">The bonding mode. Possible values:
+<ul id="UL_5941BF9EB3044B6898C7C1E86A92B9D7"><li id="LI_1883ED8E072C43FCABD24E1D856B043F">ActivePassive (Default)</li><li id="LI_797303E43D0E4D5B9264986FA89C32E0">ALB</li><li id="LI_F75F4D73966C4209AD72428F15259C9F">LACP (Recommended)</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-primary_reselect</entry>
+              <entry colname="col2">Specifies when the primary bond slave is chosen as the active slave. Possible values:<ul id="UL_0FB4372F8803428D9D84880486D38D11"><li id="LI_0DE74AC9BD8A4895A622E28856DE2E09">Always</li><li id="LI_9B177AAFBEF44CC9BBD7DF7F1BE70D22">Better</li><li id="LI_02363E10948A47429C577E340F5BD26D">Failure</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-slaves</entry>
+              <entry colname="col2">The list of slave interfaces for the bond.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-lacp_rate</entry>
+              <entry colname="col2">When Bond Mode is LACP, the rate may change to one of the following:<ul id="UL_DECB66FD67594A658489D800287CFEE3"><li id="LI_F62EBED87AE6443D89CF17A3AABFC89D">LACP Fast (Default)</li><li id="LI_D94F6C1E5B7C45509682931D7E2148BC">LACP Slow</li></ul></entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">bond-updelay</entry>
+              <entry colname="col2">The time to wait before enabling a slave after a link is detected.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">dns-nameservers</entry>
+              <entry colname="col2">A list of addresses used for domain name services, separated by comma or space.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">dns-search</entry>
+              <entry colname="col2">A space or comma separated list of DNS search domains.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">family</entry>
+              <entry colname="col2">Address family that the interface is configured to use. Currently "inet" for IPv4 is supported. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">gateway</entry>
+              <entry colname="col2">The IPv4 router network address used to send traffic from the local network. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">gatewayV6</entry>
+              <entry colname="col2">The IPv6 router network address used to send traffic from the local Bond1G network.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">ipV6PrefixLength</entry>
+              <entry colname="col2">The subnet prefix length for static routes of type "net"  for IPv6 traffic on the Bond1G network.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">macAddress</entry>
+              <entry colname="col2"> The actual MAC address assigned to the interface and observed by the network.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">macAddressPermanent</entry>
+              <entry colname="col2"> The immutable MAC address assigned by the manufacturer to the interface.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">method</entry>
+              <entry colname="col2">                            The method used to configure the interface. Possible values:
+<ul id="UL_345E5CD302CC42789D911B313721273A"><li id="LI_C41C965A2B3B42ED90889DCF55A76270"><option>Loopback</option>: Used to define the IPv4 loopback interface.</li><li id="LI_071EF44A0EAA41CDA311E2426443F440"><option>manual</option>: Used to define interfaces that are not configured automatically.</li><li id="LI_A4F1712E73A345EBB90C7FC574E3BD08"><option>dhcp</option>: Can be used to obtain an IP address via DHCP.</li><li id="LI_E02744F831F44A25A381D4A0A1BF261C"><option>static</option>: Used to define Ethernet interfaces with statically allocated IPv4 addresses.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">mtu</entry>
+              <entry colname="col2">The largest packet size (in bytes) that the interface can transmit. Must be greater than or equal to 1500; up to 9000 is supported. </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">netmask</entry>
+              <entry colname="col2">The bitmask that specifies the subnet for the interface.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">network</entry>
+              <entry colname="col2">Indicates where the IP address range begins based on the netmask.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">routes</entry>
+              <entry colname="col2">Comma separated array of route strings to apply to the routing table.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">status</entry>
+              <entry colname="col2"> The state of the interface. Possible values:<ul id="UL_46006407B58543318C4250954DCAB1CD"><li id="LI_510BD006D40542B4955092CA6F0247F0"><option>Down</option>: The interface is inactive.</li><li id="LI_9D152370B5DB44A1BE9723F4012B87EF"><option>Up</option>: The interface is ready, but has no link.</li><li id="LI_4E548C414CDE4E848AB7FE1404C46EE6"><option>UpAndRunning</option>: The interface is ready and a link is established.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">symmetricRouteRules</entry>
+              <entry colname="col2"> The symmetric routing rules configured on the node.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">upAndRunning</entry>
+              <entry colname="col2"> Indicates if the interface is ready and has a link.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+            <row>
+              <entry colname="col1">virtualNetworkTag</entry>
+              <entry colname="col2"> The virtual network identifier of the interface (VLAN tag).</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-4171B017-9732-4104-BDB6-92009E3DB12F">
+      <title id="GUID-1ECFF9A5-E7EB-4520-9F19-3C5B67F3C94F">Member modifiability and node states </title>
+      <p>This table indicates whether or not the object parameters can be modified at each possible node state.</p>
+      <table id="TABLE_FD622AB4FFE84AE39AAA29571A20CDCB">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="col1" colwidth="1.57*" />
+          <colspec colnum="2" colname="col4" colwidth="1.15*" />
+          <colspec colname="col5" colnum="3" colwidth="1.01*" />
+          <colspec colname="col6" colnum="4" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Member name</entry>
+              <entry colname="col4">Available state</entry>
+              <entry colname="col5">Pending state</entry>
+              <entry colname="col6">Active state</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>address</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>addressV6</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-downdelay</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-fail_over_mac</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-miimon</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-mode</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-primary_reselect</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-slaves</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-lacp_rate</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>bond-updelay</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>dns-nameservers</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>dns-search</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>family</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>gateway</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>gatewayV6</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>ipV6PrefixLength</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>macAddress</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>macAddressPermanent</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>method</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>mtu</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>netmask</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>network</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>routes</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>status</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>symmetricRouteRules</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>upAndRunning</parmname>
+              </entry>
+              <entry colname="col4">Configured by the system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>virtualNetworkTag</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

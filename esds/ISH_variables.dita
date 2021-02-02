@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "file:///D|/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/topic.dtd"[
+]>
+<topic id="variables" xml:lang="en">
+  <!-- this file is used in a Netapp custiomization to store variables in and use them as conrefs -->
+  <title>Exported Variables</title>
+  <shortdesc>These are Trisoft Variables that were converted to DITA conrefs in order to be able to compare changes to exported source XML</shortdesc>
+  <body>
+    <p>
+      <ph id="PROD-SFE-SDS">
+        <tm tmtype="reg">NetApp</tm>
+        <tm tmtype="reg">SolidFire</tm> Enterprise SDS
+                                                  </ph>
+      <ph id="SFE-SDS-IG-MAINBOOKTITLE">Installation Guide</ph>
+      <ph id="SFE-SDS-IG-SUBTITLE" />
+      <ph id="SFE-SDS-IG-ECLIPSETITLE">Installing SolidFire eSDS</ph>
+      <ph id="SFE-SDS-IG-RUNNINGTITLE">SolidFire eSDS Installation Guide</ph>
+      <ph id="CMN-COVERSTAMP"></ph>
+      <ph id="CMN-PAGESTAMP" />
+      <ph id="SFE-SDS-IG-SHORTDESC">Describes how to install SolidFire eSDS on your hardware that meets NetApp's configuration requirements.</ph>
+      <keyword id="CMN-AUTHOR">NetApp Information Engineering</keyword>
+      <keyword translate="no" id="SFE-SDS-IG-BOOKPARTNO">215-15043</keyword>
+      <keyword translate="no" id="CMN-EDMARKER-NUM">_2021-01</keyword>
+      <keyword translate="yes" id="CMN-LANGMARKER">_en-us</keyword>
+      <keyword translate="no" id="CMN-EXREVMARKER">
+        <!--first edition in the month-->
+      </keyword>
+      <keyword translate="yes" id="CMN-EDMARKER-TEXT">January 2021</keyword>
+      <keyword id="SFE-SDS-IG-ECMID-PRI">Installing SolidFire eSDS</keyword>
+      <keyword id="SFE-SDS-IG-ECMID-SEC">Installing SolidFire eSDS</keyword>
+      <ph translate="no" id="CMN-DCID">sfe-122</ph>
+      <keyword id="SFE-SDS-IG-PLUGINID">com.netapp.doc.sfe-sds-ig</keyword>
+      <ph translate="no" id="CMN-PRODINFO">
+        <data name="nss-product">NetApp Element 12.2</data>
+      </ph>
+      <keyword translate="no" id="SFE-SDS-IG-LASTMOD" />
+      <ph id="SDS-SHORT">SolidFire eSDS</ph>
+      <ph id="NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>
+      <ph id="SDS-LONG">SolidFire Enterprise SDS</ph>
+    </p>
+  </body>
+  <related-links></related-links>
+</topic>

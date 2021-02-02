@@ -1,0 +1,141 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-146B70DD-8F69-4314-A584-AB52BC9B2561" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">session (iSCSI)</title>
+  <shortdesc>The <apiname>session</apiname> (iSCSI)  object contains detailed information about each volume's iSCSI session. You can retrieve iSCSI session information with the <apiname>ListISCSISessions</apiname> API method.  </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>session</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.54*" />
+          <colspec colnum="2" colname="col2" colwidth="2.57*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">accountID</entry>
+              <entry colname="col2">The account ID of the account used for CHAP authentication, if any.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">accountName</entry>
+              <entry colname="col2">The name of the account used for CHAP authentication, if any.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">createTime</entry>
+              <entry colname="col2">The time of the creation of the iSCSI session, in UTC+0 format.</entry>
+              <entry colname="col3">ISO 8601 date string</entry>
+            </row>
+            <row>
+              <entry colname="col1">driveID</entry>
+              <entry colname="col2">The driveID associated with the transport service hosting the session. </entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">driveIDs</entry>
+              <entry colname="col2">A list of the driveIDs of the drives reporting the failure. An empty list if not applicable.</entry>
+              <entry colname="col3">integer array</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiator</entry>
+              <entry colname="col2">Information about this iSCSI session's server initiator. Members:<ul id="UL_697540B4CAE0421995D92F157409866D"><li id="LI_6706F6AEE54740A3B9FCFAFAACF8C6E8"><option>alias</option>: The friendly name assigned to the initiator.</li><li id="LI_B023EC5C215648748AD18F5C27E75D6B"><option>attributes</option>: The attributes of this initiator.</li><li id="LI_04E7818CD0444BA78F9788BEF28E0929"><option>initiatorID</option>: The ID of this initiator.</li><li id="LI_5F78720E226A444191EB3A1FDC5BF0DD"><option>initiatorName</option>: The name of this initiator.</li><li id="LI_E9AE6B6893834B3C906A0C340856ECF5"><option>volumeAccessGroups</option>: A list of volume access groups associated with this initiator.</li></ul></entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiatorIP</entry>
+              <entry colname="col2">The IP address and port number of the iSCSI server initiator.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiatorName</entry>
+              <entry colname="col2">The iSCSI Qualified Name (IQN) of the iSCSI server initiator.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiatorPortName</entry>
+              <entry colname="col2">The initiatorName combined with the initiatorSessionID; identifies the initiator port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">initiatorSessionID</entry>
+              <entry colname="col2">A 48-bit ID provided by the initiator that identifies the iSCSI session as belonging to that initiator.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">msSinceLastIscsiPDU</entry>
+              <entry colname="col2">The time, in milliseconds, since the last iSCSI PDU was received for this session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">msSinceLastScsiCommand</entry>
+              <entry colname="col2">The time, in milliseconds, since the last SCSI command was received for this session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeID</entry>
+              <entry colname="col2">The nodeID associated with the transport service hosting the session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">serviceID</entry>
+              <entry colname="col2">The serviceID of the transport service hosting the session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">sessionID</entry>
+              <entry colname="col2">The iSCSI session ID.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">targetIP</entry>
+              <entry colname="col2">The IP address and port number of the iSCSI storage target.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">targetName</entry>
+              <entry colname="col2">The IQN of the iSCSI target.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">targetPortName</entry>
+              <entry colname="col2">The targetName combined with the target portal group tag; identifies the target port.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">virtualNetworkID</entry>
+              <entry colname="col2">The virtual network ID associated with the session.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeID</entry>
+              <entry colname="col2">The volumeID of the volume associated with the session, if any. </entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeInstance</entry>
+              <entry colname="col2">Identifies the volume object associated with the iSCSI session, if any.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

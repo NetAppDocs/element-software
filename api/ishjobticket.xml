@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<job-specification combinelanguages="no" comparewitholderversion="no">
+  <parameter name="FMAPID">GUID-4FDB39A2-E9EC-4BB0-95F5-8A60CB67BD2B</parameter>
+  <parameter name="FPUBINCLUDECOMMENTS"></parameter>
+  <parameter name="FPUBINCLUDEMETADATA"></parameter>
+  <parameter name="FPUBWATERMARK"></parameter>
+  <parameter name="MODIFIED-ON">02/02/2021 08:50:09</parameter>
+  <parameter name="FISHPUBREVIEWENDDATE"></parameter>
+  <parameter name="FISHPUBLNGCOMBINATION">en</parameter>
+  <parameter name="FISHOUTPUTFORMATREF">Catalyst Test</parameter>
+  <parameter name="FISHPUBSTATUS">Pending</parameter>
+  <parameter name="FISHPUBLISHER">bmegan</parameter>
+  <parameter name="FNETAPPDRAFT"></parameter>
+  <parameter name="FNETAPPSHOWDRAFTCOMMENTS"></parameter>
+  <parameter name="FISHEMAIL">bmegan@netapp.com</parameter>
+  <parameter name="outputformat">Catalyst Test</parameter>
+  <parameter name="required-resolution">Low, High, Source</parameter>
+  <parameter name="output-fileextension">zip</parameter>
+  <parameter name="export-document-type">ISHPublication</parameter>
+  <parameter name="export-document-level">lng</parameter>
+  <parameter name="export-document">GUID-4FDB39A2-E9EC-4BB0-95F5-8A60CB67BD2B</parameter>
+  <parameter name="event-identifier">PUBLISH IECMS05 20210202085009443 1672812827</parameter>
+  <parameter name="event-name">PUBLISH</parameter>
+  <parameter name="start-date">20210202085016</parameter>
+  <parameter name="publisher">bmegan</parameter>
+  <parameter name="email-address">bmegan@netapp.com</parameter>
+  <parameter name="export-report">GUID-4FDB39A2-E9EC-4BB0-95F5-8A60CB67BD2B.report.xml</parameter>
+  <parameter name="export-ishlngref">2538049</parameter>
+  <parameter name="releasecandidate">yes</parameter>
+  <parameter name="autocomplete-versions-using-language">en</parameter>
+  <parameter name="export-start-document">GUID-7E63743F-A79E-4538-B2CD-2B039D705A93</parameter>
+  <parameter name="export-resources">GUID-DA95F911-6E09-4585-84A8-285D0683A551, GUID-6EF08472-FEE0-41FF-BD9E-052F15E07103, GUID-B01AC38A-19B3-4560-A16A-9EB688C59C9E, GUID-FBCA24DE-BE41-4D71-BF99-1E3805BF3DB0, GUID-995FC0C5-D9D5-4D65-8D52-AC9DEF059811, GUID-5E03C380-AAFC-4A6E-B825-769F14457F9D</parameter>
+  <parameter name="baseline-name">Element API Reference Guide for SF Doc Center-v10-GUID-4FDB39A2-E9EC-4BB0-95F5-8A60CB67BD2B-2021/01/28 15:43:36</parameter>
+  <parameter name="export-path">C:\InfoShare\Data\Publish\Data\3j2j5pmmsqv\work\10\en</parameter>
+  <parameter name="resourcelanguage">en</parameter>
+  <parameter name="language">en</parameter>
+  <parameter name="hyperlink-separator">#</parameter>
+  <parameter name="documenttitle">Element API Reference Guide for SF Doc Center</parameter>
+</job-specification>

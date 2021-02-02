@@ -1,0 +1,106 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F552CEDF-229F-44A4-A7F3-BF2AA81AF590" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">DeleteInitiators</title>
+  <shortdesc>You can use <apiname>DeleteInitiators</apiname> to delete one or more initiators from the system (and from any associated volumes or volume access groups). </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>delete</keyword>
+        <keyword>deleting</keyword>
+        <keyword>initiator</keyword>
+        <keyword>initiators</keyword>
+        <keyword>DeleteInitiators</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_E22A2D51B5164ACDA60CAEE9094425BF">If <apiname>DeleteInitiators</apiname> fails to delete one of the initiators provided in the parameter, the system returns an error and does not delete any initiators (no partial completion is possible).</section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.03*" />
+          <colspec colnum="2" colname="col2" colwidth="2.23*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.07*" />
+          <colspec colname="col5" colnum="5" colwidth="1.31*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>initiators</parmname>
+              </entry>
+              <entry colname="col2">An array of IDs of initiators to delete.</entry>
+              <entry colname="col3">integer array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has no return values.</p>
+    </section>
+    <section id="SECTION_8E3EADACEFE046F9AE12044B1421C3EA">
+      <title id="GUID-C656D451-9A8C-43C2-8540-2BB115AC4C64">Error</title>
+      <p>This method can return the following error:</p>
+      <table id="TABLE_B069636EB91F4C838105FF6F38D58B26">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">xInitiatorDoesNotExist</entry>
+              <entry colname="col2">Returned if the initiator name you choose does not exist.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 5101,
+  "method": "DeleteInitiators",
+  "params": {
+    "initiators": [
+      145,
+      147
+    ]
+  }
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 5101,
+  "result": {}
+}
+</codeblock>
+    </section>
+    <section id="GUID-03A68E78-E413-4E0D-BB99-8A5F0B601D15">
+      <title id="GUID-883D2803-2A64-494D-87B9-09453B7264B0">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

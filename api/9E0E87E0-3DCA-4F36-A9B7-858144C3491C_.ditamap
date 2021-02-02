@@ -1,0 +1,66 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-9E0E87E0-3DCA-4F36-A9B7-858144C3491C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-AEE811F4-3BC5-4EE8-AAF4-862E7FBD018A">LNK: Element OS API RG Link Support Map for SF Doc Center</title>
+  <keydef keys="sfe-api" processing-role="resource-only" />
+  <mapref href="8780D31B-5D67-4CBD-A510-F0535CA681D6_.ditamap" navtitle="Key collection - project - SolidFire" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+  <mapref format="ditamap" href="3545CCF9-919C-47C7-8E79-D2DC324FA88A_.ditamap" navtitle="Key collection - IE standard key definitions">
+    <topicmeta>
+      <navtitle>Key collection: IE standard key definitions</navtitle>
+    </topicmeta>
+  </mapref>
+  <reltable id="RELTABLE_CF3C814E0B774AD59339DF7F3E07447D" toc="no">
+    <relheader>
+      <relcolspec linking="sourceonly" />
+      <relcolspec linking="targetonly" />
+    </relheader>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+    <relrow>
+      <relcell />
+      <relcell />
+    </relrow>
+  </reltable>
+  <mapref href="6A79FCC9-63D0-4783-B2AC-D49E0BE85287_.ditamap" navtitle="RELTABLE: API RF" format="ditamap">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </mapref>
+</map>

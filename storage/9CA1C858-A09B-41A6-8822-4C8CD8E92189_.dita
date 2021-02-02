@@ -1,0 +1,70 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-9CA1C858-A09B-41A6-8822-4C8CD8E92189" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E8E552F9-2D5B-4FFA-BCB4-9EF57EC7A91F">Create a volume snapshot</title>
+  <shortdesc>You can create a snapshot of an active volume to preserve the volume image at any point in time. You can create up to 32 snapshots for a single volume.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>volume snapshots<indexterm>creating</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-499C52A8-371A-43E6-A5AC-D5610CD44434">
+      <step id="STEP_5972A4E2E4BD4FF4915335EF65260C1A">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Volumes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_E3CFD9FE5475469990D506D5667439EA">
+        <cmd>Click the Actions icon for the volume you want to use for the snapshot.</cmd>
+      </step>
+      <step id="STEP_B09D9FCA7D704ADCA5D14B37195C06B4">
+        <cmd>In the resulting menu, select <uicontrol>Snapshot</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_EA8A23C228534DD183AC0103C6959F8B">
+        <cmd>In the <uicontrol>Create Snapshot of Volume</uicontrol> dialog box, enter the new snapshot name.</cmd>
+      </step>
+      <step id="STEP_94C7943999944DF1AFF3081BAFECFC2B" importance="optional">
+        <cmd>Select the <uicontrol>Include Snapshot in Replication When Paired</uicontrol> check box to ensure that the snapshot is captured in
+replication when the parent volume is paired.</cmd>
+      </step>
+      <step id="STEP_1823E390C29F46F8A76F1A03601F71AC">
+        <cmd>To set the retention for the snapshot, select from one of the following options:</cmd>
+        <choices id="CHOICES_BA97CD31D18B4D83B80694BFC858CD2D">
+          <choice id="CHOICE_2998CEE83FED428C8964366E15992F9F">Click <uicontrol>Keep Forever</uicontrol> to retain the snapshot on the system indefinitely.</choice>
+          <choice id="CHOICE_EC39FDBA953748D4BF3CC89266CBAB86">Click <uicontrol>Set Retention Period</uicontrol> and use the date spin boxes to choose a length of time for the system to retain the snapshot.</choice>
+        </choices>
+      </step>
+      <step id="STEP_13283C3B6D5C4813ABBA8CCBB40D5075">
+        <cmd>To take a single, immediate snapshot, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_F3F17664F9684B26A94BF773C5E22073">
+          <substep id="SUBSTEP_48E1B073D4CE45CBB7BB0C988AEA546E">
+            <cmd>Click <uicontrol>Take Snapshot Now</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_646209B5F3B24E37AC43E36FA0B2A7C5">
+            <cmd>Click<uicontrol> Create Snapshot</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="STEP_8FE33AF540434FA7B8FF5DC1961F19C1">
+        <cmd>To schedule the snapshot to run at a future time, perform the following steps:</cmd>
+        <substeps id="SUBSTEPS_DD4C6F3A9D2B42ABB94E6EB0AB1F3633">
+          <substep id="SUBSTEP_C4BAA72299D140C19274AFEBDF2F4A12">
+            <cmd>Click <uicontrol>Create Snapshot Schedule</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_7D903B8B823145E5AC4B61524419E59D">
+            <cmd>Enter a <uicontrol>New Schedule Name</uicontrol>.</cmd>
+          </substep>
+          <substep id="SUBSTEP_1229A3E40DBE435AB3513E0FF02712E6">
+            <cmd>Choose a <uicontrol>Schedule Type</uicontrol> from the list.</cmd>
+          </substep>
+          <substep id="SUBSTEP_8A42E85D457044F5BF85B8773CC7E579" importance="optional">
+            <cmd>Select the <uicontrol>Recurring Schedule</uicontrol> check box to repeat the scheduled snapshot periodically.</cmd>
+          </substep>
+          <substep id="SUBSTEP_E8F4D7BB31084ABCB3E6B9BE265F99D8">
+            <cmd>Click <uicontrol>Create Schedule</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-80F1D09F-3F44-4371-BC31-2344268E2EFD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CreateSnapMirrorEndpoint</title>
+  <shortdesc>The <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> web UI uses the <apiname>CreateSnapMirrorEndpoint</apiname> method to create a relationship with a remote SnapMirror endpoint.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SnapMirror</keyword>
+        <keyword>endpoints</keyword>
+        <keyword>endpoint</keyword>
+        <keyword>creating</keyword>
+        <keyword>create</keyword>
+        <keyword>CreateSnapMirrorEndpoint</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.65*" />
+          <colspec colnum="2" colname="col2" colwidth="2.56*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.07*" />
+          <colspec colname="col5" colnum="5" colwidth="1.11*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>managementIP</parmname>
+              </entry>
+              <entry colname="col2">The management IP address of the remote SnapMirror endpoint.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>username</parmname>
+              </entry>
+              <entry colname="col2">The management user name for the ONTAP system.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>password</parmname>
+              </entry>
+              <entry colname="col2">The management password for the ONTAP system.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="1.97*" />
+          <colspec colnum="3" colname="col3" colwidth="1.23*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorEndpoint</entry>
+              <entry colname="col2">The newly created SnapMirror endpoint.</entry>
+              <entry colname="col3">
+                <xref href="F1AE9DA5-32BE-4F9B-A506-B28DE38BA579_.dita" outputclass="nopagenum">snapMirrorEndpoint</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-0AEE3EFF-A1F6-446D-93E2-3CD3AE8F5884">
+      <title id="GUID-73B7EFA6-AAD2-42CF-A477-3069B8009CEC">New since version</title>
+      <p>10.0</p>
+    </section>
+  </refbody>
+</reference>

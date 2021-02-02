@@ -1,0 +1,862 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-973D7D67-2FD3-4C39-A7D7-14741E3BE66C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1706143-4B04-4CAA-8207-3FEF705C451D" translate="no">Key definitions [ntap-video-embed] Keys for embeddable video (limited support)</title>
+  <keydef keys="ntap-ev-affa320-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/lLuiL0js7dI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A320 Installation and setup</linktext>
+      <critdates>
+        <created date="1900-01-00" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-affa320-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=lLuiL0js7dI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A320 Installation and setup</linktext>
+      <critdates>
+        <created date="1900-01-00" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-affc190-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/y_qzKkxXWZ0?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF C190 Installation and setup</linktext>
+      <critdates>
+        <created date="2019-06-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-affc190-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=y_qzKkxXWZ0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF C190 Installation and setup</linktext>
+      <critdates>
+        <created date="2019-06-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-sm-hci-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/kerGI1ZtnZQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SnapMirror for NetApp HCI and Element Software 
+  </linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-sm-hci-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=kerGI1ZtnZQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SnapMirror for NetApp HCI and Element Software 
+  </linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/2smVHWkikXY?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Scale on Your Terms: Expanding a SolidFire Cluster</linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=2smVHWkikXY" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Scale on Your Terms: Expanding a SolidFire Cluster</linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/q9VCBRDtrnI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SolidFire Quality of Service Policies</linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-sf-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=q9VCBRDtrnI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SolidFire Quality of Service Policies</linktext>
+      <critdates>
+        <created date="2019-01-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/LGXwT6eDPQQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI demo</linktext>
+      <critdates>
+        <created date="2018-11-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=LGXwT6eDPQQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI demo</linktext>
+      <critdates>
+        <created date="2018-11-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-snapcenter-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/_lDKt-koySQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Tour through SnapCenter navigation pane options</linktext>
+      <critdates>
+        <created date="2018-06-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-snapcenter-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=_lDKt-koySQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Tour through SnapCenter navigation pane options</linktext>
+      <critdates>
+        <created date="2018-06-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-snapcenter-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/lVEBF4kV6Ag?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of the SnapCenter interface</linktext>
+      <critdates>
+        <created date="2018-06-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-snapcenter-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=lVEBF4kV6Ag" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of the SnapCenter interface</linktext>
+      <critdates>
+        <created date="2018-06-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ess-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/I0W0AjKpCO8?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SANtricity System Manager: Easy Setup and Configuration</linktext>
+      <critdates>
+        <created date="2018-05-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ess-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=I0W0AjKpCO8" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: SANtricity System Manager: Easy Setup and Configuration</linktext>
+      <critdates>
+        <created date="2018-05-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ess-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/FjFkU2z_hIo?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Key benefits of using NetApp E-Series systems versus using commodity servers for storage</linktext>
+      <critdates>
+        <created date="2018-05-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ess-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=FjFkU2z_hIo" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Key benefits of using NetApp E-Series systems versus using commodity servers for storage</linktext>
+      <critdates>
+        <created date="2018-05-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2700-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/0OlbWXBxPzQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A220 and FAS2700 Systems: Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2018-05-02" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2700-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=0OlbWXBxPzQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A220 and FAS2700 Systems: Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2018-05-02" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-affa800-01 " format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/b6Ys24AHS7A?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A800 Systems: Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2018-05-02" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-affa800-01 " format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=b6Ys24AHS7A" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: AFF A800 Systems: Installation and Setup Instructions</linktext>
+      <critdates>
+        <created date="2018-05-02" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fasgen-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/WAE0afWhj1c?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Software configuration for vSphere NAS datastores for FAS/AFF systems running ONTAP 9.2</linktext>
+      <critdates>
+        <created date="2018-01-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fasgen-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=WAE0afWhj1c" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Software configuration for vSphere NAS datastores for FAS/AFF systems running ONTAP 9.2</linktext>
+      <critdates>
+        <created date="2018-01-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas9000-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/3EbZjybtzmg?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Cabling a two-node AFF A700 or FAS9000 switchless cluster</linktext>
+      <critdates>
+        <created date="2018-01-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas9000-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=3EbZjybtzmg" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Cabling a two-node AFF A700 or FAS9000 switchless cluster</linktext>
+      <critdates>
+        <created date="2018-01-19" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/dVHlToU5giI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI vCenter Plugin Demo</linktext>
+      <critdates>
+        <created date="2017-12-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=dVHlToU5giI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI vCenter Plugin Demo</linktext>
+      <critdates>
+        <created date="2017-12-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/IRP0-2suEKQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI NetApp Deployment Engine Demo</linktext>
+      <critdates>
+        <created date="2017-12-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-hci-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=IRP0-2suEKQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: NetApp HCI NetApp Deployment Engine Demo</linktext>
+      <critdates>
+        <created date="2017-12-10" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-13" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/CNk4FB5OUOI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the RTC battery in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-13" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=CNk4FB5OUOI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the RTC battery in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-12" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/dxRuxPNPBeo?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the chassis in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-12" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=dxRuxPNPBeo" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the chassis in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-11" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/vy_6BfheXB4?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the boot media in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-11" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=vy_6BfheXB4" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the boot media in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-10-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-12" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/NUl__1OWOmA?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started: Launching and configuring Cloud Manager in Azure</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-12" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=NUl__1OWOmA" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started: Launching and configuring Cloud Manager in Azure</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-11" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/7B9YJH2myJI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started: Launching and configuring Cloud Manager in AWS</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-11" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=7B9YJH2myJI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started: Launching and configuring Cloud Manager in AWS</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-10" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/r63OUzLPJSY?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started with ONTAP Cloud and Cloud Manager in Azure</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-10" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=r63OUzLPJSY" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started with ONTAP Cloud and Cloud Manager in Azure</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-09" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/SmilV3mUvpc?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started with ONTAP Cloud and Cloud Manager in AWS</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-09" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=SmilV3mUvpc" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Getting started with ONTAP Cloud and Cloud Manager in AWS</linktext>
+      <critdates>
+        <created date="2017-10-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fasgen-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/Ziqg9HL8oYQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Hot-swapping an internal disk drive</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fasgen-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=Ziqg9HL8oYQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Hot-swapping an internal disk drive</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-10" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/fTOMwENNi9M?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Swapping out a power supply in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-10" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=fTOMwENNi9M" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Swapping out a power supply in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-06" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/bVJ92AIMyoQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the NVMEM battery in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-06" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=bVJ92AIMyoQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the NVMEM battery in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-04" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/SoMbi3to9Fk?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing DIMMs in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-04" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=SoMbi3to9Fk" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing DIMMs in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/Rc-EQT-HAxU?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the caching module in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=Rc-EQT-HAxU" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing the caching module in FAS2600 systems</linktext>
+      <critdates>
+        <created date="2017-07-24" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-11" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/s4ndNs5qJ9g?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Tiering ONTAP Cloud data to AWS S3</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-11" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=s4ndNs5qJ9g" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Tiering ONTAP Cloud data to AWS S3</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-10" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/Gcr50Sc_pro?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of ONTAP Cloud tiering</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-10" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=Gcr50Sc_pro" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of ONTAP Cloud tiering</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-08" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/9I5QToO6ZpU?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of OnCommand Cloud Manager and ONTAP Cloud</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-08" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=9I5QToO6ZpU" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Overview of OnCommand Cloud Manager and ONTAP Cloud</linktext>
+      <critdates>
+        <created date="2017-07-17" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-05" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/c2mSl1-K648?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Installing a FabricPool license 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-05" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=c2mSl1-K648" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Installing a FabricPool license 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-04" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/5tDJAkqN2nA?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Archiving volumes with FabricPool (backup + volume move) 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-04" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=5tDJAkqN2nA" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Archiving volumes with FabricPool (backup + volume move) 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/MVkkKZ754ZE?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Attaching StorageGRID Webscale as a FabricPool external capacity tier 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=MVkkKZ754ZE" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Attaching StorageGRID Webscale as a FabricPool external capacity tier 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/xlsQdZzsBxw?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Attaching Amazon S3 as a FabricPool external capacity tier 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=xlsQdZzsBxw" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Attaching Amazon S3 as a FabricPool external capacity tier 
+  </linktext>
+      <critdates>
+        <created date="2017-07-06" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/fF7G5uLxtPw?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing a controller in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-06-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-fas2600-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=fF7G5uLxtPw" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Replacing a controller in a FAS2600 system</linktext>
+      <critdates>
+        <created date="2017-06-22" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-09" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/qedaLhUtuYU?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Managing data across a hybrid and multi-cloud using ONTAP</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-09" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=qedaLhUtuYU" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Managing data across a hybrid and multi-cloud using ONTAP</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-08" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/9sq2Ub35p70?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Enabling disaster recovery to the public cloud with ONTAP Cloud</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-08" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=9sq2Ub35p70" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Enabling disaster recovery to the public cloud with ONTAP Cloud</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-07" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/Vx09C1sPG0w?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Creating an ONTAP Cloud HA volume from the Cloud Manager Volume View</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-07" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=Vx09C1sPG0w" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Creating an ONTAP Cloud HA volume from the Cloud Manager Volume View</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-07" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/3hOtLs70_xE?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Synchronizing NFS data to AWS S3 by integrating Cloud Manager with the Cloud Sync service</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-07" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=3hOtLs70_xE" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Synchronizing NFS data to AWS S3 by integrating Cloud Manager with the Cloud Sync service</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-06" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/TWwYwTv4XDk?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: What’s new in OnCommand Cloud Manager 3.2</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-06" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=TWwYwTv4XDk" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: What’s new in OnCommand Cloud Manager 3.2</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-05" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/NxAgVr0BPVM?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: What’s new in OnCommand Cloud Manager 3.1</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-05" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=NxAgVr0BPVM" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: What’s new in OnCommand Cloud Manager 3.1</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-04" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/8Zgtzex9E0c?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Using the OnCommand Cloud Manager online API documentation</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-04" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=8Zgtzex9E0c" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Using the OnCommand Cloud Manager online API documentation</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/y2RLpDVvNqw?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Using Cloud Manager APIs to create and manage ONTAP Cloud systems</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=y2RLpDVvNqw" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Using Cloud Manager APIs to create and manage ONTAP Cloud systems</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/DixAXqlocu4?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Setting up Cloud Manager for ONTAP Cloud encryption</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=DixAXqlocu4" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Setting up Cloud Manager for ONTAP Cloud encryption</linktext>
+      <critdates>
+        <created date="2017-04-18" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/f-9hP5GgE6g?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: ONTAP 9.1 cluster initialization using OnCommand System Manager</linktext>
+      <critdates>
+        <created date="2017-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-ontap-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=f-9hP5GgE6g" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: ONTAP 9.1 cluster initialization using OnCommand System Manager</linktext>
+      <critdates>
+        <created date="2017-03-29" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-06" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/RskyqPGGWyQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Upgrading ONTAP Cloud from OnCommand Cloud Manager</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-06" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=RskyqPGGWyQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Upgrading ONTAP Cloud from OnCommand Cloud Manager</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-05" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/Ih2NXVNfETQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Running Microsoft SQL Servers on ONTAP Cloud in AWS</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-05" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=Ih2NXVNfETQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Running Microsoft SQL Servers on ONTAP Cloud in AWS</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-04" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/b6MmdYvppuo?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: ONTAP Cloud HA deep dive</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-04" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=b6MmdYvppuo" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: ONTAP Cloud HA deep dive</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-03" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/wti34gXMdJQ?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying ONTAP Cloud in Microsoft Azure</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-03" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=wti34gXMdJQ" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying ONTAP Cloud in Microsoft Azure</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-02" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/5uCizBZ4f-4?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying ONTAP Cloud HA</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-02" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=5uCizBZ4f-4" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying ONTAP Cloud HA</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/quUJMs5DdzI?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Choosing a write speed for single-node ONTAP Cloud systems</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-onc-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=quUJMs5DdzI" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Choosing a write speed for single-node ONTAP Cloud systems</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-01" format="html" scope="peer" otherprops="video-embed" href="https://www.youtube.com/embed/zUVPGb4rUZ8?rel=0" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying OnCommand Cloud Manager and ONTAP Cloud in AWS</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+  <keydef keys="ntap-ev-occm-01" format="html" scope="external" otherprops="video-link" href="https://www.youtube.com/watch?v=zUVPGb4rUZ8" processing-role="resource-only">
+    <topicmeta>
+      <linktext>NetApp video: Deploying OnCommand Cloud Manager and ONTAP Cloud in AWS</linktext>
+      <critdates>
+        <created date="2017-03-27" />
+      </critdates>
+    </topicmeta>
+  </keydef>
+</map>

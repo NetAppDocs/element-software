@@ -1,0 +1,43 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-7A451147-3B71-4485-B934-63C363A8531E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9F7656ED-B1EB-4E54-AA3C-C26AAF318493">SolidFire eSDS UG: Collector Map</title>
+  <topicref href="5D9005A5-35A5-45ED-A440-5CD3F7551D0E_.dita" format="dita">
+    <topicmeta />
+  </topicref>
+  <topicref href="ECB7F7FF-A458-4127-87C6-8BEBC374F1CE_.dita" format="dita">
+    <topicmeta />
+    <topicref href="47E97C7C-ABA3-4B77-963B-C1546EFF1123_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+  </topicref>
+  <topicref href="14961F4A-42D3-4820-AC47-CB81E8474FC3_.dita" format="dita">
+    <topicmeta />
+  </topicref>
+  <topicref href="4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5_.dita" format="dita">
+    <topicmeta />
+  </topicref>
+  <topicref href="AA6E1ADE-D086-4811-9E33-3C8323F86691_.dita" format="dita">
+    <topicmeta />
+  </topicref>
+  <topicref href="DABE2E73-F51F-4DA4-AAD9-8CE737B263C4_.dita" format="dita">
+    <topicmeta />
+    <topicref href="8C1DF1C3-B600-4823-B3AD-4086CC8D635E_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="780FAE62-622A-470E-9909-079B961BF9CA_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="62096E7F-8DB3-455A-B7E8-D795BC616437_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="C4525369-82EC-43BD-B44E-9607CAFBD89A_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="E0F72AC5-B0F5-46A7-8936-386CDD3C519E_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+    <topicref href="776A1EF5-ED2F-4946-A92C-CE013CEC3991_.dita" format="dita">
+      <topicmeta />
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F219389F-595C-4686-95F5-131359931C1D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CreateInitiators</title>
+  <shortdesc>You can use <apiname>CreateInitiators</apiname> to create multiple new initiator IQNs or World Wide Port Names (WWPNs) and optionally assign them aliases and attributes. When you use <apiname>CreateInitiators</apiname> to create new initiators, you can also add them to volume access groups.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>create</keyword>
+        <keyword>creating</keyword>
+        <keyword>initiator</keyword>
+        <keyword>CreateInitiators</keyword>
+        <keyword>WWPN</keyword>
+        <keyword>IQN</keyword>
+        <keyword>initiators</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_E22A2D51B5164ACDA60CAEE9094425BF">
+      <p>If the operation fails to create one of the initiators provided in the parameter, the method returns an error and does not create any initiators (no partial completion is possible).</p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.59*" />
+          <colspec colnum="2" colname="col2" colwidth="2.62*" />
+          <colspec colnum="3" colname="col3" colwidth="1*" />
+          <colspec colnum="4" colname="col4" colwidth="1.11*" />
+          <colspec colname="col5" colnum="5" colwidth="1.23*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>initiators</parmname>
+              </entry>
+              <entry colname="col2">A list of objects containing characteristics of each new initiator. Objects:<ul id="UL_426C9EF20B0648ABB5A629AFE92DD691"><li id="LI_1D54EFC31E864D40AA787F63A68AC65D"><option>alias</option>: (Optional) The friendly name to assign to this initiator. (string)</li><li id="LI_81929FE3F20A4427AECC6BE426AFCC76"><option>attributes</option>: (Optional) A set of JSON attributes to assign to this initiator. (JSON object)</li><li importance="optional"><option>chapUsername</option>: (Optional) The unique CHAP username for this initiator. Defaults to the initiator name (IQN) if not specified during creation and <option>requireChap</option> is true. (string)</li><li importance="optional"><option>initiatorSecret</option>: (Optional) The CHAP secret used to authenticate the initiator. Defaults to a randomly generated secret if not specified during creation and <option>requireChap</option> is true. (string)</li><li id="LI_B6871ABDD0BC4DBA8B9E1025BB41A223"><option>name</option>: (Required) The name of the initiator (IQN or WWPN) to create. (string)</li><li importance="optional"><option>requireChap</option>: (Optional) True if CHAP is required during session login for this initiator.  (boolean)</li><li importance="optional"><option>targetSecret</option>: (Optional) The CHAP secret used to authenticate the target (when using mutual CHAP authentication). Defaults to a randomly generated secret if not specified during creation and <option>requireChap</option> is true. (string)</li><li importance="optional"><option>virtualNetworkIDs</option>: (Optional) The list of virtual network identifiers associated with this initiator. If you define one or more virtual networks, this initiator is only able to login to those virtual networks. If you don't define any virtual networks, this initiator can login to all networks.</li><li id="LI_321DE43BC35945DABDED8F93169C562B"><option>volumeAccessGroupID</option>: (Optional) The ID of the volume access group to which this newly created initiator will be added. (integer)</li></ul></entry>
+              <entry colname="col3">JSON object array</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_873C7F4900E844F6BC96D6171089D47D">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="2.29*" />
+          <colspec colnum="3" colname="col3" colwidth="1.65*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">initiators</entry>
+              <entry colname="col2">List of objects describing the newly created initiators.</entry>
+              <entry colname="col3">
+                <xref href="367C88D1-A57C-471F-AFF8-80ED30505CE1_.dita" outputclass="nopagenum">initiator</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_8E3EADACEFE046F9AE12044B1421C3EA">
+      <title id="GUID-C656D451-9A8C-43C2-8540-2BB115AC4C64">Error</title>
+      <p>This method can return the following error:</p>
+      <table id="TABLE_B069636EB91F4C838105FF6F38D58B26">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">xInitiatorExists</entry>
+              <entry colname="col2">Returned if the initiator name you chose already exists.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 3291,
+  "method": "CreateInitiators",
+  "params": {
+    "initiators": [
+      {
+        "name": "iqn.1993-08.org.debian:01:288170452",
+        "alias": "example1"
+      },
+      {
+        "name": "iqn.1993-08.org.debian:01:297817012",
+        "alias": "example2"
+      }
+    ]
+  }
+}
+</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "id": 3291,
+  "result": {
+    "initiators": [
+      {
+        "alias": "example1",
+        "attributes": {},
+        "initiatorID": 145,
+        "initiatorName": "iqn.1993-08.org.debian:01:288170452",
+        "volumeAccessGroups": []
+      },
+      {
+        "alias": "example2",
+        "attributes": {},
+        "initiatorID": 146,
+        "initiatorName": "iqn.1993-08.org.debian:01:297817012",
+        "volumeAccessGroups": []
+      }
+    ]
+  }
+}
+</codeblock>
+    </section>
+    <section id="GUID-CADC4A91-228F-483D-AEA0-404B2CDD3054">
+      <title id="GUID-97D432BD-9A70-4CE8-8296-16759D2A3A6B">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

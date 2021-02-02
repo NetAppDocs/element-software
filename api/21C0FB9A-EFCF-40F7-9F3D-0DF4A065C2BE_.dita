@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-21C0FB9A-EFCF-40F7-9F3D-0DF4A065C2BE" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA80FA59-1459-4A0A-85AF-4D108B0962FD">Replication API methods</title>
+  <shortdesc> Replication API methods enable you to connect two clusters for continuous data protection (CDP). When you connect two clusters, active volumes within a cluster can be continuously replicated to a second cluster to provide data recovery. By pairing volumes for replication, you can protect your data from events that might render it inaccessible. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>replication</keyword>
+        <keyword>api</keyword>
+        <keyword>methods</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

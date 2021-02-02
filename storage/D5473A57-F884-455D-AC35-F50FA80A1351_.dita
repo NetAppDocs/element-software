@@ -1,0 +1,28 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-D5473A57-F884-455D-AC35-F50FA80A1351" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0D9F07B9-C186-4090-9E45-0692B1C2E7AD">Pair clusters for replication</title>
+  <shortdesc>You must pair two clusters as a first step to using real-time replication functionality. After you pair and connect two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing continuous data protection (CDP).</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>replication<indexterm>cluster pairs</indexterm><indexterm>cluster pairing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-021EE459-7D78-4167-B36B-AA2D5881DFC5">
+      <ul id="UL_3E1386C451A54897B7D72FDC9D4DB3AB">
+        <li id="LI_5002CAA1453042C493F476B52A729AD9">You must have cluster administrator privileges to one or both clusters being paired.</li>
+        <li id="LI_481F6E59BE2C422FBD0AEC08A41AB301">All node MIPs and SIPs are routed to each other.</li>
+        <li id="LI_37669443528F4021AF8C66CDFF251608">Less than 2000 ms of round-trip latency between clusters.</li>
+        <li id="LI_8D694FF12E7F4C3ABB4A3385240F9100">Both storage clusters should have unique cluster names, MVIPs, SVIPs, and all node IP addresses. </li>
+        <li id="LI_0B7B653E0DC2416A8666DE4DA1B95714">The difference between <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software versions on the clusters is no greater than one major version. If the difference is greater, one of the clusters must be upgraded to perform data replication.</li>
+      </ul>
+      <note id="GUID-8192B5F4-15B2-4B94-96FC-E5481FF876D3">Cluster pairing requires full connectivity between nodes on the management network. Replication requires connectivity between the individual nodes on the storage cluster network.</note>
+    </prereq>
+    <context id="CONTEXT_522597B94D8240B8808DA113E47E3069">
+      <p>You can pair one cluster with up to four other clusters for replicating volumes. You can also pair clusters within the cluster group with each other.
+</p>
+    </context>
+  </taskbody>
+</task>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A3BF3960-E007-49AF-9415-8B59998E06D2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">clusterStructure</title>
+  <shortdesc>The <apiname>clusterStructure</apiname> object holds cluster configuration backup information created  by the <apiname>GetClusterStructure</apiname> method. You can use the <apiname>SetClusterStructure</apiname> method to restore this information to a storage cluster you are rebuilding.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>objects</keyword>
+        <keyword>cluster</keyword>
+        <keyword>structure</keyword>
+        <keyword>clusterStructure</keyword>
+        <keyword>object</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the combined return information from the following methods:</p>
+      <ul id="UL_0D980C2DB79D4363B073C6C7F60FC7AA">
+        <li id="LI_9C494547959F4E48A1A6649649E2BB4B">
+          <xref href="CECB8ACD-598C-4220-A63D-33ABE2606B96_.dita" outputclass="nopagenum">GetClusterInfo</xref>
+        </li>
+        <li id="LI_C35C0B5D6EB447DB9E99955739088DC9">
+          <xref href="DA5B603D-E46F-43AB-B487-2CFB1525D786_.dita" outputclass="nopagenum">ListAccounts</xref>
+        </li>
+        <li id="LI_F1F8AFFDE89148DF8239CE8E47AA0FFC">
+          <xref href="834EE87A-86B4-4C96-BC3D-3F837E0164E8_.dita" outputclass="nopagenum">ListInitiators</xref>
+        </li>
+        <li id="LI_65FCA282996144B0BDBCAD6179FAD5A5">
+          <xref href="BD2C7F9B-07CB-4001-A3A0-88394C0CF98F_.dita" outputclass="nopagenum">ListVolumes</xref> (with <parmname>includeVirtualVolumes</parmname>=<option>false</option>)</li>
+        <li id="LI_F13AF34168D44C41BA0E9AE9634573B4">
+          <xref href="E8D4159B-E617-4ADE-91F2-83A93216F023_.dita" outputclass="nopagenum">ListVolumeAccessGroups</xref>
+        </li>
+        <li id="LI_7B8C011ED7A14D0F85491F344D45C2A1">
+          <xref href="F8BD6011-D325-42A8-B06A-11C26A51754A_.dita" outputclass="nopagenum">ListStorageContainers</xref>
+        </li>
+        <li id="LI_8BEA6F6DF8264B2595BF3805429E2855">
+          <xref href="990C4CE1-7C53-473F-801E-C4CAAFFCAE60_.dita" outputclass="nopagenum">ListQoSPolicies</xref>
+        </li>
+        <li id="LI_8D74D66F9D8C411BB8D65588FE3D7EDF">
+          <xref href="FB75E024-4FA0-41F2-AB91-DAE95F0410CA_.dita" outputclass="nopagenum">GetSnmpInfo</xref>
+        </li>
+        <li id="LI_F2C40A411CDA433D90B8AD70EB7DEDCD">
+          <xref href="6FE2DB4E-408D-4EDD-8CA0-0B6C1B689D4E_.dita" outputclass="nopagenum">GetNtpInfo</xref>
+        </li>
+        <li id="LI_A71E62719F8546918ACB59D60FFC924F">
+          <xref href="4FB67EF9-FF49-476E-BA97-E70DF2F78621_.dita" outputclass="nopagenum">ListVirtualNetworks</xref>
+        </li>
+        <li id="LI_D5DCEDFB6C414493AA2CB6BB5E123F9B">
+          <xref href="9F3442E3-73E5-4042-BB9B-4EFBA071E668_.dita" outputclass="nopagenum">ListClusterAdmins</xref>
+        </li>
+        <li id="LI_A9DA85BE404C45BA9ED2CBF178D5667F">
+          <xref href="650DE835-222A-4065-8C6A-83340601A0D9_.dita" outputclass="nopagenum">ListSchedules</xref>
+        </li>
+        <li id="LI_64832467422D48BCB573D622AB03BEF1">
+          <xref href="F4339344-C3AC-46F7-9942-8129A68E6735_.dita" outputclass="nopagenum">ListSnapMirrorEndpoints</xref>
+        </li>
+        <li id="LI_132D953CDB454FE2A79B5643B4B302B6">
+          <xref href="0214EA26-1C83-4762-B261-55EBB70C5340_.dita" outputclass="nopagenum">GetFeatureStatus</xref>
+        </li>
+        <li id="LI_77661C19018F4A0B9E339439C441F5B2">
+          <xref href="F09666A3-CC76-4369-AECE-259A7ECED66D_.dita" outputclass="nopagenum">GetLdapConfiguration</xref>
+        </li>
+        <li id="LI_953FFA844ACC4D38A5616C0426B0C877">
+          <xref href="7E811420-03B7-4F45-A625-50503B44E998_.dita" outputclass="nopagenum">GetRemoteLoggingHosts</xref>
+        </li>
+        <li id="LI_E82A7053457A4216A4301FC8B9FE7813">
+          <xref href="A15A18C4-7831-4E09-9438-0F99380D34AB_.dita" outputclass="nopagenum">GetDefaultQoS</xref>
+        </li>
+        <li id="LI_44D127359D92443584A589197D2CECE5">
+          <xref href="28C166E7-C825-41C8-8513-A2AD812F155F_.dita" outputclass="nopagenum">GetVolumeAccessGroupLunAssignments</xref>
+        </li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

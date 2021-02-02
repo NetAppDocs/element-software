@@ -1,0 +1,186 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-67CCAF4E-D775-4A66-AEAB-3CCD3E6C8AAD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetNetworkInterface</title>
+  <shortdesc>You can use the <apiname>GetNetworkInterface</apiname> method to get information about a network interface on a node.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>nodes</keyword>
+        <keyword>node</keyword>
+        <keyword>network</keyword>
+        <keyword>interface</keyword>
+        <keyword>get</keyword>
+        <keyword>getting</keyword>
+        <keyword>getnetworkinterface</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_5FDA59FBD6494362B4FEAB7754574A08">
+      <title id="GUID-1D17088F-12C0-41CC-8FF3-B63A2F887D9A">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.04*" />
+          <colspec colnum="2" colname="col2" colwidth="2.45*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <colspec colnum="4" colname="col4" colwidth="1.67*" />
+          <colspec colname="col5" colnum="5" colwidth="1.55*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>interface</parmname>
+              </entry>
+              <entry colname="col2">The name of the interface to get information about for each node. Possible values:<ul id="UL_5B57B1B87D1A41B986E711583778B169"><li id="LI_62204899A4FB4A0D846E737FA6F65CCB"><option>Bond1G</option></li><li id="LI_3441F80EDD9043AAA90D4D6C03F2AA14"><option>Bond10G</option></li></ul></entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>force</parmname>
+              </entry>
+              <entry colname="col2">Set this parameter to <option>true</option> to run on all nodes in the cluster.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">false</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.00*" />
+          <colspec colnum="2" colname="col2" colwidth="4.36*" />
+          <colspec colnum="3" colname="col3" colwidth="1.77*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">nodes</entry>
+              <entry colname="col2">An array of objects describing the interface for  each storage node in the storage cluster. Each object within  the array contains the following items:<ul id="UL_81FA3CCCB9114323B49DF2530A8D9BAC"><li id="LI_AE95910305F94B9380B9BC492FEE51E9"><option>nodeID</option>: (integer) The ID of the storage node in the storage cluster the interface information applies to.</li><li id="LI_D7E6FF89582946A182B59C497BB4F944"><option>result</option>: (<xref href="3C9C6A57-FA43-4C9C-821E-FDC41FEDFAED_.dita" outputclass="nopagenum">networkInterface</xref>) Interface configuration information for this storage node.</li></ul></entry>
+              <entry colname="col3">JSON object array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+	"method": "GetNetworkInterface",
+	"params": {
+		"interface": "Bond1G",
+		"force": true
+		},
+	"id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+	"id": 1,
+	"result": {
+		"nodes": [
+			{
+				"nodeID": 1,
+				"result": {
+					"interface": {
+						"address": "10.117.64.32",
+						"addressV6": "::",
+						"broadcast": "10.117.79.255",
+						"macAddress": "90:b1:1c:42:e0:1e",
+						"mtu": 1500,
+						"name": "Bond1G",
+						"namespace": false,
+						"netmask": "255.255.240.0",
+						"status": "UpAndRunning",
+						"type": "BondMaster",
+						"virtualNetworkTag": 0
+					}
+				}
+			},
+			{
+				"nodeID": 2,
+				"result": {
+					"interface": {
+						"address": "10.117.64.35",
+						"addressV6": "::",
+						"broadcast": "10.117.79.255",
+						"macAddress": "d4:ae:52:7a:ae:23",
+						"mtu": 1500,
+						"name": "Bond1G",
+						"namespace": false,
+						"netmask": "255.255.240.0",
+						"status": "UpAndRunning",
+						"type": "BondMaster",
+						"virtualNetworkTag": 0
+					}
+				}
+			},
+			{
+				"nodeID": 3,
+				"result": {
+					"interface": {
+						"address": "10.117.64.39",
+						"addressV6": "::",
+						"broadcast": "10.117.79.255",
+						"macAddress": "c8:1f:66:f0:9d:17",
+						"mtu": 1500,
+						"name": "Bond1G",
+						"namespace": false,
+						"netmask": "255.255.240.0",
+						"status": "UpAndRunning",
+						"type": "BondMaster",
+						"virtualNetworkTag": 0
+					}
+				}
+			},
+			{
+				"nodeID": 4,
+				"result": {
+					"interface": {
+						"address": "10.117.64.107",
+						"addressV6": "::",
+						"broadcast": "10.117.79.255",
+						"macAddress": "b8:ca:3a:f5:24:f8",
+						"mtu": 1500,
+						"name": "Bond1G",
+						"namespace": false,
+						"netmask": "255.255.240.0",
+						"status": "UpAndRunning",
+						"type": "BondMaster",
+						"virtualNetworkTag": 0
+					}
+				}
+			}
+		]
+	}
+}</codeblock>
+    </section>
+    <section id="GUID-A9EBDE86-747D-459C-8D4A-30AC9142718B">
+      <title id="GUID-56B4C4DB-419E-468E-81BF-69794203337F">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

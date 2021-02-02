@@ -1,0 +1,19 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-529DF679-E933-44F5-A856-4A4F6FC662BD" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-975E38F3-00F1-42F8-AC26-79CC93AD1973">Work with the management node</title>
+  <shortdesc>You can use the management node (mNode) to upgrade system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>management node</keyword>
+        <keyword>mNode</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>For management node information, see management node documentation.</p>
+    <p>
+      <xref href="https://docs.netapp.com/us-en/hci/docs/task_mnode_work_overview.html" format="html" scope="external">Management node overview</xref>
+    </p>
+  </conbody>
+</concept>

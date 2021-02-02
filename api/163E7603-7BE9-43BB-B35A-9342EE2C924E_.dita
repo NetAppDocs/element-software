@@ -1,0 +1,73 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-163E7603-7BE9-43BB-B35A-9342EE2C924E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">SnmpSendTestTraps</title>
+  <shortdesc>
+    <apiname>SnmpSendTestTraps</apiname> enables you to test SNMP functionality for a cluster. This method instructs the cluster to send test SNMP traps to the currently configured SNMP manager.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snmp</keyword>
+        <keyword>test</keyword>
+        <keyword>send</keyword>
+        <keyword>trap</keyword>
+        <keyword>testing</keyword>
+        <keyword>sending</keyword>
+        <keyword>snmpsendtesttraps</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has no input parameters.</p>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">status</entry>
+              <entry colname="col2">Status of the test.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example:</p>
+      <codeblock xml:space="preserve">{
+	"method": "SnmpSendTestTraps",
+    "params": {},
+    "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example:</p>
+      <codeblock xml:space="preserve">{
+    "id": 1,
+    "result": {
+        "status": "complete"
+    }
+}</codeblock>
+    </section>
+    <section id="GUID-0BE3B075-D439-47B6-B50B-47F7F277227A">
+      <title id="GUID-8D6BF898-70AE-480D-B066-29A0C0EE06C9">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

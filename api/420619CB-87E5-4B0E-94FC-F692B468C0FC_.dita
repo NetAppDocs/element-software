@@ -1,0 +1,134 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-420619CB-87E5-4B0E-94FC-F692B468C0FC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CreatePublicPrivateKeyPair</title>
+  <shortdesc>You can use the <apiname>CreatePublicPrivateKeyPair</apiname> method to create public and private SSL keys. You can use these keys to generate certificate signing requests. There can only be one key pair in use for each storage cluster. Before using this method to replacing existing keys, ensure the keys are no longer in use by any providers.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>SSL keys</keyword>
+        <keyword>public and private keys</keyword>
+        <keyword>certificate signing request</keyword>
+        <keyword>creating key pair</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.49*" />
+          <colspec colnum="2" colname="col2" colwidth="2.09*" />
+          <colspec colnum="3" colname="col3" colwidth="1.26*" />
+          <colspec colnum="4" colname="col4" colwidth="1.00*" />
+          <colspec colname="col5" colnum="5" colwidth="1.25*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>commonName</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Common Name</uicontrol> field (CN).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>country</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Country</uicontrol> field (C).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>emailAddress</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Email Address</uicontrol> field (MAIL).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>locality</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Locality Name</uicontrol> field (L).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>organization</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Organization Name</uicontrol> field (O).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>organizationalUnit</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>Organizational Unit Name</uicontrol> field (OU).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>state</parmname>
+              </entry>
+              <entry colname="col2">The X.509 distinguished name <uicontrol>State</uicontrol> or <uicontrol>Province Name</uicontrol> field (ST or SP or S).</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has no return values. If there is no error, key creation is considered successful.</p>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+  "method": "CreatePublicPrivateKeyPair",
+  "params": {
+    "commonName": "Name",
+    "country": "US",
+    "emailAddress" : "email@domain.com"
+   },
+"id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "id": 1,
+   "result": 
+      {}
+}</codeblock>
+    </section>
+    <section id="GUID-F07DFE27-F972-4977-A136-AFAFFF936581">
+      <title id="GUID-BC8CF522-DA97-4EAB-B115-66947A9D807A">New since version</title>
+      <p>11.7</p>
+    </section>
+  </refbody>
+</reference>

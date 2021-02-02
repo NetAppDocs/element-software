@@ -1,0 +1,148 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-62096E7F-8DB3-455A-B7E8-D795BC616437" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-328993EE-E48C-4A5F-8D16-8BD49512BC59">Replace a drive proactively in a <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster</title>
+  <shortdesc>Perform this procedure if you want to proactively replace a metadata drive or a block drive in your <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> cluster. The Element UI <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Drives</uicontrol></menucascade> page shows the drive wear information.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>replace drive</keyword>
+        <keyword>proactive drive replacement</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-347A1A93-9063-498B-997D-5C0FA9E86BA6">
+      <ul id="GUID-C6C6B100-485A-4629-8FD0-284638D82B3C">
+        <li>From the NetApp Element software UI, ensure that your cluster is in good health and there are no warnings or cluster faults. You can access the Element UI by using the management virtual IP (MVIP) address of the primary cluster node.</li>
+        <li>Ensure that there are no active jobs running on the cluster.</li>
+        <li>Ensure that you have familiarized yourself with all the steps.</li>
+        <li>Ensure that you take necessary precautions to prevent electrostatic discharge (ESD) while handling drives. See <xref format="html" href="https://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-ssdrepl%2FGUID-E2FDD1C4-5025-4143-B7A3-5318CC8EAE79.html" scope="external">Rules for handling drives</xref>. </li>
+      </ul>
+    </prereq>
+    <steps id="GUID-E838F850-E35F-49BA-BE3F-30FA28E19B94">
+      <step>
+        <cmd>Perform the following steps in the Element UI:</cmd>
+        <substeps id="GUID-2EDA6D76-2505-44FC-AF37-FD387C1AF3FA">
+          <substep>
+            <cmd>In the Element UI, click <menucascade><uicontrol>Cluster </uicontrol><uicontrol>Drives</uicontrol><uicontrol>Active</uicontrol></menucascade>.</cmd>
+          </substep>
+          <substep>
+            <cmd>Select the drive that you want to replace.</cmd>
+          </substep>
+          <substep>
+            <cmd>Make a note of the serial number of the drive. This will help you locate the corresponding BayID in the IPMI interface of the node (HPE Integrated Lights-Out or iLO, in this case).</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <menucascade><uicontrol>Bulk Actions</uicontrol><uicontrol>Remove</uicontrol></menucascade>. After you remove the drive, the drive goes into the <uicontrol>Removing</uicontrol> state. It stays in the <uicontrol>Removing</uicontrol> state for a while, waiting for the data on the drive to be synced or redistributed to the remaining drives in the cluster. After the remove is complete, the drive moves to the <uicontrol>Available</uicontrol> state. </cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Perform the following steps to locate the drive slot of the drive that you are replacing:</cmd>
+        <substeps id="GUID-90E7F968-86B4-4A34-A6B1-142B83C44C0C">
+          <substep>
+            <cmd>Log in to the IPMI interface of the node (iLO in this case).</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>System Information</uicontrol> from the left-hand navigation and click <uicontrol>Storage</uicontrol>.</cmd>
+          </substep>
+          <substep>
+            <cmd>Match the serial number you made a note of in the previous step with what you see on the screen.</cmd>
+          </substep>
+          <substep>
+            <cmd>Look for the slot number listed against the serial number. This is the physical slot from which you must remove the drive.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Now that you have identified the drive, physically remove it as follows:</cmd>
+        <substeps id="GUID-971CFE61-379A-4EFC-8BA5-D7949E515ED6">
+          <substep>
+            <cmd>Identify the drive bay. </cmd>
+            <info>The following image shows the front of the server with the drive bay numbering shown on the left side of the image:<image href="AB356982-DAB9-4FDB-954C-C0F15F9C1FB1_Low.png" placement="break" /></info>
+          </substep>
+          <substep>
+            <cmd>Press the power button on the drive that you want to replace. The LED blinks for 5-10 seconds and stops.</cmd>
+          </substep>
+          <substep>
+            <cmd>After the LED stops blinking and the drive is powered off, remove it from the server by pressing the red button and pulling the latch.</cmd>
+            <info>
+              <note id="GUID-C7521A27-789F-46FF-B249-EA5510CB2053">Ensure that you handle drives very carefully.</note>After you physically remove the drive, the drive state changes to <uicontrol>Failed</uicontrol> in the Element UI. </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>In the Element UI, click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Drives</uicontrol><uicontrol>Failed</uicontrol></menucascade>.</cmd>
+      </step>
+      <step>
+        <cmd>Click the icon under <uicontrol>Actions</uicontrol> and select <uicontrol>Remove</uicontrol>.</cmd>
+        <info>Now you can go ahead and install the new drive in the node.</info>
+      </step>
+      <step>
+        <cmd>Make a note of the serial number of the new drive. </cmd>
+      </step>
+      <step>
+        <cmd>Insert the replacement drive by carefully pushing the drive into the bay using the latch and closing the latch. The drive powers on when inserted correctly.</cmd>
+      </step>
+      <step>
+        <cmd>Perform the following steps to verify the new drive details in iLO:</cmd>
+        <substeps id="GUID-77F26E76-BD61-4361-975B-47794DB52F63">
+          <substep>
+            <cmd>Log in to iLO.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <menucascade><uicontrol>Information</uicontrol><uicontrol>Integrated Management Log</uicontrol></menucascade>. You will see an event logged for the drive that you added.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>System Information</uicontrol> from the left-hand navigation and click <uicontrol>Storage</uicontrol>.</cmd>
+          </substep>
+          <substep>
+            <cmd>Scroll till you find information about the bay that you replaced the drive in.</cmd>
+          </substep>
+          <substep>
+            <cmd>Verify that the serial number on your screen matches the serial number of the new drive that you replaced.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Add the new drive information in the <filepath>sf_sds_config.yaml</filepath> file for the node in which you replaced the drive.</cmd>
+        <info>The <filepath>sf_sds_config.yaml </filepath>file is stored in <filepath>/opt/sf/</filepath>. This file includes all the information about the drives in the node. Every time you replace a drive, you must enter the replacement drive information in this file. For more information about this file, see <xref format="dita" href="776A1EF5-ED2F-4946-A92C-CE013CEC3991_.dita" outputclass="nopagenum" />.</info>
+        <substeps id="GUID-19BA5CC5-A3F3-42C3-B064-6D4A8B517736">
+          <substep>
+            <cmd>Establish an SSH connection to the node by using PuTTY.</cmd>
+          </substep>
+          <substep>
+            <cmd>In the PuTTY configuration window, enter node MIP in the <uicontrol>Host Name (or IP address)</uicontrol> field.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>Open</uicontrol>.</cmd>
+          </substep>
+          <substep>
+            <cmd>In the terminal window that opens, log in with your username and password.</cmd>
+          </substep>
+          <substep>
+            <cmd>Run the <cmdname># cat /opt/sf/sf_sds_config.yaml</cmdname> command to list the contents of the file.</cmd>
+          </substep>
+          <substep>
+            <cmd>Replace the entries in the <codeph>dataDevices</codeph> or <codeph>cacheDevices</codeph> lists for the drive you replaced with the new drive information. </cmd>
+          </substep>
+          <substep>
+            <cmd>Run <cmdname># systemctl start solidfire-update-drives</cmdname>.</cmd>
+            <info>You will see the bash prompt after this command runs. You must go to the Element UI after this to add the drive to the cluster. The Element UI will show an alert for a new drive that is available.</info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Click <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Drives</uicontrol><uicontrol>Available</uicontrol></menucascade>.</cmd>
+        <info>You will see the serial number of the new drive that you installed.</info>
+      </step>
+      <step>
+        <cmd>Click the icon under <uicontrol>Actions</uicontrol> and select <uicontrol>Add</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Refresh the Element UI after the block sync job completes. You will see that the alert about the drive available has cleared if you access the <uicontrol>Running Tasks</uicontrol> page from the <uicontrol>Reporting</uicontrol> tab of the Element UI.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

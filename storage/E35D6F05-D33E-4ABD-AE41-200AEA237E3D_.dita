@@ -1,0 +1,32 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-E35D6F05-D33E-4ABD-AE41-200AEA237E3D" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-4A974514-F67A-443A-84DC-C7FE6CB7F2FF">Delete a storage container</title>
+  <shortdesc>You can delete storage containers from the Element UI.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>storage containers<indexterm>deleting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq id="GUID-021EE459-7D78-4167-B36B-AA2D5881DFC5">All virtual machines have been removed from the VVol datastore.</prereq>
+    <steps id="GUID-950BBBD5-DCC2-434A-87A3-13C48B4B2A50">
+      <step id="STEP_D1D07BD8B35A4C90ADDC1964C0FA40BA">
+        <cmd>Select <menucascade><uicontrol>VVols</uicontrol><uicontrol>Storage Containers</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_424E9272334D4925BA2718C78E45011E">
+        <cmd>Click the Actions icon for the storage container you want to delete.</cmd>
+      </step>
+      <step id="STEP_C5B71BBFA7BA4F53B19FF65212E20A41">
+        <cmd>In the resulting menu, select <uicontrol>Delete</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_1AE5544D2B4842B5BE0D440F1C64E49D">
+        <cmd>Confirm the action.</cmd>
+      </step>
+      <step id="STEP_3F8E9CDA12B74856B2A167552F32ADE3">
+        <cmd>Refresh the list of storage containers in the <uicontrol>Storage Containers</uicontrol> sub-tab to confirm that the storage container has been removed.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

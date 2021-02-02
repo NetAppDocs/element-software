@@ -1,0 +1,9 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-DCFC4488-BDDE-4D07-A8DC-456ECDE3A0B7" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-8AC45288-04B6-4808-810B-CA10B7769B9C">CM: SolidFire SSD replacement flyer</title>
+  <topicref href="88FA641A-FAE6-4948-A336-42E2B1933DD1_.dita" navtitle="Replacing a failed SolidFire chassis">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+  </topicref>
+</map>

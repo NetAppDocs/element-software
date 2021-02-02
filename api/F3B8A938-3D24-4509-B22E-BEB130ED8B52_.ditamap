@@ -1,0 +1,34 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-F3B8A938-3D24-4509-B22E-BEB130ED8B52" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E7004A9A-C6FA-4F27-AF3D-138F85342919">Mini CM: Element OS API RG: LDAP API Methods</title>
+  <topicref href="71816B2D-470E-4D24-8083-87FD1AE82BEC_.dita" navtitle="LDAP API methods">
+    <topicmeta>
+      <navtitle>LDAP API Methods</navtitle>
+    </topicmeta>
+    <topicref href="06C6096F-59B1-40F3-A913-B1E94A33C82C_.dita" navtitle="AddLdapClusterAdmin">
+      <topicmeta>
+        <navtitle>AddLdapClusterAdmin</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4A66DA67-1BBD-4126-9A0B-803BDFBA25FC_.dita" navtitle="EnableLdapAuthentication">
+      <topicmeta>
+        <navtitle>EnableLdapAuthentication</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="35D251CF-0154-4F4E-A808-66D99A2C39ED_.dita" navtitle="DisableLdapAuthentication">
+      <topicmeta>
+        <navtitle>DisableLdapAuthentication</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F09666A3-CC76-4369-AECE-259A7ECED66D_.dita" navtitle="GetLdapConfiguration">
+      <topicmeta>
+        <navtitle>GetLdapConfiguration</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9C3798CB-A08E-4D7F-AF7D-C72E25F435FE_.dita" navtitle="TestLdapAuthentication">
+      <topicmeta>
+        <navtitle>TestLdapAuthentication</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

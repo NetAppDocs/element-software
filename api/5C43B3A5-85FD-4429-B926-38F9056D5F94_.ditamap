@@ -1,0 +1,44 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-5C43B3A5-85FD-4429-B926-38F9056D5F94" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-AF3DC7DC-D6EE-4092-881A-1B78BE2CDA3D">Mini CM: Element OS API RG: Drive API Methods</title>
+  <topicref href="67CEC13B-EAE8-48B3-8503-7C5BAB5E9070_.dita" navtitle="Drive API Methods">
+    <topicmeta>
+      <navtitle />
+    </topicmeta>
+    <topicref href="926326B7-0260-4996-A43E-AA7A40EFFF7F_.dita" navtitle="AddDrives">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="96818E4B-A44A-4DBF-B9A1-7DAFC60FA2ED_.dita" navtitle="GetDriveHardwareInfo">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="0F415932-AB29-4722-9E1B-55FD425957B7_.dita" navtitle="GetDriveStats">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="9C6E8F0C-FBE5-486F-ABC3-08B5E312C0F8_.dita" navtitle="ListDrives">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="34574C08-B3BD-4D25-945D-6FB9AE0C4F93_.dita" navtitle="ListDriveStats">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="46F2C407-77A4-4347-97F3-141B2E624AF0_.dita" navtitle="RemoveDrives">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+    <topicref href="5967A4CF-3C64-4330-A4C4-1A09969CBC6B_.dita" navtitle="SecureEraseDrives">
+      <topicmeta>
+        <navtitle />
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

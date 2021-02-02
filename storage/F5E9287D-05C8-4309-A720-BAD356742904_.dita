@@ -1,0 +1,21 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-F5E9287D-05C8-4309-A720-BAD356742904" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-9569328B-FF48-49CB-8376-5CD627B18591">Pair volumes using a volume ID or pairing key</title>
+  <shortdesc>The pairing process involves pairing two volumes by using either a volume ID or a pairing key. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-565FCF6F-2BC5-4D25-8324-BB57CE1B73EA">
+      <step id="STEP_A6981728A9764EA18F6071D98007334F">
+        <cmd>Pair volumes by selecting one of the following methods:</cmd>
+        <choices id="CHOICES_BA97CD31D18B4D83B80694BFC858CD2D">
+          <choice id="CHOICE_2998CEE83FED428C8964366E15992F9F">Using a volume ID: Use this method if you have cluster administrator access to both clusters on which  volumes are to be paired. This method uses the volume ID of the volume on the remote cluster to initiate a connection.</choice>
+          <choice id="CHOICE_EC39FDBA953748D4BF3CC89266CBAB86">Using a pairing Key: Use this method if you have cluster administrator access to only the source cluster. This method generates a pairing key that can be used on the remote cluster to complete the volume pair.<note id="GUID-C2F8B80C-A943-490C-BD4E-711C33163644">The volume pairing key contains an encrypted version of the volume information and might contain sensitive information. Only share this key in a secure manner.</note></choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>

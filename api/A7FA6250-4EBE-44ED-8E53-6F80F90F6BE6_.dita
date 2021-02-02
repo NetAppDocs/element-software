@@ -1,0 +1,92 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A7FA6250-4EBE-44ED-8E53-6F80F90F6BE6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListSnapMirrorNetworkInterfaces</title>
+  <shortdesc>The Element software web UI uses the <apiname>ListSnapMirrorNetworkInterfaces</apiname> method to list all available SnapMirror interfaces on a remote ONTAP system.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>snapmirror</keyword>
+        <keyword>interface</keyword>
+        <keyword>interfaces</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listsnapmirrornetworkinterfaces</keyword>
+        <keyword>ontap</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameter</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.32*" />
+          <colspec colnum="2" colname="col2" colwidth="1.56*" />
+          <colspec colnum="3" colname="col3" colwidth="1.07*" />
+          <colspec colnum="4" colname="col4" colwidth="1.06*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>snapMirrorEndpointID</parmname>
+              </entry>
+              <entry colname="col2">Return only the network interfaces associated with the specified endpoint ID. If no endpoint ID is provided, the system lists interfaces from all known  SnapMirror endpoints.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>interfaceRole</parmname>
+              </entry>
+              <entry colname="col2">List only the network interface serving the specified role.  </entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.15*" />
+          <colspec colnum="2" colname="col2" colwidth="1.00*" />
+          <colspec colnum="3" colname="col3" colwidth="1.31*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">snapMirrorNetworkInterfaces</entry>
+              <entry colname="col2">A list of the SnapMirror network interfaces available on the remote ONTAP storage system.</entry>
+              <entry colname="col3">
+                <xref href="0D3D8341-271A-449C-A72B-5745A58F55E8_.dita" outputclass="nopagenum">snapMirrornetworkInterface</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-9E807DFB-CA0E-4AD0-B85E-216C6DCEE5A7">
+      <title id="GUID-E599369D-A213-41B1-A3DA-02949F7C9F78">New since version</title>
+      <p>10.1</p>
+    </section>
+  </refbody>
+</reference>

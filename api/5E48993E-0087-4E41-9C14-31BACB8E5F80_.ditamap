@@ -1,0 +1,154 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-5E48993E-0087-4E41-9C14-31BACB8E5F80" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-579B4E3F-5B99-462F-9F88-CE559331DF7A">Mini CM: Element OS API RG: Volume snapshot methods</title>
+  <topicref href="F9EA0C9A-8AAD-4E6F-A463-5C7EAE0C5408_.dita" navtitle="SnapMirror API methods">
+    <topicmeta>
+      <navtitle>SnapMirror API methods</navtitle>
+    </topicmeta>
+    <topicref href="3AA7923B-0335-41C2-9B5F-83EDFDBE1C61_.dita" format="dita" navtitle="SolidFire Element API RG: AbortSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: AbortSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3D335648-3753-4FCC-BC02-297E379A6218_.dita" format="dita" navtitle="SolidFire Element API RG: BreakSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: BreakSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="AB4D2C4F-FD9A-4F1F-9DED-3E8811C61448_.dita" format="dita" navtitle="SolidFire Element API RG: BreakSnapMirrorVolume">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: BreakSnapMirrorVolume</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="80F1D09F-3F44-4371-BC31-2344268E2EFD_.dita" format="dita" navtitle="SolidFire Element API RG: CreateSnapMirrorEndpoint">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CreateSnapMirrorEndpoint</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9D19EC47-7FD3-4C80-A022-84A46152D636_.dita" navtitle="CreateSnapMirrorEndpoint (unmanaged)">
+      <topicmeta>
+        <navtitle>CreateSnapMirrorEndpoint (unmanaged)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7CCBAFA6-00F7-474A-89F5-9698F002A777_.dita" navtitle="CreateSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>CreateSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="528A7D59-885A-491A-9F83-222AFE8D1F93_.dita" format="dita" navtitle="SolidFire Element API RG: CreateSnapMirrorVolume">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: CreateSnapMirrorVolume</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="542F37D9-CB88-4280-BE8B-96CD93A93CD7_.dita" format="dita" navtitle="SolidFire Element API RG: DeleteSnapMirrorEndpoints">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DeleteSnapMirrorEndpoints</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="90A5A262-7288-4EF2-BA7D-8462653BCB38_.dita" format="dita" navtitle="SolidFire Element API RG: DeleteSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: DeleteSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="159006C6-CD3D-4CC1-961F-33AB3689254C_.dita" navtitle="GetOntapVersionInfo">
+      <topicmeta>
+        <navtitle>GetOntapVersionInfo</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="7622F303-132C-4BE9-BCA9-2AFCF8F3CA16_.dita" format="dita" navtitle="SolidFire Element API RG: GetSnapMirrorClusterIdentity">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: GetSnapMirrorClusterIdentity</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="9D8DC048-1FDA-42C2-AABF-BF3B9CA0A005_.dita" format="dita" navtitle="SolidFire Element API RG: InitializeSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: InitializeSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8657A67D-B153-418E-AAB3-7C8B7D999C9F_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorAggregates">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorAggregates</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="F4339344-C3AC-46F7-9942-8129A68E6735_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorEndpoints">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorEndpoints</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="602F557B-8FA0-49F4-8004-ACAA79C58762_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorLuns">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorLuns</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A7FA6250-4EBE-44ED-8E53-6F80F90F6BE6_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorNetworkInterfaces">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorNetworkInterfaces</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B7E1A5DE-477A-4C64-BF1B-6DF80A8A22B9_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorNodes">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorNodes</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B2CC509A-BD16-4B97-83B7-F5E5B5AB38F3_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorPolicies">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorPolicies</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="B98F258E-C355-4797-A0C7-1C25D1E10539_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorSchedules">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorSchedules</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DDC9AF83-8729-4003-8C0D-8E8E2F0803D6_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorRelationships">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorRelationships</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="917E885F-B29F-4D10-9359-5F0086230B3F_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorVolumes">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorVolumes</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="806B06E3-BE98-4D56-9211-56502667CACB_.dita" format="dita" navtitle="SolidFire Element API RG: ListSnapMirrorVservers">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ListSnapMirrorVservers</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="8681B9F7-6A39-43F9-8A64-8E907B98A559_.dita" format="dita" navtitle="SolidFire Element API RG: ModifySnapMirrorEndpoint">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ModifySnapMirrorEndpoint</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="71930FD1-83C6-4353-960C-F9C4DB1F8F99_.dita" navtitle="ModifySnapMirrorEndpoint (unmanaged)">
+      <topicmeta>
+        <navtitle>ModifySnapMirrorEndpoint (unmanaged)</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="806B7064-553B-41C9-88D6-DD930CA1F66E_.dita" format="dita" navtitle="SolidFire Element API RG: ModifySnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ModifySnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A5A1E981-E0A4-465A-92C3-8E644C36FF97_.dita" navtitle="UpdateSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>UpdateSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A6F94371-98CD-4B3B-BB74-A9DD7E0989DD_.dita" format="dita" navtitle="SolidFire Element API RG: QuiesceSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: QuiesceSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="3616CD82-6998-4B80-8337-D5CF831BE9EE_.dita" format="dita" navtitle="SolidFire Element API RG: ResumeSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ResumeSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="A225423A-2E50-4C05-8813-C27945844845_.dita" format="dita" navtitle="SolidFire Element API RG: ResyncSnapMirrorRelationship">
+      <topicmeta>
+        <navtitle>SolidFire Element API RG: ResyncSnapMirrorRelationship</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

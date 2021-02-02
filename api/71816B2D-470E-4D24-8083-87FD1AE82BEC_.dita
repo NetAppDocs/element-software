@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-71816B2D-470E-4D24-8083-87FD1AE82BEC" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA80FA59-1459-4A0A-85AF-4D108B0962FD">LDAP API methods</title>
+  <shortdesc> You can use the Lightweight Directory Access Protocol (LDAP) to authenticate access to  Element storage. The LDAP API methods described in this section enable you to configure LDAP access to the storage cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>ldap</keyword>
+        <keyword>api</keyword>
+        <keyword>methods</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

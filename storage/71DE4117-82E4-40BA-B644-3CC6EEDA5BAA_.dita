@@ -1,0 +1,26 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-71DE4117-82E4-40BA-B644-3CC6EEDA5BAA" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-BBC72521-1F0A-43F3-9B1C-625DD6D2C023">Storage cluster administrator account types</title>
+  <shortdesc>There are two types of administrator accounts that can exist in a storage cluster running <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>: the primary cluster administrator account and a cluster administrator account.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>user types</keyword>
+        <indexterm>cluster administrator users<indexterm>cluster admin</indexterm><indexterm>primary cluster admin</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <dl>
+      <dlentry id="GUID-578D81B8-1A13-4CDB-8CBC-AE9BD8DF67CF">
+        <dt>Primary cluster administrator account</dt>
+        <dd>This administrator account is created when the cluster is created. This account is the primary administrative account with the highest level of access to the cluster. This account is analogous to a root user in a Linux system. You can change the password for this administrator account.</dd>
+      </dlentry>
+      <dlentry id="GUID-09FB170C-725D-411B-972C-1C956980F91F">
+        <dt>Cluster administrator account</dt>
+        <dd>You can give a  cluster administrator account a limited range of administrative access to perform specific tasks within a cluster. The credentials assigned to each cluster administrator account are used to authenticate API and <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI requests within the storage system.</dd>
+      </dlentry>
+    </dl>
+    <note id="GUID-24BF4300-5B86-495A-AB27-B30D06A632C7">A local (non-LDAP) cluster administrator account is required to access active nodes in a cluster via the per-node UI.  Account credentials are not required to access a node that is not yet part of a cluster.</note>
+  </conbody>
+</concept>

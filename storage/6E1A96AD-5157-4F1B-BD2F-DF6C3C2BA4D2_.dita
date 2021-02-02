@@ -1,0 +1,30 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-6E1A96AD-5157-4F1B-BD2F-DF6C3C2BA4D2" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-95AE124E-4FBB-4CAD-B861-1D1C63B61506">Use SnapMirror replication between Element and ONTAP clusters</title>
+  <shortdesc>You can create SnapMirror relationships from  the <wintitle>Data Protection</wintitle> tab in the <ph conref="ISH_variables.dita#variables/NTAP-IBM">NetApp</ph><ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> UI. SnapMirror functionality must be enabled to see this in the user interface.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>replication</keyword>
+        <keyword>snapmirror</keyword>
+        <indexterm>SnapMirror</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-EDDD8138-3461-4AC0-97CC-9193C45C7F6E">
+      <p>IPv6 is not supported for SnapMirror replication between <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> and ONTAP clusters.</p>
+      <p>
+        <xref keyref="ntap-ev-sf-sm-hci-03" />
+      </p>
+      <p>Systems running <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph>
+                support SnapMirror functionality to copy and restore Snapshot copies with NetApp
+                ONTAP systems. The primary reason for using this technology is disaster recovery of
+                NetApp HCI to ONTAP. Endpoints include ONTAP, ONTAP Select, and Cloud Volumes ONTAP.
+                See  TR-4641 NetApp HCI Data Protection.  </p>
+      <p>
+        <xref scope="external" keyref="ntap-tr-4641" />
+      </p>
+    </context>
+  </taskbody>
+</task>

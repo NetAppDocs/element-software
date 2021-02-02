@@ -1,0 +1,121 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-F35EA971-EC17-4A30-AA08-A731C8025FD9" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">ListActiveVolumes</title>
+  <shortdesc>You can use the <apiname>ListActiveVolumes</apiname> method to get the list of active volumes currently in the system. The list of volumes is sorted in VolumeID order and can be returned in multiple parts (pages).</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>active</keyword>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>list</keyword>
+        <keyword>listing</keyword>
+        <keyword>listactivevolumes</keyword>
+        <keyword>cluster</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.21*" />
+          <colspec colnum="2" colname="col2" colwidth="1.64*" />
+          <colspec colnum="3" colname="col3" colwidth="1.10*" />
+          <colspec colnum="4" colname="col4" colwidth="1.00*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>includeVirtualVolumes</parmname>
+              </entry>
+              <entry colname="col2">Virtual volumes are included in the response, by default. To exclude virtual volumes, set to <option>false</option>.</entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>true</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>startVolumeID</parmname>
+              </entry>
+              <entry colname="col2">Starting VolumeID to return. If no volume exists with this VolumeID, the next volume by VolumeID order is used as the start of the list. To page through the list, pass the VolumeID of the last volume in the previous response + 1.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">
+                <option>0</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>limit</parmname>
+              </entry>
+              <entry colname="col2">Maximum number of volume info objects to return. 0 (zero) returns all volumes (unlimited).</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">(unlimited)</entry>
+              <entry colname="col5">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return value</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">volumes</entry>
+              <entry colname="col2">List of active volumes.</entry>
+              <entry colname="col3">
+                <xref href="2618DB75-6838-444A-905F-F9E2B8FDA803_.dita" outputclass="nopagenum">volume</xref> array</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "ListActiveVolumes",
+   "params": {
+      "startVolumeID"  : 0,
+      "limit" : 1000
+   },
+   "id" : 1
+}</codeblock>
+    </section>
+    <section id="SECTION_49D0D70656864F15A40F30CC41650421">
+      <title id="GUID-F565AF67-8AF2-4A56-9C33-4FFCB4D044C1">Response example</title>
+      <p>Due to the length of this response example, it is documented in a supplementary topic.</p>
+    </section>
+    <section id="GUID-CF81E5C3-9B04-43BC-B1FC-26AFDFBE793A">
+      <title id="GUID-5255EA28-0A33-44AA-B145-4A21E530C738">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

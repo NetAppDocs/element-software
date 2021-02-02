@@ -1,0 +1,44 @@
+﻿<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/map.dtd">
+<map id="GUID-1A9339AD-300F-4DE2-B397-BFE4A0A35BA5" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-D1D9EA0D-FD71-42EB-A4F0-09D1AFBFED4D">Mini CM: Element OS API RG: Account methods</title>
+  <topicref href="0F93E213-8C84-4CAC-A195-887CBC11D468_.dita" navtitle="Account methods">
+    <topicmeta>
+      <navtitle>Account methods</navtitle>
+    </topicmeta>
+    <topicref href="AF51738D-341F-490E-826B-57451B788DB4_.dita" navtitle="AddAccount">
+      <topicmeta>
+        <navtitle>AddAccount</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="6CB3D824-A3CA-4C4A-905D-5EBF052B0069_.dita" navtitle="GetAccountByID">
+      <topicmeta>
+        <navtitle>GetAccountByID</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="19FDDDD7-5681-4203-B338-C9214BAEEB41_.dita" navtitle="GetAccountByName">
+      <topicmeta>
+        <navtitle>GetAccountByName</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="401B156D-F073-453E-B575-76DCDE4CCDA2_.dita" navtitle="GetAccountEfficiency">
+      <topicmeta>
+        <navtitle>GetAccountEfficiency</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="DA5B603D-E46F-43AB-B487-2CFB1525D786_.dita" navtitle="ListAccounts">
+      <topicmeta>
+        <navtitle>ListAccounts</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="4249C20B-E294-49D4-B3FF-CC35E651FA33_.dita" navtitle="ModifyAccount">
+      <topicmeta>
+        <navtitle>ModifyAccount</navtitle>
+      </topicmeta>
+    </topicref>
+    <topicref href="26CB1C37-01CE-4539-8047-04F14B4656DA_.dita" navtitle="RemoveAccount">
+      <topicmeta>
+        <navtitle>RemoveAccount</navtitle>
+      </topicmeta>
+    </topicref>
+  </topicref>
+</map>

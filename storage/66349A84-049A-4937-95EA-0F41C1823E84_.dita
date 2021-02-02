@@ -1,0 +1,14 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-66349A84-049A-4937-95EA-0F41C1823E84" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-7B0AC4F6-CB21-47D3-B044-E89C80543EBE">Management services for SolidFire all-flash storage</title>
+  <shortdesc>Management services provide central and extended management functionality for SolidFire all-flash storage. These services include Active IQ system telemetry, logging, and service updates, as well as the QoSSIOC service for the Element Plug-in for vCenter.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>management services</keyword>
+        <indexterm>management services</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody />
+</concept>

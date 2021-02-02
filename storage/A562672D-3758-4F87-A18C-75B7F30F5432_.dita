@@ -1,0 +1,63 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-A562672D-3758-4F87-A18C-75B7F30F5432" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">Volume pairing warnings</title>
+  <shortdesc>The<wintitle> Volume Pairs</wintitle> page on the <wintitle>Data Protection</wintitle> tab provides these messages after you pair volumes. These messages can display on both source and target ends of the pair  (unless otherwise indicated) in the <wintitle>Replicating Volumes</wintitle> list view.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>replication<indexterm>warnings during volume pairing</indexterm></indexterm>
+        <indexterm>volume pairs<indexterm>warnings during volume pairing</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="SECTION_28CF1BCF7A014B449EB4E14A01A70EF0">
+      <dl>
+        <dlentry id="GUID-BA23D6C1-A1C8-42AA-A0B7-B08784915CBD">
+          <dt>PausedClusterFull</dt>
+          <dd>Because the target cluster is full, source replication and bulk data transfer cannot proceed.  The message displays on the source end of the pair only.</dd>
+        </dlentry>
+        <dlentry id="GUID-C0DD1F0A-897B-49AD-AE54-0D963630E73F">
+          <dt>PausedExceededMaxSnapshotCount</dt>
+          <dd>The target volume already has the maximum number of snapshots and cannot replicate additional snapshots.</dd>
+        </dlentry>
+        <dlentry id="GUID-419FA09C-004F-40CE-832A-9FA1A0C031CF">
+          <dt>PausedManual</dt>
+          <dd>Local volume has been manually paused.  It must be unpaused before replication resumes.</dd>
+        </dlentry>
+        <dlentry id="GUID-F1B9BE16-10D1-4EA7-ACD4-A5B73B0C2D70">
+          <dt>PausedManualRemote</dt>
+          <dd>Remote volume is in manual paused mode.  Manual intervention required to unpause the remote volume before replication resumes.</dd>
+        </dlentry>
+        <dlentry id="GUID-329F6C67-0883-46DD-86CB-2B6EFB232A81">
+          <dt>PausedMisconfigured</dt>
+          <dd>Waiting for an active source and target. Manual intervention required to resume replication.</dd>
+        </dlentry>
+        <dlentry id="GUID-E7289F8F-0715-49C2-BC3D-785B4CCE7D4C">
+          <dt>PausedQoS</dt>
+          <dd>Target QoS could not sustain incoming IO.  Replication auto-resumes. The message displays on the source end of the pair only.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-6DBDEF38-76C9-4ED6-A503-B5F0980EF12E">
+          <dt>PausedSlowLink</dt>
+          <dd>Slow link detected and stopped replication.  Replication auto-resumes. The message displays on the source end of the pair only.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-8A63E42C-439F-45AE-B3B8-B19E0B18545B">
+          <dt>PausedVolumeSizeMismatch </dt>
+          <dd>Target volume is not the same size as the source volume. </dd>
+        </dlentry>
+        <dlentry id="GUID-C7CC1102-2B44-436D-98AB-B6D5E4BCFDE0">
+          <dt>PausedXCopy</dt>
+          <dd>A SCSI XCOPY command is being issued to a source volume. The command must complete before replication can resume. The message displays on the source end of the pair only.
+</dd>
+        </dlentry>
+        <dlentry id="GUID-3A6EEA7E-C574-4684-A239-20B61A9337F1">
+          <dt>StoppedMisconfigured</dt>
+          <dd>A permanent configuration error has been detected.  The remote volume has been purged or unpaired.  No corrective action is possible; a new pairing must be established.
+</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

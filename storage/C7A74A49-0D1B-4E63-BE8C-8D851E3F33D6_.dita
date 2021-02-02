@@ -1,0 +1,20 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-C7A74A49-0D1B-4E63-BE8C-8D851E3F33D6" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B0E17E8A-2917-4C8E-9E7D-E62683135F75">Validate volume replication</title>
+  <shortdesc>After a volume is replicated, you should ensure that the source and target volumes are active. When in an active state, volumes are paired, data is being sent from the source to the target volume, and the data is in sync. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-80932B18-9169-4887-8BBB-8D1BEEDE2F05">
+      <step id="STEP_A45F26FF7BC74F00953F4F8CE3C5445E">
+        <cmd>From both clusters, select <menucascade><uicontrol>Data Protection</uicontrol><uicontrol>Volume Pairs</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_8B26D6DB7B1C4FB6A0B324685BA117BC">
+        <cmd>Verify that the volume status is <option>Active</option>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,18 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-776A1EF5-ED2F-4946-A92C-CE013CEC3991" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B82E720D-40D4-4B08-A10C-FC1A3AE0745F">Contents of the <filepath>sf_sds_config.yaml</filepath> file</title>
+  <shortdesc>Every node has a <filepath>sf_sds_config.yaml</filepath> file, which includes the list of hardware that you specify to be consumed by the <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> services. After you replace a drive, you must add the replacement drive information in this file for the node you replaced the drive from. This file is stored in <filepath>/opt/sf/</filepath>. This file includes all the information about the drives in the node. You must enter the details of the new drive in this file every time you add a new drive. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>solidfire esds</keyword>
+        <keyword>hardware components</keyword>
+        <keyword>configuration file</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-C0A17678-4498-4AFA-A43B-97E59954F8FF">Here are the <i>required</i> contents of the file:<simpletable frame="all" relcolwidth="1* 1* 1* 1*"><sthead><stentry>Key</stentry><stentry>Default</stentry><stentry>Type</stentry><stentry>Description</stentry></sthead><strow><stentry>schemaVersion</stentry><stentry>"2.0"</stentry><stentry>String</stentry><stentry><p>The schema version number for the file.</p></stentry></strow><strow><stentry>network</stentry><stentry>N/A</stentry><stentry>List</stentry><stentry><p>Allowed values: managementInterface,storageInterface</p></stentry></strow><strow><stentry>managementInterface</stentry><stentry>"team0"</stentry><stentry>String</stentry><stentry>The name of the pre-configured, redundant, host OS network interface to use for management and cluster management traffic.</stentry></strow><strow><stentry>storageInterface</stentry><stentry>"team1"</stentry><stentry>String</stentry><stentry>The name of the pre-configured, redundant, host OS network interface to use for storage network traffic (iSCSI traffic).</stentry></strow><strow><stentry>dataDrives</stentry><stentry>N/A</stentry><stentry>List</stentry><stentry>The list of host OS paths to physical storage devices being used by <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>. You can specify this as complete paths to the block or NVME devices.<p>The following are supported complete path examples: <filepath>/dev/disk/by-id/wwn-xxxx-xxxx-EXAMPLE</filepath>, <filepath>/dev/disk/by-uuid/nvme-xxxx-xxxxx-EXAMPLE</filepath>, and <filepath>/dev/sda1</filepath></p></stentry></strow><strow><stentry>cacheDevices</stentry><stentry>N/A</stentry><stentry>List</stentry><stentry>The host OS path to the physical device being used as the cache device by <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>. You must specify it as a list entry.<p>The following is an example of a supported complete path: <filepath>/dev/disk/by-id/nvme-nvme.8086-XXXXXXX-XXXXX-XXXXXX-EXAMPLE</filepath></p></stentry></strow></simpletable></section>
+  </refbody>
+</reference>

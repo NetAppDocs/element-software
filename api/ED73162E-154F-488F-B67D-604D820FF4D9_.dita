@@ -1,0 +1,136 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-ED73162E-154F-488F-B67D-604D820FF4D9" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">network (local interfaces)</title>
+  <shortdesc>The <apiname>network</apiname> (local interfaces) object contains configuration information for local network interfaces, such as the loopback interface, on a storage node. You can use the <apiname>GetConfig</apiname> and <apiname>GetNetworkConfig</apiname> methods to obtain this information for a storage node.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>objects</keyword>
+        <keyword>network</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.66*" />
+          <colspec colnum="2" colname="col2" colwidth="3.32*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">family</entry>
+              <entry colname="col2">Address family that the interface is configured to use. Currently "inet" for IPv4 is supported.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">macAddress</entry>
+              <entry colname="col2"> The actual MAC address assigned to the interface and observed by the network.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">macAddressPermanent</entry>
+              <entry colname="col2"> The immutable MAC address assigned by the manufacturer to the interface.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">method</entry>
+              <entry colname="col2">The method used to configure the interface. Possible values:<ul id="UL_8CE09FE901AB4251BDB76241B5C8919B"><li id="LI_1551DD8452A142D6987AFFDC301EFBD9"><option>loopback</option>:  Used to define the IPv4 loopback interface.</li><li id="LI_6B1CF2AF018444A8BE6DC0E49254FE70"><option>manual</option>: Used to define interfaces that are not configured automatically.</li><li id="LI_DFF98FEB290A4C479168821102D32007"><option>dhcp</option>: Can be used to obtain an IP address via DHCP.</li><li id="LI_E5AFA72248064780A6D40E2F10B1A5F4"><option>static</option>: Used to define Ethernet interfaces with statically allocated IPv4 addresses.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">status</entry>
+              <entry colname="col2">The state of the interface. Possible values:<ul id="UL_1C7E83FFE3A84CB3AA926C8D15251C01"><li id="LI_E1531F489A6E4D119DB9CE8F0CD99CEC"><option>Down</option>: The interface is inactive.</li><li id="LI_151E0048328E472FAEA49FA98331D612"><option>Up</option>: The interface is ready, but has no link.</li><li id="LI_6B3216B63A754684A02155509D9A5059"><option>UpAndRunning</option>: The interface is ready and a link is established.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">upAndRunning</entry>
+              <entry colname="col2">Indicates if the interface is ready and has a link.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-4171B017-9732-4104-BDB6-92009E3DB12F">
+      <title id="GUID-1ECFF9A5-E7EB-4520-9F19-3C5B67F3C94F">Member modifiability and node states </title>
+      <p>This table indicates whether or not the object parameters can be modified at each possible node state.</p>
+      <table id="TABLE_FD622AB4FFE84AE39AAA29571A20CDCB">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="col1" colwidth="1.57*" />
+          <colspec colnum="2" colname="col4" colwidth="1.15*" />
+          <colspec colname="col5" colnum="3" colwidth="1.01*" />
+          <colspec colname="col6" colnum="4" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Parameter name</entry>
+              <entry colname="col4">Available state</entry>
+              <entry colname="col5">Pending state</entry>
+              <entry colname="col6">Active state</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>family</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>macAddress</parmname>
+              </entry>
+              <entry colname="col4">Configured by system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>macAddressPermanent</parmname>
+              </entry>
+              <entry colname="col4">Configured by system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>method</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>status</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>upAndRunning</parmname>
+              </entry>
+              <entry colname="col4">Configured by system</entry>
+              <entry colname="col5">N/A</entry>
+              <entry colname="col6">N/A</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,15 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-3684189D-28A5-4B41-ABAB-B3B83B7A8E96" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">GetRawStats</title>
+  <shortdesc>NetApp engineering uses the <apiname>GetRawStats</apiname> API method to test new features. The data returned from <apiname>GetRawStats</apiname> is not documented, changes frequently, and is not guaranteed to be accurate.  You should not use <apiname>GetRawStats</apiname> for collecting performance data or any other management integration with a  storage cluster running <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software. </shortdesc>
+  <prolog>
+    <metadata />
+  </prolog>
+  <refbody>
+    <section id="SECTION_066AE2D024094516B6ACC9EBF9446696">Use the following supported API methods to retrieve statistical information:<ul id="UL_2EBB81163F7B450CB1DFCE5DABD420F3"><li id="LI_D850DB31A58B4490BFE3AC9A1E5DB4CE"><xref href="419A284E-3DF5-4C20-9F49-FFC18969AF75_.dita" outputclass="nopagenum">GetVolumeStats</xref></li><li id="LI_488A2C09BB2341718A2AC65A09FA7AFA"><xref href="63BEAEDE-74F7-421E-9360-08F166A603F4_.dita" outputclass="nopagenum">GetClusterStats</xref></li><li id="LI_1FAB35BDA6CD47A990DDAA3D57FC3C53"><xref href="546B06AC-3767-453F-A0D2-626F82744E3B_.dita" outputclass="nopagenum">GetNodeStats</xref></li><li id="LI_F98A8F83390A4B10B8E9CC2595474E35"><xref href="0F415932-AB29-4722-9E1B-55FD425957B7_.dita" outputclass="nopagenum">GetDriveStats</xref></li></ul></section>
+    <section id="GUID-76EB1780-F07B-4CB5-BCEE-6C32D86BE7E1">
+      <title id="GUID-93027084-47ED-4A06-9CE5-681339ECB627">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

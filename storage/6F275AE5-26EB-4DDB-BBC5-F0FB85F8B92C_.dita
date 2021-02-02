@@ -1,0 +1,67 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-6F275AE5-26EB-4DDB-BBC5-F0FB85F8B92C" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-0BB523BC-865E-4E4D-B5A4-AAF6ED6131BE">Add a node to a cluster</title>
+  <shortdesc>You can add nodes to a cluster when more storage is needed or after cluster creation. Nodes require initial configuration when they are first powered on. After the node is configured, it appears in the list of pending nodes and you can add it to a cluster. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>nodes<indexterm>adding to a cluster</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-17A5693F-ECE9-44FF-BF75-D75842ED6D13">
+      <p>The software version on each node in a cluster must be compatible. When you add a
+                node to a cluster, the cluster installs the cluster version of <ph conref="ISH_variables.dita#variables/NTAP-ELEMENT-SOFTWARE">NetApp Element software</ph> on the new node as
+                needed.</p>
+      <p>You can add nodes of smaller or larger capacities to an existing cluster. You can add larger node capacities to a cluster to allow for capacity growth. Larger nodes added to a cluster with smaller nodes must be added in pairs. This allows for sufficient space for Double Helix to move the data should one of the larger nodes fail. You can add smaller node capacities to a larger node cluster to improve performance.</p>
+      <p>
+        <note id="GUID-4F3E8877-1EAE-4FFD-AAA0-C3165D405C49">If a newly added node accounts for more than 50 percent of the total cluster capacity, some of the capacity of this node is made unusable ("stranded"), so that it complies with the capacity rule. This remains the case until more storage is added. If a very large node is added that also disobeys the capacity rule, the previously stranded node will no longer be stranded, while the newly added node becomes stranded. Capacity should always be added in pairs to avoid this happening. When a node becomes stranded, the strandedCapacity cluster fault is thrown.</note>
+      </p>
+      <p>
+        <xref keyref="ntap-ev-sf-02" />
+      </p>
+      <p>You can add nodes to <ph conref="ISH_variables.dita#variables/SDS-LONG">SolidFire Enterprise SDS</ph> (<ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph>) clusters or to NetApp HCI appliances. </p>
+      <p>
+        <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> nodes are denoted with a Node type prefix
+                of “SFc”, for example, “SFc100.” </p>
+    </context>
+    <steps id="GUID-EA375705-B485-4E87-B142-5A5424B46295">
+      <step id="STEP_A3BCE6DB25694FB8BB0B8B2DF411B9C3">
+        <cmd>Select <menucascade><uicontrol>Cluster</uicontrol><uicontrol>Nodes</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_10D9561B2B3F482495E3970046A783FA">
+        <cmd>Click <uicontrol>Pending</uicontrol> to view the list of pending nodes.</cmd>
+        <info>
+          <p>When the process for adding nodes (both <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> or non <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> nodes) is
+                        complete, they appear in the Active nodes list. Until then, pending nodes
+                        appear in the Pending Active list. </p>
+          <p>For nodes that are not <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> nodes,
+                        SolidFire installs the   <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software
+                        version of the cluster on the pending nodes when you add them to a cluster.
+                        This might take a few minutes. </p>
+        </info>
+      </step>
+      <step id="STEP_F2D80BADAEC34BA68B6A20397BED9BF2">
+        <cmd>Do one of the following:</cmd>
+        <choices id="CHOICES_8E5B5057899F4CECB70E453B4BE9131A">
+          <choice id="CHOICE_0C8D58B8B7AD4B369906CC6AF9B3F398">To add individual nodes, click  the <uicontrol>Actions</uicontrol> icon for the node you want to add.</choice>
+          <choice id="CHOICE_77E636751640411DA65FAC7F954E064E">To add multiple nodes, select the check box of the nodes to add, and then <uicontrol>Bulk Actions</uicontrol>.</choice>
+        </choices>
+        <info>
+          <note id="GUID-20EDA032-04D6-4822-B517-98B673CFE1E4">If the node you are adding has a different
+                        version of <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software than the version
+                        running on the cluster, the cluster asynchronously updates the node to the
+                        version of <ph conref="ISH_variables.dita#variables/ELEMENT-SHORT">Element</ph> software running on the
+                        cluster master. After the node is updated, it automatically adds itself to
+                        the cluster. During this asynchronous process, the node will be in a
+                        pendingActive state.</note>
+        </info>
+      </step>
+      <step id="STEP_BA1128FD550242A2BB2481E222AF4E3D">
+        <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+        <info>The node appears in the list of active nodes.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/concept.dtd">
+<concept id="GUID-0F93E213-8C84-4CAC-A195-887CBC11D468" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-E6053DF9-6A05-4F24-9846-290A367E4928">Account API methods</title>
+  <shortdesc>Account methods enable you to add, remove, view, and modify account and security information. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>account</keyword>
+        <keyword>method</keyword>
+        <keyword>methods</keyword>
+        <keyword>API</keyword>
+        <keyword>managing</keyword>
+        <keyword>manage</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+</concept>

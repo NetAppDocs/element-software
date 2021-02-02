@@ -1,0 +1,112 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-C132C173-0D9A-4FDC-A006-69F73B807604" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-CE99A06A-5D13-47F0-8F84-7B468D094EAC">ListAuthSessionsByClusterAdmin</title>
+  <shortdesc>You can use the <apiname>ListAuthSessionsByClusterAdmin</apiname> method to list all auth sessions associated with the specified <codeph>ClusterAdminID</codeph>. If the specified ClusterAdminID maps to a group of users, all auth sessions for all members of that group will be listed.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cluster admin</keyword>
+        <keyword>sessions</keyword>
+        <keyword>auth sessions</keyword>
+        <keyword>list</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameter:</p>
+      <table id="TABLE_8CFB1A7A8CAB40789B59BEAEC1A46AB2">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="1.59*" />
+          <colspec colnum="2" colname="col2" colwidth="2.25*" />
+          <colspec colnum="3" colname="col3" colwidth="1.17*" />
+          <colspec colnum="4" colname="col4" colwidth="1.21*" />
+          <colspec colname="col5" colnum="5" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>clusterAdminID</parmname>
+              </entry>
+              <entry colname="col2">Unique identifier for the cluster admin.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return value:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">sessions</entry>
+              <entry colname="col2">List of session information for the auth sessions.</entry>
+              <entry colname="col3">
+                <xref href="3AD1993C-F735-49BD-9CA1-795611E4EB81_.dita#GUID-3AD1993C-F735-49BD-9CA1-795611E4EB81/GUID-FF0CE38C-8F99-4F23-8A6F-F6EA4487E808" format="dita" outputclass="nopagenum">authSessionInfo</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+    "method": "ListAuthSessionsByClusterAdmin",
+    "clusterAdminID": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+"sessions": [
+      {
+        "accessGroupList": [
+          "administrator"
+        ],
+        "authMethod": "Cluster",
+        "clusterAdminIDs": [
+          1
+        ],
+        "finalTimeout": "2020-03-14T19:21:24Z",
+        "idpConfigVersion": 0,
+        "lastAccessTimeout": "2020-03-11T19:51:24Z",
+        "sessionCreationTime": "2020-03-11T19:21:24Z",
+        "sessionID": "b12bfc64-f233-44df-8b9f-6fb6c011abf7",
+        "username": "admin"
+      }
+    ]
+}</codeblock>
+    </section>
+    <section id="GUID-07166D22-7203-490D-B1A4-4EF6B96E6125">
+      <title id="GUID-0C4C984A-4CC6-47EC-B3DC-713996C8705C">New since version</title>
+      <p>12.0</p>
+    </section>
+  </refbody>
+</reference>

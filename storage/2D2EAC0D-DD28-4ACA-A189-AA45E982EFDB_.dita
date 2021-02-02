@@ -1,0 +1,15 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-2D2EAC0D-DD28-4ACA-A189-AA45E982EFDB" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-C0DA44AE-8487-47BF-B1A2-E78ED43B1FB0">Work with volumes</title>
+  <shortdesc>The SolidFire system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre
+Channel clients. From the <wintitle>Volumes</wintitle> page on the <wintitle>Management</wintitle> tab, you can create, modify, clone, and delete volumes on a node. You can also
+view statistics about volume bandwidth and I/O usage.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>cluster data management<indexterm>overview of functions</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody />
+</task>

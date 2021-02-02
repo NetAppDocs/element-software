@@ -1,0 +1,223 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-EE62880B-E120-4B13-AECE-6F01701D84A3" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-5E022C2A-2D04-4FC4-B9E2-A959D997F7C7">cluster</title>
+  <shortdesc>The <apiname>cluster</apiname> object contains information that the node uses to communicate with the cluster. You can retrieve this information with the <apiname>GetClusterConfig</apiname> API method.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>objects</keyword>
+        <keyword>object</keyword>
+        <keyword>cluster</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-D398EDB1-6B3B-41A0-B7F5-449D9C7F2CE4">
+      <title id="GUID-1C0BF13D-6714-4D08-BC60-C944711057FF">Object members</title>
+      <p>This object contains the following members:</p>
+      <table id="TABLE_25FB63445EEE4A52A7C40168773EF621">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1.66*" />
+          <colspec colnum="2" colname="col2" colwidth="3.32*" />
+          <colspec colnum="3" colname="col3" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">cipi</entry>
+              <entry colname="col2">Network interface used for cluster communication.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">cluster</entry>
+              <entry colname="col2">Unique cluster name.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">encryptionCapable</entry>
+              <entry colname="col2">Indicates whether the node supports drive encryption.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+            <row>
+              <entry colname="col1">ensemble</entry>
+              <entry colname="col2">The nodes that are participating in the cluster.</entry>
+              <entry colname="col3">string array</entry>
+            </row>
+            <row>
+              <entry colname="col1">fipsDriveConfiguration</entry>
+              <entry colname="col2">Indicates whether the node supports FIPS 140-2 certified drives.</entry>
+              <entry colname="col3">boolean</entry>
+            </row>
+            <row>
+              <entry colname="col1">mipi</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/MIPI_DESC" />
+              </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">name</entry>
+              <entry colname="col2">The cluster name.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">nodeID</entry>
+              <entry colname="col2">The node ID of the node in the cluster.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">pendingNodeID</entry>
+              <entry colname="col2">The ID of the pending node in the cluster.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">role</entry>
+              <entry colname="col2">Identifies the role of the node.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">sipi</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/SIPI_DESC" />
+              </entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">state</entry>
+              <entry colname="col2">The current state of the node. Possible values:<ul id="UL_622ACD280C004F1C8BFB6C85CEA47319"><li id="LI_C1EDA8FF6F33459784502A450584A1E3"><option>Available</option>: The node has not been configured with a cluster name.</li><li id="LI_E47D861082774AA7A80F0554C51556BE"><option>Pending</option>: The node is pending for a specific named cluster and can be added.</li><li id="LI_D53DCAF3A5E5463A87CDDB1D817836BD"><option>Active</option>: The node is an active member of a cluster and cannot be added to another cluster.</li><li id="LI_5226C128691B40F5961F65E1B352E710"><option>PendingActive</option>: The node is currently being returned to the factory software image, and is not yet an active member of a cluster. When complete, it will transition to the <option>Active</option> state.</li></ul></entry>
+              <entry colname="col3">string</entry>
+            </row>
+            <row>
+              <entry colname="col1">version</entry>
+              <entry colname="col2">The version of  software running on the node.</entry>
+              <entry colname="col3">string</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="GUID-4171B017-9732-4104-BDB6-92009E3DB12F">
+      <title id="GUID-1ECFF9A5-E7EB-4520-9F19-3C5B67F3C94F">Member modifiability and node states </title>
+      <p>This table indicates whether or not the object parameters can be modified at each possible node state.</p>
+      <table id="TABLE_FD622AB4FFE84AE39AAA29571A20CDCB">
+        <tgroup cols="4">
+          <colspec colnum="1" colname="col1" colwidth="1.57*" />
+          <colspec colnum="2" colname="col4" colwidth="1.15*" />
+          <colspec colname="col5" colnum="3" colwidth="1.01*" />
+          <colspec colname="col6" colnum="4" colwidth="1.00*" />
+          <thead>
+            <row>
+              <entry colname="col1">Parameter name</entry>
+              <entry colname="col4">Available state</entry>
+              <entry colname="col5">Pending state</entry>
+              <entry colname="col6">Active state</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>cipi</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>cluster</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>encryptionCapable</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>ensemble</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>mipi</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>name</parmname>
+              </entry>
+              <entry colname="col4">Yes</entry>
+              <entry colname="col5">Yes</entry>
+              <entry colname="col6">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>nodeID</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>pendingNodeID</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>role</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>sipi</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>state</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>version</parmname>
+              </entry>
+              <entry colname="col4">No</entry>
+              <entry colname="col5">No</entry>
+              <entry colname="col6">No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-FAADD3F3-846E-45F6-A3D4-A40FE0348237" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-B97CEA7A-DA79-4E25-BCBA-5E53091A741D">Delete a QoS policy </title>
+  <shortdesc>You can delete a QoS policy if it is no longer needed. When you delete a QoS policy, all volumes associated with the policy maintain the QoS settings but become unassociated with a policy.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>QoS policies<indexterm>deleting a QoS Policy</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-B92E64FE-6B52-435E-98AD-C450188A020E">
+      <note id="GUID-EC132082-2C56-4C26-94C7-A45FC131B520">If you are trying instead to disassociate a volume from a QoS policy, you can change the QoS settings for that volume to custom.</note>
+    </context>
+    <steps id="GUID-8E1DD884-7ADE-4835-890E-9015C09D9EB8">
+      <step id="STEP_2BD3ED8B599F4155B06C999C83C632E6">
+        <cmd>Select  <menucascade><uicontrol>Management</uicontrol><uicontrol>QoS Policies</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_9F3F6DB743794E6394AB00F78E1E9803">
+        <cmd>Click the Actions icon for the QoS policy you want to delete.</cmd>
+      </step>
+      <step id="STEP_13E3824B41854973B46F44212B98A68A">
+        <cmd>In the resulting menu, select <uicontrol>Delete</uicontrol>.</cmd>
+      </step>
+      <step id="STEP_55A993FDBB8F47A1B3E4567403AB6CD4">
+        <cmd>Confirm the action.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

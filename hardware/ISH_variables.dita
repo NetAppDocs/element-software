@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "file:///D|/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/topic.dtd"[
+]>
+<topic id="variables" xml:lang="en">
+  <!-- this file is used in a Netapp custiomization to store variables in and use them as conrefs -->
+  <title>Exported Variables</title>
+  <shortdesc>These are Trisoft Variables that were converted to DITA conrefs in order to be able to compare changes to exported source XML</shortdesc>
+  <body>
+    <p>
+      <ph id="PROD-HW">H-Series Hardware</ph>
+      <ph id="SFE-ISG-MAINBOOKTITLE">Installing and setting up the H-series storage nodes</ph>
+      <ph id="SFE-ISG-SUBTITLE" />
+      <ph id="SFE-ISG-ECLIPSETITLE">Installing H410S and H610S nodes</ph>
+      <ph id="SFE-ISG-RUNNINGTITLE">Installing and setting up the H-series storage nodes</ph>
+      <ph id="CMN-COVERSTAMP"></ph>
+      <ph id="CMN-PAGESTAMP" />
+      <ph id="SFE-ISG-SHORTDESC">Describes how to rack and cable the H410S and H610S storage nodes</ph>
+      <keyword id="CMN-AUTHOR">NetApp Information Engineering</keyword>
+      <keyword translate="no" id="SFE-ISG-BOOKPARTNO">215-14250</keyword>
+      <keyword translate="no" id="CMN-EDMARKER-NUM">_2020-09</keyword>
+      <keyword translate="yes" id="CMN-LANGMARKER">_en-us</keyword>
+      <keyword translate="yes" id="CMN-EDMARKER-TEXT">September 2020</keyword>
+      <keyword id="SFE-ISG-ECMID-PRI">Installing H410S and H610S nodes</keyword>
+      <ph id="SFE-ISG-ECMID-SEC">
+        <!--No EPUB-->
+      </ph>
+      <ph translate="no" id="CMN-DCID">sfe-120</ph>
+      <keyword id="SFE-ISG-PLUGINID">com.netapp.doc.sfe-isg</keyword>
+      <ph translate="no" id="CMN-PRODINFO">
+        <data name="nss-product">NetApp Element 12.0</data>
+      </ph>
+      <keyword translate="no" id="SFE-ISG-LASTMOD">2019-07-11</keyword>
+    </p>
+  </body>
+  <related-links></related-links>
+</topic>

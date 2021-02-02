@@ -1,0 +1,266 @@
+﻿<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/reference.dtd">
+<reference id="GUID-8C40809D-E168-4EC8-9888-97003DA70F4E" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-EA82D1DF-CCBC-4C3B-AB89-ECC1707C992B">CreateVolume</title>
+  <shortdesc>You can use the <apiname>CreateVolume</apiname> method to create a new, empty volume on the cluster. As soon as the volume creation is complete, the volume is available for connection via iSCSI. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>create</keyword>
+        <keyword>volume</keyword>
+        <keyword>volumes</keyword>
+        <keyword>creating</keyword>
+        <keyword>CreateVolume</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="GUID-ADB77AC2-9658-4E03-9CB4-08D507974327">
+      <p>Volumes created without specified QoS values use the default values. You can view default values for a volume by using the <apiname>GetDefaultQoS</apiname> method.</p>
+    </section>
+    <section id="GUID-BD7134AC-BA3D-4C73-A55E-E07E5AE863C5">
+      <title id="GUID-4AD88036-4DA7-48C4-8C6B-7D48E4276322">Parameters</title>
+      <p>This method has the following input parameters:</p>
+      <table id="TABLE_DF663FD2692D4B0E9711C63602ACBDFE">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="col1" colwidth="2.5*" />
+          <colspec colnum="2" colname="col2" colwidth="2*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <colspec colnum="4" colname="col4" colwidth="*" />
+          <colspec colname="col5" colnum="5" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+              <entry colname="col4">Default value </entry>
+              <entry colname="col5">Required </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <parmname>accountID</parmname>
+              </entry>
+              <entry colname="col2">The ID of the account that owns this volume.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>associateWithQoSPolicy</parmname>
+              </entry>
+              <entry colname="col2">Associate the volume with the specified QoS policy. Possible values:<ul id="UL_1D06ABD45E2C4FB6851A89107D46CB35"><li id="LI_7EE9F9FC3C7C4F9693F2346A72C85FE3"><option>true</option>: Associate the volume with the QoS policy specified in the <parmname>QoSPolicyID</parmname> parameter.</li><li id="LI_BA30803D9F0B4EBE86E54B60912B40A9"><option>false</option>: Do not associate the volume with the QoS policy specified in the <parmname>QoSPolicyID</parmname> parameter. When <option>false</option>, any existing policy association is removed, regardless of whether you specify a QoS policy in the <parmname>QoSPolicy</parmname> parameter.</li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>true</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>attributes</parmname>
+              </entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/ATTR_DESC" /> The total attribute size must be less than 1000B, or 1KB, including JSON formatting characters.
+</entry>
+              <entry colname="col3">JSON object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>enable512e</parmname>
+              </entry>
+              <entry colname="col2">Enable 512-byte sector emulation. Possible values:<ul id="UL_C07233DDBE064400980BD01F2F71C19C"><li id="LI_8E0E6FA9F2A746A5A6E31E60D7542063"><option>true</option>: The volume provides 512-byte sector emulation.</li><li id="LI_1809B07DDDE8434AAF8D56D00EB06C9E"><option>false</option>: 512e emulation is not enabled.</li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>enableSnapMirrorReplication</parmname>
+              </entry>
+              <entry colname="col2">Determines whether the volume can be used for replication with SnapMirror endpoints. Possible values:<ul id="UL_8BDE0225D5B1406A8200A0B60571C2D9"><li id="LI_3BF922A3A37E4035A0E3B1263576AE12"><option>true</option></li><li id="LI_BC4A645B296E4328A4250DF00BC5F1D5"><option>false</option></li></ul></entry>
+              <entry colname="col3">boolean</entry>
+              <entry colname="col4">
+                <option>false</option>
+              </entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>name</parmname>
+              </entry>
+              <entry colname="col2">Name of the volume access group (may be user-specified). Not required to be unique, but recommended. Must be 1 to 64 characters in length.</entry>
+              <entry colname="col3">string</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>qos</parmname>
+              </entry>
+              <entry colname="col2">The initial quality of service settings for this volume. Default values are used if none are specified. Possible values:<ul id="UL_75E90F3DECF9475D87CC01E4178A851C"><li id="LI_33040FAA7B9243FB96C678845A58E52B">minIOPS</li><li id="LI_131F0C75D1424AAFB71E2E2B5B12EACB">maxIOPS</li><li id="LI_F37F57FB7AE14521B5FA71B1F5A74954">burstIOPS</li></ul></entry>
+              <entry colname="col3">QoS object</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>qosPolicyID</parmname>
+              </entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/QOSPOLID" />
+              </entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">No</entry>
+            </row>
+            <row>
+              <entry colname="col1">
+                <parmname>totalSize</parmname>
+              </entry>
+              <entry colname="col2">Total size of the volume, in bytes. Size is rounded up to the nearest megabyte.</entry>
+              <entry colname="col3">integer</entry>
+              <entry colname="col4">None</entry>
+              <entry colname="col5">Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_57AB0E5059EF41C2ABD5AC9AB7F1A2F2">
+      <title id="GUID-D537362C-01B9-48AD-9193-607AB2FB4349">Return values</title>
+      <p>This method has the following return values:</p>
+      <table id="TABLE_B967117CB10C4B22A7CE525A65D5C9E3">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="*" />
+          <colspec colnum="2" colname="col2" colwidth="*" />
+          <colspec colnum="3" colname="col3" colwidth="*" />
+          <thead>
+            <row>
+              <entry colname="col1">Name</entry>
+              <entry colname="col2">Description</entry>
+              <entry colname="col3">Type</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1">volume</entry>
+              <entry colname="col2">Object containing information about the newly created volume.</entry>
+              <entry colname="col3">
+                <xref href="2618DB75-6838-444A-905F-F9E2B8FDA803_.dita" outputclass="nopagenum">volume</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">volumeID</entry>
+              <entry colname="col2">The volumeID for the newly created volume.</entry>
+              <entry colname="col3">integer</entry>
+            </row>
+            <row>
+              <entry colname="col1">curve</entry>
+              <entry colname="col2">
+                <ph conref="218E9824-8473-4145-BEAD-396882DE7ED3_.dita#GUID-218E9824-8473-4145-BEAD-396882DE7ED3/CURVE_DESC" />
+              </entry>
+              <entry colname="col3">JSON object</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="SECTION_5FA684D774104B22989CD3F451C07008">
+      <title id="GUID-E7471790-2316-4CCD-A290-0A13743927C8">Request example</title>
+      <p>Requests for this method are similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+   "method": "CreateVolume",
+   "params": {
+      "name": "mysqldata",
+      "accountID": 1,
+      "totalSize": 107374182400,
+      "enable512e": false,
+      "attributes": {
+         "name1": "value1",
+         "name2": "value2",
+         "name3": "value3"
+      },
+      "qos": {
+         "minIOPS": 50,
+         "maxIOPS": 500,
+         "burstIOPS": 1500,
+         "burstTime": 60
+      }
+   },
+   "id": 1
+}</codeblock>
+    </section>
+    <section id="SECTION_BD5D8DCA54094AAE99A91526F00198BA">
+      <title id="GUID-A6B1D1CD-41DE-43CF-AFB9-F0D31155763E">Response example</title>
+      <p>This method returns a response similar to the following example: </p>
+      <codeblock xml:space="preserve">{
+    "id": 1,
+    "result": {
+        "curve": {
+            "4096": 100,
+            "8192": 160,
+            "16384": 270,
+            "32768": 500,
+            "65536": 1000,
+            "131072": 1950,
+            "262144": 3900,
+            "524288": 7600,
+            "1048576": 15000
+        },
+        "volume": {
+            "access": "readWrite",
+            "accountID": 1,
+            "attributes": {
+                "name1": "value1",
+                "name2": "value2",
+                "name3": "value3"
+            },
+            "blockSize": 4096,
+            "createTime": "2016-03-31T22:20:22Z",
+            "deleteTime": "",
+            "enable512e": false,
+            "iqn": "iqn.2010-01.com.solidfire:mysqldata.677",
+            "name": "mysqldata",
+            "purgeTime": "",
+            "qos": {
+                "burstIOPS": 1500,
+                "burstTime": 60,
+                "curve": {
+                    "4096": 100,
+                    "8192": 160,
+                    "16384": 270,
+                    "32768": 500,
+                    "65536": 1000,
+                    "131072": 1950,
+                    "262144": 3900,
+                    "524288": 7600,
+                    "1048576": 15000
+                },
+                "maxIOPS": 500,
+                "minIOPS": 50
+            },
+            "scsiEUIDeviceID": "6a796179000002a5f47acc0100000000",
+            "scsiNAADeviceID": "6f47acc1000000006a796179000002a5",
+            "sliceCount": 0,
+            "status": "active",
+            "totalSize": 107374182400,
+            "virtualVolumeID": null,
+            "volumeAccessGroups": [],
+            "volumeID": 677,
+            "volumePairs": []
+        },
+        "volumeID": 677
+    }
+}
+</codeblock>
+    </section>
+    <section id="GUID-0CA78BCA-EF67-44CA-9D9C-20C6CA44A5CE">
+      <title id="GUID-81B23024-5A6A-4B89-B147-5B76EEF23C9B">New since version</title>
+      <p>9.6</p>
+    </section>
+  </refbody>
+</reference>

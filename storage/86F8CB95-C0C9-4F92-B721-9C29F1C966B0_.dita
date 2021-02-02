@@ -1,0 +1,49 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-86F8CB95-C0C9-4F92-B721-9C29F1C966B0" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-472C0EB6-495B-4795-84E3-509E0E3D6D09">Delete an initiator</title>
+  <shortdesc>You can delete an initiator after it is no longer needed. When you delete an initiator, the system removes it from any associated volume access group. Any connections using the initiator remain valid until the connection is reset.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>initiators<indexterm>deleting</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps id="GUID-973ADFDF-8D48-4128-A604-9646E33420CF">
+      <step id="STEP_7DE5E55643BD4D29ADCC299FB593B5A1">
+        <cmd>Click <menucascade><uicontrol>Management</uicontrol><uicontrol>Initiators</uicontrol></menucascade>.</cmd>
+      </step>
+      <step id="STEP_EE61BE9606FE47FF9BCDEE222106791B">
+        <cmd>Perform the steps to delete a single initiator or multiple initiators:</cmd>
+        <choicetable keycol="0" id="CHOICETABLE_F58B50A03D864A2F8C16FDCFE4D4F845">
+          <chhead>
+            <choptionhd>Option</choptionhd>
+            <chdeschd>Steps</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Delete single initiator</choption>
+            <chdesc>
+              <ol id="OL_5B404B604071418D9CAD2B405B9F5A7C">
+                <li id="LI_450DEF9E5B2B4FD9899D47D942CD77D4">Click the Actions icon for the initiator you want to delete.</li>
+                <li id="LI_F158CEC644634915A27FD443CF6C3370">Click <uicontrol>Delete</uicontrol>.</li>
+                <li id="LI_9BF9840B2A7A497FB567F272C6E88D8B">Confirm the action.</li>
+              </ol>
+            </chdesc>
+          </chrow>
+          <chrow>
+            <choption>Delete multiple initiators</choption>
+            <chdesc>
+              <ol id="OL_E791EEB74AEB43EE87EED5C46D6CA8BA">
+                <li id="LI_802ED3959D0444C69DC6B8F7C7D51D48">Select the check boxes next to the initiators you want to delete.</li>
+                <li id="LI_E713B9B5C5D142879FA1BC32E2A28511">Click the <uicontrol>Bulk Actions</uicontrol> button.</li>
+                <li id="LI_C1456C84DF3946649E67BF72EDA9836B">In the resulting menu, select <uicontrol>Delete</uicontrol>.</li>
+                <li id="LI_7ADBC8EF5B8642B7962FDFB9DE1B7833">Confirm the action.</li>
+              </ol>
+            </chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+    </steps>
+  </taskbody>
+</task>

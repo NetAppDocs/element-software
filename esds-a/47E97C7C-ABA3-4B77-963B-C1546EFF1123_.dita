@@ -1,0 +1,49 @@
+﻿<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "file:///C:/InfoShare/Web/Author/ASP/DocTypes/dita-oasis/1.2/technicalContent/dtd/task.dtd">
+<task id="GUID-47E97C7C-ABA3-4B77-963B-C1546EFF1123" xml:lang="en" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+  <title id="GUID-328993EE-E48C-4A5F-8D16-8BD49512BC59">Collect logs for <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters</title>
+  <shortdesc>You can collect logs to send to NetApp Support to help with diagnosing issues with your <ph conref="ISH_variables.dita#variables/SDS-SHORT">SolidFire eSDS</ph> clusters. You can use the NetApp Hybrid Cloud Control UI for this. </shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>solidfire esds</keyword>
+        <keyword>collect logs</keyword>
+        <keyword>netapp hybrid cloud control</keyword>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="GUID-FAE1B7F2-5570-4376-8E03-8BFF6D5B9E50">Keep the following considerations in mind for collecting logs:<ul id="GUID-C8724123-9E9A-45C4-B70D-E76D433ACA73"><li>Do not use Podman commands to gather logs.</li><li>NetApp Support uses One Collect for host log collection. For an optimal support experience, you should have installed One Collect.</li></ul></context>
+    <steps id="GUID-E838F850-E35F-49BA-BE3F-30FA28E19B94">
+      <step>
+        <cmd>Open a web browser and browse to the IP address of the management node. For example:</cmd>
+        <info>
+          <codeblock xml:space="preserve">https://[management node IP address]</codeblock>
+        </info>
+      </step>
+      <step>
+        <cmd>Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.</cmd>
+      </step>
+      <step>
+        <cmd>From the Dashboard, click the menu on the upper right.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Collect Logs</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Select a date range in the <uicontrol>Date Range</uicontrol> drop-down menu to specify what dates the logs should include.</cmd>
+        <info>If you specify a custom start date, you can select the date to begin the date range. Logs will be collected from that date up to the present time.</info>
+      </step>
+      <step>
+        <cmd>In the <uicontrol>Log Collection</uicontrol> section, select the types of log files the log package should include.</cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Collect Logs</uicontrol> to start log collection.</cmd>
+        <info>Log collection runs in the background, and the page shows the progress.<note id="GUID-84F37958-304A-446E-8BF0-2F5E0352A988">Depending on the logs you collect, the progress bar might remain at a certain percentage for several minutes, or progress very slowly at some points.</note></info>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Download Logs</uicontrol> to download the log package.</cmd>
+        <info>The log package is in a compressed UNIX .tgz file format.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>
