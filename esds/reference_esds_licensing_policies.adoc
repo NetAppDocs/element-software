@@ -1,0 +1,19 @@
+---
+permalink: esds/reference_esds_licensing_policies.html
+sidebar: sidebar
+keywords: licensing,solidfire esds
+summary: 'SolidFire eSDS is governed by NetApp Term Capacity License model.'
+---
+= Licensing policies for SolidFire eSDS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SolidFire eSDS is governed by NetApp Term Capacity License model.
+
+Here is a high-level overview of the policies of this model:
+
+* Software costs are based on raw capacity (size of the drive times the number of drives in the node or cluster), making the software costs for this model easy to predict.
+* You do not require a software license key. You will receive a master serial number for the software on the sales order, which is included with the document kit you receive after you order. You must retain this master serial number because it will be used for support entitlement.
+
+For more information, see https://www.netapp.com/us/media/sb-4059.pdf[Purchasing models for NetApp HCI and SolidFire].

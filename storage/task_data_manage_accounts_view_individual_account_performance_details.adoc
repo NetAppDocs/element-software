@@ -1,0 +1,18 @@
+---
+permalink: storage/task_data_manage_accounts_view_individual_account_performance_details.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view performance activity for individual accounts in a graphical format.'
+---
+= View individual account performance details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view performance activity for individual accounts in a graphical format.
+
+The graph information provides I/O and throughput information for the account. The Average and Peak activity levels are shown in increments of 10-second reporting periods. These statistics include activity for all volumes assigned to the account.
+
+. Select *Management* > *Accounts*.
+. Click the Actions icon for an account.
+. Click *View Details*.

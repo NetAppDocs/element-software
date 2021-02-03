@@ -1,0 +1,12 @@
+---
+permalink: api/concept_solidfire_element_api_rg_initiator_api_methods.html
+sidebar: sidebar
+keywords: initiator,method,methods,API,managing,manage
+summary: 'Initiator methods enable you to add, remove, view, and modify iSCSI initiator objects, which handle communication between the storage system and external storage clients.'
+---
+= Initiator API methods
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Initiator methods enable you to add, remove, view, and modify iSCSI initiator objects, which handle communication between the storage system and external storage clients.

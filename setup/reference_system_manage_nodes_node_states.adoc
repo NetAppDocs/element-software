@@ -1,0 +1,34 @@
+---
+permalink: setup/reference_system_manage_nodes_node_states.html
+sidebar: sidebar
+keywords: nodes,node status
+summary: 'A node can be in one of several states depending on the level of configuration.'
+---
+= Node states
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A node can be in one of several states depending on the level of configuration.
+
+* *Available*
++
+The node has no associated cluster name and is not yet part of a cluster.
+
+* *Pending*
++
+The node is configured and can be added to a designated cluster.
++
+Authentication is not required to access the node.
+
+* *Pending Active*
++
+The system is in the process of installing compatible Element software on the node. When complete, the node will move to the Active state.
+
+* *Active*
++
+The node is participating in a cluster.
++
+Authentication is required to modify the node.
+
+In each of these states, some fields are read only.

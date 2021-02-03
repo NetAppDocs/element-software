@@ -1,0 +1,48 @@
+---
+permalink: api/reference_solidfire_element_api_rg_listsnapmirrornodes.html
+sidebar: sidebar
+keywords: snapmirror,node,nodes,list,listing,listsnapmirrornodes
+summary: 'The Element software web UI uses the ListSnapMirrorNodes method to get a list of nodes in a remote ONTAP cluster.'
+---
+= ListSnapMirrorNodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Element software web UI uses the ListSnapMirrorNodes method to get a list of nodes in a remote ONTAP cluster.
+
+== Parameter
+
+This method has the following input parameter:
+
+|===
+| Name| Description| Type| Default value| Required
+a|
+snapMirrorEndpointID
+a|
+If provided, the system lists the nodes of the endpoint with the specified snapMirrorEndpointID. If not provided, the system lists the nodes of all known SnapMirror endpoints.
+a|
+integer
+a|
+None
+a|
+No
+|===
+
+== Return value
+
+This method has the following return value:
+
+|===
+| Name| Description| Type
+a|
+snapMirrorNodes
+a|
+A list of the nodes on the ONTAP cluster.
+a|
+xref:reference_solidfire_element_api_rg_snapmirrornode.adoc[snapMirrorNode] array
+|===
+
+== New since version
+
+10.1

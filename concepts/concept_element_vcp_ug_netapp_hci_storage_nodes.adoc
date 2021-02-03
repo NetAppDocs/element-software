@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_element_vcp_ug_netapp_hci_storage_nodes.html
+sidebar: sidebar
+keywords: HCI storage nodes
+summary: 'NetApp HCI storage nodes are hardware that provide the storage resources for a NetApp HCI system. Drives in the node contain block and metadata space for data storage and data management. Each node contains a factory image of NetApp Element software. NetApp HCI storage nodes can be managed using the NetAppElement Management extension point.'
+---
+= NetApp HCI storage nodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+NetApp HCI storage nodes are hardware that provide the storage resources for a NetApp HCI system. Drives in the node contain block and metadata space for data storage and data management. Each node contains a factory image of NetApp Element software. NetApp HCI storage nodes can be managed using the NetAppElement Management extension point.

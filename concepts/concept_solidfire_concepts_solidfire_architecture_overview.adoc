@@ -1,0 +1,31 @@
+---
+permalink: concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'A SolidFire all-flash storage system is comprised of discrete hardware components \(drive and nodes\) that are combined into a single pool of storage resources through NetApp Element software running independently on each node. This unified cluster presents as a single storage system for use by external clients and is managed as a single entity through the Element software UI, API and other management tools.'
+---
+= SolidFire architecture overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A SolidFire all-flash storage system is comprised of discrete hardware components (drive and nodes) that are combined into a single pool of storage resources through NetApp Element software running independently on each node. This unified cluster presents as a single storage system for use by external clients and is managed as a single entity through the Element software UI, API and other management tools.
+
+A SolidFire storage system includes the following hardware components:
+
+* Cluster, the hub of the SolidFire storage system, includes a collection of nodes.
+* Nodes are the hardware components grouped into a cluster. There are two types of nodes:
+ ** Storage nodes, which are servers containing a collection of drives
+ ** Fibre Channel (FC) nodes, which you use to connect to FC clients
+* Drives are used in storage nodes and store data for the cluster. A storage node contains two types of drives:
+ ** Volume metadata drives store information that defines the volumes and other objects within a cluster.
+ ** Block drives store data blocks for volumes.
+
+image::../media/solidfire_concepts_guide_architecture_image.gif[Element Software architectural diagram]
+
+You manage the system by using Element software or a VMware vSphere Web Client.
+
+* Element software runs on the hardware and you can use it to create a cluster and manage storage services.
+* The NetApp Element Plug-in for vCenter Server (also referred to as the vCenter Plug-in, or VCP) is a web-based tool integrated with the VMware vSphere Web Client user interface (UI). The plug-in is an alternative scalable, user-friendly interface for VMware vSphere that can manage and monitor storage resources, including datastores, volumes, quality of service, storage cluster components, and data protection.
+
+By default, Element sends performance and alert statistics to the NetApp SolidFire Active IQ Collector. NetApp Support monitors this data and alerts you to any performance issues.

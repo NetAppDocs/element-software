@@ -1,0 +1,14 @@
+---
+permalink: hardware-d/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Replacing a H410S node in a SolidFire cluster
+:icons: font
+:imagesdir: ../media/
+
+* xref:task_sf_h410s_node_replacement.adoc[Replace H410S node in a SolidFire Cluster]
+ ** xref:task_sf_h410s_prepare_for_node_replacement.adoc[Prepare to replace H410S node in the cluster]
+ ** xref:task_sf_h410s_replace_node_in_chassis.adoc[Replace H410S node in the chassis]
+ ** xref:task_sf_h410s_add_node_to_cluster.adoc[Add H410S node to the cluster]

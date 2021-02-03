@@ -1,0 +1,46 @@
+---
+permalink: storage/reference_data_vol_access_group_volume_access_group_details.html
+sidebar: sidebar
+keywords: 
+summary: 'The Access Groups page on the Management tab provides information about volume access groups.'
+---
+= Volume access group details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Access Groups page on the Management tab provides information about volume access groups.
+
+The following information is displayed:
+
+* *ID*
++
+The system-generated ID for the access group.
+
+* *Name*
++
+The name given to the access group when it was created.
+
+* *Active Volumes*
++
+The number of active volumes in the access group.
+
+* *Compression*
++
+The compression efficiency score for the access group.
+
+* *Deduplication*
++
+The deduplication efficiency score for the access group.
+
+* *Thin Provisioning*
++
+The thin provisioning efficiency score for the access group.
+
+* *Overall Efficiency*
++
+The overall efficiency score for the access group.
+
+* *Initiators*
++
+The number of initiators connected to the access group.

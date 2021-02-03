@@ -1,0 +1,12 @@
+---
+permalink: api/concept_solidfire_element_api_rg_response_examples.html
+sidebar: sidebar
+keywords: response,example
+summary: 'Complete response examples are provided here.'
+---
+= Response examples
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Complete response examples are provided here.

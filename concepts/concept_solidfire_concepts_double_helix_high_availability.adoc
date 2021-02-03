@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_double_helix_high_availability.html
+sidebar: sidebar
+keywords: 
+summary: 'Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The “RAID-less” approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.'
+---
+= Double Helix high availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The "`RAID-less`" approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.

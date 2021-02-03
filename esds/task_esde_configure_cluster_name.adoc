@@ -1,0 +1,54 @@
+---
+permalink: esds/task_esde_configure_cluster_name.html
+sidebar: sidebar
+keywords: solidfire esds,installing solidfire esds,cluster name configuration
+summary: 'You must configure the cluster name on each SolidFire eSDS node before you can add the node to a cluster. You can do this using either the per-node UI or the Element API.'
+---
+= Configure cluster name on SolidFire eSDS node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must configure the cluster name on each SolidFire eSDS node before you can add the node to a cluster. You can do this using either the per-node UI or the Element API.
+
+IMPORTANT: You cannot change the cluster name after the cluster is created.
+
+. Choose from one of the following options:
+ ** Use the per-node UI:
+  ... Open the per-node management node UI: *https://<node_mip>:442*.
+  ... Click *Cluster Settings* and enter the cluster name.
+  ... Click *Apply Changes*.
+ ** Use the SetClusterConfig API method.
++
+This method has the following input parameter:
++
+|===
+| Name| Description| Type| Default value| Required
+a|
+cluster
+a|
+Configuration attributes that should be changed during this method call. Only the fields you want changed need to be added to this method as members in this parameter.
+a|
+cluster
+a|
+None
+a|
+No
+|===
+See the following request example:
++
+----
+
+{
+   "method": "SetClusterConfig",
+   "params": {
+      "cluster": {
+         "name": "myhost",
+         "mipi": "Bond10G"
+      },
+    "id" : 1
+   }
+}
+----
++
+For more information about this API method, see https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-7D04A5A5-C684-4C9A-B8B4-2AC2A7A36148.html[here].

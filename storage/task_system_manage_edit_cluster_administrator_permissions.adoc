@@ -1,0 +1,18 @@
+---
+permalink: storage/task_system_manage_edit_cluster_administrator_permissions.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change cluster administrator account privileges for reporting, nodes, drives, volumes, accounts, and cluster-level access. When you enable a permission, the system assigns write access for that level. The system grants the administrator user read-only access for the levels that you do not select.'
+---
+= Edit cluster administrator permissions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change cluster administrator account privileges for reporting, nodes, drives, volumes, accounts, and cluster-level access. When you enable a permission, the system assigns write access for that level. The system grants the administrator user read-only access for the levels that you do not select.
+
+. Click *Users* > *Cluster Admins*.
+. Click the Actions icon for the cluster administrator you want to edit.
+. Click *Edit*.
+. Select user permissions to apply to the account.
+. Click *Save Changes*.

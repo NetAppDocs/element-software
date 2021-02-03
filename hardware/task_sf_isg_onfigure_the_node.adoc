@@ -1,0 +1,33 @@
+---
+permalink: hardware/task_sf_isg_onfigure_the_node.html
+sidebar: sidebar
+keywords: 
+summary: 'After you rack and cable the hardware, you are ready to configure your new storage resource.'
+---
+= Configure the node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you rack and cable the hardware, you are ready to configure your new storage resource.
+
+You have powered on the node.
+
+. Attach a keyboard and monitor to the node.
+. In the terminal user interface (TUI) that is displayed, configure the network and cluster settings for the node by using the on-screen navigation.
++
+NOTE: You must get the IP address of the node from the TUI. You need this when you add the node to a cluster. After you save the settings, the node is in a pending state, and can be added to a cluster. See the NetApp Element Software Setup Guide for configuration instructions.
++
+http://docs.netapp.com/sfe-113/topic/com.netapp.doc.sfe-sg/home.html[Setting up storage with Element software]
+
+. Configure out-of-band management using the Baseboard Management Controller (BMC).
++
+This steps applies only to H610S nodes.
+
+ .. Use a web browser and navigate to the default BMC IP address: 192.168.0.120
+ .. Log in using the following default credentials:
+  *** User name: *root*
+  *** Password: *calvin*
+ .. From the node management screen, navigate to *Settings* > *Network Settings*, and configure the network parameters for the out-of-band management port.
++
+https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_access_BMC_and_change_IP_address_on_H610S[How to access BMC and change IP address on H610S]

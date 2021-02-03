@@ -1,0 +1,24 @@
+---
+permalink: storage/concept_data_manage_volumes_quality_of_service_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'A Quality of Service \(QoS\) policy enables you to create and save a standardized quality of service setting that can be applied to many volumes. You can create, edit, and delete QoS policies from the QoS Policies page on the Management tab.'
+---
+= Quality of Service policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A Quality of Service (QoS) policy enables you to create and save a standardized quality of service setting that can be applied to many volumes. You can create, edit, and delete QoS policies from the QoS Policies page on the Management tab.
+
+NOTE: If you are using QoS policies, do not use custom QoS on a volume. Custom QoS will override and adjust QoS policy values for volume QoS settings.
+
+https://www.youtube.com/embed/q9VCBRDtrnI?rel=0[NetApp video: SolidFire Quality of Service Policies]
+
+*Related information*
+
+xref:task_data_manage_volumes_creating_a_qos_policy.adoc[Create a QoS policy]
+
+xref:task_data_manage_volumes_edit_a_qos_policy.adoc[Edit a QoS policy]
+
+xref:task_data_manage_volumes_deleting_a_qos_policy.adoc[Delete a QoS policy]

@@ -1,0 +1,24 @@
+---
+permalink: storage/task_data_vvol_view_virtual_volume_details.html
+sidebar: sidebar
+keywords: virtual volumes
+summary: 'You can review virtual volume information for all active virtual volumes on the cluster in the Element UI. You can also view performance activity for each virtual volume, including input, output, throughput, latency, queue depth, and volume information.'
+---
+= Viewing virtual volume details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can review virtual volume information for all active virtual volumes on the cluster in the Element UI. You can also view performance activity for each virtual volume, including input, output, throughput, latency, queue depth, and volume information.
+
+* You have enabled VVols functionality in the Element UI for the cluster.
+* You have created an associated storage container.
+* You have configured your vSphere cluster to use Element software VVols functionality.
+* You have created at least one VM in vSphere.
+
+. Click *VVols* > *Virtual Volumes*.
++
+The information for all active virtual volumes is displayed.
+
+. Click the Actions icon for the virtual volume you want to review.
+. In the resulting menu, select *View Details*.

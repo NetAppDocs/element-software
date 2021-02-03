@@ -1,0 +1,82 @@
+---
+permalink: storage/task_system_manage_test_the_ldap_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'After configuring LDAP, you should test it by using either the Element UI or the Element API TestLdapAuthentication method.'
+---
+= Test the LDAP Configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After configuring LDAP, you should test it by using either the Element UI or the Element API TestLdapAuthentication method.
+
+. To test the LDAP configuration with the Element UI, do the following:
+ .. Click *Cluster* > *LDAP*.
+ .. Click *Test LDAP Authentication*.
+ .. Resolve any issues by using the information in the table below:
++
+|===
+| Error message| Description
+a|
+        xLDAPUserNotFound
+a|
+
+  *** The user being tested was not found in the configured `userSearchBaseDN` subtree.
+  *** The `userSearchFilter` is configured incorrectly.
+
+a|
+        xLDAPBindFailed (Error: Invalid credentials)
+a|
+
+  *** The username being tested is a valid LDAP user, but the password provided is incorrect.
+  *** The username being tested is a valid LDAP user, but the account is currently disabled.
+
+a|
+        xLDAPSearchBindFailed (Error: Can't contact LDAP server)
+a|
+        The LDAP server URI is incorrect.
+a|
+        xLDAPSearchBindFailed (Error: Invalid credentials)
+a|
+        The read-only username or password is configured incorrectly.
+a|
+        xLDAPSearchFailed (Error: No such object)
+a|
+        The `userSearchBaseDN` is not a valid location within the LDAP tree.
+a|
+        xLDAPSearchFailed (Error: Referral)
+a|
+
+  *** The `userSearchBaseDN` is not a valid location within the LDAP tree.
+  *** The `userSearchBaseDN` and `groupSearchBaseDN` are in a nested OU. This can cause permission issues. The workaround is to include the OU in the user and group base DN entries, (for example: `ou=storage, cn=company, cn=com`)
+
++
+|===
+. To test the LDAP configuration with the Element API, do the following:
+ .. Call the TestLdapAuthentication method.
++
+----
+{
+  "method":"TestLdapAuthentication",
+     "params":{
+        "username":"admin1",
+        "password":"admin1PASS
+      },
+      "id": 1
+}
+----
+
+ .. Review the results. If the API call is successful, the results include the specified user's distinguished name and a list of groups in which the user is a member.
++
+----
+{
+"id": 1
+     "result": {
+         "groups": [
+              "CN=StorageMgmt,OU=PTUsers,DC=prodtest,DC=solidfire,DC=net"
+         ],
+         "userDN": "CN=Admin1 Jones,OU=PTUsers,DC=prodtest,DC=solidfire,DC=net"
+     }
+}
+----

@@ -1,0 +1,51 @@
+---
+permalink: api/reference_solidfire_element_api_rg_disableencryptionatrest.html
+sidebar: sidebar
+keywords: encryption,disable,disabling,at rest,rest,DisableEncryptionAtRest
+summary: 'You can use the DisableEncryptionAtRest method to remove the encryption that was previously applied to the cluster using the EnableEncryptionAtRest method. This disable method is asynchronous and returns a response before encryption is disabled. You can use the GetClusterInfo method to poll the system to see when the process has completed.'
+---
+= DisableEncryptionAtRest
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the DisableEncryptionAtRest method to remove the encryption that was previously applied to the cluster using the EnableEncryptionAtRest method. This disable method is asynchronous and returns a response before encryption is disabled. You can use the GetClusterInfo method to poll the system to see when the process has completed.
+
+== Parameters
+
+This method has no input parameters.
+
+== Return values
+
+This method has no return values.
+
+== Request example
+
+Requests for this method are similar to the following example:
+
+----
+{
+   "method": "DisableEncryptionAtRest",
+   "params": {},
+   "id": 1
+}
+----
+
+== Response example
+
+This method returns a response similar to the following example:
+
+----
+{
+   "id" : 1,
+  "result" : {}
+}
+----
+
+== New since version
+
+9.6
+
+*Related information*
+
+xref:reference_solidfire_element_api_rg_getclusterinfo.adoc[GetClusterInfo]

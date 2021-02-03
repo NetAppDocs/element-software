@@ -1,0 +1,67 @@
+---
+permalink: esds/task_esds_add_drives.html
+sidebar: sidebar
+keywords: solidfire esds,installing solidfire esds,add drives to solidfire esds cluster
+summary: 'You must add drives to your SolidFire eSDS cluster so that they can participate in the cluster. You can do this using either the Element UI or the APIs.'
+---
+= Add drives to the SolidFire eSDS cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must add drives to your SolidFire eSDS cluster so that they can participate in the cluster. You can do this using either the Element UI or the APIs.
+
+. Choose from one of the following options:
+ ** Use the Element UI:
+  ... From the Element UI, select *Cluster* > *Drives*.
+  ... Click *Available* to view the list of available drives.
+  ... To add individual drives, click the *Actions* icon for the drive you want to add, and click *Add*.
+  ... To add multiple drives, select the check boxes for the drives to add, click *Bulk Actions*, and click *Add*.
+  ... Verify that the drives are added, and the cluster capacity is as expected.
+ ** Use the AddDrives API method.
++
+This method has the following input parameter:
++
+|===
+| Name| Description| Type| Default value| Required
+a|
+drives
+a|
+Information about each drive to be added to the cluster. Possible values:
+
+  *** driveID: The ID of the drive to add (integer).
+  *** type: The type of drive to add (string). Valid values are "slice", "block", or "volume". If omitted, the system assigns the correct type.
+
+a|
+JSON object array
+a|
+None
+a|
+Yes (type is optional)
+|===
+Here is a request example:
++
+----
+{
+  "id": 1,
+  "method": "AddDrives",
+  "params": {
+    "drives": [
+      {
+        "driveID": 1,
+        "type": "slice"
+      },
+      {
+        "driveID": 2,
+        "type": "block"
+      },
+      {
+        "driveID": 3,
+        "type": "block"
+      }
+    ]
+  }
+}
+----
++
+For more information about this API method, see https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-926326B7-0260-4996-A43E-AA7A40EFFF7F.html[here].

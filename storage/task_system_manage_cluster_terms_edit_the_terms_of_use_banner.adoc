@@ -1,0 +1,22 @@
+---
+permalink: storage/task_system_manage_cluster_terms_edit_the_terms_of_use_banner.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit the text that a user sees when they select the Terms of Use login banner.'
+---
+= Edit the Terms of Use banner
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit the text that a user sees when they select the Terms of Use login banner.
+
+* You must have cluster administrator privileges to configure Terms of Use.
+* Ensure that the Terms of Use feature is enabled.
+
+. Click *Users* > *Terms of Use*.
+. In the *Terms of Use* dialog box, edit the text that you want to appear.
++
+NOTE: Do not exceed 4096 characters.
+
+. Click *Save Changes*.

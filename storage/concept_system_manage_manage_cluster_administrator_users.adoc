@@ -1,0 +1,28 @@
+---
+permalink: storage/concept_system_manage_manage_cluster_administrator_users.html
+sidebar: sidebar
+keywords: 
+summary: 'You can manage cluster administrator accounts for a SolidFire storage system. Available cluster administrator management functions include creating, deleting, and editing cluster administrator accounts, changing the cluster administrator password, and configuring LDAP settings to manage system access for users.'
+---
+= Manage cluster administrator user accounts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can manage cluster administrator accounts for a SolidFire storage system. Available cluster administrator management functions include creating, deleting, and editing cluster administrator accounts, changing the cluster administrator password, and configuring LDAP settings to manage system access for users.
+
+*Related information*
+
+xref:concept_system_manage_solidfire_storage_cluster_administrator_account_types.adoc[Storage cluster administrator account types]
+
+xref:reference_system_manage_cluster_admins_details.adoc[Cluster Admins details]
+
+xref:task_system_manage_create_a_cluster_administrator_account.adoc[Create a cluster administrator account]
+
+xref:task_system_manage_edit_cluster_administrator_permissions.adoc[Edit cluster administrator permissions]
+
+xref:task_system_manage_change_passwords_for_cluster_administrator_accounts.adoc[Change passwords for cluster administrator accounts]
+
+xref:task_system_manage_enable_ldap_authentication_with_the_element_ui.adoc[Enable LDAP authentication with the Element user interface]
+
+xref:task_system_manage_disable_ldap.adoc[Disable LDAP]

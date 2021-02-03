@@ -1,0 +1,65 @@
+---
+permalink: esds-a/task_esds_reactive_drive_repl.html
+sidebar: sidebar
+keywords: solidfire esds,replace drive,failed drive replacement
+summary: 'If your SolidFire eSDS cluster has a faulty drive, the Element UI displays an alert. Before you remove the drive from the cluster, verify the reason for failure by looking at the information in the IPMI interface for your node/server. These steps are applicable if you are replacing a block drive or a metadata drive.'
+---
+= Replace a faulty drive in a SolidFire eSDS cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If your SolidFire eSDS cluster has a faulty drive, the Element UI displays an alert. Before you remove the drive from the cluster, verify the reason for failure by looking at the information in the IPMI interface for your node/server. These steps are applicable if you are replacing a block drive or a metadata drive.
+
+* From the NetApp Element software UI, verify that the drive has failed. Element displays an alert when a drive fails. You can access the Element UI by using the management virtual IP (MVIP) address of the primary cluster node.
+* Ensure that you have familiarized yourself with all the steps.
+* Ensure that you take necessary precautions to prevent electrostatic discharge (ESD) while handling drives. See https://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-ssdrepl%2FGUID-E2FDD1C4-5025-4143-B7A3-5318CC8EAE79.html[Rules for handling drives].
+
+. Perform the following steps to verify the drive failure and view the events logged that are associated with the drive failure:
+ .. Log in to the IPMI interface of the node (iLO in this case).
+ .. Click *Information* > *Integrated Management Log*. The reason for the drive failure (for example, SSDWearOut) and the location will be listed here. You will also see an event stating that the status of the drive is degraded.
+ .. Click *System Information* from the left-hand navigation and click *Storage*.
+ .. Verify the information available about the failed drive. The status of the failed drive will say *Degraded*.
+. Remove the failed drive from the cluster as follows using the Element UI:
+ .. Click *Cluster* > *Drives* > *Failed*.
+ .. Click the icon under *Actions* and select *Remove*.
+. Remove the drive physically as follows:
+ .. Identify the drive bay.
++
+The following image shows the front of the server with the drive bay numbering shown on the left side of the image:
++
+image::../media/esds_drive_bay.png[]
+
+ .. Press the power button on the drive that you want to replace. The LED blinks for 5-10 seconds and stops.
+ .. After the LED stops blinking and the drive is powered off, remove it from the server by pressing the red button and pulling the latch.
++
+NOTE: Ensure that you handle drives very carefully.
+. Insert the replacement drive by carefully pushing the drive into the bay using the latch and closing the latch. The drive powers on when inserted correctly.
+. Verify the new drive details in iLO:
+ .. Click *Information* > *Integrated Management Log*. You will see an event logged for the drive that you added.
+ .. Refresh the page to see the events logged for the new drive that you added.
+. Verify the health of your storage system in iLO:
+ .. Click *System Information* from the left-hand navigation and click *Storage*.
+ .. Scroll till you find information about the bay in which you installed the new drive.
+ .. Make a note of the serial number.
+. Add the new drive information in the sf_sds_config.yaml file for the node in which you replaced the drive.
++
+The sf_sds_config.yamlfile is stored in /opt/sf/. This file includes all the information about the drives in the node. You must enter the details of the new drive in this file every time you add a new drive. For more information about this file, see xref:reference_esds_sf_sds_config_file.adoc[Contents of the sf_sds_config.yaml file].
+
+ .. Establish an SSH connection to the node by using PuTTY.
+ .. In the PuTTY configuration window, enter node MIP in the *Host Name (or IP address)* field.
+ .. Click *Open*.
+ .. In the terminal window that opens, log in with your username and password.
+ .. Run the # cat /opt/sf/sf_sds_config.yaml command to list the contents of the file.
+ .. Replace the entries in the `dataDevices` or `cacheDevices` lists for the drive you replaced with the new drive information.
+ .. Run # nvme list to see the list of drives in the cluster. You will see the serial number of the new drive (that you noted in the previous step) in this list.
+ .. Run # systemctl start solidfire-update-drives.
++
+You will see the bash prompt after this command runs. You must go to the Element UI after this to add the drive to the cluster. The Element UI will show an alert for a new drive that is available.
+
+. Click *Cluster* > *Drives* > *Available*.
++
+You will see the serial number of the new drive that you installed.
+
+. Click the icon under *Actions* and select *Add*.
+. Refresh the Element UI after the block sync job completes. You will see that the alert about the drive available has cleared if you access the *Running Tasks* page from the *Reporting* tab of the Element UI.

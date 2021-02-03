@@ -1,0 +1,14 @@
+---
+permalink: hardware/concept_sf_isg_poster_link.html
+sidebar: sidebar
+keywords: SolidFire storage nodes installation and setup,storage nodes,H-series
+summary: 'You can use the poster to install and set up your storage nodes. The poster provides step-by-step instructions with links to additional content in an easy-to-use visual format.'
+---
+= Installation and setup poster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the poster to install and set up your storage nodes. The poster provides step-by-step instructions with links to additional content in an easy-to-use visual format.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2856174[NetApp H-Series Element Storage Nodes Installation and Setup Instructions]

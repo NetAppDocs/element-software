@@ -1,0 +1,16 @@
+---
+permalink: storage/concept_data_vvol_manage_storage_containers.html
+sidebar: sidebar
+keywords: storage container,storage containers
+summary: 'A storage container is a vSphere datastore representation created on a cluster running Element software.'
+---
+= Manage storage containers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A storage container is a vSphere datastore representation created on a cluster running Element software.
+
+Storage containers are created and tied to NetAppElement accounts. A storage container created on Element storage appears as a vSphere datastore in vCenter and ESXi. Storage containers do not allocate any space on Element storage. They are simply used to logically associate virtual volumes.
+
+A maximum of four storage containers per cluster is supported. A minimum of one storage container is required to enable VVols functionality.

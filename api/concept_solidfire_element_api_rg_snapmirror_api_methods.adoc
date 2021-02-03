@@ -1,0 +1,12 @@
+---
+permalink: api/concept_solidfire_element_api_rg_snapmirror_api_methods.html
+sidebar: sidebar
+keywords: SnapMirror,API,method
+summary: 'SnapMirror API methods are used by the Element web UI for managing snapshots mirrored with remote ONTAP systems. These methods are meant for use by the Element web UI only. If you need API access to SnapMirror functionality, use the ONTAP APIs. Request and return examples are not provided for SnapMirror API methods.'
+---
+= SnapMirror API methods
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SnapMirror API methods are used by the Element web UI for managing snapshots mirrored with remote ONTAP systems. These methods are meant for use by the Element web UI only. If you need API access to SnapMirror functionality, use the ONTAP APIs. Request and return examples are not provided for SnapMirror API methods.

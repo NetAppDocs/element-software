@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_stranded_capacity.html
+sidebar: sidebar
+keywords: 
+summary: 'TBD'
+---
+= Stranded capacity
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+*TBD*

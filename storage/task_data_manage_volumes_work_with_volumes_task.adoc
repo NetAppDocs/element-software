@@ -1,0 +1,42 @@
+---
+permalink: storage/task_data_manage_volumes_work_with_volumes_task.html
+sidebar: sidebar
+keywords: 
+summary: 'The SolidFire system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients. From the Volumes page on the Management tab, you can create, modify, clone, and delete volumes on a node. You can also view statistics about volume bandwidth and I/O usage.'
+---
+= Work with volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SolidFire system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients. From the Volumes page on the Management tab, you can create, modify, clone, and delete volumes on a node. You can also view statistics about volume bandwidth and I/O usage.
+
+*Related information*
+
+xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
+
+xref:task_data_manage_volumes_creating_a_qos_policy.adoc[Create a QoS policy]
+
+xref:task_data_manage_volumes_edit_a_qos_policy.adoc[Edit a QoS policy]
+
+xref:task_data_manage_volumes_deleting_a_qos_policy.adoc[Delete a QoS policy]
+
+xref:task_data_manage_volumes_create_a_volume.adoc[Create a volume]
+
+xref:task_data_manage_volumes_view_individual_volume_performance_details.adoc[View individual volume performance details]
+
+xref:task_data_manage_volumes_edit_active_volumes.adoc[Edit active volumes]
+
+xref:task_data_manage_volumes_delete_a_volume.adoc[Delete a volume]
+
+xref:task_data_manage_volumes_restore_a_deleted_volume.adoc[Restore a deleted volume]
+
+xref:task_data_manage_volumes_purge_a_volume.adoc[Purge a volume]
+
+xref:task_data_manage_volumes_clone_a_volume.adoc[Clone a volume]
+
+xref:task_data_manage_volumes_assign_luns_to_fibre_channel_volumes.adoc[Assign LUNs to Fibre Channel volumes]
+
+xref:task_data_manage_volumes_apply_a_qos_policy_to_volumes.adoc[Apply a QoS policy to volumes]
+
+xref:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.adoc[Remove the QoS policy association of a volume]
