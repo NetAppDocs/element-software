@@ -15,7 +15,7 @@ You can configure settings such as cluster fullness threshold, support access, e
 
 *Related information*
 
-xref:concept_data_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
+xref:concept_data_manage_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
 
 xref:task_snapmirror_use_replication_between_element_and_ontap_clusters.adoc[Use SnapMirror replication between Element and ONTAP clusters]
 
@@ -29,7 +29,7 @@ xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc
 
 xref:concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.adoc[Manage the Terms of Use banner]
 
-xref:task_system_manage_cluster_ntp_configure_network_time_protocol_servers_for_the_cluster_to_query.adoc[Configure Network Time Protocol servers for the cluster to query]
+xref:task_system_manage_cluster_ntp_configure.adoc[Configure Network Time Protocol servers for the cluster to query]
 
 xref:concept_system_manage_snmp_manage_snmp.adoc[Manage SNMP]
 

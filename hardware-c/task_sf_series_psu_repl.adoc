@@ -36,7 +36,7 @@ image::../media/sf9010_psu.gif[In this figure, the two power supply units at the
 
 |===
 a|
-image:../media/legend_icon_01.gif[]
+image:../media/common_legend_icon_01.gif[]
 a|
 Power supply units
 |===

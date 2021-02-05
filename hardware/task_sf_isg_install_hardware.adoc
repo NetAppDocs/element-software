@@ -34,7 +34,7 @@ image::../media/hci_stor_node_ssd_bays.gif[This figure shows the front of the 2U
 +
 |===
 a|
-image:../media/legend_icon_01.gif[]
+image:../media/common_legend_icon_01.gif[]
 a|
 Six drives for each storage node in a four-node storage chassis.
 |===

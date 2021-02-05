@@ -44,4 +44,4 @@ To add LDAP Cluster Admin users or groups the general format of the username is 
 
 *Related information*
 
-xref:task_system_manage_enable_ldap_authentication_with_the_element_ui.adoc[Enable LDAP authentication with the Element user interface]
+xref:task_system_manage_enable_ldap_authentication.adoc[Enable LDAP authentication with the Element user interface]

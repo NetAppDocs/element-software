@@ -157,15 +157,15 @@ image::../media/esds_dl360_ports.png[]
 +
 |===
         a|
-image:../media/legend_icon_01.gif[]
+image:../media/common_legend_icon_01.gif[]
 a|
 Ports for storage network
 a|
-image:../media/legend_icon_02.gif[]
+image:../media/common_legend_icon_02.gif[]
 a|
 Port for IPMI
 a|
-image:../media/legend_icon_03.gif[]
+image:../media/common_legend_icon_03.gif[]
 a|
 Ports for management network
 |===

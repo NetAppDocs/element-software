@@ -21,8 +21,8 @@ xref:task_system_manage_create_a_cluster_administrator_account.adoc[Create a clu
 
 xref:task_system_manage_edit_cluster_administrator_permissions.adoc[Edit cluster administrator permissions]
 
-xref:task_system_manage_change_passwords_for_cluster_administrator_accounts.adoc[Change passwords for cluster administrator accounts]
+xref:task_system_manage_change_passwords_for_cluster_admin.adoc[Change passwords for cluster administrator accounts]
 
-xref:task_system_manage_enable_ldap_authentication_with_the_element_ui.adoc[Enable LDAP authentication with the Element user interface]
+xref:task_system_manage_enable_ldap_authentication.adoc[Enable LDAP authentication with the Element user interface]
 
 xref:task_system_manage_disable_ldap.adoc[Disable LDAP]

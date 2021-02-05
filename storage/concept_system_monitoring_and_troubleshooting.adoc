@@ -37,4 +37,4 @@ xref:concept_mnode_work_with_the_management_node.adoc[Work with the management n
 
 xref:concept_monitor_understand_cluster_fullness_levels.adoc[Understand cluster fullness levels]
 
-xref:task_system_manage_fips_enable_fips_140_2_for_https_on_your_cluster.adoc[Enable FIPS 140-2 for HTTPS on your cluster]
+xref:task_system_manage_fips_enable_fips_140_2_for_https.adoc[Enable FIPS 140-2 for HTTPS on your cluster]

@@ -17,6 +17,6 @@ xref:task_data_manage_accounts_work_with_accounts_task.adoc[Work with user accou
 
 xref:task_data_manage_volumes_work_with_volumes_task.adoc[Work with volumes]
 
-xref:concept_data_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
+xref:concept_data_manage_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
 
-xref:concept_data_vol_access_group_work_with_volume_access_groups_and_initiators.adoc[Work with volume access groups and initiators]
+xref:concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.adoc[Work with volume access groups and initiators]

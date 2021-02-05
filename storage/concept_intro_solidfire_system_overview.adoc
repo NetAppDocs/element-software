@@ -13,7 +13,7 @@ A SolidFire all-flash storage system is comprised of discrete hardware component
 
 Using the NetApp Element software user interface, you can set up and monitor SolidFire cluster storage capacity and performance, and manage storage activity across a multi-tenant infrastructure.
 
-image::../media/solidfire_concepts_guide_architecture_image.gif[Element Software architectural diagram]
+image::../media/solidfire_concepts_architecture_image.gif[Element Software architectural diagram]
 
 A SolidFire all-flash storage system includes the following components:
 

@@ -61,11 +61,11 @@ image::../media/hci_stor_node_camhandles.gif[In this figure, the storage node is
 +
 |===
 a|
-image:../media/legend_icon_01.gif[]
+image:../media/common_legend_icon_01.gif[]
 a|
 Cam handle to help you pull the node out
 a|
-image:../media/legend_icon_02.gif[]
+image:../media/common_legend_icon_02.gif[]
 a|
 Cam handle that you pull down before pulling the node out
 |===

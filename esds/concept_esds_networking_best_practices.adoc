@@ -44,4 +44,4 @@ a|
 +
 |===
 
-For examples and tips to configure the host network, see xref:task_solidfire_esds_configure_the_interface_config_files.adoc[here].
+For examples and tips to configure the host network, see xref:task_esds_configure_the_interface_config_files.adoc[here].

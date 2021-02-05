@@ -27,7 +27,7 @@ image::../media/sf_series_drive_numbers.gif[This figure shows the drive numberin
 +
 |===
 a|
-image:../media/legend_icon_01.gif[]
+image:../media/common_legend_icon_01.gif[]
 a|
 Drive slot numbers
 |===

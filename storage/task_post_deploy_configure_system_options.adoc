@@ -1,0 +1,20 @@
+---
+permalink: storage/task_post_deploy_configure_system_options.html
+sidebar: sidebar
+keywords: 
+summary: 'After you set up your SolidFire system, you might want to perform some optional tasks. Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards \(FIPS\) security.'
+---
+= Configure SolidFire system options after deployment
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you set up your SolidFire system, you might want to perform some optional tasks. Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards (FIPS) security.
+
+*Related information*
+
+xref:concept_system_manage_mfa_enable_multi_factor_authentication.adoc[Enable multi-factor authentication]
+
+xref:concept_system_manage_key_get_started_with_external_key_management.adoc[Get started with External key management]
+
+xref:task_system_manage_fips_create_a_cluster_supporting_fips_drives.adoc[Create a cluster supporting FIPS drives]

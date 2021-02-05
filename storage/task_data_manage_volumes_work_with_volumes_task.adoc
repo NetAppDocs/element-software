@@ -37,6 +37,6 @@ xref:task_data_manage_volumes_clone_a_volume.adoc[Clone a volume]
 
 xref:task_data_manage_volumes_assign_luns_to_fibre_channel_volumes.adoc[Assign LUNs to Fibre Channel volumes]
 
-xref:task_data_manage_volumes_apply_a_qos_policy_to_volumes.adoc[Apply a QoS policy to volumes]
+xref:task_data_manage_volumes_apply_a_qos_policy.adoc[Apply a QoS policy to volumes]
 
 xref:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.adoc[Remove the QoS policy association of a volume]
