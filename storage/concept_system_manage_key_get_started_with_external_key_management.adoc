@@ -1,0 +1,20 @@
+---
+permalink: storage/concept_system_manage_key_get_started_with_external_key_management.html
+sidebar: sidebar
+keywords: kmip
+summary: 'External key management \(EKM\) provides secure Authentication Key \(AK\) management in conjunction with an off-cluster external key server \(EKS\). The EKS provides secure generation and storage of the AKs.'
+---
+= Get started with External key management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+External key management (EKM) provides secure Authentication Key (AK) management in conjunction with an off-cluster external key server (EKS). The EKS provides secure generation and storage of the AKs.
+
+The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when Encryption At Rest (EAR) is enabled on the cluster. The cluster utilizes the Key Management Interoperability Protocol (KMIP), an OASIS defined standard protocol, to communicate with the EKS.
+
+NOTE: This feature is unavailable in SolidFire Enterprise SDS clusters.
+
+To enable Software Encryption at Rest, use the ElementCreateCluster API command.
+
+http://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/GUID-9E105236-EDCF-4613-8504-C6685AF937A5.html

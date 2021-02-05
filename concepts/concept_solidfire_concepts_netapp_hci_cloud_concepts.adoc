@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_netapp_hci_cloud_concepts.html
+sidebar: sidebar
+keywords: 
+summary: 'When working with cloud services on NetApp HCI, you might find it helpful to understand cloud terminology and NetApp cloud services.'
+---
+= NetApp HCI cloud concepts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When working with cloud services on NetApp HCI, you might find it helpful to understand cloud terminology and NetApp cloud services.

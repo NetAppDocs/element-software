@@ -1,0 +1,47 @@
+---
+permalink: storage/task_system_manage_create_a_cluster_administrator_account.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create new cluster administrator accounts with permissions to allow or restrict access to specific areas of the storage system. When you set cluster administrator account permissions, the system grants read-only rights for any permissions you do not assign to the cluster administrator.'
+---
+= Create a cluster administrator account
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create new cluster administrator accounts with permissions to allow or restrict access to specific areas of the storage system. When you set cluster administrator account permissions, the system grants read-only rights for any permissions you do not assign to the cluster administrator.
+
+If you want to create an LDAP cluster administrator account, ensure that LDAP is configured on the cluster before you begin.
+
+You can later change cluster administrator account privileges for reporting, nodes, drives, volumes, accounts, and cluster-level access. When you enable a permission, the system assigns write access for that level. The system grants the administrator user read-only access for the levels that you do not select.
+
+You can also later remove any cluster administrator user account created by a system administrator. You cannot remove the primary cluster administrator account that was created when the cluster was created.
+
+. To create a cluster-wide (non-LDAP) cluster administrator account, perform the following actions:
+ .. Click *Users* > *Cluster Admins*.
+ .. Click *Create Cluster Admin*.
+ .. Select the *Cluster* user type.
+ .. Enter a user name and password for the account and confirm password.
+ .. Select user permissions to apply to the account.
+ .. Select the check box to agree to the End User License Agreement.
+ .. Click *Create Cluster Admin*.
+. To create a cluster administrator account in the LDAP directory, perform the following actions:
+ .. Click *Cluster* > *LDAP*.
+ .. Ensure that LDAP Authentication is enabled.
+ .. Click *Test User Authentication* and copy the distinguished name that appears for the user or one of the groups of which the user is a member so that you can paste it later.
+ .. Click *Users* > *Cluster Admins*.
+ .. Click *Create Cluster Admin*.
+ .. Select the LDAP user type.
+ .. In the Distinguished Name field, follow the example in the text box to enter a full distinguished name for the user or group. Alternatively, paste it from the distinguished name you copied earlier.
++
+If the distinguished name is part of a group, then any user that is a member of that group on the LDAP server will have permissions of this admin account.
++
+To add LDAP Cluster Admin users or groups the general format of the username is "`LDAP:<Full Distinguished Name>`".
+
+ .. Select user permissions to apply to the account.
+ .. Select the check box to agree to the End User License Agreement.
+ .. Click *Create Cluster Admin*.
+
+*Related information*
+
+xref:task_system_manage_enable_ldap_authentication.adoc[Enable LDAP authentication with the Element user interface]

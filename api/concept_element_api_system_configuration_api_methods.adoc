@@ -1,0 +1,12 @@
+---
+permalink: api/concept_element_api_system_configuration_api_methods.html
+sidebar: sidebar
+keywords: system,config,configuration,methods,api
+summary: 'System configuration API methods enable you to obtain and set configuration values that apply to all nodes in the cluster.'
+---
+= System configuration API methods
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System configuration API methods enable you to obtain and set configuration values that apply to all nodes in the cluster.

@@ -1,0 +1,42 @@
+---
+permalink: concepts/concept_solidfire_concepts_cloud_services_on_netapp_hci.html
+sidebar: sidebar
+keywords: 
+summary: 'With NetApp HCI, a hybrid cloud infrastructure that serves as a deployment engine supporting NetApp Kubernetes Service, you can set up a cloud native development pipeline quickly and easily.'
+---
+= Cloud services on NetApp HCI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+With NetApp HCI, a hybrid cloud infrastructure that serves as a deployment engine supporting NetApp Kubernetes Service, you can set up a cloud native development pipeline quickly and easily.
+
+While there are many NetApp cloud services, the following lists only those services that you can use with NetApp HCI.
+
+You can find trials of these products and information on NetApp Cloud Central.
+
+https://cloud.netapp.com/home
+
+* *NetApp Cloud Insights*
++
+Enables you to monitor, troubleshoot, and optimize cost across all resources including public clouds and private data centers.
++
+Using Cloud Insights, you can visualize your topology with automated discovery to see end-to-end service paths. You'll know how your systems are performing and being used. When a performance-level violation is detected, you get data to help you determine the root cause of the violation.
++
+You can also identify unused or abandoned resources. Knowing the performance requirements of your applications helps you identify when they might be overprovisioned.
++
+Cloud Insights monitors NetApp HCI storage system performance, throughput, capacity, and IOPs by using a specfic NetApp HCI data collector.
+
+* *NetApp Cloud Volumes Service*
++
+Enables you to move workloads and applications to the cloud and manage them. As a fully managed file service, Cloud Volumes Service supports NFS, SMB, or dual protocol support; you do not need to manage Windows or Linux servers just to provide file services.
++
+Cloud Volumes Service provides shared persistent storage with high throughput and low latency.
++
+When deployed with NetApp Kubernetes Service, NetApp HCI clusters appear in Cloud Volumes Service.
+
+* *NetApp Kubernetes Service*
++
+Enables you to create a Kubernetes cluster quickly, run and manage your cloud infrastructure with NetApp HCI as the provider, deploy cloud-based microservices, and simplify your DevOps workflow.
++
+NetApp HCI can be deployed using NetApp Kubernetes Service and communicates with the service in the cloud.

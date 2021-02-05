@@ -1,0 +1,23 @@
+---
+permalink: storage/task_data_manage_accounts_create_an_account.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create an account to allow access to volumes.'
+---
+= Create an account
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create an account to allow access to volumes.
+
+Each account name in the system must be unique.
+
+. Select *Management* > *Accounts*.
+. Click *Create Account*.
+. Enter a *Username*.
+. In the *CHAP Settings* section, enter the following information:
+ ** *Initiator Secret* for CHAP node session authentication.
+ ** *Target Secret* for CHAP node session authentication.
+*Note:* Leave the credential fields blank to auto-generate either password.
+. Click *Create Account*.

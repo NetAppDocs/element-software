@@ -1,0 +1,37 @@
+---
+permalink: storage/task_system_manage_key_set_up_external_key_management.html
+sidebar: sidebar
+keywords: sign request,certificate authority
+summary: 'You can use these basic steps via the Element API to setup your external key management feature. Details of each API method can be found in the Element API Reference Guide.'
+---
+= Set up External key management
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use these basic steps via the Element API to setup your external key management feature. Details of each API method can be found in the Element API Reference Guide.
+
+. Establish a trust relationship with the External Key Server (EKS).
+ .. Create a public/private key pair for the Element cluster that is used to establish a trust relationship with the key server by calling the following API method: `CreatePublicPrivateKeyPair`
+ .. Get the certificate sign request (CSR) which the Certification Authority needs to sign. The CSR enables the key server to verify that the Element cluster that will be accessing the keys is authenticated as the Element cluster. Call the following API method: `GetClientCertificateSignRequest`
+ .. Use the EKS/Certificate Authority to sign the retrieved CSR. See third-party documentation for more information.
+. Create a server and provider on the cluster to communicate with the EKS. A key provider defines where a key should be obtained, and a server defines the specific attributes of the EKS that will be communicated with.
+ .. Create a key provider where the key server details will reside by calling the following API method: `CreateKeyProviderKmip`
+ .. Create a key server providing the signed certificate and the public key of the Certification Authority by calling the following API methods: `CreateKeyServerKmip``TestKeyServerKmip`
++
+If the test fails, verify your server connectivity and configuration. Then repeat the test.
+
+ .. Add the key server into the key provider container by calling the following API methods: `AddKeyServerToProviderKmip``TestKeyProviderKmip`
++
+If the test fails, verify your server connectivity and configuration. Then repeat the test.
+. Enable encryption at rest.
+ .. Enable encryption at rest by providing the ID of the key provider that contains the key server used for storing the keys by calling the following API method: `EnableEncryptionAtRest`
+
++
+NOTE: To enable encryption at rest using an external key management configuration, you must enable encryption at rest via the API. Enabling using the existing Element UI button will revert to using internally generated keys.
+
+*Related information*
+
+https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+
+link:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.md#[Enable and disable encryption for a cluster]

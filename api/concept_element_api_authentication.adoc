@@ -1,0 +1,14 @@
+---
+permalink: api/concept_element_api_authentication.html
+sidebar: sidebar
+keywords: API,authentication,auth,SolidFire
+summary: 'You can authenticate with the system when using the API by including an HTTP Basic authentication header with all API requests. If you omit authentication information, the system rejects the unauthenticated request with an HTTP 401 response. The system supports HTTP Basic authentication over TLS.'
+---
+= API authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can authenticate with the system when using the API by including an HTTP Basic authentication header with all API requests. If you omit authentication information, the system rejects the unauthenticated request with an HTTP 401 response. The system supports HTTP Basic authentication over TLS.
+
+Use the cluster admin account for API authentication.

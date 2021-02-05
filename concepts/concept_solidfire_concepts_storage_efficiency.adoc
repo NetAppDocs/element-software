@@ -1,0 +1,24 @@
+---
+permalink: concepts/concept_solidfire_concepts_storage_efficiency.html
+sidebar: sidebar
+keywords: 
+summary: 'Netapp SolidFire storage clusters make use of deduplication, compression, and thin provisioning to reduce the amount of physical storage needed for storing a volume.'
+---
+= Storage efficiency
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Netapp SolidFire storage clusters make use of deduplication, compression, and thin provisioning to reduce the amount of physical storage needed for storing a volume.
+
+* *Compression*
++
+Compression reduces the amount of physical storage required for a volume by combining data blocks in compression groups, each of which is stored as a single block.
+
+* *Deduplication*
++
+Deduplication reduces the amount of physical storage required for a volume by discarding duplicate data blocks.
+
+* *Thin provisioning*
++
+A thin-provisioned volume or LUN is one for which storage is not reserved in advance. Instead, storage is allocated dynamically, as it is needed. Free space is released back to the storage system when data in the volume or LUN is deleted

@@ -1,0 +1,50 @@
+---
+permalink: hardware-b/task_sf_series_remove_drive_from_chassis.html
+sidebar: sidebar
+keywords: 
+summary: 'After you remove a failed drive from the failed drive list in the Element user interface \(UI\), you are ready to physically replace the failed drive from the chassis.'
+---
+= Remove drives from the chassis
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you remove a failed drive from the failed drive list in the Element user interface (UI), you are ready to physically replace the failed drive from the chassis.
+
+* You have removed the failed drive from the cluster by using the Element UI.
+* You have obtained the slot number of the failed drive from the Element UI.
+* You have reviewed xref:concept_sf_series_drive_best_practices.adoc[Rules for handling drives].
+
+. Unpack the replacement drive, and place it on a flat, static-free surface near the rack.
++
+Save the packing materials for when you return the failed drive to NetApp.
+
+. Match the slot number of the failed drive from the Element UI with the number on the chassis.
++
+The following figure is an example to show the numbering of the drive slots:
++
+image::../media/sf_series_drive_numbers.gif[This figure shows the drive numbering for SolidFire storage nodes.]
++
+|===
+a|
+image:../media/common_legend_icon_01.gif[]
+a|
+Drive slot numbers
+|===
+
+. Press the red circle on the drive you want to remove to release the drive.
++
+The latch clicks open.
+
+. Slide the drive out of the chassis, and place it on a static-free, level surface.
+. Press the red circle on the replacement drive before you slide it into the slot.
+. Insert the replacement drive, and press the red circle to close the latch.
+. Notify NetApp Support about the drive replacement.
++
+NetApp Support will provide instructions for returning the failed drive.
+
+*Related information*
+
+xref:concept_sf_series_drive_best_practices.adoc[Rules for handling drives]
+
+link:[Contacting NetApp Support for SolidFire]

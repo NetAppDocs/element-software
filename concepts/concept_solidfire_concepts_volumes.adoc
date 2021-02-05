@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'The NetApp SolidFire storage system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients.'
+---
+= Volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NetApp SolidFire storage system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients.

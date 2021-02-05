@@ -1,0 +1,28 @@
+---
+permalink: esds-a/reference_esds_element_links.html
+sidebar: sidebar
+keywords: element,solidfire esds,volumes,accounts,snapshots,virtual volumes,remote replication
+summary: 'After you install SolidFire eSDS on your storage clusters, you can use Element UI or the NetApp Element Plug-in for vCenter Server \(VCP\) to manage your storage clusters.'
+---
+= Manage SolidFire eSDS storage
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you install SolidFire eSDS on your storage clusters, you can use Element UI or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters.
+
+Here are the links to the content for various storage management tasks:
+
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-5D26E692-461D-4C48-B294-44E57D79C70E.html[Using basic options in the Element software UI]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-E93D3BAF-5A60-414D-86AF-0C1F86D43F26.html[Working with user accounts]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-2D2EAC0D-DD28-4ACA-A189-AA45E982EFDB.html[Working with volumes]. You can also find information about applying a QoS policy to volumes here.
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C1569B1B-4448-4EE3-876D-866C504AF75F.html[Working with virtual volumes]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-EBCB1031-1B2D-472C-92E3-E0CB52B4156C.html[Working with volume access groups and initiators]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-A6F6D2F0-D6A7-475D-A915-F6FDB5136890.html[Working with snapshots]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-F4CA010F-DFEA-4988-A8A5-FC2C28D0E191.html[Performing remote replication between clusters]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-8D9203FB-7A12-4F01-B1FA-DDF7CD5A7524.html[Backing up and restoring volumes]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html[Managing storage using Element APIs]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-B98B2215-0E35-4342-BD3E-33027D9DA64B.html[Monitoring system performance]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-mg-vcp/home.html[NetApp Element Plug-in for vCenter Server overview] You can navigate to specific tasks from the overview page.
+
+For more information and content related to managing storage using Element, see https://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element 12.2 Documentation Center].

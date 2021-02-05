@@ -1,0 +1,22 @@
+---
+permalink: storage/task_data_manage_volumes_edit_a_qos_policy.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the name of an existing QoS policy or edit the values associated with the policy. Changing a QoS policy affects all volumes associated with the policy.'
+---
+= Edit a QoS policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the name of an existing QoS policy or edit the values associated with the policy. Changing a QoS policy affects all volumes associated with the policy.
+
+. Select *Management* > *QoS Policies*.
+. Click the Actions icon for the QoS policy you want to edit.
+. In the resulting menu, select**Edit**.
+. In the *Edit QoS Policy* dialog box, modify the following properties as required:
+ ** Policy Name
+ ** Min IOPS
+ ** Max IOPS
+ ** Burst IOPS
+. Click *Save Changes*.

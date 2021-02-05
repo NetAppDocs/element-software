@@ -1,0 +1,26 @@
+---
+permalink: storage/task_data_manage_accounts_work_with_accounts_task.html
+sidebar: sidebar
+keywords: 
+summary: 'In SolidFire storage systems, user accounts enable clients to connect to volumes on a node. When you create a volume, it is assigned to a specific user account.'
+---
+= Work with user accounts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In SolidFire storage systems, user accounts enable clients to connect to volumes on a node. When you create a volume, it is assigned to a specific user account.
+
+An account contains the CHAP authentication required to access the volumes assigned to it.
+
+An account can have up to two-thousand volumes assigned to it, but a volume can belong to only one account.
+
+*Related information*
+
+xref:task_data_manage_accounts_create_an_account.adoc[Create an account]
+
+xref:task_data_manage_accounts_view_individual_account_performance_details.adoc[View individual account performance details]
+
+xref:task_data_manage_accounts_edit_an_account.adoc[Edit an account]
+
+xref:task_data_manage_accounts_delete_an_account.adoc[Delete an account]

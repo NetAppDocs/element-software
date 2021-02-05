@@ -1,0 +1,18 @@
+---
+permalink: concepts/concept_solidfire_concepts_accounts_and_permissions.html
+sidebar: sidebar
+keywords: 
+summary: 'The SolidFire storage system can have two types of administrators: the primary cluster administrator \(with the highest level of access\) and cluster administrators \(with limited access\).'
+---
+= Accounts and permissions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SolidFire storage system can have two types of administrators: the primary cluster administrator (with the highest level of access) and cluster administrators (with limited access).
+
+The primary cluster administrator account is created when the cluster is created. This account has the highest level of access to the cluster. It is analogous to a root user in a Linux system. Two (or more) cluster administrators with administrator access permissions must exist before you can delete the primary cluster administrator account. You can change the password for this administrator account.
+
+You can give a cluster administrator account a limited range of administrative access to perform specific tasks within a cluster. The credentials assigned to each cluster administrator account are used to authenticate API and Element UI requests within the storage system.
+
+NOTE: A local (non-LDAP) cluster administrator account is required to access active nodes in a cluster via the per-node UI. Account credentials are not required to access a node that is not yet part of a cluster.

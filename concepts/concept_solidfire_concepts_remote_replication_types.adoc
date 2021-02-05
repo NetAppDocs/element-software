@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_remote_replication_types.html
+sidebar: sidebar
+keywords: 
+summary: 'Remote replication of data can take the form of synchronous, asynchronous, or snapshot-only replication. Remote replication can also include replication of data between NetApp Element software and ONTAP systems using SnapMirror technology.'
+---
+= Remote replication types
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remote replication of data can take the form of synchronous, asynchronous, or snapshot-only replication. Remote replication can also include replication of data between NetApp Element software and ONTAP systems using SnapMirror technology.

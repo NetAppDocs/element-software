@@ -1,0 +1,171 @@
+---
+permalink: esds/task_esds_create_cluster.html
+sidebar: sidebar
+keywords: solidfire esds,installing solidfire esds,create cluster
+summary: 'After you configure the cluster name on each SolidFire eSDS storage node, you can create a cluster using either the per-node UI or the Element API.'
+---
+= Create a SolidFire eSDS cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you configure the cluster name on each SolidFire eSDS storage node, you can create a cluster using either the per-node UI or the Element API.
+
+IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS clusters. If you want to change the default, you must do so when you create the cluster using the CreateCluster API method.
+
+. Choose from one of the following options:
+ ** Use the per-node UI:
+  ... Open the per-node management node UI: *https://<node_mip>:442*.
+  ... From the left-hand navigation, click *Create Cluster*.
+  ... Select the checkboxes for the nodes. The SolidFire eSDS nodes will be displayed as SFc100.
+  ... Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number.
++
+NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created.
++
+IMPORTANT: If you do not specify the order number and serial number, the create cluster operation will fail.
++
+image::../media/esds_create_cluster.png[]
+
+  ... Confirm that you have read the NetApp End User License Agreement.
+  ... Click *Create Cluster*.
+  ... To verify that cluster was created, log in to the cluster: *http://<mvip_ip>*.
+  ... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
+ ** Use the CreateCluster API method.
++
+This method has the following input parameters:
++
+|===
+| Name| Description| Type| Default value| Required
+a|
+acceptEula
+a|
+Indicate your acceptance of the End User License Agreement when creating this cluster. To accept the EULA, set this parameter to true.
+a|
+boolean
+a|
+None
+a|
+Yes
+a|
+attributes
+a|
+List of name-value pairs in JSON object format.
+a|
+JSON object
+a|
+None
+a|
+No
+a|
+enableSoftwareEncryptionAtRest
+a|
+Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire eSDS clusters. Defaults to false on all other clusters.
+a|
+boolean
+a|
+true
+a|
+No
+a|
+mvip
+a|
+Floating (virtual) IP address for the cluster on the management network.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+nodes
+a|
+CIP/SIP addresses of the initial set of nodes making up the cluster. This node's IP must be in the list.
+a|
+string array
+a|
+None
+a|
+Yes
+a|
+orderNumber
+a|
+Alphanumeric sales order number. Required on SolidFire eSDS.
+a|
+string
+a|
+None
+a|
+        No (hardware-based platforms)
++
+Yes (software-based platforms)
+a|
+password
+a|
+Initial password for the cluster admin account.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+serialNumber
+a|
+Nine-digit alphanumeric Serial Number. Required on SolidFire eSDS.
+a|
+string
+a|
+None
+a|
+        No (hardware-based platforms)
++
+Yes (software-based platforms)
+a|
+svip
+a|
+Floating (virtual) IP address for the cluster on the storage (iSCSI) network.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+username
+a|
+User name for the cluster admin.
+a|
+string
+a|
+None
+a|
+Yes
+|===
+See the following example request:
++
+----
+
+{
+  "method": "CreateCluster",
+  "params": {
+    "acceptEula": true,
+    "mvip": "10.0.3.1",
+    "svip": "10.0.4.1",
+    "repCount": 2,
+    "username": "Admin1",
+    "password": "9R7ka4rEPa2uREtE",
+    "attributes": {
+      "clusteraccountnumber": "axdf323456"
+    },
+    "nodes": [
+      "10.0.2.1",
+      "10.0.2.2",
+      "10.0.2.3",
+      "10.0.2.4"
+    ]
+  },
+  "id": 1
+}
+----
++
+For more information about this method, see https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9E105236-EDCF-4613-8504-C6685AF937A5.html[here].

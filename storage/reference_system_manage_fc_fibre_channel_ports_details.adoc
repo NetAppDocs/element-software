@@ -1,0 +1,58 @@
+---
+permalink: storage/reference_system_manage_fc_fibre_channel_ports_details.html
+sidebar: sidebar
+keywords: 
+summary: 'The FC Ports page on the Cluster tab provides information about the Fibre Channel ports that are connected to the cluster.'
+---
+= Fibre Channel ports details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The FC Ports page on the Cluster tab provides information about the Fibre Channel ports that are connected to the cluster.
+
+The following list describes information about the Fibre Channel ports that are connected to the cluster:
+
+* *Node ID*
++
+The node hosting the session for the connection.
+
+* *Node Name*
++
+System-generated node name.
+
+* *Slot*
++
+Slot number where the Fibre Channel port is located.
+
+* *HBA Port*
++
+Physical port on the Fibre Channel host bus adapter (HBA).
+
+* *WWNN*
++
+The world wide node name.
+
+* *WWPN*
++
+The target world wide port name.
+
+* *Switch WWN*
++
+World wide name of the Fibre Channel switch.
+
+* *Port State*
++
+Current state of the port.
+
+* *nPort ID*
++
+The node port ID on the Fibre Channel fabric.
+
+* *Speed*
++
+The negotiated Fibre Channel speed. Possible values are as follows:
+
+ ** 4Gbps
+ ** 8Gbps
+ ** 16Gbps

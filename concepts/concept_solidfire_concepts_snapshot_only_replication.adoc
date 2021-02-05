@@ -1,0 +1,16 @@
+---
+permalink: concepts/concept_solidfire_concepts_snapshot_only_replication.html
+sidebar: sidebar
+keywords: 
+summary: 'Snapshot-only data protection replicates changed data at specific points of time to a remote cluster. Only those snapshots that are created on the source cluster are replicated. Active writes from the source volume are not.'
+---
+= Snapshot-only replication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Snapshot-only data protection replicates changed data at specific points of time to a remote cluster. Only those snapshots that are created on the source cluster are replicated. Active writes from the source volume are not.
+
+You can set the frequency of the snapshot replications.
+
+Snapshot replication does not affect asynchronous or synchronous replication.

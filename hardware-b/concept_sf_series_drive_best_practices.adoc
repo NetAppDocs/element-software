@@ -1,0 +1,27 @@
+---
+permalink: hardware-b/concept_sf_series_drive_best_practices.html
+sidebar: sidebar
+keywords: handling drives
+summary: 'You must take care to avoid damaging the drives while removing and replacing them.'
+---
+= Rules for handling drives
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must take care to avoid damaging the drives while removing and replacing them.
+
+* Prevent electrostatic discharge (ESD):
+ ** Keep the drive in the ESD bag until you are ready to install it.
+ ** Do not insert a metal tool or knife into the ESD bag.
++
+Open the ESD bag by hand or cut the top off with a pair of scissors.
+
+ ** Keep the ESD bag and any packing materials in case you must return a drive later.
+ ** Always wear an ESD wrist strap grounded to an unpainted surface on your chassis.
+* Handle drives carefully:
+ ** Always use both hands when removing, installing, or carrying a drive.
+ ** Never force a drive into the chassis.
+ ** Do not stack drives on top of each other.
+ ** Protect the drives from excessive shock, because shock might damage the components of the drives.
+ ** Always use approved packaging when shipping drives.

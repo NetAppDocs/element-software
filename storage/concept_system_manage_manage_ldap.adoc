@@ -1,0 +1,26 @@
+---
+permalink: storage/concept_system_manage_manage_ldap.html
+sidebar: sidebar
+keywords: 
+summary: 'You can set up the Lightweight Directory Access Protocol \(LDAP\) to enable secure, directory-based login functionality to SolidFire storage. You can configure LDAP at the cluster level and authorize LDAP users and groups.'
+---
+= Manage LDAP
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can set up the Lightweight Directory Access Protocol (LDAP) to enable secure, directory-based login functionality to SolidFire storage. You can configure LDAP at the cluster level and authorize LDAP users and groups.
+
+Managing LDAP involves setting up LDAP authentication to a SolidFire cluster using an existing Microsoft Active Directory environment and testing the configuration.
+
+NOTE: You can use both IPv4 and IPv6 addresses.
+
+Enabling LDAP involves the following high-level steps, each described in detail:
+
+. *Verify inputs*. Validate that you have all of the details required to configure LDAP authentication.
+. *Enable LDAP authentication*. Use either the Element UI or the Element API.
+. *Validate the LDAP configuration*. Optionally, check that the cluster is configured with the correct values by running the GetLdapConfiguration API method or by checking the LCAP configuration using the Element UI.
+. *Test the LDAP authentication* (with the `readonly` user). Test that the LDAP configuration is correct either by running the TestLdapAuthentication API method or by using the Element UI. For this initial test, use the username "`sAMAccountName`" of the `readonly` user. This will validate that your cluster is configured correctly for LDAP authentication and also validate that the `readonly` credentials and access are correct. If this step fails, repeat steps 1 through 3.
+. *Test the LDAP authentication* (with a user account that you want to add). Repeat setp 4 with a user account that you want to add as an Element cluster admin. Copy the `distinguished` name (DN) or the user (or the group). This DN will be used in step 6.
+. *Add the LDAP cluster admin* (copy and paste the DN from the Test LDAP authentication step). Using either the Element UI or the AddLdapClusterAdmin API method, create a new cluster admin user with the appropriate access level. For the username, paste in the full DN you copied in Step 5. This assures that the DN is formatted correctly.
+. *Test the cluster admin access*. Log in to the cluster using the newly created LDAP cluster admin user. If you added an LDAP group, you can log in as any user in that group.
