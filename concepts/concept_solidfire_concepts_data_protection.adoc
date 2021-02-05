@@ -1,0 +1,12 @@
+---
+permalink: concepts/concept_solidfire_concepts_data_protection.html
+sidebar: sidebar
+keywords: 
+summary: 'Data protection terms include different types of remote replication, volume snapshots, volume cloning, protection domains, and high availability with double Helix technology.'
+---
+= Data protection
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Data protection terms include different types of remote replication, volume snapshots, volume cloning, protection domains, and high availability with double Helix technology.

@@ -1,0 +1,33 @@
+---
+permalink: esds/task_esds_change_gc_constant.html
+sidebar: sidebar
+keywords: garbage collection
+summary: 'After you create a cluster, you should change the Garbage Collection \(GC\) constant to false. This applies only to NetApp Element software 12.2.'
+---
+= Change the Garbage Collection constant
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you create a cluster, you should change the Garbage Collection (GC) constant to false. This applies only to NetApp Element software 12.2.
+
+For more information, see https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU437[NetApp Support Bulletin SU437].
+
+. Gather the MVIP for your SolidFire cluster.
++
+This is the IP address you use to connect to the cluster UI web page.
+
+. Substitute that IP address for MVIP in the URL below and paste the link into your web browser:
++
+----
+https://MVIP/json-rpc/12.2?method=SetConstants&cGCSendBloomFiltersInSeparateThreadEnable=false
+----
+
+. After the prompt, enter your cluster admin username and password.
+. Note the information in the web page output. The browser displays output similar to the following, with GCSendBloomFiltersInSeparateThreadEnable set to false. You can ignore other cluster constants.
++
+----
+{"id": null, "result": {cGCSendBloomFiltersInSeparateThreadEnable": false,"requestAPIVersion": "12.2"}}
+----
++
+NOTE: If you encounter any issues or have questions, contact NetApp Support using the https://www.netapp.com/company/contact-us/support/[NetApp Support Site].

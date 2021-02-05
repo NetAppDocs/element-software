@@ -1,0 +1,92 @@
+---
+permalink: storage/task_system_manage_enable_ldap_authentication_using_the_element_api.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure storage system integration with an existing LDAP server. This enables LDAP administrators to centrally manage storage system access for users.'
+---
+= Enable LDAP authentication with the Element API
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure storage system integration with an existing LDAP server. This enables LDAP administrators to centrally manage storage system access for users.
+
+You can configure LDAP with either the Element user interface or the Element API. This procedure describes how to configure LDAP using the Element API.
+
+To leverage LDAP authentication on a SolidFire cluster, you enable LDAP authentication first on the cluster using theEnableLdapAuthentication API method.
+
+. Enable LDAP authentication first on the cluster using theEnableLdapAuthentication API method.
+. Enter the required information.
++
+link:reference_system_manage_ldap_details.md#[LDAP details]
++
+----
+{
+     "method":"EnableLdapAuthentication",
+     "params":{
+          "authType": "SearchAndBind",
+          "groupSearchBaseDN": "dc=prodtest,dc=solidfire,dc=net",
+          "groupSearchType": "ActiveDirectory",
+          "searchBindDN": "SFReadOnly@prodtest.solidfire.net",
+          "searchBindPassword": "ReadOnlyPW",
+          "userSearchBaseDN": "dc=prodtest,dc=solidfire,dc=net ",
+          "userSearchFilter": "(&(objectClass=person)(sAMAccountName=%USERNAME%))"
+          "serverURIs": [
+               "ldap://172.27.1.189",
+          [
+     },
+  "id":"1"
+}
+----
+
+. Change the values of the following parameters:
++
+|===
+| Parameters used| Description
+a|
+authType: SearchAndBind
+a|
+Dictates that the cluster will use the readonly service account to first search for the user being authenticated and subsequently bind that user if found and authenticated.
+a|
+groupSearchBaseDN: dc=prodtest,dc=solidfire,dc=net
+a|
+Specifies the location in the LDAP tree to begin searching for groups. For this example, we've used the root of our tree. If your LDAP tree is very large, you might want to set this to a more granular sub-tree to decrease search times.
+a|
+userSearchBaseDN: dc=prodtest,dc=solidfire,dc=net
+a|
+Specifies the location in the LDAP tree to begin searching for users. For this example, we've used the root of our tree. If your LDAP tree is very large, you might want to set this to a more granular sub-tree to decrease search times.
+a|
+groupSearchType: ActiveDirectory
+a|
+Uses the Windows Active Directory server as the LDAP server.
+a|
+    userSearchFilter:
++
+----
+“(&(objectClass=person)(sAMAccountName=%USERNAME%))”
+----
++
+If you want to use the userPrincipalName (email address for login) you could change the userSearchFilter to:
++
+----
+“(&(objectClass=person)(userPrincipalName=%USERNAME%))”
+----
++
+Or, if you'd like to search both userPrincipalName and sAMAccountName, you can use the following userSearchFilter:
++
+----
+“(&(objectClass=person)(|(sAMAccountName=%USERNAME%)(userPrincipalName=%USERNAME%)))”
+----
+a|
+Leverages the sAMAccountName as our username for logging in to the SolidFire cluster. These settings tell LDAP to search for the username specified during login in the sAMAccountName attribute and also limit the search to entries that have "`person`" as a value in the objectClass attribute.
+a|
+searchBindDN
+a|
+This is the distinguished name of readonly user that will be used to search the LDAP directory. For active directory it's usually easiest to use the userPrincipalName (email address format) for the user.
+a|
+searchBindPassword
+a|
+This is the password for the readonly user account.
+|===
+
+To test this, log out of the Element UI and log back in as a user in that group.

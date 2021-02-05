@@ -1,0 +1,17 @@
+---
+permalink: hardware/task_sf_isg_create_cluster.html
+sidebar: sidebar
+keywords: 
+summary: 'After you add the storage node to your installation and configure the new storage resource, you are ready to create a new storage cluster'
+---
+= Create a new cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you add the storage node to your installation and configure the new storage resource, you are ready to create a new storage cluster
+
+. From a client on the same network as the newly configured node, access the NetApp Element software UI by entering the node's IP address.
+. Enter the required information in the **Create a New Cluster**window.
++
+http://docs.netapp.com/sfe-113/topic/com.netapp.doc.sfe-sg/home.html[Setting up storage with Element software]

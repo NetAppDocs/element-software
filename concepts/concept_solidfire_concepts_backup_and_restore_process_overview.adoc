@@ -1,0 +1,20 @@
+---
+permalink: concepts/concept_solidfire_concepts_backup_and_restore_process_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'You can back up and restore volumes to other SolidFire storage, as well as to secondary object stores that are compatible with Amazon S3 or OpenStack Swift.'
+---
+= Backup and restore process overview for SolidFire storage
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can back up and restore volumes to other SolidFire storage, as well as to secondary object stores that are compatible with Amazon S3 or OpenStack Swift.
+
+You can back up a volume to the following:
+
+* A SolidFire storage cluster
+* An Amazon S3 object store
+* An OpenStack Swift object store
+
+When you restore volumes from OpenStack Swift or Amazon S3, you need manifest information from the original backup process. If you are restoring a volume that was backed up on a SolidFire storage system, no manifest information is required.

@@ -1,0 +1,16 @@
+---
+permalink: storage/task_system_manage_nodes_view_individual_node_details.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view details for individual nodes such as service tags, drive details, and graphics for utilization and drive statistics. The Nodes page of the Cluster tab provides the Version column where you can view the software version of each node.'
+---
+= View individual node details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view details for individual nodes such as service tags, drive details, and graphics for utilization and drive statistics. The Nodes page of the Cluster tab provides the Version column where you can view the software version of each node.
+
+. Click *Cluster* > *Nodes*.
+. Click the Actions icon for a node.
+. Click *View Details*.

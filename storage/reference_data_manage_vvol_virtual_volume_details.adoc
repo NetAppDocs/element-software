@@ -1,0 +1,76 @@
+---
+permalink: storage/reference_data_manage_vvol_virtual_volume_details.html
+sidebar: sidebar
+keywords: 
+summary: 'The Virtual Volumes page of the VVols tab provides information about each active virtual volume on the cluster, such as volume ID, snapshot ID, parent virtual volume ID, and virtual volume ID.'
+---
+= Virtual volume details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Virtual Volumes page of the VVols tab provides information about each active virtual volume on the cluster, such as volume ID, snapshot ID, parent virtual volume ID, and virtual volume ID.
+
+* *Volume ID*
++
+The ID of the underlying volume.
+
+* *Snapshot ID*
++
+The ID of the underlying volume snapshot. The value is 0 if the virtual volume does not represent a SolidFire snapshot.
+
+* *Parent Virtual Volume ID*
++
+The virtual volume ID of the parent virtual volume. If the ID is all zeros, the virtual volume is independent with no link to a parent.
+
+* *Virtual Volume ID*
++
+The UUID of the virtual volume.
+
+* *Name*
++
+The name assigned to the virtual volume.
+
+* *Storage Container*
++
+The storage container that owns the virtual volume.
+
+* *Guest OS Type*
++
+Operating system associated with the virtual volume.
+
+* *Virtual Volume Type*
++
+The virtual volume type: Config, Data, Memory, Swap, or Other.
+
+* *Access*
++
+The read-write permissions assigned to the virtual volume.
+
+* *Size*
++
+The size of the virtual volume in GB or GiB.
+
+* *Snapshots*
++
+The number of associated snapshots. Click the number to link to snapshot details.
+
+* *Min IOPS*
++
+The minimum IOPS QoS setting of the virtual volume.
+
+* *Max IOPS*
++
+The maximum IOPS QoS setting of the virtual volume.
+
+* *Burst IOPS*
++
+The maximum burst QoS setting of the virtual volume.
+
+* *VMW_VmID*
++
+Information in fields prefaced with "VMW_" are defined by VMware.
+
+* *Create Time*
++
+The time the virtual volume creation task was completed.

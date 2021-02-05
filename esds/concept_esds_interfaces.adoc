@@ -1,0 +1,72 @@
+---
+permalink: esds/concept_esds_interfaces.html
+sidebar: sidebar
+keywords: solidfire esds,software-defined storage,tools,interfaces
+summary: 'You can find information about the tools and interfaces you will interact with to install and use SolidFire eSDS.'
+---
+= Interfaces and tools for SolidFire eSDS installation and use
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can find information about the tools and interfaces you will interact with to install and use SolidFire eSDS.
+
+Here is a list of tools and interfaces you use for installing, monitoring, and managing SolidFire eSDS:
+
+|===
+| Tool/interface| Who uses it| Description
+a|
+Ansible compliance check role
+a|
+Customer
+a|
+For verifying that the platform matches the reference configuration listed in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool](IMT). This must be done before installing SolidFire eSDS.
+a|
+Ansible install role
+a|
+Customer
+a|
+For installing SolidFire eSDS.
+a|
+Management node
+a|
+Customer
+a|
+For log bundle collection and management services, such as AIQ.
+a|
+NetApp Hybrid Cloud Control
+a|
+Customer, NetApp Support
+a|
+For cluster creation and per-node management, as well as log collection from the management node.
+a|
+Hewlett Packard Enterprise (HPE) Integrated Lights Out (iLO)
+a|
+Customer, HPE Support
+a|
+For collecting data about events and statuses for root cause analysis.
+a|
+HPE OneView
+a|
+Customer, HPE Support
+a|
+For an aggregated view of iLO.
+a|
+NetApp Element software UI
+a|
+Customer
+a|
+For managing SolidFire eSDS storage clusters.
+a|
+Active IQ
+a|
+Customer, NetApp Support
+a|
+For cluster health status monitoring.
+a|
+One Collect
+a|
+NetApp Support
+a|
+For supplemental log collection.
+|===

@@ -1,0 +1,30 @@
+---
+permalink: hardware-d/task_sf_h410s_add_node_to_cluster.html
+sidebar: sidebar
+keywords: 
+summary: 'When you add a node to the cluster or install new drives in an existing node, the drives automatically register as available. You must add the drives to the cluster by using either the Element UI or API before they can participate in the cluster.'
+---
+= Add H410S node to the cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you add a node to the cluster or install new drives in an existing node, the drives automatically register as available. You must add the drives to the cluster by using either the Element UI or API before they can participate in the cluster.
+
+The software version on each node in a cluster must be compatible. When you add a node to a cluster, the cluster installs the cluster version of Element software on the new node as needed.
+
+. Select *Cluster* > *Nodes*.
+. Click *Pending* to view the list of pending nodes.
+. Do one of the following:
+ ** To add individual nodes, click the *Actions* icon for the node you want to add.
+ ** To add multiple nodes, select the check box of the nodes to add, and then *Bulk Actions*.
+*Note:* If the node you are adding has a different version of Element software than the version running on the cluster, the cluster asynchronously updates the node to the version of Element software running on the cluster master. After the node is updated, it automatically adds itself to the cluster. During this asynchronous process, the node will be in a pendingActive state.
+. Click *Add*.
++
+The node appears in the list of active nodes.
+
+. From the Element UI, select *Cluster* > *Drives*.
+. Click *Available* to view the list of available drives.
+. Do one of the following:
+ ** To add individual drives, click the *Actions* icon for the drive you want to add and click *Add*.
+ ** To add multiple drives, select the check boxes of the drives to add, click *Bulk Actions*, and click *Add*.

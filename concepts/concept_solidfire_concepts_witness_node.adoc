@@ -1,0 +1,11 @@
+---
+permalink: concepts/concept_solidfire_concepts_witness_node.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Witness node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
