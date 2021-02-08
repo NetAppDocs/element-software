@@ -18,21 +18,15 @@ Volumes created without specified QoS values use the default values. You can vie
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
-a|
-accountID
-a|
-The ID of the account that owns this volume.
-a|
-integer
-a|
-None
-a|
-Yes
-a|
-associateWithQoSPolicy
-a|
-Associate the volume with the specified QoS policy. Possible values:
+|Name |Description |Type |Default value |Required
+
+|accountID
+|The ID of the account that owns this volume.
+|integer
+|None
+|Yes
+|associateWithQoSPolicy
+a|Associate the volume with the specified QoS policy. Possible values:
 
 * true: Associate the volume with the QoS policy specified in the QoSPolicyID parameter.
 * false: Do not associate the volume with the QoS policy specified in the QoSPolicyID parameter. When false, any existing policy association is removed, regardless of whether you specify a QoS policy in the QoSPolicy parameter.
