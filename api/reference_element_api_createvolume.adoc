@@ -20,6 +20,12 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 
+|access
+|The access mode for the volume. If this parameter is included, the only supported value is `snapMirrorTarget`.
+|string
+|None
+|No
+
 |accountID
 |The ID of the account that owns this volume.
 |integer
