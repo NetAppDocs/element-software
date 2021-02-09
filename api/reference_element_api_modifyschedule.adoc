@@ -22,9 +22,9 @@ a|
 a|
 Use to change the frequency of the snapshot occurrence. Possible values:
 
-* Days of Week
-* Days of Month
-* Time Interval
+* `Days of Week`
+* `Days of Month`
+* `Time Interval`
 
 a|
 JSON object
@@ -74,8 +74,8 @@ a|
 a|
 Indicates if the schedule should be paused or not. Valid values:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -88,8 +88,8 @@ a|
 a|
 Indicates if the schedule will be recurring or not. Valid values are:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -102,8 +102,8 @@ a|
 a|
 Use to choose whether or not to run the snapshot the next time the scheduler is active. Valid values:
 
-* true
-* false
+* `true`
+* `false`
 
 When set to true, the scheduled snapshot runs the next time the scheduler is active, and then resets back to false.
 a|
@@ -176,8 +176,8 @@ a|
 a|
 Indicates if the schedule is marked for deletion. Valid values:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean

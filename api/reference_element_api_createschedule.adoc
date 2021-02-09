@@ -26,9 +26,9 @@ a|
 a|
 Use the "`frequency`" string to indicate the frequency of the snapshot. Possible values:
 
-* Days of Week
-* Days of Month
-* Time Interval
+* `Days of Week`
+* `Days of Month`
+* `Time Interval`
 
 a|
 JSON object
@@ -87,8 +87,8 @@ a|
 a|
 Indicates if the schedule should be paused or not. Valid values:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -101,8 +101,8 @@ a|
 a|
 Indicates if the schedule will be recurring or not. Valid values are:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -145,13 +145,15 @@ Yes
 a|
 `scheduleInfo`
 a|
-An object of schedule information about how the snapshot should be created at each scheduled interval.
+The unique name given to the schedule, the retention period for the snapshot that was created, and the volume ID of the volume from which the snapshot was created. Valid values:
 
-* volumeID: The ID of the volume to be included in the snapshot. (integer)
-* volumes: A list of volume IDs to be included in the group snapshot. (integer array)
-* name: The snapshot name to be used. (string)
-* enableRemoteReplication: Indicates if the snapshot should be included in remote replication. (boolean)
-* retention: The amount of time the snapshot will be retained in HH:mm:ss. (string)
+* `volumeID`: The ID of the volume to be included in the snapshot. (integer)
+* `volumes`: A list of volume IDs to be included in the group snapshot. (integer array)
+* `name`: The snapshot name to be used. (string)
+* `enableRemoteReplication`: Indicates if the snapshot should be included in remote replication. (boolean)
+* `retention`: The amount of time the snapshot will be retained in HH:mm:ss. If empty, the snapshot is retained forever. (string)
+* `fifo`: The snapshot is retained on a First-In-First-Out (FIFO) basis. (string)
+* `ensureSerialCreation`: Specify if a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
 
 a|
 JSON object
@@ -202,8 +204,8 @@ a|
 a|
 Day of the week the snapshot is to be created. Required values (if used):
 
-* Day: 0 through 6 (Sunday through Saturday)
-* Offset: for each possible week in a month, 1 through 6 (If greater than 1, only matched on the Nth-1 day of the week. For example, offset:3 for Sunday means the third Sunday of the month, while offset:4 for Wednesday means the fourth Wednesday of the month. Offset:0 means no action is taken. Offset:1 (default) means that the snapshot is created for this day of the week, regardless of where it falls in the month)
+* `Day`: 0 through 6 (Sunday through Saturday)
+* `Offset`: for each possible week in a month, 1 through 6 (If greater than 1, only matched on the Nth-1 day of the week. For example, offset:3 for Sunday means the third Sunday of the month, while offset:4 for Wednesday means the fourth Wednesday of the month. Offset:0 means no action is taken. Offset:1 (default) means that the snapshot is created for this day of the week, regardless of where it falls in the month)
 
 a|
 JSON object array

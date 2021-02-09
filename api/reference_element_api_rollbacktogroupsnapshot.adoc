@@ -87,18 +87,18 @@ JSON object array
 a|
 groupSnapshotID
 a|
-If saveCurrentState was set to false, this value is null.
+If `saveCurrentState` was set to false, this value is null.
 
-If saveCurrentState was set to true, the unique ID of the newly created group snapshot.
+If `saveCurrentState` was set to true, the unique ID of the newly created group snapshot.
 
 a|
 integer
 a|
 groupSnapshot
 a|
-If saveCurrentState was set to false, this value is null.
+If `saveCurrentState` was set to false, this value is null.
 
-If saveCurrentState was set to true, an object containing information about the group snapshot which RollbackToGroupSnapshot just rolled back to.
+If `saveCurrentState` was set to true, an object containing information about the group snapshot which `RollbackToGroupSnapshot` just rolled back to.
 
 a|
 xref:reference_element_api_groupsnapshot.adoc[groupSnapshot]

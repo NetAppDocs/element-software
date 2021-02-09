@@ -22,8 +22,8 @@ a|
 a|
 Use to enable the snapshot created to be replicated to a remote storage cluster. Possible values:
 
-* true: The snapshot will be replicated to remote storage.
-* false:The snapshot will not be replicated to remote storage.
+* `true`: The snapshot will be replicated to remote storage.
+* `false`:The snapshot will not be replicated to remote storage.
 
 a|
 boolean
