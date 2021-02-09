@@ -20,19 +20,19 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 
-|access
+|`access`
 |The access mode for the volume. If this parameter is included, the only supported value is `snapMirrorTarget`.
 |string
 |None
 |No
 
-|accountID
+|`accountID`
 |The ID of the account that owns this volume.
 |integer
 |None
 |Yes
 
-|associateWithQoSPolicy
+|`associateWithQoSPolicy`
 a|Associate the volume with the specified QoS policy. Possible values:
 
 * true: Associate the volume with the QoS policy specified in the QoSPolicyID parameter.
@@ -42,13 +42,13 @@ a|Associate the volume with the specified QoS policy. Possible values:
 |true
 |No
 
-|attributes
+|`attributes`
 |List of name-value pairs in JSON object format. The total attribute size must be less than 1000B, or 1KB, including JSON formatting characters.
 |JSON object
 |None
 |No
 
-|enable512e
+|`enable512e`
 a|Enable 512-byte sector emulation. Possible values:
 
 * true: The volume provides 512-byte sector emulation.
@@ -58,7 +58,7 @@ a|Enable 512-byte sector emulation. Possible values:
 |None
 |Yes
 
-|enableSnapMirrorReplication
+|`enableSnapMirrorReplication`
 a|Determines whether the volume can be used for replication with SnapMirror endpoints. Possible values:
 
 * true
@@ -68,26 +68,26 @@ a|Determines whether the volume can be used for replication with SnapMirror endp
 |false
 |No
 
-|fifoSize
+|`fifoSize`
 |Specifies the maximum number of First-In-First-Out (FIFO) snapshots supported by the volume. Note that FIFO and non-FIFO snapshots both use the same pool of available snapshot slots on a volume. Use this option to limit FIFO snapshot consumption of the available snapshot slots. If omitted, the value defaults to 24.
 |integer
 |24
 |No
 
-|minFifoSize
+|`minFifoSize`
 |Specifies the minimum number of First-In-First-Out (FIFO) snapshot slots reserved by the volume. This guarantees that if you are using both FIFO snapshots and non-FIFO snapshots on a volume that the non-FIFO snapshots do not unintentionally consume too many FIFO slots. It also ensures that at least this many FIFO snapshots are always available. Since FIFO and non-FIFO snapshots share the same pool, the minFifoSize reduces the total number of
 possible non-FIFO snapshots by the same amount. If omitted, the value defaults to 0.
 |integer
 |0
 |No
 
-|name
+|`name`
 |Name of the volume access group (may be user-specified). Not required to be unique, but recommended. Must be 1 to 64 characters in length.
 |string
 |None
 |Yes
 
-|qos
+|`qos`
 a|The initial quality of service settings for this volume. Default values are used if none are specified. Possible values:
 
 * minIOPS
@@ -98,13 +98,13 @@ a|The initial quality of service settings for this volume. Default values are us
 |None
 |No
 
-|qosPolicyID
+|`qosPolicyID`
 |The ID for the policy whose QoS settings should be applied to the specified volumes. This parameter is mutually exclusive with the `qos` parameter.
 |integer
 |None
 |No
 
-|totalSize
+|`totalSize`
 |Total size of the volume, in bytes. Size is rounded up to the nearest megabyte.
 |integer
 |None
