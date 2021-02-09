@@ -11,7 +11,7 @@ summary: 'You can use the CreateVolume method to create a new, empty volume on t
 [.lead]
 You can use the `CreateVolume` method to create a new, empty volume on the cluster. As soon as the volume creation is complete, the volume is available for connection via iSCSI.
 
-Volumes created without specified QoS values use the default values. You can view default values for a volume by using the GetDefaultQoS method.
+Volumes created without specified QoS values use the default values. You can view default values for a volume by using the `GetDefaultQoS` method.
 
 == Parameters
 
@@ -91,7 +91,7 @@ a|The initial quality of service settings for this volume. Default values are us
 |No
 
 |qosPolicyID
-|The ID for the policy whose QoS settings should be applied to the specified volumes. This parameter is mutually exclusive with the qos parameter.
+|The ID for the policy whose QoS settings should be applied to the specified volumes. This parameter is mutually exclusive with the `qos` parameter.
 |integer
 |None
 |No
