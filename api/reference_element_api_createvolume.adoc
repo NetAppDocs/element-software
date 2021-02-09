@@ -9,7 +9,7 @@ summary: 'You can use the CreateVolume method to create a new, empty volume on t
 :imagesdir: ../media/
 
 [.lead]
-You can use the `CreateVolume` method to create a new, empty volume on the cluster. As soon as the volume creation is complete, the volume is available for connection via iSCSI.
+You can use the `CreateVolume` method to create a new, empty volume on the cluster. As soon as the volume is created, the volume is available for connection via iSCSI.
 
 Volumes created without specified QoS values use the default values. You can view default values for a volume by using the `GetDefaultQoS` method.
 
