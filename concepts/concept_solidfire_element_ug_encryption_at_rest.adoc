@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_solidfire_element_ug_encryption_at_rest.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'With SolidFire clusters, you can encrypt all data stored on the cluster.'
 ---
 = Encryption at rest
@@ -15,6 +15,8 @@ All drives in storage nodes capable of encryption leverage AES 256-bit encryptio
 
 Enabling the encryption at rest feature does not affect performance or efficiency on the cluster. Additionally, if an encryption-enabled drive or node is removed from the cluster with the Element API or Element UI, encryption at rest will be disabled on the drives. After the drive is removed, the drive can be secure erased by using the SecureEraseDrives API method. If a drive or node is forcibly removed from the cluster, the data remains protected by the cluster-wide password and the drive's individual encryption keys.
 
-Another type of encryption at rest, Software Encryption at Rest available in SolidFire Enterprise SDS nodes, enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary layer of encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
+= Storage Encryption at Rest
+
+Another type of encryption at rest, Software Encryption at Rest available in SolidFire Enterprise SDS nodes, enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary software layer of encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
 
 http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-sds-ig//GUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html[SolidFire Enterprise SDS overview]
