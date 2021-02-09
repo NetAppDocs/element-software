@@ -9,7 +9,7 @@ summary: 'You can use CreateGroupSnapshot to create a point-in-time copy of a gr
 :imagesdir: ../media/
 
 [.lead]
-You can use CreateGroupSnapshot to create a point-in-time copy of a group of volumes.
+You can use `CreateGroupSnapshot` to create a point-in-time copy of a group of volumes.
 
 You can use this snapshot later as a backup or rollback to ensure the data on the group of volumes is consistent for the point in time that you created the snapshot.
 
@@ -24,7 +24,7 @@ This method has the following input parameters:
 |===
 | Name| Description| Type| Default value| Required
 a|
-attributes
+`attributes`
 a|
 List of name-value pairs in JSON object format.
 a|
@@ -34,7 +34,7 @@ None
 a|
 No
 a|
-enableRemoteReplication
+`enableRemoteReplication`
 a|
 Specifies whether the snapshot will be replicated to remote storage or not. Possible values:
 
@@ -47,8 +47,31 @@ a|
 false
 a|
 No
+
+|`ensureSerialCreation`
+a|Specify if the snapshot creation should be failed if a previous snapshot replication is in progress. Possible values are:
+
+* `true`: This ensures only one snapshot is being replicated at a time by failing this snapshot creation.
+* `false`: Default. This allows creation of snapshot if another snapshot replication is still in progress.
+
+|boolean
+|`false`
+|No
+
 a|
-name
+`expirationTime`
+a|
+Specify the time after which the snapshot can be removed. Cannot be used with `retention`.
+If neither `expirationTime`, or `retention` are specified, the snapshot will not expire. The time format is an ISO 8601 date string for time based expiration, otherwise it will not expire. A value of `null` causes the snapshot to be retained permanently. A value of `fifo` causes the snapshot to be preserved on a First-In-First-Out (FIFO) basis, relative to other FIFO snapshots on the volume. The API will fail if no FIFO space is available.
+a|
+ISO 8601 date string
+a|
+None
+a|
+No
+
+a|
+`name`
 a|
 The name of the group snapshot. If no name is entered, the date and time the group snapshot was taken is used. The maximum name length allowed is 255 characters.
 a|
@@ -58,9 +81,9 @@ None
 a|
 No
 a|
-retention
+`retention`
 a|
-The amount of time the snapshot will be retained. If left empty, the snapshot is retained forever. Enter in the HH:mm:ss format.
+The amount of time the snapshot will be retained. If left empty, the snapshot is retained forever. Enter in the HH:mm:ss format. If neither `expirationTime` nor `retention` are specified, the snapshot will not expire.
 a|
 string
 a|
@@ -68,7 +91,7 @@ None
 a|
 No
 a|
-snapMirrorLabel
+`snapMirrorLabel`
 a|
 The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.
 a|
@@ -78,7 +101,7 @@ None
 a|
 No
 a|
-volumes
+`volumes`
 a|
 Unique ID of the volume image from which to copy.
 a|
