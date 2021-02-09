@@ -34,8 +34,10 @@ This method has the following input parameters:
 
 |associateWithQoSPolicy
 a|Associate the volume with the specified QoS policy. Possible values:
+
 * true: Associate the volume with the QoS policy specified in the QoSPolicyID parameter.
 * false: Do not associate the volume with the QoS policy specified in the QoSPolicyID parameter. When false, any existing policy association is removed, regardless of whether you specify a QoS policy in the QoSPolicy parameter.
+
 |boolean
 |true
 |No
@@ -48,16 +50,20 @@ a|Associate the volume with the specified QoS policy. Possible values:
 
 |enable512e
 a|Enable 512-byte sector emulation. Possible values:
+
 * true: The volume provides 512-byte sector emulation.
 * false: 512e emulation is not enabled.
+
 |boolean
 |None
 |Yes
 
 |enableSnapMirrorReplication
 a|Determines whether the volume can be used for replication with SnapMirror endpoints. Possible values:
+
 * true
 * false
+
 |boolean
 |false
 |No
@@ -83,9 +89,11 @@ possible non-FIFO snapshots by the same amount. If omitted, the value defaults t
 
 |qos
 a|The initial quality of service settings for this volume. Default values are used if none are specified. Possible values:
+
 * minIOPS
 * maxIOPS
 * burstIOPS
+
 |QoS object
 |None
 |No
