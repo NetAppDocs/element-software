@@ -38,8 +38,8 @@ a|
 a|
 Specifies whether the snapshot will be replicated to remote storage or not. Possible values:
 
-* true: The snapshot will be replicated to remote storage.
-* false:The snapshot will not be replicated to remote storage.
+* `true`: The snapshot will be replicated to remote storage.
+* `false`: The snapshot will not be replicated to remote storage.
 
 a|
 boolean

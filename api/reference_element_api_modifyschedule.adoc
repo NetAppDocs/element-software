@@ -64,7 +64,7 @@ a|
 No
 
 |`lastRunStatus`
-|
+|The result or status of the last scheduled snapshot creation.
 |string
 |None
 |No

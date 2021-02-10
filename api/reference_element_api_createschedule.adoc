@@ -38,7 +38,7 @@ a|
 No
 
 |`hasError`
-|
+|*Help with description needed*
 |boolean
 |`false`
 |No
@@ -56,7 +56,7 @@ a|
 No
 
 |`lastRunStatus`
-|
+|The result or status of the last scheduled snapshot creation.
 |string
 |None
 |No
@@ -183,7 +183,7 @@ a|
 No
 
 |`toBeDeleted`
-|
+|Specifies that this snapshot schedule should be deleted after snapshot creation is completed.
 |boolean
 |`false`
 |No
