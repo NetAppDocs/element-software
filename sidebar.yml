@@ -53,8 +53,12 @@ entries:
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
 - title: Install and use SolidFire Enterprise SDS information
+  url: /esds/index.html
   entries:
   - title: Get started with SolidFire eSDS
+    url: /esds/concept_get_started_esds.html
+  - title: Perform prerequisite tasks for installation
+    url: /esds/concept_esds_prerequisite_tasks.html  
   - title: Install SolidFire eSDS
   - title: Use SolidFire eSDS
   - title: Replace drives for HPE DL360

@@ -58,9 +58,9 @@ Follow these best practices while handling drives:
 
 Here is a high-level overview of the steps:
 
-<<Remove the drive from the cluster>>
-<<Replace the drive from the chassis>>
-<<Add the drive to the cluster>>
+* <<Remove the drive from the cluster>>
+* <<Replace the drive from the chassis>>
+* <<Add the drive to the cluster>>
 
 == Remove the drive from the cluster
 

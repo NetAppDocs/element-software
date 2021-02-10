@@ -1,17 +1,17 @@
 ---
 permalink: esds/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = Installation Guide
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_esds_overview.adoc[NetApp SolidFire Enterprise SDS overview]
- ** xref:concept_esds_unsupported_features.adoc[Element features not applicable to SolidFire eSDS]
- ** xref:reference_esds_licensing_policies.adoc[Licensing policies for SolidFire eSDS]
- ** xref:concept_esds_interfaces.adoc[Interfaces and tools for SolidFire eSDS installation and use]
+* xref:concept_get_started_esds.adoc[Get started with NetApp SolidFire Enterprise^]
+* xref:concept_esds_prerequisite_tasks.adoc[Perform prerequisite tasks for installation^]
+ ** xref:concept_esds_networking_best_practices.adoc[Considerations for network configuration^]
+ ** xref:task_esds_configure_the_interface_config_files.adoc[Configure the host networking for SolidFire eSDS^]
 * xref:concept_esds_installation_overview.adoc[SolidFire eSDS installation overview]
 * xref:concept_esds_prerequisite_tasks.adoc[Perform the prerequisite tasks for SolidFire eSDS installation]
  ** xref:concept_esds_networking_best_practices.adoc[Considerations for network configuration for SolidFire eSDS]
