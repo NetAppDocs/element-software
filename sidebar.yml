@@ -1204,18 +1204,6 @@ entries:
   entries:
   - title: Replace a power supply unit in a SolidFire chassis
     url: "/hardware-c/task_sf_series_psu_repl.html"
-- title: hardware-d
-  url: "/hardware-d/index.html"
-  entries:
-  - title: Replace H410S node in a SolidFire Cluster
-    url: "/hardware-d/task_sf_h410s_node_replacement.html"
-    entries:
-    - title: Prepare to replace H410S node in the cluster
-      url: "/hardware-d/task_sf_h410s_prepare_for_node_replacement.html"
-    - title: Replace H410S node in the chassis
-      url: "/hardware-d/task_sf_h410s_replace_node_in_chassis.html"
-    - title: Add H410S node to the cluster
-      url: "/hardware-d/task_sf_h410s_add_node_to_cluster.html"
 - title: hardware
   url: "/hardware/index.html"
   entries:
