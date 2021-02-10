@@ -75,8 +75,7 @@ a|Determines whether the volume can be used for replication with SnapMirror endp
 |No
 
 |`minFifoSize`
-|Specifies the minimum number of First-In-First-Out (FIFO) snapshot slots reserved by the volume. This guarantees that if you are using both FIFO snapshots and non-FIFO snapshots on a volume that the non-FIFO snapshots do not unintentionally consume too many FIFO slots. It also ensures that at least this many FIFO snapshots are always available. Since FIFO and non-FIFO snapshots share the same pool, the `minFifoSize` reduces the total number of
-possible non-FIFO snapshots by the same amount. If omitted, the value defaults to 0.
+|Specifies the minimum number of First-In-First-Out (FIFO) snapshot slots reserved by the volume. This guarantees that if you are using both FIFO snapshots and non-FIFO snapshots on a volume that the non-FIFO snapshots do not unintentionally consume too many FIFO slots. It also ensures that at least this many FIFO snapshots are always available. Since FIFO and non-FIFO snapshots share the same pool, the `minFifoSize` reduces the total number of possible non-FIFO snapshots by the same amount. If omitted, the value defaults to 0.
 |integer
 |0
 |No
