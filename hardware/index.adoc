@@ -1,17 +1,12 @@
 ---
 permalink: hardware/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
-= Installing and setting up the H-series storage nodes
+= Install and maintain hardware
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_sf_isg_choose_installation_experience.adoc[Start here: choose your installation and setup experience]
+* xref:concept_h410s_h610s_info.adoc[H410S and H610S hardware information]
 * xref:concept_sf_isg_installation_workflow.adoc[Installation and setup high-level workflow]
-* xref:concept_sf_isg_poster_link.adoc[Installation and setup poster]
-* xref:task_sf_isg_create_cluster.adoc[Create a new cluster]
-* xref:task_sf_isg_onfigure_the_node.adoc[Configure the node]
-* xref:task_sf_isg_install_hardware.adoc[Install the hardware]
-* xref:task_sf_isg_prepare_to_install.adoc[Prepare for installation]

@@ -1,0 +1,16 @@
+---
+permalink: hardware/concept_h410s_h610s_info.html
+sidebar: sidebar
+keywords: h410s, h610s, hardware installation, hardware maintenance
+summary: You can find information about installing and maintaining H-series storage nodes.
+---
+= H410S and H610S hardware information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can find information about installing and maintaining H-series storage nodes.
+
+Here are the links to the installation and maintenance content:
+
+* link:task_h410s_h610s_info.html[Install H-series storage nodes^]

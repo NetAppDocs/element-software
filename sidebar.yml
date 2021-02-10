@@ -31,8 +31,10 @@ entries:
   url: /hardware/index.html
   entries:
   - title: H410S and H610S hardware information
+    url: /hardware/concept_h410s_h610s_info.html
     entries:
     - title: Install H410S and H610S nodes
+      url: /hardware/task_h410s_h610s_info.html
     - title: Replace a H410S node
     - title: Replace a H610 node
     - title: Replace drives in H410S and H610S nodes
