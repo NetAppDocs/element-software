@@ -1,7 +1,101 @@
 ---
 entries:
-- title: Home
+- title: SolidFire and Element Software 12.3 Documentation
   url: "/index.html"
+- title: Release notes
+  url: /rn_overview.html
+  entries:
+  - title: What's new
+    url: /rn_whats_new.html
+  - title: Known issues
+    url: /rn_known_issues.html
+  - title: Known limitations
+    url: /rn_known_limitations.html
+- title: Concepts
+  url: /concept_overview.html
+  entries:
+  - title: Element product overview
+    url: /concept_product_overview.html
+  - title: Element architecture and components
+    url: /concept_architecture.html
+- title: Requirements
+  url: /storage/concept_requirements_overview.html
+  entries:
+  - title: Networking requirements
+    url: /storage/concept_prereq_networking.html
+  - title: Switch configuration for clusters running Element software
+    url: /storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
+  - title: Network port requirements
+    url: /storage/reference_prereq_network_port_requirements.html
+- title: Install and maintain hardware
+  url: /hardware/index.html
+  entries:
+  - title: H410S and H610S hardware information
+    entries:
+    - title: Install H410S and H610S nodes
+    - title: Replace a H410S node
+    - title: Replace a H610 node
+    - title: Replace drives in H410S and H610S nodes
+    - title: Replace a power supply unit
+  - title: SolidFire series hardware information
+    entries:
+    - title: Install SolidFire series hardware
+    - title: Replace a chassis
+    - title: Replace a drive
+    - title: Replace a power supply unit
+- title: Install and use SolidFire Enterprise SDS information
+  entries:
+  - title: Get started with SolidFire eSDS
+  - title: Install SolidFire eSDS
+  - title: Use SolidFire eSDS
+  - title: Replace drives for HPE DL360
+  - title: Replace drives for Dell R640
+- title: Set up storage
+  url: /setup/concept_setup_overview.html
+  entries:
+  - title: Configure a storage node
+    url: /setup/concept_setup_configure_a_storage_node.html
+    entries:
+    - title: Configure the storage node using the per-node UI
+      url: /setup/task_configure_the_node_using_the_node_ui.html
+    - title: Configue the node using the TUI
+      url: /setup/task_configure_the_node_using_the_tui.html
+    - title: Node states
+      url: /setup/reference_system_manage_nodes_node_states.html
+  - title: Create a storage cluster
+    url: /setup/task_setup_create_a_storage_cluster.html
+  - title: Log in to the Element software user interface
+    url: /setup/task_post_deploy_access_the_element_software_user_interface.html
+  - title: Configure Fully Qualified Domain Name web UI access
+    url: /setup/task_setup_configure_fqdn_web_ui_access.html
+  - title: Add drives to the cluster
+    url: /setup/task_setup_add_drives_to_a_cluster.html
+  - title: Change the Garbage Collection constant
+    url: /setup/task_setup_change_the_garbage_collection_constant.html
+  - title: Configure a Fibre Channel node
+    url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
+    entries:
+    - title: Add Fibre Channel nodes to a cluster
+      url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
+    - title: Create a new cluster with Fibre Channel nodes
+      url: /setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html
+    - title: Set up zones for Fibre Channel nodes
+      url: /setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html
+    - title: Create a volume access groupfor Fibre Channel clients
+      url: /setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
+  - title: Set up a management node
+    url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
+- title: Manage storage
+  url:
+  entries:
+  - title: Manage storage overview
+  - title: Manage storage with NetApp Hybrid Cloud Control
+  - title: Manage storage with Element software
+  - title: Work with the management node
+  - title: Manage storage with the Element Plug-in for vCenter Server
+  - title: Manage storage with Element API
+- title: Earlier versions
+- title: Legal notices
 - title: api
   url: "/api/index.html"
   entries:
