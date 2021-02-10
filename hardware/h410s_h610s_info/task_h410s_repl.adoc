@@ -178,3 +178,7 @@ The node appears in the list of active nodes.
 . Do one of the following:
 ** To add individual drives, select the *Actions* icon for the drive you want to add, and then select *Add*.
 ** To add multiple drives, select the check boxes of the drives to add, select *Bulk Actions*, and then select *Add*.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

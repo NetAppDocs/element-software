@@ -18,7 +18,7 @@ NetApp Support can help you decide if you need to perform the RTFI process.
 * If a DIMM has failed, you have removed drives before you remove the node from the cluster.
 
 .About this task
-Alarms in the VMware vSphere Web Client alert you when a host fails. You must match the serial number of the failed host from the VMware vSphere Web Client with the serial number on the sticker at the back of the node.
+Alarms in the Element UI alert you when a host fails. You must match the serial number of the failed host from the VMware vSphere Web Client with the serial number on the sticker at the back of the node.
 
 .Steps
 
@@ -47,3 +47,7 @@ NOTE: See your switch vendor's documentation if your switch does not recognize t
 . Power on the chassis by pressing the power button at the front.
 It takes approximately five minutes and 30 seconds for the node to boot.
 . Perform the configuration steps.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

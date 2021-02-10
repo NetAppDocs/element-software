@@ -9,4 +9,4 @@ summary: You might need to replace the chassis if the fan, central processing un
 :imagesdir: ../media/
 
 [.lead]
-include::_include/task_hci_h610srepl.adoc[]
+include::_include/task_h610srepl.adoc[]

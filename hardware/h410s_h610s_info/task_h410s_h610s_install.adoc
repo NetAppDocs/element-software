@@ -185,3 +185,7 @@ After you add the storage node to your installation and configure the new storag
 
 . From a client on the same network as the newly configured node, access the NetApp Element software UI by entering the node's IP address.
 . Enter the required information in the **Create a New Cluster** window. <Insert link to Setup section.>
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
