@@ -13,4 +13,5 @@ You can find information about installing and maintaining H-series storage nodes
 
 Here are the links to the installation and maintenance content:
 
-* link:task_h410s_h610s_info.html[Install H-series storage nodes^]
+* link:task_h410s_h610s_install.html[Install H-series storage nodes^]
+* link:task_h410s_repl.html[Replace a H410S node^]

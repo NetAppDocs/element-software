@@ -34,8 +34,9 @@ entries:
     url: /hardware/concept_h410s_h610s_info.html
     entries:
     - title: Install H410S and H610S nodes
-      url: /hardware/task_h410s_h610s_info.html
+      url: /hardware/task_h410s_h610s_install.html
     - title: Replace a H410S node
+      url: /hardware/task_h410s_repl.html
     - title: Replace a H610 node
     - title: Replace drives in H410S and H610S nodes
     - title: Replace a power supply unit
