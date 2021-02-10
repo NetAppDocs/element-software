@@ -49,10 +49,10 @@ a|
 No
 
 |`ensureSerialCreation`
-a|Specify if the snapshot creation should be failed if a previous snapshot replication is in progress. Possible values are:
+a|Specifies that the snapshot should not be created if a previous snapshot replication is in progress. Possible values are:
 
-* `true`: This ensures only one snapshot is being replicated at a time by failing this snapshot creation.
-* `false`: Default. This allows creation of snapshot if another snapshot replication is still in progress.
+* `true`: This ensures that only one snapshot is being replicated at a time. The creation of a new snapshot will fail if a previous snapshot replication is still in progress.
+* `false`: Default. This snapshot creation is allowed if another snapshot replication is still in progress.
 
 |boolean
 |`false`
