@@ -15,3 +15,4 @@ Here are the links to the installation and maintenance content:
 
 * link:task_h410s_h610s_install.html[Install H-series storage nodes^]
 * link:task_h410s_repl.html[Replace a H410S node^]
+* link:task_h610s_repl.html[Replace a H610S node^]

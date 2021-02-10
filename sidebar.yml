@@ -37,7 +37,8 @@ entries:
       url: /hardware/task_h410s_h610s_install.html
     - title: Replace a H410S node
       url: /hardware/task_h410s_repl.html
-    - title: Replace a H610 node
+    - title: Replace a H610S node
+      url: /hardware/task_h610s_repl.html
     - title: Replace drives in H410S and H610S nodes
     - title: Replace a power supply unit
   - title: SolidFire series hardware information
