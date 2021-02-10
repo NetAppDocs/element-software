@@ -60,10 +60,10 @@ entries:
   - title: Perform prerequisite tasks for installation
     url: /esds/concept_esds_prerequisite_tasks.html
     entries:
-    - title: Considerations for network configuration 
-    - url: /esds/concept_esds_networking_best_practices.html
-    - title: Configure the host networking
-    - url: /esds/task_esds_configure_the_interface_config_files.html
+      - title: Considerations for network configuration
+        url: /esds/concept_esds_networking_best_practices.html
+      - title: Configure the host networking
+        url: /esds/task_esds_configure_the_interface_config_files.html
   - title: Install SolidFire eSDS
   - title: Use SolidFire eSDS
   - title: Replace drives for HPE DL360
