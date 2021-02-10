@@ -16,8 +16,9 @@ Here are the links to the installation and maintenance content:
 * link:../media/c-series-isi.pdf[Install and setup SolidFire C-series nodes^]
 * link:../media/fc-getting-started-guide.pdf[Install and setup Fibre Channel nodes^]
 * link:../media/solidfire-10-getting-started-guide.pdf[Install and setup SF-series storage nodes^]
-* link:task_sfseries_chassisrepl[Replace a chassis^]
-* link:task_sfseries_psurepl[Replace a power supply unit^]
+* link:task_sfseries_chassisrepl.html[Replace a chassis^]
+* link:task_sfseries_driverepl.html[Replace drives^]
+* link:task_sfseries_psurepl.html[Replace a power supply unit^]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]

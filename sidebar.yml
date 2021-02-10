@@ -49,7 +49,9 @@ entries:
     - title: Replace a chassis
       url: /hardware/task_sfseries_chassisrepl.html
     - title: Replace drives
+      url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
+      url: /hardware/task_sfseries_psurepl.html
 - title: Install and use SolidFire Enterprise SDS information
   entries:
   - title: Get started with SolidFire eSDS
