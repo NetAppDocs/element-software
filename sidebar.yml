@@ -571,6 +571,8 @@ entries:
       url: "/api/reference_element_api_listkeyserverskmip.html"
     - title: ModifyKeyServerKmip
       url: "/api/reference_element_api_modifykeyserverkmip.html"
+    - title: RekeySoftwareEncryptionAtRestMasterKey
+      url: "/api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html"
     - title: RemoveKeyServerFromProviderKmip
       url: "/api/reference_element_api_removekeyserverfromproviderkmip.html"
     - title: TestKeyProviderKmip

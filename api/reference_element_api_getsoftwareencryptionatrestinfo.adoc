@@ -1,15 +1,15 @@
 ---
 permalink: api/reference_element_api_getsoftwareencryptionatrestinfo.html
 sidebar: sidebar
-keywords: system,security,get,getting,software encryption at rest
+keywords: system, api, security, get, getting, software encryption at rest
 summary: 'You can use the GetSoftwareEncryptionAtRestInfo method to get information the cluster uses to encrypt data at rest.'
 ---
-= GetLimits
+= GetSoftwareEncryptionAtRestInfo
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSoftwareEncryptionAtRestInfo method to get Software Encryption-At-Rest (SEAR) information the cluster uses to encrypt data at rest.
+You can use the GetSoftwareEncryptionAtRestInfo method to get Software Encryption-At-Rest information the cluster uses to encrypt data at rest.
 
 == Parameters
 This method has no input parameters.
@@ -19,11 +19,15 @@ This method has the following return values:
 
 [cols=4*,options="header"]
 |===
-| Parameter| Description| Type| Optional
-| masterKeyInfo| Information about the current SEAR master key.| EncryptionKeyInfo| True|
-rekeyMasterKeyAsyncResultID| The async result ID of the current or most recent rekey operation (if any), if it hasn’t been deleted yet. GetAsyncResult output will include a SearRekeyMasterKeyInfo.| integer| True|
-state| The current Software Encryption At Rest state. Possible values are `disabled` or `enabled`.| string| False|
-version| A version number that is incremented each time SEAR is enabled.| integer| False|
+|Parameter| Description| Type| Optional
+|masterKeyInfo| Information about the current Software Encryption-At-Rest master key. | EncryptionKeyInfo| True
+
+|rekeyMasterKeyAsyncResultID| The async result ID of the current or most recent rekey operation (if any), if it has not been deleted yet. `GetAsyncResult` output will include `SearRekeyMasterKeyInfo`.| integer| True
+
+|state| The current Software Encryption-At-Rest state. Possible values are `disabled` or `enabled`.| string| False
+
+|version| A version number that is incremented each time Software Encryption-At-Rest is enabled.| integer| False|
+|===
 
 == Request example
 
