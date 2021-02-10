@@ -106,11 +106,11 @@ This method returns a response similar to the following example:
 "result": {
   "details": {
     "bundleName": "supportbundle",
-    "extraArgs": "",
+    "extraArgs": "--compress gz",
     "files": [
          "supportbundle.SF-D220.tar.gz"
      ],
-     "output": "timeout -s KILL 1500s /sf/scripts/sf_make_support_bundle --quiet /tmp/solidfire- dtemp.bYRag7/supportbundle timeout -s KILL 1500s pigz --verbose --fast \"/tmp/solidfire-dtemp.bYRag7/supportbundle.*.tar\" /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar to /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz Moved '/tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz' to /tmp/supportbundles",
+     "output": "timeout -s KILL 1500s /sf/scripts/sf_make_support_bundle --quiet --compress gz /tmp/solidfire- dtemp.bYRag7/supportbundle timeout -s KILL 1500s pigz --verbose --fast \"/tmp/solidfire-dtemp.bYRag7/supportbundle.*.tar\" /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar to /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz Moved '/tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz' to /tmp/supportbundles",
       "timeoutSec": 1500,
       "url": [
           "https://192.168.130.155:442/config/supportbundles/supportbundle.SF-D220.tar.gz"
