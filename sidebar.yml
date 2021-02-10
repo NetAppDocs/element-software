@@ -43,11 +43,12 @@ entries:
       url: /hardware/task_hseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_psu_repl.html
-  - title: SolidFire series hardware information
+  - title: SF-series hardware information
+    url: /hardware/concept_sfseries_info.html
     entries:
-    - title: Install SolidFire series hardware
     - title: Replace a chassis
-    - title: Replace a drive
+      url: /hardware/task_sfseries_chassisrepl.html
+    - title: Replace drives
     - title: Replace a power supply unit
 - title: Install and use SolidFire Enterprise SDS information
   entries:
@@ -1183,11 +1184,6 @@ entries:
       url: "/esds/task_esds_add_drives.html"
     - title: Change the Garbage Collection constant
       url: "/esds/task_esds_change_gc_constant.html"
-- title: hardware-a
-  url: "/hardware-a/index.html"
-  entries:
-  - title: Replacing a SolidFire chassis
-    url: "/hardware-a/task_sf_series_chassis_repl.html"
 - title: hardware-b
   url: "/hardware-b/index.html"
   entries:
@@ -1202,11 +1198,6 @@ entries:
       url: "/hardware-b/task_sf_series_remove_drive_from_chassis.html"
     - title: Add a drive to the cluster
       url: "/hardware-b/task_sf_series_add_drive_to_cluster.html"
-- title: hardware-c
-  url: "/hardware-c/index.html"
-  entries:
-  - title: Replace a power supply unit in a SolidFire chassis
-    url: "/hardware-c/task_sf_series_psu_repl.html"
 - title: hardware
   url: "/hardware/index.html"
   entries:

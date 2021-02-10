@@ -1,31 +1,32 @@
 ---
-permalink: hardware-a/task_sf_series_chassis_repl.html
+permalink: hardware/task_sfseries_chassisrepl.html
 sidebar: sidebar
-keywords: solidfire chassis,chassis replacement
-summary: 'You might need to replace the chassis if the fan, central processing unit \(CPU\), or dual inline memory module \(DIMM\) fails, or to fix overheating issues or problems with the boot process. Cluster faults in the NetApp Element software user interface \(UI\) and the blinking amber light in the front of the chassis are indications of a possible need for chassis replacement. You must contact NetApp Support before you proceed.'
+keywords: solidfire chassis, chassis replacement, sf-series nodes
+summary: You might need to replace the chassis if the fan, central processing unit (CPU), or dual inline memory module (DIMM) fails, or to fix overheating issues or problems with the boot process. Cluster faults in the NetApp Element software user interface (UI) and the blinking amber light in the front of the chassis are indications of a possible need for chassis replacement. You should contact NetApp Support before you proceed.
 ---
-= Replacing a SolidFire chassis
+= Replace a chassis
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace the chassis if the fan, central processing unit (CPU), or dual inline memory module (DIMM) fails, or to fix overheating issues or problems with the boot process. Cluster faults in the NetApp Element software user interface (UI) and the blinking amber light in the front of the chassis are indications of a possible need for chassis replacement. You must contact NetApp Support before you proceed.
+You might need to replace the chassis if the fan, central processing unit (CPU), or dual inline memory module (DIMM) fails, or to fix overheating issues or problems with the boot process. Cluster faults in the NetApp Element software user interface (UI) and the blinking amber light in the front of the chassis are indications of a possible need for chassis replacement. You should contact NetApp Support before you proceed.
+
+.What you'll need
 
 * You have contacted NetApp Support.
 +
 If you are ordering a replacement, you must have a case opened with NetApp Support.
-
 * You have obtained the replacement chassis.
 * You have an electrostatic discharge (ESD) wristband, or you have taken other antistatic protection.
 * If you need to perform the Return to Factory Image (RTFI) process, you have obtained the USB key.
 +
-NetApp Support will help you decide if RTFI is needed. See NetApp Knowledge Base article.
-+
-https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_create_an_RTFI_key_to_re-image_a_SolidFire_storage_node[Create an RTFI key]
+NetApp Support will help you decide if RTFI is needed. See https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_create_an_RTFI_key_to_re-image_a_SolidFire_storage_node[this KB article (login required)].
 
 * You have a keyboard and monitor.
 
-The instructions in this document apply if you have a one-rack unit (1U) chassis with any of the following storage and Fibre Channel models:
+.About this task
+
+The instructions in this document apply if you have a one-rack unit (1U) chassis with any of the following nodes:
 
 * SF2405
 * SF3010
@@ -38,6 +39,8 @@ The instructions in this document apply if you have a one-rack unit (1U) chassis
 * SF38410
 * SF-FCN-01
 * FC0025
+
+.Steps
 
 . Locate the service tag of the failed chassis and verify that the serial number matches the number on the case you opened with NetApp Support when you ordered the replacement.
 +
@@ -63,7 +66,7 @@ NOTE: If you have a Fibre Channel node, you can skip this step.
 
 . Remove the chassis by pressing the latch or unscrewing the thumbscrew, based on your hardware model.
 +
-You must package and return the failed chassis to NetApp.
+You should package and return the failed chassis to NetApp.
 
 . Remove the rails and install the new rails that were shipped with your replacement chassis.
 +
@@ -72,7 +75,7 @@ You can choose to reuse the existing rails. If you are reusing the existing rail
 . Slide the replacement chassis on to the rails.
 . For storage nodes, insert the drives from the failed chassis to the replacement chassis.
 +
-NOTE: You must insert the drives in the same slots as they were in the failed chassis.
+NOTE: You should insert the drives in the same slots as they were in the failed chassis.
 
 . Install the power supply units.
 . Insert the power supply cables, and the 1GbE and 10GbE cables in their original ports.
@@ -81,19 +84,21 @@ Small form-factor pluggable (SFP) transceivers might be inserted in the 10GbE po
 
 . If you have determined that you do not need to perform the RTFI process on the node, boot the node, and wait until the terminal user interface (TUI) appears. Proceed to step 16 and allow the cluster to re-image the node automatically when you add it by using the UI.
 . If NetApp Support recommends re-imaging the node with a USB key, perform the following substeps:
- .. Power on the chassis. It boots with the RTFI key image.
- .. At the first prompt, type *Y* to image the storage node.
- .. At the second prompt, type *N* for hardware health checks.
+.. Power on the chassis. It boots with the RTFI key image.
+.. At the first prompt, type *Y* to image the storage node.
+.. At the second prompt, type *N* for hardware health checks.
 +
 If the RTFI script detects a problem with a hardware component, it displays an error in the console. If you see an error, contact NetApp Support. After the RTFI process completes, the node shuts down.
 
- .. Remove the USB key from the USB slot.
- .. Boot the newly imaged node, and wait for the TUI to appear.
+.. Remove the USB key from the USB slot.
+.. Boot the newly imaged node, and wait for the TUI to appear.
 . Configure the network and cluster information from the TUI.
 +
-The _NetApp Element Software User Guide_ provides instructions for configuration. You can also contact NetApp Support for assistance.
+You can contact NetApp Support for assistance.
 
 . Add the new node to the cluster using the cluster TUI.
 . Pack and return the failed chassis.
-+
-NetApp Support will provide the return shipping label.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

@@ -1,22 +1,26 @@
 ---
-permalink: hardware-c/task_sf_series_psu_repl.html
+permalink: hardware/task_sfseries_psurepl.html
 sidebar: sidebar
-keywords: 
-summary: 'Each SolidFire chassis includes two power supply units for power redundancy. If a power supply unit fails, you must replace it as soon as possible to ensure that the chassis has a redundant power source.'
+keywords: solidfire chassis, power supply replacement, sf-series nodes
+summary: Each SolidFire chassis includes two power supply units for power redundancy. If a power supply unit fails, you should replace it as soon as possible to ensure that the chassis has a redundant power source.
 ---
-= Replace a power supply unit in a SolidFire chassis
+= Replace a power supply unit
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Each SolidFire chassis includes two power supply units for power redundancy. If a power supply unit fails, you must replace it as soon as possible to ensure that the chassis has a redundant power source.
+Each SolidFire chassis includes two power supply units for power redundancy. If a power supply unit fails, you should replace it as soon as possible to ensure that the chassis has a redundant power source.
 
-* You have determined that the power supply unit has failed.
+.What you'll need
+
+* You have determined that the power supply unit needs to be replaced.
 * You have a replacement power supply unit.
 * You have verified that the second power supply unit is operating.
 * You have an electrostatic discharge (ESD) wristband, or you have taken other antistatic precautions.
 
-The instructions in this document apply if you have a one-rack unit (1U) chassis with any of the following storage and Fibre Channel models:
+.About this task
+
+The instructions apply if you have a one-rack unit (1U) chassis with any of the following nodes:
 
 * SF2405
 * SF3010
@@ -30,17 +34,7 @@ The instructions in this document apply if you have a one-rack unit (1U) chassis
 * SF-FCN-01
 * FC0025
 
-The following figure shows the back of a typical chassis with the two power supply units:
-
-image::../media/sf9010_psu.gif[In this figure, the two power supply units at the back of an SF9010 chassis are shown.]
-
-|===
-a|
-image:../media/common_legend_icon_01.gif[]
-a|
-Power supply units
-|===
-The location of the power supply units might vary depending on the hardware model.
+.Steps
 
 . Unplug the power cord from the power supply unit that you are replacing.
 . Press the release button to slide the power supply unit out of the chassis.
@@ -55,3 +49,7 @@ IMPORTANT: Do not use excessive force when sliding the power supply unit into th
 . Return the failed unit to NetApp by following the instructions in the box that was shipped to you.
 +
 You can contact NetApp Support for help with the replacement procedure.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

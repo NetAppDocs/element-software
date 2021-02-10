@@ -9,4 +9,4 @@ summary: ''
 :imagesdir: ../media/
 
 * xref:concept_h410s_h610s_info.adoc[H410S and H610S hardware information]
-* xref:concept_sf_isg_installation_workflow.adoc[Installation and setup high-level workflow]
+* xref:concept_sfseries_info.adoc[SF-series hardware information]
