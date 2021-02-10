@@ -38,6 +38,7 @@ You should remove the faulty storage node correctly from the cluster in the NetA
 
 . In the Element UI, select *Cluster* > *Drives*.
 . Remove the drives from the node using one of the following methods:
++
 [%header,cols=2*]
 |===
 | Option| Steps
