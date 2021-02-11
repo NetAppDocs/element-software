@@ -3,23 +3,86 @@ entries:
 - title: SolidFire and Element Software 12.3 Documentation
   url: "/index.html"
 - title: Release notes
-  url: /rn_overview.html
+  url: concepts/concept_rn_relatedrn_element.html
   entries:
   - title: What's new
     url: /rn_whats_new.html
-  - title: Known issues
-    url: /rn_known_issues.html
-  - title: Known limitations
-    url: /rn_known_limitations.html
+  - title: Additional release information
+    url: concepts/concept_rn_relatedrn_element.html
 - title: Concepts
-  url: /concept_overview.html
+  url: /concepts/concept_index.html
   entries:
-  - title: Element product overview
-    url: /concept_product_overview.html
-  - title: Element architecture and components
-    url: /concept_architecture.html
+  - title: Architecture and components
+    url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
+    entries:
+    - title: SolidFire software interfaces
+      url: /concepts/concept_intro_solidfire_software_interfaces.html
+    - title: SolidFire Active IQ
+      url: /concepts/concept_intro_solidfire_active_iq.html
+    - title: Management node for Element software
+      url: /concepts/concept_intro_management_node.html
+    - title: Management services for SolidFire all-flash storage
+      url: /concepts/concept_intro_management_services_for_afa.html
+    - title: Persistent volumes
+      url: /concepts/concept_intro_persistent_volumes.html
+  - title: Nodes
+    url: /concepts/concept_solidfire_concepts_nodes.html
+    entries:
+    - title: Storage nodes
+      url: /concepts/concept_intro_storage_nodes.html
+    - title: Fibre Channel nodes
+      url: /concepts/concept_intro_fibre_channel_nodes.html
+    - title: NetApp HCI storage nodes
+      url: /concepts/concept_element_vcp_ug_netapp_hci_storage_nodes.html
+    - title: Witness nodes
+      url: /concepts/concept_solidfire_concepts_witness_node.html
+  - title: Clusters
+    url: /concepts/concept_intro_clusters.html
+  - title: Security
+    url: /concepts/concept_solidfire_concepts_security.html
+    entries:
+    - title: Encryption at rest
+      url: /concepts/concept_solidfire_element_ug_encryption_at_rest.html
+    - title: External key management
+      url: /concepts/concept_solidfire_concepts_external_key_management.html
+    - title: Multi-factor authentication
+      url: /concepts/concept_solidfire_concepts_multi_factor_authentication.html
+  - title: Accounts and permissions
+    url: /concepts/concept_solidfire_concepts_accounts_and_permissions.html
+  - title: Storage
+    url: /concepts/concept_solidfire_concepts_storage.html
+    entries:
+    - title: Volumes
+      url: /concepts/concept_solidfire_concepts_volumes.html
+    - title: Volume access groups
+      url: /concepts/concept_solidfire_concepts_volume_access_groups.html
+    - title: Rule of thirds
+      url: /concepts/concept_solidfire_concepts_rule_of_thirds.html
+    - title: VMware virtual volumes and NetApp Element software
+      url: / concepts/concept_solidfire_concepts_vmware_virtual_volumes.html
+    - title: Stranded capacity
+      url: /concepts/concept_solidfire_concepts_stranded_capacity.html
+  - title: Data protection
+    url: /concepts/concept_solidfire_concepts_data_protection.html
+    entries:
+    - title: Remote replication types
+      url: /concepts/concept_solidfire_concepts_remote_replication_types.html
+    - title: Volume snapshots for data protection
+      url: /concepts/concept_solidfire_concepts_volume_snapshots_for_data_protection.html
+    - title: Volume clones
+      url: /concepts/concept_solidfire_concepts_volume_clones.html
+    - title: Backup and restore process overview for SolidFire storage
+      url: /concepts/concept_solidfire_concepts_backup_and_restore_process_overview.html
+    - title: Protection domains
+      url: /concepts/concept_solidfire_concepts_protection_domains.html
+    - title: Double Helix high availability
+      url: /concepts/concept_solidfire_concepts_double_helix_high_availability.html
+  - title: Storage efficiency
+    url: /concepts/concept_solidfire_concepts_storage_efficiency.html
+  - title: Quality of Service
+    url: /concepts/concept_data_manage_volumes_solidfire_quality_of_service.html
 - title: Requirements
-  url: /storage/concept_requirements_overview.html
+  url: /setup/concept_requirements_overview.html
   entries:
   - title: Networking requirements
     url: /storage/concept_prereq_networking.html
@@ -96,7 +159,7 @@ entries:
   - title: Manage storage with Element API
 - title: Earlier versions
 - title: Legal notices
-- title: api
+- title: Manage storage with Element API
   url: "/api/index.html"
   entries:
   - title: About the Element software API
