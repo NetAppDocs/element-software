@@ -2,7 +2,7 @@
 permalink: concepts/concept_rn_relatedrn_element.html
 sidebar: sidebar
 keywords:
-summary: 'The Quality of Service \(QoS\) performance curve shows the relationship between block size and the percentage of IOPS.'
+summary: You can find links to the latest and earlier release notes for various components of the NetApp HCI and Element storage environment.
 ---
 = Additional release information
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The Quality of Service \(QoS\) performance curve shows the relationshi
 [.lead]
 You can find links to the latest and earlier release notes for various components of the NetApp HCI and Element storage environment.
 
-NOTE: You will be prompted to log in using your NetApp Support Site credentials.
+NOTE: You will be prompted to log in using your NetApp Support credentials.
 
 
 == NetApp Element software

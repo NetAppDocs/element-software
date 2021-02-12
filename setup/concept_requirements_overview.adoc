@@ -9,10 +9,8 @@ summary: 'Before you get started, you should review the prerequisites.'
 :imagesdir: ../media/
 
 [.lead]
-Before you get started, you should review the prerequisites to deploy NetApp Element software, including networking and port requirements. 
+Before you get started, you should review the prerequisites to deploy NetApp Element software, including networking and port requirements.
 
 
-
-
- == Find more information
+== Find more information
  * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
