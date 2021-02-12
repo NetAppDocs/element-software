@@ -57,7 +57,7 @@ entries:
   entries:
   - title: Get started with SolidFire eSDS
     url: /esds/concept_get_started_esds.html
-  - title: Perform prerequisite tasks for installation
+  - title: Perform the prerequisite tasks for installation
     url: /esds/concept_esds_prerequisite_tasks.html
     entries:
       - title: Considerations for network configuration
@@ -65,7 +65,9 @@ entries:
       - title: Configure the host networking
         url: /esds/task_esds_configure_the_interface_config_files.html
   - title: Install SolidFire eSDS
-    url: /esds/task_esds_install_using_ansible.html 
+    url: /esds/task_esds_install_using_ansible.html
+  - title: Perform post-installation tasks
+    url: /esds/task_esds_postinstallation.html
   - title: Use SolidFire eSDS
   - title: Replace drives for HPE DL360
   - title: Replace drives for Dell R640

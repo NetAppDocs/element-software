@@ -159,3 +159,7 @@ $routing_table_name
 
 . To check the policy-based routing rules, run the `ip rule show` command.
 . To check the routing table, run the `ip route show table` command.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

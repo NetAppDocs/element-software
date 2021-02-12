@@ -21,8 +21,9 @@ You can install SolidFire eSDS using an automation tool, such as Ansible. If you
 .About this task
 
 Use Ansible Vault for sensitive information, such as passwords rather than using plain text. For more information, see the following links:
- ** https://docs.ansible.com/ansible/latest/user_guide/playbooks_vault.html[Using Ansible Vault]
- ** https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html[How to build your inventory]
+
+** https://docs.ansible.com/ansible/latest/user_guide/playbooks_vault.html[Using Ansible Vault^]
+** https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html[How to build your inventory^]
 
 IMPORTANT: You should specify all the required variables in your inventory file and not in the playbook.
 
@@ -30,7 +31,7 @@ IMPORTANT: You should specify all the required variables in your inventory file 
 
 . Run the ansible-galaxy command to install all the roles relevant to SolidFire eSDS provided by NetApp.
 +
-The install role is *nar_solidfire_sds_install* and will be installed when you run the following command:
+The install role is *nar_solidfire_sds_install* and is installed when you run the following command:
 +
 ----
  $  ansible-galaxy install git+https://github.com/netapp/ansible.git
@@ -60,7 +61,7 @@ NOTE: Ensure that you always download the latest versions of the roles.
 +
 NOTE: The README file associated with roles includes a list of all the required and optional variables that you should define as shown below:
 +
-image::../media/esds_sample_playbook.png[]
+image::../media/esds_sample_playbook.png[Shows a sample playbook.]
 +
 You should define these variables in the inventory file, which you will create in the next step.
 
@@ -71,17 +72,15 @@ TIP: In the inventory file, you should include all the hosts (nodes) on which yo
 [IMPORTANT]
 ====
 Ensure that you follow these guidelines for the inventory file:
-
- ** Use the correct spellings for device names.
- ** Use correct formatting in the file.
- ** Ensure that there is only one cacheDevice.
- ** Use a list to specify storage_devices.
+** Use the correct spellings for device names.
+** Use correct formatting in the file.
+** Ensure that there is only one cacheDevice.
+** Use a list to specify storage_devices.
 ====
 +
 A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ****** with the username and password for your storage nodes.
 +
 ----
-
 all:
     hosts:
         storage node MIP:
@@ -180,3 +179,7 @@ failed=0    skipped=10   rescued=0    ignored=0
 ----
 
 . To verify that the SolidFire service was started correctly, run the `systemctl status solidfire` command, and check for `Active:active (exited)...` in the output.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

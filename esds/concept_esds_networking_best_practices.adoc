@@ -47,3 +47,7 @@ a|
 |===
 
 TIP: For examples and tips to configure the host network, see link:task_esds_configure_the_interface_config_files.adoc[here^].
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
