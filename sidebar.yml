@@ -10,7 +10,7 @@ entries:
   - title: Additional release information
     url: /concepts/concept_rn_relatedrn_element.html
 - title: Concepts
-  url: /concepts/concept_index.html
+  url: /concepts/index.html
   entries:
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
@@ -59,7 +59,7 @@ entries:
     - title: Rule of thirds
       url: /concepts/concept_solidfire_concepts_rule_of_thirds.html
     - title: VMware virtual volumes and NetApp Element software
-      url: / concepts/concept_solidfire_concepts_vmware_virtual_volumes.html
+      url: /concepts/concept_solidfire_concepts_vmware_virtual_volumes.html
     - title: Stranded capacity
       url: /concepts/concept_solidfire_concepts_stranded_capacity.html
   - title: Data protection
@@ -144,15 +144,14 @@ entries:
       url: /setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html
     - title: Set up zones for Fibre Channel nodes
       url: /setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html
-    - title: Create a volume access groupfor Fibre Channel clients
+    - title: Create a volume access group for Fibre Channel clients
       url: /setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
+- title: Work with the management node
 - title: Manage storage with Element software
   url: "/storage/index.html"
   entries:
-  - title: SolidFire storage system
-    url: "/storage/concept_intro_solidfire_system_overview.html"
   - title: Access the Element software user interface
     url: "/storage/task_post_deploy_access_the_element_software_user_interface.html"
   - title: Configure SolidFire system options after deployment
@@ -336,7 +335,7 @@ entries:
         url: "/storage/concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys.html"
       - title: External key management API Commands
         url: "/storage/concept_system_manage_key_external_key_management_api_commands.html"
-  - title: Manage volumes, virtual volumes, and volume access groups
+  - title: Manage volumes and virtual volumes
     url: "/storage/concept_data_manage_data_management.html"
     entries:
     - title: Work with volumes
@@ -615,62 +614,7 @@ entries:
         url: "/storage/task_data_protection_restore_volume_from_backup_on_openstack_swift.html"
       - title: Restore a volume from backup on a SolidFire storage cluster
         url: "/storage/task_data_protection_restore_volume_from_backup_on_solidfire.html"
-  - title: Perform remote replication between clusters running NetApp Element software
-    url: "/storage/task_replication_perform_remote_replication_between_element_clusters.html"
-    entries:
-    - title: Plan cluster and volume pairing for real-time replication
-      url: "/storage/task_replication_plan_cluster_and_volume_pairing.html"
-    - title: Pair clusters for replication
-      url: "/storage/task_replication_pair_clusters.html"
-      entries:
-      - title: Pair clusters using MVIP or a pairing key
-        url: "/storage/task_replication_pair_clusters_using_mvip_or_a_pairing_key.html"
-        entries:
-        - title: Pair clusters using MVIP
-          url: "/storage/task_replication_pair_cluster_using_mvip.html"
-        - title: Pair clusters using a pairing key
-          url: "/storage/task_replication_pair_cluster_using_pairing_key.html"
-      - title: Validate the cluster pair connection
-        url: "/storage/task_replication_validate_the_cluster_pair_connection.html"
-    - title: Pair volumes
-      url: "/storage/task_replication_pair_volumes.html"
-      entries:
-      - title: Create a target volume with read or write access
-        url: "/storage/task_replication_create_a_target_volume_with_read_write_access.html"
-      - title: Pair volumes using a volume ID or pairing key
-        url: "/storage/task_replication_pair_volumes_using_volume_id_or_pairing_key.html"
-        entries:
-        - title: Pair volumes using a volume ID
-          url: "/storage/task_replication_pair_volumes_using_a_volume_id.html"
-        - title: Pair volumes using a pairing key
-          url: "/storage/task_replication_pair_volumes_using_a_pairing_key.html"
-      - title: Assign a replication source and target to paired volumes
-        url: "/storage/task_replication_assign_replication_source_and_target_to_paired_volumes.html"
-    - title: Validate volume replication
-      url: "/storage/task_replication_validate_volume_replication.html"
-    - title: Delete a volume relationship after replication
-      url: "/storage/task_replication_delete_volume_relationship_after_replication.html"
-    - title: Manage volume relationships
-      url: "/storage/task_replication_manage_volume_relationships.html"
-      entries:
-      - title: Pause replication
-        url: "/storage/task_replication_pause_replication.html"
-      - title: Change the mode of replication
-        url: "/storage/task_replication_change_the_mode.html"
-      - title: Delete volume pairs
-        url: "/storage/task_replication_delete_volume_pairs.html"
-      - title: Delete a cluster pair
-        url: "/storage/task_replication_delete_cluster_pair.html"
-      - title: Cluster pair details
-        url: "/storage/reference_replication_cluster_pair_details.html"
-      - title: Volume pair details
-        url: "/storage/reference_replication_volume_pair_details.html"
-        entries:
-        - title: Volume pairing messages
-          url: "/storage/reference_replication_volume_pairing_messages.html"
-        - title: Volume pairing warnings
-          url: "/storage/reference_replication_volume_pairing_warnings.html"
-  - title: Monitor and troubleshoot your system
+  - title: Troubleshoot your system
     url: "/storage/concept_system_monitoring_and_troubleshooting.html"
     entries:
     - title: View information about system events
@@ -736,7 +680,6 @@ entries:
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
 - title: Manage storage with NetApp Hybrid Cloud Control
-- title: Work with the management node
 - title: Manage storage with the Element Plug-in for vCenter Server
   url: https://docs.netapp.com/us-en/vcp/
 - title: Manage storage with Element API

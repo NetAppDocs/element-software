@@ -50,74 +50,74 @@ QoS parameter settings of 100 Min IOPS, 1000 Max IOPS, and 1500 Burst IOPs have 
  ** Performance on all volumes is pushed toward the Min IOPS of 100. Levels do not drop below the Min IOPS setting but could remain higher than 100 IOPS when workload contention is relieved.
  ** Performance is never greater than 1000 IOPS, or less than 100 IOPS for a sustained period. Performance of 1500 IOPS (Burst IOPS) is allowed, but only for those volumes that have accrued burst credits by running below Max IOPS and only allowed for a short periods of time. Burst levels are never sustained.
 
- == QoS value limits
+== QoS value limits
 
- You can find information about the possible minimum and maximum values for Quality of Service (QoS).
+You can find information about the possible minimum and maximum values for Quality of Service (QoS).
 
- |===
- |  | I/O size maximum value
- | Parameters| Minimum value| Default| 4KB| 8KB| 16KB| 262KB
- a|
- Min IOPS
- a|
- 50
- a|
- 50
- a|
- 15,000
- a|
- 9,375*
- a|
- 5556*
- a|
- 385*
- a|
- Max IOPS
- a|
- 100
- a|
- 15,000
- a|
- 200,000**
- a|
- 125,000
- a|
- 74,074
- a|
- 5128
- a|
- Burst IOPS
- a|
- 100
- a|
- 15,000
- a|
- 200,000**
- a|
- 125,000
- a|
- 74,074
- a|
- 5128
- a|
- *These estimations are approximate.**Max IOPS and Burst IOPS can be set as high as 200,000; however, this setting is allowed only to effectively uncap the performance of a volume. Real-world maximum performance of a volume is limited by cluster usage and per-node performance.
+|===
+|  | I/O size maximum value
+| Parameters| Minimum value| Default| 4KB| 8KB| 16KB| 262KB
+a|
+Min IOPS
+a|
+50
+a|
+50
+a|
+15,000
+a|
+9,375*
+a|
+5556*
+a|
+385*
+a|
+Max IOPS
+a|
+100
+a|
+15,000
+a|
+200,000**
+a|
+125,000
+a|
+74,074
+a|
+5128
+a|
+Burst IOPS
+a|
+100
+a|
+15,000
+a|
+200,000**
+a|
+125,000
+a|
+74,074
+a|
+5128
+a|
+*These estimations are approximate.**Max IOPS and Burst IOPS can be set as high as 200,000; however, this setting is allowed only to effectively uncap the performance of a volume. Real-world maximum performance of a volume is limited by cluster usage and per-node performance.
 
- |===
-
-
- == QoS performance curve
-
- The Quality of Service (QoS) performance curve shows the relationship between block size and the percentage of IOPS.
-
- Block size and bandwidth have a direct impact on the number of IOPS that an application can obtain. Element software takes into account the block sizes it receives by normalizing block sizes to 4k. Based on workload, the system might increase block sizes. As block sizes increase, the system increases bandwidth to a level necessary to process the larger block sizes. As bandwidth increases the number of IOPS the system is able to attain decreases.
-
- The QoS performance curve shows the relationship between increasing block sizes and the decreasing percentage of IOPS:
-
- image::../media/solidfire_qos_performance_curve.png[Describes for QoS the relationship between increasing block size and IOPS.]
-
- As an example, if block sizes are 4k, and bandwidth is 4000 KBps, the IOPS are 1000. If block sizes increase to 8k, bandwidth increases to 5000 KBps, and IOPS decrease to 625. By taking block size into account, the system ensures that lower priority workloads that use higher block sizes, such as backups and hypervisor activities, do not take too much of the performance needed by higher priority traffic using smaller block sizes.
+|===
 
 
+== QoS performance curve
 
- == Find more information
+The Quality of Service (QoS) performance curve shows the relationship between block size and the percentage of IOPS.
+
+Block size and bandwidth have a direct impact on the number of IOPS that an application can obtain. Element software takes into account the block sizes it receives by normalizing block sizes to 4k. Based on workload, the system might increase block sizes. As block sizes increase, the system increases bandwidth to a level necessary to process the larger block sizes. As bandwidth increases the number of IOPS the system is able to attain decreases.
+
+The QoS performance curve shows the relationship between increasing block sizes and the decreasing percentage of IOPS:
+
+image::../media/solidfire_qos_performance_curve.png[Describes for QoS the relationship between increasing block size and IOPS.]
+
+As an example, if block sizes are 4k, and bandwidth is 4000 KBps, the IOPS are 1000. If block sizes increase to 8k, bandwidth increases to 5000 KBps, and IOPS decrease to 625. By taking block size into account, the system ensures that lower priority workloads that use higher block sizes, such as backups and hypervisor activities, do not take too much of the performance needed by higher priority traffic using smaller block sizes.
+
+
+
+== Find more information
  * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
