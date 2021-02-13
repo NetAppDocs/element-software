@@ -11,7 +11,9 @@ summary: 'You can use the EnableEncryptionAtRest method to enable the Advanced E
 [.lead]
 You can use the EnableEncryptionAtRest method to enable the Advanced Encryption Standard (AES) 256-bit encryption at rest on the cluster so that the cluster can manage the encryption key used for the drives on each node. This feature is not enabled by default.
 
-When you enable Encryption at Rest, the cluster automatically manages encryption keys internally for the drives on each node in the cluster. Nodes do not store the keys to unlock drives and the keys are never passed over the network. Two nodes participating in a cluster are required to access the key to disable encryption on a drive. The encryption management does not affect performance or efficiency on the cluster. If an encryption-enabled drive or node is removed from the cluster with the API, Encryption at Rest is disabled and the data is not secure erased. Data can be secure erased using the SecureEraseDrives API method.
+NOTE: This method does not enable software encryption at rest. This can only be done using the link:api/reference_element_api_createcluster.html[create cluster method] with `enableSoftwareEncryptionAtRest` set to `true`.
+
+When you enable Encryption at Rest, the cluster automatically manages encryption keys internally for the drives on each node in the cluster.
 
 If a keyProviderID is specified, the password is generated and retrieved according to the type of key provider. This is usually done using a Key Management Interoperability Protocol (KMIP) key server in the case of a KMIP key provider. After this operation, the specified provider is considered active and cannot be deleted until Encryption at Rest is disabled using the DisableEncryptionAtRest method.
 

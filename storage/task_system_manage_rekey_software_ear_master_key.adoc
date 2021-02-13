@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_rekey_software_ear_master_key.html
 sidebar: sidebar
-keywords: sign request,certificate authority
+keywords: element, rekey, encryption at rest, rekey master, replace key
 summary: 'You can use the Element API to create a replacement key for your external key management server.'
 ---
 = Rekey software encryption at rest master key
@@ -9,28 +9,26 @@ summary: 'You can use the Element API to create a replacement key for your exter
 :imagesdir: ../media/
 
 [.lead]
-You can use the Element API to create a replacement key for your external key management server. This operation creates a new master key. Master keys are always replaced by new master keys and never duplicated or overwritten.
+You can use the Element API to create a replacement key for an external key management server. This operation creates a new master key. Master keys are always replaced by new master keys and never duplicated or overwritten.
 
+You might need to rekey as part of one of the following procedures:
 
-ADD CONTENT HEREzzzz
-. Establish a trust relationship with the External Key Server (EKS).
- .. Create a public/private key pair for the Element cluster that is used to establish a trust relationship with the key server by calling the following API method: `CreatePublicPrivateKeyPair`
- .. Get the certificate sign request (CSR) which the Certification Authority needs to sign. The CSR enables the key server to verify that the Element cluster that will be accessing the keys is authenticated as the Element cluster. Call the following API method: `GetClientCertificateSignRequest`
- .. Use the EKS/Certificate Authority to sign the retrieved CSR. See third-party documentation for more information.
-. Create a server and provider on the cluster to communicate with the EKS. A key provider defines where a key should be obtained, and a server defines the specific attributes of the EKS that will be communicated with.
- .. Create a key provider where the key server details will reside by calling the following API method: `CreateKeyProviderKmip`
- .. Create a key server providing the signed certificate and the public key of the Certification Authority by calling the following API methods: `CreateKeyServerKmip``TestKeyServerKmip`
-+
-If the test fails, verify your server connectivity and configuration. Then repeat the test.
+* Create a new key as part of a change from internal key management to external key management.
+* Create a new key as a reaction to or as protection against a security-related event.
 
- .. Add the key server into the key provider container by calling the following API methods: `AddKeyServerToProviderKmip``TestKeyProviderKmip`
-+
-If the test fails, verify your server connectivity and configuration. Then repeat the test.
-. Enable encryption at rest.
- .. Enable encryption at rest by providing the ID of the key provider that contains the key server used for storing the keys by calling the following API method: `EnableEncryptionAtRest`
+NOTE: This process is asynchronous and returns a response before encryption is enabled. You can use the GetAsyncResult method to poll the system to see when the process has completed.
 
-+
-NOTE: To enable encryption at rest using an external key management configuration, you must enable encryption at rest via the API. Enabling using the existing Element UI button will revert to using internally generated keys.
+.What you'll need
+* You have enabled software encryption at rest using the link:api/reference_element_api_createcluster.html[CreateCluster] method on a new cluster that does not contain volumes and has no I/O.
+* There is an link:storage/task_system_manage_key_set_up_external_key_management.html[established trust relationship] between the SolidFire cluster and the External Key Server (EKS).
+
+.Steps
+
+. ListKeyProvidersKmip and grab key provider ID.
+. TestKeyProviderKmip to ensure a connection.
+. RekeySoftwareEncryptionAtRestMasterKey using KeyManagementType as external and keyProviderID as the ID number of the key provider from the previous step.
+. GetAsyncResult with new configuration (see video).
+. GetSoftwareEncryptionatRestInfo to confirm as well.
 
 *Related information*
 

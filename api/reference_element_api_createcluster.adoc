@@ -42,7 +42,7 @@ No
 a|
 enableSoftwareEncryptionAtRest
 a|
-Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire Enterprise SDS clusters. Defaults to false on all other clusters.
+Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire Enterprise SDS clusters. Defaults to false on all other clusters. After software encryption at rest is enabled, it cannot be disabled on the cluster.
 a|
 boolean
 a|
