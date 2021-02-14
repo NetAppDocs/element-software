@@ -1,15 +1,15 @@
 ---
-permalink: esds-a/task_esds_proactive_drive_repl.html
+permalink: esds/task_esds_dl360_drive_repl.html
 sidebar: sidebar
-keywords: solidfire esds,replace drive,proactive drive replacement
-summary: 'Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI Cluster \> Drives page shows the drive wear information.'
+keywords: solidfire esds, replace drive, proactive drive replacement, cache drive replacement, faulty drive replacement
+summary: Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI Cluster > Drives page shows the drive wear information.
 ---
-= Replace a drive proactively in a SolidFire eSDS cluster
+= Replace drives for HPE DL360
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI *Cluster* > *Drives* page shows the drive wear information.
+Choose from the procedures listed here to replace a drive proactively, replace a drive after it has failed, and replace a cache drive. replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI *Cluster > Drives* page shows the drive wear information.
 
 * From the NetApp Element software UI, ensure that your cluster is in good health and there are no warnings or cluster faults. You can access the Element UI by using the management virtual IP (MVIP) address of the primary cluster node.
 * Ensure that there are no active jobs running on the cluster.

@@ -67,7 +67,7 @@ See the following request example:
 }
 ----
 +
-For more information about this API method, see link:reference_element_api_setclusterconfig.html[`SetClusterConfig`^].
+For more information about this API method, see link:api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^].
 
 == Set the license key
 
@@ -172,7 +172,7 @@ image::../media/esds_create_cluster.png[Shows the per-node UI screen.]
 
 ... Confirm that you have read the NetApp End User License Agreement.
 ... Select *Create Cluster*.
-... To verify that cluster was created, log in to the cluster: `http://<mvip_ip>`.
+... To verify that cluster was created, log in to the cluster: http://<mvip_ip>.
 ... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
 ** Use the `CreateCluster` API method.
 +
@@ -310,7 +310,7 @@ See the following example request:
 }
 ----
 
-For more information about this method, see link:reference_element_api_createcluster.html[`CreateCluster`^].
+For more information about this method, see link:api/reference_element_api_createcluster.html[`CreateCluster`^].
 
 == Add drives to the cluster
 
@@ -371,7 +371,7 @@ Here is a request example:
 }
 ----
 
-For more information about this API method, see link:reference_element_api_adddrives.html[AddDrives^].
+For more information about this API method, see link:api/reference_element_api_adddrives.html[`AddDrives`^].
 
 == Change the Garbage Collection constant
 

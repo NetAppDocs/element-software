@@ -8,9 +8,16 @@ summary: ''
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_get_started_esds.adoc[Get started with NetApp SolidFire Enterprise^]
-* xref:concept_esds_prerequisite_tasks.adoc[Perform prerequisite tasks for installation^]
- ** xref:concept_esds_networking_best_practices.adoc[Considerations for network configuration^]
- ** xref:task_esds_configure_the_interface_config_files.adoc[Configure the host networking for SolidFire eSDS^]
+* xref:concept_get_started_esds.adoc[Get started with NetApp SolidFire Enterprise]
+* xref:concept_esds_prerequisite_tasks.adoc[Perform prerequisite tasks for installation]
+ ** xref:concept_esds_networking_best_practices.adoc[Considerations for network configuration]
+ ** xref:task_esds_configure_the_interface_config_files.adoc[Configure the host networking for SolidFire eSDS]
 * xref:task_esds_install_using_ansible.adoc[Install SolidFire eSDS using Ansible]
 * xref:task_esds_postinstallation.adoc[Perform post-installation tasks]
+* xref:task_esds_upgrade_cluster.adoc[Upgrade the clusters]
+* xref:concept_esds_monitor_clusters[Monitor your clusters]
+* xref:reference_esds_element_links[Manage SolidFire eSDS storage]
+* xref:task_esds_uninstall[Uninstall SolidFire eSDS]
+* xref:task_esds_get_license_key[Get the license key]
+* xref:reference_esds_use_maintenance_mode[Use maintenance mode on SolidFire eSDS clusters]
+* xref:reference_esds_sf_sds_config_file[Contents of the sf_sds_config.yaml file]  

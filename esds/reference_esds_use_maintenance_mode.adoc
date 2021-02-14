@@ -1,8 +1,8 @@
 ---
-permalink: esds-a/reference_esds_use_maintenance_mode.html
+permalink: esds/reference_esds_use_maintenance_mode.html
 sidebar: sidebar
-keywords: element,solidfire esds,maintenance,maintenance mode
-summary: 'If you need to take a storage node offline for maintenance such as software upgrades or host repairs, you can minimize the I/O impact to the rest of the storage cluster by enabling maintenance mode for that node.'
+keywords: element, solidfire esds, maintenance, maintenance mode
+summary: If you need to take a storage node offline for maintenance such as software upgrades or host repairs, you can minimize the I/O impact to the rest of the storage cluster by enabling maintenance mode for that node.
 ---
 = Use maintenance mode on SolidFire eSDS clusters
 :icons: font
@@ -36,12 +36,13 @@ After these criteria are met, the node is transitioned out of maintenance mode. 
 
 == Enable maintenance mode
 
-You can enable maintenance mode using the EnableMaintenanceMode API method. This method has the following input parameters:
+You can enable maintenance mode using the `EnableMaintenanceMode` API method. This method has the following input parameters:
 
+[%header,cols=5*]
 |===
 | Name| Description| Type| Default value| Required
 a|
-forceWithUnresolvedFaults
+`forceWithUnresolvedFaults`
 a|
 Force maintenance mode to be enabled for this node even with blocking cluster faults present.
 a|
@@ -51,7 +52,7 @@ False
 a|
 No
 a|
-nodes
+`nodes`
 a|
 The list of node IDs to put in maintenance mode. Only one node at a time is supported.
 a|
@@ -61,7 +62,7 @@ None
 a|
 Yes
 a|
-perMinutePrimarySwapLimit
+`perMinutePrimarySwapLimit`
 a|
 The number of primary slices to swap per minute. If not specified, all primary slices will be swapped at once.
 a|
@@ -71,7 +72,7 @@ None
 a|
 No
 a|
-timeout
+`timeout`
 a|
 Specifies how long maintenance mode should remain enabled before it is automatically disabled. Formatted as a time string (for example, HH:mm:ss). If not specified, maintenance mode will remain enabled until explicitly disabled.
 a|
@@ -81,18 +82,20 @@ None
 a|
 No
 |===
+
 This method has the following return values:
 
+[%header,cols=3*]
 |===
 | Name| Description| Type
 a|
-asyncHandle
+`asyncHandle`
 a|
-You can use the GetAsyncResult method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.
+You can use the `GetAsyncResult` method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.
 a|
 integer
 a|
-currentMode
+`currentMode`
 a|
 The current maintenance mode state of the node. Possible values:
 
@@ -105,7 +108,7 @@ The current maintenance mode state of the node. Possible values:
 a|
 MaintenanceMode (string)
 a|
-requestedMode
+`requestedMode`
 a|
 The requested maintenance mode state of the node. Possible values:
 
@@ -118,16 +121,15 @@ The requested maintenance mode state of the node. Possible values:
 a|
 MaintenanceMode (string)
 |===
-See the https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-9A224B03-75F9-4288-8F2A-3E2BAD5918B0.html[Element 12.2 API Reference Guide] for more information.
 
 == Disable maintenance mode
 
-You can disable maintenance mode using the DisableMaintenanceMode API method. This method has the following input parameter:
-
+You can disable maintenance mode using the `DisableMaintenanceMode` API method. This method has the following input parameter:
+[%header,cols=5*]
 |===
 | Name| Description| Type| Default value| Required
 a|
-nodes
+`nodes`
 a|
 List of storage node IDs to take out of maintenance mode.
 a|
@@ -137,18 +139,20 @@ None
 a|
 Yes
 |===
+
 This method has the following return values:
 
+[%header,cols=3*]
 |===
 | Name| Description| Type
 a|
-asyncHandle
+`asyncHandle`
 a|
-You can use the GetAsyncResult method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.
+You can use the `GetAsyncResult` method to retrieve this asyncHandle and determine when the maintenance mode transition is complete.
 a|
 integer
 a|
-currentMode
+`currentMode`
 a|
 The current maintenance mode state of the node. Possible values:
 
@@ -162,7 +166,7 @@ The current maintenance mode state of the node. Possible values:
 a|
 MaintenanceMode (string)
 a|
-requestedMode
+`requestedMode`
 a|
 The requested maintenance mode state of the node. Possible values:
 
@@ -176,4 +180,7 @@ The requested maintenance mode state of the node. Possible values:
 a|
 MaintenanceMode (string)
 |===
-See the https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-8F87E5ED-FB68-42BD-B6CD-56D6FF8B4F37.html[Element 12.2 API Reference Guide] for more information.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

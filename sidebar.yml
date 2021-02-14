@@ -68,9 +68,23 @@ entries:
     url: /esds/task_esds_install_using_ansible.html
   - title: Perform post-installation tasks
     url: /esds/task_esds_postinstallation.html
-  - title: Use SolidFire eSDS
+  - title: Upgrade the clusters
+    url: /esds/task_esds_upgrade_cluster.html
+  - title: Monitor your clusters
+    url: /esds/concept_esds_monitor_clusters.html
+  - title: Manage SolidFire eSDS storage
+    url: /esds/reference_esds_element_links.html
+  - title: Uninstall SolidFire eSDS
+    url: /esds/task_esds_uninstall.html
+  - title: Get the license key
+    url: /esds/task_esds_get_license_key.html
+  - title: Use maintenance mode on SolidFire eSDS clusters
+    url: /esds/reference_esds_use_maintenance_mode.html
   - title: Replace drives for HPE DL360
+    url: /esds/task_esds_dl360_drive_repl.html
   - title: Replace drives for Dell R640
+  - title: Contents of the sf_sds_config.yaml file
+    url: /esds/reference_esds_sf_sds_config_file.html
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
