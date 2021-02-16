@@ -9,7 +9,7 @@ summary: 'You can use CreateSchedule to schedule an automatic snapshot of a volu
 :imagesdir: ../media/
 
 [.lead]
-You can use CreateSchedule to schedule an automatic snapshot of a volume at a defined interval.
+You can use `CreateSchedule` to schedule an automatic snapshot of a volume at a defined interval.
 
 You can use the created snapshot later as a backup or rollback to ensure the data on a volume or group of volumes is consistent for the point in time in which the snapshot was created. If you schedule a snapshot to run at a time period that is not divisible by 5 minutes, the snapshot will run at the next time period that is divisible by 5 minutes. For example, if you schedule a snapshot to run at 12:42:00 UTC, it will run at 12:45:00 UTC. You cannot schedule a snapshot to run at intervals of less than 5 minutes.
 
@@ -22,13 +22,13 @@ This method has the following input parameters:
 |===
 | Name| Description| Type| Default value| Required
 a|
-attributes
+`attributes`
 a|
 Use the "`frequency`" string to indicate the frequency of the snapshot. Possible values:
 
-* Days of Week
-* Days of Month
-* Time Interval
+* `Days of Week`
+* `Days of Month`
+* `Time Interval`
 
 a|
 JSON object
@@ -36,8 +36,16 @@ a|
 None
 a|
 No
+
+|`hasError`
+|*Help with description needed*
+|boolean
+|`false`
+|No
+
+
 a|
-hours
+`hours`
 a|
 Number of hours between recurring snapshots or hour in GMT time that the snapshot will occur in Days of Week or Days of Month mode. Valid values are 0 through 23.
 a|
@@ -46,8 +54,15 @@ a|
 None
 a|
 No
+
+|`lastRunStatus`
+|The result or status of the last scheduled snapshot creation.
+|string
+|None
+|No
+
 a|
-name
+`name`
 a|
 The name of the snapshot. If no name is entered, the date and time the group snapshot was taken is used. The maximum name length allowed is 244 characters.
 a|
@@ -57,7 +72,7 @@ None
 a|
 No
 a|
-minutes
+`minutes`
 a|
 Number of minutes between recurring snapshots or the minute in GMT time that the snapshot will occur in Days of Week or Days of Month mode. Valid values are 5 through 59.
 a|
@@ -66,13 +81,14 @@ a|
 None
 a|
 No
+
 a|
-paused
+`paused`
 a|
 Indicates if the schedule should be paused or not. Valid values:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -81,12 +97,12 @@ None
 a|
 No
 a|
-recurring
+`recurring`
 a|
 Indicates if the schedule will be recurring or not. Valid values are:
 
-* true
-* false
+* `true`
+* `false`
 
 a|
 boolean
@@ -94,8 +110,20 @@ a|
 None
 a|
 No
+
+|`runNextInterval`
+a|Specifies whether or not to run the snapshot the next time the scheduler is active. When set to true, the scheduled snapshot runs the next time the scheduler is active and resets back to false.
+Valid values are:
+
+* `true`
+* `false`
+
+|boolean
+|`false`
+|No
+
 a|
-scheduleName
+`scheduleName`
 a|
 Unique name for the schedule. The maximum schedule name length allowed is 244 characters.
 a|
@@ -105,7 +133,7 @@ None
 a|
 Yes
 a|
-scheduleType
+`scheduleType`
 a|
 Indicates the type of schedule to create. Valid value is snapshot.
 a|
@@ -115,15 +143,17 @@ None
 a|
 Yes
 a|
-scheduleInfo
+`scheduleInfo`
 a|
-An object of schedule information about how the snapshot should be created at each scheduled interval.
+The unique name given to the schedule, the retention period for the snapshot that was created, and the volume ID of the volume from which the snapshot was created. Valid values:
 
-* volumeID: The ID of the volume to be included in the snapshot. (integer)
-* volumes: A list of volume IDs to be included in the group snapshot. (integer array)
-* name: The snapshot name to be used. (string)
-* enableRemoteReplication: Indicates if the snapshot should be included in remote replication. (boolean)
-* retention: The amount of time the snapshot will be retained in HH:mm:ss. (string)
+* `volumeID`: The ID of the volume to be included in the snapshot. (integer)
+* `volumes`: A list of volume IDs to be included in the group snapshot. (integer array)
+* `name`: The snapshot name to be used. (string)
+* `enableRemoteReplication`: Indicates if the snapshot should be included in remote replication. (boolean)
+* `retention`: The amount of time the snapshot will be retained in HH:mm:ss. If empty, the snapshot is retained forever. (string)
+* `fifo`: The snapshot is retained on a First-In-First-Out (FIFO) basis. (string)
+* `ensureSerialCreation`: Specify if a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
 
 a|
 JSON object
@@ -132,7 +162,7 @@ None
 a|
 Yes
 a|
-snapMirrorLabel
+`snapMirrorLabel`
 a|
 The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.
 a|
@@ -142,7 +172,7 @@ None
 a|
 No
 a|
-startingDate
+`startingDate`
 a|
 Time after which the schedule will be run. If not set, the schedule starts immediately. Formatted in UTC time.
 a|
@@ -151,8 +181,16 @@ a|
 None
 a|
 No
+
+|`toBeDeleted`
+|Specifies that this snapshot schedule should be deleted after snapshot creation is completed.
+|boolean
+|`false`
+|No
+
+
 a|
-monthdays
+`monthdays`
 a|
 The days of the month that a snapshot will be made. Valid values are 1 through 31.
 a|
@@ -162,12 +200,12 @@ None
 a|
 Yes (if scheduling for days of the month)
 a|
-weekdays
+`weekdays`
 a|
 Day of the week the snapshot is to be created. Required values (if used):
 
-* Day: 0 through 6 (Sunday through Saturday)
-* Offset: for each possible week in a month, 1 through 6 (If greater than 1, only matched on the Nth-1 day of the week. For example, offset:3 for Sunday means the third Sunday of the month, while offset:4 for Wednesday means the fourth Wednesday of the month. Offset:0 means no action is taken. Offset:1 (default) means that the snapshot is created for this day of the week, regardless of where it falls in the month)
+* `Day`: 0 through 6 (Sunday through Saturday)
+* `Offset`: for each possible week in a month, 1 through 6 (If greater than 1, only matched on the Nth-1 day of the week. For example, offset:3 for Sunday means the third Sunday of the month, while offset:4 for Wednesday means the fourth Wednesday of the month. Offset:0 means no action is taken. Offset:1 (default) means that the snapshot is created for this day of the week, regardless of where it falls in the month)
 
 a|
 JSON object array
