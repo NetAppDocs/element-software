@@ -49,6 +49,7 @@ Indicates how the snapshot expiration is set. Possible values:
 * Api: The expiration time is set by using the API.
 * None: No expiration time is set.
 * Test: The expiration time is set for testing.
+* fifo: Expiration occurs on a first-in-first-out basis.
 
 a|
 string

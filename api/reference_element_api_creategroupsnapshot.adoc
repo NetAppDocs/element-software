@@ -83,7 +83,7 @@ No
 a|
 `retention`
 a|
-The amount of time the snapshot will be retained. If left empty, the snapshot is retained forever. Enter in the HH:mm:ss format. If neither `expirationTime` nor `retention` are specified, the snapshot will not expire.
+This parameter is same as the `expirationTime` parameter, except the time format is HH:mm:ss. If neither `expirationTime` nor `retention` are specified, the snapshot will not expire.
 a|
 string
 a|
