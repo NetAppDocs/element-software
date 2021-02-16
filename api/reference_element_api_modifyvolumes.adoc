@@ -9,9 +9,9 @@ summary: 'You can use the ModifyVolumes method to configure up to 500 existing v
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyVolumes method to configure up to 500 existing volumes at one time. Changes take place immediately. If ModifyVolumes fails to modify any of the specified volumes, none of the specified volumes are changed.
+You can use the `ModifyVolumes` method to configure up to 500 existing volumes at one time. Changes take place immediately. If `ModifyVolumes` fails to modify any of the specified volumes, none of the specified volumes are changed.
 
-If you do not specify QoS values when you modify volumes, the QoS values for each volume remain unchanged. You can retrieve default QoS values for a newly created volume by running the GetDefaultQoS method.
+If you do not specify QoS values when you modify volumes, the QoS values for each volume remain unchanged. You can retrieve default QoS values for a newly created volume by running the `GetDefaultQoS` method.
 
 When you need to increase the size volumes that are being replicated, do so in the following order to prevent replication errors:
 
