@@ -1,7 +1,7 @@
 ---
 permalink: setup/concept_setup_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Before you get started, you might want to understand the sequence of installing and setting up NetApp Element software.'
 ---
 = Setup overview
@@ -12,3 +12,8 @@ summary: 'Before you get started, you might want to understand the sequence of i
 Before you get started, you might want to understand the sequence of installing and setting up NetApp Element software.
 
 image::../media/sf_and_element_workflow_for_setup_shorter_workflow.png[Setup workflow diagram]
+
+
+
+== Find more information
+ * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
