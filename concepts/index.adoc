@@ -1,12 +1,13 @@
 ---
 permalink: concepts/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
-= Concepts Guide
+= Concepts
 :icons: font
 :imagesdir: ../media/
+Learn basic concepts related to Element software.
 
 * xref:concept_solidfire_concepts_solidfire_architecture_overview.adoc[SolidFire architecture overview]
  ** xref:concept_intro_solidfire_active_iq.adoc[SolidFire Active IQ]
@@ -45,10 +46,3 @@ summary: ''
 * xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
  ** xref:reference_data_manage_volumes_qos_limits.adoc[QoS value limits]
  ** xref:concept_data_manage_volumes_qos_performance_curve.adoc[QoS performance curve]
-* xref:concept_solidfire_concepts_netapp_hci_cloud_concepts.adoc[NetApp HCI cloud concepts]
- ** xref:concept_solidfire_concepts_cloud_services_on_netapp_hci.adoc[Cloud services on NetApp HCI]
-* xref:reference_solidfire_element_ug_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:concept_dnu_contacting_netapp_support.adoc[Contacting NetApp Support]
-* xref:reference_copyright.adoc[Copyright]
-* xref:reference_trademark.adoc[Trademark]
-* xref:concept_how_to_send_comments_about_documentation_and_receive_update_notifications_netapp_post_preface.adoc[How to send comments about documentation and receive update notifications]

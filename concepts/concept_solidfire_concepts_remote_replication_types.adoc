@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_solidfire_concepts_remote_replication_types.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Remote replication of data can take the form of synchronous, asynchronous, or snapshot-only replication. Remote replication can also include replication of data between NetApp Element software and ONTAP systems using SnapMirror technology.'
 ---
 = Remote replication types
@@ -10,3 +10,60 @@ summary: 'Remote replication of data can take the form of synchronous, asynchron
 
 [.lead]
 Remote replication of data can take the form of synchronous, asynchronous, or snapshot-only replication. Remote replication can also include replication of data between NetApp Element software and ONTAP systems using SnapMirror technology.
+
+== Synchronous and asynchronous replication between clusters
+For clusters running NetApp Element software, real-time replication enables the quick creation of remote copies of volume data.
+
+You can pair a storage cluster with up to four other storage clusters. You can replicate volume data synchronously or asynchronously from either cluster in a cluster pair for failover and failback scenarios.
+
+=== Synchronous replication
+
+Synchronous replication continuously replicates data from the source cluster to the target cluster and is affected by latency, packet loss, jitter, and bandwidth.
+
+Synchronous replication is appropriate for the following situations:
+
+* Replication of several systems over a short distance
+* A disaster recovery site that is geographically local to the source
+* Time-sensitive applications and the protection of databases
+* Business continuity applications that require the secondary site to act as the primary site when the primary site is down
+
+=== Asynchronous replication
+
+Asynchronous replication continuously replicates data from a source cluster to a target cluster without waiting for the acknowledgments from the target cluster. During asynchronous replication, writes are acknowledged to the client (application) after they are committed on the source cluster.
+
+Asynchronous replication is appropriate for the following situations:
+
+* The disaster recovery site is far from the source and the application does not tolerate latencies induced by the network.
+* There are bandwidth limitations on the network connecting the source and target clusters.
+
+== Snapshot-only replication
+Snapshot-only data protection replicates changed data at specific points of time to a remote cluster. Only those snapshots that are created on the source cluster are replicated. Active writes from the source volume are not.
+
+You can set the frequency of the snapshot replications.
+
+Snapshot replication does not affect asynchronous or synchronous replication.
+
+== Replication between Element and ONTAP clusters using SnapMirror
+
+With NetApp SnapMirror technology, you can replicate snapshots that were taken using NetApp Element software to ONTAP for disaster recovery purposes. In a SnapMirror relationship, Element is one endpoint and ONTAP is the other.
+
+SnapMirror is a NetAppSnapshot™ replication technology that facilitates disaster recovery, designed for failover from primary storage to secondary storage at a geographically remote site. SnapMirror technology creates a replica, or mirror, of the working data in secondary storage from which you can continue to serve data if an outage occurs at the primary site. Data is mirrored at the volume level.
+
+The relationship between the source volume in primary storage and the destination volume in secondary storage is called a data protection relationship. The clusters are referred to as endpoints in which the volumes reside and the volumes that contain the replicated data must be peered. A peer relationship enables clusters and volumes to exchange data securely.
+
+SnapMirror runs natively on the NetApp ONTAP controllers and is integrated into Element, which runs on NetApp HCI and SolidFire clusters. The logic to control SnapMirror resides in ONTAP software; therefore, all SnapMirror relationships must involve at least one ONTAP system to perform the coordination work. Users manage relationships between Element and ONTAP clusters primarily through the Element UI; however, some management tasks reside in NetAppONTAP System Manager. Users can also manage SnapMirror through the CLI and API, which are both available in ONTAP and Element.
+
+You must manually enable SnapMirror functionality at the cluster level by using Element software. SnapMirror functionality is disabled by default, and it is not automatically enabled as part of a new installation or upgrade.
+
+After enabling SnapMirror, you can create SnapMirror relationships from the Data Protection tab in the Element software.
+
+NetApp Element software 10.1 and above supports SnapMirror functionality to copy and restore snapshots with ONTAP systems.
+
+Systems running Element 10.1 and above include code that can communicate directly with SnapMirror on ONTAP systems running 9.3 or higher. The Element API provides methods to enable SnapMirror functionality on clusters, volumes, and snapshots. Additionally, the Element UI includes functionality to manage SnapMirror relationships between Element software and ONTAP systems.
+
+Starting with Element 10.3 and ONTAP 9.4 systems, you can replicate ONTAP originated volumes to Element volumes in specific use cases with limited functionality.
+
+For more information, see ONTAP documentation.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
