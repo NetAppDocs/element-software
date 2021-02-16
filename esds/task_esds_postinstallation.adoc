@@ -33,7 +33,7 @@ IMPORTANT: You cannot change the cluster name after the cluster is created.
 ... Open the per-node management node UI: `https://<node_mip>:442`.
 ... Select *Cluster Settings* and enter the cluster name.
 ... Select *Apply Changes*.
-** Use the `SetClusterConfig` API method.
+** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
 +
 This method has the following input parameter:
 +
@@ -66,8 +66,6 @@ See the following request example:
    }
 }
 ----
-+
-For more information about this API method, see link:api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^].
 
 == Set the license key
 
@@ -172,9 +170,9 @@ image::../media/esds_create_cluster.png[Shows the per-node UI screen.]
 
 ... Confirm that you have read the NetApp End User License Agreement.
 ... Select *Create Cluster*.
-... To verify that cluster was created, log in to the cluster: http://<mvip_ip>.
+... To verify that cluster was created, log in to the cluster: `http://mvip_ip`.
 ... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
-** Use the `CreateCluster` API method.
+** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
 +
 This method has the following input parameters:
 +
@@ -324,7 +322,7 @@ You should add drives to your SolidFire eSDS cluster so that they can participat
 ... To add individual drives, select the *Actions* icon for the drive you want to add, and then select *Add*.
 ... To add multiple drives, select the check boxes for the drives to add, select *Bulk Actions*, and then select *Add*.
 ... Verify that the drives are added, and the cluster capacity is as expected.
-** Use the `AddDrives` API method.
+** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_adddrives.html[`AddDrives`^] API method.
 +
 This method has the following input parameter:
 +

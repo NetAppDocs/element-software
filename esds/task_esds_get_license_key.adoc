@@ -12,7 +12,7 @@ summary: You should get the license key information for your SolidFire eSDS clus
 You should get the license key information for your SolidFire eSDS cluster before you contact NetApp Support for help with troubleshooting issues. The license key for the SolidFire eSDS cluster consists of the cluster's order number combined with the serial number.
 
 You can use the `GetLicenseKey` method to get the license key information for the SolidFire eSDS storage cluster. The `GetLicenseKey` method has no input parameters. This method has the following return values:
-+
+
 [%header,cols=3*]
 |===
 | Name| Description| Type

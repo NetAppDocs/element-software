@@ -31,15 +31,15 @@ Several new APIs have been introduced in Element 12.2 that you can use on SolidF
 
 Here is a list of new APIs in Element 12.2:
 
-* link:api/reference_element_api_getlicensekey[`GetLicenseKey`^]
-* link:api/reference_element_api_setlicensekey[`SetLicenseKey`^]
-* link:api/reference_element_api_enablemaintenancemode[`EnableMaintenanceMode`^]
-* link:api/reference_element_api_disablemaintenancemode[DisableMaintenanceMode`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_getlicensekey.html[`GetLicenseKey`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_setlicensekey.html[`SetLicenseKey`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_enablemaintenancemode.html[`EnableMaintenanceMode`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_disablemaintenancemode.html[`DisableMaintenanceMode`^]
 
 The following APIs have been updated to support SolidFire eSDS clusters:
 
-* link:api/reference_element_api_addnodes[`AddNodes`^]
-* link:api/reference_element_api_createcluster[`CreateCluster`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_addnodes.html[`AddNodes`^]
+* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_createcluster.html[`CreateCluster`^]
 +
 NOTE: New parameters, `OrderNumber`, `SerialNumber`, and `enableSoftwareEncryptionAtRest` have been added to the `CreateCluster` method in Element software 12.2. You should specify these parameters while using this API method for creating a cluster after you install SolidFire eSDS.
 

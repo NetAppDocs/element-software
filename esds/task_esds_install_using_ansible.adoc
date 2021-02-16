@@ -112,30 +112,6 @@ all:
 . Ping the hosts (nodes) you defined in the inventory file to verify that Ansible can communicate with them.
 . Download the Red Hat Package Manager (RPM) file to the file directory on a local web server accessible from the server running Ansible and the storage nodes.
 . Create the Ansible playbook. If you already have a playbook, you can modify it. You can use the examples in the README file that NetApp provides.
-+
-You should use `/dev/disk/by-id/nvme-<DriveModel>_<SerialNo>` for the cache device instead of /dev/nvme*n1 names. You can replace NVME raw names with by-id by specifying the following in your playbook:
-+
-----
-
-    post_tasks:
-    - name: Find the supported cache device's by-id path
-      set_fact:
-        found_device: "/dev/disk/by-id/{{ cdev_info.value['links']['ids'][0] }}"
-      with_dict: "{{ ansible_devices }}"
-      loop_control:
-        loop_var: cdev_info
-      when: cdev_info.value['model'] and cdev_info.value['model'].startswith('EO000')
-      delegate_to: localhost    - fail:
-        msg: "Error: Unable to locate Cache Device on this node!!!"
-      when: not found_device or 'EO000' not in found_device    - set_fact:
-        cache_devices: ['{{ found_device }}']
-      when: cache_devices is defined and cache_devices|length > 0    - name: Update SolidFire eSDS configuration
-      include_role:
-        name: nar_solidfire_sds_install
-        tasks_from: update-config.yml
-      vars:
-        cache_devices: ['{{ found_device }}']
-----
 . Install SolidFire eSDS by running the playbook you created in the previous step:
 +
 ----

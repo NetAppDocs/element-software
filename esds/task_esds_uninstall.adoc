@@ -13,11 +13,11 @@ You can *reset* a node on which you installed SolidFire eSDS by removing SolidFi
 
 .Steps
 
-. Remove drives from the cluster by using the Element UI or the `RemoveDrives` API method.
+. Remove drives from the cluster by using the Element UI or the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_removedrives.html[`RemoveDrives`^] API method.
 +
 This results in the system migrating data from the node's drives to other drives in the cluster. The time this process takes is dependent on how much data must be migrated.
 
-. Remove the node from the cluster using either the Element UI or the link:api/reference_element_api_removenodes[`RemoveNodes`^]. API method.
+. Remove the node from the cluster using either the Element UI or the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_removenodes.html[`RemoveNodesy`^] API method.
 . Ping the hosts (nodes) you defined in the inventory file to verify that Ansible can communicate with them.
 . Remove SolidFire eSDS from the node as follows:
 +
