@@ -7,8 +7,6 @@ entries:
   entries:
   - title: What's new
     url: /concepts/concept_rn_whats_new_element.html
-  - title: Additional release information
-    url: /concepts/concept_rn_relatedrn_element.html
 - title: Concepts
   url: /concepts/index.html
   entries:
@@ -90,6 +88,12 @@ entries:
     url: /storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
+- title: Try it out
+  url: /setup/task_try_overview.html
+  entries:
+    - title: Test Element features on a virtual machine demo node
+    - title: Try out Element software in our Lab on Demand
+      url: https://handsonlabs.netapp.com/catalog
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
@@ -214,7 +218,7 @@ entries:
     - title: Provide feedback
       url: "/storage/task_intro_provide_feedback.html"
   - title: Manage accounts
-    url:
+    url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
     entries:
     - title: Work with user accounts
       url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
@@ -379,14 +383,7 @@ entries:
     - title: Work with volumes
       url: "/storage/task_data_manage_volumes_work_with_volumes_task.html"
       entries:
-      - title: Quality of Service
-        url: "/storage/concept_data_manage_volumes_solidfire_quality_of_service.html"
-        entries:
-        - title: QoS value limits
-          url: "/storage/reference_data_manage_volumes_qos_limits.html"
-        - title: QoS performance curve
-          url: "/storage/concept_data_manage_volumes_qos_performance_curve.html"
-      - title: Quality of Service policies
+      - title: Manage Quality of Service policies
         url: "/storage/concept_data_manage_volumes_quality_of_service_policies.html"
         entries:
         - title: Create a QoS policy
@@ -396,7 +393,7 @@ entries:
         - title: Edit a QoS policy
           url: "/storage/task_data_manage_volumes_edit_a_qos_policy.html"
         - title: Delete a QoS policy
-          url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
+        url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
       - title: Create a volume
         url: "/storage/task_data_manage_volumes_create_a_volume.html"
       - title: Volume details
@@ -718,6 +715,7 @@ entries:
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
 - title: Manage storage with NetApp Hybrid Cloud Control
+  url: "/storage/task_intro_manage_storage_hcc.html"
 - title: Manage storage with the Element Plug-in for vCenter Server
   url: https://docs.netapp.com/us-en/vcp/
 - title: Manage storage with Element API
