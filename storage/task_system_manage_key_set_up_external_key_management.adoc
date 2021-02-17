@@ -34,8 +34,8 @@ If the test fails, verify your server connectivity and configuration. Then repea
 +
 NOTE: This enable-encryption-at-rest step is not applicable to software encryption at rest. To enable hardware-based encryption at rest using an external key management configuration, you must enable encryption at rest via the link:api/reference_element_api_enableencryptionatrest.html[API]. Enabling encryption at rest using the existing Element UI button will revert to using internally generated keys.
 
-*Related information*
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
-
-link:storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[Enable and disable encryption for a cluster]
+[discrete]
+== Find more information
+* link:storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[Enable and disable encryption for a cluster]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

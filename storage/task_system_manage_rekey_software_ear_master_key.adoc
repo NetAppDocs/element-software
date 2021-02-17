@@ -88,8 +88,8 @@ NOTE: This process is asynchronous and returns a response before encryption is e
 }
 ----
 
-*Related information*
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
-
-link:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.md#[Enable and disable encryption for a cluster]
+[discrete]
+== Find more information
+* link:concept_element_api_about_the_api.html[Managing storage with the Element API]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

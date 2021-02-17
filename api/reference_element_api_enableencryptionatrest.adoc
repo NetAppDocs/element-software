@@ -27,6 +27,7 @@ NOTE: This process is asynchronous and returns a response before encryption is e
 
 This method has the following input parameters:
 
+[%header,cols=5*]
 |===
 | Name| Description| Type| Default value| Required
 a|
@@ -98,8 +99,9 @@ While Encryption At Rest is being enabled on a cluster, GetClusterInfo returns a
 
 9.6
 
-*Related information*
-
-xref:reference_element_api_secureerasedrives.adoc[SecureEraseDrives]
-
-xref:reference_element_api_getclusterinfo.adoc[GetClusterInfo]
+[discrete]
+== Find more information
+* link:reference_element_api_secureerasedrives.html[SecureEraseDrives]
+* link:reference_element_api_getclusterinfo.html[GetClusterInfo]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

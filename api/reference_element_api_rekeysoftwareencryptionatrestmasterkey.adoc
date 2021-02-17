@@ -12,7 +12,7 @@ summary: 'You can use the RekeySoftwareEncryptionAtRestMasterKey method to rekey
 You can use the RekeySoftwareEncryptionAtRestMasterKey method to rekey the Software Encryption-At-Rest master key used to encrypt DEKs (Data Encryption Keys). During cluster creation, Software Encryption-At-Rest is configured to use Internal Key Management (IKM). This method can be used at any time after cluster creation to use either IKM or External Key Management (EKM).
 
 == Parameters
-This method has the following input parameters. If the keyManagementType parameter is not specified, the rekey operation is performed using the existing key management configuration. If the keyManagementType is specified and the key provider is external, the keyProviderID parameter must also be used.
+This method has the following input parameters. If the `keyManagementType` parameter is not specified, the rekey operation is performed using the existing key management configuration. If the `keyManagementType` is specified and the key provider is external, the `keyProviderID` parameter must also be used.
 
 [cols=4*,options="header"]
 |===
@@ -26,7 +26,7 @@ Possible values are:
 If this parameter is not specified, the rekey operation is performed using the existing key management configuration.
 | string| True|
 
-keyProviderID| The ID of the key provider to use. This is a unique value returned as part of one of the `CreateKeyProvider` methods. The ID is only required when keyManagementType is `External` and is otherwise invalid.
+keyProviderID| The ID of the key provider to use. This is a unique value returned as part of one of the `CreateKeyProvider` methods. The ID is only required when `keyManagementType` is `External` and is otherwise invalid.
 | integer| True|
 |===
 
@@ -64,3 +64,8 @@ This method returns a response similar to the following example:
 == New since version
 
 12.3
+
+[discrete]
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -1,20 +1,20 @@
 ---
 permalink: storage/concept_system_manage_key_get_started_with_external_key_management.html
 sidebar: sidebar
-keywords: kmip
-summary: 'External key management \(EKM\) provides secure Authentication Key \(AK\) management in conjunction with an off-cluster external key server \(EKS\). The EKS provides secure generation and storage of the AKs.'
+keywords: kmip, master key, key management, encryption at rest, software encryption at rest
+summary: 'External key management \(EKM\) provides secure Authentication Key \(AK\) management in conjunction with an off-cluster external key server \(EKS\). The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when encryption at rest is enabled on the cluster.'
 ---
 = Get started with External key management
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-External key management (EKM) provides secure Authentication Key (AK) management in conjunction with an off-cluster external key server (EKS). The EKS provides secure generation and storage of the AKs.
+External key management (EKM) provides secure Authentication Key (AK) management in conjunction with an off-cluster external key server (EKS). The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when link:concept_solidfire_element_ug_encryption_at_rest.html[encryption at rest] is enabled on the cluster. The EKS provides secure generation and storage of the AKs. The cluster utilizes the Key Management Interoperability Protocol (KMIP), an OASIS defined standard protocol, to communicate with the EKS.
 
-The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when Encryption At Rest (EAR) is enabled on the cluster. The cluster utilizes the Key Management Interoperability Protocol (KMIP), an OASIS defined standard protocol, to communicate with the EKS.
+NOTE: Only software encryption at rest is available for SolidFire Enterprise SDS clusters.
 
-NOTE: This feature is unavailable in SolidFire Enterprise SDS clusters.
-
-To enable Software Encryption at Rest, use the ElementCreateCluster API command.
-
-http://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/GUID-9E105236-EDCF-4613-8504-C6685AF937A5.html
+[discrete]
+== Find more information
+* link:reference_element_api_createcluster.html[CreateCluster API that can be used to enable software encryption at rest]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

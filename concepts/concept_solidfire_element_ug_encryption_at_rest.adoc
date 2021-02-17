@@ -16,10 +16,10 @@ All drives in storage nodes are capable of encryption leverage AES 256-bit encry
 
 Enabling the encryption at rest feature does not affect performance or efficiency on the cluster. If an encryption-enabled drive or node is removed from cluster configuration with the Element API or Element UI, encryption at rest will be disabled on the drives. After the drive is removed, the drive can be secure erased by using the SecureEraseDrives API method. If a physical drive or node is forcibly removed, the data remains protected by the cluster-wide password and the drive's individual encryption keys.
 
-= Encryption at Rest (Software)
+= Encryption at Rest (software)
 
-Another type of encryption-at-rest, Software Encryption-at-Rest enables all data written to SSDs in a storage cluster to be encrypted. Once enabled, it encrypts all data written and decrypts all data read automatically in software. Software Encryption-at-Rest mirrors the Self-Encrypting Drive (SED) implementation in software rather than hardware to provide data security in the absence of SED.
+Another type of encryption-at-rest, software encryption-at-rest enables all data written to SSDs in a storage cluster to be encrypted. Once enabled, it encrypts all data written and decrypts all data read automatically in software. Software Encryption-at-Rest mirrors the Self-Encrypting Drive (SED) implementation in hardware to provide data security in the absence of SED.
 
-Software Encryption At Rest is available by default in all link:esds/concept_esds_overview.html[SolidFire Enterprise SDS nodes]. Software Encryption at Rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
+Software encryption at rest is available by default in all link:esds/concept_esds_overview.html[SolidFire Enterprise SDS nodes]. Software encryption at rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
 
 Both software and hardware-based encryption-at-rest can be used independently or in combination with one another.
