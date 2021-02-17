@@ -9,7 +9,7 @@ summary: 'You can use ModifyGroupSnapshot to change the attributes of a group of
 :imagesdir: ../media/
 
 [.lead]
-You can use ModifyGroupSnapshot to change the attributes of a group of snapshots. You can also use this method to enable snapshots created on the read/write (source) volume to be remotely replicated to a target storage system.
+You can use `ModifyGroupSnapshot` to change the attributes of a group of snapshots. You can also use this method to enable snapshots created on the read/write (source) volume to be remotely replicated to a target storage system.
 
 == Parameters
 
@@ -18,12 +18,12 @@ This method has the following input parameters:
 |===
 | Name| Description| Type| Default value| Required
 a|
-enableRemoteReplication
+`enableRemoteReplication`
 a|
 Use to enable the snapshot created to be replicated to a remote cluster. Possible values:
 
-* true: The snapshot will be replicated to remote storage.
-* false:The snapshot will not be replicated to remote storage.
+* `true`: The snapshot will be replicated to remote storage.
+* `false`: The snapshot will not be replicated to remote storage.
 
 a|
 boolean
@@ -32,9 +32,10 @@ false
 a|
 No
 a|
-expirationTime
+`expirationTime`
 a|
-Use to set the time when the snapshot should be removed. If no time is entered, the current time will be used. When set to "null", the snapshot never expires.
+Specify the time after which the snapshot can be removed. Cannot be used with retention.
+If neither `expirationTime`, or `retention` on the original snapshot, are specified, the snapshot will not expire. The time format is an ISO 8601 date string for time based expiration, otherwise it will not expire. A value of `null` causes the snapshot to be retained permanently. A value of `fifo` causes the snapshot to be preserved on a First-In-First-Out (FIFO) basis, relative to other FIFO snapshots on the volume. The API will fail if no FIFO space is available.
 a|
 ISO 8601 date string
 a|
@@ -42,7 +43,7 @@ None
 a|
 No
 a|
-name
+`name`
 a|
 The name of the group snapshot. If no name is entered, the date and time the group snapshot was taken is used. The maximum name length allowed is 255 characters.
 a|
@@ -52,7 +53,7 @@ None
 a|
 No
 a|
-groupSnapshotID
+`groupSnapshotID`
 a|
 The ID of the group of snapshots.
 a|
@@ -62,7 +63,7 @@ None
 a|
 Yes
 a|
-snapMirrorLabel
+`snapMirrorLabel`
 a|
 The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.
 a|
@@ -71,6 +72,7 @@ a|
 None
 a|
 No
+
 |===
 
 == Return value
