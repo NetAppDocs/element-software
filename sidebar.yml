@@ -90,6 +90,11 @@ entries:
     url: /storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
+- title: Get started
+  url: /getstarted/concept_getstarted.html
+  entires:
+  - title: Try out Element with a demo node
+    url: /getstarted/task_use_demonode.html
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
