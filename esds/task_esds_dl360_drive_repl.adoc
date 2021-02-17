@@ -11,6 +11,10 @@ summary: Perform this procedure if you want to proactively replace a metadata dr
 [.lead]
 Choose from the procedures listed here to replace a drive proactively, replace a drive after it has failed, and replace a cache drive. replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI *Cluster > Drives* page shows the drive wear information.
 
+* <<Replace a drive proactively>>
+* <<Replace a faulty drive>>
+* <<Replace a cache drive>>
+ 
 === Replace a drive proactively
 
 Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI *Cluster* > *Drives* page shows the drive wear information.
