@@ -1,0 +1,57 @@
+---
+permalink: esds/concept_esds_monitor_clusters.html
+sidebar: sidebar
+keywords: solidfire esds installation, hcc, hybrid cloud control, esds clusters
+summary: You can monitor the performance of your SolidFire eSDS clusters and view the inventory using the NetApp Hybrid Cloud Control UI. You can also collect logs for troubleshooting using the NetApp Hybrid Cloud Control UI.'
+---
+= Monitor your clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can monitor the performance of your SolidFire eSDS clusters and view the inventory using the NetApp Hybrid Cloud Control UI. You can also collect logs for troubleshooting using the NetApp Hybrid Cloud Control UI.
+
+Here are the links to the information about monitoring your clusters in the NetApp Hybrid Cloud Control UI:
+
+* https://docs.netapp.com/us-en/hci/docs/task_hcc_nodes.html[View your inventory on the Nodes page]
+* https://docs.netapp.com/us-en/hci/docs/task_hcc_volumes.html[Monitor volumes on your storage cluster]
+* https://docs.netapp.com/us-en/hci/docs/task_hcc_activeiq.html[Monitor performance, capacity, and cluster health with SolidFire Active IQ]
+
+=== Collect logs
+
+You can collect logs to send to NetApp Support to help with diagnosing issues with your SolidFire eSDS clusters. You can use the NetApp Hybrid Cloud Control UI for this.
+
+Keep the following considerations in mind for collecting logs:
+
+* Do not use Podman commands to gather logs.
+* NetApp Support uses One Collect for host log collection. For an optimal support experience, you should have installed One Collect.
+
+.Steps
+
+. Open a web browser and browse to the IP address of the management node. For example:
++
+----
+https://[management node IP address]
+----
+
+. Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
+. From the Dashboard, select the menu on the upper right.
+. Select *Collect Logs*.
+. Select a date range in the *Date Range* drop-down menu to specify what dates the logs should include.
++
+If you specify a custom start date, you can select the date to begin the date range. Logs will be collected from that date up to the present time.
+
+. In the *Log Collection* section, select the types of log files the log package should include.
+. Select *Collect Logs* to start log collection.
++
+Log collection runs in the background, and the page shows the progress.
++
+NOTE: Depending on the logs you collect, the progress bar might remain at a certain percentage for several minutes, or progress very slowly at some points.
+
+. Select *Download Logs* to download the log package.
++
+The log package is in a compressed UNIX `.tgz` file format.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

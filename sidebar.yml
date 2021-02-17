@@ -94,25 +94,60 @@ entries:
   url: /hardware/index.html
   entries:
   - title: H410S and H610S hardware information
+    url: /hardware/concept_h410s_h610s_info.html
     entries:
     - title: Install H410S and H610S nodes
+      url: /hardware/task_h410s_h610s_install.html
     - title: Replace a H410S node
-    - title: Replace a H610 node
-    - title: Replace drives in H410S and H610S nodes
+      url: /hardware/task_h410s_repl.html
+    - title: Replace a H610S node
+      url: /hardware/task_h610s_repl.html
+    - title: Replace drives
+      url: /hardware/task_hseries_driverepl.html
     - title: Replace a power supply unit
-  - title: SolidFire series hardware information
+      url: /hardware/task_psu_repl.html
+  - title: SF-series hardware information
+    url: /hardware/concept_sfseries_info.html
     entries:
-    - title: Install SolidFire series hardware
     - title: Replace a chassis
-    - title: Replace a drive
+      url: /hardware/task_sfseries_chassisrepl.html
+    - title: Replace drives
+      url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
+      url: /hardware/task_sfseries_psurepl.html
 - title: Install and use SolidFire Enterprise SDS information
+  url: /esds/index.html
   entries:
   - title: Get started with SolidFire eSDS
+    url: /esds/concept_get_started_esds.html
+  - title: Perform the prerequisite tasks for installation
+    url: /esds/concept_esds_prerequisite_tasks.html
+    entries:
+      - title: Considerations for network configuration
+        url: /esds/concept_esds_networking_best_practices.html
+      - title: Configure the host networking
+        url: /esds/task_esds_configure_the_interface_config_files.html
   - title: Install SolidFire eSDS
-  - title: Use SolidFire eSDS
+    url: /esds/task_esds_install_using_ansible.html
+  - title: Perform post-installation tasks
+    url: /esds/task_esds_postinstallation.html
+  - title: Upgrade the clusters
+    url: /esds/task_esds_upgrade_cluster.html
+  - title: Monitor your clusters
+    url: /esds/concept_esds_monitor_clusters.html
+  - title: Manage SolidFire eSDS storage
+    url: /esds/reference_esds_element_links.html
+  - title: Uninstall SolidFire eSDS
+    url: /esds/task_esds_uninstall.html
+  - title: Get the license key
+    url: /esds/task_esds_get_license_key.html
+  - title: Use maintenance mode on SolidFire eSDS clusters
+    url: /esds/reference_esds_use_maintenance_mode.html
   - title: Replace drives for HPE DL360
+    url: /esds/task_esds_dl360_drive_repl.html
   - title: Replace drives for Dell R640
+  - title: Contents of the sf_sds_config.yaml file
+    url: /esds/reference_esds_sf_sds_config_file.html
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
@@ -1766,11 +1801,6 @@ entries:
       url: "/esds/task_esds_add_drives.html"
     - title: Change the Garbage Collection constant
       url: "/esds/task_esds_change_gc_constant.html"
-- title: hardware-a
-  url: "/hardware-a/index.html"
-  entries:
-  - title: Replacing a SolidFire chassis
-    url: "/hardware-a/task_sf_series_chassis_repl.html"
 - title: hardware-b
   url: "/hardware-b/index.html"
   entries:
@@ -1785,23 +1815,6 @@ entries:
       url: "/hardware-b/task_sf_series_remove_drive_from_chassis.html"
     - title: Add a drive to the cluster
       url: "/hardware-b/task_sf_series_add_drive_to_cluster.html"
-- title: hardware-c
-  url: "/hardware-c/index.html"
-  entries:
-  - title: Replace a power supply unit in a SolidFire chassis
-    url: "/hardware-c/task_sf_series_psu_repl.html"
-- title: hardware-d
-  url: "/hardware-d/index.html"
-  entries:
-  - title: Replace H410S node in a SolidFire Cluster
-    url: "/hardware-d/task_sf_h410s_node_replacement.html"
-    entries:
-    - title: Prepare to replace H410S node in the cluster
-      url: "/hardware-d/task_sf_h410s_prepare_for_node_replacement.html"
-    - title: Replace H410S node in the chassis
-      url: "/hardware-d/task_sf_h410s_replace_node_in_chassis.html"
-    - title: Add H410S node to the cluster
-      url: "/hardware-d/task_sf_h410s_add_node_to_cluster.html"
 - title: hardware
   url: "/hardware/index.html"
   entries:
