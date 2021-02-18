@@ -54,9 +54,10 @@ QoS parameter settings of 100 Min IOPS, 1000 Max IOPS, and 1500 Burst IOPs have 
 
 You can find information about the possible minimum and maximum values for Quality of Service (QoS).
 
+
+[cols=7*,options="header"]
 |===
-|  | I/O size maximum value
-| Parameters| Minimum value| Default| 4KB| 8KB| 16KB| 262KB
+| Parameters| Minimum value| Default| I/O size max 4KB| I/O size max 8KB| I/O size max 16KB| I/O size max 262KB
 a|
 Min IOPS
 a|

@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_intro_solidfire_software_interfaces.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can manage a SolidFire storage system by using NetApp Element software interfaces and integration utilities.'
 ---
 = SolidFire software interfaces
@@ -9,19 +9,31 @@ summary: 'You can manage a SolidFire storage system by using NetApp Element soft
 :imagesdir: ../media/
 
 [.lead]
-You can manage a SolidFire storage system by using NetApp Element software interfaces and integration utilities.
+You can manage a SolidFire storage system by using different NetApp Element software interfaces and integration utilities.
 
 * *NetApp Element software user interface*
 +
 Enables you to set up SolidFire storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure. Element is the storage operating system at the heart of a SolidFire cluster. Element software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources and present as a single storage system to external clients. Element software is responsible for all cluster coordination, scale and management of the system as a whole. The software interface is built upon the Element API.
++
+link:storage/index.html[Manage storage with Element software]
 
 * *NetApp Element Plug-in for vCenter Server*
 +
 Enables you to configure and manage storage clusters running Element software. The plug-in provides an alternative interface for the Element UI within VMware vSphere.
++
+https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
 * *NetApp Element software API*
 +
 Enables you to use a set of objects, methods, and routines to manage SolidFire storage. The Element API is based on the JSON-RPC protocol over HTTPS. You can monitor API operations in the Element UI by enabling the API Log; this enables you to see the methods that are being issued to the system. You can enable both requests and responses to see how the system replies to the methods that are issued.
++
+link:api/index.html[Manage storage with the Element API]
+
+* *NetApp Hybrid Cloud Control*
++
+Enables you to manage storage assets by using the NetApp Hybrid Cloud Control interface.
++
+link:storage/task_intro_manage_storage_hcc.html[Manage storage with the NetApp Hybrid Cloud Control]
 
 * *Management node UIs*
 +
@@ -53,3 +65,7 @@ Integrates with the VMware®Site Recovery Manager™ (SRM) to enable communicati
 * https://mysupport.netapp.com/products/p/elementvss.html[NetApp Downloads: SolidFire VSS Provider]
 +
 Integrates VSS shadow copies with SolidFire snapshots and clones.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
