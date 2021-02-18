@@ -564,7 +564,7 @@ entries:
     - title: GetKeyServerKmip
       url: "/api/reference_element_api_getkeyserverkmip.html"
     - title: GetSoftwareEncryptionatRestInfo
-      url: "api/reference_element_api_getsoftwareencryptionatrestinfo.html"
+      url: "/api/reference_element_api_getsoftwareencryptionatrestinfo.html"
     - title: ListKeyProvidersKmip
       url: "/api/reference_element_api_listkeyproviderskmip.html"
     - title: ListKeyServersKmip
