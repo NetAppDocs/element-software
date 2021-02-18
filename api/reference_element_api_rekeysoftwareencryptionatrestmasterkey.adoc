@@ -48,7 +48,7 @@ Requests for this method are similar to the following example:
 {
  "method": "rekeysoftwareencryptionatrestmasterkey",
  "params": {
-   "keyManagementType": "external"
+   "keyManagementType": "external",
    "keyProviderID": "<ID number>"
  }
 }
