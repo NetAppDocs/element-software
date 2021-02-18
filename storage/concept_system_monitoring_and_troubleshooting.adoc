@@ -1,40 +1,32 @@
 ---
 permalink: storage/concept_system_monitoring_and_troubleshooting.html
 sidebar: sidebar
-keywords: 
+keywords: trouble, troubleshoot, monitor, element, alert, event,
 summary: 'You must monitor the system for diagnostic purposes and to get information about performance trends and statuses of various system operations. You might need to replace nodes or SSDs for maintenance purposes.'
 ---
-= System monitoring and troubleshooting
+= Troubleshoot your system
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must monitor the system for diagnostic purposes and to get information about performance trends and statuses of various system operations. You might need to replace nodes or SSDs for maintenance purposes.
 
-*Related information*
 
-xref:task_monitor_information_about_system_events.adoc[View information about system events]
+* link:task_monitor_information_about_system_events.adoc[View information about system events]
+* link:reference_monitor_status_of_running_tasks.adoc[View status of running tasks]
+* link:task_monitor_system_alerts.adoc[View system alerts]
+* link:task_monitor_node_performance_activity.adoc[View node performance activity]
+* link:task_monitor_volume_performance.adoc[View volume performance]
+* link:task_monitor_iscsi_sessions.adoc[View iSCSI sessions]
+* link:task_monitor_fibre_channel_sessions.adoc[View Fibre Channel sessions]
+* link:concept_troubleshoot_drives.adoc[Troubleshoot drives]
+* link:concept_troubleshoot_nodes.adoc[Troubleshoot nodes]
+* link:concept_per_node_work_with_utilities.adoc[Work with per-node utilities for storage nodes]
+* link:concept_mnode_work_with_the_management_node.adoc[Work with the management node]
+* link:concept_monitor_understand_cluster_fullness_levels.adoc[Understand cluster fullness levels]
 
-xref:reference_monitor_status_of_running_tasks.adoc[View status of running tasks]
 
-xref:task_monitor_system_alerts.adoc[View system alerts]
 
-xref:task_monitor_node_performance_activity.adoc[View node performance activity]
-
-xref:task_monitor_volume_performance.adoc[View volume performance]
-
-xref:task_monitor_iscsi_sessions.adoc[View iSCSI sessions]
-
-xref:task_monitor_fibre_channel_sessions.adoc[View Fibre Channel sessions]
-
-xref:concept_troubleshoot_drives.adoc[Troubleshoot drives]
-
-xref:concept_troubleshoot_nodes.adoc[Troubleshoot nodes]
-
-xref:concept_per_node_work_with_utilities.adoc[Work with per-node utilities for storage nodes]
-
-xref:concept_mnode_work_with_the_management_node.adoc[Work with the management node]
-
-xref:concept_monitor_understand_cluster_fullness_levels.adoc[Understand cluster fullness levels]
-
-xref:task_system_manage_fips_enable_fips_140_2_for_https.adoc[Enable FIPS 140-2 for HTTPS on your cluster]
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
