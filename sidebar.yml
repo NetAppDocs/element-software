@@ -119,7 +119,7 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-- title: Install and use SolidFire Enterprise SDS information
+- title: Install and use SolidFire Enterprise SDS
   url: /esds/index.html
   entries:
   - title: Get started with SolidFire eSDS
@@ -153,6 +153,7 @@ entries:
       - title: Replace drives for HPE DL360
         url: /esds/task_esds_dl360_drive_repl.html
       - title: Replace drives for Dell R640
+        url: /esds/task_esds_r640_drive_repl.html
       - title: Contents of the sf_sds_config.yaml file
         url: /esds/reference_esds_sf_sds_config_file.html
 - title: Set up storage
