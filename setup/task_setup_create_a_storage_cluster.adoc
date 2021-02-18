@@ -18,7 +18,7 @@ You can create a storage cluster after you have configured all of the individual
 .About this task
 During new node configuration, 1G or 10G Management IP (MIP) addresses are assigned to each node. You must use one of the node IP addresses created during configuration to open the Create a New Cluster page. The IP address you use depends on the network you have chosen for cluster management.
 
-IMPORTANT: If you want to enable cluster-wide link:concept_solidfire_element_ug_encryption_at_rest.html[software encryption at rest], you must create the cluster using the link:reference_element_api_createcluster.html[CreateCluster] API method instead and change the enableSoftwareEncryptionAtRest parameter to `true`. Software encryption at rest is enabled by default for SolidFire eSDS clusters. Hardware-based encryption at rest can be link:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster[enabled and disabled] after cluster creation.
+IMPORTANT: If you want to enable cluster-wide xref:concept_solidfire_element_ug_encryption_at_rest.adoc[software encryption at rest], you must create the cluster using the xref:reference_element_api_createcluster.adoc[CreateCluster] API method instead and change the enableSoftwareEncryptionAtRest parameter to `true`. Software encryption at rest is enabled by default for SolidFire eSDS clusters. Hardware-based encryption at rest can be xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc[enabled and disabled] after cluster creation.
 
 [NOTE]
 ===============================
@@ -51,6 +51,7 @@ Two-way data protection is enabled by default. You cannot change this setting.
 +
 The system might take several minutes to create the cluster depending on the number of nodes in the cluster. On a properly configured network, a small cluster of five nodes should take less than one minute. After the cluster is created, the Create a New Cluster window is redirected to the MVIP URL address for the cluster and displays the Element UI.
 
-*Related information*
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+[discrete]
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
