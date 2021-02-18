@@ -27,7 +27,7 @@ Hardware-based encryption at rest is not enabled by default during cluster creat
 * <<Disable hardware-based encryption at rest>>
 
 == Enable hardware-based encryption at rest
-NOTE: To enable encryption at rest using an external key management configuration, you must enable encryption at rest via the link:api/reference_element_api_enableencryptionatrest.html[API]. Enabling using the existing Element UI button will revert to using internally generated keys.
+NOTE: To enable encryption at rest using an external key management configuration, you must enable encryption at rest via the link:../api/reference_element_api_enableencryptionatrest.html[API]. Enabling using the existing Element UI button will revert to using internally generated keys.
 
 . From the Element UI, select *Cluster* > *Settings*.
 . Select *Enable Encryption at Rest*.
@@ -35,7 +35,7 @@ NOTE: To enable encryption at rest using an external key management configuratio
 == Enable software-based encryption at rest
 NOTE: Software encryption at rest cannot be disabled after it is enabled on the cluster.
 
-. During cluster creation, run the link:api/reference_element_api_createcluster.html[create cluster method] with `enableSoftwareEncryptionAtRest` set to `true`.
+. During cluster creation, run the link:../api/reference_element_api_createcluster.html[create cluster method] with `enableSoftwareEncryptionAtRest` set to `true`.
 
 == Disable hardware-based encryption at rest
 . From the Element UI, select *Cluster* > *Settings*.

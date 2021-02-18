@@ -1398,10 +1398,10 @@ entries:
       entries:
       - title: SSL ciphers
         url: "/storage/reference_system_manage_fips_ssl_cipher_changes.html"
-    - title: Get started with External key management
+    - title: Get started with external key management
       url: "/storage/concept_system_manage_key_get_started_with_external_key_management.html"
       entries:
-      - title: Set up External key management
+      - title: Set up external key management
         url: "/storage/task_system_manage_key_set_up_external_key_management.html"
       - title: Rekey software encryption at rest master key
         url: "/storage/task_system_manage_rekey_software_ear_master_key.html"

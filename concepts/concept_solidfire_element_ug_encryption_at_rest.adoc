@@ -20,6 +20,6 @@ Enabling the encryption at rest feature does not affect performance or efficienc
 
 Another type of encryption-at-rest, software encryption-at-rest enables all data written to SSDs in a storage cluster to be encrypted. Once enabled, it encrypts all data written and decrypts all data read automatically in software. Software Encryption-at-Rest mirrors the Self-Encrypting Drive (SED) implementation in hardware to provide data security in the absence of SED.
 
-Software encryption at rest is available by default in all link:esds/concept_esds_overview.html[SolidFire Enterprise SDS nodes]. Software encryption at rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
+Software encryption at rest is available by default in all link:../esds/concept_esds_overview.html[SolidFire Enterprise SDS nodes]. Software encryption at rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
 
 Both software and hardware-based encryption-at-rest can be used independently or in combination with one another.

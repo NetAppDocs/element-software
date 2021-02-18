@@ -11,7 +11,7 @@ summary: 'You can use the EnableEncryptionAtRest method to enable the Advanced E
 [.lead]
 You can use the EnableEncryptionAtRest method to enable the Advanced Encryption Standard (AES) 256-bit encryption at rest on the cluster so that the cluster can manage the encryption key used for the drives on each node. This feature is not enabled by default.
 
-NOTE: This method does not enable software encryption at rest. This can only be done using the link:api/reference_element_api_createcluster.html[create cluster method] with `enableSoftwareEncryptionAtRest` set to `true`.
+NOTE: This method does not enable software encryption at rest. This can only be done using the link:../api/reference_element_api_createcluster.html[create cluster method] with `enableSoftwareEncryptionAtRest` set to `true`.
 
 When you enable Encryption at Rest, the cluster automatically manages encryption keys internally for the drives on each node in the cluster.
 
@@ -30,6 +30,7 @@ This method has the following input parameters:
 [%header,cols=5*]
 |===
 | Name| Description| Type| Default value| Required
+
 a|
 keyProviderID
 a|
