@@ -20,10 +20,10 @@ See link:setup/concept_intro_product_overview.html[SolidFire all-flash storage o
 
 * Use your own server to run Element software by using containerized SolidFire eSDS
 +
-See link:esds/concept_esds_overview.html[NetApp SolidFire Enterprise SDS overview]
+See link:esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
 
 == Discover what's new
-* link:concepts/concept_rn_whatsnew_element.html[What's new in Element software]
+* link:concepts/concept_rn_whats_new_element.html[What's new in Element software]
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[What's new in management services for Element software and NetApp HCI^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2866569[What's new in NetApp Element Plug-in for vCenter Server^]
 
@@ -31,7 +31,7 @@ See link:esds/concept_esds_overview.html[NetApp SolidFire Enterprise SDS overvie
 == Get started with Element software
 
 * link:setup/concept_setup_overview.html[Element software setup overview]
-* link:concepts/concept_element_product_overview.html[Review basic concepts]
+* link:concepts/index.html[Review basic concepts]
 
 == Use Element integration tools
 While you typically manage your storage with NetApp Element, NetApp Element API, and NetApp Element Plug-in for vCenter Server, you can use additional utilities and tools.
