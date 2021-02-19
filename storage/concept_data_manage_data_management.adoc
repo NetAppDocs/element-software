@@ -11,9 +11,9 @@ summary: 'You can manage the data in a cluster running Element software from the
 [.lead]
 You can manage the data in a cluster running Element software from the Management tab in the Element UI. Available cluster management functions include creating and managing data volumes, volume access groups, initiators, and Quality of Service (QoS) policies.
 
-* link:task_data_manage_volumes_work_with_volumes_task.adoc[Work with volumes]
-* link:concept_data_manage_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
-* link:concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.adoc[Work with volume access groups and initiators]
+* link:task_data_manage_volumes_work_with_volumes_task.html[Work with volumes]
+* link:concept_data_manage_vvol_work_virtual_volumes.html[Work with virtual volumes]
+* link:concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html[Work with volume access groups and initiators]
 
 
 
