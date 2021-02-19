@@ -2,14 +2,14 @@
 permalink: getstarted/concept_getstarted.html
 sidebar: sidebar
 keywords: solidfire, element, lab on demand, demo node, element demo node
-summary: Find information about resources and tools for helping you get started with Element software.
+summary: Learn about resources and tools for helping you get started with Element software.
 ---
-= Get started
+= Try it out
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Find information about resources and tools for helping you get started with Element software.
+Learn about resources and tools for helping you get started with Element software.
 
 * https://handsonlabs.netapp.com/lab/elementsw[Lab on Demand for Private Cloud Storage Flexibility with Element (login required)^]: This lab presents concepts of scale-out without limitations, guaranteed workload performance, and automation of storage infrastructure that apply to storage systems that run Element software.
 * link:task_use_demonode.html[Try out Element with a demo node^]
