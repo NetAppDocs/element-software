@@ -10,6 +10,8 @@ entries:
 - title: Concepts
   url: /concepts/index.html
   entries:
+  - title: Product overview
+    url: /setup/concept_intro_product_overview.html 
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
     entries:
@@ -110,7 +112,6 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-- title: Install and use SolidFire Enterprise SDS information
 - title: Install and use SolidFire Enterprise SDS
   url: /esds/index.html
   entries:
