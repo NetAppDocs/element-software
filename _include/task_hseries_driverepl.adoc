@@ -78,7 +78,7 @@ The drive tray handle springs open.
 +
 image::H600S_driveinstall.png[Shows the drive being installed in the H610S node.]
 . Insert the replacement drive without using excessive force.
-When the drive is inserted fully, you hear a .
+When the drive is inserted fully, you hear a click.
 . Close the drive tray handle carefully.
 . Reinstall the bezel.
 . Notify NetApp Support about the drive replacement.
