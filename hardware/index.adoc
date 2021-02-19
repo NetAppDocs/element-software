@@ -2,7 +2,7 @@
 permalink: hardware/index.html
 sidebar: sidebar
 keywords: soldifre hardware, h-series hardware, install hardware, maintain hardware, h410s, h610s
-summary:
+summary: Learn about installing and maintaining H-series and SF-series hardware.
 ---
 = Install and maintain hardware
 :icons: font
