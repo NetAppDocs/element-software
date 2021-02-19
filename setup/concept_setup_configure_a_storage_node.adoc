@@ -1,7 +1,7 @@
 ---
 permalink: setup/concept_setup_configure_a_storage_node.html
 sidebar: sidebar
-keywords: configuring node,configuring storage node,configuring using TUI,configuring using node UI
+keywords: configuring node,configure storage node,configuring using TUI,configuring using node UI
 summary: 'You must configure individual nodes before you can add them to a cluster. After you install and cable a node in a rack unit and power it on, you can configure the node network settings using the per-node UI or the node terminal user interface \(TUI\). Ensure that you have the necessary network configuration information for the node before proceeding.'
 ---
 = Configure a storage node
@@ -13,15 +13,23 @@ You must configure individual nodes before you can add them to a cluster. After 
 
 There are two options for configuring storage nodes:
 
+
+
 * *Per-node UI*
 +
 Use the per-node UI (https://<node management IP>:442) to configure node network settings.
++
+link:task_configure_the_node_using_the_node_ui.adoc[Configure the storage node using the per-node UI]
+
 +
 NOTE: Use the DHCP 1G management IP address displayed in the menu bar at the top of the TUI to access the per-node UI.
 
 * *TUI*
 +
 Use the node terminal user interface (TUI) to configure the node.
+
++
+link:task_configure_the_node_using_the_tui.adoc[Configure the node using the TUI]
 
 You cannot add a node with DHCP-assigned IP addresses to a cluster. You can use the DHCP IP address to initially configure the node in the per-node UI, TUI, or API. During this initial configuration, you can add static IP address information so that you can add the node to a cluster.
 
@@ -31,10 +39,7 @@ NOTE: Beginning in Element version 11.0, nodes can be configured with IPv4, IPv6
 
 == Find more information
 
-xref:task_configure_the_node_using_the_tui.adoc[Configuring the node using the TUI]
-
-xref:task_configure_the_node_using_the_node_ui.adoc[Configuring the storage node using the per-node UI]
-
-xref:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
-
-xref:reference_system_manage_nodes_node_states.adoc[Node states]
+* link:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
+* link:reference_system_manage_nodes_node_states.adoc[Node states]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

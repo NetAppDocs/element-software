@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring node,configuring node UI
 summary: 'You can configure nodes using the per-node user interface.'
 ---
-= Configuring the storage node using the per-node UI
+= Configure the storage node using the per-node UI
 :icons: font
 :imagesdir: ../media/
 
@@ -22,6 +22,7 @@ You must add the extension :442 to access the node; for example, https://172.25.
 +
 The *Network Settings* tab opens with the *Bond1G* section.
 
+.Steps
 . Enter the 1G management network settings.
 . Click *Apply Changes*.
 . Click *Bond10G* to display the 10G storage network settings.
@@ -35,6 +36,8 @@ IMPORTANT: This name must be added to the configuration for all nodes before a c
 
 . Click *Apply Changes*.
 
-*Related information*
 
-xref:task_configure_the_node_using_the_tui.adoc[Configuring the node using the TUI]
+== For more information
+* link:task_configure_the_node_using_the_tui.adoc[Configure the node using the TUI]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
