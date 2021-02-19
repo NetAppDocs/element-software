@@ -10,3 +10,6 @@ summary: 'You can use session-based authentication to manage user sessions.'
 
 [.lead]
 You can use session-based authentication to manage user sessions.
+
+* xref:reference_element_api_listauthsessionbyclusteradmin.adoc[ListAuthSessionsByClusterAdmin]
+* xref:reference_element_api_listauthsessionbyusername.adoc[ListAuthSessionsByUsername]
