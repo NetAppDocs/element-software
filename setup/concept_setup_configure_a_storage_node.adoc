@@ -29,7 +29,7 @@ After initial configuration, you can access the node using the node's management
 
 NOTE: Beginning in Element version 11.0, nodes can be configured with IPv4, IPv6, or both addresses for their management network. This applies to both storage nodes and management nodes, except for management node 11.3 and later which does not support IPv6. When you create a cluster, only a single IPv4 or IPv6 address can be used for the MVIP and the corresponding address type must be configured on all nodes.
 
-*Related information*
+== Find more information
 
 xref:task_configure_the_node_using_the_tui.adoc[Configuring the node using the TUI]
 

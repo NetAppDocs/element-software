@@ -9,7 +9,7 @@ summary: 'You can use RollbackToGroupSnapshot to roll back all individual volume
 :imagesdir: ../media/
 
 [.lead]
-You can use RollbackToGroupSnapshot to roll back all individual volumes in a snapshot group to each volume's individual snapshot.
+You can use `RollbackToGroupSnapshot` to roll back all individual volumes in a snapshot group to each volume's individual snapshot.
 
 Rolling back to a group snapshot creates a temporary snapshot of each volume within the group snapshot.
 
@@ -22,7 +22,7 @@ This method has the following input parameters:
 |===
 | Name| Description| Type| Default value| Required
 a|
-groupSnapshotID
+`groupSnapshotID`
 a|
 Unique ID of the group snapshot.
 a|
@@ -32,7 +32,7 @@ None
 a|
 Yes
 a|
-attributes
+`attributes`
 a|
 List of name-value pairs in JSON object format.
 a|
@@ -42,9 +42,9 @@ None
 a|
 No
 a|
-name
+`name`
 a|
-Name for the group snapshot of the volume's current state that is created if saveCurrentState is set to true. If you do not give a name, then the name of the snapshots (group and individual volume) are set to a timestamp of the time that the rollback occurred.
+Name for the group snapshot of the volume's current state that is created if `saveCurrentState` is set to true. If you do not give a name, then the name of the snapshots (group and individual volume) are set to a timestamp of the time that the rollback occurred.
 a|
 string
 a|
@@ -52,12 +52,12 @@ None
 a|
 No
 a|
-saveCurrentState
+`saveCurrentState`
 a|
-Specifies whether to save previous active volume image or not. Valid values:
+Specifies whether to save the previous active volume image or not. Valid values:
 
-* true: The previous active volume image is kept.
-* false: The previous active volume image is deleted.
+* `true`: The previous active volume image is kept.
+* `false`: The previous active volume image is deleted.
 
 a|
 boolean
@@ -87,18 +87,18 @@ JSON object array
 a|
 groupSnapshotID
 a|
-If saveCurrentState was set to false, this value is null.
+If `saveCurrentState` was set to false, this value is null.
 
-If saveCurrentState was set to true, the unique ID of the newly created group snapshot.
+If `saveCurrentState` was set to true, the unique ID of the newly created group snapshot.
 
 a|
 integer
 a|
 groupSnapshot
 a|
-If saveCurrentState was set to false, this value is null.
+If `saveCurrentState` was set to false, this value is null.
 
-If saveCurrentState was set to true, an object containing information about the group snapshot which RollbackToGroupSnapshot just rolled back to.
+If `saveCurrentState` was set to true, an object containing information about the group snapshot which `RollbackToGroupSnapshot` just rolled back to.
 
 a|
 xref:reference_element_api_groupsnapshot.adoc[groupSnapshot]

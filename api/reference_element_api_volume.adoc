@@ -77,6 +77,11 @@ a|
 Whether or not the volume can be used for replication with SnapMirror endpoints.
 a|
 boolean
+
+|fifoSize
+|Specifies the maximum number of snapshots of the volume to be maintained simultaneously if using the First-In-First-Out (FIFO) snapshot retention mode.
+|integer
+
 a|
 iqn
 a|
@@ -95,6 +100,12 @@ a|
 The last time any I/O to the volume occurred (formatted as UTC+0). If the last access time is not known, this value is null.
 a|
 ISO 8601 string
+
+|minFifoSize
+|Specifies the minimum number of First-In-First-Out (FIFO) snapshot slots reserved simultaneously by the volume if using the First-In-First-Out (FIFO) snapshot retention mode.
+|integer
+
+
 a|
 name
 a|

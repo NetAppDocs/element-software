@@ -10,3 +10,11 @@ summary: 'You can use drive API methods to add and manage drives that are availa
 
 [.lead]
 You can use drive API methods to add and manage drives that are available to a storage cluster. When you add a storage node to the storage cluster or install new drives in an existing storage node, the drives are available to be added to the storage cluster.
+
+* xref:reference_element_api_adddrives.adoc[AddDrives]
+* xref:reference_element_api_getdrivehardwareinfo.adoc[GetDriveHardwareInfo]
+* xref:reference_element_api_getdrivestats.adoc[GetDriveStats]
+* xref:reference_element_api_listdrives.adoc[ListDrives]
+* xref:reference_element_api_listdrivestats.adoc[ListDriveStats]
+* xref:reference_element_api_removedrives.adoc[RemoveDrives]
+* xref:reference_element_api_secureerasedrives.adoc[SecureEraseDrives]

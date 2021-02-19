@@ -24,12 +24,18 @@ Connections to the storage cluster are segregated in the networking stack throug
 +
 After you add a virtual network, the cluster automatically performs the following steps:
 
- ** Each storage node creates a virtual network interface.
- ** Each storage node is assigned a VLAN address that can be routed to using the virtual SVIP.
- ** VLAN IP addresses persist on each node in the event of a node reboot.
+** Each storage node creates a virtual network interface.
+** Each storage node is assigned a VLAN address that can be routed to using the virtual SVIP.
+** VLAN IP addresses persist on each node in the event of a node reboot.
 
 . When the virtual network interface and VLAN addresses have been assigned, you can assign client network traffic to the virtual SVIP.
 
 *Related information*
 
 xref:concept_element_api_virtual_network_naming_conventions.adoc[Virtual network naming conventions]
+
+* xref:concept_element_api_virtual_network_naming_conventions.adoc[Virtual network naming conventions]
+* xref:reference_element_api_addvirtualnetwork.adoc[AddVirtualNetwork]
+* xref:reference_element_api_modifyvirtualnetwork.adoc[ModifyVirtualNetwork]
+* xref:reference_element_api_listvirtualnetworks.adoc[ListVirtualNetworks]
+* xref:reference_element_api_removevirtualnetwork.adoc[RemoveVirtualNetwork]
