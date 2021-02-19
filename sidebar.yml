@@ -7,8 +7,6 @@ entries:
   entries:
   - title: What's new
     url: /concepts/concept_rn_whats_new_element.html
-  - title: Additional release information
-    url: /concepts/concept_rn_relatedrn_element.html
 - title: Concepts
   url: /concepts/index.html
   entries:
@@ -27,15 +25,6 @@ entries:
       url: /concepts/concept_intro_persistent_volumes.html
   - title: Nodes
     url: /concepts/concept_solidfire_concepts_nodes.html
-    entries:
-    - title: Storage nodes
-      url: /concepts/concept_intro_storage_nodes.html
-    - title: Fibre Channel nodes
-      url: /concepts/concept_intro_fibre_channel_nodes.html
-    - title: NetApp HCI storage nodes
-      url: /concepts/concept_element_vcp_ug_netapp_hci_storage_nodes.html
-    - title: Witness nodes
-      url: /concepts/concept_solidfire_concepts_witness_node.html
   - title: Clusters
     url: /concepts/concept_intro_clusters.html
   - title: Security
@@ -90,6 +79,12 @@ entries:
     url: /storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
+- title: Try it out
+  url: /setup/task_try_overview.html
+  entries:
+    - title: Test Element features on a virtual machine demo node
+    - title: Try out Element software in our Lab on Demand
+      url: https://handsonlabs.netapp.com/catalog
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
@@ -116,6 +111,7 @@ entries:
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
 - title: Install and use SolidFire Enterprise SDS information
+- title: Install and use SolidFire Enterprise SDS
   url: /esds/index.html
   entries:
   - title: Get started with SolidFire eSDS
@@ -139,15 +135,19 @@ entries:
     url: /esds/reference_esds_element_links.html
   - title: Uninstall SolidFire eSDS
     url: /esds/task_esds_uninstall.html
-  - title: Get the license key
-    url: /esds/task_esds_get_license_key.html
-  - title: Use maintenance mode on SolidFire eSDS clusters
-    url: /esds/reference_esds_use_maintenance_mode.html
-  - title: Replace drives for HPE DL360
-    url: /esds/task_esds_dl360_drive_repl.html
-  - title: Replace drives for Dell R640
-  - title: Contents of the sf_sds_config.yaml file
-    url: /esds/reference_esds_sf_sds_config_file.html
+  - title: Maintain SolidFire eSDS
+    url: /esds/concept_esds_maintain.html
+    entries:
+      - title: Get the license key
+        url: /esds/task_esds_get_license_key.html
+      - title: Use maintenance mode on SolidFire eSDS clusters
+        url: /esds/reference_esds_use_maintenance_mode.html
+      - title: Replace drives for HPE DL360
+        url: /esds/task_esds_dl360_drive_repl.html
+      - title: Replace drives for Dell R640
+        url: /esds/task_esds_r640_drive_repl.html
+      - title: Contents of the sf_sds_config.yaml file
+        url: /esds/reference_esds_sf_sds_config_file.html
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
@@ -211,21 +211,10 @@ entries:
     - title: Provide feedback
       url: "/storage/task_intro_provide_feedback.html"
   - title: Manage accounts
-    url:
+    url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
     entries:
     - title: Work with user accounts
       url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
-      entries:
-      - title: Create an account
-        url: "/storage/task_data_manage_accounts_create_an_account.html"
-      - title: Account details
-        url: "/storage/reference_data_manage_accounts_account_details.html"
-      - title: View individual account performance details
-        url: "/storage/task_data_manage_accounts_view_individual_account_performance_details.html"
-      - title: Edit an account
-        url: "/storage/task_data_manage_accounts_edit_an_account.html"
-      - title: Delete an account
-        url: "/storage/task_data_manage_accounts_delete_an_account.html"
     - title: Manage cluster administrator user accounts
       url: "/storage/concept_system_manage_manage_cluster_administrator_users.html"
       entries:
@@ -376,14 +365,7 @@ entries:
     - title: Work with volumes
       url: "/storage/task_data_manage_volumes_work_with_volumes_task.html"
       entries:
-      - title: Quality of Service
-        url: "/storage/concept_data_manage_volumes_solidfire_quality_of_service.html"
-        entries:
-        - title: QoS value limits
-          url: "/storage/reference_data_manage_volumes_qos_limits.html"
-        - title: QoS performance curve
-          url: "/storage/concept_data_manage_volumes_qos_performance_curve.html"
-      - title: Quality of Service policies
+      - title: Manage Quality of Service policies
         url: "/storage/concept_data_manage_volumes_quality_of_service_policies.html"
         entries:
         - title: Create a QoS policy
@@ -393,7 +375,7 @@ entries:
         - title: Edit a QoS policy
           url: "/storage/task_data_manage_volumes_edit_a_qos_policy.html"
         - title: Delete a QoS policy
-          url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
+        url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
       - title: Create a volume
         url: "/storage/task_data_manage_volumes_create_a_volume.html"
       - title: Volume details
@@ -715,6 +697,7 @@ entries:
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
 - title: Manage storage with NetApp Hybrid Cloud Control
+  url: "/storage/task_intro_manage_storage_hcc.html"
 - title: Manage storage with the Element Plug-in for vCenter Server
   url: https://docs.netapp.com/us-en/vcp/
 - title: Manage storage with Element API
@@ -1733,105 +1716,6 @@ entries:
     url: "/concepts/reference_solidfire_element_ug_where_to_find_additional_information.html"
   - title: Contacting NetApp Support
     url: "/concepts/concept_dnu_contacting_netapp_support.html"
-- title: esds-a
-  url: "/esds-a/index.html"
-  entries:
-  - title: Upgrade SolidFire eSDS clusters
-    url: "/esds-a/task_esds_upgrade_cluster.html"
-  - title: Monitor your SolidFire eSDS clusters
-    url: "/esds-a/concept_esds_monitor_clusters.html"
-    entries:
-    - title: Collect logs for SolidFire eSDS clusters
-      url: "/esds-a/task_esds_collect_logs.html"
-  - title: Manage SolidFire eSDS storage
-    url: "/esds-a/reference_esds_element_links.html"
-  - title: Use Element 12.2 APIs on SolidFire eSDS clusters
-    url: "/esds-a/reference_esds_api_links.html"
-  - title: Uninstall SolidFire eSDS on the node
-    url: "/esds-a/task_esds_uninstall.html"
-  - title: Maintain systems running SolidFire eSDS
-    url: "/esds-a/reference_esds_maintain_hw.html"
-    entries:
-    - title: Get license key for SolidFire eSDS
-      url: "/esds-a/task_esds_get_license_key.html"
-    - title: Use maintenance mode on SolidFire eSDS clusters
-      url: "/esds-a/reference_esds_use_maintenance_mode.html"
-    - title: Replace a drive proactively in a SolidFire eSDS cluster
-      url: "/esds-a/task_esds_proactive_drive_repl.html"
-    - title: Replace a faulty drive in a SolidFire eSDS cluster
-      url: "/esds-a/task_esds_reactive_drive_repl.html"
-    - title: Replace a cache drive in a SolidFire eSDS cluster
-      url: "/esds-a/task_esds_cache_drive_repl.html"
-    - title: Contents of the sf_sds_config.yaml file
-      url: "/esds-a/reference_esds_sf_sds_config_file.html"
-- title: esds
-  url: "/esds/index.html"
-  entries:
-  - title: NetApp SolidFire Enterprise SDS overview
-    url: "/esds/concept_esds_overview.html"
-    entries:
-    - title: Element features not applicable to SolidFire eSDS
-      url: "/esds/concept_esds_unsupported_features.html"
-    - title: Licensing policies for SolidFire eSDS
-      url: "/esds/reference_esds_licensing_policies.html"
-    - title: Interfaces and tools for SolidFire eSDS installation and use
-      url: "/esds/concept_esds_interfaces.html"
-  - title: SolidFire eSDS installation overview
-    url: "/esds/concept_esds_installation_overview.html"
-  - title: Perform the prerequisite tasks for SolidFire eSDS installation
-    url: "/esds/concept_esds_prerequisite_tasks.html"
-    entries:
-    - title: Considerations for network configuration for SolidFire eSDS
-      url: "/esds/concept_esds_networking_best_practices.html"
-      entries:
-      - title: Configure the host networking for SolidFire eSDS
-        url: "/esds/task_esds_configure_the_interface_config_files.html"
-  - title: Install SolidFire eSDS using Ansible
-    url: "/esds/task_esds_install_using_ansible.html"
-  - title: Perform post-installation tasks for SolidFire eSDS
-    url: "/esds/concept_esds_postinstallation_tasks.html"
-    entries:
-    - title: Configure cluster name on SolidFire eSDS node
-      url: "/esds/task_esds_configure_cluster_name.html"
-    - title: Set license key for SolidFire eSDS
-      url: "/esds/task_esds_set_license_key.html"
-    - title: Create a SolidFire eSDS cluster
-      url: "/esds/task_esds_create_cluster.html"
-    - title: Add drives to the SolidFire eSDS cluster
-      url: "/esds/task_esds_add_drives.html"
-    - title: Change the Garbage Collection constant
-      url: "/esds/task_esds_change_gc_constant.html"
-- title: hardware-b
-  url: "/hardware-b/index.html"
-  entries:
-  - title: Replace drives for SF-series storage nodes
-    url: "/hardware-b/task_sf_series_drive_repl.html"
-    entries:
-    - title: Rules for handling drives
-      url: "/hardware-b/concept_sf_series_drive_best_practices.html"
-    - title: Remove a drive from the cluster
-      url: "/hardware-b/task_sf_series_remove_drive_from_cluster.html"
-    - title: Remove drives from the chassis
-      url: "/hardware-b/task_sf_series_remove_drive_from_chassis.html"
-    - title: Add a drive to the cluster
-      url: "/hardware-b/task_sf_series_add_drive_to_cluster.html"
-- title: hardware
-  url: "/hardware/index.html"
-  entries:
-  - title: 'Start here: choose your installation and setup experience'
-    url: "/hardware/concept_sf_isg_choose_installation_experience.html"
-  - title: Installation and setup high-level workflow
-    url: "/hardware/concept_sf_isg_installation_workflow.html"
-  - title: Installation and setup poster
-    url: "/hardware/concept_sf_isg_poster_link.html"
-  - title: Create a new cluster
-    url: "/hardware/task_sf_isg_create_cluster.html"
-  - title: Configure the node
-    url: "/hardware/task_sf_isg_onfigure_the_node.html"
-  - title: Install the hardware
-    url: "/hardware/task_sf_isg_install_hardware.html"
-  - title: Prepare for installation
-    url: "/hardware/task_sf_isg_prepare_to_install.html"
 - title: setup
   url: "/setup/index.html"
   entries:

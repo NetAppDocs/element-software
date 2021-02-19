@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_prereq_network_port_requirements.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You might need to allow the following TCP ports through your datacenter’s edge firewall so that you can manage the system remotely and allow clients outside of your datacenter to connect to resources. Some of these ports might not be required, depending on how you use the system.'
 ---
 = Network port requirements
@@ -22,6 +22,7 @@ The following abbreviations are used in the table:
 * MVIP: Management virtual IP address
 * SVIP: Storage virtual IP address
 
+[cols=4*,options="header",cols="25,25,15,35"]
 |===
 | Source| Destination| Port| Description
 a|

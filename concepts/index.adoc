@@ -1,48 +1,25 @@
 ---
 permalink: concepts/index.html
 sidebar: sidebar
-keywords:
-summary: ''
+keywords: element, security, clusters, protection, qos
+summary: Learn basic concepts related to Element software.
 ---
 = Concepts
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
 Learn basic concepts related to Element software.
 
 * xref:concept_solidfire_concepts_solidfire_architecture_overview.adoc[SolidFire architecture overview]
- ** xref:concept_intro_solidfire_active_iq.adoc[SolidFire Active IQ]
- ** xref:concept_intro_solidfire_software_interfaces.adoc[SolidFire software interfaces]
-* xref:concept_intro_management_node.adoc[Management node for Element software]
- ** xref:concept_intro_management_services_for_afa.adoc[Management services for SolidFire all-flash storage]
- ** xref:concept_intro_persistent_volumes.adoc[Persistent volumes]
 * xref:concept_solidfire_concepts_nodes.adoc[Nodes]
- ** xref:concept_intro_storage_nodes.adoc[Storage nodes]
- ** xref:concept_intro_fibre_channel_nodes.adoc[Fibre Channel nodes]
- ** xref:concept_element_vcp_ug_netapp_hci_storage_nodes.adoc[NetApp HCI storage nodes]
- ** xref:concept_solidfire_concepts_witness_node.adoc[Witness node]
 * xref:concept_intro_clusters.adoc[Clusters]
 * xref:concept_solidfire_concepts_security.adoc[Security]
- ** xref:concept_solidfire_element_ug_encryption_at_rest.adoc[Encryption at rest]
- ** xref:concept_solidfire_concepts_external_key_management.adoc[External Key Management]
- ** xref:concept_solidfire_concepts_multi_factor_authentication.adoc[Multi-Factor Authentication]
 * xref:concept_solidfire_concepts_accounts_and_permissions.adoc[Accounts and permissions]
 * xref:concept_solidfire_concepts_storage.adoc[Storage]
- ** xref:concept_solidfire_concepts_volumes.adoc[Volumes]
- ** xref:concept_solidfire_concepts_volume_access_groups.adoc[Volume access groups]
- ** xref:concept_solidfire_concepts_rule_of_thirds.adoc[Rule of thirds]
- ** xref:concept_solidfire_concepts_vmware_virtual_volumes.adoc[VMware virtual volumes and NetApp Element software]
- ** xref:concept_solidfire_concepts_stranded_capacity.adoc[Stranded capacity]
 * xref:concept_solidfire_concepts_data_protection.adoc[Data protection]
- ** xref:concept_solidfire_concepts_remote_replication_types.adoc[Remote replication types]
-  *** xref:concept_solidfire_concepts_synchronous_and_asynchronous_replication.adoc[Synchronous and asynchronous replication between clusters]
-  *** xref:concept_solidfire_concepts_snapshot_only_replication.adoc[Snapshot-only replication]
-  *** xref:concept_solidfire_concepts_replication_between_element_and_ontap_clusters_using_snapmirror.adoc[Replication between Element and ONTAP clusters using SnapMirror]
- ** xref:concept_solidfire_concepts_volume_snapshots_for_data_protection.adoc[Volume snapshots for data protection]
- ** xref:concept_solidfire_concepts_volume_clones.adoc[Volume clones]
- ** xref:concept_solidfire_concepts_backup_and_restore_process_overview.adoc[Backup and restore process overview for SolidFire storage]
- ** xref:concept_solidfire_concepts_protection_domains.adoc[Protection domains]
- ** xref:concept_solidfire_concepts_double_helix_high_availability.adoc[Double Helix high availability]
 * xref:concept_solidfire_concepts_storage_efficiency.adoc[Storage efficiency]
 * xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
- ** xref:reference_data_manage_volumes_qos_limits.adoc[QoS value limits]
- ** xref:concept_data_manage_volumes_qos_performance_curve.adoc[QoS performance curve]
+
+== Find more information
+ * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
