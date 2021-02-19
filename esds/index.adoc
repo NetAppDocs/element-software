@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= Installation Guide
+= Install and use SolidFire Enterprise SDS
 :icons: font
 :imagesdir: ../media/
 
@@ -12,7 +12,7 @@ summary: ''
 * xref:concept_esds_prerequisite_tasks.adoc[Perform prerequisite tasks for installation]
  ** xref:concept_esds_networking_best_practices.adoc[Considerations for network configuration]
  ** xref:task_esds_configure_the_interface_config_files.adoc[Configure the host networking for SolidFire eSDS]
-* xref:task_esds_install_using_ansible.adoc[Install SolidFire eSDS using Ansible]
+* xref:task_esds_install_using_ansible.adoc[Install SolidFire eSDS]
 * xref:task_esds_postinstallation.adoc[Perform post-installation tasks]
 * xref:task_esds_upgrade_cluster.adoc[Upgrade the clusters]
 * xref:concept_esds_monitor_clusters[Monitor your clusters]
@@ -23,4 +23,4 @@ summary: ''
  ** xref:reference_esds_use_maintenance_mode[Use maintenance mode on SolidFire eSDS clusters]
  ** xref:reference_esds_sf_sds_config_file[Contents of the sf_sds_config.yaml file]
  ** xref:task_esds_dl360_drive_repl[Replace drives for DL360]
- ** xref:task_esds_dl360_drive_repl[Replace drives for R640]
+ ** xref:task_esds_r640_drive_repl[Replace drives for R640]

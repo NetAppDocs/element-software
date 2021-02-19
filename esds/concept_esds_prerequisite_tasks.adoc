@@ -12,7 +12,7 @@ summary: Ensure that you perform the necessary checks and verify that your envir
 Ensure that you perform the necessary checks and verify that your environment meets the configuration, IP addressing, and networking requirements before you install SolidFire eSDS.
 
 .*Install the required hardware*
-** Install HPE ProLiant DL360 Gen10 Server, which is the server supported in the first release of SolidFire eSDS. If you are installing SolidFire eSDS on a new node, see the https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-a00019120en_us[HPE ProLiant DL360 Gen 10 Server User Guide*] for installation information.
+** Install the supported server. See https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[NetApp Interoperability Matrix (login required)^] for more information.
 ** Ensure that your hardware configuration is balanced and all channels are populated. For more information about maximizing bandwidth, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_balance_memory_and_maximize_bandwidth_for_your_hardware_configurations[KB article^] (login required).
 
 .*Configure the host (node)*
@@ -186,6 +186,8 @@ a|
 a|
 Ports for management network
 |===
+
+IMPORTANT: The illustration given here is intended to be an example. Your actual hardware might be different based on the server you have.  
 
 ** Change the switch port MTU to 9216 bytes.
 
