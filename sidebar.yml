@@ -80,7 +80,7 @@ entries:
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
 - title: Try it out
-  url: /setup/task_try_overview.html
+  url: /try/task_try_overview.html
   entries:
     - title: Test Element features on a virtual machine demo node
 - title: Install and maintain hardware
