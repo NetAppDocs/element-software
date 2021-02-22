@@ -83,8 +83,6 @@ entries:
   url: /setup/task_try_overview.html
   entries:
     - title: Test Element features on a virtual machine demo node
-    - title: Try out Element software in our Lab on Demand
-      url: https://handsonlabs.netapp.com/catalog
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
