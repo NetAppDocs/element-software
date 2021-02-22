@@ -1,7 +1,7 @@
 ---
 permalink: setup/task_setup_change_the_garbage_collection_constant.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After you create a cluster, you should change the Garbage Collection \(GC\) constant to false to prevent an increase in block space usage. This applies only to NetApp Element software 12.2.'
 ---
 = Change the Garbage Collection constant
@@ -13,6 +13,7 @@ After you create a cluster, you should change the Garbage Collection (GC) consta
 
 For more information, see https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU437[NetApp Support Bulletin SU437].
 
+.Steps
 . Gather the MVIP for your SolidFire cluster that was upgraded to Element software 12.2.
 +
 This is the IP address you use to connect to the cluster UI web page.

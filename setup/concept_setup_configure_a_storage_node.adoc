@@ -13,11 +13,9 @@ You must configure individual nodes before you can add them to a cluster. After 
 
 There are two options for configuring storage nodes:
 
-
-
 * *Per-node UI*
 +
-Use the per-node UI (https://<node management IP>:442) to configure node network settings.
+Use the per-node UI (https://<node_management_IP>:442) to configure node network settings.
 +
 link:setup/task_configure_the_node_using_the_node_ui.adoc[Configure the storage node using the per-node UI]
 

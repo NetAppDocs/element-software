@@ -11,6 +11,7 @@ summary: 'You can configure nodes using the per-node user interface.'
 [.lead]
 You can configure nodes using the per-node user interface.
 
+.About this task
 * You can configure the node to have either an IPv4 or IPv6 address.
 * You need the DHCP address displayed in the TUI to access a node. You cannot use DHCP addresses to add a node to a cluster.
 +

@@ -1,7 +1,7 @@
 ---
 permalink: setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Volume access groups enable communication between Fibre Channel clients and volumes on a SolidFire storage system. Mapping Fibre Channel client initiators \(WWPN\) to the volumes in a volume access group enables secure data I/O between a Fibre Channel network and a SolidFire volume.'
 ---
 = Create a volume access group for Fibre Channel clients
@@ -13,6 +13,7 @@ Volume access groups enable communication between Fibre Channel clients and volu
 
 You can also add iSCSI initiators to a volume access group; this gives the initiators access to the same volumes in the volume access group.
 
+.Steps
 . Click *Management* > *Access Groups*.
 . Click *Create Access Group*.
 . Enter a name for the volume access group in the *Name* field.
