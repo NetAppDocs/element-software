@@ -1,7 +1,7 @@
 ---
 permalink: setup/concept_intro_product_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'A SolidFire all-flash storage system is comprised of discrete hardware components \(drive and nodes\) that are combined into a single pool of storage resources. This unified cluster presents as a single storage system for use by external clients and is managed with NetApp Element software .'
 ---
 = Product overview
@@ -9,7 +9,7 @@ summary: 'A SolidFire all-flash storage system is comprised of discrete hardware
 :imagesdir: ../media/
 
 [.lead]
-A SolidFire all-flash storage system is comprised of discrete hardware components (drive and nodes) that are combined into a single pool of storage resources. This unified cluster presents as a single storage system for use by external clients and is managed with NetApp Element software .
+A SolidFire all-flash storage system is comprised of discrete hardware components (drive and nodes) that are combined into a single pool of storage resources. This unified cluster presents as a single storage system for use by external clients and is managed with NetApp Element software.
 
 Using the Element interface, API, or other management tools, you can monitor SolidFire cluster storage capacity and performance, and manage storage activity across a multi-tenant infrastructure.
 
@@ -30,8 +30,13 @@ SolidFire offers different deployment options:
 
 * Use storage nodes provided by NetApp and integrated with NetApp Element software
 +
-https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview]
+link:concepts/concept_solidfire_concepts_solidfire_architecture_overview.html[SolidFire all-flash storage architecture overview]
 
-* Use your own server to run Element software by using containerized SolidFire eSDS
+* Use your own server to run Element software by using containerized SolidFire Enterprise SDS
 +
-https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-sds-ig/GUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html[NetApp SolidFire Enterprise SDS overview]
+link:esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

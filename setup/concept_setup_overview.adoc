@@ -11,7 +11,9 @@ summary: 'Before you get started, you might want to understand the sequence of i
 [.lead]
 Before you get started, you might want to understand the sequence of setting up NetApp Element software.
 
-At this point, you should have already installed the hardware. 
+At this point, you should have already installed the hardware. Installing the hardware also includes Element software.
+
+You'll need to set up the storage system for your environment.
 
 image::../media/sf_and_element_workflow_for_setup_shorter_workflow.png[Setup workflow diagram]
 

@@ -10,6 +10,8 @@ entries:
 - title: Concepts
   url: /concepts/index.html
   entries:
+  - title: Product overview
+    url: /setup/concept_intro_product_overview.html
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
     entries:
@@ -110,7 +112,6 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-- title: Install and use SolidFire Enterprise SDS information
 - title: Install and use SolidFire Enterprise SDS
   url: /esds/index.html
   entries:
@@ -168,6 +169,8 @@ entries:
     url: /setup/task_setup_configure_fqdn_web_ui_access.html
   - title: Add drives to the cluster
     url: /setup/task_setup_add_drives_to_a_cluster.html
+  - title: Determine which SolidFire components to install
+    url: /setup/task_setup_determine_which_solidfire_components_to_install.html
   - title: Change the Garbage Collection constant
     url: /setup/task_setup_change_the_garbage_collection_constant.html
   - title: Configure a Fibre Channel node
@@ -183,6 +186,8 @@ entries:
       url: /setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
+  - title: What's next?
+    url: /setup/concept_setup_whats_next.html 
 - title: Work with the management node
 - title: Manage storage with Element software
   url: "/storage/index.html"
@@ -375,7 +380,7 @@ entries:
         - title: Edit a QoS policy
           url: "/storage/task_data_manage_volumes_edit_a_qos_policy.html"
         - title: Delete a QoS policy
-        url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
+          url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
       - title: Create a volume
         url: "/storage/task_data_manage_volumes_create_a_volume.html"
       - title: Volume details

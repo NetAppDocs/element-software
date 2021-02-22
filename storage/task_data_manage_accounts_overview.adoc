@@ -1,5 +1,5 @@
 ---
-permalink: storage/task_data_manage_accounts_work_with_accounts_task.html
+permalink: storage/task_data_manage_accounts_overview.html
 sidebar: sidebar
 keywords: element, solidfire, user, cluster, admin, administrator
 summary: 'In SolidFire storage systems, user accounts enable clients to connect to volumes on a node. You can also manage cluster administrator accounts for a SolidFire storage system.'

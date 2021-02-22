@@ -1,10 +1,10 @@
 ---
 permalink: setup/task_configure_the_node_using_the_tui.html
 sidebar: sidebar
-keywords: 
+keywords: tui, storage node, terminal user interface
 summary: 'You can use the terminal user interface \(TUI\) to perform initial configuration for new nodes.'
 ---
-= Configuring the node using the TUI
+= Configure the node using the TUI
 :icons: font
 :imagesdir: ../media/
 
@@ -12,6 +12,8 @@ summary: 'You can use the terminal user interface \(TUI\) to perform initial con
 You can use the terminal user interface (TUI) to perform initial configuration for new nodes.
 
 You should configure the Bond1G (Management) and Bond10G (Storage) interfaces for separate subnets. Bond1G and Bond10G interfaces configured for the same subnet causes routing problems when storage traffic is sent via the Bond1G interface. If you must use the same subnet for management and storage traffic, manually configure management traffic to use the Bond10G interface. You can do this for each node using the *Cluster* > *Nodes* page of the Element UI.
+
+.Steps
 
 . Attach a keyboard and monitor to the node and then power on the node.
 +
@@ -32,6 +34,8 @@ All the nodes in a cluster must have identical cluster names. Cluster names are 
 +
 The node is put in a pending state and can be added to an existing cluster or a new cluster.
 
-*Related information*
 
-xref:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+* link:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
