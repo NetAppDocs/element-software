@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: element, cluster, fips, cluster, multi-factor authentication, authentication
 summary: 'You can manage your system in the Element UI. This includes enabling multi-factor authentication, managing cluster settings, supporting Federal Information Processing Standards (FIPS), and using external key management.'
 ---
-= System management
+= Manage your system
 :icons: font
 :imagesdir: ../media/
 
@@ -12,7 +12,7 @@ summary: 'You can manage your system in the Element UI. This includes enabling m
 You can manage your system in the Element UI. This includes enabling multi-factor authentication, managing cluster settings, supporting Federal Information Processing Standards (FIPS), and using external key management.
 
 * link:concept_system_manage_mfa_enable_multi_factor_authentication.html[Enable multi-factor authentication]
-* link:concept_system_manage_cluster_configure_cluster_settings.adoc[Configure cluster settings]
+* link:concept_system_manage_cluster_configure_cluster_settings.html[Configure cluster settings]
 * link:task_system_manage_fips_create_a_cluster_supporting_fips_drives.html[Create a cluster supporting FIPS drives]
 * link:concept_system_manage_key_get_started_with_external_key_management.html[Get started with external key management]
 
