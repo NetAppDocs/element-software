@@ -16,13 +16,13 @@ You can configure nodes using the per-node user interface.
 +
 IMPORTANT: You should configure the management (Bond1G) and storage (Bond10G) interfaces for separate subnets. Bond1G and Bond10G interfaces configured for the same subnet cause routing problems when storage traffic is sent via the Bond1G interface. If you must use the same subnet for management and storage traffic, manually configure management traffic to use the Bond10G interface. You can do this for each node using the *Cluster Settings* page of the per-node UI.
 
+.Steps
 . In a browser window, enter the DHCP IP address of a node.
 +
 You must add the extension :442 to access the node; for example, https://172.25.103.6:442.
 +
 The *Network Settings* tab opens with the *Bond1G* section.
 
-.Steps
 . Enter the 1G management network settings.
 . Click *Apply Changes*.
 . Click *Bond10G* to display the 10G storage network settings.
