@@ -82,8 +82,8 @@ entries:
 - title: Try it out
   url: /try/task_try_overview.html
   entries:
-    - title: Test Element features on a virtual machine demo node
-      url: /try/task_use_demonode.html 
+    - title: Try storage features using Element Demo Node
+      url: /try/task_use_demonode.html
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
