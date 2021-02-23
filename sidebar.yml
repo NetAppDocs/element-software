@@ -1753,7 +1753,7 @@ entries:
       entries:
       - title: Add Fibre Channel nodes to a cluster
         url: "/setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html"
-      - title: Creating a new cluster with Fibre Channel nodes
+      - title: Create a new cluster with Fibre Channel nodes
         url: "/setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html"
       - title: Set up zones for Fibre Channel nodes
         url: "/setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html"
@@ -1766,7 +1766,7 @@ entries:
     entries:
     - title: Add Fibre Channel nodes to a cluster
       url: "/setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html"
-    - title: Creating a new cluster with Fibre Channel nodes
+    - title: Create a new cluster with Fibre Channel nodes
       url: "/setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html"
     - title: Set up zones for Fibre Channel nodes
       url: "/setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html"

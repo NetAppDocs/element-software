@@ -39,6 +39,6 @@ IMPORTANT: This name must be added to the configuration for all nodes before a c
 
 
 == For more information
-* link:task_configure_the_node_using_the_tui.adoc[Configure the node using the TUI]
+* link:../setup/task_configure_the_node_using_the_tui.html[Configure the node using the TUI]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

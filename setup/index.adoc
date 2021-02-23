@@ -1,7 +1,7 @@
 ---
 permalink: setup/index.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = Setup Guide
@@ -23,7 +23,7 @@ summary: ''
  ** xref:task_setup_change_the_garbage_collection_constant.adoc[Change the Garbage Collection constant]
  ** xref:concept_setup_fc_configure_a_fibre_channel_node.adoc[Configure a Fibre Channel node]
   *** xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[Add Fibre Channel nodes to a cluster]
-  *** xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Creating a new cluster with Fibre Channel nodes]
+  *** xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Create a new cluster with Fibre Channel nodes]
   *** xref:concept_setup_fc_set_up_zones_for_fibre_channel_nodes.adoc[Set up zones for Fibre Channel nodes]
   *** xref:task_setup_create_a_volume_access_group_for_fibre_channel_clients.adoc[Create a volume access group for Fibre Channel clients]
  ** xref:task_setup_gh_redirect_set_up_a_management_node.adoc[Set up a management node]

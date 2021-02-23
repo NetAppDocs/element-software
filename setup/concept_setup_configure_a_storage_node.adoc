@@ -17,7 +17,7 @@ There are two options for configuring storage nodes:
 +
 Use the per-node UI (https://<node_management_IP>:442) to configure node network settings.
 +
-link:setup/task_configure_the_node_using_the_node_ui.adoc[Configure the storage node using the per-node UI]
+link:../setup/task_configure_the_node_using_the_node_ui.html[Configure the storage node using the per-node UI]
 
 +
 NOTE: Use the DHCP 1G management IP address displayed in the menu bar at the top of the TUI to access the per-node UI.
@@ -27,7 +27,7 @@ NOTE: Use the DHCP 1G management IP address displayed in the menu bar at the top
 Use the node terminal user interface (TUI) to configure the node.
 
 +
-link:setup/task_configure_the_node_using_the_tui.adoc[Configure the node using the TUI]
+link:../setup/task_configure_the_node_using_the_tui.html[Configure the node using the TUI]
 
 You cannot add a node with DHCP-assigned IP addresses to a cluster. You can use the DHCP IP address to initially configure the node in the per-node UI, TUI, or API. During this initial configuration, you can add static IP address information so that you can add the node to a cluster.
 
@@ -37,7 +37,7 @@ NOTE: Beginning in Element version 11.0, nodes can be configured with IPv4, IPv6
 
 == Find more information
 
-* link:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
-* link:reference_system_manage_nodes_node_states.adoc[Node states]
+* link:../setup/task_setup_create_a_storage_cluster.html[Create a storage cluster]
+* link:../setup/reference_system_manage_nodes_node_states.html[Node states]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

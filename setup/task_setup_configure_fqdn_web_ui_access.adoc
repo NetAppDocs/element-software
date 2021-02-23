@@ -23,11 +23,12 @@ This process enables the cluster to properly redirect a login session and improv
  .. Per-node UI for the management node: `https://<management_node_IP>:442`
 . Access the Element API and create the following cluster interface preference using the link:../api/reference_element_api_createclusterinterfacepreference.html[CreateClusterInterfacePreference] API method, inserting the cluster MVIP FQDN for the preference value:
  ** Name: `mvip_fqdn`
- ** Value: `<Fully Qualified Domain Name for the Cluster MVIP>`
+ ** Value: `Fully Qualified Domain Name for the Cluster MVIP` 
++
 In this example, FQDN=storagecluster.my.org:
 +
 ----
-https://<Cluster_MVIP\>/json-rpc/12.2?
+https://<Cluster_MVIP>/json-rpc/12.2?
 method=CreateClusterInterfacePreference&name=mvip_fqdn&value=storagecluster.my.org
 ----
 

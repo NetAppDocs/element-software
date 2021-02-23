@@ -36,6 +36,6 @@ The node is put in a pending state and can be added to an existing cluster or a 
 
 
 == For more information
+* link:../setup/task_setup_create_a_storage_cluster.html[Create a storage cluster]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* link:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
