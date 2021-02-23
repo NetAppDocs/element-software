@@ -159,8 +159,6 @@ entries:
       url: /setup/task_configure_the_node_using_the_node_ui.html
     - title: Configue the node using the TUI
       url: /setup/task_configure_the_node_using_the_tui.html
-    - title: Node states
-      url: /setup/reference_system_manage_nodes_node_states.html
   - title: Create a storage cluster
     url: /setup/task_setup_create_a_storage_cluster.html
   - title: Log in to the Element software user interface
@@ -310,8 +308,6 @@ entries:
           url: "/storage/concept_system_manage_nodes_node_versioning_and_compatibility.html"
         - title: Cluster capacity in a mixed node environment
           url: "/storage/concept_system_manage_nodes_cluster_capacity_in_a_mixed_node_environment.html"
-        - title: Node states
-          url: "/storage/reference_system_manage_nodes_node_states.html"
         - title: Node details
           url: "/storage/reference_system_manage_nodes_storage_nodes_details.html"
         - title: View individual node details

@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_solidfire_concepts_nodes.html
 sidebar: sidebar
-keywords: node, witness, management, storage, element 
+keywords: what is, node, witness, management node, storage, state, pending, active
 summary: 'Nodes are the hardware that is grouped into a cluster to be accessed as block storage or compute resources.'
 ---
 = Nodes
@@ -53,6 +53,33 @@ NetApp HCI Witness Nodes are virtual machines that run on compute nodes in paral
 TIP: Learn more about link:https://docs.netapp.com/us-en/hci/docs/hci_prereqs_witness_nodes.html[Witness Node resource requirements^] and link:https://docs.netapp.com/us-en/hci/docs/hci_prereqs_ip_address.html[Witness Node IP address requirements^].
 
 NOTE: In a two-node storage cluster, a minimum of two Witness Nodes are deployed for redundancy in the event of a Witness Node failure. When the NetApp HCI installation process installs Witness Nodes, a virtual machine template is stored in VMware vCenter that you can use to redeploy a Witness Node in case it is accidentally removed, lost, or corrupted. You can also use the template to redeploy a Witness Node if you need to replace a failed compute node that was hosting the Witness Node. For instructions, see the *Redeploy Witness Nodes for two and three-node storage clusters* section link:https://docs.netapp.com/us-en/hci/docs/task_hci_h410crepl.html[here^].
+
+== Node states of operation
+
+[.lead]
+A node can be in one of several states depending on the level of configuration.
+
+* *Available*
++
+The node has no associated cluster name and is not yet part of a cluster.
+
+* *Pending*
++
+The node is configured and can be added to a designated cluster.
++
+Authentication is not required to access the node.
+
+* *Pending Active*
++
+The system is in the process of installing compatible Element software on the node. When complete, the node will move to the Active state.
+
+* *Active*
++
+The node is participating in a cluster.
++
+Authentication is required to modify the node.
+
+In each of these states, some fields are read only.
 
 == Find more information
 * https://www.netapp.com/us/media/tr-4823.pdf[NetApp HCI Two-Node Storage Cluster | TR-4823^]
