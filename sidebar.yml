@@ -82,11 +82,10 @@ entries:
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
 - title: Try it out
-  url: /setup/task_try_overview.html
+  url: /try/task_try_overview.html
   entries:
-    - title: Test Element features on a virtual machine demo node
-    - title: Try out Element software in our Lab on Demand
-      url: https://handsonlabs.netapp.com/catalog
+    - title: Try storage features using Element Demo Node
+      url: /try/task_use_demonode.html
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:

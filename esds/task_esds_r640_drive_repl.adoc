@@ -31,7 +31,7 @@ Perform this procedure if you want to proactively replace a metadata drive or a 
 . Perform the following steps in the Element UI:
  .. In the Element UI, select *Cluster* > *Drives* > *Active*.
  .. Select the drive that you want to replace.
- .. Make a note of the serial number of the drive. This will help you locate the corresponding BayID in the IPMI interface of the node (HPE Integrated Lights-Out or iLO, in this case).
+ .. Make a note of the serial number of the drive. This will help you locate the corresponding slot number of the drive in the Integrated Dell Remote Access Controller (iDRAC).
  .. Select *Bulk Actions* > *Remove*. After you remove the drive, the drive goes into the *Removing* state. It stays in the *Removing* state for a while, waiting for the data on the drive to be synced or redistributed to the remaining drives in the cluster. After the remove is complete, the drive moves to the *Available* state.
 . Perform the following steps to locate the drive slot of the drive that you are replacing:
 .. Log in to the IPMI interface of the node (iDRAC in this case).
