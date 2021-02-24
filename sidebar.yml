@@ -11,7 +11,7 @@ entries:
   url: /concepts/index.html
   entries:
   - title: Product overview
-    url: /setup/concept_intro_product_overview.html
+    url: /concept/concept_intro_product_overview.html
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
     entries:
@@ -1721,7 +1721,7 @@ entries:
   url: "/setup/index.html"
   entries:
   - title: Product overview
-    url: "/setup/concept_intro_product_overview.html"
+    url: "/concept/concept_intro_product_overview.html"
   - title: Setup overview
     url: "/setup/concept_setup_overview.html"
   - title: Determining which SolidFire components to install
