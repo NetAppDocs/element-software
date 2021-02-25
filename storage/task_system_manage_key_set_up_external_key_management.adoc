@@ -21,7 +21,7 @@ You can follow these steps and use the Element API methods listed to set up your
  .. Use the EKS/Certificate Authority to sign the retrieved CSR. See third-party documentation for more information.
 . Create a server and provider on the cluster to communicate with the EKS. A key provider defines where a key should be obtained, and a server defines the specific attributes of the EKS that will be communicated with.
  .. Create a key provider where the key server details will reside by calling the following API method: link:../api/reference_element_api_createkeyproviderkmip.html[CreateKeyProviderKmip]
- .. Create a key server providing the signed certificate and the public key of the Certification Authority by calling the following API methods: link:../api/reference_element_api_createkeyserverkmip.html[CreateKeyServerKmip]
+ .. Create a key server providing the signed certificate and the public key certificate of the Certification Authority by calling the following API methods: link:../api/reference_element_api_createkeyserverkmip.html[CreateKeyServerKmip]
  link:../api/reference_element_api_testkeyserverkmip.html[TestKeyServerKmip]
 +
 If the test fails, verify your server connectivity and configuration. Then repeat the test.
@@ -31,9 +31,12 @@ If the test fails, verify your server connectivity and configuration. Then repea
 link:../api/reference_element_api_testkeyproviderkmip.html[TestKeyProviderKmip]
 +
 If the test fails, verify your server connectivity and configuration. Then repeat the test.
-. (For hardware-based encryption at rest) Enable link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html[encryption at rest] by providing the ID of the key provider that contains the key server used for storing the keys by calling the following API method: `EnableEncryptionAtRest`
+. Do one of the following as a next step for encryption at rest:
+.. (For hardware encryption at rest) Enable link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html#encryption-at-rest-(hardware)[hardware encryption at rest] by providing the ID of the key provider that contains the key server used for storing the keys by calling the link:../api/reference_element_api_enableencryptionatrest.html[EnableEncryptionAtRest] API method.
 +
-NOTE: This enable-encryption-at-rest step is not applicable to software encryption at rest. To enable hardware-based encryption at rest using an external key management configuration, you must enable encryption at rest via the link:../api/reference_element_api_enableencryptionatrest.html[API]. Enabling encryption at rest using the existing Element UI button will revert to using internally generated keys.
+NOTE: You must enable encryption at rest via the link:../api/reference_element_api_enableencryptionatrest.html[API]. Enabling encryption at rest using the existing Element UI button will cause the feature to revert to using internally generated keys.
+
+.. (For software encryption at rest) In order for link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html#encryption-at-rest-(software)[software encryption at rest] to utilize the newly created key provider, pass the key provider ID to the link:../api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html[RekeySoftwareEncryptionAtRestMasterKey] API method.
 
 [discrete]
 == Find more information

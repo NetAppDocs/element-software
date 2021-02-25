@@ -36,7 +36,7 @@ This method has the following return values:
 [cols=4*,options="header"]
 |===
 | Parameter| Description| Type| Optional|
-asyncHandle| Determine the status of the rekey operation using this `asyncHandle` value with `GetAsyncResult`. The `GetAsyncResult` output includes `SearRekeyMasterKeyInfo`.
+asyncHandle| Determine the status of the rekey operation using this `asyncHandle` value with `GetAsyncResult`. `GetAsyncResult` output will include a `newKey` field that contains information about the new master key and a `keyToDecommission` field that contains information about the old key.
 | integer| False
 |===
 

@@ -16,7 +16,7 @@ You might need to rekey as part of one of the following procedures:
 * Create a new key as part of a change from internal key management to external key management.
 * Create a new key as a reaction to or as protection against a security-related event.
 
-NOTE: This process is asynchronous and returns a response before encryption is enabled. You can use the link:../api/reference_element_api_getasyncresult.html[GetAsyncResult] method to poll the system to see when the process has completed.
+NOTE: This process is asynchronous and returns a response before the rekey operation is complete. You can use the link:../api/reference_element_api_getasyncresult.html[GetAsyncResult] method to poll the system to see when the process has completed.
 
 .What you'll need
 * You have enabled software encryption at rest using the link:../api/reference_element_api_createcluster.html[CreateCluster] method on a new cluster that does not contain volumes and has no I/O. Use link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html[`GetSoftwareEncryptionatRestInfo`] to confirm that the state is `enabled` before proceeding.

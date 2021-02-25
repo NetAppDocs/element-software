@@ -22,7 +22,7 @@ This method has the following return values:
 |Parameter| Description| Type| Optional
 |masterKeyInfo| Information about the current software encryption-at-rest master key. | EncryptionKeyInfo| True
 
-|rekeyMasterKeyAsyncResultID| The async result ID of the current or most recent rekey operation (if any), if it has not been deleted yet. `GetAsyncResult` output will include `SearRekeyMasterKeyInfo`.| integer| True
+|rekeyMasterKeyAsyncResultID| The async result ID of the current or most recent rekey operation (if any), if it has not been deleted yet. `GetAsyncResult` output will include a `newKey` field that contains information about the new master key and a `keyToDecommission` field that contains information about the old key.| integer| True
 
 |state| The current software encryption-at-rest state. Possible values are `disabled` or `enabled`.| string| False
 
