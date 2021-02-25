@@ -1261,12 +1261,16 @@ entries:
       url: "/api/reference_element_api_getkeyproviderkmip.html"
     - title: GetKeyServerKmip
       url: "/api/reference_element_api_getkeyserverkmip.html"
+    - title: GetSoftwareEncryptionatRestInfo
+      url: "/api/reference_element_api_getsoftwareencryptionatrestinfo.html"
     - title: ListKeyProvidersKmip
       url: "/api/reference_element_api_listkeyproviderskmip.html"
     - title: ListKeyServersKmip
       url: "/api/reference_element_api_listkeyserverskmip.html"
     - title: ModifyKeyServerKmip
       url: "/api/reference_element_api_modifykeyserverkmip.html"
+    - title: RekeySoftwareEncryptionAtRestMasterKey
+      url: "/api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html"
     - title: RemoveKeyServerFromProviderKmip
       url: "/api/reference_element_api_removekeyserverfromproviderkmip.html"
     - title: TestKeyProviderKmip
@@ -1880,21 +1884,12 @@ entries:
     - title: Configure cluster settings
       url: "/storage/concept_system_manage_cluster_configure_cluster_settings.html"
       entries:
+      - title: Enable and disable encryption at rest for a cluster
+        url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
       - title: Set the cluster full threshold
         url: "/storage/task_system_manage_cluster_set_the_cluster_full_threshold.html"
       - title: Enable and disable support access
         url: "/storage/task_system_manage_cluster_enable_and_disable_support_access.html"
-      - title: Enable and disable encryption for a cluster
-        url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
-      - title: Manage the Terms of Use banner
-        url: "/storage/concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.html"
-        entries:
-        - title: Enable the Terms of Use banner
-          url: "/storage/task_system_manage_cluster_terms_enable_the_terms_of_use_banner.html"
-        - title: Edit the Terms of Use banner
-          url: "/storage/task_system_manage_cluster_terms_edit_the_terms_of_use_banner.html"
-        - title: Disable the Terms of Use banner
-          url: "/storage/task_system_manage_cluster_terms_disable_the_terms_of_use_banner.html"
       - title: Set the Network Time Protocol
         url: "/storage/task_system_manage_cluster_ntp_set_the_network_time_protocol.html"
         entries:
@@ -1935,10 +1930,10 @@ entries:
           url: "/storage/reference_system_manage_nodes_storage_nodes_details.html"
         - title: View individual node details
           url: "/storage/task_system_manage_nodes_view_individual_node_details.html"
-      - title: View Fibre Channel ports details
-        url: "/storage/task_system_manage_fc_view_fibre_channel_ports_details.html"
-      - title: Fibre Channel ports details
-        url: "/storage/reference_system_manage_fc_fibre_channel_ports_details.html"
+        - title: View Fibre Channel ports details
+          url: "/storage/task_system_manage_fc_view_fibre_channel_ports_details.html"
+        - title: Fibre Channel ports details
+          url: "/storage/reference_system_manage_fc_fibre_channel_ports_details.html"
       - title: Manage virtual networks
         url: "/storage/concept_system_manage_virtual_manage_virtual_networks.html"
         entries:
@@ -1954,6 +1949,15 @@ entries:
           url: "/storage/task_system_manage_virtual_edit_vrf_vlans.html"
         - title: Delete a virtual network
           url: "/storage/task_system_manage_virtual_delete_a_virtual_network.html"
+      - title: Manage the Terms of Use banner
+        url: "/storage/concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.html"
+        entries:
+        - title: Enable the Terms of Use banner
+          url: "/storage/task_system_manage_cluster_terms_enable_the_terms_of_use_banner.html"
+        - title: Edit the Terms of Use banner
+          url: "/storage/task_system_manage_cluster_terms_edit_the_terms_of_use_banner.html"
+        - title: Disable the Terms of Use banner
+          url: "/storage/task_system_manage_cluster_terms_disable_the_terms_of_use_banner.html"
     - title: Create a cluster supporting FIPS drives
       url: "/storage/task_system_manage_fips_create_a_cluster_supporting_fips_drives.html"
       entries:
@@ -1974,11 +1978,13 @@ entries:
       entries:
       - title: SSL ciphers
         url: "/storage/reference_system_manage_fips_ssl_cipher_changes.html"
-    - title: Get started with External key management
+    - title: Get started with external key management
       url: "/storage/concept_system_manage_key_get_started_with_external_key_management.html"
       entries:
-      - title: Set up External key management
+      - title: Set up external key management
         url: "/storage/task_system_manage_key_set_up_external_key_management.html"
+      - title: Rekey software encryption at rest master key
+        url: "/storage/task_system_manage_rekey_software_ear_master_key.html"
       - title: Recover inaccessible or invalid Authentication Keys
         url: "/storage/concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys.html"
       - title: External Key Management API Commands

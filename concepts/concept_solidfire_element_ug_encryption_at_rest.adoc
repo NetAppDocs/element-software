@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_solidfire_element_ug_encryption_at_rest.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'With SolidFire clusters, you can encrypt all data stored on the cluster.'
 ---
 = Encryption at rest
@@ -9,12 +9,17 @@ summary: 'With SolidFire clusters, you can encrypt all data stored on the cluste
 :imagesdir: ../media/
 
 [.lead]
-With SolidFire clusters, you can encrypt all data stored on the cluster.
+With SolidFire clusters, you can encrypt all data stored on the cluster as it rests on drives to protect physical drives from theft.
 
-All drives in storage nodes capable of encryption leverage AES 256-bit encryption at the drive level. Each drive has its own encryption key, which is created when the drive is first initialized. When you enable the encryption feature, a cluster-wide password is created, and chunks of the password are then distributed to all nodes in the cluster. No single node stores the entire password. The password is then used to password-protect all access to the drives. The password is needed to unlock the drive and then not needed unless power is removed from the drive or the drive is locked.
+== Encryption at Rest (hardware)
+All drives in storage nodes are capable of encryption leverage AES 256-bit encryption at the drive level. Each drive has its own encryption key, which is created when the drive is first initialized. When you enable the encryption feature, a cluster-wide password is created, and chunks of the password are then distributed to all nodes in the cluster. No single node stores the entire password. The password is then used to password-protect all access to the drives. The password is needed to unlock the drive and then not needed unless power is removed from the drive or the drive is locked.
 
-Enabling the encryption at rest feature does not affect performance or efficiency on the cluster. Additionally, if an encryption-enabled drive or node is removed from the cluster with the Element API or Element UI, encryption at rest will be disabled on the drives. After the drive is removed, the drive can be secure erased by using the SecureEraseDrives API method. If a drive or node is forcibly removed from the cluster, the data remains protected by the cluster-wide password and the drive's individual encryption keys.
+Enabling the hardware encryption at rest feature does not affect performance or efficiency on the cluster. If an encryption-enabled drive or node is removed from cluster configuration with the Element API or Element UI, encryption at rest will be disabled on the drives. After the drive is removed, the drive can be secure erased by using the SecureEraseDrives API method. If a physical drive or node is forcibly removed, the data remains protected by the cluster-wide password and the drive's individual encryption keys.
 
-Another type of encryption at rest, Software Encryption at Rest available in SolidFire Enterprise SDS nodes, enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary layer of encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
+== Encryption at Rest (software)
 
-http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-sds-ig//GUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html[SolidFire Enterprise SDS overview]
+Another type of encryption-at-rest, software encryption-at-rest enables all data written to SSDs in a storage cluster to be encrypted. Once enabled, it encrypts all data written and decrypts all data read automatically in software. Software Encryption-at-Rest mirrors the Self-Encrypting Drive (SED) implementation in hardware to provide data security in the absence of SED.
+
+Software encryption at rest is available by default in all link:../esds/concept_esds_overview.html[SolidFire Enterprise SDS nodes]. Software encryption at rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
+
+Both software and hardware-based encryption-at-rest can be used independently or in combination with one another.
