@@ -9,7 +9,7 @@ summary: 'You can use the CreateSupportBundle to create a support bundle file un
 :imagesdir: ../media/
 
 [.lead]
-You can use the CreateSupportBundle to create a support bundle file under the node's directory. After creation, the bundle is stored on the node as a tar file (gz compression option is available via the extraArgs parameter.)
+You can use CreateSupportBundle to create a support bundle file under the node's directory. After creation, the bundle is stored on the node as a tar file (gz compression option is available via the extraArgs parameter.)
 
 == Parameters
 
@@ -30,7 +30,7 @@ No
 a|
 extraArgs
 a|
-This parameter is passed to '--compress gz' to create the support bundle as a tar.gz file.
+Use '--compress gz' to create the support bundle as a tar.gz file.
 a|
 string
 a|
