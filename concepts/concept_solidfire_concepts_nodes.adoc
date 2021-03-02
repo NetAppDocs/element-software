@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_solidfire_concepts_nodes.html
 sidebar: sidebar
-keywords: what is, node, witness, management node, storage, state, pending, active
+keywords: what is, node, management node, storage node, fibre channel, state, pending, active
 summary: 'Nodes are the hardware that is grouped into a cluster to be accessed as block storage or compute resources.'
 ---
 = Nodes
@@ -11,15 +11,19 @@ summary: 'Nodes are the hardware that is grouped into a cluster to be accessed a
 [.lead]
 Nodes are hardware or virtual resources that are grouped into a cluster to provide block storage and compute capabilities.
 
-NetApp HCI and Element software defines various node roles for a cluster. The types of node roles are management node, storage node, Fibre Channel nodes, and NetApp HCI Witness Nodes.
+NetApp Element software defines various node roles for a cluster. The types of node roles are the following:
+
+* <<Management node>>
+* <<Storage node>>
+* <<Fibre Channel node>>
+
+<<Node states of operation,Nodes states>> vary depending on cluster association.
 
 == Management node
+A management node is a virtual machine used to upgrade and provide system services including monitoring and telemetry, manage cluster assets and settings, run system tests and utilities, and enable NetApp Support access for troubleshooting.
+link:../concepts/concept_intro_management_node.html[Learn more]
 
-The management node (sometimes abbreviated as mNode) interacts with a storage cluster to perform management actions, but is not a member of the storage cluster. Management nodes periodically collect information about the cluster through API calls and report this information to Active IQ for remote monitoring (if enabled). Management nodes are also responsible for coordinating software upgrades of the cluster nodes.
-
-The management node is a virtual machine that runs in parallel with one or more Element software-based storage clusters. In addition to upgrades, it is used to provide system services including monitoring and telemetry, manage cluster assets and settings, run system tests and utilities, and enable NetApp Support access for troubleshooting. As of the Element 11.3 release, the management node functions as a microservice host, allowing for quicker updates of select software services outside of major releases. These microservices or management services, such as the Active IQ collector, QoSSIOC for the vCenter Plug-in, and management node service, are updated frequently as service bundles.
-
-== Storage nodes
+== Storage node
 
 A SolidFire storage node is a server containing a collection of drives that communicate with each other through the Bond10G network interface. Drives in the node contain block and metadata space for data storage and data management. Each node contains a factory image of NetApp Element software.
 
@@ -31,7 +35,7 @@ Storage nodes have the following characteristics:
 * You can create a cluster with new storage nodes, or add storage nodes to an existing cluster to increase storage capacity and performance.
 * You can add or remove nodes from the cluster at any time without interrupting service.
 
-== Fibre Channel nodes
+== Fibre Channel node
 
 SolidFire Fibre Channel nodes provide connectivity to a Fibre Channel switch, which you can connect to Fibre Channel clients. Fibre Channel nodes act as a protocol converter between the Fibre Channel and iSCSI protocols; this enables you to add Fibre Channel connectivity to any new or existing SolidFire cluster.
 
@@ -41,18 +45,6 @@ Fibre Channel nodes have the following characteristics:
 * The traffic between two ports flows through the switches only; it is not transmitted to any other port.
 * Failure of a port is isolated and does not affect operation of other ports.
 * Multiple pairs of ports can communicate simultaneously in a fabric.
-
-== NetApp HCI storage nodes
-
-NetApp HCI storage nodes are hardware that provide the storage resources for a NetApp HCI system. Drives in the node contain block and metadata space for data storage and data management. Each node contains a factory image of NetApp Element software. NetApp HCI storage nodes can be managed using the NetApp Element Management extension point.
-
-
-== Witness Nodes
-NetApp HCI Witness Nodes are virtual machines that run on compute nodes in parallel with an Element software-based storage cluster. Witness Nodes do not host slice or block services. A Witness Node enables storage cluster availability in the event of a storage node failure. You can manage and upgrade Witness Nodes in the same way as other storage nodes. A storage cluster can have up to four Witness Nodes. Their primary purpose is to ensure that enough cluster nodes exist to form a valid ensemble quorum.
-
-TIP: Learn more about link:https://docs.netapp.com/us-en/hci/docs/hci_prereqs_witness_nodes.html[Witness Node resource requirements^] and link:https://docs.netapp.com/us-en/hci/docs/hci_prereqs_ip_address.html[Witness Node IP address requirements^].
-
-NOTE: In a two-node storage cluster, a minimum of two Witness Nodes are deployed for redundancy in the event of a Witness Node failure. When the NetApp HCI installation process installs Witness Nodes, a virtual machine template is stored in VMware vCenter that you can use to redeploy a Witness Node in case it is accidentally removed, lost, or corrupted. You can also use the template to redeploy a Witness Node if you need to replace a failed compute node that was hosting the Witness Node. For instructions, see the *Redeploy Witness Nodes for two and three-node storage clusters* section link:https://docs.netapp.com/us-en/hci/docs/task_hci_h410crepl.html[here^].
 
 == Node states of operation
 
@@ -81,7 +73,7 @@ Authentication is required to modify the node.
 
 In each of these states, some fields are read only.
 
+[discrete]
 == Find more information
-* https://www.netapp.com/us/media/tr-4823.pdf[NetApp HCI Two-Node Storage Cluster | TR-4823^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

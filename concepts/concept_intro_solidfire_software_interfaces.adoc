@@ -2,14 +2,14 @@
 permalink: concepts/concept_intro_solidfire_software_interfaces.html
 sidebar: sidebar
 keywords:
-summary: 'You can manage a SolidFire storage system by using NetApp Element software interfaces and integration utilities.'
+summary: 'You can manage a SolidFire storage system using NetApp Element software interfaces and integration utilities.'
 ---
 = SolidFire software interfaces
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can manage a SolidFire storage system by using different NetApp Element software interfaces and integration utilities.
+You can manage a SolidFire storage system using different NetApp Element software interfaces and integration utilities.
 
 .Options
 * <<NetApp Element software user interface>>
@@ -21,22 +21,22 @@ You can manage a SolidFire storage system by using different NetApp Element soft
 
 == NetApp Element software user interface
 Enables you to set up Element storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure. Element is the storage operating system at the heart of a SolidFire cluster. Element software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources that are presented as a single storage system to external clients. Element software is responsible for all cluster coordination, scale and management of the system as a whole. The software interface is built upon the Element API.
-+
+
 link:../storage/index.html[Manage storage with Element software]
 
 == NetApp Element software API
 Enables you to use a set of objects, methods, and routines to manage Element storage. The Element API is based on the JSON-RPC protocol over HTTPS. You can monitor API operations in the Element UI by enabling the API Log; this enables you to see the methods that are being issued to the system. You can enable both requests and responses to see how the system replies to the methods that are issued.
-+
+
 link:../api/index.html[Manage storage with the Element API]
 
 == NetApp Element Plug-in for vCenter Server
 Enables you to configure and manage storage clusters running Element software using an alternative interface for the Element UI within VMware vSphere.
-+
+
 https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
 == NetApp Hybrid Cloud Control
 Enables you to upgrade Element storage and management services and manage storage assets using the NetApp Hybrid Cloud Control interface.
-+
+
 link:../storage/task_intro_manage_storage_hcc.html[Manage storage with the NetApp Hybrid Cloud Control]
 
 == Management node UIs
@@ -44,25 +44,27 @@ The management node contains two UIs: a UI for managing REST-based services and 
 
 == Additional integration utilities and tools
 
-While you typically manage your storage with NetApp Element, NetApp Element API, and NetApp Element Plug-in for vCenter Server, you can use additional integration utilities and tools to access storage.
+Although you typically manage your storage with NetApp Element, NetApp Element API, and NetApp Element Plug-in for vCenter Server, you can use additional integration utilities and tools to access storage.
 
 === SolidFire vRO
-https://mysupport.netapp.com/products/p/vro.html[SolidFire vRO] provides a convenient way to use the Element API to administer your SolidFire storage system with VMware vRealize Orchestrator.
+https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-tab[SolidFire vRO^] provides a convenient way to use the Element API to administer your SolidFire storage system with VMware vRealize Orchestrator.
 
 === Element SDKs
-https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-elementsoftware/tools-tab[Element SDKs] enable you to manage your SolidFire cluster using these tools:
-* Element CLI
-* SolidFire Postman API testing suite: Enables programmers to use a collection of Postman functions that test Element API calls.
-* Element PowerShell Tools: Enables programmers to use a collection of Microsoft Windows﻿ PowerShell functions that use the Element API to manage a SolidFire storage system.
+https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-elementsoftware/tools-tab[Element SDKs^] enable you to manage your SolidFire cluster using these tools:
+* Element CLI: Enables you to control a SolidFire storage system using a command-line interface without having to use the Element API.
+* Element PowerShell Tools: Enables you to use a collection of Microsoft Windows﻿ PowerShell functions that use the Element API to manage a SolidFire storage system.
 * Element Java SDK: Enables programmers to integrate the Element API with the Java programming language.
 * Element .NET SDK: Enables programmers to integrate the Element API with the .NET programming platform.
 * Element Python SDK: Enables programmers to integrate the Element API with the Python programming language.
 
+=== SolidFire Postman API testing suite
+Enables programmers to use a collection of link:https://github.com/solidfire/postman[Postman] functions that test Element API calls.
+
 === SolidFire Storage Replication Adapter
-https://mysupport.netapp.com/products/p/elementsra.html[SolidFire Storage Replication Adapter] integrates with the VMware Site Recovery Manager (SRM) to enable communication with replicated SolidFire storage clusters and execute supported workflows.
+https://mysupport.netapp.com/site/products/all/details/elementsra/downloads-tab[SolidFire Storage Replication Adapter^] integrates with the VMware Site Recovery Manager (SRM) to enable communication with replicated SolidFire storage clusters and execute supported workflows.
 
 === SolidFire VSS Provider
-https://mysupport.netapp.com/products/p/elementvss.html[SolidFire VSS Provider] integrates VSS shadow copies with Element snapshots and clones.
+https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/downloads-tab[SolidFire VSS Provider^] integrates VSS shadow copies with Element snapshots and clones.
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

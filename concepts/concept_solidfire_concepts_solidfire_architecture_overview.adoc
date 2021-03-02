@@ -30,7 +30,36 @@ You can manage, monitor, and update the system using the Element web UI and othe
 * link:../concepts/concept_intro_management_node.html[Management node for Element software]
 * link:../concepts/concept_intro_management_services_for_afa.html[Management services]
 
+== Common URLs
+These are the common URLs you use with a SolidFire all-flash storage system:
+
+[%header,cols=2*]
+|===
+|URL
+|Description
+
+|`https://[storage cluster MVIP address]`
+|Access the NetApp Element software UI.
+
+|`https://activeiq.solidfire.com`
+|Monitor data and receive alerts to any performance bottlenecks or potential system issues.
+
+|`https://[management node IP address]`
+|Access NetApp Hybrid Cloud Control to upgrade, manage, and monitor your storage installation, and update management services. link:https://docs.netapp.com/us-en/hci/docs/concept_hci_upgrade_overview.html[Learn more.^]
+
+|`https://[IP address]:442`
+|From the per-node UI, access network and cluster settings and utilize system tests and utilities. link:../storage/task_per_node_access_settings.html[Learn more.]
+
+|`https://[management node IP address]/mnode`
+|Use management services REST API and other functionality from the management node.
+https://docs.netapp.com/us-en/hci/docs/task_mnode_work_overview.html[Learn more.^]
+
+|`https://[management node IP address]:9443`
+|Register the vCenter Plug-in package in the vSphere Web Client.
+link:https://docs.netapp.com/us-en/vcp/vcp_task_getstarted.html[Learn more.^]
+
+|===
+
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2[NetApp Support Site > Tools for Active IQ]

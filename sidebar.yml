@@ -23,8 +23,6 @@ entries:
       url: /concepts/concept_intro_management_node.html
     - title: Management services for SolidFire all-flash storage
       url: /concepts/concept_intro_management_services_for_afa.html
-    - title: Persistent volumes
-      url: /concepts/concept_intro_persistent_volumes.html
   - title: Nodes
     url: /concepts/concept_solidfire_concepts_nodes.html
   - title: Clusters
@@ -45,14 +43,10 @@ entries:
     entries:
     - title: Volumes
       url: /concepts/concept_solidfire_concepts_volumes.html
+    - title: Virtual volumes (vVols)
+      url: /concepts/concept_solidfire_concepts_vvols.html
     - title: Volume access groups
       url: /concepts/concept_solidfire_concepts_volume_access_groups.html
-    - title: Rule of thirds
-      url: /concepts/concept_solidfire_concepts_rule_of_thirds.html
-    - title: VMware virtual volumes and NetApp Element software
-      url: /concepts/concept_solidfire_concepts_vmware_virtual_volumes.html
-    - title: Stranded capacity
-      url: /concepts/concept_solidfire_concepts_stranded_capacity.html
   - title: Data protection
     url: /concepts/concept_solidfire_concepts_data_protection.html
     entries:
@@ -187,6 +181,7 @@ entries:
   - title: What's next?
     url: /setup/concept_setup_whats_next.html
 - title: Work with the management node
+  url: /storage/concept_mnode_work_with_the_management_node.html
 - title: Manage storage with Element software
   url: "/storage/index.html"
   entries:
@@ -1649,8 +1644,6 @@ entries:
       url: "/concepts/concept_intro_fibre_channel_nodes.html"
     - title: NetApp HCI storage nodes
       url: "/concepts/concept_element_vcp_ug_netapp_hci_storage_nodes.html"
-    - title: Witness node
-      url: "/concepts/concept_solidfire_concepts_witness_node.html"
   - title: Clusters
     url: "/concepts/concept_intro_clusters.html"
   - title: Security
