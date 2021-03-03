@@ -23,6 +23,7 @@ NOTE: Beginning in Element version 11.0, nodes can be configured with IPv4, IPv6
 * <<Authoritative storage clusters>>
 * <<Rule of thirds>>
 * <<Stranded capacity>>
+* <<Storage efficiency>>
 * <<Storage cluster quorum>>
 
 == Authoritative storage clusters
@@ -43,6 +44,22 @@ When you mix storage node types in a NetApp SolidFire storage cluster, no single
 == Stranded capacity
 
 If a newly added node accounts for more than 50 percent of the total cluster capacity, some of the capacity of this node is made unusable ("stranded"), so that it complies with the capacity rule. This remains the case until more storage capacity is added. If a very large node is added that also disobeys the capacity rule, the previously stranded node will no longer be stranded, while the newly added node becomes stranded. Capacity should always be added in pairs to avoid this from happening. When a node becomes stranded, an appropriate cluster fault is thrown.
+
+= Storage efficiency
+
+Netapp SolidFire storage clusters make use of deduplication, compression, and thin provisioning to reduce the amount of physical storage needed for storing a volume.
+
+* *Compression*
++
+Compression reduces the amount of physical storage required for a volume by combining data blocks in compression groups, each of which is stored as a single block.
+
+* *Deduplication*
++
+Deduplication reduces the amount of physical storage required for a volume by discarding duplicate data blocks.
+
+* *Thin provisioning*
++
+A thin-provisioned volume or LUN is one for which storage is not reserved in advance. Instead, storage is allocated dynamically, as it is needed. Free space is released back to the storage system when data in the volume or LUN is deleted
 
 == Storage cluster quorum
 Element software creates a storage cluster from selected nodes, which maintains a replicated database of the cluster configuration. A minimum of three nodes are required to participate in the cluster ensemble to maintain quorum for cluster resiliency.

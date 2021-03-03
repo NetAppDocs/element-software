@@ -32,7 +32,6 @@ entries:
   - title: Accounts and permissions
     url: /concepts/concept_solidfire_concepts_accounts_and_permissions.html
   - title: Storage
-    url: /concepts/concept_solidfire_concepts_storage.html
     entries:
     - title: Volumes
       url: /concepts/concept_solidfire_concepts_volumes.html
@@ -40,24 +39,11 @@ entries:
       url: /concepts/concept_solidfire_concepts_vvols.html
     - title: Volume access groups
       url: /concepts/concept_solidfire_concepts_volume_access_groups.html
+    - title: Initiators
+      url: /concepts/concept_solidfire_concepts_initiators.html
   - title: Data protection
     url: /concepts/concept_solidfire_concepts_data_protection.html
-    entries:
-    - title: Remote replication types
-      url: /concepts/concept_solidfire_concepts_remote_replication_types.html
-    - title: Volume snapshots for data protection
-      url: /concepts/concept_solidfire_concepts_volume_snapshots_for_data_protection.html
-    - title: Volume clones
-      url: /concepts/concept_solidfire_concepts_volume_clones.html
-    - title: Backup and restore process overview for SolidFire storage
-      url: /concepts/concept_solidfire_concepts_backup_and_restore_process_overview.html
-    - title: Protection domains
-      url: /concepts/concept_solidfire_concepts_protection_domains.html
-    - title: Double Helix high availability
-      url: /concepts/concept_solidfire_concepts_double_helix_high_availability.html
-  - title: Storage efficiency
-    url: /concepts/concept_solidfire_concepts_storage_efficiency.html
-  - title: Quality of Service
+  - title: Performance and quality of service
     url: /concepts/concept_data_manage_volumes_solidfire_quality_of_service.html
 - title: Requirements
   url: /setup/concept_requirements_overview.html
@@ -1651,7 +1637,6 @@ entries:
   - title: Accounts and permissions
     url: "/concepts/concept_solidfire_concepts_accounts_and_permissions.html"
   - title: Storage
-    url: "/concepts/concept_solidfire_concepts_storage.html"
     entries:
     - title: Volumes
       url: "/concepts/concept_solidfire_concepts_volumes.html"
@@ -1694,15 +1679,8 @@ entries:
       url: "/concepts/reference_data_manage_volumes_qos_limits.html"
     - title: QoS performance curve
       url: "/concepts/concept_data_manage_volumes_qos_performance_curve.html"
-  - title: NetApp HCI cloud concepts
-    url: "/concepts/concept_solidfire_concepts_netapp_hci_cloud_concepts.html"
-    entries:
-    - title: Cloud services on NetApp HCI
-      url: "/concepts/concept_solidfire_concepts_cloud_services_on_netapp_hci.html"
   - title: Where to find additional information
     url: "/concepts/reference_solidfire_element_ug_where_to_find_additional_information.html"
-  - title: Contacting NetApp Support
-    url: "/concepts/concept_dnu_contacting_netapp_support.html"
 - title: setup
   url: "/setup/index.html"
   entries:
