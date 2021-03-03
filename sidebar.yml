@@ -186,7 +186,7 @@ entries:
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
   - title: What's next?
-    url: /setup/concept_setup_whats_next.html 
+    url: /setup/concept_setup_whats_next.html
 - title: Work with the management node
 - title: Manage storage with Element software
   url: "/storage/index.html"
@@ -1624,7 +1624,9 @@ entries:
     - title: TestHardwareConfig
       url: "/api/reference_element_api_response_example_testhardwareconfig.html"
 - title: Earlier versions
+  url: /element-earlierversions.html
 - title: Legal notices
+  url: /element-legal.html
 - title: STOP HERE STOP HERE
 - title: concepts
   url: "/concepts/index.html"
