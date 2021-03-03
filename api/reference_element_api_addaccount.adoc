@@ -9,7 +9,7 @@ summary: 'You can use AddAccount to add a new account to the system. You can als
 :imagesdir: ../media/
 
 [.lead]
-You can use AddAccount to add a new account to the system. You can also use this method to create new volumes under the new account as the account is created. The Challenge-Handshake Authentication Protocol (CHAP) settings you specify for the account apply to all volumes owned by the account.
+You can use `AddAccount` to add a new account to the system. You can also use this method to create new volumes under the new account as the account is created. The Challenge-Handshake Authentication Protocol (CHAP) settings you specify for the account apply to all volumes owned by the account.
 
 == Parameters
 
@@ -18,7 +18,7 @@ This method has the following input parameters:
 |===
 | Name| Description| Type| Default value| Required
 a|
-attributes
+`attributes`
 a|
 List of name-value pairs in JSON object format.
 a|
@@ -28,7 +28,7 @@ None
 a|
 No
 a|
-enableChap
+`enableChap`
 a|
 Specifies whether CHAP account credentials can be used by an initiator to access volumes.
 a|
@@ -38,7 +38,7 @@ true
 a|
 No
 a|
-initiatorSecret
+`initiatorSecret`
 a|
 The CHAP secret to use for the initiator. This secret must be 12 to 16 characters in length and should be impenetrable. The initiator CHAP secret must be unique and cannot be the same as the target CHAP secret. If not specified, a random secret is created.
 a|
@@ -48,7 +48,7 @@ None
 a|
 No
 a|
-targetSecret
+`targetSecret`
 a|
 The CHAP secret to use for the target (mutual CHAP authentication). This secret must be 12 to 16 characters in length and should be impenetrable. The target CHAP secret must be unique and cannot be the same as the initiator CHAP secret. If not specified, a random secret is created.
 a|
@@ -58,7 +58,7 @@ None
 a|
 No
 a|
-username
+`username`
 a|
 The unique username for this account. (Must be 1 to 64 characters in length).
 a|
