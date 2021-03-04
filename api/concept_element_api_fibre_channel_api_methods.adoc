@@ -10,3 +10,13 @@ summary: 'You can use Fibre Channel API methods to add, modify, or remove Fibre 
 
 [.lead]
 You can use Fibre Channel API methods to add, modify, or remove Fibre Channel node members of a storage cluster.
+
+* xref:reference_element_api_getvolumeaccessgrouplunassignments.adoc[GetVolumeAccessGroupLunAssignments]
+* xref:reference_element_api_listfibrechannelportinfo.adoc[ListFibreChannelPortInfo]
+* xref:reference_element_api_listfibrechannelsessions.adoc[ListFibreChannelSessions]
+* xref:reference_element_api_listnodefibrechannelportinfo.adoc[ListNodeFibreChannelPortInfo]
+* xref:reference_element_api_modifyvolumeaccessgrouplunassignments.adoc[ModifyVolumeAccessGroupLunAssignments]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

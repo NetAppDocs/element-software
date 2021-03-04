@@ -10,3 +10,10 @@ summary: 'You can use session-based authentication to manage user sessions.'
 
 [.lead]
 You can use session-based authentication to manage user sessions.
+
+* xref:reference_element_api_listauthsessionbyclusteradmin.adoc[ListAuthSessionsByClusterAdmin]
+* xref:reference_element_api_listauthsessionbyusername.adoc[ListAuthSessionsByUsername]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

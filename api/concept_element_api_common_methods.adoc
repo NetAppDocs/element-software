@@ -10,3 +10,15 @@ summary: 'Common methods are methods used to retrieve information about the stor
 
 [.lead]
 Common methods are methods used to retrieve information about the storage cluster, the API itself, or ongoing API operations.
+
+* xref:reference_element_api_getapi.adoc[GetAPI]
+* xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
+* xref:reference_element_api_getcompletestats.adoc[GetCompleteStats]
+* xref:reference_element_api_getlimits.adoc[GetLimits]
+* xref:reference_element_api_getorigin.adoc[GetOrigin]
+* xref:reference_element_api_getrawstats.adoc[GetRawStats]
+* xref:reference_element_api_listasyncresults.adoc[ListAsyncResults]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

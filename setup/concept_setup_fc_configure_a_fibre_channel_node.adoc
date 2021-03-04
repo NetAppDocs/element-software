@@ -29,4 +29,4 @@ WWPNs are registered in the system when you create a new cluster with nodes. In 
 
 xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[Add Fibre Channel nodes to a cluster]
 
-xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Creating a new cluster with Fibre Channel nodes]
+xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Create a new cluster with Fibre Channel nodes]

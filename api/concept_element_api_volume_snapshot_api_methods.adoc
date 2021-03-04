@@ -10,3 +10,23 @@ summary: 'Element software volume snapshot API methods enable you to manage volu
 
 [.lead]
 Element software volume snapshot API methods enable you to manage volume snapshots. You can create, modify, clone, and delete volume snapshots using the volume snapshot API methods.
+
+* xref:concept_element_api_snapshots_overview.adoc[Snapshots overview]
+* xref:reference_element_api_creategroupsnapshot.adoc[CreateGroupSnapshot]
+* xref:reference_element_api_createschedule.adoc[CreateSchedule]
+* xref:reference_element_api_createsnapshot.adoc[CreateSnapshot]
+* xref:reference_element_api_deletegroupsnapshot.adoc[DeleteGroupSnapshot]
+* xref:reference_element_api_deletesnapshot.adoc[DeleteSnapshot]
+* xref:reference_element_api_getschedule.adoc[GetSchedule]
+* xref:reference_element_api_listgroupsnapshots.adoc[ListGroupSnapshots]
+* xref:reference_element_api_listschedules.adoc[ListSchedules]
+* xref:reference_element_api_listsnapshots.adoc[ListSnapshots]
+* xref:reference_element_api_modifygroupsnapshot.adoc[ModifyGroupSnapshot]
+* xref:reference_element_api_modifyschedule.adoc[ModifySchedule]
+* xref:reference_element_api_modifysnapshot.adoc[ModifySnapshot]
+* xref:reference_element_api_rollbacktogroupsnapshot.adoc[RollbackToGroupSnapshot]
+* xref:reference_element_api_rollbacktosnapshot.adoc[RollbackToSnapshot]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

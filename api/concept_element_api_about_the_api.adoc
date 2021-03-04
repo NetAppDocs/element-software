@@ -18,3 +18,14 @@ NOTE: The Element web UI makes use of the API methods described in this document
 Unless stated otherwise, all date strings in the API responses are in UTC+0 format.
 
 NOTE: When the storage cluster is heavily loaded or you submit many consecutive API requests with no intervening delay, a method might fail and return the error "xDBVersionMismatch". If this happens, retry the method call.
+
+* xref:reference_element_api_request_object_members.adoc[Request object members]
+* xref:reference_element_api_response_object_members.adoc[Response object members]
+* xref:concept_element_api_request_endpoints.adoc[Request endpoints]
+* xref:concept_element_api_authentication.adoc[API authentication]
+* xref:concept_element_api_asynchronous_methods.adoc[Asynchronous methods]
+* xref:reference_element_api_attributes.adoc[Attributes]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

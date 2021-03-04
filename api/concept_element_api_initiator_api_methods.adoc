@@ -10,3 +10,12 @@ summary: 'Initiator methods enable you to add, remove, view, and modify iSCSI in
 
 [.lead]
 Initiator methods enable you to add, remove, view, and modify iSCSI initiator objects, which handle communication between the storage system and external storage clients.
+
+* xref:reference_element_api_createinitiators.adoc[CreateInitiators]
+* xref:reference_element_api_deleteinitiators.adoc[DeleteInitiators]
+* xref:reference_element_api_listinitiators.adoc[ListInitiators]
+* xref:reference_element_api_modifyinitiators.adoc[ModifyInitiators]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
