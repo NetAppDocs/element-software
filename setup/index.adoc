@@ -1,5 +1,5 @@
 ---
-permalink: setup/index.html
+permalink: setup/index.adoc
 sidebar: sidebar
 keywords:
 summary: ''
@@ -8,25 +8,20 @@ summary: ''
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_intro_product_overview.adoc[Product overview]
-* xref:concept_setup_overview.adoc[Setup overview]
-* xref:task_setup_determine_which_solidfire_components_to_install.adoc[Determining which SolidFire components to install]
-* xref:task_setup_set_up_an_element_storage_system.adoc[Set up an Element storage system]
- ** xref:concept_setup_configure_a_storage_node.adoc[Configure a storage node]
-  *** xref:task_configure_the_node_using_the_node_ui.adoc[Configuring the storage node using the per-node UI]
-  *** xref:task_configure_the_node_using_the_tui.adoc[Configuring the node using the TUI]
-  *** xref:reference_system_manage_nodes_node_states.adoc[Node states]
- ** xref:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
- ** xref:task_post_deploy_access_the_element_software_user_interface.adoc[Access the Element software user interface]
- ** xref:task_setup_configure_fqdn_web_ui_access.adoc[Configure Fully Qualified Domain Name web UI access]
- ** xref:task_setup_add_drives_to_a_cluster.adoc[Add drives to a cluster]
- ** xref:task_setup_change_the_garbage_collection_constant.adoc[Change the Garbage Collection constant]
- ** xref:concept_setup_fc_configure_a_fibre_channel_node.adoc[Configure a Fibre Channel node]
-  *** xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[Add Fibre Channel nodes to a cluster]
-  *** xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Create a new cluster with Fibre Channel nodes]
-  *** xref:concept_setup_fc_set_up_zones_for_fibre_channel_nodes.adoc[Set up zones for Fibre Channel nodes]
-  *** xref:task_setup_create_a_volume_access_group_for_fibre_channel_clients.adoc[Create a volume access group for Fibre Channel clients]
- ** xref:task_setup_gh_redirect_set_up_a_management_node.adoc[Set up a management node]
-* xref:reference_copyright_and_trademark.adoc[Copyright and trademark]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
+* xref:concept_setup_overview.adoc[Set up storage]
+** xref:task_setup_cluster_with_storage_nodes.adoc[Set up a cluster with storage nodes]
+*** xref:concept_setup_configure_a_storage_node.adoc[Configure a storage node]
+*** xref:task_setup_create_a_storage_cluster.adoc[Create a storage cluster]
+*** xref:task_post_deploy_access_the_element_software_user_interface.adoc[Log in to the Element software user interface]
+*** xref:task_setup_add_drives_to_a_cluster.adoc[Add drives to the cluster]
+** xref:task_setup_cluster_with_fibre_channel_nodes.adoc[Set up a cluster with Fibre Channel nodes]
+    entries:
+*** xref:concept_setup_fc_configure_a_fibre_channel_node.adoc[Configure a Fibre Channel node]
+*** xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[Add Fibre Channel nodes to a cluster]
+*** xref:task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.adoc[Create a new cluster with Fibre Channel nodes]
+*** xref:concept_setup_fc_set_up_zones_for_fibre_channel_nodes.adoc[Set up zones for Fibre Channel nodes]
+*** xref:task_setup_create_a_volume_access_group_for_fibre_channel_clients.adoc[Create a volume access group for Fibre Channel clients]
+** xref:task_setup_determine_which_solidfire_components_to_install.adoc[Determine which SolidFire components to install]
+** xref:/task_setup_gh_redirect_set_up_a_management_node.adoc[Set up a management node]
+** xref:task_setup_configure_fqdn_web_ui_access.adoc[Configure Fully Qualified Domain Name web UI access]
+** xref:concept_setup_whats_next.adoc[What's next?]

@@ -125,26 +125,22 @@ entries:
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
-  - title: Configure a storage node
-    url: /setup/concept_setup_configure_a_storage_node.html
+  - title: Set up a cluster with storage nodes
+    url: /setup/task_setup_cluster_with_storage_nodes.html
     entries:
-    - title: Configure the storage node using the per-node UI
-      url: /setup/task_configure_the_node_using_the_node_ui.html
-    - title: Configue the node using the TUI
-      url: /setup/task_configure_the_node_using_the_tui.html
-  - title: Create a storage cluster
-    url: /setup/task_setup_create_a_storage_cluster.html
-  - title: Log in to the Element software user interface
-    url: /setup/task_post_deploy_access_the_element_software_user_interface.html
-  - title: Add drives to the cluster
-    url: /setup/task_setup_add_drives_to_a_cluster.html
-  - title: Determine which SolidFire components to install
-    url: /setup/task_setup_determine_which_solidfire_components_to_install.html
-  - title: Change the Garbage Collection constant
-    url: /setup/task_setup_change_the_garbage_collection_constant.html
-  - title: Configure a Fibre Channel node
-    url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
+    - title: Configure a storage node
+      url: /setup/concept_setup_configure_a_storage_node.html
+    - title: Create a storage cluster
+      url: /setup/task_setup_create_a_storage_cluster.html
+    - title: Log in to the Element software user interface
+      url: /setup/task_post_deploy_access_the_element_software_user_interface.html
+    - title: Add drives to the cluster
+      url: /setup/task_setup_add_drives_to_a_cluster.html
+  - title: Set up a cluster with Fibre Channel nodes
+    url: /setup/task_setup_cluster_with_fibre_channel_nodes.html
     entries:
+    - title: Configure a Fibre Channel node
+      url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
     - title: Add Fibre Channel nodes to a cluster
       url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
     - title: Create a new cluster with Fibre Channel nodes
@@ -153,6 +149,8 @@ entries:
       url: /setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html
     - title: Create a volume access group for Fibre Channel clients
       url: /setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
+  - title: Determine which SolidFire components to install
+    url: /setup/task_setup_determine_which_solidfire_components_to_install.html
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
   - title: Configure Fully Qualified Domain Name web UI access
@@ -1626,8 +1624,6 @@ entries:
       url: "/setup/task_setup_configure_fqdn_web_ui_access.html"
     - title: Add drives to a cluster
       url: "/setup/task_setup_add_drives_to_a_cluster.html"
-    - title: Change the Garbage Collection constant
-      url: "/setup/task_setup_change_the_garbage_collection_constant.html"
     - title: Configure a Fibre Channel node
       url: "/setup/concept_setup_fc_configure_a_fibre_channel_node.html"
       entries:
