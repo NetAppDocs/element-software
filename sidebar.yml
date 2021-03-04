@@ -141,10 +141,10 @@ entries:
     entries:
     - title: Configure a Fibre Channel node
       url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
-    - title: Add Fibre Channel nodes to a cluster
-      url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
     - title: Create a new cluster with Fibre Channel nodes
       url: /setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html
+    - title: Add Fibre Channel nodes to a cluster
+      url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
     - title: Set up zones for Fibre Channel nodes
       url: /setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html
     - title: Create a volume access group for Fibre Channel clients

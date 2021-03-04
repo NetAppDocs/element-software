@@ -13,9 +13,9 @@ You must configure individual nodes before you can add them to a cluster. After 
 
 There are two options for configuring storage nodes:
 
-* <<Configure the storage node using the per-node UI,Per-node UI>>: Use the per-node UI (https://<node_management_IP>:442) to configure node network settings.
+* <<Configure a storage node using the per-node UI,Per-node UI>>: Use the per-node UI (https://<node_management_IP>:442) to configure node network settings.
 
-* <<Configure the storage node using the TUI,TUI>>: Use the node terminal user interface (TUI) to configure the node.
+* <<Configure a storage node using the TUI,TUI>>: Use the node terminal user interface (TUI) to configure the node.
 
 You cannot add a node with DHCP-assigned IP addresses to a cluster. You can use the DHCP IP address to initially configure the node in the per-node UI, TUI, or API. During this initial configuration, you can add static IP address information so that you can add the node to a cluster.
 
@@ -23,7 +23,7 @@ After initial configuration, you can access the node using the node's management
 
 NOTE: Beginning in Element version 11.0, nodes can be configured with IPv4, IPv6, or both addresses for their management network. This applies to both storage nodes and management nodes, except for management node 11.3 and later which does not support IPv6. When you create a cluster, only a single IPv4 or IPv6 address can be used for the MVIP and the corresponding address type must be configured on all nodes.
 
-== Configure the storage node using the per-node UI
+== Configure a storage node using the per-node UI
 You can configure nodes using the per-node user interface.
 
 .About this task
@@ -52,7 +52,7 @@ IMPORTANT: This name must be added to the configuration for all nodes before a c
 
 . Click *Apply Changes*.
 
-== Configure the storage node using the TUI
+== Configure a storage node using the TUI
 You can use the terminal user interface (TUI) to perform initial configuration for new nodes.
 
 You should configure the Bond1G (Management) and Bond10G (Storage) interfaces for separate subnets. Bond1G and Bond10G interfaces configured for the same subnet causes routing problems when storage traffic is sent via the Bond1G interface. If you must use the same subnet for management and storage traffic, manually configure management traffic to use the Bond10G interface. You can do this for each node using the *Cluster* > *Nodes* page of the Element UI.

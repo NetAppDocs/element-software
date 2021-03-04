@@ -13,7 +13,6 @@ You can create a storage cluster after you have configured all of the individual
 
 .What you'll need
 
-* You should have installed the management node.
 * You should have configured all of the individual nodes.
 
 .About this task
