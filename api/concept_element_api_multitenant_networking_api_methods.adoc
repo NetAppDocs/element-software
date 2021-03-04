@@ -39,3 +39,7 @@ xref:concept_element_api_virtual_network_naming_conventions.adoc[Virtual network
 * xref:reference_element_api_modifyvirtualnetwork.adoc[ModifyVirtualNetwork]
 * xref:reference_element_api_listvirtualnetworks.adoc[ListVirtualNetworks]
 * xref:reference_element_api_removevirtualnetwork.adoc[RemoveVirtualNetwork]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

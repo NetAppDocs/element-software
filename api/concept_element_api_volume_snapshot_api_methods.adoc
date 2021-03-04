@@ -26,3 +26,7 @@ Element software volume snapshot API methods enable you to manage volume snapsho
 * xref:reference_element_api_modifysnapshot.adoc[ModifySnapshot]
 * xref:reference_element_api_rollbacktogroupsnapshot.adoc[RollbackToGroupSnapshot]
 * xref:reference_element_api_rollbacktosnapshot.adoc[RollbackToSnapshot]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
