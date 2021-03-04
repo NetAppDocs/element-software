@@ -25,3 +25,7 @@ NOTE: When the storage cluster is heavily loaded or you submit many consecutive 
 * xref:concept_element_api_authentication.adoc[API authentication]
 * xref:concept_element_api_asynchronous_methods.adoc[Asynchronous methods]
 * xref:reference_element_api_attributes.adoc[Attributes]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

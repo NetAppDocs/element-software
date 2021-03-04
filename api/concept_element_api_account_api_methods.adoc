@@ -18,3 +18,7 @@ Account methods enable you to add, remove, view, and modify account and security
 * xref:reference_element_api_listaccounts.adoc[ListAccounts]
 * xref:reference_element_api_modifyaccount.adoc[ModifyAccount]
 * xref:reference_element_api_removeaccount.adoc[RemoveAccount]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

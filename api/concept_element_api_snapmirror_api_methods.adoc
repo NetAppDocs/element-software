@@ -40,3 +40,7 @@ SnapMirror API methods are used by the Element web UI for managing snapshots mir
 * xref:reference_element_api_quiescesnapmirrorrelationship.adoc[QuiesceSnapMirrorRelationship]
 * xref:reference_element_api_resumesnapmirrorrelationship.adoc[ResumeSnapMirrorRelationship]
 * xref:reference_element_api_resyncsnapmirrorrelationship.adoc[ResyncSnapMirrorRelationship]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

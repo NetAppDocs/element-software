@@ -18,3 +18,7 @@ You can use drive API methods to add and manage drives that are available to a s
 * xref:reference_element_api_listdrivestats.adoc[ListDriveStats]
 * xref:reference_element_api_removedrives.adoc[RemoveDrives]
 * xref:reference_element_api_secureerasedrives.adoc[SecureEraseDrives]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

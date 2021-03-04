@@ -22,3 +22,7 @@ Element software virtual volume API methods enable you to manage virtual volumes
 * xref:reference_element_api_listvirtualvolumes.adoc[ListVirtualVolumes]
 * xref:reference_element_api_listvirtualvolumetasks.adoc[ListVirtualVolumeTasks]
 * xref:reference_element_api_modifystoragecontainer.adoc[ModifyStorageContainer]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
