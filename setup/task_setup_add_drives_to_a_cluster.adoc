@@ -1,7 +1,7 @@
 ---
 permalink: setup/task_setup_add_drives_to_a_cluster.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'When you add a node to the cluster or install new drives in an existing node, the drives automatically register as available. You must add the drives to the cluster by using either the Element UI or API before they can participate in the cluster.'
 ---
 = Add drives to a cluster
@@ -16,6 +16,7 @@ Drives are not displayed in the Available Drives list when the following conditi
 * Drives are in Active, Removing, Erasing, or Failed state.
 * The node of which the drive is a part of is in Pending state.
 
+.Steps
 . From the Element user interface, select *Cluster* > *Drives*.
 . Click *Available* to view the list of available drives.
 . Do one of the following:
