@@ -28,3 +28,7 @@ You can integrate Element software with external security-related services, such
 * xref:reference_element_api_removekeyserverfromproviderkmip.adoc[RemoveKeyServerFromProviderKmip]
 * xref:reference_element_api_testkeyproviderkmip.adoc[TestKeyProviderKmip]
 * xref:reference_element_api_testkeyserverkmip.adoc[TestKeyServerKmip]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

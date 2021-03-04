@@ -18,3 +18,7 @@ Common methods are methods used to retrieve information about the storage cluste
 * xref:reference_element_api_getorigin.adoc[GetOrigin]
 * xref:reference_element_api_getrawstats.adoc[GetRawStats]
 * xref:reference_element_api_listasyncresults.adoc[ListAsyncResults]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

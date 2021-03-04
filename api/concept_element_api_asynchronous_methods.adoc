@@ -25,3 +25,7 @@ Note the following points when using asynchronous methods or obtaining the statu
 * Asynchronous methods return an "`asyncHandle`", which is a handle that is known by the issuing API method. You can use the handle to poll for the status or result of the asynchronous operation.
 * You can obtain the result of individual asynchronous methods with the GetAsyncResult method. When you use GetAsyncResult to query a completed operation, the system returns the result and automatically purges the result from the system. When you use GetAsyncResult to query an incomplete operation, the system returns the result but does not purge it.
 * You can obtain the status and results of all running or completed asynchronous methods using the ListAsyncResults method. In this case, the system does not purge results for completed operations.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

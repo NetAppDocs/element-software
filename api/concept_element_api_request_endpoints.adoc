@@ -33,3 +33,7 @@ The HTTPS endpoint for individual storage node API requests is `https://<nodeIP>
 
 * `<nodeIP>` is the management IP address of the storage node; 442 is the port the HTTPS server is running on.
 * `<api-version>` is the version of the API you are using.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

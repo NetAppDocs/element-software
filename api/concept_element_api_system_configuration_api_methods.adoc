@@ -48,3 +48,7 @@ System configuration API methods enable you to obtain and set configuration valu
 * xref:reference_element_api_setsslcertificate.adoc[SetSSLCertificate]
 * xref:reference_element_api_snmpsendtesttraps.adoc[SnmpSendTestTraps]
 * xref:reference_element_api_testaddressavailability.adoc[TestAddressAvailability]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

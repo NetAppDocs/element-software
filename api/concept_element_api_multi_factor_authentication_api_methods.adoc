@@ -23,3 +23,7 @@ You can use multi-factor authentication (MFA) to manage user sessions using a th
 * xref:reference_element_api_listactiveauthsessions.adoc[ListActiveAuthSessions]
 * xref:reference_element_api_listidpconfigurations.adoc[ListIdpConfigurations]
 * xref:reference_element_api_updateidpconfiguration.adoc[UpdateIdpConfiguration]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
