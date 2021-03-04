@@ -43,9 +43,9 @@ NOTE: All other Element software limitations apply. See the latest Element softw
 
 == Host requirements
 
-* Element Demo Node 11.7 VM runs on ESXI 6.0 or 6.5 only.
-* Element Demo Node 12.0 and 12.2 VM run on ESXi 6.5 only.
-* Element Demo Node 12.3 ?
+* ESXI 6.0 or 6.5 for Element Demo Node 11.7 VM
+* ESXi 6.5 for Element Demo Node 12.0 and 12.2 VMs
+* ESXi 6.7 and 7.0 for Element Demo Node 12.3 VM
 * Multi core 64-bit Intel® architecture
 
 == Download Element Demo Node
@@ -61,7 +61,6 @@ Installing Element Demo Node on VMware ESXi involves the following tasks:
 === Configure network interfaces
 The Element Demo Node requires two separate virtual machine networks. One is for storage traffic and the other is for management traffic.
 You should configure the storage network to support jumbo frames.
-Amy, this section looks sparse. What exactly do we need to tell users here?
 
 === Register the demo node on an ESXi server
 To register Element Demo Node on an ESXi server, you should deploy the demo node .ova file using the vSphere Client.

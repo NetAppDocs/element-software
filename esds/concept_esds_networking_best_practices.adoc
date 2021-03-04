@@ -25,7 +25,6 @@ For information about network teaming, see https://access.redhat.com/documentati
 By default, all storage node 10GbE interfaces are enabled with a maximum transmission unit (MTU) of 9000 bytes. For optimal performance, configure all server-side storage interfaces with the same MTU as the NetApp SolidFire storage nodes. You should configure network switches to support an MTU of at least 9016 bytes or more to account for jumbo frame overhead and for proper forwarding through the network. If you want to change this configuration to support a lower MTU setting, you should contact NetApp Support.
 
 See the following table for information about the storage and management networks that SolidFire eSDS requires for the different types of traffic:
-+
 [%header,cols=2*]
 |===
 | Type of network| Description

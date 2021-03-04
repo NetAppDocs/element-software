@@ -7,10 +7,13 @@ summary: Learn about installing and maintaining H-series and SF-series hardware.
 = Install and maintain hardware
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
 Learn about installing and maintaining H-series and SF-series hardware.
 
 * xref:concept_h410s_h610s_info.adoc[H410S and H610S hardware information]
 * xref:concept_sfseries_info.adoc[SF-series hardware information]
 
 == Find more information
- * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

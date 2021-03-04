@@ -2,7 +2,7 @@
 permalink: concepts/concept_rn_relatedrn_element.html
 sidebar: sidebar
 keywords:
-summary: You can find links to the latest and earlier release notes for various components of the NetApp HCI and Element storage environment.
+summary: You can find links to the latest and earlier release notes for various components of the Element storage environment.
 ---
 = Current and previous Element software release information
 :icons: font
@@ -43,4 +43,6 @@ NOTE: You will be prompted to log in using your NetApp Support credentials.
 ////
 
 == Find more information
+* https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
