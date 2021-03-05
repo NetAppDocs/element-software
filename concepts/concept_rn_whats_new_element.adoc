@@ -59,17 +59,6 @@ Element 12.2 resolves security vulnerabilities for storage nodes and the managem
 Element 12.2 now performs periodic health checks on SolidFire appliance drives using SMART health data from the drives. A drive that fails the SMART health check might be close to failure. If a drive fails the SMART health check, a new critical severity cluster fault appears: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive`
 
 
-== NetApp HCI 1.8P1
-NetApp HCI 1.8P1 includes security and stability improvements.
-
-=== NetApp HCI documentation enhancements
-You can now access NetApp HCI upgrading, expansion, monitoring, and concepts information in an easy-to-navigate format link:index.html[here^].
-
-=== NetApp Element Plug-in for vCenter Server 4.5 availability
-The NetApp Element Plug-in for vCenter Server 4.5 is available outside of the management node 12.2 and NetApp HCI 1.8P1 releases. To upgrade the plug-in, follow the instructions in the link:concept_hci_upgrade_overview.html[NetApp HCI Upgrades^] documentation.
-
-=== NetApp Hybrid Cloud Control enhancements
-NetApp Hybrid Cloud Control is enhanced for version 1.8P1. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Learn more^].
 [discrete]
 == Find more information
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[NetApp Hybrid Cloud Control and Management Services Release Notes^]

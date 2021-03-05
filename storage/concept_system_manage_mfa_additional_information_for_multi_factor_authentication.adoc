@@ -1,10 +1,10 @@
 ---
 permalink: storage/concept_system_manage_mfa_additional_information_for_multi_factor_authentication.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You should be aware of the following caveats in relation to multi-factor authentication.'
 ---
-= Additional information for Multi-factor authentication
+= Additional information for multi-factor authentication
 :icons: font
 :imagesdir: ../media/
 
@@ -18,6 +18,7 @@ NOTE: If the cluster is using a certificate that is less than 2048 bits pre-upgr
 
 * IdP admin users cannot be used to make API calls directly (for example, via SDKs or Postman) or used for other integrations (for example, OpenStack Cinder or vCenter Plug-in). Add either LDAP cluster admin users or local cluster admin users if you need to create users that have these abilities.
 
-*Related information*
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+== Find more information
+* link:../api/index.html[Managing storage with the Element API]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

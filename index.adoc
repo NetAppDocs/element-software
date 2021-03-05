@@ -16,23 +16,36 @@ SolidFire offers different deployment options:
 
 * Use storage nodes provided by NetApp and integrated with NetApp Element software
 +
-See link:../concept/concept_intro_product_overview.html[SolidFire all-flash storage overview]
+See link:setup/concept_intro_product_overview.html[SolidFire all-flash storage overview]
 
 * Use your own server to run Element software by using containerized SolidFire eSDS
 +
-See link:../esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
+See link:esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
 
 == Discover what's new
-* link:../concepts/concept_rn_whats_new_element.html[What's new in Element software]
+* link:concepts/concept_rn_whats_new_element.html[What's new in Element software]
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[What's new in management services for Element software and NetApp HCI^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2866569[What's new in NetApp Element Plug-in for vCenter Server^]
 
-
 == Get started with Element software
 
-* link:../setup/concept_setup_overview.html[Element software setup overview]
-* link:../concepts/index.html[Review basic concepts]
+* link:setup/concept_setup_overview.html[Element software setup overview]
+* link:concepts/index.html[Review basic concepts]
 
+== Use Element integration tools
+While you typically manage your storage with NetApp Element, NetApp Element API, and NetApp Element Plug-in for vCenter Server, you can use additional utilities and tools.
+
+* https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-tab[SolidFire vRO^]: Provides a convenient way to use the SolidFire API to administer your SolidFire storage system with VMware vRealize Orchestrator™.
+
+* https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/tools-tab[Element SDK library (login required)^]: Enables you to manage your SolidFire cluster using these tools:
+** SolidFire command line
+** SolidFire Postman API testing suite: Enables programmers to use a collection of Postman functions that test SolidFire API calls.
+** SolidFire PowerShell: Enables programmers to use a collection of Microsoft® Windows® ﻿ PowerShell® functions that use the SolidFire API to manage a SolidFire storage system.
+** SolidFire SDK Java: Enables programmers to integrate the SolidFire API with the Java™ programming language.
+** SolidFire SDK .NET: Enables programmers to integrate the SolidFire API with the .NET programming platform.
+** SolidFire SDK Python: Enables programmers to integrate the SolidFire API with the Python™ programming language.
+* https://mysupport.netapp.com/site/products/all/details/elementsra/downloads-tab[SolidFire Storage Replication Adapter^]. Integrates with the VMware® Site Recovery Manager™ (SRM) to enable communication with replicated SolidFire storage clusters (arrays) and execute supported workflows.
+* https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/downloads-tab[SolidFire VSS Provider^]. Integrates VSS shadow copies with SolidFire snapshots and clones.
 
 [discrete]
 == Find more information

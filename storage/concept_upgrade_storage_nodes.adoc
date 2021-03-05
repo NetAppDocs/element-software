@@ -11,6 +11,10 @@ summary: 'You can upgrade the Element software on the storage nodes of your clus
 [.lead]
 You can upgrade the Element software on the storage nodes of your cluster using the HealthTools suite. You can use HealthTools from a connected or dark site. You must use management node 11.0, 11.1, or later to use the latest HealthTools.
 
-To update your Element storage as part of an end-to-end system upgrade, follow the upgrade sequence for your system: https://docs.netapp.com/us-en/hci/docs/concept_hci_upgrade_overview.html[NetApp Documentation: Upgrades overview]
+To update your Element storage as part of an end-to-end system upgrade, follow the upgrade sequence for your system: https://docs.netapp.com/us-en/hci/docs/concept_hci_upgrade_overview.html[Upgrades overview]
 
-IMPORTANT: If you are upgrading an H610S series node to Element 12.0 or later, there are additional steps required to complete the storage upgrade for each node. See the following topic for H610S procedures: https://docs.netapp.com/us-en/hci/docs/task_hcc_upgrade_element_software.html[NetApp Documentation: Upgrade Element Storage]
+IMPORTANT: If you are upgrading an H610S series node to Element 12.0 or later, there are additional steps required to complete the storage upgrade for each node. See the following topic for H610S procedures: https://docs.netapp.com/us-en/hci/docs/task_hcc_upgrade_element_software.html[Upgrade Element Storage]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

@@ -14,10 +14,7 @@ After you set up your SolidFire system, you might want to perform some optional 
 Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards (FIPS) security.
 
 == Find more information
-link:storage/reference_post_deploy_change_default_ssl_certificate.html[Change the Element software default SSL certificate]
-
-xref:concept_system_manage_mfa_enable_multi_factor_authentication.adoc[Enable multi-factor authentication]
-
-xref:concept_system_manage_key_get_started_with_external_key_management.adoc[Get started with external key management]
-
-xref:task_system_manage_fips_create_a_cluster_supporting_fips_drives.adoc[Create a cluster supporting FIPS drives]
+* link:storage/reference_post_deploy_change_default_ssl_certificate.html[Change the Element software default SSL certificate]
+* link:concept_system_manage_mfa_enable_multi_factor_authentication.adoc[Enable multi-factor authentication]
+* link:concept_system_manage_key_get_started_with_external_key_management.adoc[Get started with external key management]
+* link:task_system_manage_fips_create_a_cluster_supporting_fips_drives.adoc[Create a cluster supporting FIPS drives]

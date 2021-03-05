@@ -406,3 +406,7 @@ a|
 a|
 vCenter Plug-in registration. The port can be closed after registration is complete.
 |===
+
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

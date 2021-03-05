@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The NetApp Element software system has certain switch requirements and best practices for optimal storage performance.'
 ---
 = Switch configuration for clusters running Element software
@@ -25,3 +25,7 @@ a|
 * On the storage network switches, deploy switches in pairs and configure and utilize jumbo frames (an MTU size of 9216 bytes). This ensures a successful installation and eliminates storage network errors due to fragmented packets.
 
 |===
+
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
