@@ -78,9 +78,9 @@ Ensure that you follow these guidelines for the inventory file:
 ** Use a list to specify storage_devices.
 ====
 +
-NOTE: The examples provided here have the storage and management interface names for HPE servers. If you have a Dell server, the cache device name is `nvme1n1`. For Dell servers, `mgmt_iface` is `team1G` and `storage_iface` is `team10G`. 
+NOTE: The examples provided here have the storage and management interface names for HPE servers. If you have a Dell server, the cache device name is nvme1n1. For Dell servers, mgmt_iface is team1G and storage_iface is team10G.
 +
-A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ****** with the username and password for your storage nodes.
+A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ***** with the username and password for your storage nodes.
 +
 ----
 all:
