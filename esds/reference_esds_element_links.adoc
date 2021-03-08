@@ -13,9 +13,10 @@ After you install SolidFire eSDS on your storage clusters, you can use the Eleme
 
 Here are the links to the content for various storage management tasks:
 
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-5D26E692-461D-4C48-B294-44E57D79C70E.html[Using basic options in the Element software UI]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-E93D3BAF-5A60-414D-86AF-0C1F86D43F26.html[Working with user accounts]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-2D2EAC0D-DD28-4ACA-A189-AA45E982EFDB.html[Working with volumes]. You can also find information about applying a QoS policy to volumes here.
+* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Using basic options in the Element software UI^]
+* link:storage/task_data_manage_accounts_work_with_accounts_task.html[Working with user accounts^]
+* link:storage/task_data_manage_volumes_work_with_volumes_task.html[Working with volumes^].
+You can also find information about applying a QoS policy to volumes here.
 * https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C1569B1B-4448-4EE3-876D-866C504AF75F.html[Working with virtual volumes]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-EBCB1031-1B2D-472C-92E3-E0CB52B4156C.html[Working with volume access groups and initiators]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-A6F6D2F0-D6A7-475D-A915-F6FDB5136890.html[Working with snapshots]
@@ -66,5 +67,5 @@ The following APIs are not supported on SolidFire eSDS clusters:
 * `TestAddressAvailability`
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
