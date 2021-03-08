@@ -13,34 +13,35 @@ After you install SolidFire eSDS on your storage clusters, you can use the Eleme
 
 Here are the links to the content for various storage management tasks:
 
-* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Using basic options in the Element software UI^]
-* link:storage/task_data_manage_accounts_work_with_accounts_task.html[Working with user accounts^]
-* link:storage/task_data_manage_volumes_work_with_volumes_task.html[Working with volumes^].
+* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Use basic options in the Element software UI^]
+* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with user accounts^]
+* link:../storage/task_data_manage_volumes_work_with_volumes_task.html[Work with volumes^].
 You can also find information about applying a QoS policy to volumes here.
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C1569B1B-4448-4EE3-876D-866C504AF75F.html[Working with virtual volumes]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-EBCB1031-1B2D-472C-92E3-E0CB52B4156C.html[Working with volume access groups and initiators]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-A6F6D2F0-D6A7-475D-A915-F6FDB5136890.html[Working with snapshots]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-F4CA010F-DFEA-4988-A8A5-FC2C28D0E191.html[Performing remote replication between clusters]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-8D9203FB-7A12-4F01-B1FA-DDF7CD5A7524.html[Backing up and restoring volumes]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html[Managing storage using Element APIs]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-B98B2215-0E35-4342-BD3E-33027D9DA64B.html[Monitoring system performance]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-mg-vcp/home.html[NetApp Element Plug-in for vCenter Server overview] You can navigate to specific tasks from the overview page.
+* link:../storage/concept_data_manage_vvol_work_virtual_volumes.html[Work with virtual volumes^]
+* link:../storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html[Work with volume access groups and initiators^]
+* link:../storage/task_data_protection_using_volume_snapshots.html[Work with snapshots^]
+* link:../storage/task_replication_perform_remote_replication_between_element_clusters.html[Perform remote replication between clusters^]
+* link:../storage/task_data_protection_back_up_and_restore_volumes.html[Back up and restore volumes^]
+* link:../api/index.html[Manage storage using Element APIs^]
+* link:../storage/concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server overview]
+You can navigate to specific tasks from the overview page.
 
 == Use Element APIs on SolidFire eSDS clusters
 
-Several new APIs have been introduced in Element 12.2 that you can use on SolidFire eSDS clusters.
+Several new APIs were introduced in Element 12.2 that you can use on SolidFire eSDS clusters.
 
 Here is a list of new APIs in Element 12.2:
 
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_getlicensekey.html[`GetLicenseKey`^]
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_setlicensekey.html[`SetLicenseKey`^]
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_enablemaintenancemode.html[`EnableMaintenanceMode`^]
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_disablemaintenancemode.html[`DisableMaintenanceMode`^]
+* link:../api/reference_element_api_getlicensekey.html[`GetLicenseKey`^]
+* link:../api/reference_element_api_setlicensekey.html[`SetLicenseKey`^]
+* link:../api/reference_element_api_enablemaintenancemode.html[`EnableMaintenanceMode`^]
+* link:../api/reference_element_api_disablemaintenancemode.html[`DisableMaintenanceMode`^]
 
 The following APIs have been updated to support SolidFire eSDS clusters:
 
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_addnodes.html[`AddNodes`^]
-* https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_createcluster.html[`CreateCluster`^]
+* link:../api/reference_element_api_addnodes.html[`AddNodes`^]
+* link:../api/reference_element_api_createcluster.html[`CreateCluster`^]
 +
 NOTE: New parameters, `OrderNumber`, `SerialNumber`, and `enableSoftwareEncryptionAtRest` have been added to the `CreateCluster` method in Element software 12.2. You should specify these parameters while using this API method for creating a cluster after you install SolidFire eSDS.
 

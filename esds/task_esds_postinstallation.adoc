@@ -32,7 +32,7 @@ IMPORTANT: You cannot change the cluster name after the cluster is created.
 ... Open the per-node management node UI: `https://<node_mip>:442`.
 ... Select *Cluster Settings* and enter the cluster name.
 ... Select *Apply Changes*.
-** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
+** Use the link:../api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
 +
 This method has the following input parameter:
 +
@@ -171,7 +171,7 @@ image::../media/esds_create_cluster.png[Shows the per-node UI screen.]
 ... Select *Create Cluster*.
 ... To verify that cluster was created, log in to the cluster: `http://mvip_ip`.
 ... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
-** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
+** Use the link:../api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
 +
 This method has the following input parameters:
 +

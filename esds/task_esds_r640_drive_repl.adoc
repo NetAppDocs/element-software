@@ -47,7 +47,7 @@ This is the physical slot from which you should remove the drive.
 +
 The following image shows the front of the server with the slot numbering shown for each drive:
 +
-image::../media/esds_r640_slots.png[Shows the front of the R640 server with the slot numbering shown for each drive.]
+image::../media/esds-dell.jpg[Shows the front of the R640 server with the slot numbering shown for each drive.]
 
 .. Press the button on the drive.
 +
@@ -124,7 +124,7 @@ You can also see an event showing the status of the drive.
 +
 The following image shows the front of the server with the slot numbering shown for each drive:
 +
-image::../media/esds_r640_slots.png[Shows the front of the R640 server with the slot numbering shown for each drive.]
+image::../media/esds-dell.jpg[Shows the front of the R640 server with the slot numbering shown for each drive.]
 
 .. Press the button on the drive.
 +
@@ -199,7 +199,7 @@ This is the physical slot from which you should remove the drive.
 +
 The following image shows the front of the server with the slot numbering shown for each drive:
 +
-image::../media/esds_r640_slots.png[Shows the front of the R640 server with the slot numbering shown for each drive.]
+image::../media/esds-dell.jpg[Shows the front of the R640 server with the slot numbering shown for each drive.]
 
 .. Press the button on the drive.
 +
