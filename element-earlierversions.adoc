@@ -8,7 +8,7 @@ summary: Documentation for previous releases is available in case you’re not r
 = Earlier versions of SolidFire and NetApp Element software documentation
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Documentation for previous releases is available in our documentation centers.
