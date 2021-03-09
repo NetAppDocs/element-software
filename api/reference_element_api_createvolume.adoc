@@ -17,6 +17,7 @@ Volumes created without specified QoS values use the default values. You can vie
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 
