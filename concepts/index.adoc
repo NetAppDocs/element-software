@@ -21,4 +21,5 @@ Learn basic concepts related to Element software.
 * xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
 
 == Find more information
- * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

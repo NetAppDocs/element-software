@@ -13,11 +13,13 @@ Use the examples and tips provided to configure the host networking before you i
 
 Here is a sample network configuration:
 
-image::../media/esds_network_config_example.png[]
+image::../media/esds_network_config_example.png[Shows a sample network configuration.]
 
 In this example, two interfaces on the storage node are network https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/ch-configure_network_teaming#sec-Understanding_Network_Teaming[teamed^] and connected to the management network for redundancy purposes. Likewise, two additional interfaces are teamed and connected to the storage network.
 
 NOTE: Each interface has a configuration file named ifcfg-<interface-name>X, where X is the number of the interface, starting with zero or 1 depending upon the naming convention used. The configuration files are created when you first create the interfaces. One configuration file should already exist for each of the two physical interfaces connected to the storage network. One configuration file should also exist for each of the two physical interfaces connected to the management network. The interface configuration files are placed in the /etc/sysconfig/network-scripts directory. See https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/getting_started_with_networkmanager[Interface configuration files^].
+
+TIP: The examples provided here have the storage and management interface names for HPE servers. If you have a Dell server, the interface names are different. Storage interface names for the Dell server are em1 and em2. Management interface names for the Dell server are p3p1 and p3p2. 
 
 .Steps
 
@@ -161,5 +163,5 @@ $routing_table_name
 . To check the routing table, run the `ip route show table` command.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
