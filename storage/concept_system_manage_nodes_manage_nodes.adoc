@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_nodes_manage_nodes.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can manage SolidFire storage and Fibre Channel nodes from the Nodes page of the Cluster tab.'
 ---
 = Manage nodes
@@ -16,5 +16,3 @@ If a newly added node accounts for more than 50 percent of the total cluster cap
 *Related information*
 
 xref:task_system_manage_nodes_adding_a_node_to_a_cluster.adoc[Add a node to a cluster]
-
-xref:reference_system_manage_nodes_node_states.adoc[Node states]

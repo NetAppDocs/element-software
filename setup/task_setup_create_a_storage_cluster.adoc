@@ -51,7 +51,8 @@ Two-way data protection is enabled by default. You cannot change this setting.
 +
 The system might take several minutes to create the cluster depending on the number of nodes in the cluster. On a properly configured network, a small cluster of five nodes should take less than one minute. After the cluster is created, the Create a New Cluster window is redirected to the MVIP URL address for the cluster and displays the Element UI.
 
-[discrete]
-== Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
-* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
+== For more information
+
+* link:../api/index.html[Managing storage with the Element API]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

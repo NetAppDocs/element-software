@@ -1,10 +1,10 @@
 ---
 permalink: setup/task_setup_determine_which_solidfire_components_to_install.html
 sidebar: sidebar
-keywords: 
+keywords: setup, element, solidfire active iq
 summary: 'You might want to check which SolidFire components, such as the management node, Active IQ and the NetApp Monitoring Agent \(NMA\), that you should install, depending on configuration and deployment choices.'
 ---
-= Determining which SolidFire components to install
+= Determine which SolidFire components to install
 :icons: font
 :imagesdir: ../media/
 
@@ -13,6 +13,7 @@ You might want to check which SolidFire components, such as the management node,
 
 The following table lists the additional components and indicates whether you should install them.
 
+[cols=3*,options="header"]
 |===
 | Component| Standalone SolidFire storage cluster| NetApp HCI cluster
 a|
@@ -34,13 +35,17 @@ Not supported
 a|
 Recommended
 |===
+
 *Active IQ is required for capacity-licensed SolidFire storage clusters.
 
+.Steps
 . Determine which components should be installed.
-. Complete the installation according to the https://docs.netapp.com/us-en/hci/docs/task_mnode_install.html[install the management node] procedure.
+. Complete the installation according to the https://docs.netapp.com/us-en/hci/docs/task_mnode_install.html[install the management node^] procedure.
 +
-NOTE: To set up Active IQ, use the --telemetry_active parameter in the setup script to enable data collection for analytics by Active IQ.
+NOTE: To set up Active IQ, use the `--telemetry_active` parameter in the setup script to enable data collection for analytics by Active IQ.
 
-. For NetApp Monitoring Agent information, see the deployment information.
-+
-https://docs.netapp.com/hci/index.jsp[NetApp HCI Documentation Center]
+. For NetApp Monitoring Agent information, see the https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_activeIQ.html[NetApp HCI documentation^].
+
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

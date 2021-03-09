@@ -23,3 +23,7 @@ Replication API methods enable you to connect two clusters for continuous data p
 * xref:reference_element_api_removevolumepair.adoc[RemoveVolumePair]
 * xref:reference_element_api_startclusterpairing.adoc[StartClusterPairing]
 * xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

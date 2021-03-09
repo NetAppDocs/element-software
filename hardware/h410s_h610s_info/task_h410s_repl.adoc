@@ -13,9 +13,13 @@ You should replace a storage node in the event of CPU failure, Radian card probl
 
 Alarms in the NetApp Element software UI alert you when a storage node fails. You should use the Element UI to get the serial number (service tag) of the failed node. You need this information to locate the failed node in the cluster.
 
-The following figure shows the back of a two rack unit (2U), four-node chassis with four storage nodes:
+Here is the back of a two rack unit (2U), four-node chassis with four storage nodes:
 
-image::../media/hci_stornode_rear.gif[This figure shows the four-node chassis with four storage nodes.]
+image::hci_stornode_rear.gif[This figure shows the four-node chassis with four storage nodes.]
+
+Here is the front view of a four-node chassis with H410S nodes, showing the bays that correspond to each node:
+
+image::hci_stornode_ssd_bays.gif[Shows the bays associated with each node in a four-node chassis with H410S nodes.]
 
 .What you'll need
 

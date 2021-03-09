@@ -18,7 +18,6 @@ Learn basic concepts related to Element software.
 * xref:concept_solidfire_concepts_accounts_and_permissions.adoc[Accounts and permissions]
 * xref:concept_solidfire_concepts_storage.adoc[Storage]
 * xref:concept_solidfire_concepts_data_protection.adoc[Data protection]
-* xref:concept_solidfire_concepts_storage_efficiency.adoc[Storage efficiency]
 * xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
 
 == Find more information

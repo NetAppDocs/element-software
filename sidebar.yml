@@ -10,6 +10,8 @@ entries:
 - title: Concepts
   url: /concepts/index.html
   entries:
+  - title: Product overview
+    url: /concept/concept_intro_product_overview.html
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
     entries:
@@ -21,54 +23,27 @@ entries:
       url: /concepts/concept_intro_management_node.html
     - title: Management services for SolidFire all-flash storage
       url: /concepts/concept_intro_management_services_for_afa.html
-    - title: Persistent volumes
-      url: /concepts/concept_intro_persistent_volumes.html
   - title: Nodes
     url: /concepts/concept_solidfire_concepts_nodes.html
   - title: Clusters
     url: /concepts/concept_intro_clusters.html
   - title: Security
     url: /concepts/concept_solidfire_concepts_security.html
-    entries:
-    - title: Encryption at rest
-      url: /concepts/concept_solidfire_element_ug_encryption_at_rest.html
-    - title: External key management
-      url: /concepts/concept_solidfire_concepts_external_key_management.html
-    - title: Multi-factor authentication
-      url: /concepts/concept_solidfire_concepts_multi_factor_authentication.html
   - title: Accounts and permissions
     url: /concepts/concept_solidfire_concepts_accounts_and_permissions.html
   - title: Storage
-    url: /concepts/concept_solidfire_concepts_storage.html
     entries:
     - title: Volumes
       url: /concepts/concept_solidfire_concepts_volumes.html
+    - title: Virtual volumes (vVols)
+      url: /concepts/concept_solidfire_concepts_vvols.html
     - title: Volume access groups
       url: /concepts/concept_solidfire_concepts_volume_access_groups.html
-    - title: Rule of thirds
-      url: /concepts/concept_solidfire_concepts_rule_of_thirds.html
-    - title: VMware virtual volumes and NetApp Element software
-      url: /concepts/concept_solidfire_concepts_vmware_virtual_volumes.html
-    - title: Stranded capacity
-      url: /concepts/concept_solidfire_concepts_stranded_capacity.html
+    - title: Initiators
+      url: /concepts/concept_solidfire_concepts_initiators.html
   - title: Data protection
     url: /concepts/concept_solidfire_concepts_data_protection.html
-    entries:
-    - title: Remote replication types
-      url: /concepts/concept_solidfire_concepts_remote_replication_types.html
-    - title: Volume snapshots for data protection
-      url: /concepts/concept_solidfire_concepts_volume_snapshots_for_data_protection.html
-    - title: Volume clones
-      url: /concepts/concept_solidfire_concepts_volume_clones.html
-    - title: Backup and restore process overview for SolidFire storage
-      url: /concepts/concept_solidfire_concepts_backup_and_restore_process_overview.html
-    - title: Protection domains
-      url: /concepts/concept_solidfire_concepts_protection_domains.html
-    - title: Double Helix high availability
-      url: /concepts/concept_solidfire_concepts_double_helix_high_availability.html
-  - title: Storage efficiency
-    url: /concepts/concept_solidfire_concepts_storage_efficiency.html
-  - title: Quality of Service
+  - title: Performance and quality of service
     url: /concepts/concept_data_manage_volumes_solidfire_quality_of_service.html
 - title: Requirements
   url: /setup/concept_requirements_overview.html
@@ -80,11 +55,10 @@ entries:
   - title: Network port requirements
     url: /storage/reference_prereq_network_port_requirements.html
 - title: Try it out
-  url: /setup/task_try_overview.html
+  url: /try/task_try_overview.html
   entries:
-    - title: Test Element features on a virtual machine demo node
-    - title: Try out Element software in our Lab on Demand
-      url: https://handsonlabs.netapp.com/catalog
+    - title: Try storage features using Element Demo Node
+      url: /try/task_use_demonode.html
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
@@ -110,7 +84,6 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-- title: Install and use SolidFire Enterprise SDS information
 - title: Install and use SolidFire Enterprise SDS
   url: /esds/index.html
   entries:
@@ -151,39 +124,40 @@ entries:
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
-  - title: Configure a storage node
-    url: /setup/concept_setup_configure_a_storage_node.html
+  - title: Set up a cluster with storage nodes
+    url: /setup/task_setup_cluster_with_storage_nodes.html
     entries:
-    - title: Configure the storage node using the per-node UI
-      url: /setup/task_configure_the_node_using_the_node_ui.html
-    - title: Configue the node using the TUI
-      url: /setup/task_configure_the_node_using_the_tui.html
-    - title: Node states
-      url: /setup/reference_system_manage_nodes_node_states.html
-  - title: Create a storage cluster
-    url: /setup/task_setup_create_a_storage_cluster.html
-  - title: Log in to the Element software user interface
-    url: /setup/task_post_deploy_access_the_element_software_user_interface.html
-  - title: Configure Fully Qualified Domain Name web UI access
-    url: /setup/task_setup_configure_fqdn_web_ui_access.html
-  - title: Add drives to the cluster
-    url: /setup/task_setup_add_drives_to_a_cluster.html
-  - title: Change the Garbage Collection constant
-    url: /setup/task_setup_change_the_garbage_collection_constant.html
-  - title: Configure a Fibre Channel node
-    url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
+    - title: Configure a storage node
+      url: /setup/concept_setup_configure_a_storage_node.html
+    - title: Create a storage cluster
+      url: /setup/task_setup_create_a_storage_cluster.html
+    - title: Log in to the Element software user interface
+      url: /setup/task_post_deploy_access_the_element_software_user_interface.html
+    - title: Add drives to the cluster
+      url: /setup/task_setup_add_drives_to_a_cluster.html
+  - title: Set up a cluster with Fibre Channel nodes
+    url: /setup/task_setup_cluster_with_fibre_channel_nodes.html
     entries:
-    - title: Add Fibre Channel nodes to a cluster
-      url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
+    - title: Configure a Fibre Channel node
+      url: /setup/concept_setup_fc_configure_a_fibre_channel_node.html
     - title: Create a new cluster with Fibre Channel nodes
       url: /setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html
+    - title: Add Fibre Channel nodes to a cluster
+      url: /setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html
     - title: Set up zones for Fibre Channel nodes
       url: /setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html
     - title: Create a volume access group for Fibre Channel clients
       url: /setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html
+  - title: Determine which SolidFire components to install
+    url: /setup/task_setup_determine_which_solidfire_components_to_install.html
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
+  - title: Configure Fully Qualified Domain Name web UI access
+    url: /setup/task_setup_configure_fqdn_web_ui_access.html
+  - title: What's next?
+    url: /setup/concept_setup_whats_next.html
 - title: Work with the management node
+  url: /storage/concept_mnode_work_with_the_management_node.html
 - title: Manage storage with Element software
   url: "/storage/index.html"
   entries:
@@ -305,8 +279,6 @@ entries:
           url: "/storage/concept_system_manage_nodes_node_versioning_and_compatibility.html"
         - title: Cluster capacity in a mixed node environment
           url: "/storage/concept_system_manage_nodes_cluster_capacity_in_a_mixed_node_environment.html"
-        - title: Node states
-          url: "/storage/reference_system_manage_nodes_node_states.html"
         - title: Node details
           url: "/storage/reference_system_manage_nodes_storage_nodes_details.html"
         - title: View individual node details
@@ -375,7 +347,7 @@ entries:
         - title: Edit a QoS policy
           url: "/storage/task_data_manage_volumes_edit_a_qos_policy.html"
         - title: Delete a QoS policy
-        url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
+          url: "/storage/task_data_manage_volumes_deleting_a_qos_policy.html"
       - title: Create a volume
         url: "/storage/task_data_manage_volumes_create_a_volume.html"
       - title: Volume details
@@ -1624,107 +1596,15 @@ entries:
     - title: TestHardwareConfig
       url: "/api/reference_element_api_response_example_testhardwareconfig.html"
 - title: Earlier versions
+  url: /element-earlierversions.html
 - title: Legal notices
+  url: /element-legal.html
 - title: STOP HERE STOP HERE
-- title: concepts
-  url: "/concepts/index.html"
-  entries:
-  - title: SolidFire architecture overview
-    url: "/concepts/concept_solidfire_concepts_solidfire_architecture_overview.html"
-    entries:
-    - title: SolidFire Active IQ
-      url: "/concepts/concept_intro_solidfire_active_iq.html"
-    - title: SolidFire software interfaces
-      url: "/concepts/concept_intro_solidfire_software_interfaces.html"
-  - title: Management node for Element software
-    url: "/concepts/concept_intro_management_node.html"
-    entries:
-    - title: Management services for SolidFire all-flash storage
-      url: "/concepts/concept_intro_management_services_for_afa.html"
-    - title: Persistent volumes
-      url: "/concepts/concept_intro_persistent_volumes.html"
-  - title: Nodes
-    url: "/concepts/concept_solidfire_concepts_nodes.html"
-    entries:
-    - title: Storage nodes
-      url: "/concepts/concept_intro_storage_nodes.html"
-    - title: Fibre Channel nodes
-      url: "/concepts/concept_intro_fibre_channel_nodes.html"
-    - title: NetApp HCI storage nodes
-      url: "/concepts/concept_element_vcp_ug_netapp_hci_storage_nodes.html"
-    - title: Witness node
-      url: "/concepts/concept_solidfire_concepts_witness_node.html"
-  - title: Clusters
-    url: "/concepts/concept_intro_clusters.html"
-  - title: Security
-    url: "/concepts/concept_solidfire_concepts_security.html"
-    entries:
-    - title: Encryption at rest
-      url: "/concepts/concept_solidfire_element_ug_encryption_at_rest.html"
-    - title: External Key Management
-      url: "/concepts/concept_solidfire_concepts_external_key_management.html"
-    - title: Multi-Factor Authentication
-      url: "/concepts/concept_solidfire_concepts_multi_factor_authentication.html"
-  - title: Accounts and permissions
-    url: "/concepts/concept_solidfire_concepts_accounts_and_permissions.html"
-  - title: Storage
-    url: "/concepts/concept_solidfire_concepts_storage.html"
-    entries:
-    - title: Volumes
-      url: "/concepts/concept_solidfire_concepts_volumes.html"
-    - title: Volume access groups
-      url: "/concepts/concept_solidfire_concepts_volume_access_groups.html"
-    - title: Rule of thirds
-      url: "/concepts/concept_solidfire_concepts_rule_of_thirds.html"
-    - title: VMware virtual volumes and NetApp Element software
-      url: "/concepts/concept_solidfire_concepts_vmware_virtual_volumes.html"
-    - title: Stranded capacity
-      url: "/concepts/concept_solidfire_concepts_stranded_capacity.html"
-  - title: Data protection
-    url: "/concepts/concept_solidfire_concepts_data_protection.html"
-    entries:
-    - title: Remote replication types
-      url: "/concepts/concept_solidfire_concepts_remote_replication_types.html"
-      entries:
-      - title: Synchronous and asynchronous replication between clusters
-        url: "/concepts/concept_solidfire_concepts_synchronous_and_asynchronous_replication.html"
-      - title: Snapshot-only replication
-        url: "/concepts/concept_solidfire_concepts_snapshot_only_replication.html"
-      - title: Replication between Element and ONTAP clusters using SnapMirror
-        url: "/concepts/concept_solidfire_concepts_replication_between_element_and_ontap_clusters_using_snapmirror.html"
-    - title: Volume snapshots for data protection
-      url: "/concepts/concept_solidfire_concepts_volume_snapshots_for_data_protection.html"
-    - title: Volume clones
-      url: "/concepts/concept_solidfire_concepts_volume_clones.html"
-    - title: Backup and restore process overview for SolidFire storage
-      url: "/concepts/concept_solidfire_concepts_backup_and_restore_process_overview.html"
-    - title: Protection domains
-      url: "/concepts/concept_solidfire_concepts_protection_domains.html"
-    - title: Double Helix high availability
-      url: "/concepts/concept_solidfire_concepts_double_helix_high_availability.html"
-  - title: Storage efficiency
-    url: "/concepts/concept_solidfire_concepts_storage_efficiency.html"
-  - title: Quality of Service
-    url: "/concepts/concept_data_manage_volumes_solidfire_quality_of_service.html"
-    entries:
-    - title: QoS value limits
-      url: "/concepts/reference_data_manage_volumes_qos_limits.html"
-    - title: QoS performance curve
-      url: "/concepts/concept_data_manage_volumes_qos_performance_curve.html"
-  - title: NetApp HCI cloud concepts
-    url: "/concepts/concept_solidfire_concepts_netapp_hci_cloud_concepts.html"
-    entries:
-    - title: Cloud services on NetApp HCI
-      url: "/concepts/concept_solidfire_concepts_cloud_services_on_netapp_hci.html"
-  - title: Where to find additional information
-    url: "/concepts/reference_solidfire_element_ug_where_to_find_additional_information.html"
-  - title: Contacting NetApp Support
-    url: "/concepts/concept_dnu_contacting_netapp_support.html"
 - title: setup
   url: "/setup/index.html"
   entries:
   - title: Product overview
-    url: "/setup/concept_intro_product_overview.html"
+    url: "/concept/concept_intro_product_overview.html"
   - title: Setup overview
     url: "/setup/concept_setup_overview.html"
   - title: Determining which SolidFire components to install
@@ -1749,14 +1629,12 @@ entries:
       url: "/setup/task_setup_configure_fqdn_web_ui_access.html"
     - title: Add drives to a cluster
       url: "/setup/task_setup_add_drives_to_a_cluster.html"
-    - title: Change the Garbage Collection constant
-      url: "/setup/task_setup_change_the_garbage_collection_constant.html"
     - title: Configure a Fibre Channel node
       url: "/setup/concept_setup_fc_configure_a_fibre_channel_node.html"
       entries:
       - title: Add Fibre Channel nodes to a cluster
         url: "/setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html"
-      - title: Creating a new cluster with Fibre Channel nodes
+      - title: Create a new cluster with Fibre Channel nodes
         url: "/setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html"
       - title: Set up zones for Fibre Channel nodes
         url: "/setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html"
@@ -1769,7 +1647,7 @@ entries:
     entries:
     - title: Add Fibre Channel nodes to a cluster
       url: "/setup/task_setup_fc_add_fibre_channel_nodes_to_a_cluster.html"
-    - title: Creating a new cluster with Fibre Channel nodes
+    - title: Create a new cluster with Fibre Channel nodes
       url: "/setup/task_setup_fc_create_a_new_cluster_with_fibre_channel_nodes.html"
     - title: Set up zones for Fibre Channel nodes
       url: "/setup/concept_setup_fc_set_up_zones_for_fibre_channel_nodes.html"

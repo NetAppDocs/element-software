@@ -93,3 +93,7 @@ The Element software API uses JSON objects to represent organized data concepts.
 * xref:reference_element_api_volumeaccessgroup.adoc[volumeAccessGroup]
 * xref:reference_element_api_volumepair.adoc[volumePair]
 * xref:reference_element_api_volumestats.adoc[volumeStats]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
