@@ -18,7 +18,6 @@ Here is a high-level overview of the tasks that you should complete after you in
 * <<Set the license key>>
 * <<Create a cluster>>
 * <<Add drives to the cluster>>
-* <<Change the Garbage Collection constant>>
 
 == Configure the cluster name
 
@@ -33,7 +32,7 @@ IMPORTANT: You cannot change the cluster name after the cluster is created.
 ... Open the per-node management node UI: `https://<node_mip>:442`.
 ... Select *Cluster Settings* and enter the cluster name.
 ... Select *Apply Changes*.
-** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
+** Use the link:../api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
 +
 This method has the following input parameter:
 +
@@ -172,7 +171,7 @@ image::../media/esds_create_cluster.png[Shows the per-node UI screen.]
 ... Select *Create Cluster*.
 ... To verify that cluster was created, log in to the cluster: `http://mvip_ip`.
 ... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
-** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
+** Use the link:../api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
 +
 This method has the following input parameters:
 +
@@ -369,33 +368,8 @@ Here is a request example:
 }
 ----
 
-For more information about this API method, see link:api/reference_element_api_adddrives.html[`AddDrives`^].
-
-== Change the Garbage Collection constant
-
-After you create a cluster, you should change the Garbage Collection (GC) constant to false. This applies only to NetApp Element software 12.2.
-
-For more information, see https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU437[NetApp Support Bulletin SU437^].
-
-.Steps
-. Gather the MVIP for your SolidFire cluster.
-This is the IP address you use to connect to the cluster UI web page.
-
-. Substitute that IP address for MVIP in the URL below and paste the link into your web browser:
-+
-----
-https://MVIP/json-rpc/12.2?method=SetConstants&cGCSendBloomFiltersInSeparateThreadEnable=false
-----
-
-. After the prompt, enter your cluster admin username and password.
-. Note the information in the web page output. The browser displays output similar to the following, with `GCSendBloomFiltersInSeparateThreadEnable` set to false. You can ignore other cluster constants.
-+
-----
-{"id": null, "result": {cGCSendBloomFiltersInSeparateThreadEnable": false,"requestAPIVersion": "12.2"}}
-----
-+
-NOTE: If you encounter any issues or have questions, contact NetApp Support using the https://www.netapp.com/company/contact-us/support/[NetApp Support Site].
+For more information about this API method, see link:../api/reference_element_api_adddrives.html[`AddDrives`^].
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -18,13 +18,13 @@ You can access the UI using IPv4 or IPv6 addressing, depending on configuration 
 .Steps
 
 . Choose one of the following:
- ** IPv6: Enter "https://[IPv6 MVIP address]"  For example:
+ ** IPv6: Enter `https://[IPv6_MVIP_address]`. For example:
 +
 ----
 https://[fd20:8b1e:b256:45a::1234]/
 ----
 
- ** IPv4: Enter "https://<IPv4 MVIP address>" For example:
+ ** IPv4: Enter `https://[IPv4 MVIP address]`. For example:
 +
 ----
 https://10.123.456.789/

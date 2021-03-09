@@ -7,6 +7,8 @@ summary: ''
 = Manage storage with Element software
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
 Use Element software to set up SolidFire storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure.
 
 Element is the storage operating system at the heart of a SolidFire cluster. Element software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources and present as a single storage system to external clients. Element software is responsible for all cluster coordination, scale and management of the system as a whole.

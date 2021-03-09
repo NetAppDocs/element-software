@@ -1,7 +1,7 @@
 ---
 permalink: api/reference_element_api_clusterinfo.html
 sidebar: sidebar
-keywords: object,objects,clusterInfo
+keywords: element, api, object, objects, clusterInfo
 summary: 'The clusterInfo object contains information that the node uses to communicate with the cluster. You can get this information with the GetClusterInfo API method.'
 ---
 = clusterInfo
@@ -27,7 +27,7 @@ JSON object
 a|
 defaultProtectionScheme
 a|
-The protection scheme used by default for new volumes, unless a protection scheme is provided with the xref:reference_element_api_createvolume.adoc[CreateVolume] method call.
+The protection scheme used by default for new volumes, unless a protection scheme is provided with the xref:reference_element_api_createvolume.adoc[CreateVolume] method call. This protection scheme must always be in the set of enabled protection schemes.
 a|
 string
 a|
@@ -71,7 +71,7 @@ mvipNodeID
 a|
 The node that holds the master MVIP address.
 a|
-string
+integer
 a|
 mvipVlanTag
 a|
@@ -90,6 +90,12 @@ a|
 The number of replicas of each piece of data to store in the cluster. The valid value is "2".
 a|
 integer
+a|
+softwareEncryptionAtRestState
+a|
+Software-based encryption-at-rest state.
+a|
+string
 a|
 supportedProtectionSchemes
 a|
@@ -113,7 +119,7 @@ svipNodeID
 a|
 The node holding the master SVIP address.
 a|
-string
+integer
 a|
 svipVlanTag
 a|
@@ -131,8 +137,11 @@ uuid
 a|
 The unique identifier for the cluster.
 a|
-string
+UUID
 |===
-*Related information*
 
-xref:reference_element_api_getclusterinfo.adoc[GetClusterInfo]
+[discrete]
+== Find more information
+* link:../api/reference_element_api_getclusterinfo.html[GetClusterInfo]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
