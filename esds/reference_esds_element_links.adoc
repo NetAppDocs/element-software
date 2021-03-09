@@ -67,6 +67,16 @@ The following APIs are not supported on SolidFire eSDS clusters:
 * `SetNtpInfo`
 * `TestAddressAvailability`
 
+Element 12.3 introduces enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO.
+
+The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+
+* `CreateCluster`
+* `DisableEncryptionAtRest`
+* `EnableEncryptionAtRest`
+* `GetSoftwareEncryptionAtRestInfo`
+* `RekeySoftwareEncryptionAtRestMasterKey`
+
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

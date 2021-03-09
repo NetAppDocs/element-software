@@ -90,7 +90,7 @@ You should start the demo node VM to access Element through the VMware ESXi cons
 . Select the *Summary* tab to view the details about this VM.
 . Select *Power On* to start the VM.
 . Select *Launch Web Console*.
-. Use the TUI to configure the demo node. For more information, see https://docs.netapp.com/us-en/element-software/docs/setup/concept_setup_configure_a_storage_node.html[Configure a storage node^].
+. Use the TUI to configure the demo node. For more information, see link:../setup/concept_setup_configure_a_storage_node.html[Configure a storage node^].
 
 == How to get support
 Element Demo Node is available on a best-effort volunteer basis. For support, post your questions to the https://community.netapp.com/t5/Simulator-Discussions/bd-p/simulator-discussions[Element Demo Node Forum^].
