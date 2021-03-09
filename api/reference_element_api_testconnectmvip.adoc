@@ -16,7 +16,7 @@ You can use the TestConnectMvip method to test the management connection to the 
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 mvip
 a|
@@ -34,7 +34,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|

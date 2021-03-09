@@ -16,7 +16,7 @@ You can use the GetQoSPolicy method to get details about a specific QoS policy f
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 qosPolicyID
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 qosPolicy
 a|

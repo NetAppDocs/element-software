@@ -16,7 +16,7 @@ The protectionDomainTolerance object contains information about the ability of t
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protectionSchemeTolerances
 a|

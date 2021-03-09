@@ -16,7 +16,7 @@ You can use the ListActiveVolumes method to get the list of active volumes curre
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 includeVirtualVolumes
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumes
 a|

@@ -115,7 +115,7 @@ a|The initial quality of service settings for this volume. Default values are us
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volume
 a|

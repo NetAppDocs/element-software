@@ -20,7 +20,7 @@ This method has the following input parameters:
 NOTE: You must select at least one parameter.
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 maxMetadataOverProvisionFactor
 a|
@@ -68,7 +68,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 blockFullness
 a|

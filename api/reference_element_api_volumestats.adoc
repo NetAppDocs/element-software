@@ -23,7 +23,7 @@ You can use the following methods to get volumeStats objects for some or all vol
 This object contains the following members:
 
 |===
-| Name| Description| Calculation| Type
+|Name |Description |Calculation |Type
 a|
 accountID
 a|

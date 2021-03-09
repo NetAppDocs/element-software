@@ -16,7 +16,7 @@ The Element web UI uses the BreakSnapMirrorRelationship method to break a SnapMi
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapMirrorEndpointID
 a|
@@ -44,7 +44,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorRelationship
 a|

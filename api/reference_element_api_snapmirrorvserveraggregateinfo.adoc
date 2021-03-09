@@ -16,7 +16,7 @@ The snapMirrorVserverAggregateInfo object contains information about the availab
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 aggrName
 a|

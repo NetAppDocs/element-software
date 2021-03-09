@@ -16,7 +16,7 @@ The CreateClusterInterfacePreference method enables systems integrated with stor
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 name
 a|

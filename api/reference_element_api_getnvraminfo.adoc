@@ -16,7 +16,7 @@ You can use the GetNvramInfo method to get information from each node about the 
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default Value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nvramInfo
 a|

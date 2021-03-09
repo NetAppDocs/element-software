@@ -16,7 +16,7 @@ The SNMP network object contains information about SNMP v3 configuration for the
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|

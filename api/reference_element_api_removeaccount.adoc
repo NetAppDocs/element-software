@@ -16,7 +16,7 @@ You can use the RemoveAccount method to remove an existing account. You must del
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 accountID
 a|

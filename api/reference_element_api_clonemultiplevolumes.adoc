@@ -18,7 +18,7 @@ Before using the groupSnapshotID parameter to clone the volumes in a group snaps
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 access
 a|
@@ -89,7 +89,7 @@ Yes (volumeID)
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandle
 a|

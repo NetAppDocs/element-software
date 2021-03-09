@@ -16,7 +16,7 @@ You can use the DeleteKeyProviderKmip method to delete the specified inactive Ke
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyProviderID
 a|

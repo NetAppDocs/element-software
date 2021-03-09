@@ -16,7 +16,7 @@ The clusterAdmin object contains information about the current cluster administr
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|

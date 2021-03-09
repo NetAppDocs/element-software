@@ -16,7 +16,7 @@ You can use the ListVirtualVolumes method to list the virtual volumes currently 
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 details
 a|
@@ -82,7 +82,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nextVirtualVolumeID
 a|

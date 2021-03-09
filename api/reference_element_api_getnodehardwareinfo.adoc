@@ -16,7 +16,7 @@ You can use the GetNodeHardwareInfo method to return all the hardware informatio
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 nodeID
 a|
@@ -35,7 +35,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nodeHardwareInfo
 a|

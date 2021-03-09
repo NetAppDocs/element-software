@@ -16,7 +16,7 @@ The volumePair object contains information about a volume that is paired with an
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 clusterPairID
 a|

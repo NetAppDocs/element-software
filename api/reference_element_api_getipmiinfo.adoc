@@ -22,7 +22,7 @@ This method has no input parameters.
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sensors
 a|

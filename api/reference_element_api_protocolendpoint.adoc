@@ -16,7 +16,7 @@ The protocolEndpoint object contains the attributes of a protocol endpoint. You 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 primaryProviderID
 a|

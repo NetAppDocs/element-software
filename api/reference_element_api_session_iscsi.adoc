@@ -16,7 +16,7 @@ The session (iSCSI) object contains detailed information about each volume's iSC
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 accountID
 a|

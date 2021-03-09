@@ -16,7 +16,7 @@ You can use the ListEvents method to list events detected on the cluster, sorted
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 driveID
 a|
@@ -134,7 +134,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 events
 a|

@@ -16,7 +16,7 @@ You can use the DeleteAuthSessionsByUsername method to delete all authentication
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 authMethod
 a|
@@ -49,7 +49,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sessions
 a|

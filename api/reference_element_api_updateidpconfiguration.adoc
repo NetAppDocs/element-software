@@ -16,7 +16,7 @@ You can use the UpdateIdpConfiguration method to update an existing configuratio
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 generateNewCertificate
 a|
@@ -74,7 +74,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 idpConfigInfo
 a|

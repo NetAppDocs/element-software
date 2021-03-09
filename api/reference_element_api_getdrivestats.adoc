@@ -16,7 +16,7 @@ You can use the GetDriveStats method to get high-level activity measurements for
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 driveID
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 driveStats
 a|

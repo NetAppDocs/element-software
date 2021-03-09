@@ -16,7 +16,7 @@ The clusterCapacity object contains high-level capacity measurements for the clu
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 activeBlockSpace
 a|

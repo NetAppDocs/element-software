@@ -16,7 +16,7 @@ You can use DeleteVolumeAccessGroup to delete a volume access group.
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeAccessGroupID
 a|

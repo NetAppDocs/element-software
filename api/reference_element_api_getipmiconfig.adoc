@@ -18,7 +18,7 @@ NOTE: SolidFire Enterprise SDS does not support this method. If you use this met
 This method has the following input parameter:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 chassisType
 a|
@@ -36,7 +36,7 @@ string
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sensorName
 a|

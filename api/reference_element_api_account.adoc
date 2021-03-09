@@ -16,7 +16,7 @@ The account object contains information about an account. This object includes o
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description | Type
 a|
 accountID
 a|

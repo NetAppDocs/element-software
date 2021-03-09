@@ -16,7 +16,7 @@ You can use the ModifyClusterAdmin method to change the settings for a cluster a
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 access
 a|

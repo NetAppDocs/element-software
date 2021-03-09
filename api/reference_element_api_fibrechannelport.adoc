@@ -16,7 +16,7 @@ The fibreChannelPort object contains information about individual ports on a nod
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 firmware
 a|

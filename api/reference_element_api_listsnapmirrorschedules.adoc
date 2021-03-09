@@ -16,7 +16,7 @@ The Element software web UI uses the ListSnapMirrorSchedules method to get a lis
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapMirrorEndpointID
 a|
@@ -34,7 +34,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorSchedules
 a|

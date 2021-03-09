@@ -28,7 +28,7 @@ The accepted format of a Fibre Channel initiator WWPN is Aa:bB:CC:dd:11:22:33:44
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|
@@ -59,7 +59,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumeAccessGroup
 a|

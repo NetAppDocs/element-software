@@ -16,7 +16,7 @@ You can use the ListAuthSessionsByClusterAdmin method to list all auth sessions 
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 clusterAdminID
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sessions
 a|

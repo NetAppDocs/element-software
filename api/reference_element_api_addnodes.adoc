@@ -26,7 +26,7 @@ NOTE: It may take several seconds after adding a new node for it to start up and
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 autoInstall
 a|
@@ -54,7 +54,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 autoInstall
 a|

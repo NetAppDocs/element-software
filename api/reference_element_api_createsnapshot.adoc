@@ -20,7 +20,7 @@ NOTE: You can create snapshots if cluster fullness is at stage 1, 2, or 3. You c
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 
 a|
 `attributes`
@@ -129,7 +129,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 checksum
 a|

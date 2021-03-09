@@ -16,7 +16,7 @@ The Element web UI uses the CreateSnapMirrorEndpoint method to create a relation
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 managementIP
 a|
@@ -54,7 +54,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpoint
 a|

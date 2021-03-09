@@ -18,7 +18,7 @@ NOTE: The "securitySupported": true line of the method response does not imply t
 This method has the following parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -36,7 +36,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 driveHardware
 a|

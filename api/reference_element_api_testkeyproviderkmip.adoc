@@ -16,7 +16,7 @@ You can use the TestKeyProviderKmip method to test whether the specified Key Man
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyProviderID
 a|

@@ -18,7 +18,7 @@ If the operation fails to create one of the initiators provided in the parameter
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|
@@ -47,7 +47,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 initiators
 a|

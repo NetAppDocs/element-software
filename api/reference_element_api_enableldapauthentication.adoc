@@ -16,7 +16,7 @@ You can use the EnableLdapAuthentication method to configure an LDAP directory c
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 authType
 a|

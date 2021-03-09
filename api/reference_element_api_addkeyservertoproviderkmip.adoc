@@ -16,7 +16,7 @@ You can use the AddKeyServerToProviderKmip method to assign a Key Management Int
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyProviderID
 a|

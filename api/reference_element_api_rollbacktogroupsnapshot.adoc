@@ -20,7 +20,7 @@ NOTE: Creating a snapshot is allowed if cluster fullness is at stage 1, 2, or 3.
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 `groupSnapshotID`
 a|
@@ -72,7 +72,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 members
 a|

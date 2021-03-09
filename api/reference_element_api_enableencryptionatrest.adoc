@@ -26,7 +26,7 @@ NOTE: This process is asynchronous and returns a response before encryption is e
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyProviderID
 a|

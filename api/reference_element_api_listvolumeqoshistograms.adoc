@@ -16,7 +16,7 @@ You can use the ListVolumeQoSHistograms method to generate a histogram of volume
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeIDs
 a|
@@ -34,7 +34,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 qosHistograms
 a|

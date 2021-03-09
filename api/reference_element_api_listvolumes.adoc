@@ -16,7 +16,7 @@ You can use the ListVolumes method to get a list of volumes that are in a cluste
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 accounts
 a|
@@ -114,7 +114,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumes
 a|

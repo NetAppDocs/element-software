@@ -16,7 +16,7 @@ You can use the CreateIpdConfiguration method to create a potential trust relati
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 idpMetadata
 a|
@@ -44,7 +44,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 idpConfigInfo
 a|

@@ -18,7 +18,7 @@ When you lock an account, any existing connections from that account are immedia
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 accountID
 a|
@@ -101,7 +101,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 account
 a|

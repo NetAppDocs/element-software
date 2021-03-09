@@ -16,7 +16,7 @@ You can use the ListVolumeAccessGroups method to get information about the volum
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 limit
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumeAccessGroups
 a|

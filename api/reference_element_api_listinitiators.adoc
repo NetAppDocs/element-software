@@ -16,7 +16,7 @@ You can use the ListInitiators method to get the list of initiator IQNs or World
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 initiators
 a|

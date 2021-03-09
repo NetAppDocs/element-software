@@ -16,7 +16,7 @@ You can use the TestLdapAuthentication method to validate the currently enabled 
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 username
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 groups
 a|

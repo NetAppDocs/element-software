@@ -16,7 +16,7 @@ The host object contains information about a virtual volume host. You can use th
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 bindings
 a|

@@ -16,7 +16,7 @@ You can use the ListVolumeStatsByVirtualVolume method to list volume statistics 
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 virtualVolumeIDs
 a|
@@ -34,7 +34,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumeStats
 a|

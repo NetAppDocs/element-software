@@ -16,7 +16,7 @@ The binding object contains information about the binding for a virtual volume. 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protocolEndpointID
 a|

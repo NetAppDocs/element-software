@@ -18,7 +18,7 @@ Each cluster admin can be restricted to a subset of the API. You should use mult
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 access
 a|
@@ -76,7 +76,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 clusterAdminID
 a|

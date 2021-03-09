@@ -16,7 +16,7 @@ The node object contains information about each node in the cluster. You can ret
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 associatedFServiceID
 a|

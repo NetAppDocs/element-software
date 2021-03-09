@@ -16,7 +16,7 @@ You can use the GetKeyServerKmip method to return information about the specifie
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyServerID
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 kmipKeyServer
 a|

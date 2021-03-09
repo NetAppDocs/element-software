@@ -20,7 +20,7 @@ NOTE: The AddVirtualNetwork method is used only to create a new virtual network.
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 addressBlocks
 a|
@@ -113,7 +113,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 virtualNetworkID
 a|

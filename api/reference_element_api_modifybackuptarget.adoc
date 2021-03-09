@@ -16,7 +16,7 @@ You can use the ModifyBackupTarget method to change attributes of a backup targe
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 backupTargetID
 a|

@@ -16,7 +16,7 @@ The snmpTrapRecipient object contains information about a host that is configure
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 host
 a|

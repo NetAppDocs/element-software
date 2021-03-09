@@ -18,7 +18,7 @@ You can also use this method to add an LDAP group that has been defined in Activ
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 access
 a|

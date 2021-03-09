@@ -16,7 +16,7 @@ The virtualNetwork object contains information about a specific virtual network.
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 addressBlocks
 a|

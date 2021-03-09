@@ -18,7 +18,7 @@ It is best if clients unmount the destination volume before the operation begins
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 dstVolumeID
 a|
@@ -56,7 +56,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandle
 a|

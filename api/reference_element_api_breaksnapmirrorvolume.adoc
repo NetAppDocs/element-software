@@ -16,7 +16,7 @@ The Element web UI uses the BreakSnapMirrorVolume method to break the SnapMirror
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|

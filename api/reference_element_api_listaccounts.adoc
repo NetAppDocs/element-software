@@ -16,7 +16,7 @@ You can use ListAccounts to get the entire list of storage tenant accounts, with
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 includeStorageContainers
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 accounts
 a|

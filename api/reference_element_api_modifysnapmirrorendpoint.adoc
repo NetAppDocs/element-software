@@ -16,7 +16,7 @@ The Element software web UI uses the ModifySnapMirrorEndpoint method to change t
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 SnapMirrorEndpointID
 a|
@@ -64,7 +64,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpoint
 a|

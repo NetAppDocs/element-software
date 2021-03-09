@@ -16,7 +16,7 @@ You can use the ListProtocolEndpoints method to retrieve information about all p
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 protocolEndpointIDs
 a|
@@ -34,7 +34,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protocolEndpoints
 a|

@@ -16,7 +16,7 @@ You can use the RemoveVolumePair method to remove the remote pairing between two
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|

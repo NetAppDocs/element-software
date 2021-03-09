@@ -18,7 +18,7 @@ If DeleteInitiators fails to delete one of the initiators provided in the parame
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|

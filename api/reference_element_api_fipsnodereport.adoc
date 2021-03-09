@@ -16,7 +16,7 @@ The fipsNodeReport object contains information about FIPS 140-2 support for a si
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nodeID
 a|

@@ -18,7 +18,7 @@ You can see information about a specific schedule if there are many snapshot sch
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 scheduleID
 a|
@@ -36,7 +36,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 schedule
 a|
