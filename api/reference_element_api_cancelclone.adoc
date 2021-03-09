@@ -15,6 +15,7 @@ You can use the CancelClone method to stop an ongoing volume clone or volume cop
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

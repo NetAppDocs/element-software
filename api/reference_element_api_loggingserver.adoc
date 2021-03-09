@@ -15,6 +15,7 @@ The loggingServer object contains information about any logging hosts configured
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

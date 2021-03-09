@@ -15,6 +15,7 @@ The Element web UI uses the DeleteSnapMirrorRelationships method to remove one o
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

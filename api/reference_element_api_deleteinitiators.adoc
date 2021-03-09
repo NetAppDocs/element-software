@@ -17,6 +17,7 @@ If DeleteInitiators fails to delete one of the initiators provided in the parame
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

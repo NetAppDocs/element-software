@@ -15,6 +15,7 @@ You can use the ListVolumeStats method to get high-level activity measurements f
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

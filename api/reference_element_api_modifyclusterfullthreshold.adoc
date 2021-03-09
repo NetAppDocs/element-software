@@ -19,6 +19,7 @@ This method has the following input parameters:
 
 NOTE: You must select at least one parameter.
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -130,7 +131,7 @@ stage2MetadataThresholdBytes
 a|
 The number of metadata bytes being used by the cluster at which a stage 2 fullness condition will exist.
 a|
- 
+
 a|
 stage3BlockThresholdBytes
 a|
@@ -154,7 +155,7 @@ stage3MetadataThresholdBytes
 a|
 The number of metadata bytes used by the cluster at which a stage 3 fullness condition will exist.
 a|
- 
+
 a|
 stage4BlockThresholdBytes
 a|
@@ -172,7 +173,7 @@ stage4MetadataThresholdBytes
 a|
 The number of metadata bytes used by the cluster at which a stage 4 fullness condition will exist.
 a|
- 
+
 a|
 stage5BlockThresholdBytes
 a|
@@ -184,7 +185,7 @@ stage5MetadataThresholdBytes
 a|
 The number of metadata bytes used by the cluster at which a stage 5 fullness condition will exist.
 a|
- 
+
 a|
 sumTotalClusterBytes
 a|

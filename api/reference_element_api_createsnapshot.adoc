@@ -19,6 +19,7 @@ NOTE: You can create snapshots if cluster fullness is at stage 1, 2, or 3. You c
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 

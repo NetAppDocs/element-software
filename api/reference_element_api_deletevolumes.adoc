@@ -23,6 +23,7 @@ This method has the following input parameters.
 
 NOTE: At least one of the following parameters are required, and you must use only one of the parameters (they are all mutually exclusive with one another).
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

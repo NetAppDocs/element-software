@@ -15,6 +15,7 @@ The Element web UI uses the CreateSnapMirrorVolume method to create a volume on 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

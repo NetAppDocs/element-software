@@ -25,6 +25,7 @@ NOTE: This process is asynchronous and returns a response before encryption is e
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

@@ -15,6 +15,7 @@ The fault object contains information about faults that are detected in the clus
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

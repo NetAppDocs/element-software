@@ -15,6 +15,7 @@ You can use the GetVolumeStats method to get high-level activity measurements fo
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

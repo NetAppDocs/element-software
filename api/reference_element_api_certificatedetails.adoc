@@ -15,6 +15,7 @@ The certificateDetails object contains the decoded information about a security 
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

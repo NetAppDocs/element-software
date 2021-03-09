@@ -15,6 +15,7 @@ The GetClusterInterfacePreference method enables systems integrated with storage
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

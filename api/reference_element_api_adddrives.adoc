@@ -21,6 +21,7 @@ NOTE: When you add multiple drives, it is more efficient to add them in a single
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

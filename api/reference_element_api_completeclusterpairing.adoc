@@ -15,6 +15,7 @@ The CompleteClusterPairing method is the second step in the cluster pairing proc
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

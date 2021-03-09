@@ -17,6 +17,7 @@ There is a 1000-byte limit on encoded attribute objects.
 
 This object contains the following member:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

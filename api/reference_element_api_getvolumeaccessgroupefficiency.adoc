@@ -15,6 +15,7 @@ You can use the GetVolumeAccessGroupEfficiency method to get efficiency informat
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

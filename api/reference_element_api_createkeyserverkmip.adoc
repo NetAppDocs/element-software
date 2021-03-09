@@ -15,6 +15,7 @@ You can use the CreateKeyServerKmip method to create a Key Management Interopera
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

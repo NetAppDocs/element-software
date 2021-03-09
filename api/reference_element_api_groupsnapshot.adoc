@@ -15,6 +15,7 @@ The groupSnapshot object contains information about a snapshot for a group of vo
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

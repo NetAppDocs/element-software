@@ -15,6 +15,7 @@ You can use the CreateIpdConfiguration method to create a potential trust relati
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

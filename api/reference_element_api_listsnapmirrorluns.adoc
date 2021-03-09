@@ -15,6 +15,7 @@ The Element software web UI uses the ListSnapMirrorLuns method to list the LUN i
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -43,6 +44,7 @@ Yes
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

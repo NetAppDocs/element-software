@@ -21,6 +21,7 @@ This method has no input parameters.
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -84,7 +85,7 @@ stage2MetadataThresholdBytes
 a|
 The number of metadata bytes being used by the cluster at which a stage 2 fullness condition will exist.
 a|
- 
+
 a|
 stage3BlockThresholdBytes
 a|

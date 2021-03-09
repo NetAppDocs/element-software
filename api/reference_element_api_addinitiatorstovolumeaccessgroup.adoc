@@ -27,6 +27,7 @@ The accepted format of a Fibre Channel initiator WWPN is Aa:bB:CC:dd:11:22:33:44
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

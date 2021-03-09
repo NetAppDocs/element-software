@@ -17,6 +17,7 @@ When you lock an account, any existing connections from that account are immedia
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

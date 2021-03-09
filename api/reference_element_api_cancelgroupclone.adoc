@@ -15,6 +15,7 @@ You can use the CancelGroupClone method to stop an ongoing clone process occurri
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

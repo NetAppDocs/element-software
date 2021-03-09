@@ -15,6 +15,7 @@ You can use the CreatePublicPrivateKeyPair method to create public and private S
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

@@ -15,6 +15,7 @@ You can use the ListVirtualVolumeTasks method to get a list of virtual volume ta
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

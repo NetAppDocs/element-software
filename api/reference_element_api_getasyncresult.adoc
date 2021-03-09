@@ -19,6 +19,7 @@ If the keepResult parameter is missing or false, the asyncHandle becomes inactiv
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -47,6 +48,7 @@ No
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

@@ -15,6 +15,7 @@ You can use the ListVolumes method to get a list of volumes that are in a cluste
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

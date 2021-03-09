@@ -15,6 +15,7 @@ The binding object contains information about the binding for a virtual volume. 
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

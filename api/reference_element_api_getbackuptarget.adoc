@@ -15,6 +15,7 @@ You can use the GetBackupTarget method to return information about a specific ba
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -53,6 +54,7 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

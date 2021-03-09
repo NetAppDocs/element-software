@@ -19,6 +19,7 @@ This method has no input parameter:
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

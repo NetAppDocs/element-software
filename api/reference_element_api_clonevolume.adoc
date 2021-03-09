@@ -19,6 +19,7 @@ NOTE: Cloned volumes do not inherit volume access group membership from the sour
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

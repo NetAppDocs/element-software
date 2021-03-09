@@ -15,6 +15,7 @@ The clusterStats object contains statistical data for a cluster. Many of the vol
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Calculation |Type
 a|

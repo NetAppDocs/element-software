@@ -15,6 +15,7 @@ The keyServerKmip object describes a Key Management Interoperability Protocol (K
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

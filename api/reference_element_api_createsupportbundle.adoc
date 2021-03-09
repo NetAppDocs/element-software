@@ -15,6 +15,7 @@ You can use the CreateSupportBundle to create a support bundle file under the no
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

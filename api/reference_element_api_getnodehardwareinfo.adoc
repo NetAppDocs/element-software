@@ -15,6 +15,7 @@ You can use the GetNodeHardwareInfo method to return all the hardware informatio
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -34,6 +35,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

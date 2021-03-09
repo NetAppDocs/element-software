@@ -15,6 +15,7 @@ The initiator object contains information about an iSCSI or Fibre Channel initia
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

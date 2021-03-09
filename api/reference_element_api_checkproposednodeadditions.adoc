@@ -15,6 +15,7 @@ You can use the CheckProposedNodeAdditions method to test a set of storage nodes
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

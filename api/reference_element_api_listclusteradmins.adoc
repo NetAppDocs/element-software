@@ -17,6 +17,7 @@ There can be several cluster administrator accounts with different levels of per
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

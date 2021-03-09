@@ -15,6 +15,7 @@ The driveStats object contains high-level activity measurements for a single dri
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

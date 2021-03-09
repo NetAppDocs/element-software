@@ -15,6 +15,7 @@ The fipsReport object contains information about FIPS 140-2 support for all node
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

@@ -15,6 +15,7 @@ You can use the ModifyBackupTarget method to change attributes of a backup targe
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

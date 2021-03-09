@@ -15,6 +15,7 @@ The fipsErrorNodeReport object contains error information for each node that doe
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

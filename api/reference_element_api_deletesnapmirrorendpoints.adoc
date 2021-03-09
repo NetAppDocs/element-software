@@ -15,6 +15,7 @@ The Element web UI uses DeleteSnapMirrorEndpoints to delete one or more SnapMirr
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

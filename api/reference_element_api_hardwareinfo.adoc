@@ -15,6 +15,7 @@ The hardwareInfo object contains detailed information about the hardware and sta
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

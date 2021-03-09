@@ -15,6 +15,7 @@ You can use the AddVolumesToVolumeAccessGroup method to add volumes to a specifi
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

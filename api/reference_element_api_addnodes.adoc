@@ -25,6 +25,7 @@ NOTE: It may take several seconds after adding a new node for it to start up and
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

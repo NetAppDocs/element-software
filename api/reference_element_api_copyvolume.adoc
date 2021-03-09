@@ -17,6 +17,7 @@ It is best if clients unmount the destination volume before the operation begins
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

@@ -19,6 +19,7 @@ NOTE: The AddVirtualNetwork method is used only to create a new virtual network.
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

@@ -15,6 +15,7 @@ The Element software web UI uses the ListSnapMirrorRelationships method to list 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
