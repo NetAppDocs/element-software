@@ -1,10 +1,10 @@
 ---
 permalink: storage/concept_system_manage_key_external_key_management_api_commands.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'List of all of the APIs available for managing and configuring EKM.'
 ---
-= External Key Management API Commands
+= External key management API commands
 :icons: font
 :imagesdir: ../media/
 
@@ -33,8 +33,7 @@ Used for creating and maintaining key providers which manage external key server
 * RemoveKeyServerFromProviderKmip
 * GetKeyProviderKmip
 * ListKeyProvidersKmip
+* RekeySoftwareEncryptionAtRestMasterKey
 * TestKeyProviderKmip
 
-For information about the API methods, see API reference information.
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+For information about the API methods, see link:api/index.html[API reference information].

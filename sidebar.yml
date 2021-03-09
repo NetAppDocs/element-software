@@ -1201,12 +1201,16 @@ entries:
       url: "/api/reference_element_api_getkeyproviderkmip.html"
     - title: GetKeyServerKmip
       url: "/api/reference_element_api_getkeyserverkmip.html"
+    - title: GetSoftwareEncryptionatRestInfo
+      url: "/api/reference_element_api_getsoftwareencryptionatrestinfo.html"
     - title: ListKeyProvidersKmip
       url: "/api/reference_element_api_listkeyproviderskmip.html"
     - title: ListKeyServersKmip
       url: "/api/reference_element_api_listkeyserverskmip.html"
     - title: ModifyKeyServerKmip
       url: "/api/reference_element_api_modifykeyserverkmip.html"
+    - title: RekeySoftwareEncryptionAtRestMasterKey
+      url: "/api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html"
     - title: RemoveKeyServerFromProviderKmip
       url: "/api/reference_element_api_removekeyserverfromproviderkmip.html"
     - title: TestKeyProviderKmip
@@ -1565,3 +1569,4 @@ entries:
   url: /element-earlierversions.html
 - title: Legal notices
   url: /element-legal.html
+
