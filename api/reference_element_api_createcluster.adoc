@@ -17,6 +17,7 @@ NOTE: After you log in to the master node for the cluster and run the xref:refer
 
 This method has the following input parameters:
 
+[%header,cols=5*]
 |===
 | Name| Description| Type| Default value| Required
 a|
@@ -42,7 +43,7 @@ No
 a|
 enableSoftwareEncryptionAtRest
 a|
-Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire Enterprise SDS clusters. Defaults to false on all other clusters.
+Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire Enterprise SDS clusters. Defaults to false on all other clusters. After software encryption at rest is enabled, it cannot be disabled on the cluster.
 a|
 boolean
 a|
@@ -173,6 +174,8 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
-
-xref:reference_element_api_getbootstrapconfig.adoc[GetBootstrapConfig]
+[discrete]
+== Find more information
+* link:reference_element_api_getbootstrapconfig.html[GetBootstrapConfig]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
