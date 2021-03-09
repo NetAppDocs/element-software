@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_provide_feedback.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can help improve the Element software web user interface and address any UI issues by using the feedback form that is accessible throughout the UI.'
 ---
 = Provide feedback
@@ -17,3 +17,7 @@ You can help improve the Element software web user interface and address any UI 
 . Enter a name and email address.
 . Select the check box to include data about your current environment.
 . Click *Submit*.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

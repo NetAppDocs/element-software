@@ -22,3 +22,7 @@ Drives are not displayed in the Available Drives list when the following conditi
 . Do one of the following:
  ** To add individual drives, click the *Actions* icon for the drive you want to add and click *Add*.
  ** To add multiple drives, select the check boxes of the drives to add, click *Bulk Actions*, and click *Add*.
+
+ == Find more information
+ * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+ * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

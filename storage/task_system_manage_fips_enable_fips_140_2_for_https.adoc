@@ -31,8 +31,9 @@ The following is an example of the API request to enable FIPS:
 
 After this operating mode is enabled, all HTTPS communication uses the FIPS 140-2 approved ciphers.
 
-*Related information*
 
-xref:reference_system_manage_fips_ssl_cipher_changes.adoc[SSL ciphers]
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+== Find more information
+* xref:reference_system_manage_fips_ssl_cipher_changes.adoc[SSL ciphers]
+* link:../api/index.html[Manage storage with the Element API]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

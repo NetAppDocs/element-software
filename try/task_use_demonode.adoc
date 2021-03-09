@@ -97,4 +97,3 @@ Element Demo Node is available on a best-effort volunteer basis. For support, po
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
