@@ -16,7 +16,7 @@ The snapMirrorEndpoint object contains information about the remote SnapMirror s
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpointID
 a|

@@ -15,8 +15,9 @@ You can use the GetClusterVersionInfo method to retrieve information about the E
 
 This method has the following object members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nodeID
 a|
@@ -45,8 +46,9 @@ This method has no input parameters.
 
 This method has the following return values:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 clusterAPIVersion
 a|

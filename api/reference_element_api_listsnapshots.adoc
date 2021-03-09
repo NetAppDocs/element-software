@@ -17,8 +17,9 @@ Information about snapshots that reside on the target cluster will be displayed 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|
@@ -45,8 +46,9 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapshots
 a|
@@ -63,7 +65,7 @@ Requests for this method are similar to the following example:
 {
    "method": "ListSnapshots",
    "params": {
-             "volumeID": "1"		
+             "volumeID": "1"
        },
    "id" : 1
 }

@@ -21,8 +21,9 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sensors
 a|
@@ -49,7 +50,7 @@ Due to the length of the returned response for this API method, portions of the 
 
 ----
 {
-  "id": 1,			
+  "id": 1,
     "result": {
       "nodes": [
         {
@@ -129,7 +130,7 @@ Due to the length of the returned response for this API method, portions of the 
                      "uniqueSensorID": "7.1:0x1",
                      "upperCritical": "75.000",
                      "upperNonCritical": "70.000"
-                 },		
+                 },
                  {THIS ENTIRE SECTION IS REPEATED FOR THE INLET TEMPERATURE OF EACH NODE
                      "assertionEvents": [],
                      "assertionsEnabled": [],
@@ -186,7 +187,7 @@ Due to the length of the returned response for this API method, portions of the 
            }
          }
        ]
-     }		
+     }
    }
 ----
 

@@ -17,8 +17,9 @@ You can use this method to verify the virtual network settings in the cluster. T
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 virtualNetworkID
 a|
@@ -66,7 +67,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 virtualNetworks
 a|

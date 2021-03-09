@@ -1,7 +1,7 @@
 ---
 permalink: api/reference_element_api_cancelgroupclone.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can use the CancelGroupClone method to stop an ongoing clone process occurring on a group of volumes. When you cancel a group clone operation, the system completes and removes the operation’s associated asyncHandle.'
 ---
 = CancelGroupClone
@@ -15,8 +15,9 @@ You can use the CancelGroupClone method to stop an ongoing clone process occurri
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 groupCloneID
 a|

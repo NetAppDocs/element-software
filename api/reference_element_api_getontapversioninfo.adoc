@@ -15,8 +15,9 @@ The Element web UI uses GetOntapVersionInfo to get information about API version
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapMirrorEndpointID
 a|
@@ -33,8 +34,9 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 ontapVersionInfo
 a|

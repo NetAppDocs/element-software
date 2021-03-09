@@ -16,7 +16,7 @@ You can use `ModifySchedule` to change the intervals at which a scheduled snapsh
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 `attributes`
 a|
@@ -222,7 +222,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 schedule
 a|

@@ -15,8 +15,9 @@ You can use the CheckPingOnVlan method to test network connectivity on a tempora
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 attempts
 a|
@@ -128,7 +129,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|

@@ -15,8 +15,9 @@ You can use the ListKeyServersKmip method to list all Key Management Interoperab
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyProviderID
 a|
@@ -64,7 +65,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 kmipKeyServers
 a|

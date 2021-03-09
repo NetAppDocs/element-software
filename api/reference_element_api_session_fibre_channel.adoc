@@ -16,7 +16,7 @@ The session object contains information about each Fibre Channel session that is
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 initiatorWWPN
 a|

@@ -17,8 +17,9 @@ You can use the saveMembers parameter to preserve all the snapshots that were ma
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 groupSnapshotID
 a|

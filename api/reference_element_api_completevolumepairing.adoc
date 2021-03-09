@@ -15,8 +15,9 @@ You can use CompleteVolumePairing to complete the pairing of two volumes.
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|

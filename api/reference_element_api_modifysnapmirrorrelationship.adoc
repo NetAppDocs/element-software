@@ -16,7 +16,7 @@ You can use ModifySnapMirrorRelationship to change the intervals at which a sche
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 destinationVolume
 a|
@@ -74,7 +74,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorRelationship
 a|

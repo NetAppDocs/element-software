@@ -16,7 +16,7 @@ The networkInterface object contains configuration information for individual ne
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 address
 a|

@@ -15,8 +15,9 @@ The ldapConfiguration object contains information about the LDAP configuration o
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 authType
 a|

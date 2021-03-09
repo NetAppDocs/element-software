@@ -16,7 +16,7 @@ You can use the SetDefaultQoS method to configure the default Quality of Service
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 minIOPS
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 minIOPS
 a|

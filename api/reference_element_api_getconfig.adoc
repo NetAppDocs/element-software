@@ -19,8 +19,9 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 config
 a|

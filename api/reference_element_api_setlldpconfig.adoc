@@ -16,7 +16,7 @@ You can use the SetLldpConfig method to configure the Link Layer Discovery Proto
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 enableOtherProtocols
 a|
@@ -54,7 +54,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 lldpConfig
 a|

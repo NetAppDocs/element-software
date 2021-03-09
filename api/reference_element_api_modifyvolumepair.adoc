@@ -16,7 +16,7 @@ You can use the ModifyVolumePair method to pause or restart replication between 
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|

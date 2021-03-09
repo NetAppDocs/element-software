@@ -17,9 +17,9 @@ NOTE: After you log in to the master node for the cluster and run the xref:refer
 
 This method has the following input parameters:
 
-[%header,cols=5*]
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 acceptEula
 a|

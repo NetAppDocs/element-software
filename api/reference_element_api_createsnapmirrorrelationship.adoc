@@ -15,8 +15,9 @@ The Element web UI uses the CreateSnapMirrorRelationship method to create a Snap
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapMirrorEndpointID
 a|
@@ -94,7 +95,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorRelationship
 a|

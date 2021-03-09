@@ -15,8 +15,9 @@ You can use the EnableSnmp method to enable SNMP on cluster nodes. When you enab
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snmpV3Enabled
 a|

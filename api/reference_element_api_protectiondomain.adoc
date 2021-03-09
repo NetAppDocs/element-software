@@ -16,7 +16,7 @@ The protectionDomain object contains the name and type details for a protection 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protectionDomainName
 a|

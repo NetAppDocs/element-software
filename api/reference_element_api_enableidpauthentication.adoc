@@ -15,8 +15,9 @@ You can use the EnableIdpAuthentication method to enable support for authenticat
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 idpConfigurationID
 a|

@@ -15,8 +15,9 @@ You can use ListAsyncResults to list the results of all currently running and co
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 asyncResultTypes
 a|
@@ -41,7 +42,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandles
 a|

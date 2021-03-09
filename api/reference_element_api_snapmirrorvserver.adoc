@@ -16,7 +16,7 @@ The snapMirrorVserver object contains information about the Storage Virtual Mach
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpointID
 a|

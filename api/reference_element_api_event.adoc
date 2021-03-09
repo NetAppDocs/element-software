@@ -15,8 +15,9 @@ The event object contains details of events that occur during an API method call
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|

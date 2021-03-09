@@ -20,7 +20,7 @@ NOTE: You cannot remove a virtual network if there are initiators associated wit
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 virtualNetworkID
 a|

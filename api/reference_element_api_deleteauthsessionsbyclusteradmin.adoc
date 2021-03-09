@@ -15,8 +15,9 @@ You can use the DeleteAuthSessionsByClusterAdmin method to delete all authentica
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 clusterAdminID
 a|
@@ -34,7 +35,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sessions
 a|
