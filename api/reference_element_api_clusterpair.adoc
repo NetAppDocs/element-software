@@ -15,8 +15,9 @@ The clusterPair object contains information about clusters paired with the local
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 clusterName
 a|

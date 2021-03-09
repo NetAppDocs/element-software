@@ -16,7 +16,7 @@ The network (all interfaces) object collects information about network interface
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 Bond10G
 a|

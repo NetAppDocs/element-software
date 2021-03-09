@@ -22,7 +22,7 @@ This method restarts all networking services on a node, causing temporary loss o
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|

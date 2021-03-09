@@ -21,8 +21,9 @@ If the volume you delete is paired with a volume, replication between the paired
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|
@@ -40,7 +41,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volume
 a|

@@ -15,8 +15,9 @@ The DeleteClusterInterfacePreference method enables systems integrated with stor
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 name
 a|

@@ -12,7 +12,7 @@ summary: 'Each Element software API request has the following basic parts:'
 Each Element software API request has the following basic parts:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 method
 a|

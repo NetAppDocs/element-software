@@ -16,7 +16,7 @@ You can use the SNMP usmUser object with the SetSnmpInfo API method to configure
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|

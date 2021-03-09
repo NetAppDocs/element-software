@@ -17,8 +17,9 @@ NOTE: The "securitySupported": true line of the method response does not imply t
 
 This method has the following parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -35,8 +36,9 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 driveHardware
 a|

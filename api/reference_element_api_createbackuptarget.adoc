@@ -15,8 +15,9 @@ You can use CreateBackupTarget to create and store backup target information so 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 name
 a|
@@ -44,7 +45,7 @@ Yes (but can be empty)
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 backupTargetID
 a|

@@ -18,7 +18,7 @@ NOTE: SetSnmpInfo is deprecated for Element versions 6.0 and later. Use the xref
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 networks
 a|

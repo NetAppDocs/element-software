@@ -16,7 +16,7 @@ The snapMirrorPolicyRule object contains information about the rules in a SnapMi
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorLabel
 a|

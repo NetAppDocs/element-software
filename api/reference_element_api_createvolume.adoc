@@ -17,6 +17,7 @@ Volumes created without specified QoS values use the default values. You can vie
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 
@@ -115,7 +116,7 @@ a|The initial quality of service settings for this volume. Default values are us
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volume
 a|

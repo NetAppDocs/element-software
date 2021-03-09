@@ -15,8 +15,9 @@ You can use the CheckProposedNodeAdditions method to test a set of storage nodes
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 nodes
 a|
@@ -34,7 +35,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 proposedClusterValid
 a|

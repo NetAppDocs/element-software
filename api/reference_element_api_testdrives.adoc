@@ -20,7 +20,7 @@ NOTE: This test takes approximately 10 minutes.
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -48,7 +48,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|

@@ -24,7 +24,7 @@ Enabling or disabling the Routable Storage VLANs functionality for an existing v
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 virtualNetworkID
 a|

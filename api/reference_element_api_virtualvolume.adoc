@@ -16,7 +16,7 @@ The virtualVolume object contains configuration information about a virtual volu
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 bindings
 a|

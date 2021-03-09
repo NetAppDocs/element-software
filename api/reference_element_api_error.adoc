@@ -15,8 +15,9 @@ The error object contains an error code and message if an error occurs during a 
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 code
 a|

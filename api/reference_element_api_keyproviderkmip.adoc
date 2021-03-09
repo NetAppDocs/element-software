@@ -15,8 +15,9 @@ The keyProviderKmip object describes a Key Management Interoperability Protocol 
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 keyProviderID
 a|

@@ -16,7 +16,7 @@ The schedule object contains information about a schedule created to autonomousl
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 attributes
 a|

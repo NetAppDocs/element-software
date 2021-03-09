@@ -17,8 +17,9 @@ This API method is intended for use on individual nodes; a userid and password a
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -36,7 +37,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 fibreChannelPorts
 a|

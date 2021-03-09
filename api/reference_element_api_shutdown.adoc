@@ -16,7 +16,7 @@ You can use the Shutdown method to restart or shutdown the nodes in a cluster. Y
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 nodes
 a|

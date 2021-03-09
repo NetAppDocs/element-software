@@ -15,8 +15,9 @@ The idpConfigInfo object contains configuration and integration details regardin
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 enabled
 a|

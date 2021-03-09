@@ -15,8 +15,9 @@ The Element software web UI uses the ListSnapMirrorVservers method to list all S
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapMirrorEndpointID
 a|
@@ -60,7 +61,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorVservers
 a|

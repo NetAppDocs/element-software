@@ -16,7 +16,7 @@ The snapMirrorRelationship object contains information about a SnapMirror relati
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpointID
 a|

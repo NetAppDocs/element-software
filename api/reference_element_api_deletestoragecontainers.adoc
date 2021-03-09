@@ -15,8 +15,9 @@ You can use the DeleteStorageContainers method to remove up to 2000 Virtual Volu
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 storageContainerIDs
 a|

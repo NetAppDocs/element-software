@@ -17,8 +17,9 @@ A snapshot that is currently the active snapshot cannot be deleted. You must rol
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 snapshotID
 a|

@@ -16,7 +16,7 @@ You can use the SetLoginSessionInfo method to set the period of time that a logi
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 timeout
 a|

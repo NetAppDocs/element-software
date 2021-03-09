@@ -16,7 +16,7 @@ The pendingNode object contains information about a node that can be added to a 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 cipi
 a|

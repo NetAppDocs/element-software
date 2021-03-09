@@ -15,8 +15,9 @@ The authSessionInfo object contains information about an auth session.
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 accessGroupList
 a|

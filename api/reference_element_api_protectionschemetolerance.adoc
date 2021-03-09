@@ -16,7 +16,7 @@ The protectionSchemeTolerance object contains information about whether a storag
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protectionScheme
 a|

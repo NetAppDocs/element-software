@@ -16,7 +16,7 @@ You can use the ResetDrives method to proactively initialize drives and remove a
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 drives
 a|
@@ -44,7 +44,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|
