@@ -156,12 +156,6 @@ entries:
     url: /setup/task_setup_configure_fqdn_web_ui_access.html
   - title: What's next?
     url: /setup/concept_setup_whats_next.html
-- title: Upgrade storage nodes and management services for storage-based installations
-  entries:
-  - title: Upgrade storage nodes
-    url: "/storage/concept_upgrade_storage_nodes.html"
-  - title: Update management services for Element storage-based installations
-    url: "/storage/concept_upgrade_update_management_services_for_element_storage_based_installations.html"
 - title: Work with the management node
   url: /storage/concept_mnode_work_with_the_management_node.html
 - title: Manage storage with Element software
@@ -1565,8 +1559,13 @@ entries:
       url: "/api/reference_element_api_response_example_testhardwareconfig.html"
 - title: Manage storage with the Element Plug-in for vCenter Server
   url: https://docs.netapp.com/us-en/vcp/
+- title: Upgrade storage nodes and management services
+  entries:
+  - title: Upgrade storage nodes
+    url: "/storage/concept_upgrade_storage_nodes.html"
+  - title: Update management services for Element storage-based installations
+    url: "/storage/concept_upgrade_update_management_services_for_element_storage_based_installations.html"
 - title: Earlier versions
   url: /element-earlierversions.html
 - title: Legal notices
   url: /element-legal.html
-
