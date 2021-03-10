@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_create_a_volume_snapshot.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can create a snapshot of an active volume to preserve the volume image at any point in time. You can create up to 32 snapshots for a single volume.'
 ---
 = Create a volume snapshot
@@ -29,6 +29,6 @@ You can create a snapshot of an active volume to preserve the volume image at an
  .. Select the *Recurring Schedule* check box to repeat the scheduled snapshot periodically.
  .. Click *Create Schedule*.
 
-*Related information*
+== Find more information 
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[Scheduling a snapshot]

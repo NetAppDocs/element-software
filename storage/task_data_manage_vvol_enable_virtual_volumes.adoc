@@ -36,6 +36,6 @@ NOTE: You must create at least one storage container so that VMs can be provisio
 +
 NOTE: Additional configuration tasks are required in vSphere. See the _VMware vSphere Virtual Volumes for SolidFire Storage Configuration Guide_ to register the VASA Provider in vCenter, create and manage VVol datastores, and manage storage based on policies.
 
-*Related information*
+== Find more information 
 
 https://www.netapp.com/us/media/tr-4642.pdf[VMware vSphere Virtual Volumes for SolidFire Storage Configuration Guide]

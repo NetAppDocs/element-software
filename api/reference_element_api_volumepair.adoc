@@ -65,8 +65,9 @@ A universally unique, cluster-defined identifier for this pairing in a canonical
 a|
 string
 |===
-*Related information*
 
-xref:reference_element_api_listactivepairedvolumes.adoc[ListActivePairedVolumes]
 
-xref:reference_element_api_listactivevolumes.adoc[ListActiveVolumes]
+== Find more information
+
+* xref:reference_element_api_listactivepairedvolumes.adoc[ListActivePairedVolumes]
+* xref:reference_element_api_listactivevolumes.adoc[ListActiveVolumes]

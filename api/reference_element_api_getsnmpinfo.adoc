@@ -96,8 +96,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getsnmpstate.adoc[GetSnmpState]
-
-xref:reference_element_api_setsnmpacl.adoc[SetSnmpACL]
+* xref:reference_element_api_getsnmpstate.adoc[GetSnmpState]
+* xref:reference_element_api_setsnmpacl.adoc[SetSnmpACL]

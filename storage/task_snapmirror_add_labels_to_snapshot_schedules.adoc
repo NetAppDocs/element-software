@@ -38,6 +38,6 @@ a|
 +
 |===
 
-*Related information*
+== Find more information 
 
 xref:task_data_protection_create_a_snapshot_schedule.adoc[Creating a snapshot schedule]

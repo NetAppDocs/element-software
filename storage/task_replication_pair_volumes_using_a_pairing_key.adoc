@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_volumes_using_a_pairing_key.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'If you do not have cluster admin credentials for a remote cluster, you can pair a volume with another volume on a remote cluster using a pairing key.'
 ---
 = Pair volumes using a pairing key
@@ -45,10 +45,8 @@ IMPORTANT: Do not modify any of the characters in the pairing key. The key becom
 +
 After you confirm the pairing, the two clusters begin the process of connecting the volumes for pairing. During the pairing process, you can see messages in the *Volume Status* column of the *Volume Pairs* window. The volume pair displays `PausedMisconfigured` until the volume pair source and target are assigned.
 
-*Related information*
+== Find more information
 
-xref:reference_replication_volume_pairing_messages.adoc[Volume pairing messages]
-
-xref:reference_replication_volume_pairing_warnings.adoc[Volume pairing warnings]
-
-xref:task_replication_assign_replication_source_and_target_to_paired_volumes.adoc[Assign a replication source and target to paired volumes]
+* xref:reference_replication_volume_pairing_messages.adoc[Volume pairing messages]
+* xref:reference_replication_volume_pairing_warnings.adoc[Volume pairing warnings]
+* xref:task_replication_assign_replication_source_and_target_to_paired_volumes.adoc[Assign a replication source and target to paired volumes]

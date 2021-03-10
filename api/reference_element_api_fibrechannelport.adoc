@@ -98,6 +98,8 @@ World Wide Port Name assigned to the physical port of the HBA.
 a|
 string
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listnodefibrechannelportinfo.adoc[ListNodeFibreChannelPortInfo]

@@ -54,6 +54,7 @@ User name for this cluster admin.
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_getcurrentclusteradmin.adoc[GetCurrentClusterAdmin]

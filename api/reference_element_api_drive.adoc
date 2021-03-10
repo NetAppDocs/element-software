@@ -121,6 +121,7 @@ The usable capacity of the drive, in bytes.
 a|
 integer
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listdrives.adoc[ListDrives]

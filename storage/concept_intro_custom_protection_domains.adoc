@@ -27,6 +27,6 @@ The following API methods expose these new protection domains:
 
 Contact NetApp support for further details on using custom protection domains.
 
-*Related information*
+== Find more information
 
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+link:api/index.html[Manage storage with the Element API]

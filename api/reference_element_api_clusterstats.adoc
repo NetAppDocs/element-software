@@ -211,6 +211,7 @@ Point in time
 a|
 integer
 |===
-*Related information*
+
+== Find more information
 
 xref:reference_element_api_getclusterstats.adoc[GetClusterStats]

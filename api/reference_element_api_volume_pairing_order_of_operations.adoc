@@ -23,10 +23,8 @@ This method uses the pairing key created with the xref:reference_element_api_sta
 
 Only one of the paired volumes can be identified as a replication target volume. Use the xref:reference_element_api_modifyvolumepair.adoc[ModifyVolumePair] API method to establish the direction of the volume's data replication by identifying which volume is the target. Data is replicated from the source volume to the target volume.
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]
-
-xref:reference_element_api_completevolumepairing.adoc[CompleteVolumePairing]
-
-xref:reference_element_api_modifyvolumepair.adoc[ModifyVolumePair]
+* xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]
+* xref:reference_element_api_completevolumepairing.adoc[CompleteVolumePairing]
+* xref:reference_element_api_modifyvolumepair.adoc[ModifyVolumePair]

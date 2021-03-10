@@ -58,6 +58,6 @@ xref:reference_element_api_snapmirrorrelationship.adoc[snapMirrorRelationship]
 
 10.1
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_breaksnapmirrorvolume.adoc[BreakSnapMirrorVolume]

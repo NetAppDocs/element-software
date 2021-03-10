@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_virtual_delete_a_virtual_network.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can remove a virtual network object. You must add the address blocks to another virtual network before you remove a virtual network.'
 ---
 = Delete a virtual network
@@ -16,6 +16,6 @@ You can remove a virtual network object. You must add the address blocks to anot
 . Click *Delete*.
 . Confirm the message.
 
-*Related information*
+== Find more information 
 
-xref:task_system_manage_virtual_edit_a_virtual_network.adoc[Edit a virtual network]
+xref:task_system_manage_virtual_edit_a_virtual_network.html[Edit a virtual network]

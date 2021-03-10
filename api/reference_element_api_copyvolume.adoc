@@ -105,8 +105,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
-
-xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]
+* xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
+* xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]

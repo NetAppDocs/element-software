@@ -83,7 +83,7 @@ The node's role in the cluster. Possible values:
 * Witness
 
 a|
- 
+
 a|
 sip
 a|
@@ -97,6 +97,8 @@ The current version of Element software running on the node.
 a|
 string
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listpendingactivenodes.adoc[ListPendingActiveNodes]

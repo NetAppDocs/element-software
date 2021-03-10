@@ -61,8 +61,8 @@ The secondary ID of the virtual volume.
 a|
 string
 |===
-*Related information*
 
-xref:reference_element_api_listvirtualvolumebindings.adoc[ListVirtualVolumeBindings]
+== Find more information
 
-xref:reference_element_api_protocolendpoint.adoc[protocolEndpoint]
+* xref:reference_element_api_listvirtualvolumebindings.adoc[ListVirtualVolumeBindings]
+* xref:reference_element_api_protocolendpoint.adoc[protocolEndpoint]

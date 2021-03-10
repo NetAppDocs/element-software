@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_troubleshoot_basic_mdss_drive_troubleshooting.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can recover metadata \(or slice\) drives by adding them back to the cluster in the event that one or both metadata drives fail. You can perform the recovery operation in the NetApp Element UI if the MDSS feature is already enabled on the node.'
 ---
 = Basic MDSS drive troubleshooting
@@ -42,6 +42,6 @@ NOTE: You cannot add the drive in slot 2 by itself as a metadata drive. You must
 * Verify that the drives in slot 0 (or internal) and slot 2 are identified as metadata drives in the Active Drives list.
 * Verify that all slice balancing has completed (there are no further moving slices messages in the event log for at least 30 minutes).
 
-*Related information*
+== For more information
 
 xref:task_troubleshoot_add_mdss_drives.adoc[Add MDSS drives]

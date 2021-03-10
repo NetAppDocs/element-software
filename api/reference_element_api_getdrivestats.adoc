@@ -124,6 +124,6 @@ This method returns a response similar to the following example for a volume met
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_listdrives.adoc[ListDrives]

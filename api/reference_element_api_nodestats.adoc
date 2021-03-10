@@ -126,8 +126,9 @@ Monotonically increasing value of total write operations to a node.
 a|
 integer
 |===
-*Related information*
 
-xref:reference_element_api_getnodestats.adoc[GetNodeStats]
 
-xref:reference_element_api_listnodestats.adoc[ListNodeStats]
+== Find more information
+
+* xref:reference_element_api_getnodestats.adoc[GetNodeStats]
+* xref:reference_element_api_listnodestats.adoc[ListNodeStats]

@@ -30,8 +30,7 @@ IMPORTANT: Do not modify any of the characters in the pairing key. The key becom
 . Click *Complete Pairing* and enter the pairing key in the *Pairing Key* field (paste is the recommended method).
 . Click *Complete Pairing*.
 
-*Related information*
+== Find more information
 
-xref:task_replication_pair_cluster_using_mvip.adoc[Pair clusters using MVIP]
-
-https://www.youtube.com/watch?v=1ljHAd1byC8&feature=youtu.be[Pairing clusters using a cluster pairing key (video)]
+* xref:task_replication_pair_cluster_using_mvip.adoc[Pair clusters using MVIP]
+* https://www.youtube.com/watch?v=1ljHAd1byC8&feature=youtu.be[Pairing clusters using a cluster pairing key (video)]

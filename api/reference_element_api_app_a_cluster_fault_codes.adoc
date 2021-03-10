@@ -803,10 +803,7 @@ One or more volumes in the storage cluster are offline.
 +
 Contact NetApp Support for assistance.
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getclusterfullthreshold.adoc[GetClusterFullThreshold]
-
-xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
-
-link:[Contacting NetApp Support]
+* xref:reference_element_api_getclusterfullthreshold.adoc[GetClusterFullThreshold]
+* xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]

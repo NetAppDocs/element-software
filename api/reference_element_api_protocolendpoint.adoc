@@ -64,6 +64,8 @@ The ID of the secondary protocol endpoint provider object for the protocol endpo
 a|
 integer
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listprotocolendpoints.adoc[ListProtocolEndpoints]

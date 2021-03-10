@@ -71,6 +71,7 @@ The VLAN tag identifier.
 a|
 integer
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listvirtualnetworks.adoc[ListVirtualNetworks]

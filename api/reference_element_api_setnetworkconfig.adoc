@@ -83,8 +83,7 @@ The response from this method is the same as the response from the GetNetworkCon
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]
-
-xref:reference_element_api_response_example_getnetworkconfig.adoc[GetNetworkConfig]
+* xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]
+* xref:reference_element_api_response_example_getnetworkconfig.adoc[GetNetworkConfig]

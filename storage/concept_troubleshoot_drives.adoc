@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_troubleshoot_drives.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can replace a failed solid-state drive \(SSD\) with a replacement drive. SSDs for SolidFire storage nodes are hot-swappable. If you suspect an SSD has failed, contact NetApp Support to verify the failure and walk you through the proper resolution procedure. NetApp Support also works with you to get a replacement drive according to your service-level agreement.'
 ---
 = Troubleshoot drives
@@ -25,14 +25,12 @@ If a drive fails, Double Helix redistributes the data on the drive across the no
 
 IMPORTANT: SolidFire storage systems do not support removal of a drive if it results in an insufficient amount of storage to migrate data.
 
-*Related information*
+== For more information
 
-xref:task_troubleshoot_remove_failed_drives.adoc[Remove failed drives from the cluster]
-
-xref:concept_troubleshoot_basic_mdss_drive_troubleshooting.adoc[Basic MDSS drive troubleshooting]
-
-xref:task_troubleshoot_remove_mdss_drives.adoc[Remove MDSS drives]
-
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2844771[Replacing drives for SolidFire storage nodes]
-
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2846859[Replacing drives for H600S series storage nodes]
+* xref:task_troubleshoot_remove_failed_drives.adoc[Remove failed drives from the cluster]
+* xref:concept_troubleshoot_basic_mdss_drive_troubleshooting.adoc[Basic MDSS drive troubleshooting]
+* xref:task_troubleshoot_remove_mdss_drives.adoc[Remove MDSS drives]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2844771[Replacing drives for SolidFire storage nodes]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2846859[Replacing drives for H600S series storage nodes]
+*	link:hardware/concept_h410s_h610s_info.html[H410S and H610S hardware information]
+*	link:hardware/concept_sfseries_info.html[SF-series hardware information]

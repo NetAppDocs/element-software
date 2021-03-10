@@ -119,7 +119,7 @@ The node's role in the cluster. Possible values:
 * Witness
 
 a|
- 
+
 a|
 sip
 a|
@@ -151,8 +151,9 @@ Object containing virtual network IP addresses and IDs.
 a|
 xref:reference_element_api_virtualnetwork.adoc[virtualNetwork] array
 |===
-*Related information*
 
-xref:reference_element_api_listactivenodes.adoc[ListActiveNodes]
 
-xref:reference_element_api_listallnodes.adoc[ListAllNodes]
+== Find more information
+
+* xref:reference_element_api_listactivenodes.adoc[ListActiveNodes]
+* xref:reference_element_api_listallnodes.adoc[ListAllNodes]

@@ -120,12 +120,9 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_adddrives.adoc[AddDrives]
-
-xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
-
-xref:reference_element_api_listallnodes.adoc[ListAllNodes]
-
-xref:reference_element_api_modifyvirtualnetwork.adoc[ModifyVirtualNetwork]
+* xref:reference_element_api_adddrives.adoc[AddDrives]
+* xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
+* xref:reference_element_api_listallnodes.adoc[ListAllNodes]
+* xref:reference_element_api_modifyvirtualnetwork.adoc[ModifyVirtualNetwork]

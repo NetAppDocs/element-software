@@ -149,6 +149,7 @@ The type of sync operation. Possible values:
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]

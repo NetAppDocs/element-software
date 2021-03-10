@@ -120,8 +120,8 @@ The type of fault. Possible values:
 a|
 string
 |===
-*Related information*
 
-xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
+== Find more information 
 
-xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]
+* xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
+* xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]

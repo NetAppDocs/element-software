@@ -78,6 +78,6 @@ This method has no return values.
 
 10.0
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_breaksnapmirrorrelationship.adoc[BreakSnapMirrorRelationship]

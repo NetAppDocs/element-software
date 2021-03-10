@@ -133,6 +133,8 @@ The unique ID of the node.
 a|
 UUID
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_gethardwareinfo.adoc[GetHardwareInfo]

@@ -48,6 +48,8 @@ The desired minimum 4KB IOPS to guarantee. The allowed IOPS will only drop below
 a|
 integer
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

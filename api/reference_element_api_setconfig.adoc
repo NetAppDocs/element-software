@@ -91,10 +91,8 @@ The response from this method is the same as the return for the GetConfig method
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]
-
-xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]
-
-xref:reference_element_api_response_example_getconfig.adoc[GetConfig]
+* xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]
+* xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]
+* xref:reference_element_api_response_example_getconfig.adoc[GetConfig]

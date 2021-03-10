@@ -97,6 +97,8 @@ The unique ID of the task.
 a|
 UUID
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listvirtualvolumetasks.adoc[ListVirtualVolumeTasks]

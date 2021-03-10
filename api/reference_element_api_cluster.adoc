@@ -207,6 +207,7 @@ No
 a|
 No
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_getclusterconfig.adoc[GetClusterConfig]

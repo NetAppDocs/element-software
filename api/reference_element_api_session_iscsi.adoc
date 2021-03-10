@@ -151,6 +151,8 @@ Identifies the volume object associated with the iSCSI session, if any.
 a|
 integer
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listiscsisessions.adoc[ListISCSISessions]

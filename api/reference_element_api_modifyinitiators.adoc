@@ -118,8 +118,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_createinitiators.adoc[CreateInitiators]
-
-xref:reference_element_api_deleteinitiators.adoc[DeleteInitiators]
+* xref:reference_element_api_createinitiators.adoc[CreateInitiators]
+* xref:reference_element_api_deleteinitiators.adoc[DeleteInitiators]

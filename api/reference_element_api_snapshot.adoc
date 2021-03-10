@@ -152,6 +152,8 @@ The name of the volume at the time the snapshot was created.
 a|
 string
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listsnapshots.adoc[ListSnapshots]

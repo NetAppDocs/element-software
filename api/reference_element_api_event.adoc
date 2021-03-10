@@ -122,6 +122,6 @@ The following list describes the possible event types that the eventInfoType mem
 * unexpectedException: Events related to unexpected errors.
 * vasaProviderEvent: Events related to a VMware VASA provider.
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_listevents.adoc[ListEvents]

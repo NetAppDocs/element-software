@@ -131,7 +131,7 @@ This method returns a response similar to the following example:
    "result": {
 	  "status" : "running",
 	  "url" : "https://10.10.23.47:8443/"
-    }		
+    }
 }
 ----
 
@@ -139,8 +139,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_startbulkvolumeread.adoc[StartBulkVolumeRead]
-
-xref:reference_element_api_startbulkvolumewrite.adoc[StartBulkVolumeWrite]
+* xref:reference_element_api_startbulkvolumeread.adoc[StartBulkVolumeRead]
+* xref:reference_element_api_startbulkvolumewrite.adoc[StartBulkVolumeWrite]

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_assign_replication_source_and_target_to_paired_volumes.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After volumes are paired, you must assign a source volume and its replication target volume. A replication source or target can be either volume in a volume pair. You can also use this procedure to redirect data sent to a source volume to a remote target volume should the source volume become unavailable.'
 ---
 = Assign a replication source and target to paired volumes
@@ -32,8 +32,7 @@ IMPORTANT: If you assign an existing volume as the replication target, the data 
 
  .. Click *Save Changes*.
 
-*Related information*
+== Find more information
 
-xref:task_replication_pair_volumes_using_a_volume_id.adoc[Pair volumes using a volume ID]
-
-xref:task_replication_pair_volumes_using_a_pairing_key.adoc[Pair volumes using a pairing key]
+* xref:task_replication_pair_volumes_using_a_volume_id.adoc[Pair volumes using a volume ID]
+* xref:task_replication_pair_volumes_using_a_pairing_key.adoc[Pair volumes using a pairing key]

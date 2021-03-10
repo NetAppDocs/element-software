@@ -110,6 +110,6 @@ Example of a missing static route.
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]

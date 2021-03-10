@@ -92,6 +92,7 @@ The LDAP filter used.
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_getldapconfiguration.adoc[GetLdapConfiguration]

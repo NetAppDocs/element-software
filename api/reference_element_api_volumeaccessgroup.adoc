@@ -60,6 +60,7 @@ A list of VolumeIDs belonging to the volume access group.
 a|
 integer array
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listvolumeaccessgroups.adoc[ListVolumeAccessGroups]

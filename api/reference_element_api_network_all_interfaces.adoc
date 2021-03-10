@@ -42,8 +42,9 @@ Configuration information for the loopback interface.
 a|
 xref:reference_element_api_network_local_interfaces.adoc[network (local interfaces)]
 |===
-*Related information*
 
-xref:reference_element_api_getconfig.adoc[GetConfig]
 
-xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]
+== Find more information 
+
+* xref:reference_element_api_getconfig.adoc[GetConfig]
+* xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]

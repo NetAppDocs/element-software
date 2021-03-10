@@ -49,6 +49,6 @@ Due to the length of this response example, it is documented in a supplementary 
 
 11.0
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_response_example_getlldpinfo.adoc[GetLldpInfo]

@@ -155,12 +155,9 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_addinitiatorstovolumeaccessgroup.adoc[AddInitiatorsToVolumeAccessGroup]
-
-xref:reference_element_api_addvolumestovolumeaccessgroup.adoc[AddVolumesToVolumeAccessGroup]
-
-xref:reference_element_api_removeinitiatorsfromvolumeaccessgroup.adoc[RemoveInitiatorsFromVolumeAccessGroup]
-
-xref:reference_element_api_removevolumesfromvolumeaccessgroup.adoc[RemoveVolumesFromVolumeAccessGroup]
+* xref:reference_element_api_addinitiatorstovolumeaccessgroup.adoc[AddInitiatorsToVolumeAccessGroup]
+* xref:reference_element_api_addvolumestovolumeaccessgroup.adoc[AddVolumesToVolumeAccessGroup]
+* xref:reference_element_api_removeinitiatorsfromvolumeaccessgroup.adoc[RemoveInitiatorsFromVolumeAccessGroup]
+* xref:reference_element_api_removevolumesfromvolumeaccessgroup.adoc[RemoveVolumesFromVolumeAccessGroup]

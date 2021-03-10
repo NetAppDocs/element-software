@@ -70,6 +70,7 @@ A list of IDs of the virtual volumes associated with the storage container.
 a|
 UUID array
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainers]

@@ -81,6 +81,7 @@ Current status of the snapshot. Possible values:
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listgroupsnapshots.adoc[ListGroupSnapshots]

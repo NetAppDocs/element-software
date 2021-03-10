@@ -17,6 +17,6 @@ You have cluster administrator privileges.
 . In the Cluster Full Settings section, enter a percentage in *Raise a warning alert when _% capacity remains before Helix could not recover from a node failure*.
 . Click *Save Changes*.
 
-*Related information*
+== Find more information
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element[How are the blockSpace thresholds calculated for Element]
+https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element[How are the blockSpace thresholds calculated for Element^]

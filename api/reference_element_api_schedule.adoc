@@ -155,6 +155,8 @@ Indicates the days of the week that a snapshot will be made.
 a|
 array
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listschedules.adoc[ListSchedules]

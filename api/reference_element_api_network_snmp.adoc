@@ -47,6 +47,8 @@ This member, along with the cidr member, controls which network the access and c
 a|
 string
 |===
-*Related information*
+
+
+== Find more information
 
 xref:reference_element_api_getsnmpinfo.adoc[GetSnmpInfo]

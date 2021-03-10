@@ -57,6 +57,7 @@ The type of credentials required for this user. Possible values:
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_setsnmpinfo.adoc[SetSnmpInfo]

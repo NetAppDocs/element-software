@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_clusters.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You must pair two clusters as a first step to using real-time replication functionality. After you pair and connect two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing continuous data protection \(CDP\).'
 ---
 = Pair clusters for replication
@@ -21,6 +21,6 @@ NOTE: Cluster pairing requires full connectivity between nodes on the management
 
 You can pair one cluster with up to four other clusters for replicating volumes. You can also pair clusters within the cluster group with each other.
 
-*Related information*
+== Find more information 
 
 xref:reference_prereq_network_port_requirements.adoc[Network port requirements]
