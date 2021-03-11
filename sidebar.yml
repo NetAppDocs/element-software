@@ -1087,6 +1087,8 @@ entries:
       url: "/api/reference_element_api_getnodesslcertificate.html"
     - title: GetNodeSupportedTlsCiphers
       url: "/api/reference_element_api_getnodesupportedtlsciphers.html"
+    - title: GetPatchInfo
+      url: /api/reference_element_api_getpatchinfo.html
     - title: GetPendingOperation
       url: "/api/reference_element_api_getpendingoperation.html"
     - title: GetSshInfo
