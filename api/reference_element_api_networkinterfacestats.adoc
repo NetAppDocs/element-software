@@ -9,7 +9,7 @@ summary: 'The networkInterfaceStats object contains network statistics and error
 :imagesdir: ../media/
 
 [.lead]
-The networkInterfaceStats object contains network statistics, the total number of transmitted and received packets, and error information for individual network interfaces on a storage node.
+The networkInterfaceStats object contains network statistics, the total number of transmitted and received packets, and error information for individual network interfaces on a storage node. You can use the `ListNetworkInterfaceStats` API method to list this information for the network interfaces on a storage node.
 
 == Object members
 
