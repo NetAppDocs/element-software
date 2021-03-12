@@ -729,6 +729,8 @@ entries:
       url: "/api/reference_element_api_network_snmp.html"
     - title: networkInterface
       url: "/api/reference_element_api_networkinterface.html"
+    - title: networkInterfaceStats
+      url: "/api/reference_element_api_networkinterfacestats.html"
     - title: node
       url: "/api/reference_element_api_node.html"
     - title: nodeProtectionDomains
@@ -1097,6 +1099,8 @@ entries:
       url: "/api/reference_element_api_listdrivehardware.html"
     - title: ListNetworkInterfaces
       url: "/api/reference_element_api_listnetworkinterfaces.html"
+    - title: ListNetworkInterfaceStats
+      url: "/api/reference_element_api_listnetworkinterfacestats.html"
     - title: ListTests
       url: "/api/reference_element_api_listtests.html"
     - title: ListUtilities
