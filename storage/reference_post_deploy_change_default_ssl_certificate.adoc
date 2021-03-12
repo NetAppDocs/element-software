@@ -15,7 +15,7 @@ When a NetApp Element software cluster is created, the cluster creates a unique 
 
 You can use the following API methods to get more information about the default SSL certificate and make changes.
 
-For information about each method, see the link:api/index.html[NetApp Element Software API Reference].
+For information about each method, see the link:../api/index.html[NetApp Element Software API Reference].
 
 * *GetSSLCertificate*
 +

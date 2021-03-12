@@ -23,6 +23,7 @@ You can add nodes to SolidFire Enterprise SDS (SolidFire eSDS) clusters or to Ne
 
 SolidFire eSDS nodes are denoted with a Node type prefix of "`SFc`", for example, "`SFc100.`"
 
+.Steps
 . Select *Cluster* > *Nodes*.
 . Click *Pending* to view the list of pending nodes.
 +
@@ -38,6 +39,6 @@ For nodes that are not SolidFire eSDS nodes, SolidFire installs the Element soft
 +
 The node appears in the list of active nodes.
 
-== Find more information 
+== Find more information
 
-xref:concept_system_manage_nodes_node_versioning_and_compatibility.html[Node versioning and compatibility]
+xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[Node versioning and compatibility]

@@ -87,9 +87,9 @@ You can configure storage system integration with an existing LDAP server. This 
 
 You can configure LDAP with either the Element user interface or the Element API. This procedure describes how to configure LDAP using the Element API.
 
-To leverage LDAP authentication on a SolidFire cluster, you enable LDAP authentication first on the cluster using theEnableLdapAuthentication API method.
+To leverage LDAP authentication on a SolidFire cluster, you enable LDAP authentication first on the cluster using the `EnableLdapAuthentication` API method.
 
-. Enable LDAP authentication first on the cluster using theEnableLdapAuthentication API method.
+. Enable LDAP authentication first on the cluster using the `EnableLdapAuthentication` API method.
 . Enter the required information.
 +
 ----
@@ -113,6 +113,7 @@ To leverage LDAP authentication on a SolidFire cluster, you enable LDAP authenti
 
 . Change the values of the following parameters:
 +
+[cols=2*,options="header"]
 |===
 | Parameters used| Description
 a|
@@ -170,43 +171,37 @@ View LDAP information on the LDAP page on the Cluster tab.
 
 NOTE: You must enable LDAP to view these LDAP configuration settings.
 
+. To view LDAP details with the Element UI, click *Cluster* > *LDAP*.
++
 * *Host Name/IP Address*: Address of an LDAP or LDAPS directory server.
-
 * *Auth Type*: The user authentication method. Possible values:
-
  ** Direct Bind
  ** Search And Bind
-
 * *Search Bind DN*: A fully qualified DN to log in with to perform an LDAP search for the user (needs bind-level access to the LDAP directory).
-
 * *Search Bind Password*: Password used to authenticate access to the LDAP server.
-
 * *User Search Base DN*: The base DN of the tree used to start the user search. The system searches the subtree from the specified location.
-
 * *User Search Filter*: Enter the following using your domain name:
 +
 `(&(objectClass=person)(|(sAMAccountName=%USERNAME%)(userPrincipalName=%USERNAME%)))`
 
 * *Group Search Type*: Type of search that controls the default group search filter used. Possible values:
-
  ** Active Directory: Nested membership of all of a user's LDAP groups.
  ** No Groups: No group support.
  ** Member DN: Member DN-style groups (single-level).
-
 * *Group Search Base DN*: The base DN of the tree used to start the group search. The system searches the subtree from the specified location.
-
 * *Test User Authentication*: After LDAP is configured, use this to test the user name and password authentication for the LDAP server. Enter an account that already exists to test this. The distinguished name and user group information appears, which you can copy for later use when creating cluster administrators.
 
 
 == Test the LDAP configuration
 
-After configuring LDAP, you should test it by using either the Element UI or the Element API TestLdapAuthentication method.
+After configuring LDAP, you should test it by using either the Element UI or the Element API `TestLdapAuthentication` method.
 
 . To test the LDAP configuration with the Element UI, do the following:
  .. Click *Cluster* > *LDAP*.
  .. Click *Test LDAP Authentication*.
  .. Resolve any issues by using the information in the table below:
 +
+[cols=2*,options="header"]
 |===
 | Error message| Description
 a|

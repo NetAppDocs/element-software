@@ -32,14 +32,14 @@ link:../api/reference_element_api_testkeyproviderkmip.html[TestKeyProviderKmip]
 +
 If the test fails, verify your server connectivity and configuration. Then repeat the test.
 . Do one of the following as a next step for encryption at rest:
-.. (For hardware encryption at rest) Enable link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html#encryption-at-rest-(hardware)[hardware encryption at rest] by providing the ID of the key provider that contains the key server used for storing the keys by calling the link:../api/reference_element_api_enableencryptionatrest.html[EnableEncryptionAtRest] API method.
+.. (For hardware encryption at rest) Enable link:../concepts/concept_solidfire_concepts_security.html[hardware encryption at rest] by providing the ID of the key provider that contains the key server used for storing the keys by calling the link:../api/reference_element_api_enableencryptionatrest.html[EnableEncryptionAtRest] API method.
 +
 NOTE: You must enable encryption at rest via the link:../api/reference_element_api_enableencryptionatrest.html[API]. Enabling encryption at rest using the existing Element UI button will cause the feature to revert to using internally generated keys.
 
-.. (For software encryption at rest) In order for link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html#encryption-at-rest-(software)[software encryption at rest] to utilize the newly created key provider, pass the key provider ID to the link:../api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html[RekeySoftwareEncryptionAtRestMasterKey] API method.
+.. (For software encryption at rest) In order for link:../concepts/concept_solidfire_concepts_security.html[software encryption at rest] to utilize the newly created key provider, pass the key provider ID to the link:../api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html[RekeySoftwareEncryptionAtRestMasterKey] API method.
 
 [discrete]
 == Find more information
-* link:storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[Enable and disable encryption for a cluster]
+* link:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[Enable and disable encryption for a cluster]
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

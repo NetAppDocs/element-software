@@ -22,4 +22,4 @@ You can enable VRF only at the time of creating a VLAN. If you want to switch ba
 
 == Find more information
 
-xref:task_system_manage_virtual_add_a_virtual_network.html[Add a virtual network]
+xref:task_system_manage_virtual_add_a_virtual_network.adoc[Add a virtual network]

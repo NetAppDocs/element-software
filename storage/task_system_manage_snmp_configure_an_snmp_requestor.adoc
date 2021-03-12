@@ -24,5 +24,5 @@ NOTE: By default, the community string is public, and the network is localhost. 
 
 == Find more information
 
-* xref:task_system_manage_snmp_configure_snmp_traps.html[Configure SNMP traps]
-* xref:task_system_manage_snmp_view_managed_object_data.html[View managed object data using management information base files]
+* xref:task_system_manage_snmp_configure_snmp_traps.adoc[Configure SNMP traps]
+* xref:task_system_manage_snmp_view_managed_object_data.adoc[View managed object data using management information base files]

@@ -22,4 +22,4 @@ Steps to clear:
 . Add the drives again.
 . After 3 to 4 minutes, check that the `sliceServiceUnhealthy` fault has cleared.
 
-See link:reference_monitor_cluster_fault_codes.md#[cluster fault codes] for more information. 
+See link:reference_monitor_cluster_fault_codes.html[cluster fault codes] for more information. 

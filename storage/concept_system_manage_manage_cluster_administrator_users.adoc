@@ -28,14 +28,13 @@ NOTE: A local (non-LDAP) cluster administrator account is required to access act
 
 == View cluster admin details
 
-On the Cluster Admins page of the Users tab, you can view the following information.
-
+. To create a cluster-wide (non-LDAP) cluster administrator account, perform the following actions:
+ .. Click *Users* > *Cluster Admins*.
+. On the Cluster Admins page of the Users tab, you can view the following information.
++
 * *ID*: Sequential number assigned to the cluster administrator account.
-
 * *Username*: The name given to the cluster administrator account when it was created.
-
 * *Access*: The user permissions assigned to the user account. Possible values:
-
  ** read
  ** reporting
  ** nodes
@@ -49,10 +48,8 @@ On the Cluster Admins page of the Users tab, you can view the following informat
 NOTE: All permissions are available to the administrator access type.
 
 * *Type*: The type of cluster administrator. Possible values:
-
  ** Cluster
  ** Ldap
-
 * *Attributes*: If the cluster administrator account was created using the Element API, this column shows any name-value pairs that were set using that method.
 +
 See link:../api/index.html[NetApp Element Software API Reference].
@@ -111,7 +108,7 @@ You can change cluster administrator account privileges for reporting, nodes, dr
 
 You can use the Element UI to change cluster administrator passwords.
 
-NOTE: To change the password for the cluster administrator in the management node, see management node documentation. https://docs.netapp.com/us-en/hci/docs/task_mnode_work_overview.html[Management node overview]
+NOTE: To change the password for the cluster administrator in the management node, see the  link:concept_mnode_work_with_the_management_node.html[management node overview].
 
 . Click *Users* > *Cluster Admins*.
 . Click the Actions icon for the cluster administrator you want to edit.
@@ -121,7 +118,7 @@ NOTE: To change the password for the cluster administrator in the management nod
 
 
 == Find more information
-* link:task_system_manage_enable_ldap_authentication.adoc[Enable LDAP authentication with the Element user interface]
-* link:task_system_manage_disable_ldap.adoc[Disable LDAP]
+* link:task_system_manage_enable_ldap_authentication.html[Enable LDAP authentication with the Element user interface]
+* link:concept_system_manage_manage_ldap.html[Disable LDAP]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

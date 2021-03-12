@@ -11,7 +11,7 @@ summary: 'Virtual networking in SolidFire storage enables traffic between multip
 [.lead]
 Virtual networking in SolidFire storage enables traffic between multiple clients that are on separate logical networks to be connected to one cluster. Connections to the cluster are segregated in the networking stack through the use of VLAN tagging.
 
-== For more information
+== Find more information
 
 * xref:task_system_manage_virtual_add_a_virtual_network.adoc[Add a virtual network]
 * xref:task_system_manage_virtual_enable_virtual_routing_and_forwarding.adoc[Enable virtual routing and forwarding]
