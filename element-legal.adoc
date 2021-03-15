@@ -37,7 +37,7 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[^]
 
 Notice files provide information about third-party copyright and licenses.
 
-* link:./media/mgmt-2.17.56_notice.pdf[Notice for Management Services 2.17.56^]
+* link:./media/mgmt_2.17.56_notice.pdf[Notice for Management Services 2.17.56^]
 * link:./media/mgmt-217.pdf[Notice for Management Services 2.17.52^]
 * link:./media/mgmt-216.pdf[Notice for Management Services 2.16^]
 * link:./media/mgmt-214.pdf[Notice for Management Services 2.14^]
