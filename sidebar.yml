@@ -121,6 +121,8 @@ entries:
         url: /esds/task_esds_r640_drive_repl.html
       - title: Contents of the sf_sds_config.yaml file
         url: /esds/reference_esds_sf_sds_config_file.html
+      - title: Links to troubleshooting KB articles
+        url: /esds/reference_esds_troubleshoot_links.html
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
