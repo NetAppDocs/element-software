@@ -16,7 +16,7 @@ SolidFire offers different deployment options:
 
 * link:concepts/concept_solidfire_concepts_solidfire_architecture_overview.html[SolidFire all-flash storage overview]: Use storage nodes provided by NetApp and integrated with NetApp Element software.
 
-* link:esds/concept_get_started_esds.html[NetApp SolidFire Enterprise SDS]: Use your own server to run Element software by using containerized SolidFire eSDS.
+* link:esds/concept_get_started_esds.html[NetApp SolidFire Enterprise SDS]: Run containerized Element on your server that matches the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[reference configuration (login required)^] provided by NetApp .
 
 == Discover what's new
 * link:concepts/concept_rn_whats_new_element.html[What's new in Element software]
