@@ -9,7 +9,7 @@ summary: 'You can use the CreateSupportBundle to create a support bundle file un
 :imagesdir: ../media/
 
 [.lead]
-You can use the CreateSupportBundle to create a support bundle file under the node's directory. After creation, the bundle is stored on the node as a tar.gz file.
+You can use CreateSupportBundle to create a support bundle file under the node's directory. After creation, the bundle is stored on the node as a tar file (gz compression option is available via the extraArgs parameter.)
 
 == Parameters
 
@@ -31,7 +31,7 @@ No
 a|
 extraArgs
 a|
-This parameter is passed to the sf_make_support_bundle script. This parameter should be used only at the request of NetApp Support.
+Use '--compress gz' to create the support bundle as a tar.gz file.
 a|
 string
 a|
@@ -91,7 +91,8 @@ Requests for this method are similar to the following example:
 ----
 {
  "method": "CreateSupportBundle",
-"params": {}
+"params": {
+  "extraArgs": "--compress gz"
  },
 "id": 1
 }
@@ -107,17 +108,17 @@ This method returns a response similar to the following example:
 "result": {
   "details": {
     "bundleName": "supportbundle",
-    "extraArgs": "",
+    "extraArgs": "--compress gz",
     "files": [
-         "supportbundle.SF-D220.tar.gz"
+         "supportbundle.nodehostname.tar.gz"
      ],
-     "output": "timeout -s KILL 1500s /sf/scripts/sf_make_support_bundle --quiet /tmp/solidfire- dtemp.bYRag7/supportbundle timeout -s KILL 1500s pigz --verbose --fast \"/tmp/solidfire-dtemp.bYRag7/supportbundle.*.tar\" /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar to /tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz Moved '/tmp/solidfire-dtemp.bYRag7/supportbundle.SF-D220.tar.gz' to /tmp/supportbundles",
+     "output": "timeout -s KILL 1500s /sf/scripts/sfsupportbundle --quiet --compress gz /tmp/solidfire-dtemp.1L6bdX/supportbundle<br><br>Moved '/tmp/solidfire-dtemp.1L6bdX/supportbundle.nodehostname.tar.gz' to /tmp/supportbundles",
       "timeoutSec": 1500,
       "url": [
-          "https://192.168.130.155:442/config/supportbundles/supportbundle.SF-D220.tar.gz"
+          "https://nodeIP:442/config/supportbundles/supportbundle.nodehostname.tar.gz"
       ]
     },
-    "duration": "00:00:21.166692",
+    "duration": "00:00:43.101627",
     "result": "Passed"
   }
 }
