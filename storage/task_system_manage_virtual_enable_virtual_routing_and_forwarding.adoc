@@ -17,7 +17,7 @@ You can enable VRF only at the time of creating a VLAN. If you want to switch ba
 . To enable VRF on a new VLAN, select *Create VLAN*.
  .. Enter relevant information for the new VRF/VLAN. See Adding a virtual network.
  .. Select the *Enable VRF* check box.
- .. Enter a gateway.
+ .. *Optional*: Enter a gateway.
 . Click *Create VLAN*.
 
 == Find more information

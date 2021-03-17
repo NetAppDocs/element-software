@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_edit_a_snapshot_schedule.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can modify existing snapshot schedules. After modification, the next time the schedule runs it uses the updated attributes. Any snapshots created by the original schedule remain on the storage system.'
 ---
 = Editing a snapshot schedule
@@ -20,12 +20,12 @@ You can modify existing snapshot schedules. After modification, the next time th
  ** To resume a paused schedule, select *No* from the *Manually Pause Schedule* list.
 . Enter a different name for the schedule in the *New Schedule Name* field if desired.
 . To change the schedule to run on different days of the week or month, select *Schedule Type* and change the schedule from the options provided.
-. Select *Recurring Schedule* to repeat the snapshot schedule indefinitely.
-. Enter or modify the name for the new snapshot in the *New Snapshot Name* field.
+. *Optional:* Select *Recurring Schedule* to repeat the snapshot schedule indefinitely.
+. *Optional:* Enter or modify the name for the new snapshot in the *New Snapshot Name* field.
 +
 If you leave the field blank, the system uses the time and date of the snapshot's creation as the name.
 
-. Select the *Include Snapshots in Replication When Paired* check box to ensure that the snapshots are captured in replication when the parent volume is paired.
+. *Optional:* Select the *Include Snapshots in Replication When Paired* check box to ensure that the snapshots are captured in replication when the parent volume is paired.
 . To change the retention setting, select from the following options:
  ** Click *Keep Forever* to retain the snapshot on the system indefinitely.
  ** Click *Set Retention Period* and use the date spin boxes to select a length of time for the system to retain the snapshot.

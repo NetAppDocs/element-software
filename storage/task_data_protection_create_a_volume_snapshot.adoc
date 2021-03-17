@@ -15,7 +15,7 @@ You can create a snapshot of an active volume to preserve the volume image at an
 . Click the Actions icon for the volume you want to use for the snapshot.
 . In the resulting menu, select *Snapshot*.
 . In the *Create Snapshot of Volume* dialog box, enter the new snapshot name.
-. Select the *Include Snapshot in Replication When Paired* check box to ensure that the snapshot is captured in replication when the parent volume is paired.
+. *Optional:* Select the *Include Snapshot in Replication When Paired* check box to ensure that the snapshot is captured in replication when the parent volume is paired.
 . To set the retention for the snapshot, select from one of the following options:
  ** Click *Keep Forever* to retain the snapshot on the system indefinitely.
  ** Click *Set Retention Period* and use the date spin boxes to choose a length of time for the system to retain the snapshot.
@@ -26,9 +26,9 @@ You can create a snapshot of an active volume to preserve the volume image at an
  .. Click *Create Snapshot Schedule*.
  .. Enter a *New Schedule Name*.
  .. Choose a *Schedule Type* from the list.
- .. Select the *Recurring Schedule* check box to repeat the scheduled snapshot periodically.
+ .. *Optional:* Select the *Recurring Schedule* check box to repeat the scheduled snapshot periodically.
  .. Click *Create Schedule*.
 
-== Find more information 
+== Find more information
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[Scheduling a snapshot]

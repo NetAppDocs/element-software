@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_back_up_a_volume_snapshot_to_openstack_swift.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can back up SolidFire snapshots to secondary object stores that are compatible with OpenStack Swift.'
 ---
 = Backing up a volume snapshot to an OpenStack Swift object store
@@ -22,5 +22,5 @@ You can back up SolidFire snapshots to secondary object stores that are compatib
 . Enter a *Username* for the account.
 . Enter the *Authentication Key* for the account.
 . Enter the *Container* in which to store the backup.
-. Enter a *Nametag*.
+. *Optional*: Enter a *Nametag*.
 . Click *Start Read*.

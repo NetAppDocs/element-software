@@ -21,7 +21,7 @@ You can also add iSCSI initiators to a volume access group; this gives the initi
 +
 NOTE: You can add or delete initiators at a later time.
 
-. Select and add an iSCSI initiator from the *Initiators* list.
+. *Optional:* Select and add an iSCSI initiator from the *Initiators* list.
 . To attach volumes to the access group, perform the following steps:
  .. Select a volume from the *Volumes* list.
  .. Click *Attach Volume*.

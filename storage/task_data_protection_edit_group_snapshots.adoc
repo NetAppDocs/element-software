@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_edit_group_snapshots.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can edit the replication and retention settings for existing group snapshots.'
 ---
 = Editing group snapshots
@@ -14,10 +14,10 @@ You can edit the replication and retention settings for existing group snapshots
 . Click *Data Protection* > *Group Snapshots*.
 . Click the Actions icon for the group snapshot you want to edit.
 . In the resulting menu, select *Edit*.
-. To change the replication setting for the group snapshot:
+. *Optional:* To change the replication setting for the group snapshot:
  .. Click *Edit* next to *Current Replication*.
  .. Select the *Include Each Group Snapshot Member in Replication When Paired* check box to ensure that each snapshot is captured in replication when the parent volume is paired.
-. To change the retention setting for the group snapshot, select from the following options:
+. *Optional:* To change the retention setting for the group snapshot, select from the following options:
  .. Click *Edit* next to *Current Retention*.
  .. Select a retention option for the group snapshot:
   *** Click *Keep Forever* to retain the snapshot on the system indefinitely.

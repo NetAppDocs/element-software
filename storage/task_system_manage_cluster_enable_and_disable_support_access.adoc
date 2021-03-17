@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_cluster_enable_and_disable_support_access.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can enable support access to temporarily allow NetApp support personnel access to storage nodes via SSH for troubleshooting.'
 ---
 = Enable and disable support access
@@ -18,4 +18,4 @@ NOTE: This feature is unavailable in SolidFire Enterprise SDS clusters.
 . Click *Cluster* > *Settings*.
 . In the Enable / Disable Support Access section, enter the duration (in hours) that you want to allow support to have access.
 . Click *Enable Support Access*.
-. To disable support access, click *Disable Support Access*.
+. *Optional:* To disable support access, click *Disable Support Access*.

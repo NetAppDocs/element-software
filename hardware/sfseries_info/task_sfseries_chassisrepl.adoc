@@ -68,7 +68,7 @@ NOTE: If you have a Fibre Channel node, you can skip this step.
 +
 You should package and return the failed chassis to NetApp.
 
-. Remove the rails and install the new rails that were shipped with your replacement chassis.
+. *Optional*: Remove the rails and install the new rails that were shipped with your replacement chassis.
 +
 You can choose to reuse the existing rails. If you are reusing the existing rails, you can skip this step.
 
@@ -83,7 +83,7 @@ NOTE: You should insert the drives in the same slots as they were in the failed 
 Small form-factor pluggable (SFP) transceivers might be inserted in the 10GbE ports of the replacement chassis. You should remove them before you cable the 10GbE ports.
 
 . If you have determined that you do not need to perform the RTFI process on the node, boot the node, and wait until the terminal user interface (TUI) appears. Proceed to step 16 and allow the cluster to re-image the node automatically when you add it by using the UI.
-. If NetApp Support recommends re-imaging the node with a USB key, perform the following substeps:
+. *Optional*: If NetApp Support recommends re-imaging the node with a USB key, perform the following substeps:
 .. Power on the chassis. It boots with the RTFI key image.
 .. At the first prompt, type *Y* to image the storage node.
 .. At the second prompt, type *N* for hardware health checks.

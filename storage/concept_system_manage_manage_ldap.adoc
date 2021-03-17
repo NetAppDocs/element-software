@@ -31,7 +31,7 @@ Enabling LDAP involves the following high-level steps, described in detail:
 Before you enable LDAP support in Element, you should set up a Windows Active Directory Server and perform other pre-configuration tasks.
 
 . Set up a Windows Active Directory Server.
-. Optional: Enable LDAPS support.
+. *Optional:* Enable LDAPS support.
 . Create users and groups.
 . Create a read-only service account (such as "`sfreadonly`") to be used for searching the LDAP directory.
 
@@ -54,7 +54,7 @@ NOTE: An optional custom port number can also be entered.
 +
 For example, to add a custom port number, enter <host name or ip address>:<port number>
 
-. Select *Use LDAPS Protocol*.
+. *Optional:* Select *Use LDAPS Protocol*.
 . Enter the required information in *General Settings*.
 +
 link:reference_system_manage_ldap_details.md#[LDAP details]

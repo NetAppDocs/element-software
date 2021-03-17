@@ -19,7 +19,7 @@ When SNMP version 2 is enabled, you can enable or disable a requestor, and confi
 +
 NOTE: By default, the community string is public, and the network is localhost. You can change these default settings.
 
-. To add another requestor, click *Add a Requestor* and enter the *Community String* and *Network* information.
+. *Optional:* To add another requestor, click *Add a Requestor* and enter the *Community String* and *Network* information.
 . Click *Save Changes*.
 
 == Find more information
