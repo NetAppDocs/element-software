@@ -124,7 +124,7 @@ entries:
       - title: Links to troubleshooting KB articles
         url: /esds/reference_esds_troubleshoot_links.html
       - title: Where to find container logs
-        url: /esds/reference_esds_containerlogs.html 
+        url: /esds/reference_esds_containerlogs.html
 - title: Set up storage
   url: /setup/concept_setup_overview.html
   entries:
@@ -160,8 +160,6 @@ entries:
     url: /setup/task_setup_configure_fqdn_web_ui_access.html
   - title: What's next?
     url: /setup/concept_setup_whats_next.html
-- title: Work with the management node
-  url: /storage/concept_mnode_work_with_the_management_node.html
 - title: Manage storage with Element software
   url: "/storage/index.html"
   entries:
@@ -619,8 +617,6 @@ entries:
         url: "/storage/task_per_node_run_system_tests.html"
       - title: Run system utilities using the per-node UI
         url: "/storage/task_per_node_run_system_utilities.html"
-    - title: Work with the management node
-      url: "/storage/concept_mnode_work_with_the_management_node.html"
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
   - title: Manage storage with NetApp Hybrid Cloud Control
@@ -1556,12 +1552,10 @@ entries:
       url: "/api/reference_element_api_response_example_testhardwareconfig.html"
 - title: Manage storage with the Element Plug-in for vCenter Server
   url: https://docs.netapp.com/us-en/vcp/
-- title: Upgrade storage nodes and management services
-  entries:
-  - title: Upgrade storage nodes
-    url: "/storage/concept_upgrade_storage_nodes.html"
-  - title: Update management services for Element storage-based installations
-    url: "/storage/concept_upgrade_update_management_services_for_element_storage_based_installations.html"
+- title: Work with the management node
+  url: /storage/concept_mnode_work_with_the_management_node.html
+- title: Upgrade Element storage system components
+  url: /storage/concept_upgrade_storage_components.html
 - title: Earlier versions
   url: /element-earlierversions.html
 - title: Legal notices
