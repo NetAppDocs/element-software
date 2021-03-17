@@ -1,0 +1,27 @@
+---
+permalink: esds/reference_esds_containerlogs.html
+sidebar: sidebar
+keywords: element, solidfire esds, get container logs, sds containers
+summary: Learn more about the SolidFire eSDS containers and where to get the logs associated with them.
+---
+= Where to find container logs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn more about the SolidFire eSDS containers and where to get the logs associated with them.
+
+SolidFire eSDS includes the following containers:
+
+* Element container (`element`): Hosts all of the Element services (slice, block, master) in a single container.
+* Element auth container (`element_auth`): Provides multifactor authentication (MFA) and other authentication features that Element does not natively support.
+* Network watchdog container (`sfnetwd`): Handles crashes and other scenarios where the Element cluster master goes down without removing the virtual IPs (MVIP, SVIP, vSVIP). If the watchdog does not receive a heartbeat from the local Element instance for a given period of time, it tears down all of the virtual IPs so that there is no IP conflict with a new master taking over and bringing up the VIPs on another node. This is run in a separate container to give it crash isolation from the Element processes as well as the entire Element container.
+
+You can check the status of one or more containers by using the `podman ps` command. [Need more info here.]
+
+All of the logs related to SolidFire eSDS can be found in `/var/log/solidfire/` on the host, which is persisted across container instances. This directory contains the logs from the Element container, and contains the `element_auth/` and `sfnetwd/` subdirectories, which contain the logs from the `element_auth` and `sfnetwd` containers, respectively.
+From inside a container, you can access container-specific logs at `var/log/`.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

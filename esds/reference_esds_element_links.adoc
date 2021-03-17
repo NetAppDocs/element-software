@@ -54,6 +54,10 @@ The following are Element API methods related to software encryption at rest (se
 *	`ModifySnapshot`
 *	`CreateGroupSnapshot`
 
+* _NEW!_ *Get information about Element software patches*: Element 12.3 introduces the `GetPatchInfo` method, which enables you to get information about Element software patches installed on a storage node. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
+
+* _NEW!_ *List statistics for each network interface on a node*: Element 12.3 introduces the `ListNetworkInterfaceStats` method, which enables you to list statistics, such as the number of dropped packets and various types of errors for each network interface on a node. This API method is intended for use on individual nodes; user ID and password authentication is required for access to individual nodes. However, you can use this method on the cluster if the parameter force is given the value true in the method call. When the parameter is used on the cluster, network statistics for all interfaces are listed. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
+
 * *APIs introduced and updated in Element 12.2 to support SolidFire eSDS*: Several new APIs were introduced in Element 12.2 that you can use on SolidFire eSDS clusters.
 
 Here is a list of new APIs in Element 12.2:
