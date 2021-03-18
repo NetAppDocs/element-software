@@ -19,6 +19,7 @@ SolidFire eSDS includes the following containers:
 
 To access the containers on an eSDS node via SSH, the owner of the node should enable SSH and provide the login credentials. After you have SSH access to the host system, you can check the status of one or more containers by using the `podman ps` command. See the example below:
 
+[source,console]
 ----
 # podman ps
 CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
@@ -27,6 +28,7 @@ c3fed6141259 localhost/solidfire-auth:12.2.0.777 --config /sf/etc/... 11 seconds
 1ffa8289c701 localhost/solidfire-element:12.2.0.777 --config /sf/etc/... 12 seconds ago Up 12 seconds ago element
 #
 ----
+
 Element software is controlled via the `solidfire systemd` service unit. This service uses `elementctl` to orchestrate software running in the three Element containers. Using `systemctl` to control the Solidfire service on the host is the recommended and supported way to start and stop Element software on any node.
 
 IMPORTANT: While you can use Podman to access the containers, you should not use Podman to directly control (stop or start) the containers.
