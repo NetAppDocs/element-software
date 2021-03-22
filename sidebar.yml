@@ -170,6 +170,8 @@ entries:
     entries:
     - title: Change the Element software default SSL certificate
       url: "/storage/reference_post_deploy_change_default_ssl_certificate.html"
+    - title: Change the IPMI password for nodes
+      url: "/storage/task_post_deploy_credential_change_ipmi_password.html"
   - title: Use basic options in the Element software UI
     url: "/storage/task_intro_use_basic_options_in_the_element_software_ui.html"
     entries:
