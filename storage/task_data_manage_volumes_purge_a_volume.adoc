@@ -13,7 +13,7 @@ When a volume is purged, it is permanently removed from the system. All data in 
 
 The system automatically purges deleted volumes eight hours after deletion. However, if you want to purge a volume before the scheduled time, you can do so.
 
-NOTE: If you purge a large number of volumes at one time, or if the volumes you purge each have many associated snapshots, the purge process might fail and return the error "xDBConnectionLoss", which would be visible in the API log in the Element web UI. If this happens, retry the purge again with fewer volumes.
+NOTE: If you purge a large number of volumes at one time, or if the volumes you purge each have many associated snapshots, the purge process might fail and return the error "xDBConnectionLoss", which would appear in the API log in the Element web UI. If this happens, retry the purge again with fewer volumes.
 
 . Select *Management* > *Volumes*.
 . Click the *Deleted* button.
