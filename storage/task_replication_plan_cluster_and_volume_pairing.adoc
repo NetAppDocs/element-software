@@ -11,6 +11,7 @@ summary: 'Real-time remote replication requires that you pair two storage cluste
 [.lead]
 Real-time remote replication requires that you pair two storage clusters running Element software, pair volumes on each cluster, and validate replication. After replication completes, you should delete the volume relationship.
 
+.What you'll need 
 * You must have cluster administrator privileges to one or both clusters being paired.
 * All node IP addresses on both management and storage networks for paired clusters are routed to each other.
 * MTU of all paired nodes must be the same and be supported end-to-end between clusters.

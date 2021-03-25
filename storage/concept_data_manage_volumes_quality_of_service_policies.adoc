@@ -15,6 +15,8 @@ NOTE: If you are using QoS policies, do not use custom QoS on a volume. Custom Q
 
 https://www.youtube.com/embed/q9VCBRDtrnI?rel=0[NetApp video: SolidFire Quality of Service Policies]
 
+See link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service.html[Performance and quality of service].
+
 * Create a QoS policy
 * Edit a QoS policy
 * Delete a QoS policy
@@ -29,8 +31,6 @@ You can create QoS policies and apply them when creating volumes.
 . Enter the**Min IOPS**, *Max IOPS*, and *Burst IOPS* values.
 . Click *Create QoS Policy*.
 
-
-== View QoS policy details
 
 
 == Edit a QoS policy

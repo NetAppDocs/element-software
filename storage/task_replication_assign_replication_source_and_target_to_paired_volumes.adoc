@@ -11,11 +11,13 @@ summary: 'After volumes are paired, you must assign a source volume and its repl
 [.lead]
 After volumes are paired, you must assign a source volume and its replication target volume. A replication source or target can be either volume in a volume pair. You can also use this procedure to redirect data sent to a source volume to a remote target volume should the source volume become unavailable.
 
+.What you'll need
 You have access to the clusters containing the source and target volumes.
 
+.Steps
 . Prepare the source volume:
  .. From the cluster that contains the volume you want to assign as source, select *Management* > *Volumes*.
- .. Click the Actions icon for the volume you want to assign as source and click *Edit*.
+ .. Click the *Actions* icon for the volume you want to assign as source and click *Edit*.
  .. In the *Access* drop-down list, select *Read/Write*.
 +
 IMPORTANT: If you are reversing source and target assignment, this action will cause the volume pair to display the following message until a new replication target is assigned: `PausedMisconfigured`

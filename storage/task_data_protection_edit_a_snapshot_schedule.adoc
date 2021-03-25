@@ -4,15 +4,16 @@ sidebar: sidebar
 keywords:
 summary: 'You can modify existing snapshot schedules. After modification, the next time the schedule runs it uses the updated attributes. Any snapshots created by the original schedule remain on the storage system.'
 ---
-= Editing a snapshot schedule
+= Edit a snapshot schedule
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can modify existing snapshot schedules. After modification, the next time the schedule runs it uses the updated attributes. Any snapshots created by the original schedule remain on the storage system.
 
+.Steps
 . Click *Data Protection* > *Schedules*.
-. Click the Actions icon for the schedule you want to change.
+. Click the *Actions* icon for the schedule you want to change.
 . In the resulting menu, click *Edit*.
 . In the *Volume IDs CSV* field, modify the single volume ID or comma-separated list of volume IDs currently included in the snapshot operation.
 . To pause or resume the schedule, select from the following options:

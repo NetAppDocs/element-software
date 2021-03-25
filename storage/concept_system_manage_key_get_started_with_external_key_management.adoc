@@ -13,6 +13,10 @@ External key management (EKM) provides secure Authentication Key (AK) management
 
 NOTE: Only software encryption at rest is available for SolidFire Enterprise SDS clusters.
 
+* link:task_system_manage_key_set_up_external_key_management.html[Set up external management]
+* link:concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys[Recover inaccessible or invalid authentication keys]
+* link:concept_system_manage_key_external_key_management_api_commands.html[External key management API commands]
+
 
 [discrete]
 == Find more information

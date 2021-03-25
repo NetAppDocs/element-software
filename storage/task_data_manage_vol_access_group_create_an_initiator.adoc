@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_create_an_initiator.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can create iSCSI or Fibre Channel initiators and optionally assign them aliases.'
 ---
 = Create an initiator
@@ -11,16 +11,17 @@ summary: 'You can create iSCSI or Fibre Channel initiators and optionally assign
 [.lead]
 You can create iSCSI or Fibre Channel initiators and optionally assign them aliases.
 
-You can also assign initator-based CHAP attributes by using an API call. To add a CHAP account name and credentials per initiator, you must use the CreateInitiator API call to remove and add CHAP access and attributes. Initiator access can be restricted to one or more VLANs by specifying one or more virtualNetworkIDs via the CreateInitiators and ModifyInitiators API calls. If no virtual networks are specified, the initiator can access all networks.
+You can also assign initator-based CHAP attributes by using an API call. To add a CHAP account name and credentials per initiator, you must use the `CreateInitiator` API call to remove and add CHAP access and attributes. Initiator access can be restricted to one or more VLANs by specifying one or more virtualNetworkIDs via the `CreateInitiators` and `ModifyInitiators` API calls. If no virtual networks are specified, the initiator can access all networks.
 
 For details, see the API reference information.
+https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Manage storage with the Element API]
 
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
-
+.Steps 
 . Click *Management* > *Initiators*.
 . Click *Create Initiator*.
 . Perform the steps to create a single initiator or multiple initiators:
 +
+[cols=2*,options="header", cols="25,75"]
 |===
 | Option| Steps
 a|

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can back up SolidFire snapshots to secondary object stores that are compatible with OpenStack Swift.'
 ---
-= Backing up a volume snapshot to an OpenStack Swift object store
+= Back up a volume snapshot to an OpenStack Swift object store
 :icons: font
 :imagesdir: ../media/
 
@@ -12,7 +12,7 @@ summary: 'You can back up SolidFire snapshots to secondary object stores that ar
 You can back up SolidFire snapshots to secondary object stores that are compatible with OpenStack Swift.
 
 . Click *Data Protection* > *Snapshots*.
-. Click the Actions icon for the snapshot you want to back up.
+. Click the *Actions* icon for the snapshot you want to back up.
 . In the resulting menu, click *Backup to*.
 . In the *Integrated Backup* dialog box, under *Backup to*, select *Swift*.
 . Select an option under *Data Format*:

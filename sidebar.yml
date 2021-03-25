@@ -303,22 +303,8 @@ entries:
       entries:
       - title: Manage Quality of Service policies
         url: "/storage/concept_data_manage_volumes_quality_of_service_policies.html"
-      - title: Create a volume
+      - title: Manage volumes
         url: "/storage/task_data_manage_volumes_create_a_volume.html"
-      - title: Volume details
-        url: "/storage/reference_data_manage_volumes_volume_details.html"
-      - title: View individual volume performance details
-        url: "/storage/task_data_manage_volumes_view_individual_volume_performance_details.html"
-      - title: Edit active volumes
-        url: "/storage/task_data_manage_volumes_edit_active_volumes.html"
-      - title: Delete a volume
-        url: "/storage/task_data_manage_volumes_delete_a_volume.html"
-      - title: Restore a deleted volume
-        url: "/storage/task_data_manage_volumes_restore_a_deleted_volume.html"
-      - title: Purge a volume
-        url: "/storage/task_data_manage_volumes_purge_a_volume.html"
-      - title: Clone a volume
-        url: "/storage/task_data_manage_volumes_clone_a_volume.html"
       - title: Assign LUNs to Fibre Channel volumes
         url: "/storage/task_data_manage_volumes_assign_luns_to_fibre_channel_volumes.html"
       - title: Apply a QoS policy to volumes
@@ -330,27 +316,12 @@ entries:
       entries:
       - title: Enable virtual volumes
         url: "/storage/task_data_manage_vvol_enable_virtual_volumes.html"
-      - title: Viewing virtual volume details
+      - title: View virtual volume details
         url: "/storage/task_data_manage_vvol_view_virtual_volume_details.html"
-      - title: Virtual volume details
-        url: "/storage/reference_data_manage_vvol_virtual_volume_details.html"
-      - title: Individual virtual volume details
-        url: "/storage/reference_data_manage_vvol_individual_virtual_volume_details.html"
       - title: Delete a virtual volume
         url: "/storage/task_data_manage_vvol_delete_a_virtual_volume.html"
       - title: Manage storage containers
         url: "/storage/concept_data_manage_vvol_manage_storage_containers.html"
-        entries:
-        - title: Create a storage container
-          url: "/storage/task_data_manage_vvol_create_a_storage_container.html"
-        - title: Storage container details
-          url: "/storage/reference_data_manage_vvol_storage_container_details.html"
-        - title: Individual storage container details
-          url: "/storage/reference_data_manage_vvol_individual_storage_container_details.html"
-        - title: Edit a storage container
-          url: "/storage/task_data_manage_vvol_edit_a_storage_container.html"
-        - title: Delete a storage container
-          url: "/storage/task_data_manage_vvol_delete_a_storage_container.html"
       - title: Protocol endpoints
         url: "/storage/concept_data_manage_vvol_protocol_endpoints.html"
         entries:
@@ -368,8 +339,6 @@ entries:
       entries:
       - title: Create a volume access group
         url: "/storage/task_data_manage_vol_access_group_create_a_volume_access_group.html"
-      - title: Volume access group details
-        url: "/storage/reference_data_manage_vol_access_group_details.html"
       - title: View individual access group details
         url: "/storage/task_data_manage_vol_access_group_view_individual_access_group_details.html"
       - title: Add volumes to an access group

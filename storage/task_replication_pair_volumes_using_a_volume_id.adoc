@@ -11,6 +11,7 @@ summary: 'You can pair a volume with another volume on a remote cluster if you h
 [.lead]
 You can pair a volume with another volume on a remote cluster if you have cluster administrator credentials for the remote cluster.
 
+.What you'll need
 * Ensure that the clusters containing the volumes are paired.
 * Create a new volume on the remote cluster.
 +
@@ -18,8 +19,9 @@ NOTE: You can assign a replication source and target after the pairing process. 
 
 * Know the target Volume ID.
 
+.Steps
 . Select *Management* > *Volumes*.
-. Click the Actions icon for the volume you want to pair.
+. Click the *Actions* icon for the volume you want to pair.
 . Click *Pair*.
 . In the *Pair Volume* dialog box, select *Start Pairing*.
 . Select *I Do* to indicate that you have access to the remote cluster.

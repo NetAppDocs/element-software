@@ -13,11 +13,14 @@ You can create volume access groups by mapping initiators to a collection of vol
 
 If you use initiator-based CHAP, you can add CHAP credentials for a single initiator in a volume access group, providing more security. This enables you to apply this option for volume access groups that already exist.
 
+.Steps 
+
 . Click *Management* > *Access Groups*.
 . Click *Create Access Group*.
 . Enter a name for the volume access group in the *Name* field.
 . Add an initiator to the volume access group in one of the following ways:
 +
+[cols=2*,options="header", cols="25,75"]
 |===
 | Option| Description
 a|

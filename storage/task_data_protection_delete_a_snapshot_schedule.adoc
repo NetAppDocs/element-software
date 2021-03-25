@@ -1,10 +1,10 @@
 ---
 permalink: storage/task_data_protection_delete_a_snapshot_schedule.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can delete a snapshot schedule. After you delete the schedule, it does not run any future scheduled snapshots. Any snapshots that were created by the schedule remain on the storage system.'
 ---
-= Deleting a snapshot schedule
+= Delete a snapshot schedule
 :icons: font
 :imagesdir: ../media/
 
@@ -12,6 +12,6 @@ summary: 'You can delete a snapshot schedule. After you delete the schedule, it 
 You can delete a snapshot schedule. After you delete the schedule, it does not run any future scheduled snapshots. Any snapshots that were created by the schedule remain on the storage system.
 
 . Click *Data Protection* > *Schedules*.
-. Click the Actions icon for the schedule you want to delete.
+. Click the *Actions* icon for the schedule you want to delete.
 . In the resulting menu, click *Delete*.
 . Confirm the action.

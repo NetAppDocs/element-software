@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can back up SolidFire snapshots to external object stores that are compatible with Amazon S3.'
 ---
-= Backing up a volume snapshot to an Amazon S3 object store
+= Back up a volume snapshot to an Amazon S3 object store
 :icons: font
 :imagesdir: ../media/
 
@@ -12,7 +12,7 @@ summary: 'You can back up SolidFire snapshots to external object stores that are
 You can back up SolidFire snapshots to external object stores that are compatible with Amazon S3.
 
 . Click**Data Protection** > *Snapshots*.
-. Click the Actions icon for the snapshot you want to back up.
+. Click the *Actions* icon for the snapshot you want to back up.
 . In the resulting menu, click *Backup to*.
 . In the *Integrated Backup* dialog box under *Backup to*, select *S3*.
 . Select an option under *Data Format*:

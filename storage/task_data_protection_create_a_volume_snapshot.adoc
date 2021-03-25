@@ -12,7 +12,7 @@ summary: 'You can create a snapshot of an active volume to preserve the volume i
 You can create a snapshot of an active volume to preserve the volume image at any point in time. You can create up to 32 snapshots for a single volume.
 
 . Click *Management* > *Volumes*.
-. Click the Actions icon for the volume you want to use for the snapshot.
+. Click the *Actions* icon for the volume you want to use for the snapshot.
 . In the resulting menu, select *Snapshot*.
 . In the *Create Snapshot of Volume* dialog box, enter the new snapshot name.
 . *Optional:* Select the *Include Snapshot in Replication When Paired* check box to ensure that the snapshot is captured in replication when the parent volume is paired.
@@ -31,4 +31,4 @@ You can create a snapshot of an active volume to preserve the volume image at an
 
 == Find more information
 
-xref:task_data_protection_schedule_a_snapshot_task.adoc[Scheduling a snapshot]
+xref:task_data_protection_schedule_a_snapshot_task.adoc[Schedule a snapshot]
