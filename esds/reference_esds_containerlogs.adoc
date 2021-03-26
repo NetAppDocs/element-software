@@ -2,14 +2,14 @@
 permalink: esds/reference_esds_containerlogs.html
 sidebar: sidebar
 keywords: element, solidfire esds, get container logs, sds containers
-summary: Learn more about the SolidFire eSDS containers and where to get the logs associated with them for quick troubleshooting. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage NetApp Support, where trained engineers well versed with log analysis can help resolve issues.
+summary: Learn more about the SolidFire eSDS containers and where to get the logs associated with them. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage NetApp Support, where trained engineers well versed with log analysis can help resolve issues.
 ---
 = Collect container logs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Learn more about the SolidFire eSDS containers and where to get the logs associated with them for quick troubleshooting. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage https://www.netapp.com/company/contact-us/support/[NetApp Support^], where trained engineers well versed with log analysis can help resolve issues.
+Learn more about the SolidFire eSDS containers and where to get the logs associated with them. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage https://www.netapp.com/company/contact-us/support/[NetApp Support^], where trained engineers well versed with log analysis can help resolve issues.
 
 SolidFire eSDS includes the following containers:
 
@@ -29,8 +29,6 @@ c3fed6141259 localhost/solidfire-auth:12.2.0.777 --config /sf/etc/... 11 seconds
 ----
 
 IMPORTANT: If one of the containers is not up or running, do not use Podman to directly control (stop or start) the containers. Element software is controlled via the `solidfire systemd` service unit. This service uses `elementctl` to orchestrate the software running in the three Element containers. Using `systemctl` to control the Solidfire service on the host is the recommended and supported way to start and stop Element software on any node; however, doing so on a live cluster should be only done under the guidance from Support.
-
-Element software is controlled via the `solidfire systemd` service unit. This service uses `elementctl` to orchestrate software running in the three Element containers. Using `systemctl` to control the Solidfire service on the host is the recommended and supported way to start and stop Element software on any node.
 
 All of the logs related to SolidFire eSDS can be found in `/var/log/solidfire/` on the host, which is persisted across container instances. This directory contains the logs from the Element container, and contains the `element_auth/` and `sfnetwd/` subdirectories, which contain the logs from the `element_auth` and `sfnetwd` containers, respectively.
 From inside a container, you can access container-specific logs at `/var/log`.
