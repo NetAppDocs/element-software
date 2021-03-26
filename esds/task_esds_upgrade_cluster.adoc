@@ -14,6 +14,7 @@ You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire
 .What you'll need
 
 Ensure that the following conditions are met before you upgrade:
+
 * There are no cluster faults in the Element UI.
 * The inventory file is up to date with the current RPM file build information and details about cluster member nodes.
 * The hosts are defined in the inventory file by using IP addresses (and not fully qualified domain names [FQDNs]).
