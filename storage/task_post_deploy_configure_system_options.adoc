@@ -11,11 +11,14 @@ summary: 'After you set up your SolidFire system, you might want to perform some
 [.lead]
 After you set up your SolidFire system, you might want to perform some optional tasks.
 
+If you change credentials in the system, you might want to know the impact on other components.
+
 Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards (FIPS) security.
 You should also look at updating passwords when needed.
 
 
 == Find more information
+* link:task_post_deploy_credentials.html[Change credentials in NetApp HCI and NetApp SolidFire]
 * link:reference_post_deploy_change_default_ssl_certificate.html[Change the Element software default SSL certificate]
 * link:task_post_deploy_credential_change_ipmi_password.html[Change the IPMI password for nodes]
 * link:concept_system_manage_mfa_enable_multi_factor_authentication.html[Enable multi-factor authentication]
