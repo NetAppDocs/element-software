@@ -56,7 +56,7 @@ CAUTION: If the upgrade fails because of a fault, you should resolve it and resu
 . Run the `ansible-galaxy install` command to install all the roles relevant to SolidFire eSDS https://github.com/NetApp-Automation[provided by NetApp^].
 +
 The upgrade role is `nar_solidfire_sds_upgrade`.
-
++
 You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +
 NOTE: Ensure that you always download the latest versions of the roles.
