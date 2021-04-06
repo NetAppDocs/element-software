@@ -14,7 +14,7 @@ NetApp SolidFire Enterprise SDS (eSDS) provides the benefits of SolidFire scale-
 == Key features of SolidFire eSDS
 
 * Enables you to install and run Element software via containers.
-* Delivers enterprise storage features and reliability using pre-validated commodity server platforms. You can run production workloads after installing the SolidFire eSDS software on the prescribed x86 server platform and underlying components (CPU, memory, SSD drives, cache, networking, firmware), per the published reference configuration in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)]. For the *initial* release, the reference configuration is based on the HPE ProLiant DL360 Gen10 platform.
+* Delivers enterprise storage features and reliability using pre-validated commodity server platforms. You can run production workloads after installing the SolidFire eSDS software on the prescribed x86 server platform and underlying components (CPU, memory, SSD drives, cache, networking, firmware), per the published reference configuration in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)]. 
 * Provides Software Encryption at Rest. Software Encryption at Rest enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary layer of encryption in SolidFire eSDS nodes that do not include Self-Encrypting Drives (SEDs).
 * Provides predictable cluster performance using Quality of Service (QoS) policies.
 * Provides support for four to 40-node clusters.

@@ -29,17 +29,11 @@ IMPORTANT: You should specify all the required variables in your inventory file 
 
 .Steps
 
-. Run the ansible-galaxy command to install all the roles relevant to SolidFire eSDS provided by NetApp.
-+
-The install role is *nar_solidfire_sds_install* and is installed when you run the following command:
-+
-----
- $  ansible-galaxy install git+https://github.com/netapp/ansible.git
- - extracting ansible to ~/.ansible/roles/ansible
- - ansible was installed successfully
-----
-+
-You can also manually install the role by copying it from the NetApp GitHub repository and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
+. Run the `ansible-galaxy install` command to install the roles relevant to SolidFire eSDS https://github.com/NetApp-Automation[provided by NetApp^].
+
+The install role is `nar_solidfire_sds_install`.
+
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +
 NOTE: Ensure that you always download the latest versions of the roles.
 
@@ -121,7 +115,7 @@ all:
 ----
 +
 Replace *sample_playbook.yaml* with the name of your playbook and *inventory.yaml* with the name of your inventory file.
-Running the playbook creates the `sf_sds_config.yaml` file on each node that is listed in your inventory file. It also installs and starts the SolidFire service on each storage node. For more information about `sf_sds_config.yaml`, see <insert link to ref topic.>
+Running the playbook creates the `sf_sds_config.yaml` file on each node that is listed in your inventory file. It also installs and starts the SolidFire service on each storage node. For more information about `sf_sds_config.yaml`, see link:reference_esds_sf_sds_config_file.html[here^].
 
 . Check the Ansible output in the console to ensure that the SolidFire service was started on each node.
 +
