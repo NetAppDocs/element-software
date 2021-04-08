@@ -168,6 +168,8 @@ entries:
   - title: Configure SolidFire system options after deployment
     url: "/storage/task_post_deploy_configure_system_options.html"
     entries:
+    - title: Change credentials in NetApp HCI and NetApp SolidFire
+      url: "/storage/task_post_deploy_credentials.html"
     - title: Change the Element software default SSL certificate
       url: "/storage/reference_post_deploy_change_default_ssl_certificate.html"
     - title: Change the IPMI password for nodes
