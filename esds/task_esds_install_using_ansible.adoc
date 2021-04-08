@@ -29,9 +29,11 @@ IMPORTANT: You should specify all the required variables in your inventory file 
 
 .Steps
 
-. Run the `ansible-galaxy install` command to install the roles relevant to SolidFire eSDS https://github.com/NetApp-Automation[provided by NetApp^].
+. Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_install` role.
 +
-The install role is `nar_solidfire_sds_install`.
+----
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_install.git
+----
 +
 You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +

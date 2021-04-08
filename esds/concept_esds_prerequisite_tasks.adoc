@@ -95,7 +95,11 @@ rhel-7-server-extras-rpms
 IMPORTANT: If you contact NetApp Support for assistance with issues relating to SolidFire eSDS, Support will first verify that your platform complies with the reference configuration for SolidFire eSDS listed in the IMT. If Support determines that your underlying platform does not comply with the reference configuration, Support will guide you in aligning the non-compliant firmware, software, and/or hardware components with the correct versions in the IMT.
 
 ** Run a compliance check for SolidFire eSDS.
-... Run the `ansible-galaxy install` command to install all the roles relevant to SolidFire eSDS https://github.com/NetApp-Automation[provided by NetApp^]. The compliance check role is *nar_solidfire_sds_compliance*.
+... Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_compliance` role.
++
+----
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_compliance.git
+----
 +
 You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +
