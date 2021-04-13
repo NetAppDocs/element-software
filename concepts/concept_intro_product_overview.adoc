@@ -34,7 +34,7 @@ link:../concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
 
 * Use your own server to run Element software by using containerized SolidFire Enterprise SDS
 +
-link:../esds/esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
+link:../esds/concept_get_started_esds.html[Get started with NetApp SolidFire Enterprise SDS]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
