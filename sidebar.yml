@@ -209,12 +209,12 @@ entries:
     - title: Configure cluster settings
       url: "/storage/concept_system_manage_cluster_configure_cluster_settings.html"
       entries:
+      - title: Enable and disable encryption for a cluster
+        url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
       - title: Set the cluster full threshold
         url: "/storage/task_system_manage_cluster_set_the_cluster_full_threshold.html"
       - title: Enable and disable support access
         url: "/storage/task_system_manage_cluster_enable_and_disable_support_access.html"
-      - title: Enable and disable encryption for a cluster
-        url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
       - title: Manage the Terms of Use banner
         url: "/storage/concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.html"
       - title: Set the Network Time Protocol
@@ -293,6 +293,8 @@ entries:
       entries:
       - title: Set up external key management
         url: "/storage/task_system_manage_key_set_up_external_key_management.html"
+      - title: Rekey software encryption at rest master key
+        url: "/storage/task_system_manage_rekey_software_ear_master_key.html"
       - title: Recover inaccessible or invalid authentication keys
         url: "/storage/concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys.html"
       - title: External key management API Commands
