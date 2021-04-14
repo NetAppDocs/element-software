@@ -9,7 +9,7 @@ summary: 'With SolidFire clusters, you can encrypt all data stored on the cluste
 :imagesdir: ../media/
 
 [.lead]
-With SolidFire clusters, you can encrypt all at-rest data stored on cluster drives. You can enable cluster-wide protection of self-encrypting drives (SED) using either link:../concepts/concept_solidfire_element_ug_encryption_at_rest.html[hardware or software-based encryption at rest].
+With SolidFire clusters, you can encrypt all at-rest data stored on cluster drives. You can enable cluster-wide protection of self-encrypting drives (SED) using either link:../concepts/concept_solidfire_concepts_security.html[hardware or software-based encryption at rest].
 
 You can enable hardware encryption at rest using the Element UI or API. Enabling the hardware encryption at rest feature does not affect performance or efficiency on the cluster. You can enable software encryption at rest using the Element API only.
 

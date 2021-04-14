@@ -58,7 +58,7 @@ https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-eleme
 * Element Python SDK: Enables programmers to integrate the Element API with the Python programming language.
 
 === SolidFire Postman API testing suite
-Enables programmers to use a collection of link:https://github.com/solidfire/postman[Postman] functions that test Element API calls.
+Enables programmers to use a collection of link:https://github.com/solidfire/postman[Postman^] functions that test Element API calls.
 
 === SolidFire Storage Replication Adapter
 https://mysupport.netapp.com/site/products/all/details/elementsra/downloads-tab[SolidFire Storage Replication Adapter^] integrates with the VMware Site Recovery Manager (SRM) to enable communication with replicated SolidFire storage clusters and execute supported workflows.

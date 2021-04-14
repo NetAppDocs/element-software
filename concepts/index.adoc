@@ -11,6 +11,7 @@ summary: Learn basic concepts related to Element software.
 [.lead]
 Learn basic concepts related to Element software.
 
+* xref:concept_intro_product_overview[Product overview]
 * xref:concept_solidfire_concepts_solidfire_architecture_overview.adoc[SolidFire architecture overview]
 * xref:concept_solidfire_concepts_nodes.adoc[Nodes]
 * xref:concept_intro_clusters.adoc[Clusters]
@@ -18,7 +19,7 @@ Learn basic concepts related to Element software.
 * xref:concept_solidfire_concepts_accounts_and_permissions.adoc[Accounts and permissions]
 * xref:concept_solidfire_concepts_storage.adoc[Storage]
 * xref:concept_solidfire_concepts_data_protection.adoc[Data protection]
-* xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Quality of Service]
+* xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Pperformance and quality of service]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
