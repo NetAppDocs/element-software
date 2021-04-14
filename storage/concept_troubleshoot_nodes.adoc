@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_troubleshoot_nodes.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can remove nodes from a cluster for maintenance or replacement. You should use the NetApp Element UI or API to remove nodes before taking them offline.'
 ---
 = Troubleshoot nodes
@@ -31,7 +31,7 @@ Powering down a node should be done under the direction of NetApp Support.
 * If a node is in a down, or in an off state, you must contact NetApp Support before bringing it back online.
 * After a node is brought back online, you must add the drives back to the cluster, depending on how long it has been out of service.
 
-*Related information*
+== For more information
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2844772[Replacing a failed SolidFire chassis]
 

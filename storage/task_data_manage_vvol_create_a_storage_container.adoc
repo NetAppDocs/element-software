@@ -24,4 +24,4 @@ TIP: Leave the CHAP Settings fields blank to automatically generate secrets.
  .. Click the *Create Storage Container* button.
 . Verify that the new storage container appears in the list in the *Storage Containers* sub-tab.
 +
-NOTE: Because a NetAppElement account ID is created automatically and assigned to the storage container, it is not necessary to manually create an account.
+NOTE: Because a NetApp Element account ID is created automatically and assigned to the storage container, it is not necessary to manually create an account.

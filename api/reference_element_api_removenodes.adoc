@@ -22,7 +22,7 @@ If you use RemoveNodes to remove the cluster master node, the method might time 
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 ignoreEnsembleToleranceChange
 a|

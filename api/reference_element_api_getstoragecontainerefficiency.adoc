@@ -15,8 +15,9 @@ You can use the GetStorageContainerEfficiency method to retrieve efficiency info
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 storageContainerID
 a|
@@ -34,7 +35,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 compression
 a|

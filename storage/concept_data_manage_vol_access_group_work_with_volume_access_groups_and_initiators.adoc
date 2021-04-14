@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can use iSCSI initiators or Fibre Channel initiators to access the volumes defined within volume access groups.'
 ---
 = Work with volume access groups and initiators
@@ -29,24 +29,16 @@ NOTE: Volume access groups have the following limits:
 * An IQN or WWPN can belong to only one access group.
 * A single volume can belong to a maximum of four access groups.
 
-*Related information*
 
-xref:task_data_manage_vol_access_group_create_a_volume_access_group.adoc[Create a volume access group]
+== Find more information
 
-xref:task_data_manage_vol_access_group_add_volumes.adoc[Add volumes to an access group]
-
-xref:task_data_manage_vol_access_group_remove_volumes.adoc[Remove volumes from an access group]
-
-xref:task_data_manage_vol_access_group_create_an_initiator.adoc[Create an initiator]
-
-xref:task_data_manage_vol_access_group_edit_an_initiator.adoc[Edit an initiator]
-
-xref:task_data_manage_vol_access_group_add_a_single_initiator.adoc[Add a single initiator to a volume access group]
-
-xref:task_data_manage_vol_access_group_add_multiple_initiators.adoc[Add multiple initiators to a volume access group]
-
-xref:task_data_manage_vol_access_group_remove_initiators_from_an_access_group.adoc[Remove initiators from an access group]
-
-xref:task_data_manage_vol_access_group_delete.adoc[Delete an access group]
-
-xref:task_data_manage_vol_access_group_delete_an_initiator.adoc[Delete an initiator]
+* xref:task_data_manage_vol_access_group_create_a_volume_access_group.adoc[Create a volume access group]
+* xref:task_data_manage_vol_access_group_add_volumes.adoc[Add volumes to an access group]
+* xref:task_data_manage_vol_access_group_remove_volumes.adoc[Remove volumes from an access group]
+* xref:task_data_manage_vol_access_group_create_an_initiator.adoc[Create an initiator]
+* xref:task_data_manage_vol_access_group_edit_an_initiator.adoc[Edit an initiator]
+* xref:task_data_manage_vol_access_group_add_a_single_initiator.adoc[Add a single initiator to a volume access group]
+* xref:task_data_manage_vol_access_group_add_multiple_initiators.adoc[Add multiple initiators to a volume access group]
+* xref:task_data_manage_vol_access_group_remove_initiators_from_an_access_group.adoc[Remove initiators from an access group]
+* xref:task_data_manage_vol_access_group_delete.adoc[Delete an access group]
+* xref:task_data_manage_vol_access_group_delete_an_initiator.adoc[Delete an initiator]

@@ -15,8 +15,9 @@ You can use the ListEvents method to list events detected on the cluster, sorted
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 driveID
 a|
@@ -84,19 +85,19 @@ Specifies that only events with this node ID will be returned.
 a|
 integer
 a|
- 
+
 a|
- 
+
 a|
 serviceID
 a|
 Specifies that only events with this service ID will be returned.
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 startEventID
 a|
@@ -134,7 +135,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 events
 a|

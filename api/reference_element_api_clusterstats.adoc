@@ -15,8 +15,9 @@ The clusterStats object contains statistical data for a cluster. Many of the vol
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Calculation| Type
+|Name |Description |Calculation |Type
 a|
 actualIOPS
 a|
@@ -210,6 +211,7 @@ Point in time
 a|
 integer
 |===
-*Related information*
+
+== Find more information
 
 xref:reference_element_api_getclusterstats.adoc[GetClusterStats]

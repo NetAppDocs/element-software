@@ -16,7 +16,7 @@ You can use the SetSSLCertificate method to set a user SSL certificate and priva
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 certificate
 a|

@@ -16,7 +16,7 @@ The snapMirrorLunInfo object contains information about the ONTAP LUN object.
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 snapMirrorEndpointID
 a|

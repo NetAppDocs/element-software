@@ -26,8 +26,9 @@ Consider the following when you create volume access groups:
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|
@@ -75,7 +76,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumeAccessGroup
 a|
@@ -138,10 +139,8 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
-
-xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]
-
-xref:reference_element_api_modifyvolume.adoc[ModifyVolume]
+* xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
+* xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]
+* xref:reference_element_api_modifyvolume.adoc[ModifyVolume]

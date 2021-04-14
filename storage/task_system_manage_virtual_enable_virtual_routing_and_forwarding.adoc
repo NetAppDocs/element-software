@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_virtual_enable_virtual_routing_and_forwarding.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can enable virtual routing and forwarding \(VRF\), which allows multiple instances of a routing table to exist in a router and work simultaneously. This functionality is available for storage networks only.'
 ---
 = Enable virtual routing and forwarding
@@ -17,9 +17,9 @@ You can enable VRF only at the time of creating a VLAN. If you want to switch ba
 . To enable VRF on a new VLAN, select *Create VLAN*.
  .. Enter relevant information for the new VRF/VLAN. See Adding a virtual network.
  .. Select the *Enable VRF* check box.
- .. Enter a gateway.
+ .. *Optional*: Enter a gateway.
 . Click *Create VLAN*.
 
-*Related information*
+== Find more information
 
 xref:task_system_manage_virtual_add_a_virtual_network.adoc[Add a virtual network]

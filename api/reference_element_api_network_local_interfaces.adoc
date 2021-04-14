@@ -16,7 +16,7 @@ The network (local interfaces) object contains configuration information for loc
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 family
 a|
@@ -121,8 +121,9 @@ N/A
 a|
 N/A
 |===
-*Related information*
 
-xref:reference_element_api_getconfig.adoc[GetConfig]
 
-xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]
+== Find more information
+
+* xref:reference_element_api_getconfig.adoc[GetConfig]
+* xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]

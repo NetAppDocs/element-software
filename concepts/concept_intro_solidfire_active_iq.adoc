@@ -9,7 +9,7 @@ summary: 'Active IQ is a web-based tool that provides continually updated histor
 :imagesdir: ../media/
 
 [.lead]
-link:activeiq.solidfire.com[SolidFire Active IQ] is a web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. SolidFire Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.
+https://activeiq.solidfire.com[SolidFire Active IQ^] is a web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. SolidFire Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.
 
 You can find the following information about your system in SolidFire Active IQ:
 

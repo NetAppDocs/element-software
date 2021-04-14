@@ -15,8 +15,9 @@ You can use the ListDriveStats method to list high-level activity measurements f
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 drives
 a|
@@ -34,7 +35,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 driveStats
 a|
@@ -108,6 +109,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_getdrivestats.adoc[GetDriveStats]

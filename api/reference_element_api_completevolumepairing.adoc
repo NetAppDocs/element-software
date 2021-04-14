@@ -15,8 +15,9 @@ You can use CompleteVolumePairing to complete the pairing of two volumes.
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|
@@ -73,6 +74,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]

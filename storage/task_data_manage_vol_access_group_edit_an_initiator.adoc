@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_edit_an_initiator.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can change the alias of an existing initiator or add an alias if one does not already exist.'
 ---
 = Edit an initiator
@@ -11,10 +11,11 @@ summary: 'You can change the alias of an existing initiator or add an alias if o
 [.lead]
 You can change the alias of an existing initiator or add an alias if one does not already exist.
 
-To add a CHAP account name and credentials per initiator, you must use the ModifyInitiator API call to remove and add CHAP access and attributes. See API information for more details.
+To add a CHAP account name and credentials per initiator, you must use the `ModifyInitiator` API call to remove and add CHAP access and attributes.
 
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+See link:../api/index.html[Manage storage with the Element API].
 
+.Steps
 . Click *Management* > *Initiators*.
 . Click the Actions icon for the initiator you want to edit.
 . Click *Edit*.

@@ -15,8 +15,9 @@ The clusterCapacity object contains high-level capacity measurements for the clu
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 activeBlockSpace
 a|
@@ -150,6 +151,7 @@ The total number of empty 4KiB blocks without data after the last round of garba
 a|
 integer
 |===
-*Related information*
+
+== Find more information
 
 xref:reference_element_api_getclustercapacity.adoc[GetClusterCapacity]

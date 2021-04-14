@@ -27,7 +27,7 @@ NOTE: If you change the access status to locked or replicationTarget, all existi
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 `access`
 a|
@@ -191,7 +191,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volume
 a|
@@ -329,6 +329,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

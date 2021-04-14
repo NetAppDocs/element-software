@@ -27,7 +27,7 @@ NOTE: If you change the access status to locked or replicationTarget, all existi
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 
 a|
 `volumeID`
@@ -128,7 +128,7 @@ No
 |No
 
 |`minFifoSize`
-|Specifies the number of snapshot slots that are reserved for only First-In-First-Out (FIFO) snapshots. Since FIFO and non-FIFO snapshots share the same pool, the `minFifoSize` parameter reduces the total number of possible non-FIFO snapshots by the same amount. Note that you cannot modify this value so that it conflicts with the current non-FIFO snapshot count.  
+|Specifies the number of snapshot slots that are reserved for only First-In-First-Out (FIFO) snapshots. Since FIFO and non-FIFO snapshots share the same pool, the `minFifoSize` parameter reduces the total number of possible non-FIFO snapshots by the same amount. Note that you cannot modify this value so that it conflicts with the current non-FIFO snapshot count.
 |integer
 |None
 |No
@@ -204,7 +204,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volume
 a|
@@ -300,6 +300,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

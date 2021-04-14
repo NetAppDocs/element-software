@@ -1,7 +1,7 @@
 ---
 permalink: esds/task_esds_upgrade_cluster.html
 sidebar: sidebar
-keywords: solidfire esds, upgrading solidfire esds clusters, ansible role, clusters, upgrade clusters, esds upgrade 
+keywords: solidfire esds, upgrading solidfire esds clusters, ansible role, clusters, upgrade clusters, esds upgrade
 summary: You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire eSDS cluster. Using the `nar_solidfire_sds_upgrade` role provided by NetApp, Ansible performs rolling upgrades one node at a time while maintaining data availability to all the volumes.
 ---
 = Upgrade the clusters
@@ -14,6 +14,7 @@ You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire
 .What you'll need
 
 Ensure that the following conditions are met before you upgrade:
+
 * There are no cluster faults in the Element UI.
 * The inventory file is up to date with the current RPM file build information and details about cluster member nodes.
 * The hosts are defined in the inventory file by using IP addresses (and not fully qualified domain names [FQDNs]).
@@ -52,17 +53,13 @@ CAUTION: If the upgrade fails because of a fault, you should resolve it and resu
 
 .Steps
 
-. Run the ansible-galaxy command to install all the roles relevant to SolidFire eSDS provided by NetApp.
-+
-The upgrade role is `nar_solidfire_sds_upgrade` and will be installed when you run the following command:
+. Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_upgrade` role.
 +
 ----
- $  ansible-galaxy install git+https://github.com/netapp/ansible.git
- - extracting ansible to ~/.ansible/roles/ansible
- - ansible was installed successfully
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_upgrade.git
 ----
 +
-You can also manually install the role by copying it from the NetApp GitHub repository and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +
 NOTE: Ensure that you always download the latest versions of the roles.
 
@@ -95,5 +92,5 @@ Running the playbook validates the information that you entered in the inventory
 . After the upgrade is complete, verify each node to ensure that the new version is running by using the Element UI or the cluster API.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

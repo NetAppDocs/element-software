@@ -34,8 +34,7 @@ This object contains the combined return information from the following methods:
 * xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]
 * xref:reference_element_api_getvolumeaccessgrouplunassignments.adoc[GetVolumeAccessGroupLunAssignments]
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getclusterstructure.adoc[GetClusterStructure]
-
-xref:reference_element_api_setclusterstructure.adoc[SetClusterStructure]
+* xref:reference_element_api_getclusterstructure.adoc[GetClusterStructure]
+* xref:reference_element_api_setclusterstructure.adoc[SetClusterStructure]

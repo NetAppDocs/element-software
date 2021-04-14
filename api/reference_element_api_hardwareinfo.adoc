@@ -15,8 +15,9 @@ The hardwareInfo object contains detailed information about the hardware and sta
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 boardSerial
 a|
@@ -132,6 +133,8 @@ The unique ID of the node.
 a|
 UUID
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_gethardwareinfo.adoc[GetHardwareInfo]

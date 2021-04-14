@@ -25,7 +25,7 @@ The method returns an error when used on storage clusters with these configurati
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 protectionDomainLayout
 a|
@@ -43,7 +43,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protectionDomainLayout
 a|

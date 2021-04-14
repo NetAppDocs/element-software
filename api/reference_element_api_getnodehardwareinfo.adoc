@@ -15,8 +15,9 @@ You can use the GetNodeHardwareInfo method to return all the hardware informatio
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 nodeID
 a|
@@ -34,8 +35,9 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 nodeHardwareInfo
 a|
@@ -66,7 +68,7 @@ Due to the length of this response example, it is documented in a supplementary 
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_response_example_getnodehardwareinfo_fibre_channel.adoc[GetNodeHardwareInfo (output for Fibre Channel nodes)]
 

@@ -23,7 +23,7 @@ This process enables the cluster to properly redirect a login session and improv
  .. Per-node UI for the management node: `https://<management_node_IP>:442`
 . Access the Element API and create the following cluster interface preference using the link:../api/reference_element_api_createclusterinterfacepreference.html[CreateClusterInterfacePreference] API method, inserting the cluster MVIP FQDN for the preference value:
  ** Name: `mvip_fqdn`
- ** Value: `Fully Qualified Domain Name for the Cluster MVIP` 
+ ** Value: `Fully Qualified Domain Name for the Cluster MVIP`
 +
 In this example, FQDN=storagecluster.my.org:
 +
@@ -52,3 +52,7 @@ For example:
  .. In the request body area, enter the management node FQDN as the value for the `mnode_fqdn` parameter.
  .. Enter any proxy setting values you recorded earlier in the remaining parameters in the request body. If you leave the proxy parameters empty or do not include them in the request body, existing proxy settings will be removed.
  .. Click *Execute*.
+
+ == Find more information
+ * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+ * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

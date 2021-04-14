@@ -16,7 +16,7 @@ The session (iSCSI) object contains detailed information about each volume's iSC
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 accountID
 a|
@@ -151,6 +151,8 @@ Identifies the volume object associated with the iSCSI session, if any.
 a|
 integer
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listiscsisessions.adoc[ListISCSISessions]

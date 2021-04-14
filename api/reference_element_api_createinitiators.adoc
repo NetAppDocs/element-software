@@ -17,8 +17,9 @@ If the operation fails to create one of the initiators provided in the parameter
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 initiators
 a|
@@ -47,7 +48,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 initiators
 a|
@@ -123,6 +124,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_listinitiators.adoc[ListInitiators]

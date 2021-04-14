@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_back_up_volume_to_openstack_swift.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can back up volumes to external object stores that are compatible with OpenStack Swift.'
 ---
 = Back up a volume to an OpenStack Swift object store
@@ -22,5 +22,5 @@ You can back up volumes to external object stores that are compatible with OpenS
 . Enter a user name for the account in the *Username* field.
 . Enter the authentication key for the account in the *Authentication Key* field.
 . Enter the container in which to store the backup in the *Container* field.
-. Enter a name tag to append to the prefix in the *Nametag* field.
+. *Optional*: Enter a name tag to append to the prefix in the *Nametag* field.
 . Click *Start Read*.

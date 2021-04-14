@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_volumes_apply_a_qos_policy.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can bulk apply an existing QoS policy to one or more volumes.'
 ---
 = Apply a QoS policy to volumes
@@ -11,7 +11,7 @@ summary: 'You can bulk apply an existing QoS policy to one or more volumes.'
 [.lead]
 You can bulk apply an existing QoS policy to one or more volumes.
 
-The QoS policy you want to bulk apply exists.
+The QoS policy you want to bulk apply must exist.
 
 . Select *Management* > *Volumes*.
 . In the list of volumes, check the box next to any volumes you want to apply the QoS policy to.
@@ -20,6 +20,6 @@ The QoS policy you want to bulk apply exists.
 . Select the QoS policy from the drop-down list.
 . Click *Apply*.
 
-*Related information*
+== Find more information
 
 xref:concept_data_manage_volumes_quality_of_service_policies.adoc[Quality of Service policies]

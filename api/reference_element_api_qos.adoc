@@ -16,7 +16,7 @@ The QoS object contains information about Quality of Service (QoS) settings for 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 burstIOPS
 a|
@@ -48,6 +48,8 @@ The desired minimum 4KB IOPS to guarantee. The allowed IOPS will only drop below
 a|
 integer
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

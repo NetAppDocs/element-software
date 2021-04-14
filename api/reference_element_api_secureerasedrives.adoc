@@ -16,7 +16,7 @@ You can use the SecureEraseDrives method to remove any residual data from drives
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 drives
 a|
@@ -34,7 +34,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandle
 a|
@@ -74,8 +74,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
-xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
-
-xref:reference_element_api_listdrives.adoc[ListDrives]
+* xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
+* xref:reference_element_api_listdrives.adoc[ListDrives]

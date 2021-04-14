@@ -11,7 +11,7 @@ summary: 'Before you get started, you might want to understand the sequence of i
 [.lead]
 At this point, you should have installed the hardware. The hardware also includes Element software.
 
-Next, you'll need to set up the storage system for your environment. You can set up a cluster with storage nodes or fiber channel nodes and manage it using Element software after you install and cable nodes in a rack unit and power them on.
+Next, you'll need to set up the storage system for your environment. You can set up a cluster with storage nodes or Fibre Channel nodes and manage it using Element software after you install and cable nodes in a rack unit and power them on.
 
 image::../media/sf_and_element_workflow_for_setup_shorter_workflow.png[Setup workflow diagram]
 

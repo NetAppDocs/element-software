@@ -19,8 +19,9 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 network
 a|
@@ -49,6 +50,6 @@ Due to the length of this response example, it is documented in a supplementary 
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_response_example_getnetworkconfig.adoc[GetNetworkConfig]

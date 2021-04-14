@@ -16,7 +16,7 @@ You can use the SetSnmpTrapInfo method to enable and disable the generation of c
 This method has the following input parameters:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 trapRecipients
 a|

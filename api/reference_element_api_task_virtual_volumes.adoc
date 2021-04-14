@@ -16,7 +16,7 @@ The task object contains information about a currently running or finished virtu
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 cancelled
 a|
@@ -97,6 +97,8 @@ The unique ID of the task.
 a|
 UUID
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_listvirtualvolumetasks.adoc[ListVirtualVolumeTasks]

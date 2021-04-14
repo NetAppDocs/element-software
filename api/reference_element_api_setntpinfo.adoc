@@ -20,7 +20,7 @@ NOTE: Ensure that you use NTP servers that are internal to your network, rather 
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 servers
 a|

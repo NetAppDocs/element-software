@@ -16,7 +16,7 @@ The QoSPolicy object contains information about a QoS policy on a storage cluste
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 qosPolicyID
 a|
@@ -42,6 +42,8 @@ A list of volumes associated with this policy.
 a|
 integer array
 |===
-*Related information*
+
+
+== Find more information 
 
 xref:reference_element_api_getqospolicy.adoc[GetQoSPolicy]

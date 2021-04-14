@@ -16,7 +16,7 @@ You can use the TestKeyServerKmip method to test whether the specified Key Manag
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 keyServerID
 a|

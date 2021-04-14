@@ -9,7 +9,7 @@ summary: 'You can use the PurgeDeletedVolume method to immediately and permanent
 :imagesdir: ../media/
 
 [.lead]
-You can use the PurgeDeletedVolume method to immediately and permanently purge a volume that has been deleted. You must delete a volume using DeleteVolume before it can be purged.
+You can use the `PurgeDeletedVolume` method to immediately and permanently purge a volume that has been deleted. You must delete a volume using `DeleteVolume` before it can be purged.
 
 Volumes are purged automatically after a period of time, so usage of this method is not typically required.
 
@@ -18,17 +18,13 @@ Volumes are purged automatically after a period of time, so usage of this method
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
-a|
-volumeID
-a|
-The volumeID of the volume to be purged.
-a|
-integer
-a|
-No
-a|
-Yes
+|Name |Description |Type |Default value |Required
+
+|`volumeID`
+|The volumeID of the volume to be purged.
+|integer
+|No
+|Yes
 |===
 
 == Return values
@@ -64,6 +60,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information
 
 xref:reference_element_api_deletevolume.adoc[DeleteVolume]

@@ -15,8 +15,9 @@ The fault object contains information about faults that are detected in the clus
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 clusterFaultID
 a|
@@ -119,8 +120,8 @@ The type of fault. Possible values:
 a|
 string
 |===
-*Related information*
 
-xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
+== Find more information 
 
-xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]
+* xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
+* xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]

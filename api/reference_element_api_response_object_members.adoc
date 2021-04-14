@@ -12,7 +12,7 @@ summary: 'Each Element software API response body has the following basic parts:
 Each Element software API response body has the following basic parts:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 result
 a|

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_monitor_system_alerts.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can view alerts for information about cluster faults or errors in the system. Alerts can be information, warnings, or errors and are a good indicator of how well the cluster is running. Most errors resolve themselves automatically.'
 ---
 = View system alerts
@@ -66,8 +66,7 @@ The date and time the fault was logged.
 +
 After the system resolves an alert, all information about the alert including the date it was resolved is moved to the Resolved area.
 
-*Related information*
+== Find more information
 
-xref:reference_monitor_cluster_fault_codes.adoc[Cluster fault codes]
-
-https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Managing storage with the Element API]
+* xref:reference_monitor_cluster_fault_codes.adoc[Cluster fault codes]
+* link:api/index.html[Manage storage with the Element API]

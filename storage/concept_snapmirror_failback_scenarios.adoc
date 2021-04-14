@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_snapmirror_failback_scenarios.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The SnapMirror disaster recovery functionality is illustrated in two failback scenarios. These assume the original relationship has been failed over \(broken\).'
 ---
 = SnapMirror failback scenarios
@@ -23,8 +23,7 @@ The following image shows the failback scenario when the source volume no longer
 
 image::../media/snapmirror_element_failback2.png[]
 
-*Related information*
+== Find more information
 
-xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[Perform a failback when source volume still exists]
-
-xref:task_snapmirror_performing_failback_when_source_volume_no_longer_exists.adoc[Perform a failback when source volume no longer exists]
+* xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[Perform a failback when source volume still exists]
+* xref:task_snapmirror_performing_failback_when_source_volume_no_longer_exists.adoc[Perform a failback when source volume no longer exists]

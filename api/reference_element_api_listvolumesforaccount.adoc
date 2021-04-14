@@ -15,8 +15,9 @@ You can use the ListVolumesForAccount method to list active and (pending) delete
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 includeVirtualVolumes
 a|
@@ -44,7 +45,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumes
 a|

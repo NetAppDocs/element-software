@@ -29,17 +29,13 @@ IMPORTANT: You should specify all the required variables in your inventory file 
 
 .Steps
 
-. Run the ansible-galaxy command to install all the roles relevant to SolidFire eSDS provided by NetApp.
-+
-The install role is *nar_solidfire_sds_install* and is installed when you run the following command:
+. Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_install` role.
 +
 ----
- $  ansible-galaxy install git+https://github.com/netapp/ansible.git
- - extracting ansible to ~/.ansible/roles/ansible
- - ansible was installed successfully
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_install.git
 ----
 +
-You can also manually install the role by copying it from the NetApp GitHub repository and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
 +
 NOTE: Ensure that you always download the latest versions of the roles.
 
@@ -78,7 +74,9 @@ Ensure that you follow these guidelines for the inventory file:
 ** Use a list to specify storage_devices.
 ====
 +
-A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ****** with the username and password for your storage nodes.
+NOTE: The examples provided here have the storage and management interface names for HPE servers. If you have a Dell server, the cache device name is nvme1n1. For Dell servers, mgmt_iface is team1G and storage_iface is team10G.
++
+A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ***** with the username and password for your storage nodes.
 +
 ----
 all:
@@ -119,7 +117,7 @@ all:
 ----
 +
 Replace *sample_playbook.yaml* with the name of your playbook and *inventory.yaml* with the name of your inventory file.
-Running the playbook creates the `sf_sds_config.yaml` file on each node that is listed in your inventory file. It also installs and starts the SolidFire service on each storage node. For more information about `sf_sds_config.yaml`, see <insert link to ref topic.>
+Running the playbook creates the `sf_sds_config.yaml` file on each node that is listed in your inventory file. It also installs and starts the SolidFire service on each storage node. For more information about `sf_sds_config.yaml`, see link:reference_esds_sf_sds_config_file.html[here^].
 
 . Check the Ansible output in the console to ensure that the SolidFire service was started on each node.
 +
@@ -157,5 +155,5 @@ failed=0    skipped=10   rescued=0    ignored=0
 . To verify that the SolidFire service was started correctly, run the `systemctl status solidfire` command, and check for `Active:active (exited)...` in the output.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
-* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -9,7 +9,7 @@ summary: 'You can use the GetHardwareConfig method to get the hardware configura
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetHardwareConfig method to get the hardware configuration information for a node.
+You can use the `GetHardwareConfig` method to get the hardware configuration information for a node. This configuration data is intended for internal use. To get a more useful live system hardware component inventory, use the `GetHardwareInfo` method instead.
 
 == Parameters
 
@@ -19,14 +19,13 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
-a|
-hardwareConfig
-a|
-List of hardware information and current settings.
-a|
-JSON object
+|Name |Description |Type
+
+|hardwareConfig
+|List of hardware information and current settings.
+|JSON object
 |===
 
 == Request example

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_using_volume_snapshots.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'A volume snapshot is a point-in-time copy of a volume. You can take a snapshot of a volume and use the snapshot later if you need to roll a volume back to the state it was in at the time the snapshot was created.'
 ---
 = Use volume snapshots for data protection
@@ -17,10 +17,8 @@ You can take a snapshot of an individual volume or a set of volumes.
 
 Optionally, replicate snapshots to a remote cluster and use them as a backup copy of the volume. This enables you to roll back a volume to a specific point in time by using the replicated snapshot. Alternatively, you can create a clone of a volume from a replicated snapshot.
 
-*Related information*
+== Find more information
 
-xref:task_data_protection_use_individual_volume_snapshots.adoc[Use individual volume snapshots for data protection]
-
-xref:task_data_protection_use_group_snapshots_for_data_protection.adoc[Using group snapshots for data protection task]
-
-xref:task_data_protection_schedule_a_snapshot_task.adoc[Scheduling a snapshot]
+* xref:task_data_protection_use_individual_volume_snapshots.adoc[Use individual volume snapshots for data protection]
+* xref:task_data_protection_use_group_snapshots_for_data_protection.adoc[Using group snapshots for data protection task]
+* xref:task_data_protection_schedule_a_snapshot_task.adoc[Scheduling a snapshot]

@@ -15,8 +15,9 @@ You can use the ListAuthSessionsByUsername method to list all auth sessions for 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 authMethod
 a|
@@ -49,7 +50,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 sessions
 a|

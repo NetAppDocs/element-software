@@ -15,8 +15,9 @@ You can use the DeleteQoSPolicy method to delete a QoS policy from the system. T
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 qosPolicyID
 a|

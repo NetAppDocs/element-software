@@ -17,8 +17,9 @@ NOTE: SolidFire Enterprise SDS does not support this method. If you use this met
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 force
 a|
@@ -40,7 +41,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 interfaces
 a|

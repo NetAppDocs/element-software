@@ -15,8 +15,9 @@ You can use the EnableMaintenanceMode method to prepare a storage node for maint
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 forceWithUnresolvedFaults
 a|
@@ -64,7 +65,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandle
 a|
@@ -136,6 +137,6 @@ This method returns a response similar to the following example:
 
 12.2
 
-*Related information*
+== Find more information 
 
 http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html[NetApp HCI storage maintenance mode concepts]

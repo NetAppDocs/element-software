@@ -23,8 +23,9 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 pendingNodes
 a|
@@ -83,6 +84,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_addnodes.adoc[AddNodes]

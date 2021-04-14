@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_nodes_adding_a_node_to_a_cluster.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can add nodes to a cluster when more storage is needed or after cluster creation. Nodes require initial configuration when they are first powered on. After the node is configured, it appears in the list of pending nodes and you can add it to a cluster.'
 ---
 = Add a node to a cluster
@@ -23,6 +23,7 @@ You can add nodes to SolidFire Enterprise SDS (SolidFire eSDS) clusters or to Ne
 
 SolidFire eSDS nodes are denoted with a Node type prefix of "`SFc`", for example, "`SFc100.`"
 
+.Steps
 . Select *Cluster* > *Nodes*.
 . Click *Pending* to view the list of pending nodes.
 +
@@ -38,6 +39,6 @@ For nodes that are not SolidFire eSDS nodes, SolidFire installs the Element soft
 +
 The node appears in the list of active nodes.
 
-*Related information*
+== Find more information
 
 xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[Node versioning and compatibility]

@@ -15,8 +15,9 @@ The event object contains details of events that occur during an API method call
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 details
 a|
@@ -121,6 +122,6 @@ The following list describes the possible event types that the eventInfoType mem
 * unexpectedException: Events related to unexpected errors.
 * vasaProviderEvent: Events related to a VMware VASA provider.
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_listevents.adoc[ListEvents]

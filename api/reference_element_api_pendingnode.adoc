@@ -16,7 +16,7 @@ The pendingNode object contains information about a node that can be added to a 
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 cipi
 a|
@@ -95,7 +95,7 @@ The node's role in the cluster. Possible values:
 * Witness
 
 a|
- 
+
 a|
 sip
 a|
@@ -109,8 +109,8 @@ The current version of Element software running on the node.
 a|
 string
 |===
-*Related information*
 
-xref:reference_element_api_addnodes.adoc[AddNodes]
+== Find more information
 
-xref:reference_element_api_listpendingnodes.adoc[ListPendingNodes]
+* xref:reference_element_api_addnodes.adoc[AddNodes]
+* xref:reference_element_api_listpendingnodes.adoc[ListPendingNodes]

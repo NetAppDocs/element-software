@@ -16,7 +16,7 @@ The virtualVolume object contains configuration information about a virtual volu
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 bindings
 a|
@@ -101,12 +101,10 @@ When you pass details: true to the ListVirtualVolumes method, this member is an 
 a|
 xref:reference_element_api_volume.adoc[volume]
 |===
-*Related information*
 
-xref:reference_element_api_listvirtualvolumes.adoc[ListVirtualVolumes]
+== Find more information
 
-xref:reference_element_api_snapshot.adoc[snapshot]
-
-xref:reference_element_api_storagecontainer.adoc[storageContainer]
-
-xref:reference_element_api_volume.adoc[volume]
+* xref:reference_element_api_listvirtualvolumes.adoc[ListVirtualVolumes]
+* xref:reference_element_api_snapshot.adoc[snapshot]
+* xref:reference_element_api_storagecontainer.adoc[storageContainer]
+* xref:reference_element_api_volume.adoc[volume]

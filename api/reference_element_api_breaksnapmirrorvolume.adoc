@@ -15,8 +15,9 @@ The Element web UI uses the BreakSnapMirrorVolume method to break the SnapMirror
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeID
 a|
@@ -77,6 +78,6 @@ This method has no return values.
 
 10.0
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_breaksnapmirrorrelationship.adoc[BreakSnapMirrorRelationship]

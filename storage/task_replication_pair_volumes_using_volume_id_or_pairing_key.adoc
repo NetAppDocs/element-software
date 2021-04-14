@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_volumes_using_volume_id_or_pairing_key.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The pairing process involves pairing two volumes by using either a volume ID or a pairing key.'
 ---
 = Pair volumes using a volume ID or pairing key
@@ -17,8 +17,7 @@ The pairing process involves pairing two volumes by using either a volume ID or 
 +
 NOTE: The volume pairing key contains an encrypted version of the volume information and might contain sensitive information. Only share this key in a secure manner.
 
-*Related information*
+== Find more information
 
-xref:task_replication_pair_volumes_using_a_volume_id.adoc[Pair volumes using a volume ID]
-
-xref:task_replication_pair_volumes_using_a_pairing_key.adoc[Pair volumes using a pairing key]
+* xref:task_replication_pair_volumes_using_a_volume_id.adoc[Pair volumes using a volume ID]
+* xref:task_replication_pair_volumes_using_a_pairing_key.adoc[Pair volumes using a pairing key]

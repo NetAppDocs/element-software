@@ -15,8 +15,9 @@ You can use the ModifyClusterAdmin method to change the settings for a cluster a
 
 This method has the following input parameters:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 access
 a|
@@ -93,6 +94,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_app_b_access_control.adoc[Access control]

@@ -15,8 +15,9 @@ The clusterAdmin object contains information about the current cluster administr
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|
@@ -53,6 +54,7 @@ User name for this cluster admin.
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_getcurrentclusteradmin.adoc[GetCurrentClusterAdmin]

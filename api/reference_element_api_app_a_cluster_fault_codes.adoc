@@ -38,8 +38,9 @@ To resolve this fault, purge or delete volumes or add another storage node to th
 +
 Block data is no longer fully replicated due to a failure.
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -277,8 +278,9 @@ Contact NetApp Support for assistance.
 +
 The cluster's service provider SSL certificate for use with a third-party identity provider is nearing expiration or has already expired. This fault uses the following severities based on urgency:
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -347,8 +349,9 @@ Contact NetApp Support for assistance.
 +
 The root Certification Authority (CA) certificate is nearing expiration. This fault uses the following severities based on urgency:
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -368,8 +371,9 @@ To resolve this fault, update the certificate before it expires. Acquire a new c
 +
 The client certificate is nearing expiration. This fault uses the following severities based on urgency:
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -431,8 +435,9 @@ The error details are provided in the fault details. You might need to troublesh
 +
 A large number of correctable or uncorrectable ECC errors have been detected. This fault uses the following severities based on urgency:
 +
+[options="header"]
 |===
-| Event| Severity| Description
+|Event |Severity |Description
 a|
 A single DIMM cErrorCount reaches cDimmCorrectableErrWarnThreshold.
 a|
@@ -568,8 +573,9 @@ A storage node contains a drive running an unsupported firmware version.
 +
 A node has been placed in maintenance mode. This fault uses the following severities based on urgency:
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -609,8 +615,9 @@ To resolve this fault, use NTP servers that are internal to your network, rather
 +
 An NVRAM device has an error, is failing, or has failed. This fault has the following severities:
 +
+[options="header"]
 |===
-| Severity| Description
+|Severity |Description
 a|
 Warning
 a|
@@ -796,10 +803,7 @@ One or more volumes in the storage cluster are offline.
 +
 Contact NetApp Support for assistance.
 
-*Related information*
+== Find more information
 
-xref:reference_element_api_getclusterfullthreshold.adoc[GetClusterFullThreshold]
-
-xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
-
-link:[Contacting NetApp Support]
+* xref:reference_element_api_getclusterfullthreshold.adoc[GetClusterFullThreshold]
+* xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]

@@ -15,8 +15,9 @@ The groupSnapshot object contains information about a snapshot for a group of vo
 
 This object contains the following members:
 
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 attributes
 a|
@@ -80,6 +81,7 @@ Current status of the snapshot. Possible values:
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_listgroupsnapshots.adoc[ListGroupSnapshots]

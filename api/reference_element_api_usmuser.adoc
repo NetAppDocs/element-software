@@ -16,7 +16,7 @@ You can use the SNMP usmUser object with the SetSnmpInfo API method to configure
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|
@@ -57,6 +57,7 @@ The type of credentials required for this user. Possible values:
 a|
 string
 |===
-*Related information*
+
+== Find more information 
 
 xref:reference_element_api_setsnmpinfo.adoc[SetSnmpInfo]

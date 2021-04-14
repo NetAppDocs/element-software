@@ -15,8 +15,10 @@ The account object contains information about an account. This object includes o
 
 This object contains the following members:
 
+
+[options="header"]
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 accountID
 a|
@@ -77,12 +79,10 @@ A list of volume IDs for volumes owned by this account.
 a|
 integer array
 |===
-*Related information*
 
-xref:reference_element_api_addaccount.adoc[AddAccount]
+== Find more information
 
-xref:reference_element_api_getaccountbyid.adoc[GetAccountByID]
-
-xref:reference_element_api_getaccountbyname.adoc[GetAccountByName]
-
-xref:reference_element_api_listaccounts.adoc[ListAccounts]
+* xref:reference_element_api_addaccount.adoc[AddAccount]
+* xref:reference_element_api_getaccountbyid.adoc[GetAccountByID]
+* xref:reference_element_api_getaccountbyname.adoc[GetAccountByName]
+* xref:reference_element_api_listaccounts.adoc[ListAccounts]

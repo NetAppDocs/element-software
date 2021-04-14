@@ -16,7 +16,7 @@ On SolidFire Enterprise SDS storage clusters, you can use the SetLicenseKey meth
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 orderNumber
 a|
@@ -44,7 +44,7 @@ Yes
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 orderNumber
 a|

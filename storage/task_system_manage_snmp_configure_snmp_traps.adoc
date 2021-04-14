@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_snmp_configure_snmp_traps.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'System administrators can use SNMP traps, also referred to as notifications, to monitor the health of the SolidFire cluster.'
 ---
 = Configure SNMP traps
@@ -19,5 +19,5 @@ When SNMP traps are enabled, the SolidFire cluster generates traps associated wi
  ** Cluster Resolved Fault Traps
  ** Cluster Event Traps
 . In the *Trap Recipients* section, enter the host, port, and community string information for a recipient.
-. To add another trap recipient, click *Add a Trap Recipient* and enter host, port, and community string information.
+. *Optional*: To add another trap recipient, click *Add a Trap Recipient* and enter host, port, and community string information.
 . Click *Save Changes*.

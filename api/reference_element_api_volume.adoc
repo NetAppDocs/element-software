@@ -16,7 +16,7 @@ The volume object contains configuration information about unpaired or paired vo
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 access
 a|
@@ -208,14 +208,11 @@ The universally unique ID of the volume.
 a|
 UUID
 |===
-*Related information*
 
-xref:reference_element_api_listactivevolumes.adoc[ListActiveVolumes]
+== Find more information
 
-xref:reference_element_api_listdeletedvolumes.adoc[ListDeletedVolumes]
-
-xref:reference_element_api_listvolumes.adoc[ListVolumes]
-
-xref:reference_element_api_listvolumesforaccount.adoc[ListVolumesForAccount]
-
-xref:reference_element_api_qos.adoc[QoS]
+* xref:reference_element_api_listactivevolumes.adoc[ListActiveVolumes]
+* xref:reference_element_api_listdeletedvolumes.adoc[ListDeletedVolumes]
+* xref:reference_element_api_listvolumes.adoc[ListVolumes]
+* xref:reference_element_api_listvolumesforaccount.adoc[ListVolumesForAccount]
+* xref:reference_element_api_qos.adoc[QoS]

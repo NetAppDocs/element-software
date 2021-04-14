@@ -16,7 +16,7 @@ You can use `ModifySchedule` to change the intervals at which a scheduled snapsh
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 `attributes`
 a|
@@ -156,7 +156,7 @@ The unique name given to the schedule, the retention period for the snapshot tha
 * `ensureSerialCreation`: Specify if a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
 
 a|
-link:schedule.html[schedule^]
+link:reference_element_api_schedule.html[schedule^]
 a|
 None
 a|
@@ -222,7 +222,7 @@ No
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 schedule
 a|

@@ -16,7 +16,7 @@ The protectionDomainResiliency object contains the resiliency status of this sto
 This object contains the following members:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 protectionSchemeResiliencies
 a|

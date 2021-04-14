@@ -16,7 +16,7 @@ You can use the RemoveAccount method to remove an existing account. You must del
 This method has the following input parameter:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 accountID
 a|
@@ -63,6 +63,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-*Related information*
+== Find more information 
 
 xref:reference_element_api_deletevolume.adoc[DeleteVolume]

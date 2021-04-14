@@ -15,8 +15,9 @@ You can use the GetVolumeAccessGroupLunAssignments method to retrieve details on
 
 This method has the following input parameter:
 
+[options="header"]
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 volumeAccessGroupID
 a|
@@ -34,7 +35,7 @@ Yes
 This method has the following return value:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 volumeAccessGroupLunAssignments
 a|

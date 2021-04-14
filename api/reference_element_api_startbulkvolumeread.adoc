@@ -22,7 +22,7 @@ NOTE: This process creates a new snapshot if the ID of an existing snapshot is n
 This method has the following input parameters:
 
 |===
-| Name| Description| Type| Default value| Required
+|Name |Description |Type |Default value |Required
 a|
 format
 a|
@@ -94,7 +94,7 @@ No
 This method has the following return values:
 
 |===
-| Name| Description| Type
+|Name |Description |Type
 a|
 asyncHandle
 a|
