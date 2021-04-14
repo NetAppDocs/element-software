@@ -19,7 +19,7 @@ You can add multiple initiators to an existing volume access group to enable acc
 
 You can assign initator-based CHAP attributes by using an API call. To add a CHAP account name and credentials per initiator, you must use the ModifyInitiator API call to remove and add CHAP access and attributes.
 
-For details, see https://docs.netapp.com/sfe-120/topic/com.netapp.doc.sfe-api/home.html[Manage storage with the Element API].
+For details, see link:../api/index.html[Manage storage with the Element API].
 
 .Steps
 . Click *Management* > *Initiators*.

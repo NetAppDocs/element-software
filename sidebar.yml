@@ -308,7 +308,7 @@ entries:
       - title: Manage Quality of Service policies
         url: "/storage/concept_data_manage_volumes_quality_of_service_policies.html"
       - title: Manage volumes
-        url: "/storage/task_data_manage_volumes_create_a_volume.html"
+        url: "/storage/task_data_manage_volumes.html"
       - title: Assign LUNs to Fibre Channel volumes
         url: "/storage/task_data_manage_volumes_assign_luns_to_fibre_channel_volumes.html"
       - title: Apply a QoS policy to volumes

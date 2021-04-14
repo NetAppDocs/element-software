@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_accounts_work_with_accounts_task.html
 sidebar: sidebar
-keywords:
+keywords: element, solidfire, accounts, create, delete, change
 summary: 'In SolidFire storage systems, user accounts enable clients to connect to volumes on a node. When you create a volume, it is assigned to a specific user account.'
 ---
 = Work with user accounts

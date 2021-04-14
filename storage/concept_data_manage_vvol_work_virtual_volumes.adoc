@@ -22,10 +22,11 @@ NOTE: VASA support for multiple vCenters is available as an upgrade patch if you
 == Find more information
 
 * xref:task_data_manage_vvol_enable_virtual_volumes.adoc[Enable virtual volumes]
+* xref:task_data_manage_vvol_view_virtual_volume_details.adoc[View virtual volume details]
 * xref:task_data_manage_vvol_delete_a_virtual_volume.adoc[Delete a virtual volume]
-* xref:task_data_manage_vvol_create_a_storage_container.adoc[Create a storage container]
-* xref:task_data_manage_vvol_edit_a_storage_container.adoc[Edit a storage container]
-* xref:task_data_manage_vvol_delete_a_storage_container.adoc[Delete a storage container]
+* xref:concept_data_manage_vvol_manage_storage_containers.adoc[Create a storage container]
+* xref:concept_data_manage_vvol_manage_storage_containers.adoc[Edit a storage container]
+* xref:concept_data_manage_vvol_manage_storage_containers.adoc[Delete a storage container]
 * xref:concept_data_manage_vvol_protocol_endpoints.adoc[Protocol endpoints]
 * xref:concept_data_manage_vvol_bindings.adoc[Bindings]
 * xref:reference_data_manage_vvol_host_details.adoc[Host details]
