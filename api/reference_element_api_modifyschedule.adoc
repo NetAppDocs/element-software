@@ -156,7 +156,7 @@ The unique name given to the schedule, the retention period for the snapshot tha
 * `ensureSerialCreation`: Specify if a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
 
 a|
-link:schedule.html[schedule^]
+link:reference_element_api_schedule.html[schedule^]
 a|
 None
 a|
