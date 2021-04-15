@@ -1,0 +1,14 @@
+---
+permalink: storage/concept_mnode_work_with_the_management_node.html
+sidebar: sidebar
+keywords: management node,mNode
+summary: 'You can use the management node \(mNode\) to upgrade system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.'
+---
+= Work with the management node
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the management node (mNode) to upgrade system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.
+
+See https://docs.netapp.com/us-en/hci/docs/task_mnode_work_overview.html[management node documentation^] for more information.
