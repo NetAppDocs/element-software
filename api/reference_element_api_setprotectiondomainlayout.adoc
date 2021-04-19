@@ -24,6 +24,7 @@ The method returns an error when used on storage clusters with these configurati
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -42,6 +43,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

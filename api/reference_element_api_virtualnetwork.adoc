@@ -15,6 +15,7 @@ The virtualNetwork object contains information about a specific virtual network.
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -72,6 +73,6 @@ a|
 integer
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listvirtualnetworks.adoc[ListVirtualNetworks]

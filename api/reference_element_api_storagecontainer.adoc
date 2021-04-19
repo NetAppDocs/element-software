@@ -15,6 +15,7 @@ The storageContainer object contains the attributes of a virtual volume storage 
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -71,6 +72,6 @@ a|
 UUID array
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainers]

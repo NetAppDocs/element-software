@@ -17,6 +17,7 @@ You can retrieve synchronization information with the ListSyncJobs API method.
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -150,6 +151,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]

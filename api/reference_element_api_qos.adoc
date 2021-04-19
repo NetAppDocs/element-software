@@ -15,6 +15,7 @@ The QoS object contains information about Quality of Service (QoS) settings for 
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -50,6 +51,6 @@ integer
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

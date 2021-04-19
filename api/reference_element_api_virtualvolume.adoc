@@ -15,6 +15,7 @@ The virtualVolume object contains configuration information about a virtual volu
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

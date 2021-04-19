@@ -15,6 +15,7 @@ You can use the RemoveKeyServerFromProviderKmip method to unassign the specified
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

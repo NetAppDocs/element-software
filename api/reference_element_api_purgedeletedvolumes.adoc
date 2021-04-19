@@ -19,6 +19,7 @@ NOTE: If you purge a large number of volumes at one time, or if the volumes you 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 

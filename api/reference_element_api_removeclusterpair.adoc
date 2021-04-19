@@ -17,6 +17,7 @@ NOTE: Before you remove a cluster pair, you must first remove all volume pairing
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

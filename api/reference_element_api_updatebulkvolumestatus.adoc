@@ -15,6 +15,7 @@ You can use the UpdateBulkVolumeStatus method to update the status of a bulk vol
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

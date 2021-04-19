@@ -15,6 +15,7 @@ You can use the SNMP usmUser object with the SetSnmpInfo API method to configure
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -58,6 +59,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_setsnmpinfo.adoc[SetSnmpInfo]

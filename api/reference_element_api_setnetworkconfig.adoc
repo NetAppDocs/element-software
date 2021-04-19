@@ -21,6 +21,7 @@ Changing the bond-mode on a node can cause a temporary loss of network connectiv
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -39,6 +40,7 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

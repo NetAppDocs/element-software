@@ -21,6 +21,7 @@ https://<management node IP>:442/json-rpc/10.0
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -39,6 +40,7 @@ Yes
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

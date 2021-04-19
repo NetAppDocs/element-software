@@ -15,6 +15,7 @@ You can use the StartVolumePairing method to create an encoded key from a volume
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -48,6 +49,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -90,6 +92,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_completevolumepairing.adoc[CompleteVolumePairing]

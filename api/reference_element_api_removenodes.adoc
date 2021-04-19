@@ -21,6 +21,7 @@ If you use RemoveNodes to remove the cluster master node, the method might time 
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

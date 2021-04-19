@@ -21,6 +21,7 @@ You can also remove drives with a "failed" status using RemoveDrives. When you r
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -39,6 +40,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

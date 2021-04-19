@@ -15,6 +15,7 @@ You can use the SetRemoteLoggingHosts method to configure remote logging from th
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -70,6 +71,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]

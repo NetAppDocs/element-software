@@ -15,6 +15,7 @@ The snapMirrorJobScheduleCronInfo object contains information about a cron job s
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

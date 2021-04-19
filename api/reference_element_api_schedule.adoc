@@ -15,6 +15,7 @@ The schedule object contains information about a schedule created to autonomousl
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -157,6 +158,6 @@ array
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listschedules.adoc[ListSchedules]

@@ -19,6 +19,7 @@ NOTE: You cannot remove a virtual network if there are initiators associated wit
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

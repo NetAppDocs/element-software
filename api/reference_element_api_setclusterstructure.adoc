@@ -15,6 +15,7 @@ You can use the SetClusterStructure method to restore the storage cluster config
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -29,6 +30,7 @@ xref:reference_element_api_clusterstructure.adoc[clusterStructure]
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

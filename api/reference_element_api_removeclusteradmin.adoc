@@ -17,6 +17,7 @@ When an IdP cluster admin is removed that has authenticated sessions associated 
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

@@ -15,6 +15,7 @@ The volumeAccessGroup object contains information about a specific volume access
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -61,6 +62,6 @@ a|
 integer array
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listvolumeaccessgroups.adoc[ListVolumeAccessGroups]

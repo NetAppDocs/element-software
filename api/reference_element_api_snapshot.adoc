@@ -15,6 +15,7 @@ The snapshot object contains information about a snapshot made for a volume. You
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -154,6 +155,6 @@ string
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listsnapshots.adoc[ListSnapshots]

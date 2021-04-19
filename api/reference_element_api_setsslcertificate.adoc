@@ -15,6 +15,7 @@ You can use the SetSSLCertificate method to set a user SSL certificate and priva
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
