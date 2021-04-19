@@ -23,9 +23,9 @@ mode
 a|
 The mode of the volume on which to start the pairing process. The mode can only be set if the volume is the source volume. Possible values:
 
-* Async: Writes are acknowledged when they complete locally. The cluster does not wait for writes to be replicated to the target cluster. (Default if no mode parameter specified.)
-* Sync: Source acknowledges write when the data is stored locally and on the remote cluster.
-* SnapshotsOnly: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.
+* `Async`: Writes are acknowledged when they complete locally. The cluster does not wait for writes to be replicated to the target cluster. (Default if no mode parameter specified.)
+* `Sync`: Source acknowledges write when the data is stored locally and on the remote cluster.
+* `SnapshotsOnly`: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.
 
 a|
 string

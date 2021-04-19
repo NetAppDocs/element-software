@@ -23,8 +23,8 @@ authType
 a|
 Identifies which user authentication method to use. Possible values:
 
-* DirectBind
-* SearchAndBind
+* `DirectBind`
+* `SearchAndBind`
 
 a|
 string

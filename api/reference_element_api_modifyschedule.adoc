@@ -18,7 +18,7 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 a|
-`attributes`
+attributes
 a|
 Use to change the frequency of the snapshot occurrence. Possible values:
 
@@ -33,7 +33,7 @@ None
 a|
 No
 a|
-`hours`
+hours
 a|
 Number of hours between snapshots or hour at which the snapshot will occur in Days of Week or Days of Month mode. Valid values are 0 through 24.
 a|
@@ -43,7 +43,7 @@ None
 a|
 No
 a|
-`name`
+name
 a|
 The name of the snapshot. If no name is entered, the date and time the group snapshot was taken is used. The maximum name length allowed is 244 characters.
 a|
@@ -53,7 +53,7 @@ None
 a|
 No
 a|
-`minutes`
+minutes
 a|
 Number of minutes between snapshots or minute at which snapshot will occur in Days of Week or Days of Month mode. Valid values are 0 through 59.
 a|
@@ -63,14 +63,14 @@ None
 a|
 No
 
-|`lastRunStatus`
+|lastRunStatus
 |The result or status of the last scheduled snapshot creation.
 |string
 |None
 |No
 
 a|
-`paused`
+paused
 a|
 Indicates if the schedule should be paused or not. Valid values:
 
@@ -84,7 +84,7 @@ None
 a|
 No
 a|
-`recurring`
+recurring
 a|
 Indicates if the schedule will be recurring or not. Valid values are:
 
@@ -98,7 +98,7 @@ None
 a|
 No
 a|
-`runNextInterval`
+runNextInterval
 a|
 Use to choose whether or not to run the snapshot the next time the scheduler is active. Valid values:
 
@@ -113,7 +113,7 @@ false
 a|
 No
 a|
-`scheduleID`
+scheduleID
 a|
 Unique ID of the schedule.
 a|
@@ -123,7 +123,7 @@ None
 a|
 Yes
 a|
-`scheduleName`
+scheduleName
 a|
 Unique name for the schedule. The maximum schedule name length allowed is 244 characters.
 a|
@@ -133,7 +133,7 @@ None
 a|
 No
 a|
-`scheduleType`
+scheduleType
 a|
 Indicates the type of schedule to create. The only supported value is `snapshot`.
 a|
@@ -162,7 +162,7 @@ None
 a|
 No
 a|
-`snapMirrorLabel`
+snapMirrorLabel
 a|
 The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.
 a|
@@ -172,7 +172,7 @@ None
 a|
 No
 a|
-`toBeDeleted`
+toBeDeleted
 a|
 Indicates if the schedule is marked for deletion. Valid values:
 
@@ -186,7 +186,7 @@ None
 a|
 No
 a|
-`startingDate`
+startingDate
 a|
 Indicates the date the first time the schedule began or will begin.
 a|
@@ -196,7 +196,7 @@ None
 a|
 No
 a|
-`monthdays`
+monthdays
 a|
 The days of the month that a snapshot will be made. Valid values are 1 through 31.
 a|
@@ -206,7 +206,7 @@ None
 a|
 Yes
 a|
-`weekdays`
+weekdays
 a|
 Day of the week the snapshot is to be created. The day of the week starts at Sunday with the value of 0 and an offset of 1.
 a|

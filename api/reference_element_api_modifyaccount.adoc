@@ -63,11 +63,10 @@ No
 a|
 status
 a|
-Status for the account:
+Status for the account. Possible values:
 
-active: Account is active and connections are allowed.
-
-locked: Account is locked and connections are refused.
+* active: Account is active and connections are allowed.
+* locked: Account is locked and connections are refused.
 
 a|
 string

@@ -43,8 +43,8 @@ interface
 a|
 The existing (base) interface from which the pings should be sent. Possible values:
 
-* Bond10G: Send pings from the Bond10G interface.
-* Bond1G: Send pings from the Bond1G interface.
+* `Bond10G`: Send pings from the Bond10G interface.
+* `Bond1G`: Send pings from the Bond1G interface.
 
 a|
 string

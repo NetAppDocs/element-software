@@ -23,19 +23,19 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 
-|`volumeIDs`
+|volumeIDs
 |A list of volumeIDs of volumes to be purged from the system.
 |integer array
 |No
 |No
 
-|`accountIDs`
+|accountIDs
 |A list of accountIDs. All of the volumes from all of the specified accounts are purged from the system.
 |integer array
 |No
 |No
 
-|`volumeAccessGroupIDs`
+|volumeAccessGroupIDs
 |A list of volumeAccessGroupIDs. All of the volumes from all of the specified volume access groups are purged from the system.
 |integer array
 |No
