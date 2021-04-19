@@ -9,13 +9,13 @@ summary: 'You can use the RemoveDrives method to proactively remove drives that 
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveDrives method to proactively remove drives that are part of the cluster. You might use this method when reducing cluster capacity or preparing to replace drives nearing the end of their service life. Any data on the drives is removed and migrated to other drives in the cluster before the drive is removed from the cluster.
+You can use the `RemoveDrives` method to proactively remove drives that are part of the cluster. You might use this method when reducing cluster capacity or preparing to replace drives nearing the end of their service life. Any data on the drives is removed and migrated to other drives in the cluster before the drive is removed from the cluster.
 
-RemoveDrives is an asynchronous method. Depending on the total capacity of the drives being removed, it might take several minutes to migrate all of the data.
+`RemoveDrives` is an asynchronous method. Depending on the total capacity of the drives being removed, it might take several minutes to migrate all of the data.
 
-When removing multiple drives, use a single RemoveDrives method call rather than multiple individual methods with a single drive each. This reduces the amount of data balancing that must occur to evenly stabilize the storage load on the cluster.
+When removing multiple drives, use a single `RemoveDrives` method call rather than multiple individual methods with a single drive each. This reduces the amount of data balancing that must occur to evenly stabilize the storage load on the cluster.
 
-You can also remove drives with a "failed" status using RemoveDrives. When you remove a drive with a "failed" status, the drive is not returned to an "available" or "`active`" status. The drive is unavailable for use in the cluster.
+You can also remove drives with a "failed" status using `RemoveDrives`. When you remove a drive with a "failed" status, the drive is not returned to an "available" or "`active`" status. The drive is unavailable for use in the cluster.
 
 == Parameter
 

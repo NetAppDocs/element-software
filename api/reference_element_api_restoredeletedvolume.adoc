@@ -9,7 +9,7 @@ summary: 'You can use the RestoreDeletedVolume method to mark a deleted volume a
 :imagesdir: ../media/
 
 [.lead]
-You can use the RestoreDeletedVolume method to mark a deleted volume as active again. This action makes the volume immediately available for iSCSI connection.
+You can use the `RestoreDeletedVolume` method to mark a deleted volume as active again. This action makes the volume immediately available for iSCSI connection.
 
 == Parameter
 

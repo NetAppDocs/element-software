@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ResumeSnapMirrorRelationship meth
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ResumeSnapMirrorRelationship method to enable future transfers for a quiesced SnapMirror relationship.
+The Element software web UI uses the `ResumeSnapMirrorRelationship` method to enable future transfers for a quiesced SnapMirror relationship.
 
 == Parameters
 

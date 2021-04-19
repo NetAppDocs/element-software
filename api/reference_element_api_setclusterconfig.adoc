@@ -9,7 +9,7 @@ summary: 'You can use the SetClusterConfig method to set the configuration that 
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetClusterConfig method to set the configuration that a node uses to communicate with the cluster it is associated with. To display the current cluster interface settings for a node, run the GetClusterConfig API method.
+You can use the `SetClusterConfig` method to set the configuration that a node uses to communicate with the cluster it is associated with. To display the current cluster interface settings for a node, run the `GetClusterConfig` API method.
 
 == Parameter
 

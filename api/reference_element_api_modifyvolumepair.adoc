@@ -9,7 +9,7 @@ summary: 'You can use the ModifyVolumePair method to pause or restart replicatio
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyVolumePair method to pause or restart replication between a pair of volumes. This method is set on the source volume (the volume with read/write access).
+You can use the `ModifyVolumePair` method to pause or restart replication between a pair of volumes. This method is set on the source volume (the volume with read/write access).
 
 == Parameters
 

@@ -18,16 +18,11 @@ This method has the following input parameter:
 [options="header"]
 |===
 |Name |Description |Type |Default value |Required
-a|
-mvip
-a|
-You can pass this value to test the management connection of a different MVIP. You do not need to use this value when testing the connection to the target cluster.
-a|
-string
-a|
-None
-a|
-No
+|mvip
+|You can pass this value to test the management connection of a different MVIP. You do not need to use this value when testing the connection to the target cluster.
+|string
+|None
+|No
 |===
 
 == Return value
@@ -37,29 +32,26 @@ This method has the following return value:
 [options="header"]
 |===
 |Name |Description |Type
-a|
-details
-a|
-Information about the test operation (JSON object):
+|details
+a|Information about the test operation (JSON object):
 
-* connected: Indicates if the test could connect to the MVIP (boolean)
-* mvip: The MVIP tested against (string)
-* pingBytes: Details of the ping tests with 56 bytes and 1500 bytes (object)
- ** 56: Results of the 56 Byte ping test (JSON object):
-  *** individualResponseTimes: List of response times from each ensemble node (string array)
-  *** individualStatus: List of ping status from each ensemble node (boolean array)
-  *** responseTime: Average ping response time (string)
-  *** successful: Indicates if the ping test was successful (boolean)
- ** 1500: Results of the 1500 byte ping test (JSON object):
-  *** individualResponseTimes: List of response times from each ensemble node (string array)
-  *** individualStatus: List of ping status from each ensemble node (boolean array)
-  *** responseTime: Average ping response time (string)
-  *** successful: Whether the ping test was successful (boolean)
- ** duration: Length of time required to run the test (string)
- ** result: Result of the test as a whole (string)
+* `connected`: Indicates if the test could connect to the MVIP (boolean)
+* `mvip`: The MVIP tested against (string)
+* `pingBytes`: Details of the ping tests with 56 bytes and 1500 bytes (object)
+ ** `56`: Results of the 56 Byte ping test (JSON object):
+  *** `individualResponseTimes`: List of response times from each ensemble node (string array)
+  *** `individualStatus`: List of ping status from each ensemble node (boolean array)
+  *** `responseTime`: Average ping response time (string)
+  *** `successful`: Indicates if the ping test was successful (boolean)
+ ** `1500`: Results of the 1500 byte ping test (JSON object):
+  *** `individualResponseTimes`: List of response times from each ensemble node (string array)
+  *** `individualStatus`: List of ping status from each ensemble node (boolean array)
+  *** `responseTime`: Average ping response time (string)
+  *** `successful`: Whether the ping test was successful (boolean)
+ ** `duration`: Length of time required to run the test (string)
+ ** `result`: Result of the test as a whole (string)
 
-a|
-JSON object
+|JSON object
 |===
 
 == Request example

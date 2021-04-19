@@ -9,7 +9,7 @@ summary: 'You can use the RemoveNodeSSLCertificate method to remove the user SSL
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveNodeSSLCertificate method to remove the user SSL certificate and private key for the management node. After the certificate and private key are removed, the management node is configured to use the default certificate and private key.
+You can use the `RemoveNodeSSLCertificate` method to remove the user SSL certificate and private key for the management node. After the certificate and private key are removed, the management node is configured to use the default certificate and private key.
 
 == Parameters
 

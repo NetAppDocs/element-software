@@ -9,7 +9,7 @@ summary: 'You can use the RemoveVolumesFromVolumeAccessGroup method to remove vo
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveVolumesFromVolumeAccessGroup method to remove volumes from a specified volume access group.
+You can use the `RemoveVolumesFromVolumeAccessGroup` method to remove volumes from a specified volume access group.
 
 == Parameters
 

@@ -15,6 +15,7 @@ The node object contains information about each node in the cluster. You can ret
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

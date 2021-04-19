@@ -9,13 +9,13 @@ summary: 'You can use RemoveNodes to remove one or more nodes that should no lon
 :imagesdir: ../media/
 
 [.lead]
-You can use RemoveNodes to remove one or more nodes that should no longer participate in the cluster.
+You can use `RemoveNodes` to remove one or more nodes that should no longer participate in the cluster.
 
-Before removing a node, you must remove all drives the node contains using the RemoveDrives method. You cannot remove a node until the RemoveDrives process has completed and all data has been migrated away from the node. After you remove a node, it registers itself as a pending node. You can add the node again or shut it down (shutting the node down removes it from the pending node list).
+Before removing a node, you must remove all drives the node contains using the `RemoveDrives` method. You cannot remove a node until the `RemoveDrives` process has completed and all data has been migrated away from the node. After you remove a node, it registers itself as a pending node. You can add the node again or shut it down (shutting the node down removes it from the pending node list).
 
 == Cluster master node removal
 
-If you use RemoveNodes to remove the cluster master node, the method might time out before returning a response. If the method call fails to remove the node, make the method call again. Note that if you are removing the cluster master node along with other nodes, you should use a separate call to remove the cluster master node by itself.
+If you use `RemoveNodes` to remove the cluster master node, the method might time out before returning a response. If the method call fails to remove the node, make the method call again. Note that if you are removing the cluster master node along with other nodes, you should use a separate call to remove the cluster master node by itself.
 
 == Parameter
 

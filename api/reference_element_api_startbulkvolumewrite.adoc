@@ -9,7 +9,7 @@ summary: 'You can use the StartBulkVolumeWrite method to start a bulk volume wri
 :imagesdir: ../media/
 
 [.lead]
-You can use the StartBulkVolumeWrite method to start a bulk volume write session on a specified volume.
+You can use the `StartBulkVolumeWrite` method to start a bulk volume write session on a specified volume.
 
 Only two bulk volume processes can run simultaneously on a volume. When you initialize the session, data is written to an Element storage volume from an external backup source. The external data is accessed by a web server running on an Element storage node. Server interaction information for external data access is passed by a script running on the storage system.
 

@@ -9,7 +9,7 @@ summary: 'The ListActiveVolumes method returns a response similar to the followi
 :imagesdir: ../media/
 
 [.lead]
-The ListActiveVolumes method returns a response similar to the following example.
+The `ListActiveVolumes` method returns a response similar to the following example.
 
 ----
 {

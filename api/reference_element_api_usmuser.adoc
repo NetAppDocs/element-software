@@ -9,7 +9,7 @@ summary: 'You can use the SNMP usmUser object with the SetSnmpInfo API method to
 :imagesdir: ../media/
 
 [.lead]
-You can use the SNMP usmUser object with the SetSnmpInfo API method to configure SNMP on the storage cluster.
+You can use the SNMP usmUser object with the `SetSnmpInfo` API method to configure SNMP on the storage cluster.
 
 == Object members
 

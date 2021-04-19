@@ -9,7 +9,7 @@ summary: 'You can use the TestConnectSvip method to test the storage connection 
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestConnectSvip method to test the storage connection to the storage cluster. The test pings the SVIP using ICMP packets, and when successful, connects as an iSCSI initiator.
+You can use the `TestConnectSvip` method to test the storage connection to the storage cluster. The test pings the SVIP using ICMP packets, and when successful, connects as an iSCSI initiator.
 
 == Parameter
 
@@ -42,21 +42,21 @@ details
 a|
 Information about the test operation (JSON object):
 
-* connected: Indicates if the test could connect to the SVIP (boolean)
-* svip: The SVIP tested against (string)
-* pingBytes: Details of the ping tests with 56 bytes and 9000 bytes (object)
- ** 56: Results of the 56 byte ping test (JSON object):
-  *** individualResponseTimes: List of response times from each ensemble node (string array)
-  *** individualStatus: List of ping status from each ensemble node (boolean array)
-  *** responseTime: Average ping response time (string)
-  *** successful: Indicates if the ping test was successful (boolean)
- ** 9000: Results of the 9000 Byte ping test (JSON object):
-  *** individualResponseTimes: List of response times from each ensemble node (string array)
-  *** individualStatus: List of ping status from each ensemble node (boolean array)
-  *** responseTime: Average ping response time (string)
-  *** successful: Indicates if the ping test was successful (boolean)
- ** duration: Length of time required to run the test (string)
- ** result: Result of the test as a whole (string)
+* `connected`: Indicates if the test could connect to the SVIP (boolean)
+* `svip`: The SVIP tested against (string)
+* `pingBytes`: Details of the ping tests with 56 bytes and 9000 bytes (object)
+ ** `56`: Results of the 56 byte ping test (JSON object):
+  *** `individualResponseTimes`: List of response times from each ensemble node (string array)
+  *** `individualStatus`: List of ping status from each ensemble node (boolean array)
+  *** `responseTime`: Average ping response time (string)
+  *** `successful`: Indicates if the ping test was successful (boolean)
+ ** `9000`: Results of the 9000 Byte ping test (JSON object):
+  *** `individualResponseTimes`: List of response times from each ensemble node (string array)
+  *** `individualStatus`: List of ping status from each ensemble node (boolean array)
+  *** `responseTime`: Average ping response time (string)
+  *** `successful`: Indicates if the ping test was successful (boolean)
+ ** `duration`: Length of time required to run the test (string)
+ ** `result`: Result of the test as a whole (string)
 
 a|
 string

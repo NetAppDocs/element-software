@@ -9,7 +9,7 @@ summary: 'The session \(iSCSI\) object contains detailed information about each 
 :imagesdir: ../media/
 
 [.lead]
-The session (iSCSI) object contains detailed information about each volume's iSCSI session. You can retrieve iSCSI session information with the ListISCSISessions API method.
+The session (iSCSI) object contains detailed information about each volume's iSCSI session. You can retrieve iSCSI session information with the `ListISCSISessions` API method.
 
 == Object members
 

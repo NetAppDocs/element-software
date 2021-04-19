@@ -9,7 +9,7 @@ summary: 'The virtualNetwork object contains information about a specific virtua
 :imagesdir: ../media/
 
 [.lead]
-The virtualNetwork object contains information about a specific virtual network. You can use the ListVirtualNetworks API method to retrieve a list of this information for all virtual networks in the system.
+The virtualNetwork object contains information about a specific virtual network. You can use the `ListVirtualNetworks` API method to retrieve a list of this information for all virtual networks in the system.
 
 == Object members
 

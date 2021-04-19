@@ -9,7 +9,7 @@ summary: 'You can use the SetNodeSSLCertificate method to set a user SSL certifi
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetNodeSSLCertificate method to set a user SSL certificate and private key for the management node.
+You can use the `SetNodeSSLCertificate` method to set a user SSL certificate and private key for the management node.
 
 == Parameters
 

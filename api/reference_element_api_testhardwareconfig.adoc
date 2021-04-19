@@ -9,7 +9,7 @@ summary: 'You can use the TestHardwareConfig method to perform hardware tests on
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestHardwareConfig method to perform hardware tests on a node. Test options include verifying hardware configurations, firmware versions, and that all drives are present.
+You can use the `TestHardwareConfig` method to perform hardware tests on a node. Test options include verifying hardware configurations, firmware versions, and that all drives are present.
 
 == Parameters
 

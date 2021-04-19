@@ -9,11 +9,11 @@ summary: 'You can use the TestDrives method to run a hardware validation on all 
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestDrives method to run a hardware validation on all drives on the node. This method detects hardware failures on the drives and reports any in the results of the validation tests.
+You can use the `TestDrives` method to run a hardware validation on all drives on the node. This method detects hardware failures on the drives and reports any in the results of the validation tests.
 
 == Parameters
 
-You can only use the TestDrives method on nodes that are not "Active" in a cluster.
+You can only use the `TestDrives` method on nodes that are not "Active" in a cluster.
 
 NOTE: This test takes approximately 10 minutes.
 

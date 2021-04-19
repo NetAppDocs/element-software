@@ -9,7 +9,7 @@ summary: 'You can use the TestConnectEnsemble method to verify connectivity with
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestConnectEnsemble method to verify connectivity with a specified database ensemble. By default it uses the ensemble for the cluster the node is associated with. Alternatively you can provide a different ensemble to test connectivity.
+You can use the `TestConnectEnsemble` method to verify connectivity with a specified database ensemble. By default it uses the ensemble for the cluster the node is associated with. Alternatively you can provide a different ensemble to test connectivity.
 
 == Parameters
 
@@ -18,16 +18,11 @@ This method has the following input parameter:
 [options="header"]
 |===
 |Name |Description |Type |Default value |Required
-a|
-ensemble
-a|
-A comma-separated list of ensemble node cluster IP addresses for connectivity testing.
-a|
-string
-a|
-None
-a|
-No
+|ensemble
+|A comma-separated list of ensemble node cluster IP addresses for connectivity testing.
+|string
+|None
+|No
 |===
 
 == Return value
@@ -37,17 +32,14 @@ This method has the following return value:
 [options="header"]
 |===
 |Name |Description |Type
-a|
-details
-a|
-Objects returned:
+|details
+a|Objects returned:
 
-* nodes: (object) A list of each ensemble node in the test and the results of the tests.
-* duration: (string) The time required to run the test.
-* result: (string) The results of the entire test.
+* `nodes`: (object) A list of each ensemble node in the test and the results of the tests.
+* `duration`: (string) The time required to run the test.
+* `result`: (string) The results of the entire test.
 
-a|
-JSON object
+|JSON object
 |===
 
 == Request example

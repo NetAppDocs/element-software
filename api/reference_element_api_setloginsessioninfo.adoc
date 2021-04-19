@@ -9,7 +9,7 @@ summary: 'You can use the SetLoginSessionInfo method to set the period of time t
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetLoginSessionInfo method to set the period of time that a login authentication for a session is valid. After the login period elapses without activity on the system, the authentication expires. New login credentials are required for continued access to the cluster after the login period has elapsed.
+You can use the `SetLoginSessionInfo` method to set the period of time that a login authentication for a session is valid. After the login period elapses without activity on the system, the authentication expires. New login credentials are required for continued access to the cluster after the login period has elapsed.
 
 == Parameter
 

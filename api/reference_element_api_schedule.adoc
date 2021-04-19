@@ -9,7 +9,7 @@ summary: 'The schedule object contains information about a schedule created to a
 :imagesdir: ../media/
 
 [.lead]
-The schedule object contains information about a schedule created to autonomously make a snapshot of a volume. You can retrieve schedule information for all schedules with the ListSchedules API method.
+The schedule object contains information about a schedule created to autonomously make a snapshot of a volume. You can retrieve schedule information for all schedules with the `ListSchedules` API method.
 
 == Object members
 

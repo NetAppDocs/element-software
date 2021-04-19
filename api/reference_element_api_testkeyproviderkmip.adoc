@@ -9,7 +9,7 @@ summary: 'You can use the TestKeyProviderKmip method to test whether the specifi
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestKeyProviderKmip method to test whether the specified Key Management Interoperability Protocol (KMIP) key provider is reachable and functioning normally.
+You can use the `TestKeyProviderKmip` method to test whether the specified Key Management Interoperability Protocol (KMIP) key provider is reachable and functioning normally.
 
 == Parameters
 

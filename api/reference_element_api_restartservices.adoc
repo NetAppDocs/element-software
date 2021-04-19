@@ -9,7 +9,7 @@ summary: 'You can use the RestartServices method to restart the services on a no
 :imagesdir: ../media/
 
 [.lead]
-You can use the RestartServices method to restart the services on a node.
+You can use the `RestartServices` method to restart the services on a node.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the SetLoginBanner method to configure the Terms of Use ba
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetLoginBanner method to configure the Terms of Use banner that users see when they log in to the Element web interface.
+You can use the `SetLoginBanner` method to configure the Terms of Use banner that users see when they log in to the Element web interface.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the SetNetworkConfig method to set the network configurati
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetNetworkConfig method to set the network configuration for a node. To display the current network settings for a node, run the GetNetworkConfig API method.
+You can use the `SetNetworkConfig` method to set the network configuration for a node. To display the current network settings for a node, run the `GetNetworkConfig` API method.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

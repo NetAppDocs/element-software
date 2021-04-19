@@ -9,7 +9,7 @@ summary: 'You can use the ModifyVolumeAccessGroupLunAssignments method to define
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyVolumeAccessGroupLunAssignments method to define custom LUN assignments for specific volumes.
+You can use the `ModifyVolumeAccessGroupLunAssignments` method to define custom LUN assignments for specific volumes.
 
 This method changes only LUN values set on the lunAssignments parameter in the volume access group. All other LUN assignments remain unchanged.
 

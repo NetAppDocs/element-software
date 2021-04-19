@@ -9,7 +9,7 @@ summary: 'You can use the UpdateBulkVolumeStatus method to update the status of 
 :imagesdir: ../media/
 
 [.lead]
-You can use the UpdateBulkVolumeStatus method to update the status of a bulk volume job that you started with the StartBulkVolumeRead or StartBulkVolumeWrite methods.
+You can use the `UpdateBulkVolumeStatus` method to update the status of a bulk volume job that you started with the `StartBulkVolumeRead` or `StartBulkVolumeWrite` methods.
 
 == Parameters
 

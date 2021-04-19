@@ -9,7 +9,7 @@ summary: 'The GetLldpInfo method returns a response similar to the following exa
 :imagesdir: ../media/
 
 [.lead]
-The GetLldpInfo method returns a response similar to the following example.
+The `GetLldpInfo` method returns a response similar to the following example.
 
 ----
 {

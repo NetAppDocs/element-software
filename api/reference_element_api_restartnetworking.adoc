@@ -9,7 +9,7 @@ summary: 'You can use the RestartNetworking method to restart the networking ser
 :imagesdir: ../media/
 
 [.lead]
-You can use the RestartNetworking method to restart the networking services on a node.
+You can use the `RestartNetworking` method to restart the networking services on a node.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

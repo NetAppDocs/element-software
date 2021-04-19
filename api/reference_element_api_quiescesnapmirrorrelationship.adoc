@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the QuiesceSnapMirrorRelationship met
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the QuiesceSnapMirrorRelationship method to disable future data transfers for a SnapMirror relationship. If a transfer is in progress, the relationship status becomes "quiescing" until the transfer is complete. If the current transfer is aborted, it will not restart. You can reenable data transfers for the relationship using the ResumeSnapMirrorRelationship API method.
+The Element software web UI uses the `QuiesceSnapMirrorRelationship` method to disable future data transfers for a SnapMirror relationship. If a transfer is in progress, the relationship status becomes "quiescing" until the transfer is complete. If the current transfer is aborted, it will not restart. You can reenable data transfers for the relationship using the `ResumeSnapMirrorRelationship` API method.
 
 == Parameters
 

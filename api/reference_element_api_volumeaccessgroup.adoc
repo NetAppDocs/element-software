@@ -9,7 +9,7 @@ summary: 'The volumeAccessGroup object contains information about a specific vol
 :imagesdir: ../media/
 
 [.lead]
-The volumeAccessGroup object contains information about a specific volume access group. You can retrieve a list of this information for all access groups with the API method ListVolumeAccessGroups.
+The volumeAccessGroup object contains information about a specific volume access group. You can retrieve a list of this information for all access groups with the API method `ListVolumeAccessGroups`.
 
 == Object members
 

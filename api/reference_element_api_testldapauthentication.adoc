@@ -9,7 +9,7 @@ summary: 'You can use the TestLdapAuthentication method to validate the currentl
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestLdapAuthentication method to validate the currently enabled LDAP authentication settings. If the configuration is correct, the API call returns the group membership of the tested user.
+You can use the `TestLdapAuthentication` method to validate the currently enabled LDAP authentication settings. If the configuration is correct, the API call returns the group membership of the tested user.
 
 == Parameters
 

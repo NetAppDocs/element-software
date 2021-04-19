@@ -9,7 +9,7 @@ summary: 'You can use the SetSSLCertificate method to set a user SSL certificate
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetSSLCertificate method to set a user SSL certificate and private key for the storage nodes in the cluster.
+You can use the `SetSSLCertificate` method to set a user SSL certificate and private key for the storage nodes in the cluster.
 
 == Parameters
 

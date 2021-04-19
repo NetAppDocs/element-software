@@ -9,7 +9,7 @@ summary: 'You can use the SetDefaultQoS method to configure the default Quality 
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetDefaultQoS method to configure the default Quality of Service (QoS) values (measured in inputs and outputs per second, or IOPS) for a volume.
+You can use the `SetDefaultQoS` method to configure the default Quality of Service (QoS) values (measured in inputs and outputs per second, or IOPS) for a volume.
 
 == Parameters
 
