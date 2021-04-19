@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorRelationships metho
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorRelationships method to list one or all SnapMirror relationships on an Element storage cluster.
+The Element software web UI uses the `ListSnapMirrorRelationships` method to list one or all SnapMirror relationships on an Element storage cluster.
 
 == Parameters
 

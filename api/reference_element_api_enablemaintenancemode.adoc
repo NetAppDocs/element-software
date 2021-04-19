@@ -9,7 +9,7 @@ summary: 'You can use the EnableMaintenanceMode method to prepare a storage node
 :imagesdir: ../media/
 
 [.lead]
-You can use the EnableMaintenanceMode method to prepare a storage node for maintenance. Maintenance scenarios include any task that requires the node to be powered off or restarted.
+You can use the `EnableMaintenanceMode` method to prepare a storage node for maintenance. Maintenance scenarios include any task that requires the node to be powered off or restarted.
 
 == Parameters
 
@@ -137,6 +137,6 @@ This method returns a response similar to the following example:
 
 12.2
 
-== Find more information 
+== Find more information
 
 http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html[NetApp HCI storage maintenance mode concepts]

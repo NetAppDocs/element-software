@@ -9,7 +9,7 @@ summary: 'You can use the ModifyInitiators method to change the attributes of on
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyInitiators method to change the attributes of one or more existing initiators.
+You can use the `ModifyInitiators` method to change the attributes of one or more existing initiators.
 
 You cannot change the name of an existing initiator. If you need to change the name of an initiator, delete it first with the xref:reference_element_api_deleteinitiators.adoc[DeleteInitiators] method and create a new one with the xref:reference_element_api_createinitiators.adoc[CreateInitiators] method.
 

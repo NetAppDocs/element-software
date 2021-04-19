@@ -9,7 +9,7 @@ summary: 'You can use the GetFipsReport method to check the FIPS 140-2 encryptio
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetFipsReport method to check the FIPS 140-2 encryption feature support status of all nodes in the storage cluster.
+You can use the `GetFipsReport` method to check the FIPS 140-2 encryption feature support status of all nodes in the storage cluster.
 
 == Parameter
 

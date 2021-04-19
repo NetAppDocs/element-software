@@ -9,7 +9,7 @@ summary: 'You can use the ListProtocolEndpoints method to retrieve information a
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListProtocolEndpoints method to retrieve information about all protocol endpoints in the cluster. Protocol endpoints govern access to their associated virtual volume storage containers.
+You can use the `ListProtocolEndpoints` method to retrieve information about all protocol endpoints in the cluster. Protocol endpoints govern access to their associated virtual volume storage containers.
 
 == Parameters
 

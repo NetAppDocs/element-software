@@ -9,7 +9,7 @@ summary: 'You can use the GetNodeFipsDrivesReport method to check the FIPS 140-2
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNodeFipsDrivesReport method to check the FIPS 140-2 drive encryption capability status of a single node in the storage cluster. You must run this method against an individual storage node.
+You can use the `GetNodeFipsDrivesReport` method to check the FIPS 140-2 drive encryption capability status of a single node in the storage cluster. You must run this method against an individual storage node.
 
 == Parameter
 

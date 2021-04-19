@@ -9,9 +9,9 @@ summary: 'You can use GetAsyncResult to retrieve the result of asynchronous meth
 :imagesdir: ../media/
 
 [.lead]
-You can use GetAsyncResult to retrieve the result of asynchronous method calls. Some method calls require some time to run, and might not be finished when the system sends the initial response. To obtain the status or result of the method call, use GetAsyncResult to poll the asyncHandle value returned by the method.
+You can use `GetAsyncResult` to retrieve the result of asynchronous method calls. Some method calls require some time to run, and might not be finished when the system sends the initial response. To obtain the status or result of the method call, use `GetAsyncResult` to poll the asyncHandle value returned by the method.
 
-GetAsyncResult returns the overall status of the operation (in progress, completed, or error) in a standard fashion, but the actual data returned for the operation depends on the original method call and the return data is documented with each method.
+`GetAsyncResult` returns the overall status of the operation (in progress, completed, or error) in a standard fashion, but the actual data returned for the operation depends on the original method call and the return data is documented with each method.
 
 If the keepResult parameter is missing or false, the asyncHandle becomes inactive when the result is returned, and later attempts to query that asyncHandle return an error. You can keep the asyncHandle active for future queries by setting the keepResult parameter to true.
 

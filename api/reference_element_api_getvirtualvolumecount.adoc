@@ -9,7 +9,7 @@ summary: 'You can use the GetVirtualVolumeCount method to retrieve the number of
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetVirtualVolumeCount method to retrieve the number of virtual volumes currently in the system.
+You can use the `GetVirtualVolumeCount` method to retrieve the number of virtual volumes currently in the system.
 
 == Parameters
 

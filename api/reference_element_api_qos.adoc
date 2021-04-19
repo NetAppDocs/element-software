@@ -9,7 +9,7 @@ summary: 'The QoS object contains information about Quality of Service \(QoS\) s
 :imagesdir: ../media/
 
 [.lead]
-The QoS object contains information about Quality of Service (QoS) settings for volumes. Volumes created without specified QoS values are created using the default values. You can find default values using the GetDefaultQoS method.
+The QoS object contains information about Quality of Service (QoS) settings for volumes. Volumes created without specified QoS values are created using the default values. You can find default values using the `GetDefaultQoS` method.
 
 == Object members
 

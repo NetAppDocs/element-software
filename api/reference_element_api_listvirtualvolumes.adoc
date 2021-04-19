@@ -9,7 +9,7 @@ summary: 'You can use the ListVirtualVolumes method to list the virtual volumes 
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVirtualVolumes method to list the virtual volumes currently in the system. You can use this method to list all virtual volumes, or only list a subset.
+You can use the `ListVirtualVolumes` method to list the virtual volumes currently in the system. You can use this method to list all virtual volumes, or only list a subset.
 
 == Parameters
 

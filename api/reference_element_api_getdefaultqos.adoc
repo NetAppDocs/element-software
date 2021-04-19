@@ -9,7 +9,7 @@ summary: 'You can use the GetDefaultQoS method to get the default quality of ser
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetDefaultQoS method to get the default quality of service (QoS) values for a newly created volume.
+You can use the `GetDefaultQoS` method to get the default quality of service (QoS) values for a newly created volume.
 
 == Parameters
 

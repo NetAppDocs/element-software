@@ -9,7 +9,7 @@ summary: 'You can use the GetHardwareInfo method to get hardware information and
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetHardwareInfo method to get live hardware information and status for a single node. Hardware information generally includes manufacturers, vendors, versions, drives, and other associated identification information.
+You can use the `GetHardwareInfo` method to get live hardware information and status for a single node. Hardware information generally includes manufacturers, vendors, versions, drives, and other associated identification information.
 
 == Parameter
 

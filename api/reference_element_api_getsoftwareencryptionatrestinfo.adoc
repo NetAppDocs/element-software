@@ -9,7 +9,7 @@ summary: 'You can use the GetSoftwareEncryptionAtRestInfo method to get informat
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSoftwareEncryptionAtRestInfo method to get software encryption-at-rest information the cluster uses to encrypt data at rest.
+You can use the `GetSoftwareEncryptionAtRestInfo` method to get software encryption-at-rest information the cluster uses to encrypt data at rest.
 
 == Parameters
 This method has no input parameters.

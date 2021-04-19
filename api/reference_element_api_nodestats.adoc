@@ -9,7 +9,7 @@ summary: 'The nodeStats object contains high-level activity measurements for a n
 :imagesdir: ../media/
 
 [.lead]
-The nodeStats object contains high-level activity measurements for a node. You can use the GetNodeStats and ListNodeStats API methods to get some or all of the nodeStats objects.
+The nodeStats object contains high-level activity measurements for a node. You can use the `GetNodeStats` and `ListNodeStats` API methods to get some or all of the nodeStats objects.
 
 == Object members
 

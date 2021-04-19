@@ -9,7 +9,7 @@ summary: 'The network \(local interfaces\) object contains configuration informa
 :imagesdir: ../media/
 
 [.lead]
-The network (local interfaces) object contains configuration information for local network interfaces, such as the loopback interface, on a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.
+The network (local interfaces) object contains configuration information for local network interfaces, such as the loopback interface, on a storage node. You can use the `GetConfig` and `GetNetworkConfig` methods to obtain this information for a storage node.
 
 == Object members
 

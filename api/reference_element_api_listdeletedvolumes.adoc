@@ -9,7 +9,7 @@ summary: 'You can use the ListDeletedVolumes method to retrieve the list of volu
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListDeletedVolumes method to retrieve the list of volumes that have been marked for deletion and purged from the system.
+You can use the `ListDeletedVolumes` method to retrieve the list of volumes that have been marked for deletion and purged from the system.
 
 == Parameter
 

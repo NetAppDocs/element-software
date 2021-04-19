@@ -9,7 +9,7 @@ summary: 'You can use the ListVirtualVolumeBindings method to get a list of all 
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVirtualVolumeBindings method to get a list of all virtual volumes in the cluster that are bound to protocol endpoints.
+You can use the `ListVirtualVolumeBindings` method to get a list of all virtual volumes in the cluster that are bound to protocol endpoints.
 
 == Parameters
 

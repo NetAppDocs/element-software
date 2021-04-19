@@ -9,7 +9,7 @@ summary: 'You can use the ListKeyProvidersKmip method to retrieve a list of all 
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListKeyProvidersKmip method to retrieve a list of all existing Key Management Interoperability Protocol (KMIP) key providers. You can filter the list by specifying additional parameters.
+You can use the `ListKeyProvidersKmip` method to retrieve a list of all existing Key Management Interoperability Protocol (KMIP) key providers. You can filter the list by specifying additional parameters.
 
 == Parameters
 

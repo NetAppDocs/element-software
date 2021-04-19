@@ -9,7 +9,7 @@ summary: 'You can use GetSchedule to get information about a scheduled snapshot.
 :imagesdir: ../media/
 
 [.lead]
-You can use GetSchedule to get information about a scheduled snapshot.
+You can use `GetSchedule` to get information about a scheduled snapshot.
 
 You can see information about a specific schedule if there are many snapshot schedules in the system. You also retrieve information about more than one schedule with this method by specifying additional IDs in the scheduleID parameter.
 

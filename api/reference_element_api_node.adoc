@@ -9,7 +9,7 @@ summary: 'The node object contains information about each node in the cluster. Y
 :imagesdir: ../media/
 
 [.lead]
-The node object contains information about each node in the cluster. You can retrieve this information using the ListActiveNodes and ListAllNodes methods.
+The node object contains information about each node in the cluster. You can retrieve this information using the `ListActiveNodes` and `ListAllNodes` methods.
 
 == Object members
 

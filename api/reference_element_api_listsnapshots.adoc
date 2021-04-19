@@ -9,7 +9,7 @@ summary: 'You can use ListSnapshots to return the attributes of each snapshot ta
 :imagesdir: ../media/
 
 [.lead]
-You can use ListSnapshots to return the attributes of each snapshot taken on the volume.
+You can use `ListSnapshots` to return the attributes of each snapshot taken on the volume.
 
 Information about snapshots that reside on the target cluster will be displayed on the source cluster when this method is called from the source cluster.
 

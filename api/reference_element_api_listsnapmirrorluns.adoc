@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorLuns method to list
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorLuns method to list the LUN information for the SnapMirror relationship from the remote ONTAP cluster.
+The Element software web UI uses the `ListSnapMirrorLuns` method to list the LUN information for the SnapMirror relationship from the remote ONTAP cluster.
 
 == Parameters
 

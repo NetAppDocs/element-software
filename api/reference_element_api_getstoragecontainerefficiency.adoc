@@ -9,7 +9,7 @@ summary: 'You can use the GetStorageContainerEfficiency method to retrieve effic
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetStorageContainerEfficiency method to retrieve efficiency information about a virtual volume storage container.
+You can use the `GetStorageContainerEfficiency` method to retrieve efficiency information about a virtual volume storage container.
 
 == Parameters
 

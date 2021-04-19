@@ -9,7 +9,7 @@ summary: 'You can use the ListISCSISessions method to list iSCSI connection info
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListISCSISessions method to list iSCSI connection information for volumes in the cluster.
+You can use the `ListISCSISessions` method to list iSCSI connection information for volumes in the cluster.
 
 == Parameters
 

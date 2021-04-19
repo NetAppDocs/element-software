@@ -9,7 +9,7 @@ summary: 'You can use the ListVolumeQoSHistograms method to generate a histogram
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVolumeQoSHistograms method to generate a histogram of volume QoS usage for one volume or multiple volumes. This enables you to better understand how volumes are using QoS.
+You can use the `ListVolumeQoSHistograms` method to generate a histogram of volume QoS usage for one volume or multiple volumes. This enables you to better understand how volumes are using QoS.
 
 == Parameters
 

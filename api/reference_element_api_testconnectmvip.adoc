@@ -9,7 +9,7 @@ summary: 'You can use the TestConnectMvip method to test the management connecti
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestConnectMvip method to test the management connection to the storage cluster. The test pings the MVIP and executes a simple API method to verify connectivity.
+You can use the `TestConnectMvip` method to test the management connection to the storage cluster. The test pings the MVIP and executes a simple API method to verify connectivity.
 
 == Parameter
 

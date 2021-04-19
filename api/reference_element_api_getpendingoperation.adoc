@@ -9,7 +9,7 @@ summary: 'You can use the GetPendingOperation method to detect an operation on a
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetPendingOperation method to detect an operation on a node that is currently in progress. This method can also be used to report back when an operation has completed.
+You can use the `GetPendingOperation` method to detect an operation on a node that is currently in progress. This method can also be used to report back when an operation has completed.
 
 == Parameters
 

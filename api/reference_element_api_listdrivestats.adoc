@@ -9,7 +9,7 @@ summary: 'You can use the ListDriveStats method to list high-level activity meas
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListDriveStats method to list high-level activity measurements for multiple drives in the cluster. By default, this method returns statistics for all drives in the cluster, and these measurements are cumulative from the addition of the drive to the cluster. Some values this method returns are specific to block drives, and some are specific to metadata drives.
+You can use the `ListDriveStats` method to list high-level activity measurements for multiple drives in the cluster. By default, this method returns statistics for all drives in the cluster, and these measurements are cumulative from the addition of the drive to the cluster. Some values this method returns are specific to block drives, and some are specific to metadata drives.
 
 == Parameter
 
@@ -109,6 +109,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getdrivestats.adoc[GetDriveStats]

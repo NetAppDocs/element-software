@@ -9,7 +9,7 @@ summary: 'You can use the ModifyClusterAdmin method to change the settings for a
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyClusterAdmin method to change the settings for a cluster admin, LDAP cluster admin, or third-party Identity Provider (IdP) cluster admin. You cannot change access for the administrator cluster admin account.
+You can use the `ModifyClusterAdmin` method to change the settings for a cluster admin, LDAP cluster admin, or third-party Identity Provider (IdP) cluster admin. You cannot change access for the administrator cluster admin account.
 
 == Parameters
 
@@ -94,6 +94,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_app_b_access_control.adoc[Access control]

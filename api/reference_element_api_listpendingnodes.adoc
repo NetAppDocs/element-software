@@ -9,11 +9,11 @@ summary: 'You can use the ListPendingNodes method to list the pending storage no
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListPendingNodes method to list the pending storage nodes in the system. Pending nodes are storage nodes that are running and configured to join the storage cluster but have not yet been added using the AddNodes API method.
+You can use the `ListPendingNodes` method to list the pending storage nodes in the system. Pending nodes are storage nodes that are running and configured to join the storage cluster but have not yet been added using the AddNodes API method.
 
 == IPv4 and IPv6 management addresses
 
-Note that ListPendingNodes does not list pending nodes that have different address types for the management IP address (MIP) and management virtual IP address (MVIP). For example, if a pending node has an IPv6 MVIP and an IPv4 MIP, ListPendingNodes will not include the node as part of the result.
+Note that `ListPendingNodes` does not list pending nodes that have different address types for the management IP address (MIP) and management virtual IP address (MVIP). For example, if a pending node has an IPv6 MVIP and an IPv4 MIP, `ListPendingNodes` will not include the node as part of the result.
 
 == Parameters
 
@@ -84,6 +84,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_addnodes.adoc[AddNodes]

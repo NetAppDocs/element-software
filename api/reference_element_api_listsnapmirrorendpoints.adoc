@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorEndpoints method to
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorEndpoints method to list all SnapMirror endpoints that the Element storage cluster is communicating with.
+The Element software web UI uses the `ListSnapMirrorEndpoints` method to list all SnapMirror endpoints that the Element storage cluster is communicating with.
 
 == Parameter
 
