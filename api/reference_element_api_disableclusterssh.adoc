@@ -9,7 +9,7 @@ summary: 'You can use the DisableClusterSsh method to disable the SSH service fo
 :imagesdir: ../media/
 
 [.lead]
-You can use the DisableClusterSsh method to disable the SSH service for the entire storage cluster. When you add nodes to the storage cluster, the new nodes will inherit this cluster-wide setting.
+You can use the `DisableClusterSsh` method to disable the SSH service for the entire storage cluster. When you add nodes to the storage cluster, the new nodes will inherit this cluster-wide setting.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

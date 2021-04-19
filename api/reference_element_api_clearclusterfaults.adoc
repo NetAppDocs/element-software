@@ -9,7 +9,7 @@ summary: 'You can use the ClearClusterFaults method to clear information about b
 :imagesdir: ../media/
 
 [.lead]
-You can use the ClearClusterFaults method to clear information about both current and previously detected faults. Both resolved and unresolved faults can be cleared.
+You can use the `ClearClusterFaults` method to clear information about both current and previously detected faults. Both resolved and unresolved faults can be cleared.
 
 == Parameter
 

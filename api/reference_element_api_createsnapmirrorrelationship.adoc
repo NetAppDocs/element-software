@@ -9,7 +9,7 @@ summary: 'The Element web UI uses the CreateSnapMirrorRelationship method to cre
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses the CreateSnapMirrorRelationship method to create a SnapMirror extended data protection relationship between a source and destination endpoint.
+The Element web UI uses the `CreateSnapMirrorRelationship` method to create a SnapMirror extended data protection relationship between a source and destination endpoint.
 
 == Parameters
 

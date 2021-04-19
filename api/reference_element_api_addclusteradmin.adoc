@@ -9,7 +9,7 @@ summary: 'You can use the AddClusterAdmin method to add a new cluster admin acco
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddClusterAdmin method to add a new cluster admin account. A cluster admin can manage the cluster via the API and management tools. Cluster admins are completely separate and unrelated to standard tenant accounts.
+You can use the `AddClusterAdmin` method to add a new cluster admin account. A cluster admin can manage the cluster via the API and management tools. Cluster admins are completely separate and unrelated to standard tenant accounts.
 
 Each cluster admin can be restricted to a subset of the API. You should use multiple cluster admin accounts for different users and applications. As a best practice, give each cluster admin the minimal permissions necessary; this reduces the potential impact of credential compromise.
 

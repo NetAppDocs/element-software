@@ -9,7 +9,7 @@ summary: 'The Element web UI uses DeleteSnapMirrorEndpoints to delete one or mor
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses DeleteSnapMirrorEndpoints to delete one or more SnapMirror endpoints from the system.
+The Element web UI uses `DeleteSnapMirrorEndpoints` to delete one or more SnapMirror endpoints from the system.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'You can use the DisableSsh method to disable the SSH service for a sin
 :imagesdir: ../media/
 
 [.lead]
-You can use the DisableSsh method to disable the SSH service for a single storage node. This method does not affect the cluster-wide SSH service timeout duration.
+You can use the `DisableSsh` method to disable the SSH service for a single storage node. This method does not affect the cluster-wide SSH service timeout duration.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

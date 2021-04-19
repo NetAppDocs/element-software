@@ -9,9 +9,9 @@ summary: 'You can use DeleteInitiators to delete one or more initiators from the
 :imagesdir: ../media/
 
 [.lead]
-You can use DeleteInitiators to delete one or more initiators from the system (and from any associated volumes or volume access groups).
+You can use `DeleteInitiators` to delete one or more initiators from the system (and from any associated volumes or volume access groups).
 
-If DeleteInitiators fails to delete one of the initiators provided in the parameter, the system returns an error and does not delete any initiators (no partial completion is possible).
+If `DeleteInitiators` fails to delete one of the initiators provided in the parameter, the system returns an error and does not delete any initiators (no partial completion is possible).
 
 == Parameter
 

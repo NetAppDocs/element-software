@@ -9,7 +9,7 @@ summary: 'You can use CompleteVolumePairing to complete the pairing of two volum
 :imagesdir: ../media/
 
 [.lead]
-You can use CompleteVolumePairing to complete the pairing of two volumes.
+You can use `CompleteVolumePairing` to complete the pairing of two volumes.
 
 == Parameters
 
@@ -74,6 +74,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]

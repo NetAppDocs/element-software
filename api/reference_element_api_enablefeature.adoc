@@ -9,7 +9,7 @@ summary: 'You can use the EnableFeature method to enable cluster features such a
 :imagesdir: ../media/
 
 [.lead]
-You can use the EnableFeature method to enable cluster features such as VVols that are disabled by default.
+You can use the `EnableFeature` method to enable cluster features such as VVols that are disabled by default.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'You can use the DeleteQoSPolicy method to delete a QoS policy from the
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteQoSPolicy method to delete a QoS policy from the system. The QoS settings for all volumes created or modified with this policy are unaffected.
+You can use the `DeleteQoSPolicy` method to delete a QoS policy from the system. The QoS settings for all volumes created or modified with this policy are unaffected.
 
 == Parameters
 

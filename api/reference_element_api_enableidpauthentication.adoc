@@ -9,7 +9,7 @@ summary: 'You can use the EnableIdpAuthentication method to enable support for a
 :imagesdir: ../media/
 
 [.lead]
-You can use the EnableIdpAuthentication method to enable support for authentication using third-party IdPs for the cluster. Once IdP authentication is enabled, LDAP and cluster admins are no longer able to access the cluster via supported UIs and any active authenticated sessions are invalidated/disconnected. Only users authenticated by third party IdPs are able to access the cluster via supported UIs.
+You can use the `EnableIdpAuthentication` method to enable support for authentication using third-party IdPs for the cluster. Once IdP authentication is enabled, LDAP and cluster admins are no longer able to access the cluster via supported UIs and any active authenticated sessions are invalidated/disconnected. Only users authenticated by third party IdPs are able to access the cluster via supported UIs.
 
 == Parameters
 
@@ -21,7 +21,7 @@ This method has the following input parameter:
 a|
 idpConfigurationID
 a|
-UUID for the third-party IdP configuration. If only one IdP configuration exists, then the default is to enable that configuration.If you have only a single IdpConfiguration, you need not provide the idpConfigurationID parameter.
+UUID for the third-party IdP configuration. If only one IdP configuration exists, then the default is to enable that configuration. If you have only a single IdpConfiguration, you need not provide the idpConfigurationID parameter.
 
 a|
 UUID
