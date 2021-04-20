@@ -11,7 +11,7 @@ entries:
   url: /concepts/index.html
   entries:
   - title: Product overview
-    url: /concept/concept_intro_product_overview.html
+    url: /concepts/concept_intro_product_overview.html
   - title: Architecture and components
     url: /concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
     entries:
