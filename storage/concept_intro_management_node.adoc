@@ -13,4 +13,4 @@ The management node (mNode) is a virtual machine that runs in parallel with one 
 
 As of the Element 11.3 release, the management node functions as a microservice host, allowing for quicker updates of select software services outside of major releases. These microservices or management services, such as the Active IQ collector, QoSSIOC for the vCenter Plug-in, and mNode service, are updated frequently as service bundles. Additional services including HealthTools for storage node software upgrades and support tools (remote support tunneling) are also available from the management node.
 
-NOTE: As a best practice, only associate one management node with one VMware vCenter instance, and avoid defining the same storage and compute resources in multiple management nodes.
+NOTE: As a best practice, only associate one management node with one VMware vCenter instance, and avoid defining the same storage and compute resources or vCenter instances in multiple management nodes.
