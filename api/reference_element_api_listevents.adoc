@@ -9,7 +9,7 @@ summary: 'You can use the ListEvents method to list events detected on the clust
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListEvents method to list events detected on the cluster, sorted from oldest to newest.
+You can use the `ListEvents` method to list events detected on the cluster, sorted from oldest to newest.
 
 == Parameters
 

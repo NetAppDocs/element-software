@@ -9,7 +9,7 @@ summary: 'You can use the GetKeyProviderKmip method to retrieve information abou
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetKeyProviderKmip method to retrieve information about the specified Key Management Interoperability Protocol (KMIP) key provider.
+You can use the `GetKeyProviderKmip` method to retrieve information about the specified Key Management Interoperability Protocol (KMIP) key provider.
 
 == Parameters
 

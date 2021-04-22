@@ -9,7 +9,7 @@ summary: 'You can use the ListClusterFaults method to list information about any
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListClusterFaults method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds.
+You can use the `ListClusterFaults` method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds.
 
 == Parameters
 

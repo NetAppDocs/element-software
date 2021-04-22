@@ -9,7 +9,7 @@ summary: 'You can use the ModifyStorageContainer method to make changes to an ex
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyStorageContainer method to make changes to an existing virtual volume storage container.
+You can use the `ModifyStorageContainer` method to make changes to an existing virtual volume storage container.
 
 == Parameters
 

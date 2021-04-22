@@ -9,7 +9,7 @@ summary: 'You can use the GetNvramInfo method to get information from each node 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNvramInfo method to get information from each node about the NVRAM card.
+You can use the `GetNvramInfo` method to get information from each node about the NVRAM card.
 
 == Parameter
 
@@ -67,6 +67,6 @@ Due to the length of this response example, it is documented in a supplementary 
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_response_example_getnvraminfo.adoc[GetNvramInfo]

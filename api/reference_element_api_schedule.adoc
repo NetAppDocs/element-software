@@ -9,12 +9,13 @@ summary: 'The schedule object contains information about a schedule created to a
 :imagesdir: ../media/
 
 [.lead]
-The schedule object contains information about a schedule created to autonomously make a snapshot of a volume. You can retrieve schedule information for all schedules with the ListSchedules API method.
+The schedule object contains information about a schedule created to autonomously make a snapshot of a volume. You can retrieve schedule information for all schedules with the `ListSchedules` API method.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -157,6 +158,6 @@ array
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listschedules.adoc[ListSchedules]

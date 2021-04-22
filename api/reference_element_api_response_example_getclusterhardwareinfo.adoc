@@ -9,7 +9,7 @@ summary: 'The GetClusterHardwareInfo method returns a response similar to the fo
 :imagesdir: ../media/
 
 [.lead]
-The GetClusterHardwareInfo method returns a response similar to the following example.
+The `GetClusterHardwareInfo` method returns a response similar to the following example.
 
 ----
 {
@@ -80,7 +80,7 @@ The GetClusterHardwareInfo method returns a response similar to the following ex
      "Fan1B RPM": {...},
          .
          .
-         .    	
+         .
      "Fan7B RPM": {...
      },
      "fibreChannelPorts": [

@@ -9,7 +9,7 @@ summary: 'You can use the RemoveClusterPair method to close the open connections
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveClusterPair method to close the open connections between two paired clusters.
+You can use the `RemoveClusterPair` method to close the open connections between two paired clusters.
 
 == Parameter
 
@@ -17,6 +17,7 @@ NOTE: Before you remove a cluster pair, you must first remove all volume pairing
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

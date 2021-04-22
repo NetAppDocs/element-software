@@ -9,7 +9,7 @@ summary: 'You can use the GetRemoteLoggingHosts method to get the current list o
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetRemoteLoggingHosts method to get the current list of log servers.
+You can use the `GetRemoteLoggingHosts` method to get the current list of log servers.
 
 == Parameters
 
@@ -67,6 +67,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_setremotelogginghosts.adoc[SetRemoteLoggingHosts]

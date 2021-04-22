@@ -9,7 +9,7 @@ summary: 'You can use ListSchedules to get information about all scheduled snaps
 :imagesdir: ../media/
 
 [.lead]
-You can use ListSchedules to get information about all scheduled snapshots that have been created.
+You can use `ListSchedules` to get information about all scheduled snapshots that have been created.
 
 == Parameters
 

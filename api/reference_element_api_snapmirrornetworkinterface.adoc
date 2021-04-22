@@ -15,6 +15,7 @@ The snapMirrorNetworkInterface object contains information about the intercluste
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

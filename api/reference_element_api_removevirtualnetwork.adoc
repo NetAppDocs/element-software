@@ -9,7 +9,7 @@ summary: 'You can use the RemoveVirtualNetwork method to remove a previously add
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveVirtualNetwork method to remove a previously added virtual network.
+You can use the `RemoveVirtualNetwork` method to remove a previously added virtual network.
 
 NOTE: This method requires either the virtualNetworkID or the virtualNetworkTag as a parameter, but not both.
 
@@ -19,6 +19,7 @@ NOTE: You cannot remove a virtual network if there are initiators associated wit
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

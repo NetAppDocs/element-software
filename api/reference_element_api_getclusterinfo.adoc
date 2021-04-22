@@ -9,7 +9,7 @@ summary: 'You can use the GetClusterInfo method to return configuration informat
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetClusterInfo method to return configuration information about the cluster.
+You can use the `GetClusterInfo` method to return configuration information about the cluster.
 
 == Parameters
 

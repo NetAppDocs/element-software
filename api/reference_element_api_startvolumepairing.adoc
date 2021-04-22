@@ -9,12 +9,13 @@ summary: 'You can use the StartVolumePairing method to create an encoded key fro
 :imagesdir: ../media/
 
 [.lead]
-You can use the StartVolumePairing method to create an encoded key from a volume that is used to pair with another volume. The key that this method creates is used in the CompleteVolumePairing method to establish a volume pairing.
+You can use the `StartVolumePairing` method to create an encoded key from a volume that is used to pair with another volume. The key that this method creates is used in the `CompleteVolumePairing` method to establish a volume pairing.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -22,9 +23,9 @@ mode
 a|
 The mode of the volume on which to start the pairing process. The mode can only be set if the volume is the source volume. Possible values:
 
-* Async: Writes are acknowledged when they complete locally. The cluster does not wait for writes to be replicated to the target cluster. (Default if no mode parameter specified.)
-* Sync: Source acknowledges write when the data is stored locally and on the remote cluster.
-* SnapshotsOnly: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.
+* `Async`: Writes are acknowledged when they complete locally. The cluster does not wait for writes to be replicated to the target cluster. (Default if no mode parameter specified.)
+* `Sync`: Source acknowledges write when the data is stored locally and on the remote cluster.
+* `SnapshotsOnly`: Only snapshots created on the source cluster are replicated. Active writes from the source volume are not replicated.
 
 a|
 string
@@ -48,6 +49,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -90,6 +92,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_completevolumepairing.adoc[CompleteVolumePairing]

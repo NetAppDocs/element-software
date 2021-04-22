@@ -9,7 +9,7 @@ summary: 'The ModifyClusterInterfacePreference method enables systems integrated
 :imagesdir: ../media/
 
 [.lead]
-The ModifyClusterInterfacePreference method enables systems integrated with storage clusters running Element software to change an existing cluster interface preference. This method is for internal use.
+The `ModifyClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to change an existing cluster interface preference. This method is for internal use.
 
 == Parameters
 

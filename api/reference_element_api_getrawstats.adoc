@@ -1,7 +1,7 @@
 ---
 permalink: api/reference_element_api_getrawstats.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'NetApp engineering uses the GetRawStats API method to test new features. The data returned from GetRawStats is not documented, changes frequently, and is not guaranteed to be accurate. You should not use GetRawStats for collecting performance data or any other management integration with a storage cluster running Element software.'
 ---
 = GetRawStats
@@ -9,7 +9,7 @@ summary: 'NetApp engineering uses the GetRawStats API method to test new feature
 :imagesdir: ../media/
 
 [.lead]
-NetApp engineering uses the GetRawStats API method to test new features. The data returned from GetRawStats is not documented, changes frequently, and is not guaranteed to be accurate. You should not use GetRawStats for collecting performance data or any other management integration with a storage cluster running Element software.
+NetApp engineering uses the `GetRawStats` API method to test new features. The data returned from `GetRawStats` is not documented, changes frequently, and is not guaranteed to be accurate. You should not use `GetRawStats` for collecting performance data or any other management integration with a storage cluster running Element software.
 
 Use the following supported API methods to retrieve statistical information:
 

@@ -9,7 +9,7 @@ summary: 'You can use the EnableClusterSsh method to enable the SSH service on a
 :imagesdir: ../media/
 
 [.lead]
-You can use the EnableClusterSsh method to enable the SSH service on all nodes in the storage cluster.
+You can use the `EnableClusterSsh` method to enable the SSH service on all nodes in the storage cluster.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

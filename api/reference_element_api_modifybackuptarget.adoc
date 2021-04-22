@@ -9,7 +9,7 @@ summary: 'You can use the ModifyBackupTarget method to change attributes of a ba
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyBackupTarget method to change attributes of a backup target.
+You can use the `ModifyBackupTarget` method to change attributes of a backup target.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'The driveStats object contains high-level activity measurements for a 
 :imagesdir: ../media/
 
 [.lead]
-The driveStats object contains high-level activity measurements for a single drive. You can retrieve measurement information with the API method GetDriveStats.
+The driveStats object contains high-level activity measurements for a single drive. You can retrieve measurement information with the API method `GetDriveStats`.
 
 == Object members
 
@@ -129,6 +129,6 @@ integer
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getdrivestats.adoc[GetDriveStats]

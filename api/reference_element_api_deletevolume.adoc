@@ -9,7 +9,7 @@ summary: 'You can use the DeleteVolume method to mark an active volume for delet
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteVolume method to mark an active volume for deletion. When marked, the volume is purged (permanently deleted) after the cleanup interval elapses.
+You can use the `DeleteVolume` method to mark an active volume for deletion. When marked, the volume is purged (permanently deleted) after the cleanup interval elapses.
 
 After making a request to delete a volume, any active iSCSI connections to the volume are immediately terminated and no further connections are allowed while the volume is in this state. A marked volume is not returned in target discovery requests.
 

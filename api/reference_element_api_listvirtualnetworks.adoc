@@ -9,7 +9,7 @@ summary: 'You can use the ListVirtualNetworks method to list all configured virt
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVirtualNetworks method to list all configured virtual networks for the cluster.
+You can use the `ListVirtualNetworks` method to list all configured virtual networks for the cluster.
 
 You can use this method to verify the virtual network settings in the cluster. There are no required parameters for this method. However, to filter the results, you can pass one or more virtualNetworkID or virtualNetworkTag values.
 

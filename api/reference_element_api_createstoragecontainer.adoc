@@ -9,7 +9,7 @@ summary: 'You can use the CreateStorageContainer method to create a Virtual Volu
 :imagesdir: ../media/
 
 [.lead]
-You can use the CreateStorageContainer method to create a Virtual Volume (VVol) storage container. You can use storage containers for reporting and resource allocation. You need to create at least one storage container to use the Virtual Volumes feature.
+You can use the `CreateStorageContainer` method to create a Virtual Volume (VVol) storage container. You can use storage containers for reporting and resource allocation. You need to create at least one storage container to use the Virtual Volumes feature.
 
 == Parameters
 

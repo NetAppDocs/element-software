@@ -15,6 +15,7 @@ The protectionDomainResiliency object contains the resiliency status of this sto
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

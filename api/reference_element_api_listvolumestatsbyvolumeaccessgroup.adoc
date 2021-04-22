@@ -9,7 +9,7 @@ summary: 'You can use the ListVolumeStatsByVolumeAccessGroup method to list tota
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVolumeStatsByVolumeAccessGroup method to list total activity measurements for all of the volumes that are members of the specified volume access groups.
+You can use the `ListVolumeStatsByVolumeAccessGroup` method to list total activity measurements for all of the volumes that are members of the specified volume access groups.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'The groupSnapshot object contains information about a snapshot for a g
 :imagesdir: ../media/
 
 [.lead]
-The groupSnapshot object contains information about a snapshot for a group of volumes. You can use the ListGroupSnapshots API method to retrieve group snapshot information.
+The groupSnapshot object contains information about a snapshot for a group of volumes. You can use the `ListGroupSnapshots` API method to retrieve group snapshot information.
 
 == Object members
 
@@ -82,6 +82,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listgroupsnapshots.adoc[ListGroupSnapshots]

@@ -9,7 +9,7 @@ summary: 'You can use the GetNodeSupportedTlsCiphers method on a single node to 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNodeSupportedTlsCiphers method on a single node to get a list of the TLS ciphers that are currently supported on this node. You can use this method on management and storage nodes.
+You can use the `GetNodeSupportedTlsCiphers` method on a single node to get a list of the TLS ciphers that are currently supported on this node. You can use this method on management and storage nodes.
 
 == Parameter
 

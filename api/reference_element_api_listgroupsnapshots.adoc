@@ -9,7 +9,7 @@ summary: 'You can use ListGroupSnapshots method to return information about all 
 :imagesdir: ../media/
 
 [.lead]
-You can use ListGroupSnapshots method to return information about all group snapshots that have been created.
+You can use `ListGroupSnapshots` method to return information about all group snapshots that have been created.
 
 == Parameters
 

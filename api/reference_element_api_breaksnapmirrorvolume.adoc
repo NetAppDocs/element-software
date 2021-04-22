@@ -9,7 +9,7 @@ summary: 'The Element web UI uses the BreakSnapMirrorVolume method to break the 
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses the BreakSnapMirrorVolume method to break the SnapMirror relationship between an ONTAP source container and Element target volume. Breaking an Element SnapMirror volume is useful if an ONTAP system becomes unavailable while replicating data to an Element volume. This feature enables a storage administrator to take control of an Element SnapMirror volume, break its relationship with the remote ONTAP system, and revert the volume to a previous snapshot.
+The Element web UI uses the `BreakSnapMirrorVolume` method to break the SnapMirror relationship between an ONTAP source container and Element target volume. Breaking an Element SnapMirror volume is useful if an ONTAP system becomes unavailable while replicating data to an Element volume. This feature enables a storage administrator to take control of an Element SnapMirror volume, break its relationship with the remote ONTAP system, and revert the volume to a previous snapshot.
 
 == Parameter
 
@@ -78,6 +78,6 @@ This method has no return values.
 
 10.0
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_breaksnapmirrorrelationship.adoc[BreakSnapMirrorRelationship]

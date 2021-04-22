@@ -9,7 +9,7 @@ summary: 'You can use the ListAllNodes method to list active and pending nodes i
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListAllNodes method to list active and pending nodes in the cluster.
+You can use the `ListAllNodes` method to list active and pending nodes in the cluster.
 
 == Parameters
 

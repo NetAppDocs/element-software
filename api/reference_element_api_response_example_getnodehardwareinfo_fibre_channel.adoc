@@ -9,7 +9,7 @@ summary: 'The GetNodeHardwareInfo method for Fibre Channel nodes returns a respo
 :imagesdir: ../media/
 
 [.lead]
-The GetNodeHardwareInfo method for Fibre Channel nodes returns a response similar to the following example.
+The `GetNodeHardwareInfo` method for Fibre Channel nodes returns a response similar to the following example.
 
 ----
 {
@@ -334,7 +334,7 @@ The GetNodeHardwareInfo method for Fibre Channel nodes returns a response simila
 "threshold": 42,
 "value": 13
   },
-"uuid": "4C4C4544-004D-5310-8052-C4C04F335431"		
+"uuid": "4C4C4544-004D-5310-8052-C4C04F335431"
     }
    }
   }

@@ -9,7 +9,7 @@ summary: 'You can use the GetCurrentClusterAdmin method to return information fo
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetCurrentClusterAdmin method to return information for the current primary Cluster Admin. The primary Cluster Admin was created when the cluster was created.
+You can use the `GetCurrentClusterAdmin` method to return information for the current primary Cluster Admin. The primary Cluster Admin was created when the cluster was created.
 
 == Parameters
 

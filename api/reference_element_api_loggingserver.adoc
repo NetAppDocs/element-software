@@ -9,7 +9,7 @@ summary: 'The loggingServer object contains information about any logging hosts 
 :imagesdir: ../media/
 
 [.lead]
-The loggingServer object contains information about any logging hosts configured for the storage cluster. You can use GetRemoteLoggingHosts to determine what the current logging hosts are and then use SetRemoteLoggingHosts to set the desired list of current and new logging hosts.
+The loggingServer object contains information about any logging hosts configured for the storage cluster. You can use `GetRemoteLoggingHosts` to determine what the current logging hosts are and then use `SetRemoteLoggingHosts` to set the desired list of current and new logging hosts.
 
 == Object members
 

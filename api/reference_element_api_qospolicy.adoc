@@ -15,6 +15,7 @@ The QoSPolicy object contains information about a QoS policy on a storage cluste
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -44,6 +45,6 @@ integer array
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getqospolicy.adoc[GetQoSPolicy]

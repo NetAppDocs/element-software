@@ -9,12 +9,13 @@ summary: 'You can use the TestKeyServerKmip method to test whether the specified
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestKeyServerKmip method to test whether the specified Key Management Interoperability Protocol (KMIP) key server is reachable and functioning normally.
+You can use the `TestKeyServerKmip` method to test whether the specified Key Management Interoperability Protocol (KMIP) key server is reachable and functioning normally.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

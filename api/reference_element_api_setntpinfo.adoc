@@ -9,7 +9,7 @@ summary: 'You can use the SetNtpInfo method to configure NTP on cluster nodes. T
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetNtpInfo method to configure NTP on cluster nodes. The values you set with this interface apply to all nodes in the cluster. If an NTP broadcast server periodically broadcasts time information on your network, you can optionally configure nodes as broadcast clients.
+You can use the `SetNtpInfo` method to configure NTP on cluster nodes. The values you set with this interface apply to all nodes in the cluster. If an NTP broadcast server periodically broadcasts time information on your network, you can optionally configure nodes as broadcast clients.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 
@@ -19,6 +19,7 @@ NOTE: Ensure that you use NTP servers that are internal to your network, rather 
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

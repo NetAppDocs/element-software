@@ -9,7 +9,7 @@ summary: 'You can use DeleteGroupSnapshot to delete a group snapshot.'
 :imagesdir: ../media/
 
 [.lead]
-You can use DeleteGroupSnapshot to delete a group snapshot.
+You can use `DeleteGroupSnapshot` to delete a group snapshot.
 
 You can use the saveMembers parameter to preserve all the snapshots that were made for the volumes in the group, but the group association will be removed.
 

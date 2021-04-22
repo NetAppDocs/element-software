@@ -9,7 +9,7 @@ summary: 'You can use the ListNodeFibreChannelPortInfo method to list informatio
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListNodeFibreChannelPortInfo method to list information about the Fibre Channel ports on a node.
+You can use the `ListNodeFibreChannelPortInfo` method to list information about the Fibre Channel ports on a node.
 
 This API method is intended for use on individual nodes; a userid and password are required for access to individual Fibre Channel nodes. When used on the cluster, all Fibre Channel interfaces are listed.
 

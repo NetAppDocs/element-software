@@ -9,7 +9,7 @@ summary: 'You can use the ListInitiators method to get the list of initiator IQN
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListInitiators method to get the list of initiator IQNs or World Wide Port Names (WWPNs).
+You can use the `ListInitiators` method to get the list of initiator IQNs or World Wide Port Names (WWPNs).
 
 == Parameters
 

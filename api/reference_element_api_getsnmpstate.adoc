@@ -9,7 +9,7 @@ summary: 'You can use the GetSnmpState method to get the current state of the SN
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSnmpState method to get the current state of the SNMP feature.
+You can use the `GetSnmpState` method to get the current state of the SNMP feature.
 
 == Parameters
 
@@ -76,6 +76,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_setsnmpacl.adoc[SetSnmpACL]

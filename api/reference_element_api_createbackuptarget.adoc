@@ -9,7 +9,7 @@ summary: 'You can use CreateBackupTarget to create and store backup target infor
 :imagesdir: ../media/
 
 [.lead]
-You can use CreateBackupTarget to create and store backup target information so that you do not need to re-enter it each time a backup is created.
+You can use `CreateBackupTarget` to create and store backup target information so that you do not need to re-enter it each time a backup is created.
 
 == Parameters
 

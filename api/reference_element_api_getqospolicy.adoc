@@ -9,7 +9,7 @@ summary: 'You can use the GetQoSPolicy method to get details about a specific Qo
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetQoSPolicy method to get details about a specific QoS policy from the system.
+You can use the `GetQoSPolicy` method to get details about a specific QoS policy from the system.
 
 == Parameter
 

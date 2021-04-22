@@ -9,7 +9,7 @@ summary: 'You can use the ModifyVirtualNetwork method to change the attributes o
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyVirtualNetwork method to change the attributes of an existing virtual network.
+You can use the `ModifyVirtualNetwork` method to change the attributes of an existing virtual network.
 
 This method enables you to add or remove address blocks, change the netmask, or modify the name or description of the virtual network. You can also use it to enable or disable namespaces, as well as add or remove a gateway if namespaces are enabled on the virtual network.
 

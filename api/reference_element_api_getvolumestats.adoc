@@ -9,7 +9,7 @@ summary: 'You can use the GetVolumeStats method to get high-level activity measu
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetVolumeStats method to get high-level activity measurements for a single volume. Values are cumulative from the creation of the volume.
+You can use the `GetVolumeStats` method to get high-level activity measurements for a single volume. Values are cumulative from the creation of the volume.
 
 == Parameter
 

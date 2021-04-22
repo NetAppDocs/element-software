@@ -9,7 +9,7 @@ summary: 'You can use the ListVolumeStats method to get high-level activity meas
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVolumeStats method to get high-level activity measurements for a single volume, list of volumes, or all volumes (if you omit the volumeIDs parameter). Measurement values are cumulative from the creation of the volume.
+You can use the `ListVolumeStats` method to get high-level activity measurements for a single volume, list of volumes, or all volumes (if you omit the volumeIDs parameter). Measurement values are cumulative from the creation of the volume.
 
 == Parameters
 

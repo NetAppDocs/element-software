@@ -9,7 +9,7 @@ summary: 'You can use the ListAuthSessionsByUsername method to list all auth ses
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListAuthSessionsByUsername method to list all auth sessions for the specified user. A caller not in AccessGroup ClusterAdmins / Administrator privileges may only list their own sessions. A caller with ClusterAdmins / Administrator privileges may list sessions belonging to any user.
+You can use the `ListAuthSessionsByUsername` method to list all auth sessions for the specified user. A caller not in AccessGroup ClusterAdmins / Administrator privileges may only list their own sessions. A caller with ClusterAdmins / Administrator privileges may list sessions belonging to any user.
 
 == Parameters
 

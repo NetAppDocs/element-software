@@ -9,12 +9,13 @@ summary: 'The ontapVersionInfo object contains information about the API version
 :imagesdir: ../media/
 
 [.lead]
-The ontapVersionInfo object contains information about the API version of the ONTAP cluster in a SnapMirror relationship. The Element web UI uses the GetOntapVersionInfo API method to get this information.
+The ontapVersionInfo object contains information about the API version of the ONTAP cluster in a SnapMirror relationship. The Element web UI uses the `GetOntapVersionInfo` API method to get this information.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

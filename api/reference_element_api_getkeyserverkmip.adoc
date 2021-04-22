@@ -9,7 +9,7 @@ summary: 'You can use the GetKeyServerKmip method to return information about th
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetKeyServerKmip method to return information about the specified Key Management Interoperability Protocol (KMIP) key server.
+You can use the `GetKeyServerKmip` method to return information about the specified Key Management Interoperability Protocol (KMIP) key server.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use GetAccountByID to get details about a specific account, gi
 :imagesdir: ../media/
 
 [.lead]
-You can use GetAccountByID to get details about a specific account, given its accountID.
+You can use `GetAccountByID` to get details about a specific account, given its accountID.
 
 == Parameters
 

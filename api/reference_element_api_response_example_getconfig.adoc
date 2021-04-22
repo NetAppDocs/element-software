@@ -9,7 +9,7 @@ summary: 'The GetConfig method returns a response similar to the following examp
 :imagesdir: ../media/
 
 [.lead]
-The GetConfig method returns a response similar to the following example. Due to length, the response contains information for one node of the cluster only.
+The `GetConfig` method returns a response similar to the following example. Due to length, the response contains information for one node of the cluster only.
 
 ----
 {

@@ -9,12 +9,13 @@ summary: 'You can use the RemoveAccount method to remove an existing account. Yo
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveAccount method to remove an existing account. You must delete and purge all volumes associated with the account using DeleteVolume before you can remove the account. If volumes on the account are still pending deletion, you cannot use RemoveAccount to remove the account.
+You can use the `RemoveAccount` method to remove an existing account. You must delete and purge all volumes associated with the account using `DeleteVolume` before you can remove the account. If volumes on the account are still pending deletion, you cannot use `RemoveAccount` to remove the account.
 
 == Parameter
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -63,6 +64,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_deletevolume.adoc[DeleteVolume]

@@ -9,12 +9,13 @@ summary: 'You can use the SetSnmpACL method to configure SNMP access permissions
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetSnmpACL method to configure SNMP access permissions on the cluster nodes. The values you set with this interface apply to all nodes in the cluster, and the values that are passed replace all values set in any previous call to SetSnmpACL. Also note that the values set with this interface replace all network or usmUsers values set with the SetSnmpInfo.
+You can use the `SetSnmpACL` method to configure SNMP access permissions on the cluster nodes. The values you set with this interface apply to all nodes in the cluster, and the values that are passed replace all values set in any previous call to `SetSnmpACL`. Also note that the values set with this interface replace all network or usmUsers values set with the `SetSnmpInfo` method.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

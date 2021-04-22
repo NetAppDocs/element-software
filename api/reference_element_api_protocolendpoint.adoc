@@ -9,12 +9,13 @@ summary: 'The protocolEndpoint object contains the attributes of a protocol endp
 :imagesdir: ../media/
 
 [.lead]
-The protocolEndpoint object contains the attributes of a protocol endpoint. You can retrieve this information for all protocol endpoints in the cluster using the ListProtocolEndpoints API method.
+The protocolEndpoint object contains the attributes of a protocol endpoint. You can retrieve this information for all protocol endpoints in the cluster using the `ListProtocolEndpoints` API method.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -66,6 +67,6 @@ integer
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listprotocolendpoints.adoc[ListProtocolEndpoints]

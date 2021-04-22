@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorNetworkInterfaces m
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorNetworkInterfaces method to list all available SnapMirror interfaces on a remote ONTAP system.
+The Element software web UI uses the `ListSnapMirrorNetworkInterfaces` method to list all available SnapMirror interfaces on a remote ONTAP system.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'The GetNvramInfo method returns a response similar to the following ex
 :imagesdir: ../media/
 
 [.lead]
-The GetNvramInfo method returns a response similar to the following example.
+The `GetNvramInfo` method returns a response similar to the following example.
 
 ----
 {

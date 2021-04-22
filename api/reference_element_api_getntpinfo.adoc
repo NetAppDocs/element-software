@@ -9,7 +9,7 @@ summary: 'You can use the GetNtpInfo method to get the current network time prot
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNtpInfo method to get the current network time protocol (NTP) configuration information.
+You can use the `GetNtpInfo` method to get the current network time protocol (NTP) configuration information.
 
 == Parameter
 

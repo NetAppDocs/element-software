@@ -9,7 +9,7 @@ summary: 'The Element web UI uses GetOntapVersionInfo to get information about A
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses GetOntapVersionInfo to get information about API version support from the ONTAP cluster in a SnapMirror relationship.
+The Element web UI uses `GetOntapVersionInfo` to get information about API version support from the ONTAP cluster in a SnapMirror relationship.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'You can use the GetBinAssignmentProperties method to retrieve the bin 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetBinAssignmentProperties method to retrieve the bin assignment properties in the database.
+You can use the `GetBinAssignmentProperties` method to retrieve the bin assignment properties in the database.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'You can use the TestLocalConnectivity method to ping the Cluster IP \(
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestLocalConnectivity method to ping the Cluster IP (CIP) of each node in an active cluster.
+You can use the `TestLocalConnectivity` method to ping the Cluster IP (CIP) of each node in an active cluster.
 
 == Parameters
 
@@ -19,6 +19,7 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

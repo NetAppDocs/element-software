@@ -9,7 +9,7 @@ summary: 'You can use the ResetNodeSupplementalTlsCiphers method to restore the 
 :imagesdir: ../media/
 
 [.lead]
-You can use the ResetNodeSupplementalTlsCiphers method to restore the list of supplemental TLS ciphers to the default. You can use this command on management nodes.
+You can use the `ResetNodeSupplementalTlsCiphers` method to restore the list of supplemental TLS ciphers to the default. You can use this command on management nodes.
 
 == Parameter
 

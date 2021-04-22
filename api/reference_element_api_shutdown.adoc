@@ -9,12 +9,13 @@ summary: 'You can use the Shutdown method to restart or shutdown the nodes in a 
 :imagesdir: ../media/
 
 [.lead]
-You can use the Shutdown method to restart or shutdown the nodes in a cluster. You can shut down a single node, multiple nodes, or all of the nodes in the cluster using this method.
+You can use the `Shutdown` method to restart or shutdown the nodes in a cluster. You can shut down a single node, multiple nodes, or all of the nodes in the cluster using this method.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

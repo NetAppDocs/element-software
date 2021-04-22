@@ -9,7 +9,7 @@ summary: 'You can use the ListServices method to list services information for n
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListServices method to list services information for nodes, drives, current software, and other services that are running on the cluster.
+You can use the `ListServices` method to list services information for nodes, drives, current software, and other services that are running on the cluster.
 
 == Parameters
 

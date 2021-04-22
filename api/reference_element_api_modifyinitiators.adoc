@@ -9,7 +9,7 @@ summary: 'You can use the ModifyInitiators method to change the attributes of on
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyInitiators method to change the attributes of one or more existing initiators.
+You can use the `ModifyInitiators` method to change the attributes of one or more existing initiators.
 
 You cannot change the name of an existing initiator. If you need to change the name of an initiator, delete it first with the xref:reference_element_api_deleteinitiators.adoc[DeleteInitiators] method and create a new one with the xref:reference_element_api_createinitiators.adoc[CreateInitiators] method.
 
@@ -26,16 +26,16 @@ initiators
 a|
 A list of objects containing characteristics of each initiator to modify. Possible objects:
 
-* alias: (Optional) A new friendly name to assign to the initiator. (string)
-* attributes: (Optional) A new set of JSON attributes to assign to the initiator. (JSON object)
-* chapUsername: (Optional) A new unique CHAP username for this initiator. (string)
-* forceDuringUpgrade: Complete the initiator modification during an upgrade.
-* initiatorID: (Required) The ID of the initiator to modify. (integer)
-* initiatorSecret: (Optional) A new CHAP secret used to authenticate the initiator. (string)
-* requireChap: (Optional) True if CHAP is required for this initiator. (boolean)
-* targetSecret: (Optional) A new CHAP secret used to authenticate the target (when using mutual CHAP authentication). (string)
-* virtualNetworkIDs: (Optional) The list of virtual network identifiers associated with this initiator. If you define one or more virtual networks, this initiator is only able to login to those virtual networks. If you don't define any virtual networks, this initiator can login to all networks.
-* volumeAccessGroupID: (Optional) The ID of the volume access group to which the initiator should be added. If the initiator was previously in a different volume access group, it is removed from the old volume access group. If this key is present but null, the initiator is removed from its current volume access group, but not placed in any new volume access group. (integer)
+* `alias`: (Optional) A new friendly name to assign to the initiator. (string)
+* `attributes`: (Optional) A new set of JSON attributes to assign to the initiator. (JSON object)
+* `chapUsername`: (Optional) A new unique CHAP username for this initiator. (string)
+* `forceDuringUpgrade`: Complete the initiator modification during an upgrade.
+* `initiatorID`: (Required) The ID of the initiator to modify. (integer)
+* `initiatorSecret`: (Optional) A new CHAP secret used to authenticate the initiator. (string)
+* `requireChap`: (Optional) True if CHAP is required for this initiator. (boolean)
+* `targetSecret`: (Optional) A new CHAP secret used to authenticate the target (when using mutual CHAP authentication). (string)
+* `virtualNetworkIDs`: (Optional) The list of virtual network identifiers associated with this initiator. If you define one or more virtual networks, this initiator is only able to login to those virtual networks. If you don't define any virtual networks, this initiator can login to all networks.
+* `volumeAccessGroupID`: (Optional) The ID of the volume access group to which the initiator should be added. If the initiator was previously in a different volume access group, it is removed from the old volume access group. If this key is present but null, the initiator is removed from its current volume access group, but not placed in any new volume access group. (integer)
 
 a|
 JSON object array

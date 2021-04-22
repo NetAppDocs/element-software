@@ -9,7 +9,7 @@ summary: 'The ListClusterInterfacePreference method enables systems integrated w
 :imagesdir: ../media/
 
 [.lead]
-The ListClusterInterfacePreference method enables systems integrated with storage clusters running Element software to list the existing cluster interface preferences stored on the system. This method is for internal use.
+The `ListClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to list the existing cluster interface preferences stored on the system. This method is for internal use.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

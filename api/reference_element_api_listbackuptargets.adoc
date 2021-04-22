@@ -9,7 +9,7 @@ summary: 'You can use the ListBackupTargets method to get information about all 
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListBackupTargets method to get information about all backup targets that have been created.
+You can use the `ListBackupTargets` method to get information about all backup targets that have been created.
 
 == Parameters
 

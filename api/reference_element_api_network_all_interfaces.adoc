@@ -9,7 +9,7 @@ summary: 'The network \(all interfaces\) object collects information about netwo
 :imagesdir: ../media/
 
 [.lead]
-The network (all interfaces) object collects information about network interface configuration for a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.
+The network (all interfaces) object collects information about network interface configuration for a storage node. You can use the `GetConfig` and `GetNetworkConfig` methods to obtain this information for a storage node.
 
 == Object members
 
@@ -44,7 +44,7 @@ xref:reference_element_api_network_local_interfaces.adoc[network (local interfac
 |===
 
 
-== Find more information 
+== Find more information
 
 * xref:reference_element_api_getconfig.adoc[GetConfig]
 * xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]
