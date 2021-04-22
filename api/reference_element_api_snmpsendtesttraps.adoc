@@ -9,7 +9,7 @@ summary: 'SnmpSendTestTraps enables you to test SNMP functionality for a cluster
 :imagesdir: ../media/
 
 [.lead]
-SnmpSendTestTraps enables you to test SNMP functionality for a cluster. This method instructs the cluster to send test SNMP traps to the currently configured SNMP manager.
+`SnmpSendTestTraps` enables you to test SNMP functionality for a cluster. This method instructs the cluster to send test SNMP traps to the currently configured SNMP manager.
 
 == Parameters
 
@@ -19,6 +19,7 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

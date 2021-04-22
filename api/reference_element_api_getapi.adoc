@@ -9,7 +9,7 @@ summary: 'You can use the GetAPI method to get a list of all the API methods and
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetAPI method to get a list of all the API methods and supported API endpoints that can be used in the system.
+You can use the `GetAPI` method to get a list of all the API methods and supported API endpoints that can be used in the system.
 
 == Parameters
 

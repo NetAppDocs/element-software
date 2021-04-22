@@ -9,12 +9,13 @@ summary: 'The storageContainer object contains the attributes of a virtual volum
 :imagesdir: ../media/
 
 [.lead]
-The storageContainer object contains the attributes of a virtual volume storage container. You can retrieve this information for each storage container in the cluster using the ListStorageContainers API method.
+The storageContainer object contains the attributes of a virtual volume storage container. You can retrieve this information for each storage container in the cluster using the `ListStorageContainers` API method.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -71,6 +72,6 @@ a|
 UUID array
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainers]

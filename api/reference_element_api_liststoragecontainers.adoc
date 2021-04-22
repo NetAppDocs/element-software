@@ -9,7 +9,7 @@ summary: 'You can use the ListStorageContainers method to retrieve information a
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListStorageContainers method to retrieve information about all virtual volume storage containers known to the system.
+You can use the `ListStorageContainers` method to retrieve information about all virtual volume storage containers known to the system.
 
 == Parameters
 

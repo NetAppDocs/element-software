@@ -9,12 +9,13 @@ summary: 'You can use the RemoveBackupTarget method to remove backup targets.'
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveBackupTarget method to remove backup targets.
+You can use the `RemoveBackupTarget` method to remove backup targets.
 
 == Parameter
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

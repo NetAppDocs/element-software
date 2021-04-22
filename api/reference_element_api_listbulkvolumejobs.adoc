@@ -9,7 +9,7 @@ summary: 'You can use the ListBulkVolumeJobs method to get information about eac
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListBulkVolumeJobs method to get information about each bulk volume read or write operation that is occurring in the system.
+You can use the `ListBulkVolumeJobs` method to get information about each bulk volume read or write operation that is occurring in the system.
 
 == Parameters
 

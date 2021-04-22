@@ -9,7 +9,7 @@ summary: 'The CreateClusterInterfacePreference method enables systems integrated
 :imagesdir: ../media/
 
 [.lead]
-The CreateClusterInterfacePreference method enables systems integrated with storage clusters running Element software to create and store arbitrary information on the storage cluster. This method is for internal use.
+The `CreateClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to create and store arbitrary information on the storage cluster. This method is for internal use.
 
 == Parameters
 

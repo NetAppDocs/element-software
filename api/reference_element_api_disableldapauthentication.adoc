@@ -9,7 +9,7 @@ summary: 'You can use the DisableLdapAuthentication method to disable LDAP authe
 :imagesdir: ../media/
 
 [.lead]
-You can use the DisableLdapAuthentication method to disable LDAP authentication and remove all LDAP configuration settings. This method does not remove any configured cluster admin accounts for users or groups. After LDAP authentication has been disabled, cluster admins that are configured to use LDAP authentication can no longer access the cluster.
+You can use the `DisableLdapAuthentication` method to disable LDAP authentication and remove all LDAP configuration settings. This method does not remove any configured cluster admin accounts for users or groups. After LDAP authentication has been disabled, cluster admins that are configured to use LDAP authentication can no longer access the cluster.
 
 == Parameters
 

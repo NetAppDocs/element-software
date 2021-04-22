@@ -11,6 +11,7 @@ summary: 'Each Element software API request has the following basic parts:'
 [.lead]
 Each Element software API request has the following basic parts:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

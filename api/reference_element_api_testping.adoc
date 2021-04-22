@@ -9,12 +9,13 @@ summary: 'You can use the TestPing method to test network connectivity to all no
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestPing method to test network connectivity to all nodes in the cluster on both 1G and 10G interfaces using ICMP packets. The test uses the appropriate MTU sizes for each packet based on the MTU settings in the network configuration. TestPing does not create a temporary VLAN interface.
+You can use the `TestPing` method to test network connectivity to all nodes in the cluster on both 1G and 10G interfaces using ICMP packets. The test uses the appropriate MTU sizes for each packet based on the MTU settings in the network configuration. `TestPing` does not create a temporary VLAN interface.
 
 == Parameters
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -42,8 +43,8 @@ interface
 a|
 The existing (base) interface from which the pings should be sent. Possible values:
 
-* Bond10G: Send pings from the Bond10G interface.
-* Bond1G: Send pings from the Bond1G interface.
+* `Bond10G`: Send pings from the Bond10G interface.
+* `Bond1G`: Send pings from the Bond1G interface.
 
 a|
 string

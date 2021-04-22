@@ -9,12 +9,13 @@ summary: 'You can use the SetRemoteLoggingHosts method to configure remote loggi
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetRemoteLoggingHosts method to configure remote logging from the nodes in the storage cluster to a centralized log server or servers. Remote logging is performed over TCP using the default port 514. This API does not add to the existing logging hosts. Rather, it replaces what currently exists with new values specified by this API method. You can use GetRemoteLoggingHosts to determine what the current logging hosts are and then use SetRemoteLoggingHosts to set the desired list of current and new logging hosts.
+You can use the `SetRemoteLoggingHosts` method to configure remote logging from the nodes in the storage cluster to a centralized log server or servers. Remote logging is performed over TCP using the default port 514. This API does not add to the existing logging hosts. Rather, it replaces what currently exists with new values specified by this API method. You can use `GetRemoteLoggingHosts` to determine what the current logging hosts are and then use `SetRemoteLoggingHosts` to set the desired list of current and new logging hosts.
 
 == Parameter
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -70,6 +71,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]

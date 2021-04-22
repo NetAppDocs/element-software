@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorNodes method to get
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorNodes method to get a list of nodes in a remote ONTAP cluster.
+The Element software web UI uses the `ListSnapMirrorNodes` method to get a list of nodes in a remote ONTAP cluster.
 
 == Parameter
 

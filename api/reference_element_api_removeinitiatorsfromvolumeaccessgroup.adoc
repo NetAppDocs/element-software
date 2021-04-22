@@ -9,12 +9,13 @@ summary: 'You can use the RemoveInitiatorsFromVolumeAccessGroup method to remove
 :imagesdir: ../media/
 
 [.lead]
-You can use the RemoveInitiatorsFromVolumeAccessGroup method to remove initiators from a specified volume access group.
+You can use the `RemoveInitiatorsFromVolumeAccessGroup` method to remove initiators from a specified volume access group.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -57,6 +58,7 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

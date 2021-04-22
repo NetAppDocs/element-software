@@ -9,7 +9,7 @@ summary: 'Element software uses this version of the ModifySnapMirrorEndpoint met
 :imagesdir: ../media/
 
 [.lead]
-Element software uses this version of the ModifySnapMirrorEndpoint method to modify the storage cluster name or IP address attributes for an unmanaged SnapMirror endpoint. Unmanaged endpoints cannot be administered using the Element SnapMirror APIs. They must be managed with ONTAP management software or APIs.
+Element software uses this version of the `ModifySnapMirrorEndpoint` method to modify the storage cluster name or IP address attributes for an unmanaged SnapMirror endpoint. Unmanaged endpoints cannot be administered using the Element SnapMirror APIs. They must be managed with ONTAP management software or APIs.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the ListActiveAuthSessions method to list all of the activ
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListActiveAuthSessions method to list all of the active authenticated sessions. Only users with Administrative access rights can call this method.
+You can use the `ListActiveAuthSessions` method to list all of the active authenticated sessions. Only users with Administrative access rights can call this method.
 
 == Parameters
 

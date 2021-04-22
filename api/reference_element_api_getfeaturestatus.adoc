@@ -9,7 +9,7 @@ summary: 'You can use the GetFeatureStatus method to retrieve the status of a cl
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetFeatureStatus method to retrieve the status of a cluster feature.
+You can use the `GetFeatureStatus` method to retrieve the status of a cluster feature.
 
 == Parameter
 

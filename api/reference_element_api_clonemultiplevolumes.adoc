@@ -9,7 +9,7 @@ summary: 'You can use the CloneMultipleVolumes method to create a clone of a gro
 :imagesdir: ../media/
 
 [.lead]
-You can use the CloneMultipleVolumes method to create a clone of a group of specified volumes. You can assign a consistent set of characteristics to a group of multiple volumes when they are cloned together.
+You can use the `CloneMultipleVolumes` method to create a clone of a group of specified volumes. You can assign a consistent set of characteristics to a group of multiple volumes when they are cloned together.
 
 Before using the groupSnapshotID parameter to clone the volumes in a group snapshot, you must first create the group snapshot using the xref:reference_element_api_creategroupsnapshot.adoc[CreateGroupSnapshot] API method or the web UI. Using groupSnapshotID is optional when cloning multiple volumes.
 

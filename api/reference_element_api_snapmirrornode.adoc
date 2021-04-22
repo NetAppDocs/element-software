@@ -15,6 +15,7 @@ The snapMirrorNode object contains information about the nodes of the destinatio
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

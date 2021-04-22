@@ -9,7 +9,7 @@ summary: 'You can use the ListVolumesForAccount method to list active and \(pend
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVolumesForAccount method to list active and (pending) deleted volumes for an account.
+You can use the `ListVolumesForAccount` method to list active and (pending) deleted volumes for an account.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'If a storage cluster experiences an error or a state that might be of 
 :imagesdir: ../media/
 
 [.lead]
-If a storage cluster experiences an error or a state that might be of interest to an administrator, it generates a cluster fault. You can use the ListClusterFaults method to retrieve the current list of resolved and unresolved faults on a storage cluster.
+If a storage cluster experiences an error or a state that might be of interest to an administrator, it generates a cluster fault. You can use the `ListClusterFaults` method to retrieve the current list of resolved and unresolved faults on a storage cluster.
 
 The following list gives more information about and possible solutions for NetApp Element storage cluster faults:
 
@@ -27,7 +27,7 @@ To resolve this fault, add more IP addresses to the block of virtual network add
 
 * *blockClusterFull*
 +
-There is not enough free block storage space to support a single node loss. See the GetClusterFullThreshold API method for details on cluster fullness levels. This cluster fault indicates one of the following conditions:
+There is not enough free block storage space to support a single node loss. See the `GetClusterFullThreshold` API method for details on cluster fullness levels. This cluster fault indicates one of the following conditions:
 
  ** stage3Low (Warning): User-defined threshold was crossed. Adjust Cluster Full settings or add more nodes.
  ** stage4Critical (Error): There is not enough space to recover from a 1-node failure. Creation of volumes, snapshots, and clones is not allowed.

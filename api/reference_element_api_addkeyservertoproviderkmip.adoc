@@ -9,7 +9,7 @@ summary: 'You can use the AddKeyServerToProviderKmip method to assign a Key Mana
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddKeyServerToProviderKmip method to assign a Key Management Interoperability Protocol (KMIP) key server to the specified key provider. During assignment, the server is contacted to verify functionality. If the specified key server is already assigned to the specified key provider, no action is taken and no error is returned. You can remove the assignment using the RemoveKeyServerFromProviderKmip method.
+You can use the `AddKeyServerToProviderKmip` method to assign a Key Management Interoperability Protocol (KMIP) key server to the specified key provider. During assignment, the server is contacted to verify functionality. If the specified key server is already assigned to the specified key provider, no action is taken and no error is returned. You can remove the assignment using the `RemoveKeyServerFromProviderKmip` method.
 
 == Parameters
 

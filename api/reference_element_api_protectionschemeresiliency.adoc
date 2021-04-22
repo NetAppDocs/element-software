@@ -15,6 +15,7 @@ The protectionSchemeResiliency object contains information about whether a stora
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

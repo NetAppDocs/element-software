@@ -9,7 +9,7 @@ summary: 'You can use the ListActivePairedVolumes method to list all of the acti
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListActivePairedVolumes method to list all of the active volumes paired with a volume. This method returns information about volumes with active and pending pairings.
+You can use the `ListActivePairedVolumes` method to list all of the active volumes paired with a volume. This method returns information about volumes with active and pending pairings.
 
 == Parameters
 

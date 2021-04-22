@@ -9,15 +9,15 @@ summary: 'You can use the AddNodes method to add one or more new nodes to a clus
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddNodes method to add one or more new nodes to a cluster.
+You can use the `AddNodes` method to add one or more new nodes to a cluster.
 
-When a node that is not configured starts up for the first time, you are prompted to configure the node. Once you configure the node, it is registered as a "pending node" with the cluster. Storage clusters running Element software automatically image a node to the version on the cluster. When you add a pending node, the method response includes an asyncHandle value that you can use with the GetAsyncResult method to query the status of the automatic imaging process.
+When a node that is not configured starts up for the first time, you are prompted to configure the node. Once you configure the node, it is registered as a "pending node" with the cluster. Storage clusters running Element software automatically image a node to the version on the cluster. When you add a pending node, the method response includes an asyncHandle value that you can use with the `GetAsyncResult` method to query the status of the automatic imaging process.
 
-The process of adding a Fibre Channel node is the same as adding Element iSCSI storage nodes to a cluster. Fibre Channel nodes are registered in the system with a NodeID. When they become accessible, they are put in a "pending node" status. The ListAllNodes method will return the pendingNodeID for iSCSI nodes as well as any Fibre Channel nodes that are available to add to the cluster.
+The process of adding a Fibre Channel node is the same as adding Element iSCSI storage nodes to a cluster. Fibre Channel nodes are registered in the system with a NodeID. When they become accessible, they are put in a "pending node" status. The `ListAllNodes` method will return the pendingNodeID for iSCSI nodes as well as any Fibre Channel nodes that are available to add to the cluster.
 
-When you add a node to a cluster that you have configured for virtual networking, the system requires a sufficient number of virtual storage IP addresses to allocate a virtual IP to the new node. If there are no virtual IP addresses available for the new node, the AddNode operation fails. Use the ModifyVirtualNetwork method to add more storage IP addresses to your virtual network.
+When you add a node to a cluster that you have configured for virtual networking, the system requires a sufficient number of virtual storage IP addresses to allocate a virtual IP to the new node. If there are no virtual IP addresses available for the new node, the `AddNode` operation fails. Use the `ModifyVirtualNetwork` method to add more storage IP addresses to your virtual network.
 
-Once you add a node, any drives on the node are made available and you can add them using theAddDrives method to increase the storage capacity of the cluster.
+Once you add a node, any drives on the node are made available and you can add them using the `AddDrives` method to increase the storage capacity of the cluster.
 
 NOTE: It may take several seconds after adding a new node for it to start up and register its drives as available.
 

@@ -9,7 +9,7 @@ summary: 'You can use the ListDriveHardware method to list all the drives connec
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListDriveHardware method to list all the drives connected to a node. When used on individual nodes, this method returns drive hardware information. When used on the cluster master node MVIP, this method returns information for all drives on all nodes.
+You can use the `ListDriveHardware` method to list all the drives connected to a node. When used on individual nodes, this method returns drive hardware information. When used on the cluster master node MVIP, this method returns information for all drives on all nodes.
 
 == Parameters
 
@@ -108,6 +108,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_enableencryptionatrest.adoc[EnableEncryptionAtRest]

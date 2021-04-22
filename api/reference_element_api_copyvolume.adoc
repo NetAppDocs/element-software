@@ -9,7 +9,7 @@ summary: 'You can use the CopyVolume method to overwrite the data contents of an
 :imagesdir: ../media/
 
 [.lead]
-You can use the CopyVolume method to overwrite the data contents of an existing volume with the data contents of another volume (or snapshot). Attributes of the destination volume such as IQN, QoS settings, size, account, and volume access group membership are not changed. The destination volume must already exist and must be the same size as the source volume.
+You can use the `CopyVolume` method to overwrite the data contents of an existing volume with the data contents of another volume (or snapshot). Attributes of the destination volume such as IQN, QoS settings, size, account, and volume access group membership are not changed. The destination volume must already exist and must be the same size as the source volume.
 
 It is best if clients unmount the destination volume before the operation begins. If the destination volume is modified during the operation, the changes are lost. This operation can take a variable amount of time to complete. You can use the xref:reference_element_api_getasyncresult.adoc[GetAsyncResult] method to determine when the process has finished, and xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs] to see the progress of the copy.
 

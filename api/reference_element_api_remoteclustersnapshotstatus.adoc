@@ -9,12 +9,13 @@ summary: 'The remoteClusterSnapshotStatus object contains the UUID and status of
 :imagesdir: ../media/
 
 [.lead]
-The remoteClusterSnapshotStatus object contains the UUID and status of a snapshot stored on a remote storage cluster. You can get this information with the ListSnapshots or ListGroupSnapshots API methods.
+The `remoteClusterSnapshotStatus` object contains the UUID and status of a snapshot stored on a remote storage cluster. You can get this information with the `ListSnapshots` or `ListGroupSnapshots` API methods.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

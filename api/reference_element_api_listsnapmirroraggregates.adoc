@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorAggregates method t
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorAggregates method to list all SnapMirror aggregates that are available on the remote ONTAP system. An aggregate describes a set of physical storage resources.
+The Element software web UI uses the `ListSnapMirrorAggregates` method to list all SnapMirror aggregates that are available on the remote ONTAP system. An aggregate describes a set of physical storage resources.
 
 == Parameter
 

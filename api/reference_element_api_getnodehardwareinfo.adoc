@@ -9,7 +9,7 @@ summary: 'You can use the GetNodeHardwareInfo method to return all the hardware 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNodeHardwareInfo method to return all the hardware information and status for the node specified. This generally includes manufacturers, vendors, versions, and other associated hardware identification information.
+You can use the `GetNodeHardwareInfo` method to return all the hardware information and status for the node specified. This generally includes manufacturers, vendors, versions, and other associated hardware identification information.
 
 == Parameter
 
@@ -68,7 +68,7 @@ Due to the length of this response example, it is documented in a supplementary 
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_response_example_getnodehardwareinfo_fibre_channel.adoc[GetNodeHardwareInfo (output for Fibre Channel nodes)]
 

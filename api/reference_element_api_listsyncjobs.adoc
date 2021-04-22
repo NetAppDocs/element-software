@@ -9,7 +9,7 @@ summary: 'You can use the ListSyncJobs method to get information about synchroni
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListSyncJobs method to get information about synchronization jobs that are running on an Element storage cluster. This method returns information about slice, clone, block, and remote synchronization jobs.
+You can use the `ListSyncJobs` method to get information about synchronization jobs that are running on an Element storage cluster. This method returns information about slice, clone, block, and remote synchronization jobs.
 
 == Parameters
 

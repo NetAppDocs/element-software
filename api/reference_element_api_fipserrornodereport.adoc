@@ -9,7 +9,7 @@ summary: 'The fipsErrorNodeReport object contains error information for each nod
 :imagesdir: ../media/
 
 [.lead]
-The fipsErrorNodeReport object contains error information for each node that does not respond with information about FIPS 140-2 support when you query it with the GetFipsReport method.
+The fipsErrorNodeReport object contains error information for each node that does not respond with information about FIPS 140-2 support when you query it with the `GetFipsReport` method.
 
 == Object members
 

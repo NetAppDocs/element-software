@@ -9,12 +9,13 @@ summary: 'You can use the SecureEraseDrives method to remove any residual data f
 :imagesdir: ../media/
 
 [.lead]
-You can use the SecureEraseDrives method to remove any residual data from drives that have a status of "available". You might use this method when replacing a drive nearing the end of its service life that contained sensitive data. This method uses a Security Erase Unit command to write a predetermined pattern to the drive and resets the encryption key on the drive. This asynchronous method might take several minutes to complete.
+You can use the `SecureEraseDrives` method to remove any residual data from drives that have a status of "available". You might use this method when replacing a drive nearing the end of its service life that contained sensitive data. This method uses a Security Erase Unit command to write a predetermined pattern to the drive and resets the encryption key on the drive. This asynchronous method might take several minutes to complete.
 
 == Parameter
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -33,6 +34,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -74,7 +76,7 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 * xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]
 * xref:reference_element_api_listdrives.adoc[ListDrives]

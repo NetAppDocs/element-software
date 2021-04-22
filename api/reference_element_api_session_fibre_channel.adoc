@@ -9,12 +9,13 @@ summary: 'The session object contains information about each Fibre Channel sessi
 :imagesdir: ../media/
 
 [.lead]
-The session object contains information about each Fibre Channel session that is visible to the cluster and what target ports it is visible on. You can retrieve this information with the ListFibreChannelSessions API method.
+The session object contains information about each Fibre Channel session that is visible to the cluster and what target ports it is visible on. You can retrieve this information with the `ListFibreChannelSessions` API method.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -62,6 +63,6 @@ a|
 integer
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listfibrechannelsessions.adoc[ListFibreChannelSessions]

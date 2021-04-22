@@ -9,7 +9,7 @@ summary: 'You can use the GetSnmpACL method to get the current SNMP access permi
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSnmpACL method to get the current SNMP access permissions on the cluster nodes.
+You can use the `GetSnmpACL` method to get the current SNMP access permissions on the cluster nodes.
 
 == Parameters
 

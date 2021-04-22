@@ -9,7 +9,7 @@ summary: 'You can use the ListFibreChannelSessions method to list information ab
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListFibreChannelSessions method to list information about the Fibre Channel sessions on a cluster.
+You can use the `ListFibreChannelSessions` method to list information about the Fibre Channel sessions on a cluster.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the ResetSupplementalTlsCiphers method to restore the list
 :imagesdir: ../media/
 
 [.lead]
-You can use the ResetSupplementalTlsCiphers method to restore the list of supplemental TLS ciphers to the default. You can use this method on the entire cluster.
+You can use the `ResetSupplementalTlsCiphers` method to restore the list of supplemental TLS ciphers to the default. You can use this method on the entire cluster.
 
 == Parameter
 

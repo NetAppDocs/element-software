@@ -9,7 +9,7 @@ summary: 'The GetNodeHardwareInfo method for iSCSI returns a response similar to
 :imagesdir: ../media/
 
 [.lead]
-The GetNodeHardwareInfo method for iSCSI returns a response similar to the following example.
+The `GetNodeHardwareInfo` method for iSCSI returns a response similar to the following example.
 
 ----
 {

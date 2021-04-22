@@ -15,6 +15,7 @@ The snapMirrorPolicy object contains information about a SnapMirror policy that 
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

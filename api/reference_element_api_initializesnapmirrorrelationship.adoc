@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the InitializeSnapMirrorRelationship 
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the InitializeSnapMirrorRelationship method to initialize the destination volume in a SnapMirror relationship by performing an initial baseline transfer between clusters.
+The Element software web UI uses the `InitializeSnapMirrorRelationship` method to initialize the destination volume in a SnapMirror relationship by performing an initial baseline transfer between clusters.
 
 == Parameters
 

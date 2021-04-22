@@ -9,7 +9,7 @@ summary: 'You can use the AddDrives method to add one or more available drives t
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddDrives method to add one or more available drives to the cluster, enabling the drives to host a portion of the data for the cluster.
+You can use the `AddDrives` method to add one or more available drives to the cluster, enabling the drives to host a portion of the data for the cluster.
 
 When you add a storage node to the cluster or install new drives in an existing node, the new drives are marked as available and must be added via AddDrives before they can be utilized. Use the xref:reference_element_api_listdrives.adoc[ListDrives] method to display drives that are available to be added. When you add a drive, the system automatically determines the type of drive it should be.
 

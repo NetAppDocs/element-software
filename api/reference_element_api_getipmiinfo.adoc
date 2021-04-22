@@ -9,7 +9,7 @@ summary: 'You can use the GetIpmiInfo method to display a detailed reporting of 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetIpmiInfo method to display a detailed reporting of sensors (objects) for node fans, intake and exhaust temperatures, and power supplies that are monitored by the system.
+You can use the `GetIpmiInfo` method to display a detailed reporting of sensors (objects) for node fans, intake and exhaust temperatures, and power supplies that are monitored by the system.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

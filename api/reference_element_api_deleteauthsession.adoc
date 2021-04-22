@@ -9,7 +9,7 @@ summary: 'You can use the DeleteAuthSession method to delete an individual auth 
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteAuthSession method to delete an individual auth session. If the calling user is not in the ClusterAdmins / Administrator AccessGroup, only auth session belonging to the calling user can be deleted.
+You can use the `DeleteAuthSession` method to delete an individual user authentication session. If the calling user is not in the ClusterAdmins / Administrator AccessGroup, only the authentication session belonging to the calling user can be deleted.
 
 == Parameters
 

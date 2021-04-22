@@ -9,7 +9,7 @@ summary: 'You can use the DeleteStorageContainers method to remove up to 2000 Vi
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteStorageContainers method to remove up to 2000 Virtual Volume (VVol) storage containers from the system at one time. The storage containers you remove must not contain any VVols.
+You can use the `DeleteStorageContainers` method to remove up to 2000 Virtual Volume (VVol) storage containers from the system at one time. The storage containers you remove must not contain any VVols.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the DeleteKeyProviderKmip method to delete the specified i
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteKeyProviderKmip method to delete the specified inactive Key Management Interoperability Protocol (KMIP) key provider.
+You can use the `DeleteKeyProviderKmip` method to delete the specified inactive Key Management Interoperability Protocol (KMIP) key provider.
 
 == Parameters
 

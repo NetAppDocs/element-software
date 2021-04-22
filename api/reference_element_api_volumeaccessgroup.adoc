@@ -9,12 +9,13 @@ summary: 'The volumeAccessGroup object contains information about a specific vol
 :imagesdir: ../media/
 
 [.lead]
-The volumeAccessGroup object contains information about a specific volume access group. You can retrieve a list of this information for all access groups with the API method ListVolumeAccessGroups.
+The volumeAccessGroup object contains information about a specific volume access group. You can retrieve a list of this information for all access groups with the API method `ListVolumeAccessGroups`.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -61,6 +62,6 @@ a|
 integer array
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listvolumeaccessgroups.adoc[ListVolumeAccessGroups]

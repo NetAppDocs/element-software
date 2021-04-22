@@ -9,7 +9,7 @@ summary: 'The network \(bonded interfaces\) object contains configuration inform
 :imagesdir: ../media/
 
 [.lead]
-The network (bonded interfaces) object contains configuration information for bonded network interfaces on a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.
+The network (bonded interfaces) object contains configuration information for bonded network interfaces on a storage node. You can use the `GetConfig` and `GetNetworkConfig` methods to obtain this information for a storage node.
 
 == Object members
 
@@ -431,7 +431,7 @@ Yes
 |===
 
 
-== Find more information 
+== Find more information
 
 * xref:reference_element_api_getconfig.adoc[GetConfig]
 * xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]

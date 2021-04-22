@@ -9,7 +9,7 @@ summary: 'You can use the GetClusterMasterNodeID method to retrieve the ID of th
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetClusterMasterNodeID method to retrieve the ID of the node that performs cluster-wide administration tasks and holds the storage virtual IP address (SVIP) and management virtual IP address (MVIP).
+You can use the `GetClusterMasterNodeID` method to retrieve the ID of the node that performs cluster-wide administration tasks and holds the storage virtual IP address (SVIP) and management virtual IP address (MVIP).
 
 == Parameters
 

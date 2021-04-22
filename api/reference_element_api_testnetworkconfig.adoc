@@ -9,7 +9,7 @@ summary: 'You can use the TestNetworkConfig method to test that the configured n
 :imagesdir: ../media/
 
 [.lead]
-You can use the TestNetworkConfig method to test that the configured network settings match the network settings being used on the system.
+You can use the `TestNetworkConfig` method to test that the configured network settings match the network settings being used on the system.
 
 == Parameters
 
@@ -23,6 +23,7 @@ This method has no input parameters.
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -110,6 +111,6 @@ Example of a missing static route.
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]

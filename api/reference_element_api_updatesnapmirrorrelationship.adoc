@@ -9,12 +9,13 @@ summary: 'The Element software web UI uses the UpdateSnapMirrorRelationship meth
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the UpdateSnapMirrorRelationship method to make the destination volume in a SnapMirror relationship an up-to-date mirror of the source volume.
+The Element software web UI uses the `UpdateSnapMirrorRelationship` method to make the destination volume in a SnapMirror relationship an up-to-date mirror of the source volume.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

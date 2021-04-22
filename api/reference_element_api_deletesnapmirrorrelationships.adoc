@@ -9,7 +9,7 @@ summary: 'The Element web UI uses the DeleteSnapMirrorRelationships method to re
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses the DeleteSnapMirrorRelationships method to remove one or more SnapMirror relationships between a source and destination endpoint.
+The Element web UI uses the `DeleteSnapMirrorRelationships` method to remove one or more SnapMirror relationships between a source and destination endpoint.
 
 == Parameters
 

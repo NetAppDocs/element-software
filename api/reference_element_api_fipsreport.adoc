@@ -9,7 +9,7 @@ summary: 'The fipsReport object contains information about FIPS 140-2 support fo
 :imagesdir: ../media/
 
 [.lead]
-The fipsReport object contains information about FIPS 140-2 support for all nodes in the storage cluster. You can retrieve this information using the GetFipsReport method.
+The fipsReport object contains information about FIPS 140-2 support for all nodes in the storage cluster. You can retrieve this information using the `GetFipsReport` method.
 
 == Object members
 

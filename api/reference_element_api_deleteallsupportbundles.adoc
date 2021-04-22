@@ -9,7 +9,7 @@ summary: 'You can use the DeleteAllSupportBundles method to delete all support b
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteAllSupportBundles method to delete all support bundles generated with the CreateSupportBundle API method.
+You can use the `DeleteAllSupportBundles` method to delete all support bundles generated with the `CreateSupportBundle` API method.
 
 == Parameters
 

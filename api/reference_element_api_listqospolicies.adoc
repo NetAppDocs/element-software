@@ -9,7 +9,7 @@ summary: 'You can use the ListQoSPolicies method to list the settings of all QoS
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListQoSPolicies method to list the settings of all QoS policies on the system.
+You can use the `ListQoSPolicies` method to list the settings of all QoS policies on the system.
 
 == Parameters
 

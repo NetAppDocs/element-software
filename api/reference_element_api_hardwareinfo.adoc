@@ -9,7 +9,7 @@ summary: 'The hardwareInfo object contains detailed information about the hardwa
 :imagesdir: ../media/
 
 [.lead]
-The hardwareInfo object contains detailed information about the hardware and status of each node in the cluster. You can retrieve this information with the GetHardwareInfo API method.
+The hardwareInfo object contains detailed information about the hardware and status of each node in the cluster. You can retrieve this information with the `GetHardwareInfo` API method.
 
 == Object members
 
@@ -135,6 +135,6 @@ UUID
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_gethardwareinfo.adoc[GetHardwareInfo]

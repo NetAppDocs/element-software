@@ -9,7 +9,7 @@ summary: 'You can use DeleteVolumeAccessGroup to delete a volume access group.'
 :imagesdir: ../media/
 
 [.lead]
-You can use DeleteVolumeAccessGroup to delete a volume access group.
+You can use `DeleteVolumeAccessGroup` to delete a volume access group.
 
 == Parameters
 

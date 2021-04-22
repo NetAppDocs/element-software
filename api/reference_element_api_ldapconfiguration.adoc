@@ -9,7 +9,7 @@ summary: 'The ldapConfiguration object contains information about the LDAP confi
 :imagesdir: ../media/
 
 [.lead]
-The ldapConfiguration object contains information about the LDAP configuration on the storage system. You can retrieve LDAP information with the GetLdapConfiguration API method.
+The ldapConfiguration object contains information about the LDAP configuration on the storage system. You can retrieve LDAP information with the `GetLdapConfiguration` API method.
 
 == Object members
 
@@ -93,6 +93,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getldapconfiguration.adoc[GetLdapConfiguration]

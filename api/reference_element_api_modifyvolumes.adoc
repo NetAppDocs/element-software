@@ -29,7 +29,7 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 a|
-`access`
+access
 a|
 Access allowed for the volumes. Possible values:
 
@@ -45,7 +45,7 @@ None
 a|
 No
 a|
-`accountID`
+accountID
 a|
 The accountID to which the volumes are reassigned. If none is specified, the previous account name is used.
 a|
@@ -55,7 +55,7 @@ None
 a|
 No
 a|
-`associateWithQoSPolicy`
+associateWithQoSPolicy
 a|
 Associate the volume with the specified QoS policy. Possible values:
 
@@ -69,7 +69,7 @@ None
 a|
 No
 a|
-`attributes`
+attributes
 a|
 List of name-value pairs in JSON object format.
 a|
@@ -79,7 +79,7 @@ None
 a|
 No
 a|
-`createTime`
+createTime
 a|
 An ISO 8601 date string to set as the new volume creation date. Required if setCreateTime is set to true.
 a|
@@ -89,7 +89,7 @@ None
 a|
 No
 a|
-`enableSnapMirrorReplication`
+enableSnapMirrorReplication
 a|
 Determines whether the volume can be used for replication with SnapMirror endpoints. Possible values:
 
@@ -103,20 +103,20 @@ false
 a|
 No
 
-|`fifoSize`
+|fifoSize
 |Specifies the maximum number of First-In-First-Out (FIFO) snapshots supported by the volume. Note that FIFO and non-FIFO snapshots both use the same pool of available snapshot slots on a volume. Use this option to limit FIFO snapshot consumption of the available snapshot slots. Note that you cannot modify this value to be less than the current FIFO snapshot count.
 |integer
 |None
 |No
 
-|`minFifoSize`
-|Specifies the number of snapshot slots that are reserved for only First-In-First-Out (FIFO) snapshots. Since FIFO and non-FIFO snapshots share the same pool, the `minFifoSize` parameter reduces the total number of possible non-FIFO snapshots by the same amount. Note that you cannot modify this value so that it conflicts with the current non-FIFO snapshot count.
+|minFifoSize
+|Specifies the number of snapshot slots that are reserved for only First-In-First-Out (FIFO) snapshots. Since FIFO and non-FIFO snapshots share the same pool, the minFifoSize parameter reduces the total number of possible non-FIFO snapshots by the same amount. Note that you cannot modify this value so that it conflicts with the current non-FIFO snapshot count.
 |integer
 |None
 |No
 
 a|
-`mode`
+mode
 a|
 Volume replication mode. Possible values:
 
@@ -130,7 +130,7 @@ None
 a|
 No
 a|
-`qos`
+qos
 a|
 The new quality of service settings for the volumes. If not specified, the QoS settings are not changed. Possible values:
 
@@ -145,7 +145,7 @@ None
 a|
 No
 a|
-`qosPolicyID`
+qosPolicyID
 a|
 The ID for the policy whose QoS settings should be applied to the specified volumes. This parameter is mutually exclusive with the qos parameter.
 a|
@@ -155,7 +155,7 @@ None
 a|
 No
 a|
-`setCreateTime`
+setCreateTime
 a|
 Set to true to change the recorded date of volume creation.
 a|
@@ -165,7 +165,7 @@ None
 a|
 No
 a|
-`totalSize`
+totalSize
 a|
 The new size of the volumes in bytes. 1000000000 is equal to 1GB. Size is rounded up to the nearest megabyte in size. This parameter can only be used to increase the size of a volume.
 a|
@@ -175,7 +175,7 @@ None
 a|
 No
 a|
-`volumeIDs`
+volumeIDs
 a|
 A list of volumeIDs for the volumes to be modified.
 a|
@@ -329,6 +329,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

@@ -9,7 +9,7 @@ summary: 'You can use the GetClusterFullThreshold method to view the stages set 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetClusterFullThreshold method to view the stages set for cluster fullness levels. This method returns all fullness metrics for the cluster.
+You can use the `GetClusterFullThreshold` method to view the stages set for cluster fullness levels. This method returns all fullness metrics for the cluster.
 
 NOTE: When a cluster reaches the Error stage of block cluster fullness, the maximum IOPS on all volumes are reduced linearly to the volume minimum IOPS as the cluster approaches the Critical stage. This helps prevent the cluster from reaching the Critical stage of block cluster fullness.
 
@@ -217,6 +217,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_modifyclusterfullthreshold.adoc[ModifyClusterFullThreshold]

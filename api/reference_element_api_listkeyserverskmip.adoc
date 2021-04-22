@@ -9,7 +9,7 @@ summary: 'You can use the ListKeyServersKmip method to list all Key Management I
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListKeyServersKmip method to list all Key Management Interoperability Protocol (KMIP) key servers that have been created. You can filter the results by specifying additional parameters.
+You can use the `ListKeyServersKmip` method to list all Key Management Interoperability Protocol (KMIP) key servers that have been created. You can filter the results by specifying additional parameters.
 
 == Parameters
 

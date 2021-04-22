@@ -18,7 +18,7 @@ This method has the following input parameters:
 |===
 |Name |Description |Type |Default value |Required
 a|
-`enableRemoteReplication`
+enableRemoteReplication
 a|
 Use to enable the snapshot created to be replicated to a remote storage cluster. Possible values:
 
@@ -32,10 +32,10 @@ false
 a|
 No
 a|
-`expirationTime`
+expirationTime
 a|
-Specify the time after which the snapshot can be removed. Cannot be used with `retention`.
-If neither `expirationTime`, or `retention` on the original snapshot, are specified, the snapshot will not expire. The time format is an ISO 8601 date string for time based expiration, otherwise it will not expire. A value of `null` causes the snapshot to be retained permanently. A value of `fifo` causes the snapshot to be preserved on a First-In-First-Out (FIFO) basis, relative to other FIFO snapshots on the volume. The API will fail if no FIFO space is available.
+Specify the time after which the snapshot can be removed. Cannot be used with retention.
+If neither expirationTime, or retention on the original snapshot, are specified, the snapshot will not expire. The time format is an ISO 8601 date string for time based expiration, otherwise it will not expire. A value of null causes the snapshot to be retained permanently. A value of fifo causes the snapshot to be preserved on a First-In-First-Out (FIFO) basis, relative to other FIFO snapshots on the volume. The API will fail if no FIFO space is available.
 a|
 ISO 8601 date string
 a|
@@ -43,7 +43,7 @@ None
 a|
 No
 a|
-`name`
+name
 a|
 The name of the snapshot. If no name is entered, the date and time the snapshot was taken is used. The maximum name length allowed is 255 characters.
 a|
@@ -53,7 +53,7 @@ None
 a|
 No
 a|
-`snapMirrorLabel`
+snapMirrorLabel
 a|
 The label used by SnapMirror software to specify the snapshot retention policy on a SnapMirror endpoint.
 a|
@@ -63,7 +63,7 @@ None
 a|
 No
 a|
-`snapshotID`
+snapshotID
 a|
 Identifier of the snapshot.
 a|

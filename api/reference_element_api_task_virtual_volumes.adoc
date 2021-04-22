@@ -9,12 +9,13 @@ summary: 'The task object contains information about a currently running or fini
 :imagesdir: ../media/
 
 [.lead]
-The task object contains information about a currently running or finished virtual volume task in the system. You can use the ListVirtualVolumeTasks method to retrieve this information for all virtual volume tasks.
+The task object contains information about a currently running or finished virtual volume task in the system. You can use the `ListVirtualVolumeTasks` method to retrieve this information for all virtual volume tasks.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -99,6 +100,6 @@ UUID
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listvirtualvolumetasks.adoc[ListVirtualVolumeTasks]

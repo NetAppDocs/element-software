@@ -9,12 +9,13 @@ summary: 'You can use the SetLoginBanner method to configure the Terms of Use ba
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetLoginBanner method to configure the Terms of Use banner that users see when they log in to the Element web interface.
+You can use the `SetLoginBanner` method to configure the Terms of Use banner that users see when they log in to the Element web interface.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -32,8 +33,8 @@ enabled
 a|
 The status of the Terms of Use banner. Possible values:
 
-* true: The Terms of Use banner is displayed upon web interface login.
-* false: The Terms of Use banner is not displayed upon web interface login.
+* `true`: The Terms of Use banner is displayed upon web interface login.
+* `false`: The Terms of Use banner is not displayed upon web interface login.
 
 a|
 boolean
@@ -47,6 +48,7 @@ No
 
 This method has the following return values:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

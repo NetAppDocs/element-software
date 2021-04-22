@@ -9,7 +9,7 @@ summary: 'You can use GetAccountByName to get details about a specific account, 
 :imagesdir: ../media/
 
 [.lead]
-You can use GetAccountByName to get details about a specific account, given its username.
+You can use `GetAccountByName` to get details about a specific account, given its username.
 
 == Parameters
 

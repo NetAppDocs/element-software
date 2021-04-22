@@ -9,7 +9,7 @@ summary: 'You can use the ListClusterAdmins method to return the list of all clu
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListClusterAdmins method to return the list of all cluster administrators for the cluster.
+You can use the `ListClusterAdmins` method to return the list of all cluster administrators for the cluster.
 
 There can be several cluster administrator accounts with different levels of permissions. There can be only one primary cluster administrator in the system. The primary Cluster Admin is the administrator that was created when the cluster was created. LDAP administrators can also be created when setting up an LDAP system on the cluster.
 

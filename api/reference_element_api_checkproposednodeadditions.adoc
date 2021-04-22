@@ -9,7 +9,7 @@ summary: 'You can use the CheckProposedNodeAdditions method to test a set of sto
 :imagesdir: ../media/
 
 [.lead]
-You can use the CheckProposedNodeAdditions method to test a set of storage nodes to see if you can add them to a storage cluster without errors or best practice violations.
+You can use the `CheckProposedNodeAdditions` method to test a set of storage nodes to see if you can add them to a storage cluster without errors or best practice violations.
 
 == Parameter
 
@@ -51,13 +51,13 @@ proposedClusterErrors
 a|
 Errors that would occur if a storage cluster was created using the proposed storage nodes. Possible error codes:
 
-* nodesNoCapacity: Nodes did not have any useable capacity.
-* nodesTooLarge: Nodes constitute too large a portion of cluster capacity for the active protection scheme.
-* nodesConnectFailed: Could not connect to nodes to query hardware configuration.
-* nodesQueryFailed: Could not query nodes for hardware configuration.
-* nodesClusterMember: IP addresses for nodes are already in use in the cluster.
-* nonFipsNodeCapable: Unable to add a non-FIPS capable node to the storage cluster while the FIPS 140-2 drive encryption feature is enabled.
-* nonFipsDrivesCapable: Unable to add a node with non-FIPS-capable drives to the cluster while the FIPS 140-2 drive encryption feature is enabled.
+* `nodesNoCapacity`: Nodes did not have any useable capacity.
+* `nodesTooLarge`: Nodes constitute too large a portion of cluster capacity for the active protection scheme.
+* `nodesConnectFailed`: Could not connect to nodes to query hardware configuration.
+* `nodesQueryFailed`: Could not query nodes for hardware configuration.
+* `nodesClusterMember`: IP addresses for nodes are already in use in the cluster.
+* `nonFipsNodeCapable`: Unable to add a non-FIPS capable node to the storage cluster while the FIPS 140-2 drive encryption feature is enabled.
+* `nonFipsDrivesCapable`: Unable to add a node with non-FIPS-capable drives to the cluster while the FIPS 140-2 drive encryption feature is enabled.
 
 a|
 string array

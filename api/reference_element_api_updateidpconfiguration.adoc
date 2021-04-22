@@ -9,12 +9,13 @@ summary: 'You can use the UpdateIdpConfiguration method to update an existing co
 :imagesdir: ../media/
 
 [.lead]
-You can use the UpdateIdpConfiguration method to update an existing configuration with a third-party IdP for the cluster.
+You can use the `UpdateIdpConfiguration` method to update an existing configuration with a third-party IdP for the cluster.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

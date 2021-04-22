@@ -9,7 +9,7 @@ summary: 'You can use the ListVolumes method to get a list of volumes that are i
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVolumes method to get a list of volumes that are in a cluster. You can specify the volumes you want to return in the list by using the available parameters.
+You can use the `ListVolumes` method to get a list of volumes that are in a cluster. You can specify the volumes you want to return in the list by using the available parameters.
 
 == Parameters
 

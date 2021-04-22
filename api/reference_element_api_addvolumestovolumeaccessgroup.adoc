@@ -9,7 +9,7 @@ summary: 'You can use the AddVolumesToVolumeAccessGroup method to add volumes to
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddVolumesToVolumeAccessGroup method to add volumes to a specified volume access group.
+You can use the `AddVolumesToVolumeAccessGroup` method to add volumes to a specified volume access group.
 
 == Parameters
 

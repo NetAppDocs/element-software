@@ -9,7 +9,7 @@ summary: 'You can use the CancelClone method to stop an ongoing volume clone or 
 :imagesdir: ../media/
 
 [.lead]
-You can use the CancelClone method to stop an ongoing volume clone or volume copy process. When you cancel a group clone operation, the system completes and removes the operation's associated asyncHandle.
+You can use the `CancelClone` method to stop an ongoing volume clone or volume copy process. When you cancel a group clone operation, the system completes and removes the operation's associated asyncHandle.
 
 == Parameter
 
