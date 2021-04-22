@@ -9,7 +9,7 @@ summary: 'You can use ModifySnapMirrorRelationship to change the intervals at wh
 :imagesdir: ../media/
 
 [.lead]
-You can use ModifySnapMirrorRelationship to change the intervals at which a scheduled snapshot occurs. You can also delete or pause a schedule by using this method.
+You can use `ModifySnapMirrorRelationship` to change the intervals at which a scheduled snapshot occurs. You can also delete or pause a schedule by using this method.
 
 == Parameters
 

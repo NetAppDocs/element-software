@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses GetSnapMirrorClusterIdentity to get i
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses GetSnapMirrorClusterIdentity to get identity information about the ONTAP cluster.
+The Element software web UI uses `GetSnapMirrorClusterIdentity` to get identity information about the ONTAP cluster.
 
 == Parameter
 

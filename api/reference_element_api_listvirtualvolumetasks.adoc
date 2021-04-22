@@ -9,7 +9,7 @@ summary: 'You can use the ListVirtualVolumeTasks method to get a list of virtual
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListVirtualVolumeTasks method to get a list of virtual volume tasks in the system.
+You can use the `ListVirtualVolumeTasks` method to get a list of virtual volume tasks in the system.
 
 == Parameters
 

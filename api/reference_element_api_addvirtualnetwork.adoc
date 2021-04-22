@@ -9,7 +9,7 @@ summary: 'You can use the AddVirtualNetwork method to add a new virtual network 
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddVirtualNetwork method to add a new virtual network to a cluster configuration.
+You can use the `AddVirtualNetwork` method to add a new virtual network to a cluster configuration.
 
 When you add a virtual network, an interface for each node is created and each interface requires a virtual network IP address. The number of IP addresses you specify as a parameter for this API method must be equal to or greater than the number of nodes in the cluster. The system bulk provisions virtual network addresses and assigns them to individual nodes automatically. You do not need to assign virtual network addresses to nodes manually.
 

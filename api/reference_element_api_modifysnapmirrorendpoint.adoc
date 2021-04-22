@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ModifySnapMirrorEndpoint method t
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ModifySnapMirrorEndpoint method to change the name and management attributes for a SnapMirror endpoint.
+The Element software web UI uses the `ModifySnapMirrorEndpoint` method to change the name and management attributes for a SnapMirror endpoint.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the GetVolumeAccessGroupLunAssignments method to retrieve 
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetVolumeAccessGroupLunAssignments method to retrieve details on LUN mappings of a specified volume access group.
+You can use the `GetVolumeAccessGroupLunAssignments` method to retrieve details on LUN mappings of a specified volume access group.
 
 == Parameter
 

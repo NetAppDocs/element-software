@@ -9,7 +9,7 @@ summary: 'You can use the DisableSnmp method to disable SNMP on the cluster node
 :imagesdir: ../media/
 
 [.lead]
-You can use the DisableSnmp method to disable SNMP on the cluster nodes.
+You can use the `DisableSnmp` method to disable SNMP on the cluster nodes.
 
 == Parameter
 

@@ -9,7 +9,7 @@ summary: 'You can use the GetLoginSessionInfo method to return the period of tim
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetLoginSessionInfo method to return the period of time a login authentication session is valid for both login shells and the TUI.
+You can use the `GetLoginSessionInfo` method to return the period of time a login authentication session is valid for both login shells and the TUI.
 
 == Parameters
 

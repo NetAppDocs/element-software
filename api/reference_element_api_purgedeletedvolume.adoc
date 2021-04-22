@@ -17,10 +17,11 @@ Volumes are purged automatically after a period of time, so usage of this method
 
 This method has the following input parameter:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 
-|`volumeID`
+|volumeID
 |The volumeID of the volume to be purged.
 |integer
 |No

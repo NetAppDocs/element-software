@@ -9,12 +9,13 @@ summary: 'The session \(iSCSI\) object contains detailed information about each 
 :imagesdir: ../media/
 
 [.lead]
-The session (iSCSI) object contains detailed information about each volume's iSCSI session. You can retrieve iSCSI session information with the ListISCSISessions API method.
+The session (iSCSI) object contains detailed information about each volume's iSCSI session. You can retrieve iSCSI session information with the `ListISCSISessions` API method.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -153,6 +154,6 @@ integer
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listiscsisessions.adoc[ListISCSISessions]

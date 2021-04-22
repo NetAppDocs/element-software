@@ -9,7 +9,7 @@ summary: 'You can use the GetClusterVersionInfo method to retrieve information a
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetClusterVersionInfo method to retrieve information about the Element software version running on each node in the cluster. This method also returns information about nodes that are currently in the process of upgrading software.
+You can use the `GetClusterVersionInfo` method to retrieve information about the Element software version running on each node in the cluster. This method also returns information about nodes that are currently in the process of upgrading software.
 
 == Cluster version info object members
 

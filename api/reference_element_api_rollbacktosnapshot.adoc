@@ -9,7 +9,7 @@ summary: 'You can use the RollbackToSnapshot method to make an existing snapshot
 :imagesdir: ../media/
 
 [.lead]
-You can use the RollbackToSnapshot method to make an existing snapshot of the active volume image. This method creates a new snapshot from an existing snapshot.
+You can use the `RollbackToSnapshot` method to make an existing snapshot of the active volume image. This method creates a new snapshot from an existing snapshot.
 
 The new snapshot becomes active and the existing snapshot is preserved until it is manually deleted. The previously active snapshot is deleted unless you set the saveCurrentState parameter to true.
 
@@ -21,6 +21,7 @@ NOTE: You can create snapshots if cluster fullness is at stage 1, 2, or 3. You c
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|

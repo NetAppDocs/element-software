@@ -9,7 +9,7 @@ summary: 'You can use the GetBackupTarget method to return information about a s
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetBackupTarget method to return information about a specific backup target that you have created.
+You can use the `GetBackupTarget` method to return information about a specific backup target that you have created.
 
 == Parameters
 

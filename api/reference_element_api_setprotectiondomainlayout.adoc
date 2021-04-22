@@ -9,7 +9,7 @@ summary: 'You can use the SetProtectionDomainLayout method to assign nodes to cu
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetProtectionDomainLayout method to assign nodes to custom protection domains.
+You can use the `SetProtectionDomainLayout` method to assign nodes to custom protection domains.
 
 Information must be provided for all active nodes in the cluster and no information can be provided for inactive nodes. All nodes in a given chassis must be assigned to the same custom protection domain. The same protectionDomainType must be supplied for all nodes. protectionDomainTypes that are not custom, such as node and chassis, should not be included. If either of these are provided, then the custom protection domains are ignored and an appropriate error is returned.
 
@@ -24,6 +24,7 @@ The method returns an error when used on storage clusters with these configurati
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -42,6 +43,7 @@ Yes
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

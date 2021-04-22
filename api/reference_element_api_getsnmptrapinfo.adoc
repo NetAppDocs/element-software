@@ -9,7 +9,7 @@ summary: 'You can use the GetSnmpTrapInfo method to get current SNMP trap config
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSnmpTrapInfo method to get current SNMP trap configuration information.
+You can use the `GetSnmpTrapInfo` method to get current SNMP trap configuration information.
 
 == Parameters
 

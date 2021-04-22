@@ -9,7 +9,7 @@ summary: 'The fault object contains information about faults that are detected i
 :imagesdir: ../media/
 
 [.lead]
-The fault object contains information about faults that are detected in the cluster. The ListClusterFaults method returns cluster fault information.
+The fault object contains information about faults that are detected in the cluster. The `ListClusterFaults` method returns cluster fault information.
 
 == Object members
 
@@ -121,7 +121,7 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 * xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
 * xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]

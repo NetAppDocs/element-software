@@ -9,7 +9,7 @@ summary: 'The drive object contains information about individual drives in the c
 :imagesdir: ../media/
 
 [.lead]
-The drive object contains information about individual drives in the cluster's active nodes. This object contains details on drives that have been added as volume metadata or block drives, as well as drives that have not yet been added and are available. You can retrieve this information with the ListDrives API method.
+The drive object contains information about individual drives in the cluster's active nodes. This object contains details on drives that have been added as volume metadata or block drives, as well as drives that have not yet been added and are available. You can retrieve this information with the `ListDrives` API method.
 
 == Object members
 
@@ -122,6 +122,6 @@ a|
 integer
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listdrives.adoc[ListDrives]

@@ -9,7 +9,7 @@ summary: 'You can use the DeleteSnapshot method to delete a snapshot.'
 :imagesdir: ../media/
 
 [.lead]
-You can use the DeleteSnapshot method to delete a snapshot.
+You can use the `DeleteSnapshot` method to delete a snapshot.
 
 A snapshot that is currently the active snapshot cannot be deleted. You must rollback and make another snapshot active before the current snapshot can be deleted.
 
@@ -76,6 +76,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_rollbacktosnapshot.adoc[RollbackToSnapshot]

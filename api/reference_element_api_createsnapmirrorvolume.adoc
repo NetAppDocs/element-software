@@ -9,7 +9,7 @@ summary: 'The Element web UI uses the CreateSnapMirrorVolume method to create a 
 :imagesdir: ../media/
 
 [.lead]
-The Element web UI uses the CreateSnapMirrorVolume method to create a volume on the remote ONTAP system.
+The Element web UI uses the `CreateSnapMirrorVolume` method to create a volume on the remote ONTAP system.
 
 == Parameters
 

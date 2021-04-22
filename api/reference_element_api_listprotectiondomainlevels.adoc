@@ -9,7 +9,7 @@ summary: 'You can use the ListProtectionDomainLevels method to list the toleranc
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListProtectionDomainLevels method to list the tolerance and resiliency levels of the storage cluster. Tolerance levels indicate the cluster's ability to continue reading and writing data in the event of a failure, and resiliency levels indicate the storage cluster's ability to automatically heal itself from one or more failures.
+You can use the `ListProtectionDomainLevels` method to list the tolerance and resiliency levels of the storage cluster. Tolerance levels indicate the cluster's ability to continue reading and writing data in the event of a failure, and resiliency levels indicate the storage cluster's ability to automatically heal itself from one or more failures.
 
 == Parameter
 

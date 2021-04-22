@@ -9,7 +9,7 @@ summary: 'You can use the GetConfig API method to get all configuration informat
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetConfig API method to get all configuration information for a node. This API method includes the same information available in both the GetClusterConfig and GetNetworkConfig API methods.
+You can use the `GetConfig` API method to get all configuration information for a node. This API method includes the same information available in both the `GetClusterConfig` and `GetNetworkConfig` API methods.
 
 == Parameters
 

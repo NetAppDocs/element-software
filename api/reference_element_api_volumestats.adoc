@@ -22,6 +22,7 @@ You can use the following methods to get volumeStats objects for some or all vol
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Calculation |Type
 a|

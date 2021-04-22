@@ -9,7 +9,7 @@ summary: 'You can use the GetProtectionDomainLayout method to return all protect
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetProtectionDomainLayout method to return all protection domain information for a cluster, including which chassis and which custom protection domain each node is in.
+You can use the `GetProtectionDomainLayout` method to return all protection domain information for a cluster, including which chassis and which custom protection domain each node is in.
 
 == Parameter
 

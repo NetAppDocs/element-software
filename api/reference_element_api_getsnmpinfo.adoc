@@ -9,7 +9,7 @@ summary: 'You can use the GetSnmpInfo method to get the current simple network m
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetSnmpInfo method to get the current simple network management protocol (SNMP) configuration information.
+You can use the `GetSnmpInfo` method to get the current simple network management protocol (SNMP) configuration information.
 
 == Parameters
 

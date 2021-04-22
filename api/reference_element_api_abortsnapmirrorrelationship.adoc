@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the AbortSnapMirrorRelationship metho
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the AbortSnapMirrorRelationship method to stop SnapMirror transfers that have started but are not yet complete.
+The Element software web UI uses the `AbortSnapMirrorRelationship` method to stop SnapMirror transfers that have started but are not yet complete.
 
 == Parameters
 

@@ -9,7 +9,7 @@ summary: 'You can use the GetLdapConfiguration method to get the currently activ
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetLdapConfiguration method to get the currently active LDAP configuration on the cluster.
+You can use the `GetLdapConfiguration` method to get the currently active LDAP configuration on the cluster.
 
 == Parameters
 

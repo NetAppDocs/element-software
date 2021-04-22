@@ -9,7 +9,7 @@ summary: 'The Element software web UI uses the ListSnapMirrorPolicies method to 
 :imagesdir: ../media/
 
 [.lead]
-The Element software web UI uses the ListSnapMirrorPolicies method to list all SnapMirror policies on a remote ONTAP system.
+The Element software web UI uses the `ListSnapMirrorPolicies` method to list all SnapMirror policies on a remote ONTAP system.
 
 == Parameter
 

@@ -15,6 +15,7 @@ The volume object contains configuration information about unpaired or paired vo
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -22,10 +23,10 @@ access
 a|
 The type of access allowed for the volume. Possible values:
 
-* readOnly: Only read operations are allowed.
-* readWrite: Reads and writes are allowed.
-* locked: No reads or writes are allowed.
-* replicationTarget: Designated as a target volume in a replicated volume pair.
+* `readOnly`: Only read operations are allowed.
+* `readWrite`: Reads and writes are allowed.
+* `locked`: No reads or writes are allowed.
+* `replicationTarget`: Designated as a target volume in a replicated volume pair.
 
 a|
 string

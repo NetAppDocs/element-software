@@ -9,7 +9,7 @@ summary: 'You can use the EnableSnmp method to enable SNMP on cluster nodes. Whe
 :imagesdir: ../media/
 
 [.lead]
-You can use the EnableSnmp method to enable SNMP on cluster nodes. When you enable SNMP, the action applies to all nodes in the cluster, and the values that are passed replace all values set in any previous call to EnableSnmp.
+You can use the `EnableSnmp` method to enable SNMP on cluster nodes. When you enable SNMP, the action applies to all nodes in the cluster, and the values that are passed replace all values set in any previous call to `EnableSnmp`.
 
 == Parameter
 

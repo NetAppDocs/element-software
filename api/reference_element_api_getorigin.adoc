@@ -9,7 +9,7 @@ summary: 'You can use the GetOrigin method to get the origination certificate fo
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetOrigin method to get the origination certificate for where the node was built.
+You can use the `GetOrigin` method to get the origination certificate for where the node was built.
 
 == Parameters
 

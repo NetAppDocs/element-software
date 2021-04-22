@@ -9,7 +9,7 @@ summary: 'You can use the GetDriveStats method to get high-level activity measur
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetDriveStats method to get high-level activity measurements for a single drive. Values are cumulative from the addition of the drive to the cluster. Some values are specific to block drives. Statistical data is returned for either block or metadata drive types when you run this method.
+You can use the `GetDriveStats` method to get high-level activity measurements for a single drive. Values are cumulative from the addition of the drive to the cluster. Some values are specific to block drives. Statistical data is returned for either block or metadata drive types when you run this method.
 
 == Parameter
 
@@ -124,6 +124,6 @@ This method returns a response similar to the following example for a volume met
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listdrives.adoc[ListDrives]

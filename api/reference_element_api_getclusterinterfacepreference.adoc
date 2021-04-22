@@ -9,7 +9,7 @@ summary: 'The GetClusterInterfacePreference method enables systems integrated wi
 :imagesdir: ../media/
 
 [.lead]
-The GetClusterInterfacePreference method enables systems integrated with storage clusters running Element software to get information about an existing cluster interface preference. This method is for internal use.
+The `GetClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to get information about an existing cluster interface preference. This method is for internal use.
 
 == Parameters
 

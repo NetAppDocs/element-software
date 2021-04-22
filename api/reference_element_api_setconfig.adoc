@@ -9,7 +9,7 @@ summary: 'You can use the SetConfig method to set the network and cluster inform
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetConfig method to set the network and cluster information for the node. This method includes the same settings in a single API method that are available using both SetClusterConfig and SetNetworkConfig methods. Only the fields you want changed need to be included with this method.
+You can use the `SetConfig` method to set the network and cluster information for the node. This method includes the same settings in a single API method that are available using both `SetClusterConfig` and `SetNetworkConfig` methods. Only the fields you want changed need to be included with this method.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 
@@ -21,6 +21,7 @@ Changing the bond-mode on a node can cause a temporary loss of network connectiv
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -49,6 +50,7 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

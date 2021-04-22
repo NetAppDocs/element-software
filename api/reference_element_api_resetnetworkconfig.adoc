@@ -9,7 +9,7 @@ summary: 'You can use the ResetNetworkConfig method to help resolve network conf
 :imagesdir: ../media/
 
 [.lead]
-You can use the ResetNetworkConfig method to help resolve network configuration issues for an individual node. This method resets an individual node's network configuration to the factory default settings.
+You can use the `ResetNetworkConfig` method to help resolve network configuration issues for an individual node. This method resets an individual node's network configuration to the factory default settings.
 
 NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
 

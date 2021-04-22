@@ -9,7 +9,7 @@ summary: 'You can use the ModifyAccount method to modify an existing account.'
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyAccount method to modify an existing account.
+You can use the `ModifyAccount` method to modify an existing account.
 
 When you lock an account, any existing connections from that account are immediately terminated. When you change an account's CHAP settings, any existing connections remain active, and the new CHAP settings are used on subsequent connections or reconnections. To clear an account's attributes, specify {} for the attributes parameter.
 
@@ -63,11 +63,10 @@ No
 a|
 status
 a|
-Status for the account:
+Status for the account. Possible values:
 
-active: Account is active and connections are allowed.
-
-locked: Account is locked and connections are refused.
+* active: Account is active and connections are allowed.
+* locked: Account is locked and connections are refused.
 
 a|
 string

@@ -9,7 +9,7 @@ summary: 'You can use the GetNodeStats method to retrieve the high-level activit
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetNodeStats method to retrieve the high-level activity measurements for a single node.
+You can use the `GetNodeStats` method to retrieve the high-level activity measurements for a single node.
 
 == Parameter
 

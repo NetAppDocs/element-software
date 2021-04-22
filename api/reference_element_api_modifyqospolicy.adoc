@@ -9,7 +9,7 @@ summary: 'You can use the ModifyQoSPolicy method to modify an existing QoS polic
 :imagesdir: ../media/
 
 [.lead]
-You can use the ModifyQoSPolicy method to modify an existing QoS policy on the system.
+You can use the `ModifyQoSPolicy` method to modify an existing QoS policy on the system.
 
 == Parameters
 

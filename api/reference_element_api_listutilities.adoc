@@ -9,7 +9,7 @@ summary: 'You can use the ListUtilities method to list the operations that are a
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListUtilities method to list the operations that are available to run on a node.
+You can use the `ListUtilities` method to list the operations that are available to run on a node.
 
 == Parameters
 

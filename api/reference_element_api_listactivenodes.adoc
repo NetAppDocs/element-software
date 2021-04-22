@@ -9,7 +9,7 @@ summary: 'You can use the ListActiveNodes method to return the list of currently
 :imagesdir: ../media/
 
 [.lead]
-You can use the ListActiveNodes method to return the list of currently active nodes that are in the cluster.
+You can use the `ListActiveNodes` method to return the list of currently active nodes that are in the cluster.
 
 == Parameters
 
@@ -50,6 +50,6 @@ Due to the length of this response example, it is documented in a supplementary 
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_response_example_listactivenodes.adoc[ListActiveNodes]

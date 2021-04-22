@@ -9,7 +9,7 @@ summary: 'You can use the GetLoginBanner method to get the currently active Term
 :imagesdir: ../media/
 
 [.lead]
-You can use the GetLoginBanner method to get the currently active Terms of Use banner that users see when they log in to the Element web interface.
+You can use the `GetLoginBanner` method to get the currently active Terms of Use banner that users see when they log in to the Element web interface.
 
 == Parameters
 

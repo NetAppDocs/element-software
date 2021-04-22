@@ -9,12 +9,13 @@ summary: 'The virtualVolume object contains configuration information about a vi
 :imagesdir: ../media/
 
 [.lead]
-The virtualVolume object contains configuration information about a virtual volume as well as information about snapshots of the virtual volume. It does not include runtime or usage information. You can use the ListVirtualVolumes method to retrieve this information for a cluster.
+The virtualVolume object contains configuration information about a virtual volume as well as information about snapshots of the virtual volume. It does not include runtime or usage information. You can use the `ListVirtualVolumes` method to retrieve this information for a cluster.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

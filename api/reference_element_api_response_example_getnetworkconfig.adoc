@@ -9,7 +9,7 @@ summary: 'The GetNetworkConfig method returns a response similar to the followin
 :imagesdir: ../media/
 
 [.lead]
-The GetNetworkConfig method returns a response similar to the following example.
+The `GetNetworkConfig` method returns a response similar to the following example.
 
 ----
 {

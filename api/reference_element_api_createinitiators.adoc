@@ -9,7 +9,7 @@ summary: 'You can use CreateInitiators to create multiple new initiator IQNs or 
 :imagesdir: ../media/
 
 [.lead]
-You can use CreateInitiators to create multiple new initiator IQNs or World Wide Port Names (WWPNs) and optionally assign them aliases and attributes. When you use CreateInitiators to create new initiators, you can also add them to volume access groups.
+You can use `CreateInitiators` to create multiple new initiator IQNs or World Wide Port Names (WWPNs) and optionally assign them aliases and attributes. When you use `CreateInitiators` to create new initiators, you can also add them to volume access groups.
 
 If the operation fails to create one of the initiators provided in the parameter, the method returns an error and does not create any initiators (no partial completion is possible).
 
@@ -25,15 +25,15 @@ initiators
 a|
 A list of objects containing characteristics of each new initiator. Objects:
 
-* alias: (Optional) The friendly name to assign to this initiator. (string)
-* attributes: (Optional) A set of JSON attributes to assign to this initiator. (JSON object)
-* chapUsername: (Optional) The unique CHAP username for this initiator. Defaults to the initiator name (IQN) if not specified during creation and requireChap is true. (string)
-* initiatorSecret: (Optional) The CHAP secret used to authenticate the initiator. Defaults to a randomly generated secret if not specified during creation and requireChap is true. (string)
-* name: (Required) The name of the initiator (IQN or WWPN) to create. (string)
-* requireChap: (Optional) True if CHAP is required during session login for this initiator. (boolean)
-* targetSecret: (Optional) The CHAP secret used to authenticate the target (when using mutual CHAP authentication). Defaults to a randomly generated secret if not specified during creation and requireChap is true. (string)
-* virtualNetworkIDs: (Optional) The list of virtual network identifiers associated with this initiator. If you define one or more virtual networks, this initiator is only able to login to those virtual networks. If you don't define any virtual networks, this initiator can login to all networks.
-* volumeAccessGroupID: (Optional) The ID of the volume access group to which this newly created initiator will be added. (integer)
+* `alias`: (Optional) The friendly name to assign to this initiator. (string)
+* `attributes`: (Optional) A set of JSON attributes to assign to this initiator. (JSON object)
+* `chapUsername`: (Optional) The unique CHAP username for this initiator. Defaults to the initiator name (IQN) if not specified during creation and requireChap is true. (string)
+* `initiatorSecret`: (Optional) The CHAP secret used to authenticate the initiator. Defaults to a randomly generated secret if not specified during creation and requireChap is true. (string)
+* `name`: (Required) The name of the initiator (IQN or WWPN) to create. (string)
+* `requireChap`: (Optional) True if CHAP is required during session login for this initiator. (boolean)
+* `targetSecret`: (Optional) The CHAP secret used to authenticate the target (when using mutual CHAP authentication). Defaults to a randomly generated secret if not specified during creation and requireChap is true. (string)
+* `virtualNetworkIDs`: (Optional) The list of virtual network identifiers associated with this initiator. If you define one or more virtual networks, this initiator is only able to login to those virtual networks. If you don't define any virtual networks, this initiator can login to all networks.
+* `volumeAccessGroupID`: (Optional) The ID of the volume access group to which this newly created initiator will be added. (integer)
 
 a|
 JSON object array
@@ -124,6 +124,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listinitiators.adoc[ListInitiators]

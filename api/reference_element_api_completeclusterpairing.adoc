@@ -9,7 +9,7 @@ summary: 'The CompleteClusterPairing method is the second step in the cluster pa
 :imagesdir: ../media/
 
 [.lead]
-The CompleteClusterPairing method is the second step in the cluster pairing process. Use this method with the encoded key received from the StartClusterPairing method to complete the cluster pairing process.
+The `CompleteClusterPairing` method is the second step in the cluster pairing process. Use this method with the encoded key received from the `StartClusterPairing` method to complete the cluster pairing process.
 
 == Parameters
 
@@ -75,6 +75,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_startclusterpairing.adoc[StartClusterPairing]

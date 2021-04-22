@@ -9,12 +9,13 @@ summary: 'The snapshot object contains information about a snapshot made for a v
 :imagesdir: ../media/
 
 [.lead]
-The snapshot object contains information about a snapshot made for a volume. You can use the ListSnapshots API method to retrieve a list of snapshot information for a volume or for all volumes. The object includes information about the active snapshot as well as each snapshot created for a volume.
+The snapshot object contains information about a snapshot made for a volume. You can use the `ListSnapshots` API method to retrieve a list of snapshot information for a volume or for all volumes. The object includes information about the active snapshot as well as each snapshot created for a volume.
 
 == Object members
 
 This object contains the following members:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|
@@ -154,6 +155,6 @@ string
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listsnapshots.adoc[ListSnapshots]

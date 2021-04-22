@@ -9,9 +9,9 @@ summary: 'You can use the CloneVolume method to create a copy of a volume. This 
 :imagesdir: ../media/
 
 [.lead]
-You can use the CloneVolume method to create a copy of a volume. This method is asynchronous and might take a variable amount of time to complete.
+You can use the `CloneVolume` method to create a copy of a volume. This method is asynchronous and might take a variable amount of time to complete.
 
-The cloning process begins immediately when you make the CloneVolume request and is representative of the state of the volume when the API method is issued. You can use the xref:reference_element_api_getasyncresult.adoc[GetAsyncResult] method to determine when the cloning process is complete and the new volume is available for connections. You can use xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs] to see the progress of creating the clone. The initial attributes and quality of service settings for the volume are inherited from the volume being cloned. You can change these settings with xref:reference_element_api_modifyvolume.adoc[ModifyVolume].
+The cloning process begins immediately when you make the `CloneVolume` request and is representative of the state of the volume when the API method is issued. You can use the xref:reference_element_api_getasyncresult.adoc[GetAsyncResult] method to determine when the cloning process is complete and the new volume is available for connections. You can use xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs] to see the progress of creating the clone. The initial attributes and quality of service settings for the volume are inherited from the volume being cloned. You can change these settings with xref:reference_element_api_modifyvolume.adoc[ModifyVolume].
 
 NOTE: Cloned volumes do not inherit volume access group membership from the source volume.
 
@@ -27,10 +27,10 @@ access
 a|
 Access allowed for the new volume. If a value is not specified, the access value does not change. Possible values:
 
-* readOnly: (Optional) Only read operations are allowed.
-* readWrite: (Optional) Reads and writes are allowed.
-* locked: (Optional) No reads or writes are allowed. If not specified, the access value of the volume being cloned is used.
-* replicationTarget: (Optional) Identify a volume as the target volume for a paired set of volumes. If the volume is not paired, the access status is locked.
+* `readOnly`: (Optional) Only read operations are allowed.
+* `readWrite`: (Optional) Reads and writes are allowed.
+* `locked`: (Optional) No reads or writes are allowed. If not specified, the access value of the volume being cloned is used.
+* `replicationTarget`: (Optional) Identify a volume as the target volume for a paired set of volumes. If the volume is not paired, the access status is locked.
 
 a|
 string

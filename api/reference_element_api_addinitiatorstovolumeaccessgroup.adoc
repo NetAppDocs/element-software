@@ -9,7 +9,7 @@ summary: 'You can use the AddInitiatorsToVolumeAccessGroup method to add initiat
 :imagesdir: ../media/
 
 [.lead]
-You can use the AddInitiatorsToVolumeAccessGroup method to add initiators to a specified volume access group.
+You can use the `AddInitiatorsToVolumeAccessGroup` method to add initiators to a specified volume access group.
 
 The accepted format of an initiator IQN is iqn.yyyy-mm, where y and m are digits, followed by text which must only contain digits, lower-case alphabetic characters, a period (.), colon (:) or dash (-). See the following example:
 

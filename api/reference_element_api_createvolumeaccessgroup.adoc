@@ -9,7 +9,7 @@ summary: 'You can use CreateVolumeAccessGroup to create a new volume access grou
 :imagesdir: ../media/
 
 [.lead]
-You can use CreateVolumeAccessGroup to create a new volume access group. When you create the volume access group, you need to give it a name, and you can optionally enter initiators and volumes.
+You can use `CreateVolumeAccessGroup` to create a new volume access group. When you create the volume access group, you need to give it a name, and you can optionally enter initiators and volumes.
 
 Any initiator IQN that you add to the volume access group is able to access any volume in the group without CHAP authentication.
 

@@ -9,7 +9,7 @@ summary: 'You can use the CreatePublicPrivateKeyPair method to create public and
 :imagesdir: ../media/
 
 [.lead]
-You can use the CreatePublicPrivateKeyPair method to create public and private SSL keys. You can use these keys to generate certificate signing requests. There can only be one key pair in use for each storage cluster. Before using this method to replacing existing keys, ensure the keys are no longer in use by any providers.
+You can use the `CreatePublicPrivateKeyPair` method to create public and private SSL keys. You can use these keys to generate certificate signing requests. There can only be one key pair in use for each storage cluster. Before using this method to replacing existing keys, ensure the keys are no longer in use by any providers.
 
 == Parameters
 

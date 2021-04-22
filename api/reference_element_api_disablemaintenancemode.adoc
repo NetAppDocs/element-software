@@ -9,7 +9,7 @@ summary: 'You can use the DisableMaintenanceMode method to take a storage node o
 :imagesdir: ../media/
 
 [.lead]
-You can use the DisableMaintenanceMode method to take a storage node out of maintenance mode. You should only disable maintenance mode after you have completed maintenance and the node is online.
+You can use the `DisableMaintenanceMode` method to take a storage node out of maintenance mode. You should only disable maintenance mode after you have completed maintenance and the node is online.
 
 == Parameters
 
@@ -106,6 +106,6 @@ This method returns a response similar to the following example:
 
 12.2
 
-== Find more information 
+== Find more information
 
 http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html[NetApp HCI storage maintenance mode concepts]

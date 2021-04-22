@@ -9,12 +9,13 @@ summary: 'You can use the SetLldpConfig method to configure the Link Layer Disco
 :imagesdir: ../media/
 
 [.lead]
-You can use the SetLldpConfig method to configure the Link Layer Discovery Protocol (LLDP) settings for a storage cluster.
+You can use the `SetLldpConfig` method to configure the Link Layer Discovery Protocol (LLDP) settings for a storage cluster.
 
 == Parameters
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -53,6 +54,7 @@ No
 
 This method has the following return value:
 
+[options="header"]
 |===
 |Name |Description |Type
 a|

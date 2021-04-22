@@ -9,7 +9,7 @@ summary: 'The host object contains information about a virtual volume host. You 
 :imagesdir: ../media/
 
 [.lead]
-The host object contains information about a virtual volume host. You can use the ListVirtualVolumeHosts method to get this information for all virtual volume hosts.
+The host object contains information about a virtual volume host. You can use the `ListVirtualVolumeHosts` method to get this information for all virtual volume hosts.
 
 == Object members
 
@@ -57,6 +57,6 @@ UUID array
 |===
 
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listvirtualvolumehosts.adoc[ListVirtualVolumeHosts]

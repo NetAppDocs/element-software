@@ -9,7 +9,7 @@ summary: 'The TestHardwareConfig method returns a response similar to the follow
 :imagesdir: ../media/
 
 [.lead]
-The TestHardwareConfig method returns a response similar to the following example.
+The `TestHardwareConfig` method returns a response similar to the following example.
 
 ----
 {

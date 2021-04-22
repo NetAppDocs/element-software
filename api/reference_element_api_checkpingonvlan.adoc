@@ -9,7 +9,7 @@ summary: 'You can use the CheckPingOnVlan method to test network connectivity on
 :imagesdir: ../media/
 
 [.lead]
-You can use the CheckPingOnVlan method to test network connectivity on a temporary VLAN when performing pre-deployment network validation. CheckPingOnVlan creates a temporary VLAN interface, sends ICMP packets to all nodes in the storage cluster using the VLAN interface, and then removes the interface.
+You can use the `CheckPingOnVlan` method to test network connectivity on a temporary VLAN when performing pre-deployment network validation. `CheckPingOnVlan` creates a temporary VLAN interface, sends ICMP packets to all nodes in the storage cluster using the VLAN interface, and then removes the interface.
 
 == Parameters
 

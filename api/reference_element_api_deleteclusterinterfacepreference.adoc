@@ -9,7 +9,7 @@ summary: 'The DeleteClusterInterfacePreference method enables systems integrated
 :imagesdir: ../media/
 
 [.lead]
-The DeleteClusterInterfacePreference method enables systems integrated with storage clusters running Element software to delete an existing cluster interface preference. This method is for internal use.
+The `DeleteClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to delete an existing cluster interface preference. This method is for internal use.
 
 == Parameters
 
