@@ -34,10 +34,7 @@ NOTE: All other Element software limitations apply. See the latest Element softw
 
 * 240-GB total capacity (The size and number of virtual disks for the VM cannot be changed. Any additional storage presented via the hypervisor is ignored by the guest OS.)
 * 60 GB root disk
-* One 30-GB metadata drive, thick provisioned/eager zeroed
-* Three 50-GB block drives, thick provisioned/eager zeroed
-* One 30-GB metadata drive, thin provisioned/eager zeroed (recommended)
-* Three 50-GB block drives, thin provisioned/eager zeroed (recommended)
+* Thick provisioned/eager zeroed (one 30-GB metadata drive or three 50-GB block drives) or  thin provisioned/eager zeroed (*recommended*) (one 30-GB metadata drive or three 50-GB block drives)
 * Two vCPU (fully reserved)
 * 16-GB RAM (fully reserved)
 * Single HBA for all disks, LSI Logic parallel
