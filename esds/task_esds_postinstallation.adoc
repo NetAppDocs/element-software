@@ -161,7 +161,9 @@ IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS 
 ... Select the checkboxes for the nodes. The SolidFire eSDS nodes will be displayed as SFc100.
 ... Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number.
 +
-NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created.
+NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.  
++
+NOTE: You cannot change the initial cluster administrator user name.
 +
 IMPORTANT: If you do not specify the order number and serial number, the create cluster operation will fail.
 +
