@@ -72,7 +72,7 @@ a|
 NOTE: The `/dev/sdb` disk is not used by any process.
 
 ** Disable RAID for /boot.
-** On the Software Selection screen, where you select specific packages to install, select *Infrastructure Server*.
+** On the Software Selection screen, where you select specific packages to install, select *Server* or *Infrastructure Server* based on your RHEL version.
 ** After the first boot, do the following:
 *** Install Red Hat Subscription Manager, and enable the following repositories:
 +

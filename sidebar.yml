@@ -56,6 +56,9 @@ entries:
     url: /storage/reference_prereq_network_port_requirements.html
 - title: Try it out
   url: /try/task_try_overview.html
+  entries:
+  - title: Try storage features using Element Demo Node
+    url: /try/task_use_demonode.html  
 - title: Install and maintain hardware
   url: /hardware/index.html
   entries:
