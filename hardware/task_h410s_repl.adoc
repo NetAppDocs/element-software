@@ -141,7 +141,7 @@ You must package the node and return it to NetApp.
 +
 IMPORTANT: Ensure that you do not use excessive force when sliding the node into the chassis.
 
-. Move the drives from the node you removed and insert them in the new node. <Verify this step with Ed/Bill.>
+. Move the drives from the node you removed and insert them in the new node.
 . Reconnect the cables to the ports from which you originally disconnected them.
 +
 The labels you had on the cables when you disconnected them will help guide you.
