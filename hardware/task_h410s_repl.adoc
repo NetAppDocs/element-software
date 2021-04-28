@@ -19,7 +19,7 @@ image::hci_stornode_rear.gif[This figure shows the four-node chassis with four s
 
 Here is the front view of a four-node chassis with H410S nodes, showing the bays that correspond to each node:
 
-image::hci_stornode_ssd_bays.gif[Shows the bays associated with each node in a four-node chassis with H410S nodes.]
+image::hci_stor_node_ssd_bays.gif[Shows the bays associated with each node in a four-node chassis with H410S nodes.]
 
 .What you'll need
 
