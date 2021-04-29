@@ -19,7 +19,7 @@ image::hci_stornode_rear.gif[This figure shows the four-node chassis with four s
 
 Here is the front view of a four-node chassis with H410S nodes, showing the bays that correspond to each node:
 
-image::hci_stornode_ssd_bays.gif[Shows the bays associated with each node in a four-node chassis with H410S nodes.]
+image::hci_stor_node_ssd_bays.gif[Shows the bays associated with each node in a four-node chassis with H410S nodes.]
 
 .What you'll need
 
@@ -141,7 +141,7 @@ You must package the node and return it to NetApp.
 +
 IMPORTANT: Ensure that you do not use excessive force when sliding the node into the chassis.
 
-. Move the drives from the node you removed and insert them in the new node. <Verify this step with Ed/Bill.>
+. Move the drives from the node you removed and insert them in the new node.
 . Reconnect the cables to the ports from which you originally disconnected them.
 +
 The labels you had on the cables when you disconnected them will help guide you.
