@@ -11,6 +11,8 @@ summary: If you need to take a storage node offline for maintenance such as soft
 [.lead]
 If you need to take a storage node offline for maintenance such as software upgrades or host repairs, you can minimize the I/O impact to the rest of the storage cluster by enabling maintenance mode for that node.
 
+TIP: If you want to verify the current status of maintenance mode on your node, use the link:../api/reference_element_api_listactivenodes.html[`ListActiveNodes`^] API method. The node object includes a `maintenanceMode` parameter, which indicates the current status of maintenance mode on the node.
+
 NOTE: Ensure that you do the maintenance as soon as maintenance mode is enabled. Do not leave the node in maintenance mode any more than necessary.
 
 You can transition a storage node to maintenance mode only if the node is healthy (has no blocking cluster faults) and the storage cluster is tolerant to a single node failure. After you enable maintenance mode for a healthy and tolerant node, the node is not immediately transitioned; it is monitored until the following conditions are true:
