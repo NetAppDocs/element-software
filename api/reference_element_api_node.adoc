@@ -66,6 +66,11 @@ a|
 The target group associated with this node. "null" if the node is not a Fibre Channel node.
 a|
 integer
+a| maintenanceMode
+a|
+Indicates which mode a node is in for maintenance.
+a|
+n/a
 a|
 mip
 a|
