@@ -61,7 +61,12 @@ Due to the length of the returned response for this API method, portions of the 
               "uniqueSensorID": "7.1:0x72"
             },
             {
-              "assertionsEnabled": [ "General Chassis intrusion" ], "deassertionsEnabled": [ "General Chassis intrusion" ], "entityID": "7.1 (System Board)", "sensorID": "0x73", "sensorName": "Intrusion", "sensorType": "Physical Security", "uniqueSensorID": "7.1:0x73"
+              "assertionsEnabled": [ "General Chassis intrusion" ],
+              "deassertionsEnabled": [ "General Chassis intrusion" ],
+              "entityID": "7.1 (System Board)", "sensorID": "0x73",
+              "sensorName": "Intrusion",
+              "sensorType": "Physical Security",
+              "uniqueSensorID": "7.1:0x73"
             },
             {THIS ENTIRE SECTION IS REPEATED FOR EACH FAN IN THE SYSTEM
               "assertionEvents": [],
