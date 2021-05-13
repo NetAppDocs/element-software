@@ -21,13 +21,13 @@ This method has the following input parameter:
 a|
 timeout
 a|
-Cluster authentication expiration period. Formatted in HH:mm:ss. For example: 01:30:00, 00:90:00, and 00:00:5400 can all be used to equal a 90 minute timeout period.
+Cluster authentication expiration period. Formatted in HH:mm:ss. For example: 01:30:00, 00:90:00, and 00:00:5400 can all be used to equal a 90 minute timeout period. The minimum timeout value is 1 minute. When a value is not provided, or is set to zero, the login session has no timeout value.
 a|
 string
 a|
 30 minutes
 a|
-Yes
+No
 |===
 
 == Return value
