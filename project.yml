@@ -23,7 +23,7 @@ sidebar:
     - section: setup
     - section: storage
     - section: api
-    - title: Manage storage with the Element Plug-in for vCenter Server
+    - title: Manage storage with the Element Plug-in for vCenter Server (link)
       url: https://docs.netapp.com/us-en/vcp/
     - title: Work with the management node
       url: /storage/concept_mnode_work_with_the_management_node.html
@@ -39,66 +39,50 @@ homepage:
     - title: Get started
       links:
         - title: Product overview
-          summary: Get an overview of the SolidFire all-flash storage system before you get started.
           url: /concepts/concept_intro_product_overview.html
         - title: Release notes
-          summary: Find links to release notes for Element software, management services, Element Plug-in for vCenter Server, and other components.
           url: /concepts/concept_rn_relatedrn_element.html
         - title: What's new
-          summary: Read about the latest features in improvements for the SolidFire all-flash system.
           url: /concepts/concept_rn_whats_new_element.html
         - title: Requirements
-          summary: Learn about prerequisites for setting up your system.
           url: /setup/concept_requirements_overview.html
         - title: Setup overview
-          summary: Understand and perform the sequence to set up NetApp Element software.
           url: /setup/concept_setup_overview.html
-    - title: Install & Maintain hardware
+    - title: Install & maintain hardware
       links:
         - title: H410S and H610S hardware information
-          summary: Find information about installing and maintaining H-series storage nodes.
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
-          summary: Find information about installing and maintaining SF-series storage nodes.
           url: /hardware/concept_sfseries_info.html
-    - title: Manage Storage
+    - title: Manage storage
       links:
         - title: Use Element software UI
-          summary: Set up and manage Element storage clusters using the UI.
           url: /storage/index.html
         - title: Use Element software API
-          summary: Set up and manage Element storage clusters using API.
           url: /api/index.html
         - title: Use Element Plug-in for vCenter Server
-          summary: Use a vSphere plug-in interface to manage storage clusters running NetApp Element software.
           url: https://docs.netapp.com/us-en/vcp/
         - title: Work with the management node
-          summary: Use the management node (mNode) to upgrade and manage system management services.
           url: /storage/concept_mnode_work_with_the_management_node.html
     - title: Install and use SolidFire Enterprise SDS
       links:
-        - title: Overview
-          summary: Get an overview of the SolidFire Enterprise SDS before you get started.
-          url: /esds/index.html
-        - title: Get started
-          summary: Get started quickly with SolidFire Enterprise SDS.
+        - title: SolidFire eSDS overview
           url: /esds/concept_get_started_esds.html
+        - title: Quick start
+          url: https://review.docs.netapp.com/us-en/element-software_element_tile_restructure_doc-3473/media/SDS_Quick_Start_Guide.pdf
         - title: Requirements for installation
-          summary: Learn about prerequisites for you install SolidFire eSDS.
           url: /esds/concept_esds_prerequisite_tasks.html
         - title: Manage storage
-          summary: Use the Element UI, Element APIs, or other integration tools to manage your storage clusters.
           url: /esds/reference_esds_element_links.html
         - title: Maintain SolidFire eSDS
-          summary: Learn about maintenance mode and replacing drives in your SolidFire eSDS clusters.
           url: /esds/concept_esds_maintain.html
-    - title: Use integration tools
+    - title: Use integration tools (login required)
       links:
         - title: Element CLI
           url: https://mysupport.netapp.com/site/tools/tool-eula/elem-cli
         - title: Element PowerShell Tools
           url: https://mysupport.netapp.com/site/tools/tool-eula/elem-powershell-tools
-        - title: Element SDKs
+        - title: Element SDKs (Java, .NET, Python)
           url: https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-elementsoftware/tools-tab
         - title: SolidFire Postman API testing suite
           url: https://github.com/solidfire/postman
@@ -111,15 +95,14 @@ homepage:
     - title: Solutions
       links:
         - title: SolidFire resources
-          summary: Learn about particular environments with videos, technical reports, and more.
           url: https://www.netapp.com/data-storage/solidfire/documentation/
     - title: Demos & tutorials
       links:
         - title: NetApp University SolidFire training (login required)
           url: https://netapp.sabacloud.com/Saba/Web_spf/NA1PRD0047/common/searchresults/solidfire/LEARNINGEVENT%2COFFERINGTEMPLATE%2CCERTIFICATION%2CCURRICULUM%2COFFERING%2CPACKAGE
-        - title: How to Install and Scale Your NetApp Solidfire Cluster (video)
+        - title: How to install and scale your NetApp Solidfire cluster (video)
           url: http://tv.netapp.com/detail/video/5778540099001?autoStart=true&page=1&q=solidfire
-        - title: NetApp SolidFire Installation (video)
+        - title: NetApp SolidFire installation (video)
           url: https://youtu.be/YKGK5nNSL68
     - title: Blogs & community
       links:

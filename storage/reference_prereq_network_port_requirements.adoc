@@ -84,7 +84,7 @@ UI and API access to storage node and Element software upgrades
 a|
 Management node
 a|
-Storage node MVIP
+Storage cluster MVIP
 a|
 442
 a|
@@ -94,8 +94,8 @@ Management node
 a|
 Online software repository:
 
-* https://repo.netapp.com/bintray/api/package
-* https://netapp-downloads.bintray.com
+* `https://repo.netapp.com/bintray/api/package`
+* `https://netapp-downloads.bintray.com`
 
 a|
 443
@@ -205,6 +205,14 @@ a|
 389 TCP/UDP
 a|
 (Optional) LDAP lookup
+a|
+Storage node MIP
+a|
+Management node
+a|
+443
+a|
+Element storage firmware upgrades
 a|
 Storage node MIP
 a|
