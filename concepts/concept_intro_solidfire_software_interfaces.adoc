@@ -46,14 +46,15 @@ The management node contains two UIs: a UI for managing REST-based services and 
 
 Although you typically manage your storage with NetApp Element, NetApp Element API, and NetApp Element Plug-in for vCenter Server, you can use additional integration utilities and tools to access storage.
 
-=== SolidFire vRO
-https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-tab[SolidFire vRO^] provides a convenient way to use the Element API to administer your SolidFire storage system with VMware vRealize Orchestrator.
+=== Element CLI
+https://mysupport.netapp.com/site/tools/tool-eula/elem-cli[Element CLI^] enables you to control a SolidFire storage system using a command-line interface without having to use the Element API.
+
+=== Element PowerShell Tools
+https://mysupport.netapp.com/site/tools/tool-eula/elem-powershell-tools[Element PowerShell Tools^] enable you to use a collection of Microsoft Windows﻿ PowerShell functions that use the Element API to manage a SolidFire storage system.
 
 === Element SDKs
 https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-elementsoftware/tools-tab[Element SDKs^] enable you to manage your SolidFire cluster using these tools:
 
-* Element CLI: Enables you to control a SolidFire storage system using a command-line interface without having to use the Element API.
-* Element PowerShell Tools: Enables you to use a collection of Microsoft Windows﻿ PowerShell functions that use the Element API to manage a SolidFire storage system.
 * Element Java SDK: Enables programmers to integrate the Element API with the Java programming language.
 * Element .NET SDK: Enables programmers to integrate the Element API with the .NET programming platform.
 * Element Python SDK: Enables programmers to integrate the Element API with the Python programming language.
@@ -63,6 +64,9 @@ Enables programmers to use a collection of link:https://github.com/solidfire/pos
 
 === SolidFire Storage Replication Adapter
 https://mysupport.netapp.com/site/products/all/details/elementsra/downloads-tab[SolidFire Storage Replication Adapter^] integrates with the VMware Site Recovery Manager (SRM) to enable communication with replicated SolidFire storage clusters and execute supported workflows.
+
+=== SolidFire vRO
+https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-tab[SolidFire vRO^] provides a convenient way to use the Element API to administer your SolidFire storage system with VMware vRealize Orchestrator.
 
 === SolidFire VSS Provider
 https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/downloads-tab[SolidFire VSS Provider^] integrates VSS shadow copies with Element snapshots and clones.
