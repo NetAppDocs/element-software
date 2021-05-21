@@ -23,7 +23,7 @@ sidebar:
     - section: setup
     - section: storage
     - section: api
-    - title: Manage storage with the Element Plug-in for vCenter Server^
+    - title: Manage storage with the Element Plug-in for vCenter Server (link)
       url: https://docs.netapp.com/us-en/vcp/
     - title: Work with the management node
       url: /storage/concept_mnode_work_with_the_management_node.html
@@ -68,7 +68,7 @@ homepage:
       links:
         - title: SolidFire eSDS overview
           url: /esds/concept_get_started_esds.html
-        - title: Quick start^
+        - title: Quick start
           url: https://review.docs.netapp.com/us-en/element-software_element_tile_restructure_doc-3473/media/SDS_Quick_Start_Guide.pdf
         - title: Requirements for installation
           url: /esds/concept_esds_prerequisite_tasks.html
@@ -78,25 +78,25 @@ homepage:
           url: /esds/concept_esds_maintain.html
     - title: Use integration tools (login required)
       links:
-        - title: Element CLI^
+        - title: Element CLI
           url: https://mysupport.netapp.com/site/tools/tool-eula/elem-cli
-        - title: Element PowerShell Tools^
+        - title: Element PowerShell Tools
           url: https://mysupport.netapp.com/site/tools/tool-eula/elem-powershell-tools
-        - title: Element SDKs (Java, .NET, Python)^
+        - title: Element SDKs (Java, .NET, Python)
           url: https://mysupport.netapp.com/site/products/all/details/netapphci-solidfire-elementsoftware/tools-tab
-        - title: SolidFire Postman API testing suite^
+        - title: SolidFire Postman API testing suite
           url: https://github.com/solidfire/postman
-        - title: SolidFire Storage Replication Adapter^
+        - title: SolidFire Storage Replication Adapter
           url: https://mysupport.netapp.com/site/products/all/details/elementsra/downloads-tab
-        - title: SolidFire vRO^
+        - title: SolidFire vRO
           url: https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-tab
-        - title: SolidFire VSS Provider^
+        - title: SolidFire VSS Provider
           url: https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/downloads-tab
     - title: Solutions
       links:
-        - title: SolidFire Resources page^
+        - title: SolidFire Resources page
           url: https://www.netapp.com/data-storage/solidfire/documentation/
-        - title: NetApp Solutions^
+        - title: NetApp Solutions
           url: https://docs.netapp.com/us-en/netapp-solutions/index.html
     - title: Demos & tutorials
       links:
