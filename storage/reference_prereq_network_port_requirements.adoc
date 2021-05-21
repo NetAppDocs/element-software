@@ -134,6 +134,14 @@ a|
 a|
 Per-node configuration API service
 a|
+Management node
+a|
+vCenter Server
+a|
+9443
+a|
+vCenter Plug-in registration. The port can be closed after registration is complete.
+a|
 SNMP server
 a|
 Storage cluster MVIP
@@ -242,10 +250,9 @@ Storage node MIP
 a|
 Management node
 a|
-10514 TCP/UDP
-
 514 TCP/UDP
 
+10514 TCP/UDP
 a|
 Syslog forwarding
 a|
@@ -253,10 +260,9 @@ Storage node MIP
 a|
 Syslog server
 a|
-10514 TCP/UDP
-
 514 TCP/UDP
 
+10514 TCP/UDP
 a|
 Syslog forwarding
 a|
@@ -316,22 +322,6 @@ a|
 a|
 Remote replication node-to-node data transfer
 a|
-Storage node SIP
-a|
-Compute node SIP
-a|
-442
-a|
-Compute node API, configuration and validation, and access to software inventory
-a|
-System administrator PC
-a|
-Storage node MIP
-a|
-80
-a|
-(NetApp HCI only) Landing page of NetApp Deployment Engine
-a|
 System administrator PC
 a|
 Management node
@@ -347,8 +337,6 @@ a|
 442
 a|
 HTTPS UI and API access to storage node
-a|
-(NetApp HCI only) Configuration and deployment monitoring in NetApp Deployment Engine
 a|
 System administrator PC
 a|
@@ -374,14 +362,6 @@ a|
 a|
 HTTPS storage cluster creation, post-deployment UI access to storage cluster
 a|
-vCenter Server
-a|
-Storage cluster MVIP
-a|
-443
-a|
-vCenter Plug-in API access
-a|
 System administrator PC
 a|
 Witness Node
@@ -389,6 +369,14 @@ a|
 8080
 a|
 Witness Node per-node web UI
+a|
+vCenter Server
+a|
+Storage cluster MVIP
+a|
+443
+a|
+vCenter Plug-in API access
 a|
 vCenter Server
 a|
