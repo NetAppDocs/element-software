@@ -9,4 +9,4 @@ summary: Each chassis includes two power supply units for power redundancy. If a
 :imagesdir: ../media/
 
 [.lead]
-include::_include/task_hseries_psurepl.adoc[]
+include::../_include/task_hseries_psurepl.adoc[]
