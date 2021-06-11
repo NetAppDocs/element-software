@@ -11,6 +11,8 @@ summary: You can “reset” a node on which you installed SolidFire eSDS by rem
 [.lead]
 You can *reset* a node on which you installed SolidFire eSDS by removing SolidFire eSDS on the node. To reinstate SolidFire eSDS on the node, you should perform all the installation steps.
 
+NOTE: You can use the link:https://github.com/NetApp-Automation/nar_solidfire_sds_uninstall[`nar_solidfire_sds_uninstall`^] Ansible role provided by NetApp to perform the operation. If you want to manually remove SolidFire eSDS on the node, see the steps below.
+
 .Steps
 
 . Remove drives from the cluster by using the Element UI or the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_removedrives.html[`RemoveDrives`^] API method.
