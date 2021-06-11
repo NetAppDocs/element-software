@@ -151,6 +151,8 @@ This method returns a response similar to the following example:
 
 After you configure the cluster name on each SolidFire eSDS storage node, you can create a cluster using either the per-node UI or the Element API.
 
+NOTE: You can use the link:https://github.com/NetApp-Automation/nar_solidfire_cluster_config[`nar_solidfire_cluster_config`^] Ansible role provided by NetApp to create a cluster. If you want to manually create the cluster, see the steps outlined below.
+
 IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS clusters. If you want to change the default, you should do so when you create the cluster by using the `CreateCluster` API method.
 
 .Steps
@@ -161,7 +163,7 @@ IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS 
 ... Select the checkboxes for the nodes. The SolidFire eSDS nodes will be displayed as SFc100.
 ... Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number.
 +
-NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.  
+NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.
 +
 NOTE: You cannot change the initial cluster administrator user name.
 +
