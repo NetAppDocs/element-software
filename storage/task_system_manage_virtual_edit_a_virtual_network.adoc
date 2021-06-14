@@ -22,12 +22,12 @@ When managing the size of VLAN IP address ranges, you should note the following 
 
 You can add an IP address block by using the following procedure:
 
-. Click *Cluster* > *Network*.
-. Click the Actions icon for the VLAN you want to edit.
-. Click *Edit*.
+. Select *Cluster* > *Network*.
+. Select the Actions icon for the VLAN you want to edit.
+. Select *Edit*.
 . In the *Edit VLAN* dialog box, enter the new attributes for the VLAN.
-. Click *Add a Block* to add a non-continuous block of IP addresses for the virtual network.
-. Click *Save Changes*.
+. Select *Add a Block* to add a non-continuous block of IP addresses for the virtual network.
+. Select *Save Changes*.
 
 .Link to troubleshooting KB articles
 Link to the Knowledge Base articles for help with troubleshooting issues with managing your VLAN IP address ranges.
