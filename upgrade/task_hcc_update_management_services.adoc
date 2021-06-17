@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: upgrade/task_hcc_update_management_services.html
-summary: As part of a NetApp HCI or SolidFire storage system upgrade, you should update management services.
-keywords: netapp, hci, on premise, cluster, management services
+summary: As part of a NetApp SolidFire storage system upgrade, you should update management services.
+keywords: netapp, solidfire, on premise, cluster, management services
 ---
 
 = Update management services
@@ -59,7 +59,7 @@ NOTE: For a list of available services for each service bundle version, see the 
 +
 The Management Services tab shows the current and available versions of management services software.
 +
-NOTE: If your installation cannot access the internet, only the current software version is shown. [.line-through]#If you have external connectivity but NetApp HCI is unable to access the NetApp online repository, check your link:task_mnode_configure_proxy_server.html[proxy configuration^].
+NOTE: If your installation cannot access the internet, only the current software version is shown. [.line-through]#If you have external connectivity but NetApp HCI is unable to access the NetApp online repository, check your link:task_mnode_configure_proxy_server.html[proxy configuration^].#
 
 . If your installation can access the internet and if a management services upgrade is available, click *Begin Upgrade*.
 . If your installation cannot access the internet, do the following:
@@ -147,4 +147,3 @@ A successful update returns a result similar to the following example:
 == Find more information
 
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
