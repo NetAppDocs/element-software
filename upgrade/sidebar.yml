@@ -1,6 +1,5 @@
 section: upgrade
-title: Upgrade Element storage system components
-url: /upgrade/index.html
+title: Upgrade your NetApp SolidFire system 
 entries:
   - title: Upgrades overview
     url: /upgrade/concept_element_upgrade_overview.html
@@ -22,7 +21,5 @@ entries:
       url: /upgrade/task_hcc_upgrade_management_node.html
     - title: Upgrade the Element Plug-in for vCenter Server
       url: /upgrade/task_vcp_upgrade_plugin.html
-    - title: Run compute node health checks prior to upgrading compute firmware
-      url: /upgrade/task_upgrade_compute_prechecks.html
   - title: Upgrade your vSphere components for a NetApp SolidFire storage system with the Element Plug-in for vCenter Server
     url: /upgrade/task_sf_upgrade_all_vsphere.html
