@@ -16,11 +16,9 @@ keywords: netapp, solidfire upgrade, VCP upgrade, element upgrade, vSphere upgra
 [.lead]
 The content in this section introduces recommended upgrade sequences for components in a NetApp [.line-through]#HCI system or# SolidFire all-flash storage system. ​
 
-*System upgrade sequences* content describes the tasks that are needed to complete a NetApp [.line-through]#HCI system or# SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
-
-*vSphere upgrade sequences including Element Plug-in for vCenter Server* content describes additional pre- and post-upgrade steps required to re-install the Element Plug-in for vCenter Server.
-
 == System upgrade sequences
+
+*System upgrade sequences* content describes the tasks that are needed to complete a NetApp [.line-through]#HCI system or# SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
 
 Use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.3:
 
@@ -28,7 +26,9 @@ Use the following sequence to upgrade your NetApp SolidFire all-flash storage sy
 
 == vSphere upgrade sequences including Element Plug-in for vCenter Server
 
-Use the following sequence your vSphere components NetApp SolidFire all-flash storage system with Element Plug-in for vCenter Server:
+*vSphere upgrade sequences including Element Plug-in for vCenter Server* content describes additional pre- and post-upgrade steps required to re-install the Element Plug-in for vCenter Server.
+
+Use the following sequence to upgrade your vSphere components in a NetApp SolidFire all-flash storage system with Element Plug-in for vCenter Server:
 
 * link:task_sf_upgrade_all_vsphere.html[Upgrade your vSphere components for a NetApp SolidFire storage system with the Element Plug-in for vCenter Server].
 
