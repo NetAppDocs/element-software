@@ -18,3 +18,8 @@ Volume pairings are always one-to-one. After a volume is part of a pairing with 
 .What you'll need
 * You have established a connection between clusters in a cluster pair.
 * You have cluster administrator privileges to one or both clusters being paired.
+
+.Steps
+. xref:task_replication_create_a_target_volume_with_read_write_access.adoc[Create a target volume with read or write access]
+. xref:task_replication_pair_volumes_using_volume_id_or_pairing_key.adoc[Pair volumes using a volume ID or pairing key]
+. xref:task_replication_assign_replication_source_and_target_to_paired_volumes.adoc[Assign a replication source and target to paired volumes]
