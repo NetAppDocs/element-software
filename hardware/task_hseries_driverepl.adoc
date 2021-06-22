@@ -9,4 +9,4 @@ summary: If a drive is faulty or if the drive wear level falls below a threshold
 :imagesdir: ../media/
 
 [.lead]
-include::_include/task_hseries_driverepl.adoc[]
+include::../_include/task_hseries_driverepl.adoc[]
