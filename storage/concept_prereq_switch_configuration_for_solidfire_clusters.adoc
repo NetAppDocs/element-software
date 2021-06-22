@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
 sidebar: sidebar
-keywords:
+keywords: cluster switch configuration, best practices for switch configuration, optimal storage performance, node hardware, traffic, cluster
 summary: 'The NetApp Element software system has certain switch requirements and best practices for optimal storage performance.'
 ---
 = Switch configuration for clusters running Element software

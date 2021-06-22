@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_intro_solidfire_software_interfaces.html
 sidebar: sidebar
-keywords:
+keywords: interfaces, integration, user interface, Plug-in, vCenter, API, node UIs, command line, snapshots, shadow copies
 summary: 'You can manage a SolidFire storage system by using NetApp Element software interfaces and integration utilities.'
 ---
 = SolidFire software interfaces
