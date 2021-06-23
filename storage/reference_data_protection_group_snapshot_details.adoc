@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_data_protection_group_snapshot_details.html
 sidebar: sidebar
-keywords: 
+keywords: snapshots, group snapshots, volumes, replication
 summary: 'The Group Snapshots page on the Data Protection tab provides information about the group snapshots.'
 ---
 = Group snapshot details

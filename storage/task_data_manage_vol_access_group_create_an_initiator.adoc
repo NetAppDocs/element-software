@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_create_an_initiator.html
 sidebar: sidebar
-keywords:
+keywords: initiator, create, fc, iscsi, aliases, chap
 summary: 'You can create iSCSI or Fibre Channel initiators and optionally assign them aliases.'
 ---
 = Create an initiator

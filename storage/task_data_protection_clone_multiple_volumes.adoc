@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_clone_multiple_volumes.html
 sidebar: sidebar
-keywords:
+keywords: multiple volumes, clone, create
 summary: 'You can create multiple volume clones in a single operation to create a point-in-time copy of the data on a group of volumes.'
 ---
 = Clone multiple volumes

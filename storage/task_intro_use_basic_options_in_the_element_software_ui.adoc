@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_use_basic_options_in_the_element_software_ui.html
 sidebar: sidebar
-keywords:
+keywords: user interface, UI, API commands, SolidFire system
 summary: 'The NetApp Element software web user interface \(Element UI\) enables you to monitor and perform common tasks on your SolidFire system.'
 ---
 = Use basic options in the Element software UI

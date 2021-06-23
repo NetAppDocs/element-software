@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_edit_members_of_group_snapshot.html
 sidebar: sidebar
-keywords: 
+keywords: group snapshot members, edit
 summary: 'You can edit the retention settings for members of an existing group snapshot.'
 ---
 = Editing members of group snapshot

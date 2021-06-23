@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_add_a_single_initiator.html
 sidebar: sidebar
-keywords:
+keywords: initiator, add to volume access group, access groups, add single initiator, create initiator
 summary: 'You can add an initiator to an existing volume access group.'
 ---
 = Add a single initiator to a volume access group

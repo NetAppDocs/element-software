@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_volumes_quality_of_service_policies.html
 sidebar: sidebar
-keywords:
+keywords: qos policies, manage, volumes, create, edit, delete
 summary: 'A Quality of Service \(QoS\) policy enables you to create and save a standardized quality of service setting that can be applied to many volumes. You can create, edit, and delete QoS policies from the QoS Policies page on the Management tab.'
 ---
 = Manage Quality of Service policies

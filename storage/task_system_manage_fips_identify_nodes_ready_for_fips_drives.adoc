@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_fips_identify_nodes_ready_for_fips_drives.html
 sidebar: sidebar
-keywords: fips,security,federal information processing standards,140-2
+keywords: fips, security, federal information processing standards, 140-2
 summary: 'You should check to see if all nodes in the storage cluster are ready to support FIPS drives by using the NetApp Element software GetFipsReport API method.'
 ---
 = Identify whether nodes are ready for the FIPS drives feature

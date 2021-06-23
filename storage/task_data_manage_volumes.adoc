@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_volumes.html
 sidebar: sidebar
-keywords: element, solidfire, volume, create, edit, delete, purge, restore, clone
+keywords: element, solidfire, volume, create, edit, delete, purge, restore, clone, iscsi, fc clients
 summary: 'The SolidFire system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients.'
 ---
 = Manage volumes

@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_system_manage_snmp_snmp_details.html
 sidebar: sidebar
-keywords: 
+keywords: snmp, overview, reference, mib, settings, trap
 summary: 'On the SNMP page of the Cluster tab, you can view the following information.'
 ---
 = SNMP details
