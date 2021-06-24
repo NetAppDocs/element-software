@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_per_node_cluster_settings_details.html
 sidebar: sidebar
-keywords: nodes,changing cluster settings
+keywords: nodes, changing cluster settings, per-node UI
 summary: 'You can verify cluster settings for a storage node after cluster configuration and modify the node hostname.'
 ---
 = Cluster settings details from the per-node UI

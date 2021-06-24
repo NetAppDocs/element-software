@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_troubleshoot_remove_mdss_drives.html
 sidebar: sidebar
-keywords: 
+keywords: mdss, remove, multi-drive slice service 
 summary: 'You can remove the multi-drive slice service \(MDSS\) drives. This procedure applies only if the node has multiple slice drives.'
 ---
 = Remove MDSS drives

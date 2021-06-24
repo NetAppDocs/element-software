@@ -1,13 +1,9 @@
 ---
 permalink: storage/generic_machine_translation_disclaimer.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
 = Machine translation
 :icons: font
 :imagesdir: ../media/
-
-See important information about localized content at netapp.com.
-
-https://www.netapp.com/company/legal/machine-translation/

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_volumes_work_with_volumes_task.html
 sidebar: sidebar
-keywords: volumes, work, storage, iscsi, fc, cluster data mangement, overview of functions
+keywords: volumes, work, storage, iscsi, fc, cluster data management, overview of functions
 summary: 'The SolidFire system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients. From the Volumes page on the Management tab, you can create, modify, clone, and delete volumes on a node. You can also view statistics about volume bandwidth and I/O usage.'
 ---
 = Work with volumes
