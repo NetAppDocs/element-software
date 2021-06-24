@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_monitor_status_of_running_tasks.html
 sidebar: sidebar
-keywords: 
+keywords: running tasks, view progress of
 summary: 'You can view the progress and completion status of running tasks in the web UI that are being reported by the ListSyncJobs and ListBulkVolumeJobs API methods. You can access the Running Tasks page from the Reporting tab of the Element UI.'
 ---
 = View status of running tasks

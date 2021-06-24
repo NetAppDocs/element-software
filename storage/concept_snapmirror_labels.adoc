@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_snapmirror_labels.html
 sidebar: sidebar
-keywords: 
+keywords: labels, snapmirror, retention rules
 summary: 'A SnapMirror label serves as a marker for transferring a specified snapshot according to the retention rules of the relationship.'
 ---
 = SnapMirror labels

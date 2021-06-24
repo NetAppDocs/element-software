@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_change_the_mode.html
 sidebar: sidebar
-keywords: 
+keywords: volume pairings, replication mode, change, volume pair properties
 summary: 'You can edit volume pair properties to change the replication mode of the volume pair relationship.'
 ---
 = Change the mode of replication

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_snapmirror_perform_failover_from_element_cluster.html
 sidebar: sidebar
-keywords:
+keywords: failover, cluster, perform a failover, snapmirror
 summary: 'You can perform a failover from the Element cluster to make the destination volume read/write and accessible to hosts on the destination side. Before you perform a failover from the Element cluster, you must break the SnapMirror relationship.'
 ---
 = Perform a failover from an Element cluster

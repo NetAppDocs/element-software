@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_volumes_using_a_volume_id.html
 sidebar: sidebar
-keywords:
+keywords: volume pairings, volume id, replication
 summary: 'You can pair a volume with another volume on a remote cluster if you have cluster administrator credentials for the remote cluster.'
 ---
 = Pair volumes using a volume ID
