@@ -107,7 +107,7 @@ a|
 Online software repository:
 
 * `https://repo.netapp.com/bintray/api/package`
-* `https://netapp-downloads.bintray.com`
+* `https://repo.netapp.com/downloads`
 
 a|
 443
