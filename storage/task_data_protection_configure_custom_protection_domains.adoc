@@ -1,0 +1,15 @@
+---
+permalink: storage/task_data_protection_configure_custom_protection_domains.html
+sidebar: sidebar
+keywords:
+summary: 'You can configure custom protection domains to improve resiliency of the cluster.'
+---
+= Configure custom protection domains
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure custom protection domains.
+
+.Steps
+. Click *Cluster* > *Nodes*.
