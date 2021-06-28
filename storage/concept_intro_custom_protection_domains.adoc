@@ -16,7 +16,7 @@ If no custom protection domains are assigned:
 * Cluster operation is unaffected.
 * Custom level is neither tolerant nor resilient.
 
-When custom protection domains are configured for a cluster, there are three possible levels of protection, which you can see from the Element UI dashboard:
+When custom protection domains are configured for a cluster, there are three possible levels of protection, which you can see from the Element web UI dashboard:
 
 * Not protected: The storage cluster is not protected from the failure of one of its custom protection domains. To fix this, add additional storage capacity to the cluster or reconfigure the cluster's custom protection domains to protect the cluster from possible data loss.
 * Fault tolerant: The storage cluster has enough free capacity to prevent data loss after the failure of one of its custom protection domains.

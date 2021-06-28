@@ -20,7 +20,7 @@ NOTE: For a custom protection domain scheme to be useful for a cluster, all stor
 . Click *Cluster* > *Nodes*.
 . Click *Configure Protection Domains*.
 +
-In the resulting window, you can see the currently configured protection domains (if any) as well as protection domain assignments for individual nodes.
+In the *Configure Custom Protection Domains* window, you can see the currently configured protection domains (if any) as well as protection domain assignments for individual nodes.
 
 . Enter a name for the new custom protection domain, and click *Create*.
 +
@@ -28,3 +28,6 @@ Repeat this step for all new protection domains you need to create.
 
 . For each node in the *Assign Nodes* list, click the dropdown in the *Protection Domain* column and select a protection domain to assign to that node.
 . Click *Configure Protection Domains*.
+
+.Result
+The cluster syncs data between domains, which might take several minutes. When the data sync is complete, you can view the custom protection domain assignments on the *Cluster* > *Nodes* page, and the Element web UI dashboard shows the protection status of the cluster in the *Custom Protection Domain Health* pane.
