@@ -20,7 +20,7 @@ NOTE: For a custom protection domain scheme to be useful for a cluster, all stor
 . Click *Cluster* > *Nodes*.
 . Click *Configure Protection Domains*.
 +
-In the resulting window, you can see the currently configured protection domains (if any), their members, and protection domain assignments for individual nodes.
+In the resulting window, you can see the currently configured protection domains (if any) as well as protection domain assignments for individual nodes.
 
 . Enter a name for the new custom protection domain, and click *Create*.
 +
