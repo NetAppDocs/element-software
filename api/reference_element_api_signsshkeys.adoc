@@ -1,0 +1,87 @@
+---
+permalink: api/reference_element_api_signsshkeys.html
+sidebar: sidebar
+keywords: ssh, sign key
+summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys method to gain access to a shell on a node as either sfadmin or sflocal.  sflocal is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.'
+---
+= SignSshKeys
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After ssh is enabled on a node or cluster, you can use the `SignSshKeys` method to gain access to a shell on a node as either sfadmin or sflocal.  sflocal is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.
+
+== Parameters
+
+This method has the following input parameters:
+
+[options="header"]
+|===
+|Name |Description |Type |Default value |Required
+a|
+duration
+a|
+Integer from 1 to 24 reflecting number of hours for signed key to be valid.
+a|
+integer
+a|
+1
+a|
+No
+a|
+publicKey
+a|
+If provided, this parameter will only return the signed_public_key instead of creating a full keychain to the user.
+a|
+integer
+a|
+Null
+a|
+No
+a|
+sfadmin
+a|
+Change to `true` to enable sfadmin access for duration of session.
+a|
+boolean
+a|
+False
+a|
+No
+|===
+
+== Return values
+
+This method has no return value. The assignment is considered successful as long as there is no error returned.
+
+== Request example
+
+Requests for this method are similar to the following example:
+
+----
+{
+  "method": "SignSshKeys",
+  "params": {
+    "keyProviderID": 1,
+    "keyServerID": 15
+    },
+"id": 1
+}
+----
+
+== Response example
+
+This method returns a response similar to the following example:
+
+----
+{
+   "id": 1,
+   "result":
+      {}
+    }
+}
+----
+
+== New since version
+
+12.5
