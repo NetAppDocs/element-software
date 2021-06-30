@@ -150,7 +150,7 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
-. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for NetApp [.line-through]#HCI or# Element software, as in the following example:
+. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on the NetApp Support Site for Element software, as shown in the following example:
 +
 `sudo md5sum -b <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 

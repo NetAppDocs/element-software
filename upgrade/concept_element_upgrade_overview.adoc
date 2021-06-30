@@ -24,9 +24,9 @@ Use the following sequence to upgrade your NetApp SolidFire all-flash storage sy
 
 * link:task_sf_upgrade_all.html[Upgrade your NetApp SolidFire all-flash storage system for Element 12.3].
 
-== vSphere upgrade sequences including Element Plug-in for vCenter Server
+== vSphere upgrade sequence including Element Plug-in for vCenter Server
 
-vSphere upgrade sequences including Element Plug-in for vCenter Server content describes additional pre- and post-upgrade steps required to re-install the Element Plug-in for vCenter Server.
+The vSphere upgrade sequence including Element Plug-in for vCenter Server content describes additional pre- and post-upgrade steps required to re-install the Element Plug-in for vCenter Server.
 
 Use the following sequence to upgrade your vSphere components in a NetApp SolidFire all-flash storage system with Element Plug-in for vCenter Server:
 
