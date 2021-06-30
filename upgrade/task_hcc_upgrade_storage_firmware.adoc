@@ -46,8 +46,8 @@ You can use the NetApp Hybrid Cloud Control UI to upgrade the firmware of the st
 
 .What you'll need
 * If your management node is not connected to the internet, you have downloaded the package from the following location:
-[.line-through]#** https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[Storage firmware package for NetApp HCI storage clusters^]#
-** https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Storage firmware package for SolidFire storage clusters running Element software^]
++
+https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Storage firmware package for SolidFire storage clusters running Element software^]
 
 CAUTION: For potential issues while upgrading storage clusters using NetApp Hybrid Cloud Control and their workarounds, see the https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control[KB article^].
 
@@ -64,7 +64,7 @@ https://<ManagementNodeIP>
 . Click *Upgrade* near the top right of the interface.
 . On the *Upgrades* page, select *Storage*.
 +
-NOTE: The *Storage* tab lists the storage clusters that are part of your installation. If a cluster is inaccessible by NetApp Hybrid Cloud Control, it will not be displayed on the *Upgrades* page. If you have clusters running Element 12.0 or later, you will see the current firmware bundle version listed for these clusters. If the nodes in a single cluster have different firmware versions on them or as the upgrade progresses, you will see *Multiple* in the *Current Firmware Bundle Version* column. You can click *Multiple* to navigate to the *Nodes* page to compare firmware versions. If all your clusters are running Element versions earlier than 12.0, you will not see any information about firmware bundle version numbers. This information is also available on the *Nodes* page. See link:task_hcc_nodes.html[View your inventory].
+NOTE: The *Storage* tab lists the storage clusters that are part of your installation. If a cluster is inaccessible by NetApp Hybrid Cloud Control, it will not be displayed on the *Upgrades* page. If you have clusters running Element 12.0 or later, you will see the current firmware bundle version listed for these clusters. If the nodes in a single cluster have different firmware versions on them or as the upgrade progresses, you will see *Multiple* in the *Current Firmware Bundle Version* column. You can click *Multiple* to navigate to the *Nodes* page to compare firmware versions. If all your clusters are running Element versions earlier than 12.0, you will not see any information about firmware bundle version numbers. This information is also available on the *Nodes* page. See link:https://docs.netapp.com/us-en/hci/docs/task_hcc_nodes.html[View your inventory].
 If the cluster is up to date and/or no upgrade packages are available, the *Element* and *Firmware Only* tabs are not displayed. These tabs are also not displayed when an upgrade is in progress. If the *Element* tab is displayed, but not the *Firmware Only* tab, no firmware packages are available.
 
 . Choose from the following options and perform the set of steps that are applicable to your cluster:
@@ -179,7 +179,6 @@ https://[management node IP]/package-repository/1/
 |Your management node is within a dark site without external connectivity.
 a|
 . Download the storage firmware upgrade package to a device that is accessible to the management node. For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page] and download the latest storage firmware image.
-[.line-through]#* For NetApp HCI systems, go to the NetApp HCI software https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[download page] and download the latest storage firmware image.#
 
 . Upload the storage firmware upgrade package to the management node:
 .. Open the management node REST API UI on the management node:
@@ -370,4 +369,5 @@ The upgrade has finished successfully when the `percent` value is `100` and the 
 [discrete]
 == Find more information
 
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

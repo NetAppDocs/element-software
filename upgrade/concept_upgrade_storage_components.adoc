@@ -1,8 +1,8 @@
 ---
 permalink: upgrade/index.html
 sidebar: sidebar
-keywords: Element OS upgrade,Element software upgrade, upgrade vcp, upgrade management services, upgrade management node, upgrade mnode, HealthTools upgrade, sfinstall, H610S upgrade, H410S upgrade
-summary: 'You can upgrade the Element software on the storage nodes of your cluster, the firmware of the storage nodes, the management node for a cluster, and the management services hosted from the management node.'
+keywords: element OS upgrade, element software upgrade, upgrade vcp, upgrade management services, upgrade management node, upgrade mnode, HealthTools upgrade, sfinstall, H610S upgrade
+summary: You can upgrade the Element software on the storage nodes of your cluster, the firmware of the storage nodes, the management node for a cluster, and the management services hosted from the management node.
 ---
 = Upgrade storage system components
 :icons: font

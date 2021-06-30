@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: upgrade/task_hcc_upgrade_management_node.html
-summary: As part of a NetApp HCI or SolidFire storage system upgrade, you upgrade the management node.
-keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3
+summary: As part of a NetApp SolidFire storage system upgrade, you upgrade the management node.
+keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3
 ---
 
 = Upgrade a management node
@@ -59,7 +59,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * If you are updating your management node to version 12.3, you need management services 2.14.60 or later to proceed.
 
-* You have configured an additional network adapter (if required) using the instructions for link:task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
+* You have configured an additional network adapter (if required) using the instructions for link:https://docs.netapp.com/us-en/hci/docs/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
 NOTE: Persistent volumes might require an additional network adapter if eth0 is not able to be routed to the SVIP. Configure a new network adapter on the iSCSI storage network to allow the configuration of persistent volumes.
 
@@ -67,11 +67,11 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 
 .Steps
 . Log in to the management node virtual machine using SSH or console access.
-. Download the management node ISO for [.line-through]#https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI] or# https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
+. Download the management node ISO for https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
-. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for NetApp [.line-through]#HCI or# Element software, as in the following example:
+. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on the NetApp Support Site for Element software, as in the following example:
 +
 `sudo md5sum -b <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
@@ -116,7 +116,7 @@ NOTE: The script retains previous management services configuration, including c
 sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 ----
 
-IMPORTANT: If you had previously disabled SSH functionality on the management node, you need to link:task_mnode_ssh_management.html[disable SSH again] on the recovered management node. SSH capability that provides link:task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is enabled on the management node by default.
+IMPORTANT: If you had previously disabled SSH functionality on the management node, you need to link:https://docs.netapp.com/us-en/hci/docs/task_mnode_ssh_management.html[disable SSH again] on the recovered management node. SSH capability that provides link:https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is enabled on the management node by default.
 
 == Upgrade a management node to version 12.3 from 12.0
 
@@ -134,7 +134,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * If you are updating your management node to version 12.3, you need management services 2.14.60 or later to proceed.
 
-* You have configured an additional network adapter (if required) using the instructions for link:task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
+* You have configured an additional network adapter (if required) using the instructions for link:https://docs.netapp.com/us-en/hci/docs/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
 NOTE: Persistent volumes might require an additional network adapter if eth0 is not able to be routed to the SVIP. Configure a new network adapter on the iSCSI storage network to allow the configuration of persistent volumes.
 
@@ -146,7 +146,7 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 .. Change the RAM of the management node VM from 12GB to 24GB RAM.
 .. Power on the management node VM.
 . Log in to the management node virtual machine using SSH or console access.
-. Download the management node ISO for [.line-through]#https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI] or# https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
+. Download the management node ISO for https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
@@ -195,7 +195,7 @@ NOTE: The script retains previous management services configuration, including c
 sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 ----
 
-IMPORTANT: SSH capability that provides link:task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is disabled by default on management nodes running management services 2.18 and later. If you had previously enabled SSH functionality on the management node, you might need to link:task_mnode_ssh_management.html[disable SSH again] on the upgraded management node.
+IMPORTANT: SSH capability that provides link:https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is disabled by default on management nodes running management services 2.18 and later. If you had previously enabled SSH functionality on the management node, you might need to link:https://docs.netapp.com/us-en/hci/docs/task_mnode_ssh_management.html[disable SSH again] on the upgraded management node.
 
 == Upgrade a management node to version 12.3 from 11.3 through 11.8
 
@@ -213,7 +213,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * If you are updating your management node to version 12.3, you need management services 2.14.60 or later to proceed.
 
-* You have configured an additional network adapter (if required) using the instructions for link:task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
+* You have configured an additional network adapter (if required) using the instructions for link:https://docs.netapp.com/us-en/hci/docs/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
 NOTE: Persistent volumes might require an additional network adapter if eth0 is not able to be routed to the SVIP. Configure a new network adapter on the iSCSI storage network to allow the configuration of persistent volumes.
 
@@ -226,11 +226,11 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 .. Change the RAM of the management node VM from 12GB to 24GB RAM.
 .. Power on the management node VM.
 . Log in to the management node virtual machine using SSH or console access.
-. Download the management node ISO for [.line-through]#https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI] or# https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
+. Download the management node ISO for https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
-. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for NetApp [.line-through]#HCI or# Element software, as in the following example:
+. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for Element software, as in the following example:
 +
 `sudo md5sum -b <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
@@ -275,7 +275,7 @@ NOTE: The script retains previous management services configuration, including c
 sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
 ----
 
-IMPORTANT: SSH capability that provides link:task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is disabled by default on management nodes running management services 2.18 and later. If you had previously enabled SSH functionality on the management node, you might need to link:task_mnode_ssh_management.html[disable SSH again] on the upgraded management node.
+IMPORTANT: SSH capability that provides link:https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is disabled by default on management nodes running management services 2.18 and later. If you had previously enabled SSH functionality on the management node, you might need to link:https://docs.netapp.com/us-en/hci/docs/task_mnode_ssh_management.html[disable SSH again] on the upgraded management node.
 
 == Upgrade a management node to version 12.3 from 11.1 or 11.0
 You can perform an in-place upgrade of the management node from 11.0 or 11.1 to version 12.3 without needing to provision a new management node virtual machine.
@@ -303,11 +303,11 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 .. Change the RAM of the management node VM from 12GB to 24GB RAM.
 .. Power on the management node VM.
 . Log in to the management node virtual machine using SSH or console access.
-. Download the management node ISO for [.line-through]#https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI] or# https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
+. Download the management node ISO for https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element] software from the NetApp Support Site to the management node virtual machine.
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
-. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for NetApp [.line-through]#HCI or# Element software, as in the following example:
+. Check the integrity of the download by running md5sum on the downloaded file and compare the output to what is available on NetApp Support Site for Element software, as in the following example:
 +
 ----
 sudo md5sum -b <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso
@@ -387,7 +387,7 @@ sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pv <true - persistent vo
 sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pvm <mvip for persistent volumes>
 ----
 
-. (For all NetApp [.line-through]#HCI installations and# SolidFire all-flash storage installations with NetApp Element Plug-in for vCenter Server) Update the vCenter Plug-in on the 12.3 management node by following the steps in the link:task_vcp_upgrade_plugin.html[Upgrade the Element Plug-in for vCenter Server] topic.
+. (For all NetApp SolidFire all-flash storage installations with NetApp Element Plug-in for vCenter Server) Update the vCenter Plug-in on the 12.3 management node by following the steps in the link:task_vcp_upgrade_plugin.html[Upgrade the Element Plug-in for vCenter Server] topic.
 . Locate the asset ID for your installation using the management node API:
 .. From a browser, log into the management node REST API UI:
 ... Go to the storage MVIP and log in.
@@ -408,23 +408,6 @@ https://[management node IP]/inventory/1/
 .. From the code 200 response body, copy the `id` for the installation.
 +
 Your installation has a base asset configuration that was created during installation or upgrade.
-
-[.line-through]#. If you have a NetApp HCI installation, locate the hardware tag for your compute node in vSphere:#
-[.line-through]#.. Select the host in the vSphere Web Client navigator.#
-[.line-through]#.. Click the *Monitor* tab, and click *Hardware Health*.#
-[.line-through]#.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.#
-[.line-through]#. Add a vCenter controller asset for HCI monitoring (NetApp HCI installations only) and Hybrid Cloud Control (for all installations) to the management node known assets:#
-[.line-through]#.. Click *POST /assets/{asset_id}/controllers* to add a controller sub-asset.#
-[.line-through]#.. Click *Try it out*.#
-[.line-through]#.. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.#
-[.line-through]#.. Enter the required payload values with type `vCenter` and vCenter credentials.#
-[.line-through]#.. Click *Execute*.#
-[.line-through]#. (For NetApp HCI only) Add a compute node asset to the management node known assets:#
-[.line-through]#.. Click *POST /assets/{asset_id}/compute-nodes* to add a compute node sub-asset with credentials for the compute node asset.#
-[.line-through]#.. Click *Try it out*.#
-[.line-through]#.. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.#
-[.line-through]#.. In the payload, enter the required payload values as defined in the Model tab. Enter `ESXi Host` as `type` and paste the hardware tag you saved during a previous step for `hardware_tag`.#
-[.line-through]#.. Click *Execute*.#
 
 == Migrating from management node version 10.x to 11.x
 If you have a management node at version 10.x, you cannot upgrade from 10.x to 11.x. You can instead use this migration procedure to copy over the configuration from 10.x to a newly deployed 11.1 management node. If your management node is currently at 11.0 or higher, you should skip this procedure. You need management node 11.0 or 11.1 and the link:task_upgrade_element_latest_healthtools.html[latest HealthTools] to upgrade Element software from 10.3 + through 11.x.
@@ -465,7 +448,7 @@ NOTE: The default password is `solidfire`. This password is required to set the 
 +
 In vSphere, the *mNode Settings* tab should display the mNode status as *UP*, which indicates management node 11.1 is registered to vCenter.
 
-. From the management node registration utility (`https://<mNode 11.1 IP address>:9443`), restart the SIOC service from *QoSSIOC Service Management*.
+. From the management node registration utility (`\https://<mNode 11.1 IP address>:9443`), restart the SIOC service from *QoSSIOC Service Management*.
 
 . Wait for one minute and check the *NetApp Element Configuration* > *mNode Settings* tab. This should display the mNode status as *UP*.
 +
@@ -554,4 +537,5 @@ The response body indicates that reconfiguration was successful.
 [discrete]
 == Find more information
 
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

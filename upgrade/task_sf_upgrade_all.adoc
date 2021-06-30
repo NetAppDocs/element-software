@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: upgrade/task_sf_upgrade_all.html
-summary: You can upgrade NetApp HCI and all of its components.
-keywords: netapp, hci, on premise, cluster, upgrade, element
+summary: You can upgrade NetApp SolidFire all-flash storage system and all of its components.
+keywords: netapp, solidfire, cluster, upgrade, element
 ---
 
 = Upgrade your NetApp SolidFire all-flash storage system for Element 12.3
@@ -57,4 +57,5 @@ NOTE: Upgrading the management node operating system is no longer required to up
 [discrete]
 == Find more information
 
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
