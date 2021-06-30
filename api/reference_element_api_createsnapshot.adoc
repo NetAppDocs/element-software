@@ -196,6 +196,10 @@ This method returns a response similar to the following example:
 }
 ----
 
+== Exception
+
+An xNotPrimary exception is displayed when the `CreateSnapshot` API is called and the snapshot fails to get created. This is expected behavior. Retry the `CreateSnapshot` API call.
+
 == New since version
 
 9.6
