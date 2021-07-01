@@ -13,7 +13,7 @@ For Element clusters that contain more than two storage nodes, you can configure
 
 TIP: When you assign protection domains, a data sync between nodes begins, and some cluster operations are unavailable until the data sync completes. After a custom protection domain is configured for a cluster, when you add a new storage node, you cannot add drives for the new node until you assign a protection domain for the node and allow the data sync to complete. Visit the link:../concepts/concept_solidfire_concepts_data_protection.html#protection-domains[protection domains documentation] to learn more about protection domains.
 
-NOTE: For a custom protection domain scheme to be useful for a cluster, all storage nodes within each chassis must be assigned to the same custom protection domain. You need to create as many custom protection domains as is needed for this to be the case.
+NOTE: For a custom protection domain scheme to be useful for a cluster, all storage nodes within each chassis must be assigned to the same custom protection domain. You need to create as many custom protection domains as is needed for this to be the case. As a best practice, configure an equal number and makeup of nodes for each protection domain.
 
 .Steps
 
@@ -27,7 +27,24 @@ In the *Configure Custom Protection Domains* window, you can see the currently c
 Repeat this step for all new protection domains you need to create.
 
 . For each node in the *Assign Nodes* list, click the dropdown in the *Protection Domain* column and select a protection domain to assign to that node.
++
+CAUTION: Ensure that you understand your node and chassis layout, the custom protection domain scheme you have configured, and the scheme's effects on data protection before applying the changes. If you apply a protection domain scheme and immediately need to make changes, it could be some time before you can do so because of the data sync that happens once a configuration is applied.
+
 . Click *Configure Protection Domains*.
 
 .Result
-The cluster syncs data between domains, which might take several minutes. When the data sync is complete, you can view the custom protection domain assignments on the *Cluster* > *Nodes* page, and the Element web UI dashboard shows the protection status of the cluster in the *Custom Protection Domain Health* pane.
+Depending on the size of your cluster, the data sync data between domains could take some time. After the data sync is complete, you can view the custom protection domain assignments on the *Cluster* > *Nodes* page, and the Element web UI dashboard shows the protection status of the cluster in the *Custom Protection Domain Health* pane.
+
+.Possible errors
+Here are some errors you might see after applying a custom protection domain configuration:
+
+|===
+|Error |Description |Resolution
+|SetProtectionDomainLayout Failed: ProtectionDomainLayout would leave NodeID {9} unusable. Default and non-default names cannot both be used together.
+|A node does not have a protection domain assigned.
+|Assign a protection domain to the node.
+
+|SetProtectionDomainLayout Failed: Protection domain type 'custom' splits protection domain type 'chassis'.
+|A node in a multi-node chassis is assigned a protection domain that is different from other nodes in the chassis.
+|Ensure that all nodes in the chassis are assigned the same protection domain.
+|===
