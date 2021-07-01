@@ -28,11 +28,11 @@ NOTE: Using custom protection domains assumes that no nodes share a chassis.
 
 The following API methods expose these new protection domains:
 
-* GetProtectionDomainLayout - shows which chassis and which custom protection domain each node is in.
-* SetProtectionDomainLayout - allows a custom protection domain to be assigned to each node.
+* link:../api/reference_element_api_getprotectiondomainlayout.html[GetProtectionDomainLayout] - shows which chassis and which custom protection domain each node is in.
+* link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout] - allows a custom protection domain to be assigned to each node.
 
 Contact NetApp support for further details on using custom protection domains.
 
 == Find more information
 
-link:api/index.html[Manage storage with the Element API]
+link:../api/index.html[Manage storage with the Element API]
