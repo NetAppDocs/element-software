@@ -27,8 +27,7 @@ sidebar:
       url: https://docs.netapp.com/us-en/vcp/
     - title: Work with the management node
       url: /storage/concept_mnode_work_with_the_management_node.html
-    - title: Upgrade Element storage system components
-      url: /storage/concept_upgrade_storage_components.html
+    - section: upgrade
     - title: Earlier versions
       url: /element-earlierversions.html
     - title: Legal notices
