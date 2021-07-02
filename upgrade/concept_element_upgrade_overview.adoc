@@ -35,4 +35,4 @@ Use the following sequence to upgrade your vSphere components in a NetApp SolidF
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element documentation^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
