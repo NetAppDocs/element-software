@@ -18,7 +18,7 @@ The content in this section introduces the recommended upgrade sequence for comp
 
 == System upgrade sequence
 
-The system upgrade sequence content describes the tasks that are needed to complete a NetApp SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
+The system upgrade sequence content describes the tasks that are needed to complete a SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
 
 Use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.3:
 
