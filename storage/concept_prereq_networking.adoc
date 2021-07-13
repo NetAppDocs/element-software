@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_prereq_networking.html
 sidebar: sidebar
-keywords: network setup, setup network, switch requirements, port requirements
+keywords: network setup, setup network, switch requirements, port requirements, network," "networking," "set up network," "prerequisites," "requirements
 summary: 'The network setup for a SolidFire system consists of switch and port requirements. The implementation of these depends on your system.'
 ---
 = Networking
