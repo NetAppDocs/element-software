@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_delete.html
 sidebar: sidebar
-keywords:
+keywords: access group, delete
 summary: 'You can delete an access group when it is no longer needed. You do not need to delete Initiator IDs and Volume IDs from the volume access group before deleting the group. After you delete the access group, group access to the volumes is discontinued.'
 ---
 = Delete an access group

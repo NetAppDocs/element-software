@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_manage_storage_hcc.html
 sidebar: sidebar
-keywords: hybrid cloud control, element, user account, cluster, storage, volume access group, quality of service, qos, initiator
+keywords: hybrid cloud control, element, user account, cluster, storage, volume access group, quality of service, qos, initiator, hcc
 summary: You can manage storage assets by using the NetApp Hybrid Cloud Control.
 ---
 = Manage storage with NetApp Hybrid Cloud Control

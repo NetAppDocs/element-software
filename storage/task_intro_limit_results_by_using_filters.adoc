@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_limit_results_by_using_filters.html
 sidebar: sidebar
-keywords: 
+keywords: filter, filtering, sorting information, viewing lists, unfiltered list
 summary: 'You can filter list information on pages in the Element UI. When viewing lists \(such as volumes and snapshots\), you can add one or more filters to focus the information and make it more easily fit on the page.'
 ---
 = Limit results by using filters

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vvol_create_a_storage_container.html
 sidebar: sidebar
-keywords: storage container
+keywords: storage container, create
 summary: 'You can create storage containers in the Element UI and discover them in vCenter. You must create at least one storage container to begin provisioning VVol-backed virtual machines.'
 ---
 = Create a storage container

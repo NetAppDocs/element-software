@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_cluster_using_pairing_key.html
 sidebar: sidebar
-keywords: remote replication,pairing key,pairing clusters
+keywords: remote replication, pairing key, pairing clusters
 summary: 'If you have cluster administrator access to a local cluster but not the remote cluster, you can pair the clusters using a pairing key. A pairing key is generated on a local cluster and then sent securely to a cluster administrator at a remote site to establish a connection and complete the cluster pairing for real-time replication.'
 ---
 = Pair clusters using a pairing key

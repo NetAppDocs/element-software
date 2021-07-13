@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_element_rn_find_product_docs.html
 sidebar: sidebar
-keywords: HCI documentation,SolidFire documentation
+keywords: HCI documentation, SolidFire documentation
 summary: 'You can learn more about using and managing NetApp HCI and SolidFire all-flash storage from the resources available in the Documentation Centers and Resources pages for both products.'
 ---
 = Where to find product documentation and other information

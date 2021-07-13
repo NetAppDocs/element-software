@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_roll_back_volumes_to_a_group_snapshot.html
 sidebar: sidebar
-keywords:
+keywords: volumes, rollback, group snapshot, purge
 summary: 'You can roll back a group of volumes at any time to a group snapshot.'
 ---
 = Roll back volumes to a group snapshot

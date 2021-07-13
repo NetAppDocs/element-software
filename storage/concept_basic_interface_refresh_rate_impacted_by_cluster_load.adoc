@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_basic_interface_refresh_rate_impacted_by_cluster_load.html
 sidebar: sidebar
-keywords: 
+keywords: data refresh interval, cluster, interval controls, API requests, heavy load cluster, cluster credentials
 summary: 'Depending on API response times, the cluster might automatically adjust the data refresh interval for certain portions of the NetApp Element software page you are viewing.'
 ---
 = Interface refresh rate impacted by cluster load

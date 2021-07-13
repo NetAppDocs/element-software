@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_manage_ldap.html
 sidebar: sidebar
-keywords: element, solidfire, ldap, enable, disable, test, config
+keywords: element, solidfire, ldap, enable, disable, test, config, addresses, pre-configuration steps, authentication, element api, view ldap details
 summary: 'You can set up the Lightweight Directory Access Protocol \(LDAP\) to enable secure, directory-based login functionality to SolidFire storage. You can configure LDAP at the cluster level and authorize LDAP users and groups.'
 ---
 = Manage LDAP
