@@ -35,17 +35,12 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 
 Choose one of the following Element software upgrade options:
 
-* <<Automate the upgrade with Ansible>> _NEW!_
 * <<Use NetApp Hybrid Cloud Control UI to upgrade Element storage>>
 * <<Use NetApp Hybrid Cloud Control API to upgrade Element storage>>
 * <<Upgrade Element software at connected sites using HealthTools>>
 * <<Upgrade Element software at dark sites using HealthTools>>
 
 IMPORTANT: If you are upgrading an H610S series node to Element 12.3 and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.3 (phase 2),phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required.
-
-== Automate the upgrade with Ansible
-
-You can automate the upgrade workflow by using Ansible to perform a rolling upgrade of the entire cluster. To get started, navigate to the https://github.com/NetApp-Automation[NetApp Ansible repository^] on GitHub and download the nar_solidfire_sds_upgrade role and documentation.
 
 == Use NetApp Hybrid Cloud Control UI to upgrade Element storage
 
