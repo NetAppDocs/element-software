@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_install_add_storage_NIC.html
+permalink: mnode/task_mnode_install_add_storage_NIC.html
 summary: If you are using an additional NIC for storage, you should set up an untagged or tagged network interface.
 keywords: netapp, element, management node, mnode, network, nic, storage nic
 ---
@@ -110,4 +110,4 @@ https://$mnode_IP:442/json-rpc/10.0 \
 == Find more Information
 * link:task_mnode_add_assets.html[Add an asset to the management node]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

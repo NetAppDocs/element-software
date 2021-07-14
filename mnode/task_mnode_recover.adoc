@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_recover.html
+permalink: mnode/task_mnode_recover.html
 summary: You can recover and redeploy a management node for your cluster running NetApp Element software. Depending on your configuration, you might need to reconfigure authentication for the management node.
 keywords: netapp, element, management node, mnode, disaster recovery, redeploy, VM
 ---
@@ -20,7 +20,7 @@ You can deploy a new OVA and run a redeploy script to pull configuration data fr
 
 .What you'll need
 
-* Your previous management node was running NetApp Element software version 11.3 or later with link:concept_hci_volumes.html#persistent-volumes[persistent volumes] functionality engaged.
+* Your previous management node was running NetApp Element software version 11.3 or later with link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^] functionality engaged.
 * You know the MVIP and SVIP of the cluster containing the persistent volumes.
 * Your cluster version is running NetApp Element software 11.3 or later.
 * Your installation uses IPv4. The management node 11.3 does not support IPv6.
@@ -48,10 +48,8 @@ You can deploy a new OVA and run a redeploy script to pull configuration data fr
 
 == Download ISO or OVA and deploy the VM
 
-. Download the OVA or ISO for your installation from the NetApp Support Site:
-+
-Element software: https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab
-NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab
+. Download the OVA or ISO for your installation from https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element software] on the NetApp Support Site.
+[.line-through]#NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab#
 
 .. Click *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
@@ -183,12 +181,12 @@ NOTE: You can add the user name or allow the script to prompt you for the inform
 
 +
 .. Run the `redeploy-mnode` command. The script displays a success message when the redeployment is complete.
-.. If you access Element or NetApp HCI web interfaces (such as the management node or NetApp Hybrid Cloud Control) using the Fully Qualified Domain Name (FQDN) of the system, link:task_hcc_upgrade_management_node.html#reconfigure-authentication-using-the-management-node-rest-api[reconfigure authentication for the management node^].
+.. If you access Element [.line-through]#or NetApp HCI# web interfaces (such as the management node or NetApp Hybrid Cloud Control) using the Fully Qualified Domain Name (FQDN) of the system, link:task_hcc_upgrade_management_node.html#reconfigure-authentication-using-the-management-node-rest-api[reconfigure authentication for the management node^].
 
 IMPORTANT: SSH capability that provides link:task_mnode_enable_remote_support_connections.html[NetApp Support remote support tunnel (RST) session access] is disabled by default on management nodes running management services 2.18 and later. If you had previously enabled SSH functionality on the management node, you might need to link:task_mnode_ssh_management.html[disable SSH again] on the recovered management node.
 
 [discrete]
 == Find more Information
-* link:concept_hci_volumes.html#persistent-volumes[Persistent volumes]
+* link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

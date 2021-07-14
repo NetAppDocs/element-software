@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_install.html
+permalink: mnode/task_mnode_install.html
 summary: You can install the management node for your cluster running NetApp Element software.
 keywords: netapp, element, management node, mnode, storage, install
 ---
@@ -16,7 +16,7 @@ keywords: netapp, element, management node, mnode, storage, install
 [.lead]
 You can manually install the management node for your cluster running NetApp Element software using the appropriate image for your configuration.
 
-This manual process is intended for SolidFire all-flash storage administrators and NetApp HCI administrators who are not using the NetApp Deployment Engine for management node installation.
+This manual process is intended for SolidFire all-flash storage administrators [.line-through]#and NetApp HCI administrators# who are not using the NetApp Deployment Engine for management node installation.
 
 .What you'll need
 
@@ -44,7 +44,7 @@ NOTE: If you need to IPv6 support, you can use the management node 11.1.
 .About this task
 The Element 12.2 management node is an optional upgrade. It is not required for existing deployments.
 
-Prior to following this procedure, you should have an understanding of  link:concept_hci_volumes.html#persistent-volumes[persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
+Prior to following this procedure, you should have an understanding of link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
 
 .Steps
 
@@ -53,14 +53,12 @@ Prior to following this procedure, you should have an understanding of  link:con
 . <<Configure time sync>>
 . <<Set up the management node>>
 . <<Configure controller assets>>
-. <<Configure compute node assets,(NetApp HCI only) Configure compute node assets>>
+[.line-through]#. <<Configure compute node assets,(NetApp HCI only) Configure compute node assets>>#
 
 == Download ISO or OVA and deploy the VM
 
-. Download the OVA or ISO for your installation from the NetApp Support Site:
-+
-Element software: https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab
-NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab
+. Download the OVA or ISO for your installation from link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element software] on the NetApp Support Site.
+[.line-through]#NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab#
 
 .. Click *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
@@ -74,7 +72,7 @@ NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/do
 * 24GB RAM
 * 400GB virtual disk, thin provisioned
 * One virtual network interface with internet access and access to the storage MVIP.
-* (Optional for SolidFire all-flash storage) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
+* (Optional) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
 +
 IMPORTANT: Do not power on the virtual machine prior to the step indicating to do so later in this procedure.
 
@@ -214,11 +212,11 @@ https://[management node IP]/inventory/1/
 +
 Your installation has a base asset configuration that was created during installation or upgrade.
 
-. (NetApp HCI only) Locate the hardware tag for your compute node in vSphere:
-.. Select the host in the vSphere Web Client navigator.
-.. Click the *Monitor* tab, and click *Hardware Health*.
-.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.
-. Add a vCenter controller asset for NetApp HCI monitoring (NetApp HCI installations only) and Hybrid Cloud Control (for all installations) to the management node known assets:
+. [.line-through]#(NetApp HCI only) Locate the hardware tag for your compute node in vSphere:
+[.line-through]#.. Select the host in the vSphere Web Client navigator.#
+[.line-through]#.. Click the *Monitor* tab, and click *Hardware Health*.#
+[.line-through]#.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.#
+. Add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# Hybrid Cloud Control [.line-through]#(for all installations)# to the management node known assets:
 .. Access the mnode service API UI on the management node by entering the management node IP address followed by `/mnode`:
 +
 ----
@@ -236,20 +234,20 @@ https://[management node IP]/mnode
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
 .. Click *Execute*.
 
-== (NetApp HCI only) Configure compute node assets
+[.line-through]#== (NetApp HCI only) Configure compute node assets#
 
-. (For NetApp HCI only) Add a compute node asset to the management node known assets:
-.. Click *POST /assets/{asset_id}/compute-nodes* to add a compute node sub-asset with credentials for the compute node asset.
-.. Click *Try it out*.
-.. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
-.. In the payload, enter the required payload values as defined in the Model tab. Enter `ESXi Host` as `type` and enter the hardware tag you saved during a previous step for `hardware_tag`.
-.. Click *Execute*.
+[.line-through]#. (For NetApp HCI only) Add a compute node asset to the management node known assets:#
+[.line-through]#.. Click *POST /assets/{asset_id}/compute-nodes* to add a compute node sub-asset with credentials for the compute node asset.#
+[.line-through]#.. Click *Try it out*.#
+[.line-through]#.. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.#
+[.line-through]#.. In the payload, enter the required payload values as defined in the Model tab. Enter `ESXi Host` as `type` and enter the hardware tag you saved during a previous step for `hardware_tag`.#
+[.line-through]#.. Click *Execute*.#
 
 
 [discrete]
 == Find more Information
-* link:concept_hci_volumes.html#persistent-volumes[Persistent volumes]
+* link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^]
 * link:task_mnode_add_assets.html[Add an asset to the management node]
 * link:task_mnode_install_add_storage_NIC.html[Configure a storage NIC]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
