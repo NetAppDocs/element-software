@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_create_a_snapshot_schedule.html
 sidebar: sidebar
-keywords:
+keywords: snapshot schedule, create, volumes, recurring schedule
 summary: 'You can schedule a snapshot of a volume or volumes to automatically occur at specified intervals.'
 ---
 = Create a snapshot schedule
@@ -15,7 +15,7 @@ When you configure a snapshot schedule, you can choose from time intervals based
 
 If you schedule a snapshot to run at a time period that is not divisible by 5 minutes, the snapshot will run at the next time period that is divisible by 5 minutes. For example, if you schedule a snapshot to run at 12:42:00 UTC, it will run at 12:45:00 UTC. You cannot schedule a snapshot to run at intervals of less than 5 minutes.
 
-.Steps 
+.Steps
 . Click *Data Protection* > *Schedules*.
 . Click *Create Schedule*.
 . In the *Volume IDs CSV* field, enter a single volume ID or a comma-separated list of volume IDs to include in the snapshot operation.

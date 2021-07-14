@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_key_external_key_management_api_commands.html
 sidebar: sidebar
-keywords:
+keywords: ekm, api commands, key providers
 summary: 'List of all of the APIs available for managing and configuring EKM.'
 ---
 = External key management API commands

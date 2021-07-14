@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_copy_a_snapshot_schedule.html
 sidebar: sidebar
-keywords:
+keywords: snapshot schedule, copy, maintain, schedule attributes
 summary: 'You can copy a schedule and maintain its current attributes.'
 ---
 = Copy a snapshot schedule

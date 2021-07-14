@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_volumes_solidfire_quality_of_service.html
 sidebar: sidebar
-keywords: 
+keywords: qos policies, iops
 summary: 'A SolidFire storage cluster has the ability to provide Quality of Service \(QoS\) parameters on a per-volume basis. You can guarantee cluster performance measured in inputs and outputs per second \(IOPS\) using three configurable parameters that define QoS: Min IOPS, Max IOPS, and Burst IOPS.'
 ---
 = Quality of Service

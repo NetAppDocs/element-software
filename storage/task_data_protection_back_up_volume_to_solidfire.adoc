@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_back_up_volume_to_solidfire.html
 sidebar: sidebar
-keywords:
+keywords: volume backup, solidfire storage cluster
 summary: 'You can back up volumes residing on a cluster to a remote cluster for storage clusters running Element software.'
 ---
 = Back up a volume to a SolidFire storage cluster

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_sort_lists.html
 sidebar: sidebar
-keywords: 
+keywords: sort lists, sorting on a single column, sorting on multiple columns, sort button, column selections, using sort criteria 
 summary: 'You can sort list information by one or more criteria on certain pages in the Element UI. This helps you arrange the information you need on the screen.'
 ---
 = Sort lists

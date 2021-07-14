@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_monitor_information_about_system_events.html
 sidebar: sidebar
-keywords:
+keywords: system events, monitor, view event log
 summary: 'You can view information about various events detected in the system. The system refreshes the event messages every 30 seconds. The event log displays key events for the cluster.'
 ---
 = View information about system events
@@ -51,6 +51,6 @@ a|
 The time the event occurred.
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_monitor_event_types.adoc[Event types]

@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_solidfire_storage_cluster_administrator_account_types.html
 sidebar: sidebar
-keywords: user types
+keywords: user types, account, cluster, access active nodes, per-node UI
 summary: 'There are two types of administrator accounts that can exist in a storage cluster running NetApp Element software: the primary cluster administrator account and a cluster administrator account.'
 ---
 = Storage cluster administrator account types

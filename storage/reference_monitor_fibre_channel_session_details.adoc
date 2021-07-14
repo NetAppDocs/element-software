@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_monitor_fibre_channel_session_details.html
 sidebar: sidebar
-keywords: 
+keywords: fibre channel sessions, fc, FC, sessions
 summary: 'You can find information about the active Fibre Channel \(FC\) sessions that are connected to the cluster.'
 ---
 = Fibre Channel session details

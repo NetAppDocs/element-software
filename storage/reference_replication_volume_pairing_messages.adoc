@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_replication_volume_pairing_messages.html
 sidebar: sidebar
-keywords: 
+keywords: volume pairing, messages, replication, data protection
 summary: 'You can view volume pairing messages during the initial pairing process from the Volume Pairs page under the Data Protection tab. These messages can display on both source and target ends of the pair in the Replicating Volumes list view.'
 ---
 = Volume pairing messages

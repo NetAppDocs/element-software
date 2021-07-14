@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_fips_enable_encryption_at_rest.html
 sidebar: sidebar
-keywords: fips,security,encryption at rest
+keywords: fips, security, encryption at rest, enable, disable, drives
 summary: 'You can enable and disable cluster-wide encryption at rest. This feature is not enabled by default. To support FIPS drives, you must enable encryption at rest.'
 ---
 = Enable encryption at rest

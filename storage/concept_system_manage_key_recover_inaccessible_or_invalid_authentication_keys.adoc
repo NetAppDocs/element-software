@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys.html
 sidebar: sidebar
-keywords: slice drive error
+keywords: slice drive error, cluster fault, authentication keys
 summary: 'Occasionally, an error can occur that requires user intervention. In the event of an error, a cluster fault will be generated. The two most likely cases are described here.'
 ---
 = Recover inaccessible or invalid authentication keys
@@ -22,4 +22,4 @@ Steps to clear:
 . Add the drives again.
 . After 3 to 4 minutes, check that the `sliceServiceUnhealthy` fault has cleared.
 
-See link:reference_monitor_cluster_fault_codes.html[cluster fault codes] for more information. 
+See link:reference_monitor_cluster_fault_codes.html[cluster fault codes] for more information.

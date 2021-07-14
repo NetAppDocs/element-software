@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_delete_volume_pairs.html
 sidebar: sidebar
-keywords: volume pairs
+keywords: volume pairs, delete
 summary: 'You can delete a volume pair if want to remove a pair association between two volumes.'
 ---
 = Delete volume pairs
