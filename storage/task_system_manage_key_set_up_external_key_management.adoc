@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_key_set_up_external_key_management.html
 sidebar: sidebar
-keywords: sign request,certificate authority
+keywords: sign request, certificate authority, software encryption at rest, ear, eks, csr
 summary: 'You can follow these steps and use the Element API methods listed to set up your external key management feature.'
 ---
 = Set up external key management

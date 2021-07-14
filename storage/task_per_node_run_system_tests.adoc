@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_per_node_run_system_tests.html
 sidebar: sidebar
-keywords: storage nodes,running system tests,system tests,network settings,testing changes
+keywords: storage nodes, running system tests,s ystem tests, network settings, testing changes
 summary: 'You can test changes to the network settings after you commit them to the network configuration. You can run the tests to ensure that the storage node is stable and can be brought online without any issues.'
 ---
 = Run system tests using the per-node UI

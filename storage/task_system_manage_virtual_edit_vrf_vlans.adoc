@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_virtual_edit_vrf_vlans.html
 sidebar: sidebar
-keywords: 
+keywords: vrf vlans edit, vrf vlan attributes, change
 summary: 'You can change VRF VLAN attributes, such as VLAN name, netmask, gateway, and IP address blocks.'
 ---
 = Edit VRF VLANs

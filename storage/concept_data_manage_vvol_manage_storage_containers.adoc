@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_vvol_manage_storage_containers.html
 sidebar: sidebar
-keywords: storage container,storage containers
+keywords: storage container, storage containers, about storage containers, cluster, vvols, create, view details, chap, edit, delete
 summary: 'A storage container is a vSphere datastore representation created on a cluster running Element software.'
 ---
 = Manage storage containers

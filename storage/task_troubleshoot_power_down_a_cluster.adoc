@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_troubleshoot_power_down_a_cluster.html
 sidebar: sidebar
-keywords: 
+keywords: cluster, power down, mvip
 summary: 'You can power down an entire cluster after you have contacted NetApp Support and completed preliminary steps.'
 ---
 = Power down a cluster
