@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: upgrade/concept_element_upgrade_overview.html
-summary: This overview introduces how to perform an upgrade for a NetApp SolidFire Element storage system.
+summary: The content in this section introduces the recommended upgrade sequence for components in a NetApp SolidFire all-flash storage system.
 keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
 ---
 
