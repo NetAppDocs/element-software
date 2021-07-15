@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_ssh_management.html
+permalink: mnode/task_mnode_ssh_management.html
 summary: You can disable, enable, or determine the status of SSH support connection capability on the management node using the REST API UI.
 keywords: netapp, mnode, management node, ssh, disable, enable, rest api
 ---
@@ -50,9 +50,9 @@ https://<managementNodeIP>/mnode/
 .. Select *Authorize* to begin a session.
 .. Close the window.
 . From the REST API UI, select *PUT /settings​/ssh*.
-.. Click *Try it out*.
+.. Select *Try it out*.
 .. Set the *enabled* parameter to `false` to disable SSH or `true` to re-enable SSH capability that was previously disabled.
-.. Click *Execute*.
+.. Select *Execute*.
 
 == Determine status of the SSH capability on the management node
 You can determine whether or not SSH capability is enabled on the management node using a management node service API. SSH is disabled by default on management nodes running management services 2.18 or later.
@@ -76,10 +76,10 @@ https://<managementNodeIP>/mnode/
 .. Select *Authorize* to begin a session.
 .. Close the window.
 . From the REST API UI, select *GET /settings​/ssh*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. Select *Try it out*.
+.. Select *Execute*.
 
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

@@ -60,7 +60,7 @@ Prior to following this procedure, you should have an understanding of link:http
 . Download the OVA or ISO for your installation from link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element software] on the NetApp Support Site.
 [.line-through]#NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab#
 
-.. Click *Download Latest Release* and accept the EULA.
+.. Select *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
 . If you downloaded the OVA, follow these steps:
 .. Deploy the OVA.
@@ -201,13 +201,13 @@ NOTE: Use a unique account name for persistent volumes that is different from an
 ----
 https://[management node IP]/inventory/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
-.. From the REST API UI, click *GET ​/installations*.
-.. Click *Try it out*.
-.. Click *Execute*.
+... Select *Authorize* to begin a session.
+.. From the REST API UI, select *GET ​/installations*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the code 200 response body, copy and save the `id` for the installation for use in a later step.
 +
 Your installation has a base asset configuration that was created during installation or upgrade.
@@ -223,16 +223,16 @@ Your installation has a base asset configuration that was created during install
 https://[management node IP]/mnode
 ----
 
-.. Click *Authorize* or any lock icon and complete the following:
+.. Select *Authorize* or any lock icon and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the window.
-.. Click *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
-.. Click *Try it out*.
+.. Select *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
+.. Select *Try it out*.
 .. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
-.. Click *Execute*.
+.. Select *Execute*.
 
 [.line-through]#== (NetApp HCI only) Configure compute node assets#
 

@@ -36,14 +36,14 @@ NOTE: You must create a new NetApp HCC role in vCenter to limit the management n
 ----
 https://[management node IP]/inventory/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the window.
-.. From the REST API UI, click *GET ​/installations*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. From the REST API UI, select *GET ​/installations*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the code 200 response body, copy the `id` for the installation.
 +
 [subs=+quotes]
@@ -60,10 +60,10 @@ https://[management node IP]/inventory/1/
 +
 NOTE: Your installation has a base asset configuration that was created during installation or upgrade.
 
-.. From the REST API UI, click *GET /installations/{id}*.
-.. Click *Try it out*.
+.. From the REST API UI, select *GET /installations/{id}*.
+.. Select *Try it out*.
 .. Paste the installation asset ID into the *id* field.
-.. Click *Execute*.
+.. Select *Execute*.
 .. From the response, copy and save the cluster controller ID (`"controllerId"`) for use in a later step.
 [.line-through]#. (For compute nodes only) To locate the hardware tag for your compute node in vSphere, go to xref:task_mnode_locate_hardware_tag.adoc[How to locate a hardware tag for compute node].#
 

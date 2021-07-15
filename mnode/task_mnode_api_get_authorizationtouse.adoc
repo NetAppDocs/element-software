@@ -33,15 +33,15 @@ Authorization functionality is set up for you during management node installatio
 https://<managementNodeIP>/mnode/
 ----
 
-. Click *Authorize*.
+. Select *Authorize*.
 +
-NOTE: Alternately, you can click on a lock icon next to any service API.
+NOTE: Alternately, you can select on a lock icon next to any service API.
 
 . Complete the following:
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
 .. Do not enter a value for the client secret.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 . Close the *Available authorizations* dialog box.
 +
 NOTE: If you try to run a command after the token expires, a `401 Error: UNAUTHORIZED` message appears. If you see this, authorize again.
