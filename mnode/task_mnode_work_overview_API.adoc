@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_work_overview_API.html
+permalink: mnode/task_mnode_work_overview_API.html
 summary: You can use the management node (mNode) API to upgrade system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable or disable NetApp Support SSH access for troubleshooting.
 keywords: netapp, mnode api, management node api, rest api
 ---
@@ -33,7 +33,7 @@ Tasks you can perform with REST APIs:
 * link:task_mnode_edit_vcenter_assets.html[View or edit existing controller assets]
 * link:task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
 * link:task_mnode_remove_assets.html[Remove an asset from the management node]
-* link:task_hcc_collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs[Use the REST API to collect NetApp HCI logs]
+* link:https://docs.netapp.com/us-en/hci/docs/task_hcc_collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs[Use the REST API to collect NetApp HCI logs]
 * link:task_mnode_api_find_mgmt_svcs_version.html[Verify management node OS and services versions]
 * link:task_mnode_logs.html[Getting logs from management services]
 
@@ -41,4 +41,4 @@ Tasks you can perform with REST APIs:
 == Find more information
 * link:task_mnode_access.html[Access the management node]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
