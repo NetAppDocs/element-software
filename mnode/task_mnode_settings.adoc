@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_settings.html
+permalink: mnode/task_mnode_settings.html
 summary: You can modify and test the management node network, cluster, and system settings.
 keywords: netapp, management node ui, mnode ui, network settings, test network, cluster settings
 ---
@@ -88,4 +88,4 @@ After you change management and network settings for the management node and com
 == Find more Information
 
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

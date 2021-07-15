@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: docs/task_mnode_run_system_utilities.html
+permalink: mnode/task_mnode_run_system_utilities.html
 summary: You can create or delete cluster support bundles, reset node configuration settings, or restart networking.
-keywords: netapp, element, management node ui, mnode ui, system utilities
+keywords: netapp, Element, management node ui, mnode ui, system utilities
 ---
 
 = Run system utilities from the management node
@@ -55,4 +55,4 @@ IMPORTANT: This operation causes temporary loss of networking connectivity.
 == Find more Information
 
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

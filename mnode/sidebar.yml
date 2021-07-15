@@ -10,4 +10,28 @@ entries:
     - title: Configure a storage Network Interface Controller (NIC)
       url: /mnode/task_mnode_install_add_storage_NIC.html
     - title: Recover a management node
-      url: /mnode/task_mnode_recover.html 
+      url: /mnode/task_mnode_recover.html
+  - title: Access the management node
+    url: /mnode/task_mnode_access_ui.html
+  - title: Install or recover a management node
+    entries:
+    - title: Work with the management node UI
+      url: /mnode/task_mnode_work_overview_UI.html
+    - title: Configure alert monitoring
+      url: /mnode/task_mnode_enable_alerts.html
+    - title: Modify and test the management node network, cluster, and system settings
+      url: /mnode/task_mnode_settings.html
+    - title: Run system utilities from the management node
+      url: /mnode/task_mnode_run_system_utilities.html
+  - title: Work with the management node REST API
+    entries:
+    - title: Management node REST API UI overview
+      url: /mnode/task_mnode_work_overview_API.html
+    - title: Get authorization to use REST APIs
+      url: /mnode/task_mnode_api_get_authorizationtouse.html
+    - title: Enable Active IQ and NetApp HCI monitoring
+      url: /mnode/task_mnode_enable_activeIQ.html
+    - title: Configure NetApp Hybrid Cloud Control for multiple vCenters
+      url: /mnode/task_mnode_multi_vcenter_config.html
+    - title: Add a control asset to the management node
+      url: /mnode/task_mnode_add_assets.html
