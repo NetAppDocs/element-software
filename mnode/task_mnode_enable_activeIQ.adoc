@@ -16,7 +16,7 @@ keywords: netapp, Element, api, enable, active iq, activeiq
 [.lead]
 You can enable Active IQ storage monitoring [.line-through]#for SolidFire all-flash storage and NetApp HCI) and NetApp HCI compute monitoring (for NetApp HCI only)# if you did not already do so during installation or upgrade. You might need to use this procedure if you [.line-through]#disabled telemetry using the NetApp HCI Deployment Engine or# did not set up SolidFire Active IQ during installation for a SolidFire all-flash storage system.
 
-The Active IQ collector service forwards configuration data and Element software-based cluster performance metrics to [.line-through]#NetApp# SolidFire Active IQ for historical reporting and near real-time performance monitoring. #The NetApp HCI monitoring service enables forwarding of storage cluster faults to vCenter for alert notification.#
+The Active IQ collector service forwards configuration data and Element software-based cluster performance metrics to [.line-through]#NetApp# SolidFire Active IQ for historical reporting and near real-time performance monitoring. The NetApp [.line-through]#HCI# monitoring service enables forwarding of storage cluster faults to vCenter for alert notification.
 
 .Before you begin
 * Your storage cluster is running NetApp Element software 11.3 or later.
@@ -84,7 +84,7 @@ The Active IQ service is automatically restarted whenever assets are changed. Mo
 
 . If you have not already done so, add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# Hybrid Cloud Control to the management node known assets:
 +
-#NOTE: A controller asset is required for NetApp HCI monitoring services.#
+NOTE: A controller asset is required for NetApp [.line-through]#HCI# monitoring services.
 
 .. Select *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
 .. Select *Try it out*.

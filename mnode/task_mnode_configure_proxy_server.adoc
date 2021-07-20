@@ -18,7 +18,7 @@ If your cluster is behind a proxy server, you must configure the proxy settings 
 
 A proxy server is used for telemetry collectors and reverse tunnel connections. You can enable and configure a proxy server using the REST API UI if you did not already configure a proxy server during installation or upgrade. You can also modify existing proxy server settings or disable a proxy server.
 
-The command to configure a proxy server updates and then returns the current proxy settings for the management node. The proxy settings are used by Active IQ, the #NetApp HCI monitoring service# [.line-through]#that is deployed by the NetApp Deployment Engine#, and other Element software utilities that are installed on the management node, including the reverse support tunnel for NetApp Support.
+The command to configure a proxy server updates and then returns the current proxy settings for the management node. The proxy settings are used by Active IQ, the NetApp [.line-through]#HCI# monitoring service [.line-through]#that is deployed by the NetApp Deployment Engine#, and other Element software utilities that are installed on the management node, including the reverse support tunnel for NetApp Support.
 
 .Before you begin
 * You should know host and credential information for the proxy server you are configuring.
