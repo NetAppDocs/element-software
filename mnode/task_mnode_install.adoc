@@ -57,7 +57,7 @@ Prior to following this procedure, you should have an understanding of link:http
 
 == Download ISO or OVA and deploy the VM
 
-. Download the OVA or ISO for your installation from link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element software] on the NetApp Support Site.
+. Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site.
 [.line-through]#NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab#
 
 .. Select *Download Latest Release* and accept the EULA.
@@ -212,7 +212,7 @@ https://[management node IP]/inventory/1/
 +
 Your installation has a base asset configuration that was created during installation or upgrade.
 
-. [.line-through]#(NetApp HCI only) Locate the hardware tag for your compute node in vSphere:
+[.line-through]#. (NetApp HCI only) Locate the hardware tag for your compute node in vSphere:#
 [.line-through]#.. Select the host in the vSphere Web Client navigator.#
 [.line-through]#.. Click the *Monitor* tab, and click *Hardware Health*.#
 [.line-through]#.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.#
