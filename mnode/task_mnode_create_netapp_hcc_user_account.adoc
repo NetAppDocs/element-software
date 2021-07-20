@@ -80,7 +80,7 @@ Add the following details in the *Add permission* window:
 .. Select *Propagate to children*.
 
 == Add an asset to the management node
-Use the new HCC user account that you created in <<Set up a HCC user account>> to add a controller asset to the management node. See link:task_mnode_add_assets.html[Add a control asset to the management node].
+Use the new HCC user account that you created in <<Set up a HCC user account>> to add a controller asset to the management node. See link:task_mnode_add_assets.html[Add a controller asset to the management node].
 
 == Add NetApp compute and hardware (BMC) assets
 You can add a NetApp compute or hardware (BMC) asset by using the `POST /assets/{asset_id}/controllers` described in this procedure.

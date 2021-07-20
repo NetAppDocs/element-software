@@ -33,7 +33,7 @@ entries:
       url: /mnode/task_mnode_enable_activeIQ.html
     - title: Configure NetApp Hybrid Cloud Control for multiple vCenters
       url: /mnode/task_mnode_multi_vcenter_config.html
-    - title: Add a control asset to the management node
+    - title: Add a controller asset to the management node
       url: /mnode/task_mnode_add_assets.html
     - title: Create and manage storage cluster assets
       url: /mnode/task_mnode_manage_storage_cluster_assets.html
