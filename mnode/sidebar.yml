@@ -29,7 +29,7 @@ entries:
       url: /mnode/task_mnode_work_overview_API.html
     - title: Get authorization to use REST APIs
       url: /mnode/task_mnode_api_get_authorizationtouse.html
-    - title: Enable Active IQ and NetApp HCI monitoring
+    - title: Enable Active IQ and NetApp monitoring
       url: /mnode/task_mnode_enable_activeIQ.html
     - title: Configure NetApp Hybrid Cloud Control for multiple vCenters
       url: /mnode/task_mnode_multi_vcenter_config.html
