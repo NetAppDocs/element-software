@@ -16,7 +16,7 @@ keywords: netapp, element, management node, mnode, storage, install
 [.lead]
 You can manually install the management node for your cluster running NetApp Element software using the appropriate image for your configuration.
 
-This manual process is intended for SolidFire all-flash storage administrators [.line-through]#and NetApp HCI administrators# who are not using the NetApp Deployment Engine for management node installation.
+This manual process is intended for SolidFire all-flash storage administrators who are not using the NetApp Deployment Engine for management node installation.
 
 .What you'll need
 
@@ -53,13 +53,10 @@ Prior to following this procedure, you should have an understanding of link:http
 . <<Configure time sync>>
 . <<Set up the management node>>
 . <<Configure controller assets>>
-[.line-through]#. <<Configure compute node assets,(NetApp HCI only) Configure compute node assets>>#
 
 == Download ISO or OVA and deploy the VM
 
 . Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site.
-[.line-through]#NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab#
-
 .. Select *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
 . If you downloaded the OVA, follow these steps:
@@ -212,11 +209,7 @@ https://[management node IP]/inventory/1/
 +
 Your installation has a base asset configuration that was created during installation or upgrade.
 
-[.line-through]#. (NetApp HCI only) Locate the hardware tag for your compute node in vSphere:#
-[.line-through]#.. Select the host in the vSphere Web Client navigator.#
-[.line-through]#.. Click the *Monitor* tab, and click *Hardware Health*.#
-[.line-through]#.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.#
-. Add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# NetApp Hybrid Cloud Control [.line-through]#(for all installations)# to the management node known assets:
+. Add a vCenter controller asset for NetApp Hybrid Cloud Control to the management node known assets:
 .. Access the mnode service API UI on the management node by entering the management node IP address followed by `/mnode`:
 +
 ----
@@ -233,16 +226,6 @@ https://[management node IP]/mnode
 .. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
 .. Select *Execute*.
-
-[.line-through]#== (NetApp HCI only) Configure compute node assets#
-
-[.line-through]#. (For NetApp HCI only) Add a compute node asset to the management node known assets:#
-[.line-through]#.. Click *POST /assets/{asset_id}/compute-nodes* to add a compute node sub-asset with credentials for the compute node asset.#
-[.line-through]#.. Click *Try it out*.#
-[.line-through]#.. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.#
-[.line-through]#.. In the payload, enter the required payload values as defined in the Model tab. Enter `ESXi Host` as `type` and enter the hardware tag you saved during a previous step for `hardware_tag`.#
-[.line-through]#.. Click *Execute*.#
-
 
 [discrete]
 == Find more Information
