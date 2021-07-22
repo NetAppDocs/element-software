@@ -90,7 +90,7 @@ You can use the REST API to add one or more new storage cluster assets to the ma
 * You have copied the <<Retrieve the installation ID and cluster ID of a storage cluster asset, storage cluster ID and installation ID>> for any storage clusters you want to add.
 * If you are adding more than one storage node, you have read and understood the limitations of the link:https://docs.netapp.com/us-en/hci/docs/concept_hci_clusters.html#authoritative-storage-clusters[Authoritative cluster^] and multiple storage cluster support.
 +
-NOTE: All users defined on the authoritative cluster are defined as users on all other clusters tied to the Hybrid Cloud Control instance.
+NOTE: All users defined on the authoritative cluster are defined as users on all other clusters tied to the NetApp Hybrid Cloud Control instance.
 
 .Steps
 . Access the REST API UI for the storage service by entering the management node IP address followed by `/storage/1/`:

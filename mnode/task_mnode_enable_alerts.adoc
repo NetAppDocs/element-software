@@ -16,4 +16,4 @@ keywords: netapp, Element, management node, mnode, ui, alerts, alert monitoring
 [.lead]
 The alert monitoring tools are configured for NetApp HCI alert monitoring. These tools are not configured or used for SolidFire all-flash storage. Running the tools for these clusters results in the following 405 error, which is expected given the configuration: `webUIParseError : Invalid response from server. 405`
 
-For more information on configuring alert monitoring for NetApp HCI, see link:https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_alerts.html[Configure alert monitoring on NetApp HCI^]
+For more information on configuring alert monitoring for NetApp HCI, see link:https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_alerts.html[Configure alert monitoring^]

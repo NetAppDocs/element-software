@@ -18,7 +18,6 @@ With the management node UI (`https://<managementNodeIP>:442`), you can make cha
 
 Tasks you can perform with the management node UI:
 
-* link:task_mnode_enable_alerts.html[Configure alert monitoring on NetApp HCI]
 * link:task_mnode_settings.html[Modify and test the management node network, cluster, and system settings]
 * link:task_mnode_run_system_utilities.html[Run system utilities from the management node]
 

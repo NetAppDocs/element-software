@@ -82,7 +82,7 @@ https://[management node IP]/mnode
 +
 The Active IQ service is automatically restarted whenever assets are changed. Modifying assets results in a short delay before settings are applied.
 
-. If you have not already done so, add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# Hybrid Cloud Control to the management node known assets:
+. If you have not already done so, add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# NetApp Hybrid Cloud Control to the management node known assets:
 +
 NOTE: A controller asset is required for NetApp [.line-through]#HCI# monitoring services.
 

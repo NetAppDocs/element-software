@@ -216,7 +216,7 @@ Your installation has a base asset configuration that was created during install
 [.line-through]#.. Select the host in the vSphere Web Client navigator.#
 [.line-through]#.. Click the *Monitor* tab, and click *Hardware Health*.#
 [.line-through]#.. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.#
-. Add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# Hybrid Cloud Control [.line-through]#(for all installations)# to the management node known assets:
+. Add a vCenter controller asset for [.line-through]#NetApp HCI monitoring (NetApp HCI installations only) and# NetApp Hybrid Cloud Control [.line-through]#(for all installations)# to the management node known assets:
 .. Access the mnode service API UI on the management node by entering the management node IP address followed by `/mnode`:
 +
 ----

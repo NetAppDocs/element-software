@@ -24,8 +24,7 @@ For clusters running Element software version 11.3 or later, you can make use on
 
 == Access the management node per-node UI
 
-From the per-node UI, you can access network and cluster settings and utilize system tests and
-utilities.
+From the per-node UI, you can access network and cluster settings and utilize system tests and utilities.
 
 .Steps
 
