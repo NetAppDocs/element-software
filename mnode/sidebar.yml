@@ -13,9 +13,9 @@ entries:
       url: /mnode/task_mnode_recover.html
   - title: Access the management node
     url: /mnode/task_mnode_access_ui.html
-  - title: Install or recover a management node
+  - title: Work with the management node UI
     entries:
-    - title: Work with the management node UI
+    - title: Management node UI overview
       url: /mnode/task_mnode_work_overview_UI.html
     - title: Configure alert monitoring
       url: /mnode/task_mnode_enable_alerts.html
