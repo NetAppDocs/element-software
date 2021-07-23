@@ -48,3 +48,8 @@ Here are some errors you might see after applying a custom Protection Domain con
 |A node in a multi-node chassis is assigned a Protection Domain that is different from other nodes in the chassis.
 |Ensure that all nodes in the chassis are assigned the same Protection Domain.
 |===
+
+== Find more information
+
+link:concept_intro_custom_protection_domains.html[Custom Protection Domains^]
+link:../api/index.html[Manage storage with the Element API^]
