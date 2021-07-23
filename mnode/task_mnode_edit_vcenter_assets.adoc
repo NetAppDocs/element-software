@@ -14,7 +14,7 @@ keywords: netapp, mnode, management node, rest api, Element
 :imagesdir: ../media/
 
 [.lead]
-You can view information about and edit existing VMware vCenter controllers in the management node configuration using the REST API. Controllers are VMware vCenter instances registered to the management node for your NetApp [.line-through]#HCI# SolidFire installation.
+You can view information about and edit existing VMware vCenter controllers in the management node configuration using the REST API. Controllers are VMware vCenter instances registered to the management node for your NetApp SolidFire installation.
 
 .Before you begin
 * Ensure that your cluster version is running NetApp Element software 11.3 or later.
