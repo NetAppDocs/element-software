@@ -108,8 +108,6 @@ You can change cluster administrator account privileges for reporting, nodes, dr
 
 You can use the Element UI to change cluster administrator passwords.
 
-NOTE: To change the password for the cluster administrator in the management node, see the  link:concept_mnode_work_with_the_management_node.html[management node overview].
-
 . Click *Users* > *Cluster Admins*.
 . Click the Actions icon for the cluster administrator you want to edit.
 . Click *Edit*.
