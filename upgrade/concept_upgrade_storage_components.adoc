@@ -11,7 +11,7 @@ summary: You can upgrade the Element software on the storage nodes of your clust
 [.lead]
 You can upgrade the Element software on the link:../concepts/concept_solidfire_concepts_nodes.html[storage nodes] of your cluster, the firmware of the storage nodes, the link:../concepts/concept_intro_management_node.html[management node] for a cluster, and the link:../concepts/concept_intro_management_services_for_afa.html[management services] hosted from the management node.
 
-You can upgrade components individually or as part of an end-to-end system upgrade. For upgrade instructions, see the https://docs.netapp.com/us-en/hci/docs/task_sf_upgrade_all.html[upgrades overview^].
+You can upgrade components individually or as part of an end-to-end system upgrade. For upgrade instructions, see the link:../upgrade/task_sf_upgrade_all.html[upgrades overview].
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
