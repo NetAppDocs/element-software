@@ -61,7 +61,7 @@ homepage:
         - title: Use Element Plug-in for vCenter Server
           url: https://docs.netapp.com/us-en/vcp/
         - title: Work with the management node
-          url: /storage/concept_mnode_work_with_the_management_node.html
+          url: /mnode/task_mnode_work_overview.html
     - title: Install and use SolidFire Enterprise SDS
       links:
         - title: SolidFire eSDS overview

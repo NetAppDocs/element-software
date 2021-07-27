@@ -338,7 +338,7 @@ IMPORTANT: You should complete the steps to configure your host network to ensur
 +
 NOTE: You must download and install One Collect in order to receive an optimal support experience.
 
-** Install the management node for log collection and to enable NetApp Support access for troubleshooting. For information about management node and installation steps, see https://docs.netapp.com/us-en/hci/docs/task_mnode_install.html[here^].
+** Install the management node for log collection and to enable NetApp Support access for troubleshooting. For information about management node and installation steps, see link:../mnode/task_mnode_install.html[here^].
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

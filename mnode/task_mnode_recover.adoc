@@ -20,7 +20,7 @@ You can deploy a new OVA and run a redeploy script to pull configuration data fr
 
 .What you'll need
 
-* Your previous management node was running NetApp Element software version 11.3 or later with link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^] functionality engaged.
+* Your previous management node was running NetApp Element software version 11.3 or later with link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] functionality engaged.
 * You know the MVIP and SVIP of the cluster containing the persistent volumes.
 * Your cluster version is running NetApp Element software 11.3 or later.
 * Your installation uses IPv4. The management node 11.3 does not support IPv6.
@@ -186,6 +186,6 @@ IMPORTANT: SSH capability that provides link:task_mnode_enable_remote_support_co
 
 [discrete]
 == Find more Information
-* link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^]
+* link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
