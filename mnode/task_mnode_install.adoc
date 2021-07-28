@@ -44,7 +44,7 @@ NOTE: If you need to IPv6 support, you can use the management node 11.1.
 .About this task
 The Element 12.2 management node is an optional upgrade. It is not required for existing deployments.
 
-Prior to following this procedure, you should have an understanding of link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
+Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
 
 .Steps
 
@@ -229,7 +229,7 @@ https://[management node IP]/mnode
 
 [discrete]
 == Find more Information
-* link:https://docs.netapp.com/us-en/hci/docs/concept_hci_volumes.html#persistent-volumes[Persistent volumes^]
+* link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes]
 * link:task_mnode_add_assets.html[Add a controller asset to the management node]
 * link:task_mnode_install_add_storage_NIC.html[Configure a storage NIC]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

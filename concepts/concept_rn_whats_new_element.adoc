@@ -65,7 +65,7 @@ The following Element API methods are related to software encryption at rest (se
 
 == Storage node firmware updates
 
-Element 12.3 includes firmware updates for storage nodes. https://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html[Learn more].
+Element 12.3 includes firmware updates for storage nodes. link:../concepts/concept_rn_relatedrn_element.html#storage-firmware[Learn more].
 
 == Security enhancements
 
