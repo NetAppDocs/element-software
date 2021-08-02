@@ -11,7 +11,7 @@ summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys
 [.lead]
 After ssh is enabled on a node or cluster, you can use the `SignSshKeys` method to gain access to a shell on a node as either sfadmin or sflocal.  sflocal is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.
 
-After you use the method, you must copy the keychain from the response and save it to the system that will be initiating the SSH connection. Save it to the following path:???
+After you use the method, you must copy the keychain from the response and save it to the system that will be initiating the SSH connection.
 
 == Parameters
 
