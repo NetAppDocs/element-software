@@ -47,4 +47,4 @@ Notice files provide information about third-party copyright and licenses.
 * link:./media/mgmt-214.pdf[Notice for Management Services 2.14^]
 * link:./media/mgmt-213.pdf[Notice for Management Services 2.13^]
 * link:./media/SolidFire_eSDS_12.3.pdf[Notice for NetApp SolidFire Enterprise SDS^]
-* link:../media/storage_firmware_bundle_2.99_notices.pdf[Notice for Storage Firmware Bundle 2.99.2^]
+* link:./media/storage_firmware_bundle_2.99_notices.pdf[Notice for Storage Firmware Bundle 2.99.2^]
