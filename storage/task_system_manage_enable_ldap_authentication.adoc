@@ -15,7 +15,6 @@ You can configure LDAP with either the Element user interface or the Element API
 
 This example shows how to configure LDAP authentication on SolidFire and it uses `SearchAndBind` as the authentication type. The example uses a single Windows Server 2012 R2 Active Directory Server.
 
-
 . Click *Cluster* > *LDAP*.
 . Click *Yes* to enable LDAP authentication.
 . Click *Add a Server*.
