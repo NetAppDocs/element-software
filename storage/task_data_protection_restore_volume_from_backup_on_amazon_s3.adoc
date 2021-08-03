@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_restore_volume_from_backup_on_amazon_s3.html
 sidebar: sidebar
-keywords: 
+keywords: volume restore, amazon s3 object store
 summary: 'You can restore a volume from a backup on an Amazon S3 object store.'
 ---
 = Restore a volume from backup on an Amazon S3 object store

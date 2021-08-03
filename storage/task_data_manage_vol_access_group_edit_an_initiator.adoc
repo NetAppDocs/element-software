@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_edit_an_initiator.html
 sidebar: sidebar
-keywords:
+keywords: initiator, edit, change alias, chap, credentials
 summary: 'You can change the alias of an existing initiator or add an alias if one does not already exist.'
 ---
 = Edit an initiator

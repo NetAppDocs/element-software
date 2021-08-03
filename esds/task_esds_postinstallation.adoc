@@ -19,6 +19,8 @@ Here is a high-level overview of the tasks that you should complete after you in
 * <<Create a cluster>>
 * <<Add drives to the cluster>>
 
+NOTE: You can use the link:https://github.com/NetApp-Automation/nar_solidfire_cluster_config[`nar_solidfire_cluster_config`^] Ansible role provided by NetApp to perform the post-installation steps. If you want to manually do it, see the steps outlined below.
+
 == Configure the cluster name
 
 You should configure the cluster name on each SolidFire eSDS node before you can add the node to a cluster. You can do this using either the per-node UI or the Element API.
@@ -161,7 +163,7 @@ IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS 
 ... Select the checkboxes for the nodes. The SolidFire eSDS nodes will be displayed as SFc100.
 ... Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number.
 +
-NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.  
+NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.
 +
 NOTE: You cannot change the initial cluster administrator user name.
 +

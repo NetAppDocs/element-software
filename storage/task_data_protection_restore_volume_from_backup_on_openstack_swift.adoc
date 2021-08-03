@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_restore_volume_from_backup_on_openstack_swift.html
 sidebar: sidebar
-keywords: 
+keywords: volume restore, openstack swift object store
 summary: 'You can restore a volume from a backup on an OpenStack Swift object store.'
 ---
 = Restore a volume from backup on an OpenStack Swift object store

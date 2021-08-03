@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_snapmirror_failback_scenarios.html
 sidebar: sidebar
-keywords:
+keywords: failback scenarios, snapmirror, dr, disaster recovery
 summary: 'The SnapMirror disaster recovery functionality is illustrated in two failback scenarios. These assume the original relationship has been failed over \(broken\).'
 ---
 = SnapMirror failback scenarios

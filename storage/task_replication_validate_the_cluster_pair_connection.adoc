@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_validate_the_cluster_pair_connection.html
 sidebar: sidebar
-keywords:
+keywords: cluster pair connection, validate
 summary: 'After the cluster pairing has completed, you might want to verify the cluster pair connection to ensure replication success.'
 ---
 = Validate the cluster pair connection

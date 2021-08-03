@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_volumes_using_volume_id_or_pairing_key.html
 sidebar: sidebar
-keywords:
+keywords: volume pairings, pairing key, volume id, replication
 summary: 'The pairing process involves pairing two volumes by using either a volume ID or a pairing key.'
 ---
 = Pair volumes using a volume ID or pairing key

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_clone_a_volume_from_a_snapshot.html
 sidebar: sidebar
-keywords:
+keywords: clone volume from snapshot, volume snapshots, clone
 summary: 'You can create a new volume from a snapshot of a volume. When you do this, the system uses the snapshot information to clone a new volume using the data contained on the volume at the time the snapshot was created. This process stores information about other snapshots of the volume in the newly created volume.'
 ---
 = Clone a volume from a snapshot

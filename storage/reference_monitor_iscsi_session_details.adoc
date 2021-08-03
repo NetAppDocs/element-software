@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_monitor_iscsi_session_details.html
 sidebar: sidebar
-keywords: 
+keywords: iscsi sessions, monitor
 summary: 'You can view information about the iSCSI sessions that are connected to the cluster.'
 ---
 = iSCSI session details

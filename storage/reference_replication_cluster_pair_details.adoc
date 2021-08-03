@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_replication_cluster_pair_details.html
 sidebar: sidebar
-keywords: 
+keywords: cluster pairs, replication, data protection
 summary: 'The Cluster Pairs page on the Data Protection tab provides information about clusters that have been paired or are in the process of being paired. The system displays pairing and progress messages in the Status column.'
 ---
 = Cluster pair details

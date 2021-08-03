@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_troubleshoot_nodes.html
 sidebar: sidebar
-keywords:
+keywords: troubleshoot, nodes removing
 summary: 'You can remove nodes from a cluster for maintenance or replacement. You should use the NetApp Element UI or API to remove nodes before taking them offline.'
 ---
 = Troubleshoot nodes

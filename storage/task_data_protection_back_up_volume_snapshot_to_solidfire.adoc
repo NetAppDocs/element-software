@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_data_protection_back_up_volume_snapshot_to_solidfire.html
 sidebar: sidebar
-keywords:
+keywords: volume snapshot, backup, solidfire cluster
 summary: 'You can back up volume snapshots residing on a SolidFire cluster to a remote SolidFire cluster.'
 ---
 = Back up a volume snapshot to a SolidFire cluster
