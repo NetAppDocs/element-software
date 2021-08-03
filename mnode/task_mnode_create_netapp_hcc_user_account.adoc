@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: mnode/task_mnode_create_netapp_hcc_role_vcenter.html
 summary: You must create a NetApp HCC role in vCenter before adding vCenter assets to the management node.
-keywords: netapp, mnode, management node, vcenter, hcc, esxi, 
+keywords: netapp, mnode, management node, vcenter, hcc, esxi,
 ---
 
 = Create a NetApp HCC role in vCenter
@@ -90,6 +90,7 @@ Add the following details in the *Add permission* window:
 
 
 == NetApp ESXi host configurations
+For NetApp ESXi host configurations, you should update the NDE-created user account to the new NetApp HCC role.
 
 === NetApp ESXi host does not exist in a vCenter host cluster
 If the NetApp ESXi host does not exist inside a vCenter host cluster, you can use the following procedure to assign the NetApp HCC role and user permissions in vCenter.
@@ -153,4 +154,4 @@ If you need to manually add a new asset post installation, use the new HCC user 
 
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
