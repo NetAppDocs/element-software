@@ -61,7 +61,7 @@ For example, to add a custom port number, enter <host name or ip address>:<port 
 . *Optional:* Select *Use LDAPS Protocol*.
 . Enter the required information in *General Settings*.
 +
-link:reference_system_manage_ldap_details.md#[LDAP details]
+//link:reference_system_manage_ldap_details.md#[LDAP details]
 +
 image::../media/element_new_ldap_servers.jpg[]
 
