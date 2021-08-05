@@ -9,7 +9,7 @@ summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys
 :imagesdir: ../media/
 
 [.lead]
-After ssh is enabled on a node or cluster, you can use the `SignSshKeys` method to gain access to a shell on a node as either sfadmin or sflocal.  sflocal is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.
+After ssh is enabled on a node or cluster, you can use the `SignSshKeys` method to gain access to a shell on a node as either a system admin or sflocal. sflocal is a new system account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.
 
 After you use the method, you must copy the keychain from the response and save it to the system that will be initiating the SSH connection.
 
@@ -46,7 +46,7 @@ No
 a|
 sfadmin
 a|
-Change to `true` to enable sfadmin access for duration of session.
+Change to `true` to enable system admin access for duration of session.
 a|
 boolean
 a|
@@ -119,7 +119,7 @@ This method returns a response similar to the following example:
 }
 ----
 
-In this example, a public key is signed and returned that is valid for the duration (1-24 hours). If a cluster admin makes the request, sfadmin will be granted in addition to sflocal and be reflected in the principal names in the keygen_status.
+In this example, a public key is signed and returned that is valid for the duration (1-24 hours). If a cluster admin makes the request, `sfadmin` access will be granted in addition to sflocal and be reflected in the principal names in the keygen_status.
 
 == New since version
 
