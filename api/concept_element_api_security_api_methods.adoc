@@ -26,7 +26,7 @@ You can integrate Element software with external security-related services, such
 * xref:reference_element_api_listkeyserverskmip.adoc[ListKeyServersKmip]
 * xref:reference_element_api_modifykeyserverkmip.adoc[ModifyKeyServerKmip]
 * xref:reference_element_api_removekeyserverfromproviderkmip.adoc[RemoveKeyServerFromProviderKmip]
-* xref:api/reference_element_api_signsshkeys.adoc[SignSshKeys]
+* xref:reference_element_api_signsshkeys.adoc[SignSshKeys]
 * xref:reference_element_api_testkeyproviderkmip.adoc[TestKeyProviderKmip]
 * xref:reference_element_api_testkeyserverkmip.adoc[TestKeyServerKmip]
 
