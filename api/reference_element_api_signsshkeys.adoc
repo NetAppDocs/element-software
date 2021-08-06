@@ -9,9 +9,19 @@ summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys
 :imagesdir: ../media/
 
 [.lead]
-After ssh is enabled on a node or cluster, you can use the `SignSshKeys` method to gain access to a shell on a node as either a system admin or sflocal. sflocal is a new system account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.
+After SSH is enabled on the cluster using the link:../api/reference_element_api_enablessh.html[EnableSSH method], you can use the `SignSshKeys` method to gain access to a shell on a node.
 
-After you use the method, you must copy the keychain from the response and save it to the system that will be initiating the SSH connection.
+sflocal is a new system account as of Element 12.5 that allows for basic troubleshooting on a node. This API enables SSH access using the sflocal system account across all nodes in the cluster.
+
+WARNING: Unless advised by NetApp Support, any alterations to the system are unsupported, voiding your support contract, and may result in instability or inaccessibility of data.
+
+After you use the method, you must copy the keychain from the response, save it to the system that will be initiating the SSH connection, then run the following command:
+
+----
+ssh -i <user> sflocal@<node_ip>
+----
+
+`User` is the cluster username used to run the API command and `node_ip` is the IP address of the node.
 
 == Parameters
 
@@ -41,16 +51,6 @@ a|
 string
 a|
 Null
-a|
-No
-a|
-sfadmin
-a|
-Change to `true` to enable system admin access for duration of session.
-a|
-boolean
-a|
-False
 a|
 No
 |===
@@ -119,7 +119,7 @@ This method returns a response similar to the following example:
 }
 ----
 
-In this example, a public key is signed and returned that is valid for the duration (1-24 hours). If a cluster admin makes the request, `sfadmin` access will be granted in addition to sflocal and be reflected in the principal names in the keygen_status.
+In this example, a public key is signed and returned that is valid for the duration (1-24 hours).
 
 == New since version
 
