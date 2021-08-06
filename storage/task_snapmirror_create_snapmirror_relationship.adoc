@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_snapmirror_create_snapmirror_relationship.html
 sidebar: sidebar
-keywords:
+keywords: relationships, create, snapmirror, ui
 summary: 'You must create a SnapMirror relationship in the NetAppElement UI.'
 ---
 = Create a SnapMirror relationship

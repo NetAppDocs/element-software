@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_fips_enable_the_fips_drives_feature.html
 sidebar: sidebar
-keywords: fips,security,federal information processing standards,140-2
+keywords: fips, security, federal information processing standards, 140-2, enable, ear
 summary: 'You can enable the FIPS drives feature by using the NetApp Element software EnableFeature API method.'
 ---
 = Enable the FIPS drives feature

@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_snapmirror_disaster_recovery.html
 sidebar: sidebar
-keywords: dr,disaster recovery
+keywords: dr, disaster recovery, snapmirror
 summary: 'In the event of a problem with a volume or cluster running NetApp Element software, use the SnapMirror functionality to break the relationship and failover to the destination volume.'
 ---
 = Disaster recovery using SnapMirror

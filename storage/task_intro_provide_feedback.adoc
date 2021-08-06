@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_intro_provide_feedback.html
 sidebar: sidebar
-keywords:
+keywords: feedback, web user interface, UI issues, feedback form, relevant information, screenshots
 summary: 'You can help improve the Element software web user interface and address any UI issues by using the feedback form that is accessible throughout the UI.'
 ---
 = Provide feedback

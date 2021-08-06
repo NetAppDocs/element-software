@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.html
 sidebar: sidebar
-keywords: element, terms of use, banner, config
+keywords: element, terms of use, banner, config, edit, terms of use, disable, enable
 summary: 'You can enable, edit, or configure a banner that contains a message for the user.'
 ---
 = Manage the Terms of Use banner

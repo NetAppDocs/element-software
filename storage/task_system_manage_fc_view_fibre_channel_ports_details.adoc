@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_system_manage_fc_view_fibre_channel_ports_details.html
 sidebar: sidebar
-keywords:
+keywords: fibre channel ports, details, view, fc ports, hba, wwnn, wwpn
 summary: 'You can view details of Fibre Channel ports such as its status, name, and port address from the FC Ports page.'
 ---
 = View Fibre Channel ports details

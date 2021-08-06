@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_vvol_bindings.html
 sidebar: sidebar
-keywords: 
+keywords: bindings, vvols, bound virtual volumes
 summary: 'To perform I/O operations with a virtual volume, an ESXi host must first bind the virtual volume.'
 ---
 = Bindings
