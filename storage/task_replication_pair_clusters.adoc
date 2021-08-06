@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_replication_pair_clusters.html
 sidebar: sidebar
-keywords:
+keywords: pair clusters, replication, connect clusters, data protection
 summary: 'You must pair two clusters as a first step to using real-time replication functionality. After you pair and connect two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing continuous data protection \(CDP\).'
 ---
 = Pair clusters for replication
@@ -11,7 +11,7 @@ summary: 'You must pair two clusters as a first step to using real-time replicat
 [.lead]
 You must pair two clusters as a first step to using real-time replication functionality. After you pair and connect two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing continuous data protection (CDP).
 
-.What you'll need 
+.What you'll need
 * You must have cluster administrator privileges to one or both clusters being paired.
 * All node MIPs and SIPs are routed to each other.
 * Less than 2000 ms of round-trip latency between clusters.

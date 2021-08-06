@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_per_node_access_settings.html
 sidebar: sidebar
-keywords: nodes,accessing node settings,accessing node settings with per-node UI
+keywords: nodes, accessing node settings, accessing node settings with per-node UI
 summary: 'You can access network settings, cluster settings, and system tests and utilities in the per-node user interface after you enter the management node IP and authenticate.'
 ---
 = Access per-node settings using the per-node UI

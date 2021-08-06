@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_system_manage_manage_ldap.html
 sidebar: sidebar
-keywords: element, solidfire, ldap, enable, disable, test, config
+keywords: element, solidfire, ldap, enable, disable, test, config, addresses, pre-configuration steps, authentication, element api, view ldap details
 summary: 'You can set up the Lightweight Directory Access Protocol \(LDAP\) to enable secure, directory-based login functionality to SolidFire storage. You can configure LDAP at the cluster level and authorize LDAP users and groups.'
 ---
 = Manage LDAP
@@ -30,6 +30,8 @@ Enabling LDAP involves the following high-level steps, described in detail:
 
 Before you enable LDAP support in Element, you should set up a Windows Active Directory Server and perform other pre-configuration tasks.
 
+.Steps
+
 . Set up a Windows Active Directory Server.
 . *Optional:* Enable LDAPS support.
 . Create users and groups.
@@ -45,6 +47,8 @@ You can configure LDAP with either the Element user interface or the Element API
 
 This example shows how to configure LDAP authentication on SolidFire and it uses `SearchAndBind` as the authentication type. The example uses a single Windows Server 2012 R2 Active Directory Server.
 
+.Steps
+
 . Click *Cluster* > *LDAP*.
 . Click *Yes* to enable LDAP authentication.
 . Click *Add a Server*.
@@ -57,9 +61,9 @@ For example, to add a custom port number, enter <host name or ip address>:<port 
 . *Optional:* Select *Use LDAPS Protocol*.
 . Enter the required information in *General Settings*.
 +
-link:reference_system_manage_ldap_details.md#[LDAP details]
+//link:reference_system_manage_ldap_details.md#[LDAP details]
 +
-image::../media/element_ldap_servers.png[]
+image::../media/element_new_ldap_servers.jpg[]
 
 . Click *Enable LDAP*.
 . Click *Test User Authentication* if you want to test the server access for a user.
@@ -68,7 +72,7 @@ image::../media/element_ldap_servers.png[]
 . To create a user in this group so that anyone can log in, complete the following:
  .. Click *User* > *View*.
 +
-image::../media/element_ldap_cluster_admin.png[]
+image::../media/element_new_cluster_admin.jpg[]
 
  .. For the new user, click *LDAP* for the User Type, and paste the group you copied to the Distinguished Name field.
  .. Select the permissions, typically all permissions.
@@ -88,6 +92,8 @@ You can configure storage system integration with an existing LDAP server. This 
 You can configure LDAP with either the Element user interface or the Element API. This procedure describes how to configure LDAP using the Element API.
 
 To leverage LDAP authentication on a SolidFire cluster, you enable LDAP authentication first on the cluster using the `EnableLdapAuthentication` API method.
+
+.Steps
 
 . Enable LDAP authentication first on the cluster using the `EnableLdapAuthentication` API method.
 . Enter the required information.
@@ -196,6 +202,8 @@ NOTE: You must enable LDAP to view these LDAP configuration settings.
 
 After configuring LDAP, you should test it by using either the Element UI or the Element API `TestLdapAuthentication` method.
 
+.Steps
+
 . To test the LDAP configuration with the Element UI, do the following:
  .. Click *Cluster* > *LDAP*.
  .. Click *Test LDAP Authentication*.
@@ -273,6 +281,8 @@ a|
 You can disable LDAP integration using the Element UI.
 
 Before you begin, you should note all the configuration settings, because disabling LDAP erases all settings.
+
+.Steps
 
 . Click *Cluster* > *LDAP*.
 . Click *No*.

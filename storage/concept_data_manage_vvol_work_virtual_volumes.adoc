@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_data_manage_vvol_work_virtual_volumes.html
 sidebar: sidebar
-keywords: virtual volume
+keywords: virtual volume, configure vvols, use UI to manage
 summary: 'You can view information and perform tasks for virtual volumes and their associated storage containers, protocol endpoints, bindings, and hosts using the Element UI.'
 ---
 = Work with virtual volumes

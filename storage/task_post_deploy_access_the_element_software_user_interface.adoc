@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_post_deploy_access_the_element_software_user_interface.html
 sidebar: sidebar
-keywords:
+keywords: Element UI, accessing, using MVIP, blockers, host name, certificate, messages
 summary: 'You can access the Element UI by using the management virtual IP \(MVIP\) address of the primary cluster node.'
 ---
 = Access the Element software user interface

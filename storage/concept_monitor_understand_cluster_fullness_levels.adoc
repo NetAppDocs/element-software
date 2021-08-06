@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_monitor_understand_cluster_fullness_levels.html
 sidebar: sidebar
-keywords: cluster fullness levels,understanding,fullness levels
+keywords: cluster fullness levels, understanding, fullness levels
 summary: 'The cluster running Element software generates cluster faults to warn the storage administrator when the cluster is running out of capacity. There are three levels of cluster fullness, all of which are displayed in the NetApp Element UI: warning, error, and critical.'
 ---
 = Understand cluster fullness levels

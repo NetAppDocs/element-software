@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_data_protection_snapshot_schedule_details.html
 sidebar: sidebar
-keywords: snapshots,snapshot schedules
+keywords: snapshots, snapshot schedules
 summary: 'On the Data Protection \> Schedules page, you can view the following information in the list of snapshot schedules.'
 ---
 = Snapshot schedule details

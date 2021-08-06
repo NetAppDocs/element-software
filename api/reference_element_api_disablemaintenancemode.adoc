@@ -108,4 +108,4 @@ This method returns a response similar to the following example:
 
 == Find more information
 
-http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html[NetApp HCI storage maintenance mode concepts]
+http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html[NetApp HCI storage maintenance mode concepts^]
