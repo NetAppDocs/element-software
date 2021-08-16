@@ -35,7 +35,7 @@ Many NetApp Hybrid Cloud Control features are designed to work with multiple sto
 
 Before proceeding with managing multiple storage clusters, you should ensure that users defined on the authoritative clusters are defined on all other storage clusters with the same permissions. You can manage users from the link:../storage/concept_system_manage_manage_cluster_administrator_users.html[Element software user interface].
 
-See link:https://docs.netapp.com/us-en/hci/docs/task_mnode_manage_storage_cluster_assets.html[create and manage storage cluster assets^] for more information on working with management node storage cluster assets.
+See link:../mnode/task_mnode_manage_storage_cluster_assets.html[create and manage storage cluster assets] for more information on working with management node storage cluster assets.
 
 == Rule of thirds
 

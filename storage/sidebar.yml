@@ -433,6 +433,8 @@ entries:
         url: "/storage/task_per_node_run_system_tests.html"
       - title: Run system utilities using the per-node UI
         url: "/storage/task_per_node_run_system_utilities.html"
+      - title: Work with the management node
+        url: "/storage/concept_mnode_work_with_the_management_node.html"
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
   - title: Manage storage with NetApp Hybrid Cloud Control
