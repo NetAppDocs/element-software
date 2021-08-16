@@ -370,6 +370,8 @@ entries:
         url: "/storage/task_data_protection_restore_volume_from_backup_on_openstack_swift.html"
       - title: Restore a volume from backup on a SolidFire storage cluster
         url: "/storage/task_data_protection_restore_volume_from_backup_on_solidfire.html"
+    - title: Configure custom protection domains
+      url: "/storage/task_data_protection_configure_custom_protection_domains.html"
   - title: Troubleshoot your system
     url: "/storage/concept_system_monitoring_and_troubleshooting.html"
     entries:
