@@ -84,7 +84,7 @@ sh /sf/bin/SignSshKeys.sh --ip 10.116.139.195 --user admin --duration 2
 . SSH to the node IPs:
 +
 ----
-ssh -i [cluster admin user name] sflocal@[node_ip]
+ssh -i user sflocal@[node_ip]
 ----
 +
 You will be able to run basic Linux system and network troubleshooting commands, such as `ipmitool`, `ping`, and other read-only commands.
@@ -143,7 +143,7 @@ sh /sf/bin/SignSshKeys.sh --ip 192.168.0.1 --user admin --duration 2 --sfadmin
 . SSH to the node IPs:
 +
 ----
-ssh -i [cluster admin user name] sfadmin@[node_ip]
+ssh -i user sfadmin@[node_ip]
 ----
 
 . To close the remote support tunnel, enter the following:
@@ -163,7 +163,7 @@ You can perform basic troubleshooting of a node that has not yet been added to a
 . SSH to the node IP:
 +
 ----
-ssh -i user [cluster admin user name] sflocal@[node_ip]
+ssh -i user sflocal@[node_ip]
 ----
 
 . (Optional) Disable link:task_mnode_ssh_management.html[remote access functionality] again after troubleshooting is complete.
