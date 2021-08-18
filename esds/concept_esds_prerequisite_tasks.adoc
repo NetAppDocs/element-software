@@ -22,6 +22,8 @@ Ensure that you perform the necessary checks and verify that your environment me
 +
 NOTE: By default, RHEL chooses `xfs` as the default file system for the partitions that you manually create. You should change it to `ext4`, except for the `/boot` and `swap` partitions. Your `/boot` partition should use `ext2`.
 +
+If your SATA disk is 250GB, follow the recommended partition below. If your SATA disk has more space, you can increase the partition size.
++
 [%header,cols=2*]
 |===
 | Partition| Size
