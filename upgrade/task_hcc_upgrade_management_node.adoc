@@ -14,7 +14,7 @@ keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade your management node to management node version 12.3.x from version 11.0 or later.
+You can upgrade your management node to management node version 12.3.1 or 12.3 from version 11.0 or later.
 
 Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. If the management node is version 11.3 or higher, you can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
 
@@ -23,6 +23,8 @@ NOTE: The vCenter Plug-in 4.4 or later requires a management node 11.3 or later 
 .Upgrade options
 
 Choose one of the following management node upgrade options:
+
+NOTE: There are no additional functionality changes or bug fixes in management node 12.3.1. If you are already running management node 12.3, you do not need to upgrade it to 12.3.1.
 
 * If you are upgrading from management node 12.2:
 <<Upgrade a management node to version 12.3.x from 12.2>>
