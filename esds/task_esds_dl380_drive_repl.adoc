@@ -211,13 +211,13 @@ The `sf_sds_config.yaml` file is stored in `/opt/sf/`. This file includes all th
 +
 You can see the model number and serial number of the new cache drive. See the following sample output:
 +
-image::../media/esds_nvme_list.png[Shows the model number and serial number of the new cache drive.]
+image::../media/dl380-cache.png[Shows the model number and serial number of the new cache drive.]
 
  .. Add the new cache drive information in `/opt/sf/sf_sds_config.yaml`.
 +
 You should replace the existing cache drive model number and serial number with the corresponding information for the new cache drive. See the following example:
 +
-image::../media/esds_cache_drive_info.png[Shows the model number and serial number.]
+image::../media/dl380_model.png[Shows the model number and serial number.]
 
  .. Save the `/opt/sf/sf_sds_config.yaml` file.
 . Perform the steps for the scenario that is applicable to you:
