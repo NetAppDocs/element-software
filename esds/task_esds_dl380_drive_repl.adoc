@@ -183,7 +183,7 @@ NOTE: Cache drives are of lesser capacity than storage drives.
 +
 The following image shows the front of the server with the drives:
 +
-image::../media/esds_drive_dl380.jpeg[Shows the drives on the DL380 node.]
+image::../media/esds_drive_dl380.jpg[Shows the drives on the DL380 node.]
 
  .. Press the power button on the drive that you want to replace. The LED blinks for 5-10 seconds and stops.
  .. After the LED stops blinking and the drive is powered off, remove it from the server by pressing the red button and pulling the latch.

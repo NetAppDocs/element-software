@@ -275,7 +275,7 @@ Client iSCSI communications
 a|
 SOAP server
 a|
-SolidFire eSDSsfapp
+SolidFire eSDS sfapp
 a|
 7627 TCP
 a|
