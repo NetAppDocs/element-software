@@ -48,7 +48,7 @@ a|
 a|
 5GB
 a|
-/ 
+/
 a|
 10GB minimum
 a|
@@ -75,7 +75,7 @@ rhel-7-server-extras-rpms
 *** If you want to disable IPv6, follow the steps detailed in this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_disable_IPv6_for_SolidFire_eSDS[KB article (login required)^].
 
 .*Install the required software*
-** Install Ansible, Git, Podman, and Python 3.0. 
+** Install Ansible, Git, Podman, and Python 3.0.
 +
 NOTE: For Element 12.3, the supported Podman version is 1.6.4.
 
@@ -104,12 +104,12 @@ NOTE: Ensure that you always download the latest versions of the roles.
 ... Run the `ansible-galaxy role list` command to ensure that Ansible is configured to utilize the new roles.
 +
 ----
- $ ansible-galaxy role list
- # ~/.ansible/roles
  - nar_solidfire_sds_install, (unknown version)
  - nar_solidfire_sds_upgrade, (unknown version)
  - ansible, (unknown version)
  - nar_solidfire_sds_compliance, (unknown version)
+ - nar_solidfire_cluster_config, (unknown version)
+ - nar_solidfire_sds_uninstall, (unknown version)
 ----
 
 ... Create the playbook to use for the compliance check.
@@ -249,7 +249,7 @@ a|
 a|
 Remote replication cluster pairing communication
 a|
-SolidFire eSDSsfapp
+SolidFire eSDS sfapp
 a|
 Per-node UI and API access to create a cluster
 a|
