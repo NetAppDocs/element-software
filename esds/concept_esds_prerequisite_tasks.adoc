@@ -329,7 +329,7 @@ firewall-cmd –-reload
 ----
 
 .*Configure your host network*
-* Configure your host network using the link:concept_esds_networking_best_practices.adoc[best practices^] provided.
+* Configure your host network using the link:task_esds_configure_the_interface_config_files.html[best practices^] provided.
 +
 IMPORTANT: You should complete the steps to configure your host network to ensure a successful installation of SolidFire eSDS.
 
