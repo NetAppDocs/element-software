@@ -37,6 +37,10 @@ Dynamic node rating allows for performance to scale with the number of cores on 
 
 You can now use a single bond network configuration for your host with SolidFire eSDS.
 
+=== New server support in SolidFire Enterprise SDS
+
+SolidFire eSDS is now available on HPE DL380 servers. See the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)^] for more information about the supported configuration.
+
 == Element 12.3
 
 Learn more about what is new in Element 12.3.
@@ -103,7 +107,7 @@ Element 12.3 resolves security vulnerabilities for storage nodes and the managem
 
 === Improved behavior for failing drives
 
-Element 12.3 performs periodic health checks on SolidFire appliance drives using SMART health data from the drives. A drive that fails the SMART health check might be close to failure. If a drive fails the SMART health check, the drive is transitioned to the *Failed* state, and a critical severity cluster fault appears: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive`.
+Element 12.3 performs periodic health checks on SolidFire appliance drives using SMART health data from the drives. A drive that fails the SMART health check might be close to failure. If a drive fails the SMART health check, the drive is transitioned to the *Failed* state, and a critical severity cluster fault appears: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive.`
 
 === New server support in SolidFire Enterprise SDS
 
