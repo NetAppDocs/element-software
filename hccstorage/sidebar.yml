@@ -1,0 +1,17 @@
+section: hccstorage
+title: Manage storage with NetApp Hybird Cloud Control
+entries:
+  - title: Manage storage with NetApp Hybrid Cloud Control overview
+    url: /hccstorage/task_hcc_manage_storage_overview.html
+  - title: Create and manage user accounts by using NetApp Hybrid Cloud Control
+    url: /hccstorage/task_hcc_manage_accounts.html
+  - title: Add and manage storage clusters using NetApp Hybrid Cloud Control
+    url: /hccstorage/task_hcc_manage_storage_clusters.html
+  - title: Create and manage volumes by using NetApp Hybrid Cloud Control
+    url: /hccstorage/task_hcc_manage_vol_management.html
+  - title: Create and manage volume access groups
+    url: /hccstorage/task_hcc_manage_vol_access_groups.html
+  - title: Create and manage initiators
+    url: /hccstorage/task_hcc_manage_initiators.html
+  - title: Create and manage volume QoS policies
+    url: /hccstorage/task_hcc_qos_policies.html
