@@ -27,6 +27,7 @@ sidebar:
       url: https://docs.netapp.com/us-en/vcp/
     - section: hccstorage
     - section: mnode
+    - section: hccmonitor
     - section: upgrade
     - title: Earlier versions
       url: /element-earlierversions.html

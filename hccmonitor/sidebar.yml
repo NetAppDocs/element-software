@@ -1,0 +1,13 @@
+section: hccmonitor
+title: Monitor your SolidFire system with NetApp Hybrid Cloud Control
+entries:
+  - title: View your inventory on the Nodes page of NetApp Hybrid Cloud Control
+    url: /hccmonitor/task_hcc_nodes.html
+  - title: Edit BMC connection information with NetApp Hybrid Cloud Control
+    url: /hccmonitor/task_hcc_edit_bmc_info.html
+  - title: Monitor volumes on your storage cluster with NetApp Hybrid Cloud Control
+    url: /hccmonitor/task_hcc_volumes.html
+  - title: Monitor performance, capacity, and cluster health with NetApp Hybrid Cloud Control connections to Active IQ
+    url: /hccmonitor/task_hcc_activeiq.html
+  - title: Collect logs for troubleshooting
+    url: /hccmonitor/task_hcc_collectlogs.html
