@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hccmonitor/task_hcc_volumes.html
 summary: You can monitor volumes in your system by using the Hybrid Cloud Control Volumes page.
-keywords: netapp, hci, on premise, volumes, storage, access groups, initiators, capacity, data protection, QoS
+keywords: netapp, element, volumes, storage, access groups, initiators, capacity, data protection, QoS
 ---
 
 = Monitor volumes on your storage cluster
@@ -30,8 +30,8 @@ You can access this information only if you have NetApp Hybrid Cloud Control adm
 ----
 https://[management node IP address]
 ----
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
-. In the left navigation blue box, select the NetApp HCI installation.
+. Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
+. In the left navigation blue box, select the SolidFire all-flash storage installation.
 +
 The Hybrid Cloud Control Dashboard appears.
 . In the left navigation, select the cluster and select *Storage* > *Volumes*.
@@ -71,4 +71,4 @@ See information about link:concept_hci_performance#qos-performance.html[performa
 == Find more information
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element documentation^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

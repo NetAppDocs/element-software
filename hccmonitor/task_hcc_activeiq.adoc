@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hccmonitor/task_hcc_activeiq.html
 summary: You can monitor your cluster health with SolidFire Active IQ.
-keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance
+keywords: netapp, element, activeiq, active iq, cluster, performance
 ---
 
 = Monitor performance, capacity, and cluster health with SolidFire Active IQ
@@ -37,22 +37,22 @@ As part of your normal support contract, NetApp Support monitors this data and a
 ----
 https://[management node IP address]
 ----
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
 . From the Dashboard, click the menu on the upper right.
 . Select *View Active IQ*.
 +
 The link:https://activeiq.solidfire.com[SolidFire Active IQ Dashboard^] appears.
 . To learn about SolidFire Active IQ, from the Dashboard, click the menu icon on the upper right and click *Documentation*.
-. From the SolidFire Active IQ interface, verify that the NetApp HCI compute and storage nodes are reporting telemetry correctly to Active IQ:
-.. If you have more than one NetApp HCI installation, click *Select a Cluster* and choose the cluster from the list.
+. From the SolidFire Active IQ interface, verify that the NetApp SolidFire all-flash storage nodes are reporting telemetry correctly to Active IQ:
+.. If you have more than one SolidFire all-flash storage installation, click *Select a Cluster* and choose the cluster from the list.
 .. In the left navigation pane, click *Nodes*.
 . If a node or nodes are missing from the list, contact NetApp Support.
 
-TIP: To view the number of storage and compute resources, look at the Hybrid Cloud Control (HCC) Dashboard. See link:task_hcc_dashboard.html[Monitor storage and compute resources with the HCC Dashboard].
+TIP: To view the number of storage and compute resources, look at the Hybrid Cloud Control (HCC) Dashboard. See link:task_hcc_dashboard.html[Monitor storage resources with the HCC Dashboard].
 
 
 [discrete]
 == Find more information
 * https://help.monitoring.solidfire.com[NetApp SolidFire Active IQ Documentation^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

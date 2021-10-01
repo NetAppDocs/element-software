@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: hccmonitor/task_hcc_collectlogs.html
-summary: You can use NetApp Hybrid Cloud Control to collect logs from your NetApp HCI or Element installation to help with troubleshooting.
-keywords: netapp, hci, logs, collection, troubleshooting, monitor
+summary: You can use NetApp Hybrid Cloud Control to collect logs from your Element installation to help with troubleshooting.
+keywords: netapp, element, logs, collection, troubleshooting, monitor
 ---
 
 = Collect logs for troubleshooting
@@ -15,7 +15,7 @@ keywords: netapp, hci, logs, collection, troubleshooting, monitor
 
 [.lead]
 
-If you have trouble with your NetApp HCI or SolidFire all-flash storage installation, you can collect logs to send to NetApp Support to help with diagnosis. You can either use NetApp Hybrid Cloud Control or the REST API to collect logs on NetApp HCI or Element systems.
+If you have trouble with your SolidFire all-flash storage installation, you can collect logs to send to NetApp Support to help with diagnosis. You can either use NetApp Hybrid Cloud Control or the REST API to collect logs on an Element system.
 
 .What you'll need
 * Ensure that your storage cluster version is running NetApp Element software 11.3 or later.
@@ -37,11 +37,11 @@ You can access the log collection area from the NetApp Hybrid Cloud Control Dash
 ----
 https://[management node IP address]
 ----
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, click the menu on the upper right.
 . Select *Collect Logs*.
 +
-The *Collect Logs* page appears. If you have collected logs before, you can download the existing log package, or begin a new log collection.
+If you have collected logs before, you can download the existing log package, or begin a new log collection.
 . Select a date range in the *Date Range* drop-down menu to specify what dates the logs should include.
 +
 If you specify a custom start date, you can select the date to begin the date range. Logs will be collected from that date up to the present time.
@@ -59,7 +59,7 @@ NOTE: Depending on the logs you collect, the progress bar might remain at a cert
 The log package is in a compressed UNIX .tgz file format.
 
 == Use the REST API to collect logs
-You can use REST API to collect NetApp HCI or Element logs.
+You can use REST API to collect Element logs.
 
 .Steps
 . Locate the storage cluster ID:
@@ -72,7 +72,7 @@ https://[management node IP]/logs/1/
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client` if the value is not already populated.
 ... Click *Authorize* to begin a session.
-. Collect logs from NetApp HCI or Element:
+. Collect logs from Element:
 .. Click *POST /bundle*.
 .. Click *Try it out*.
 .. Change the values of the following parameters in the *Request body* field depending on which type of logs you need to collect and for what time range:
@@ -144,4 +144,4 @@ The log package is in a compressed UNIX .tgz file format.
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
