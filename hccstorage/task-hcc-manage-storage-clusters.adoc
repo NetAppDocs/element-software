@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: hccstorage/task_hcc_manage_storage_clusters.html
+permalink: hccstorage/task-hcc-manage-storage-clusters.html
 summary: You can add, remove, and change storage clusters using the NetApp Hybrid Control UI.
-keywords: netapp, hci, element, storage cluster, hybrid cloud control, hcc
+keywords: netapp, element, storage cluster, hybrid cloud control, hcc
 ---
 
 = Add and manage storage clusters using NetApp Hybrid Cloud Control
@@ -14,12 +14,12 @@ keywords: netapp, hci, element, storage cluster, hybrid cloud control, hcc
 :imagesdir: ../media/
 
 [.lead]
-You can add storage clusters to the management node assets inventory so that they can be managed using NetApp Hybrid Cloud Control (HCC). The first storage cluster added during system setup is the default link:concept_hci_clusters.html#authoritative-storage-clusters[authoritative storage cluster], but additional clusters can be added using HCC UI.
+You can add storage clusters to the management node assets inventory so that they can be managed using NetApp Hybrid Cloud Control (HCC). The first storage cluster added during system setup is the default link:concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster], but additional clusters can be added using HCC UI.
 
 After a storage cluster is added, you can monitor cluster performance, change storage cluster credentials for the managed asset, or remove a storage cluster from the management node asset inventory if it no longer needs to be managed using HCC.
 
 .What you'll need
-* *Cluster administrator permissions*: You have permissions as administrator on the link:concept_hci_clusters.html#authoritative-storage-clusters[authoritative storage cluster]. The authoritative cluster is the first cluster added to the management node inventory during system setup.
+* *Cluster administrator permissions*: You have permissions as administrator on the link:concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster]. The authoritative cluster is the first cluster added to the management node inventory during system setup.
 * *Element software*: Your storage cluster version is running NetApp Element software 11.3 or later.
 * *Management node*: You have deployed a management node running version 11.3 or later.
 * *Management services*: You have updated your management services bundle to version 2.17 or later.
@@ -91,4 +91,4 @@ CAUTION: Clicking *Yes* next removes the cluster from the installation.
 [discrete]
 == Find more information
 * link:task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

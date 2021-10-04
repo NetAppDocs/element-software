@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: hccmonitor/task_hcc_collectlogs.html
+permalink: hccstorage/task-hcc-collectlogs.html
 summary: You can use NetApp Hybrid Cloud Control to collect logs from your Element installation to help with troubleshooting.
 keywords: netapp, element, logs, collection, troubleshooting, monitor
 ---

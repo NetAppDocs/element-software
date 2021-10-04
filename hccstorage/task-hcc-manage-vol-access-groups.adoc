@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: hccstorage/task_hcc_manage_vol_access_groups.html
-summary: Learn how to add new a volume access groups to work with NetApp HCI storage volumes, remove volume access groups from the system, edit existing volume access groups, and view details of volume access groups.
-keywords: netapp, hci, on premise, cluster, element
+permalink: hccstorage/task-hcc-manage-vol-access-groups.html
+summary: Learn how to add new a volume access groups to work with SolidFire all-flash storage volumes, remove volume access groups from the system, edit existing volume access groups, and view details of volume access groups.
+keywords: netapp, element, cluster, volume, access
 ---
 
 = Create and manage volume access groups
@@ -18,7 +18,7 @@ You can create new volume access groups, make changes to the name, associated in
 
 .What you'll need
 
-* You have administrator credentials for this NetApp HCI system.
+* You have administrator credentials for this SolidFire all-flash storage system.
 * You have upgraded your management services to at least version 2.15.28. NetApp Hybrid Cloud Control storage management is not available in earlier service bundle versions.
 * Ensure you have a logical naming scheme for volume access groups.
 
@@ -27,7 +27,7 @@ You can add a volume access group to a storage cluster by using NetApp Hybrid Cl
 
 .Steps
 
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes*.
 . Select the *Access Groups* tab.
@@ -44,7 +44,7 @@ You can edit the properties of an existing volume access group by using NetApp H
 
 .Steps
 
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes*.
 . Select the *Access Groups* tab.
@@ -59,7 +59,7 @@ You can remove a volume access group by using NetApp Hybrid Cloud Control, and a
 
 .Steps
 
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes*.
 . Select the *Access Groups* tab.
@@ -71,7 +71,7 @@ You can remove a volume access group by using NetApp Hybrid Cloud Control, and a
 
 [discrete]
 == Find more information
-* link:concept_hci_volume_access_groups.html[Learn about volume access groups]
-* link:task_hcc_manage_initiators.html#add-initiators-to-a-volume-access-group[Add initiator to a volume access group]
+* link:concepts/concept_solidfire_concepts_volume_access_groups.html[Learn about volume access groups]
+* link:task-hcc-manage-initiators.html#add-initiators-to-a-volume-access-group[Add initiator to a volume access group]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

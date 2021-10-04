@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: hccstorage/task_hcc_manage_initiators.html
+permalink: hccstorage/task-hcc-manage-initiators.html
 summary: Learn how to add create and manage initiators that enable communication between external clients and Element storage volumes.
-keywords: netapp, hci, initiator, storage, element, access group
+keywords: netapp, initiator, storage, element, access group
 ---
 
 = Create and manage initiators
@@ -14,7 +14,7 @@ keywords: netapp, hci, initiator, storage, element, access group
 :imagesdir: ../media/
 
 [.lead]
-You can use link:concept_hci_initiators.html[initiators] for CHAP-based rather than account-based access to volumes. You can create and delete initiators, and give them friendly aliases to simplify administration and volume access. When you add an initiator to a volume access group, that initiator enables access to all volumes in the group.
+You can use link:concepts/concept_solidfire_concepts_initiators.html[initiators] for CHAP-based rather than account-based access to volumes. You can create and delete initiators, and give them friendly aliases to simplify administration and volume access. When you add an initiator to a volume access group, that initiator enables access to all volumes in the group.
 
 .What you'll need
 
@@ -113,7 +113,7 @@ You can delete one or more initiators. When you delete an initiator, the system 
 
 [discrete]
 == Find more information
-* link:concept_hci_initiators.html[Learn about initiators]
-* link:concept_hci_volume_access_groups.html[Learn about volume access groups]
+* link:concepts/concept_solidfire_concepts_initiators.html[Learn about initiators]
+* link:concepts/concept_solidfire_concepts_volume_access_groups.html[Learn about volume access groups]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

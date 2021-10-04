@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: hccmonitor/task_hcc_volumes.html
+permalink: hccstorage/task-hcc-volumes.html
 summary: You can monitor volumes in your system by using the Hybrid Cloud Control Volumes page.
 keywords: netapp, element, volumes, storage, access groups, initiators, capacity, data protection, QoS
 ---
@@ -32,8 +32,6 @@ https://[management node IP address]
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
 . In the left navigation blue box, select the SolidFire all-flash storage installation.
-+
-The Hybrid Cloud Control Dashboard appears.
 . In the left navigation, select the cluster and select *Storage* > *Volumes*.
 +
 image::hcc_volumes_overview_active.png[HCC Volumes page > Overview tab image]
@@ -55,17 +53,17 @@ image::hcc_volumes_icons.png[HCC Volumes page icons]
 . From the Volumes view, click the tabs to see additional details about the volumes:
 .. *Access Groups*: You can see the volume access groups that are mapped from initiators to a collection of volumes for secured access.
 +
-See information about link:concept_hci_volume_access_groups.html[volume access groups].
+See information about link:concepts/concept_solidfire_concepts_volume_access_groups.html[volume access groups].
 
 .. *Accounts*: You can see the user accounts, which enable clients to connect to volumes on a node. When you create a volume, it is assigned to a specific user account.
 +
-See information about link:concept_cg_hci_accounts.html[NetApp HCI user accounts].
+See information about link:concepts/concept_solidfire_concepts_accounts_and_permissions.html#user-accounts[SolidFire all-flash storage system user accounts].
 
 .. *Initiators*: You can see the iSCSI initiator IQN or Fibre Channel WWPNs for the volume. Each IQN added to an access group can access each volume in the group without requiring CHAP authentication. Each WWPN added to an access group enables Fibre Channel network access to the volumes in the access group.
 
 .. *QoS Policies*: You can see the QoS policy applied to the volume. A QoS policy applies standardized settings for minimum IOPS, maximum IOPS, and burst IOPS to multiple volumes.
 +
-See information about link:concept_hci_performance#qos-performance.html[performance and QoS policies].
+See information about link:concepts/concept_data_manage_volumes_solidfire_quality_of_service.html#qos-performance.html[performance and QoS policies].
 
 [discrete]
 == Find more information

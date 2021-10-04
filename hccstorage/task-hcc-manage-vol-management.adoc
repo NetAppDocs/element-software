@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: hccstorage/task_hcc_manage_vol_management.html
+permalink: hccstorage/task-hcc-manage-vol-management.html
 summary: Learn how to create a volume and associate the volume with a given account.
-keywords: netapp, hci, cluster, element, volume
+keywords: netapp, element, cluster, element, volume
 ---
 
 = Create and manage volumes by using NetApp Hybrid Cloud Control
@@ -33,7 +33,7 @@ You can manage volumes in NetApp Hybrid Cloud Control in the following ways:
 You can create a storage volume using NetApp Hybrid Cloud Control.
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview* tab.
 +
@@ -67,10 +67,10 @@ Volumes that have a Max or Burst IOPS value greater than 20,000 IOPS might requi
 
 
 == Apply a QoS policy to a volume
-You can apply a QoS policy to existing storage volumes by using NetApp Hybrid Cloud Control. If instead you need to set custom QoS values for a volume, you can <<Edit a volume>>. To create a new QoS policy, see link:task_hcc_qos_policies.html[Create and manage volume QoS policies^].
+You can apply a QoS policy to existing storage volumes by using NetApp Hybrid Cloud Control. If instead you need to set custom QoS values for a volume, you can <<Edit a volume>>. To create a new QoS policy, see link:task-hcc-qos-policies.html[Create and manage volume QoS policies^].
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . Select one or more volumes to associate with a QoS policy.
@@ -92,7 +92,7 @@ You can resize a volume when there is sufficient space on the cluster under the 
 * The volume is being resynced.
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . In the *Actions* column in the volumes table, expand the menu for the volume and select *Edit*.
@@ -149,7 +149,7 @@ Volume cloning is an asynchronous process, and the amount of time the process re
 NOTE: Cloned volumes do not inherit volume access group membership from the source volume.
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select the *Volumes* > *Overview* tab.
 . Select each volume you want to clone.
@@ -168,13 +168,14 @@ NOTE: Increasing the volume size of a clone results in a new volume with additio
 
 +
 .. Click *Clone Volumes*.
++
 NOTE: The time to complete a cloning operation is affected by volume size and current cluster load. Refresh the page if the cloned volume does not appear in the volume list.
 
 == Add volumes to a volume access group
 You can add a single volume or a group of volumes to a volume access group.
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . Select one or more volumes to associate with a volume access group.
@@ -195,7 +196,7 @@ IMPORTANT: Persistent volumes that are associated with management services are c
 
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . Select one or more volumes to delete.
@@ -208,7 +209,7 @@ After a storage volume is deleted, you can still restore it if you do so before 
 The system does not immediately purge deleted volumes; they remain available for approximately eight hours. After eight hours, they are purged and no longer available. If you restore a volume before the system purges it, the volume comes back online and iSCSI connections are restored.
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . Select *Deleted*.
@@ -220,7 +221,7 @@ The system does not immediately purge deleted volumes; they remain available for
 After storage volumes are deleted, they remain available for approximately eight hours. After eight hours, they are purged automatically and no longer available. If you do not want to wait for the eight hours, you can delete
 
 .Steps
-. Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
+. Log in to NetApp Hybrid Cloud Control by providing the Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select *Volumes* > *Overview*.
 . Select *Deleted*.
@@ -234,7 +235,7 @@ After storage volumes are deleted, they remain available for approximately eight
 
 [discrete]
 == Find more information
-* link:concept_hci_volumes.html[Learn about volumes]
+* link:concepts/concept_solidfire_concepts_volumes.html[Learn about volumes]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

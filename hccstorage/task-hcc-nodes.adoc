@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: hccmonitor/task_hcc_nodes.html
+permalink: hccstorage/task-hcc-nodes.html
 summary: You can view your storage assets in your system by using the Hybrid Cloud Control Nodes page.
 keywords: netapp, element, cluster, inventory, nodes, storage
 ---
@@ -16,7 +16,7 @@ keywords: netapp, element, cluster, inventory, nodes, storage
 [.lead]
 You can view your storage assets in your system and determine their IP addresses, names, and software versions.
 
-You can view storage information for your multiple node systems. If link:concept_hcc_custom_protection_domains.html[custom protection domains^] are assigned, you can see which protection domains are assigned to specific nodes.
+You can view storage information for your multiple node systems. If link:storage/concept_intro_custom_protection_domains.html[custom protection domains] are assigned, you can see which protection domains are assigned to specific nodes.
 
 For SolidFire Enterprise SDS nodes, you can monitor inventory on the Storage tab.
 
@@ -46,7 +46,7 @@ NOTE: When you launch a new NetApp Hybrid Cloud Control session for the first ti
 .. To show or hide columns, click the *Show/Hide Columns* icon.
 .. To download the table, click the *Download* icon.
 
-TIP: To view the number of storage, look at the NetApp Hybrid Cloud Control (HCC) Dashboard. See link:task_hcc_dashboard.html[Monitor storage resources with the HCC Dashboard].
+TIP: To view the number of storage, look at the NetApp Hybrid Cloud Control (HCC) Dashboard. See link:task-hcc-dashboard.html[Monitor storage resources with the HCC Dashboard].
 
 [discrete]
 == Find more information
