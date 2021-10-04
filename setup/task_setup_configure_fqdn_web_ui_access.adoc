@@ -53,6 +53,39 @@ For example:
  .. Enter any proxy setting values you recorded earlier in the remaining parameters in the request body. If you leave the proxy parameters empty or do not include them in the request body, existing proxy settings will be removed.
  .. Click *Execute*.
 
- == Find more information
- * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
- * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+
+== Troubleshooting
+
+
+If FQDNs are configured incorrectly, you might have problems accessing either the management node, a storage cluster, or both. Use the following information to help troubleshoot the issue.
+
+[cols=3*,options=*header*]
+|===
+|Issue	|Cause	|Resolution
+
+a|* You get a browser error when attempting to access either the management node or the storage cluster using the FQDN.
+
+* You cannot log in to either the management node or the storage cluster using an IP address.
+
+|The management node FQDN and storage cluster FQDN are both incorrectly configured.
+
+|Use the REST API instructions on this page to remove the FQDN settings and configure them again.
+
+a|* You get a browser error when attempting to access the storage cluster FQDN.
+
+* You cannot log in to either the management node or the storage cluster using an IP address.
+
+| The management node FQDN is correctly configured, but the storage cluster FQDN is incorrectly configured.
+
+| Use the REST API instructions on this page to remove the FQDN settings and configure them again.
+
+a|* You get a browser error when attempting to access the management node FQDN.
+
+* You can log in to the management node and storage cluster using an IP address.
+
+|The management node FQDN is incorrectly configured, but the storage cluster FQDN is correctly configured.
+|===
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
