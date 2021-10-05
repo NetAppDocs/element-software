@@ -38,13 +38,13 @@ As part of your normal support contract, NetApp Support monitors this data and a
 https://[management node IP address]
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
-. From the Dashboard, click the menu on the upper right.
+. From the Dashboard, select the menu on the upper right.
 . Select *View Active IQ*.
 +
-. To learn about SolidFire Active IQ, from the Dashboard, click the menu icon on the upper right and click *Documentation*.
+. To learn about SolidFire Active IQ, from the Dashboard, select the menu icon on the upper right and select *Documentation*.
 . From the SolidFire Active IQ interface, verify that the NetApp SolidFire all-flash storage nodes are reporting telemetry correctly to Active IQ:
-.. If you have more than one SolidFire all-flash storage installation, click *Select a Cluster* and choose the cluster from the list.
-.. In the left navigation pane, click *Nodes*.
+.. If you have more than one SolidFire all-flash storage installation, select *Select a Cluster* and choose the cluster from the list.
+.. In the left navigation pane, select *Nodes*.
 . If a node or nodes are missing from the list, contact NetApp Support.
 
 TIP: To view the number of storage resources, look at the Hybrid Cloud Control (HCC) Dashboard. See link:task-hcc-dashboard.html[Monitor storage resources with the HCC Dashboard].
