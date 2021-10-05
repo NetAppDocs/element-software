@@ -14,14 +14,14 @@ keywords: netapp, element, storage cluster, hybrid cloud control, hcc
 :imagesdir: ../media/
 
 [.lead]
-You can add storage clusters to the management node assets inventory so that they can be managed using NetApp Hybrid Cloud Control (HCC). The first storage cluster added during system setup is the default link:concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster], but additional clusters can be added using HCC UI.
+You can add storage clusters to the management node assets inventory so that they can be managed using NetApp Hybrid Cloud Control (HCC). The first storage cluster added during system setup is the default link:../concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster], but additional clusters can be added using HCC UI.
 
 After a storage cluster is added, you can monitor cluster performance, change storage cluster credentials for the managed asset, or remove a storage cluster from the management node asset inventory if it no longer needs to be managed using HCC.
 
-Starting with Element 12.2, you can use the link:esds/reference_esds_use_maintenance_mode.html[maintenance mode] feature options to enable and disable maintenance mode for your storage cluster nodes.
+Starting with Element 12.2, you can use the link:../esds/reference_esds_use_maintenance_mode.html[maintenance mode] feature options to enable and disable maintenance mode for your storage cluster nodes.
 
 .What you'll need
-* *Cluster administrator permissions*: You have permissions as administrator on the link:concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster]. The authoritative cluster is the first cluster added to the management node inventory during system setup.
+* *Cluster administrator permissions*: You have permissions as administrator on the link:../concepts/concept_intro_clusters.html#authoritative-storage-clusters[authoritative storage cluster]. The authoritative cluster is the first cluster added to the management node inventory during system setup.
 * *Element software*: Your storage cluster version is running NetApp Element software 11.3 or later.
 * *Management node*: You have deployed a management node running version 11.3 or later.
 * *Management services*: You have updated your management services bundle to version 2.17 or later.
@@ -92,7 +92,7 @@ CAUTION: Clicking *Yes* next removes the cluster from the installation.
 . Select *Yes*.
 
 === Enable and disable maintenance mode
-This link:esds/reference_esds_use_maintenance_mode.html[maintenance mode] feature options give you the capability to <<enable_main_mode,enable>> and <<disable_main_mode,disable>> maintenance mode for a storage cluster node.
+This link:../esds/reference_esds_use_maintenance_mode.html[maintenance mode] feature options give you the capability to <<enable_main_mode,enable>> and <<disable_main_mode,disable>> maintenance mode for a storage cluster node.
 
 .What you'll need
 * *Element software*: Your storage cluster version is running NetApp Element software 12.2 or later.
@@ -148,5 +148,5 @@ If you encounter errors when you are either enabling or disabling maintenance mo
 
 [discrete]
 == Find more information
-* link:task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
+* link:../mnode/task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

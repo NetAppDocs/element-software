@@ -22,7 +22,7 @@ With NetApp SolidFire all-flash storage, you can manage and monitor storage asse
 * link:task-hcc-manage-vol-access-groups.html[Create and manage volume access groups]
 * link:task-hcc-manage-initiators.html[Create and manage initiators]
 * link:task-hcc-qos-policies.html[Create and manage volume QoS policies]
-* link:/hccstorage/task-hcc-dashboard.html[Monitor your SolidFire system with NetApp Hybrid Cloud Control]
+* link:task-hcc-dashboard.html[Monitor your SolidFire system with NetApp Hybrid Cloud Control]
 
 [discrete]
 == Find more information

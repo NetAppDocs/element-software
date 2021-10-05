@@ -35,7 +35,7 @@ To use LDAP for any user account, you must first enable LDAP.
 
 == Manage authoritative cluster accounts
 
-link:concepts/concept_solidfire_concepts_accounts_and_permissions.html#authoritative-cluster-user-accounts[Authoritative user accounts] are managed from the top right menu User Management option in NetApp Hybrid Cloud Control. These types of accounts enable you to authenticate against any storage asset associated with a NetApp Hybrid Cloud Control instance of nodes and clusters. With this account, you can manage volumes, accounts, access groups, and more across all clusters.
+link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#authoritative-cluster-user-accounts[Authoritative user accounts] are managed from the top right menu User Management option in NetApp Hybrid Cloud Control. These types of accounts enable you to authenticate against any storage asset associated with a NetApp Hybrid Cloud Control instance of nodes and clusters. With this account, you can manage volumes, accounts, access groups, and more across all clusters.
 
 === Create an authoritative cluster account
 You can create an account by using NetApp Hybrid Cloud Control.
@@ -87,7 +87,6 @@ If you configured users on the storage cluster with LDAP, those accounts show a 
 . Make changes as needed.
 . Select *Save*.
 . Log out of NetApp Hybrid Cloud Control.
-. link:task_mnode_manage_storage_cluster_assets.html#edit-the-stored-credentials-for-a-storage-cluster-asset[Update the credentials] for the authoritative cluster asset using the NetApp Hybrid Cloud Control API.
 +
 NOTE: It might take the NetApp Hybrid Cloud Control UI up to 2 minutes to refresh the inventory. To manually refresh inventory, access the REST API UI inventory service `https://[management node IP]/inventory/1/` and run `GET /installations​/{id}` for the cluster.
 
@@ -105,7 +104,7 @@ You cannot delete the primary administrator user account for the authoritative c
 . Confirm the deletion by selecting *Yes*.
 
 == Manage volume accounts
-link:link:concepts/concept_solidfire_concepts_accounts_and_permissions.html#volume-accounts[Volume accounts] are managed within the NetApp Hybrid Cloud Control Volumes table. These accounts are specific only to the storage cluster on which they were created. These types of accounts enable you to set permissions on volumes across the network, but have no effect outside of those volumes.
+link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#volume-accounts[Volume accounts] are managed within the NetApp Hybrid Cloud Control Volumes table. These accounts are specific only to the storage cluster on which they were created. These types of accounts enable you to set permissions on volumes across the network, but have no effect outside of those volumes.
 
 A volume account contains the CHAP authentication required to access the volumes assigned to it.
 
@@ -158,7 +157,7 @@ NOTE: Persistent volumes that are associated with management services are assign
 
 [discrete]
 == Find more information
-* link:concepts/concept_solidfire_concepts_accounts_and_permissions.html[Learn about accounts]
+* link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html[Learn about accounts]
 * http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-E93D3BAF-5A60-414D-86AF-0C1F86D43F26.html[Work with user accounts^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

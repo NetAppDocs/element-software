@@ -15,7 +15,7 @@ keywords: netapp, qos policy, quality of service, qos policies, volumes, element
 [.lead]
 A QoS (Quality of Service) policy enables you to create and save a standardized quality of service setting that can be applied to many volumes. The selected cluster must be Element 10.0 or later to use QoS policies; otherwise, QoS policy functions are not available.
 
-NOTE: See SolidFire all-flash storage Concepts content for more information about using link:concepts/concept_data_manage_volumes_solidfire_quality_of_service.html#qos-policies[QoS policies] instead of individual volume link:concepts/concept_data_manage_volumes_solidfire_quality_of_service.html[QoS].
+NOTE: See SolidFire all-flash storage Concepts content for more information about using link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service.html#qos-policies[QoS policies] instead of individual volume link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service.html[QoS].
 
 Using NetApp Hybrid Cloud Control, you can create and manage QoS policies by completing the following tasks:
 
