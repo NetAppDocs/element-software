@@ -33,6 +33,8 @@ https://[management node IP address]
 . Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
 . View the Hybrid Cloud Control Dashboard.
 
+image::hcc_dashboard_all.PNG[HCC Dashboard]
+
 == Monitor storage resources
 Use the *Storage* pane to see your total storage environment. You can monitor the number of storage clusters, storage nodes, and total volumes.
 
