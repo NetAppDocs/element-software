@@ -53,6 +53,6 @@ For example:
  .. Enter any proxy setting values you recorded earlier in the remaining parameters in the request body. If you leave the proxy parameters empty or do not include them in the request body, existing proxy settings will be removed.
  .. Click *Execute*.
 
- == Find more information
+== Find more information
  * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
  * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
