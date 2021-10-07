@@ -1,5 +1,5 @@
 ---
-permalink: hccstorage/task_setup_configure_fqdn_web_ui_access.html
+permalink: hccstorage/task-setup-configure-fqdn-web-ui-access.html
 sidebar: sidebar
 keywords:
 summary: 'NetApp HCI with NetApp Element software 12.2 or later enables you to access storage cluster web interfaces using the Fully Qualified Domain Name \(FQDN\). If you want to use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster.'
