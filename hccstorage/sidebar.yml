@@ -2,18 +2,22 @@ section: hccstorage
 title: Manage and monitor storage with NetApp Hybrid Cloud Control
 url: /hccstorage/index.html
 entries:
-  - title: Create and manage user accounts by using NetApp Hybrid Cloud Control
-    url: /hccstorage/task-hcc-manage-accounts.html
-  - title: Add and manage storage clusters using NetApp Hybrid Cloud Control
-    url: /hccstorage/task-hcc-manage-storage-clusters.html
-  - title: Create and manage volumes by using NetApp Hybrid Cloud Control
-    url: /hccstorage/task-hcc-manage-vol-management.html
-  - title: Create and manage volume access groups
-    url: /hccstorage/task-hcc-manage-vol-access-groups.html
-  - title: Create and manage initiators
-    url: /hccstorage/task-hcc-manage-initiators.html
-  - title: Create and manage volume QoS policies
-    url: /hccstorage/task-hcc-qos-policies.html
+  - title: Configure Fully Qualified Domain Name web UI access
+    url: /setup/task_setup_configure_fqdn_web_ui_access.html
+  - title: Mange storage with NetApp Hybrid Cloud Control
+    entries:
+    - title: Create and manage user accounts by using NetApp Hybrid Cloud Control
+      url: /hccstorage/task-hcc-manage-accounts.html
+    - title: Add and manage storage clusters using NetApp Hybrid Cloud Control
+      url: /hccstorage/task-hcc-manage-storage-clusters.html
+    - title: Create and manage volumes by using NetApp Hybrid Cloud Control
+      url: /hccstorage/task-hcc-manage-vol-management.html
+    - title: Create and manage volume access groups
+      url: /hccstorage/task-hcc-manage-vol-access-groups.html
+    - title: Create and manage initiators
+      url: /hccstorage/task-hcc-manage-initiators.html
+    - title: Create and manage volume QoS policies
+      url: /hccstorage/task-hcc-qos-policies.html
   - title: Monitor your SolidFire system with NetApp Hybrid Cloud Control
     entries:
      - title: Monitor storage resources on the Hybrid Cloud Control Dashboard

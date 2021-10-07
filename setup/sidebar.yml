@@ -30,7 +30,5 @@ entries:
     url: /setup/task_setup_determine_which_solidfire_components_to_install.html
   - title: Set up a management node
     url: /setup/task_setup_gh_redirect_set_up_a_management_node.html
-  - title: Configure Fully Qualified Domain Name web UI access
-    url: /setup/task_setup_configure_fqdn_web_ui_access.html
   - title: What's next?
     url: /setup/concept_setup_whats_next.html
