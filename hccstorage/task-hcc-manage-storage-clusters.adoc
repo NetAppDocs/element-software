@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: hccstorage/task-hcc-manage-storage-clusters.html
-summary: You can add, remove, and change storage clusters using the NetApp Hybrid Control UI.
-keywords: netapp, element, storage cluster, hybrid cloud control, hcc
+summary: You can add, remove, change, and enable and disable maintenance mode for storage clusters using the NetApp Hybrid Control UI.
+keywords: netapp, element, storage cluster, hybrid cloud control, hcc, maintenance mode, enable, disable
 ---
 
 = Add and manage storage clusters using NetApp Hybrid Cloud Control
