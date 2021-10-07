@@ -9,13 +9,36 @@ summary: 'NetApp HCI with NetApp Element software 12.2 or later enables you to a
 :imagesdir: ../media/
 
 [.lead]
-NetApp HCI with NetApp Element software 12.2 or later enables you to access storage cluster web interfaces using the Fully Qualified Domain Name (FQDN). If you want to use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster.
+You to can now access storage cluster web interfaces using the Fully Qualified Domain Name (FQDN). If you want to use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster.
 
 This process enables the cluster to properly redirect a login session and improves integration with external services such as key managers and identity providers for multi-factor authentication.
 
 .What you'll need
-* This feature requires Element 12.2 or later and management services version 2.15 or later.
+* This feature requires Element 12.2 or later.
+* Configuring this feature using NetApp Hybrid Cloud Control REST APIs requires management services 2.15 or later.
+* Configuring this feature using the NetApp Hybrid Cloud Control UI requires management services 2.19 or later.
 * To use REST APIs, you must have deployed a management node running version 11.5 or later.
+* You need fully qualified domain names for the management node and each storage cluster that resolve correctly to the management node IP address and each storage cluster IP address.
+
+== Configure FQDN web UI access using NetApp Hybrid Cloud Control
+
+.Steps
+
+. Open a web browser and browse to the IP address of the management node:
++
+----
+https://<ManagementNodeIP>
+----
+. Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
+. Click the menu icon at the top right of the page.
+. Select *Configure*.
+. In the *Fully Qualified Domain Names* pane, click *Set Up*.
+. In the resulting window, enter the FQDNs for the management node and each storage cluster.
+. Click *Save*.
++
+The *Fully Qualified Domain Names* pane lists each storage cluster with its associated MVIP and FQDN.
+
+== Configure FQDN web UI access using the REST API
 
 .Steps
 . Ensure that the Element storage nodes and the mNode have DNS configured correctly for the network environment so that FQDNs in the environment can be resolved. To set DNS, go to the per-node UI for storage nodes and to the management node, then select *Network Settings* > *Management Network*.
