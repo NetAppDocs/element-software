@@ -17,6 +17,7 @@ keywords: netapp, element, cluster, element, account, user, volume, hybrid cloud
 With NetApp SolidFire all-flash storage, you can manage and monitor storage assets by using the NetApp Hybrid Cloud Control.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * link:task-hcc-manage-storage-clusters.html[Add and manage storage clusters]
 * link:task_setup_configure_fqdn_web_ui_access.html[Configure Fully Qualified Domain Name web UI access]
 * link:task-hcc-manage-accounts.html[Create and manage user accounts]
@@ -24,6 +25,10 @@ With NetApp SolidFire all-flash storage, you can manage and monitor storage asse
 * link:task-hcc-manage-vol-access-groups.html[Create and manage volume access groups]
 * link:task-hcc-manage-initiators.html[Create and manage initiators]
 * link:task-hcc-qos-policies.html[Create and manage volume QoS policies]
+=======
+* link:task_setup_configure_fqdn_web_ui_access.html[Configure Fully Qualified Domain Name web UI access]
+* link:task-hcc-manage-accounts.html[Mange storage with NetApp Hybrid Cloud Control]
+>>>>>>> f895532a292452021d59d6911a1a1efec42ba378
 =======
 * link:task_setup_configure_fqdn_web_ui_access.html[Configure Fully Qualified Domain Name web UI access]
 * link:task-hcc-manage-accounts.html[Mange storage with NetApp Hybrid Cloud Control]
