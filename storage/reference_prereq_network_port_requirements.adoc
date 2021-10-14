@@ -1,7 +1,7 @@
 ---
 permalink: storage/reference_prereq_network_port_requirements.html
 sidebar: sidebar
-keywords: network port requirements, TCP ports, firewall, utilities, URL, access attempt, ICMP, MIP, SIP, MVIP, SVIP 
+keywords: network port requirements, TCP ports, firewall, utilities, URL, access attempt, ICMP, MIP, SIP, MVIP, SVIP
 summary: 'You might need to allow the following TCP ports through your datacenter’s edge firewall so that you can manage the system remotely and allow clients outside of your datacenter to connect to resources. Some of these ports might not be required, depending on how you use the system.'
 ---
 = Network port requirements
@@ -12,6 +12,8 @@ summary: 'You might need to allow the following TCP ports through your datacente
 You might need to allow the following TCP ports through your datacenter's edge firewall so that you can manage the system remotely and allow clients outside of your datacenter to connect to resources. Some of these ports might not be required, depending on how you use the system.
 
 All ports are TCP unless stated otherwise, and should permit bi-directional communications between the NetApp Support Server, management node, and nodes running Element software.
+
+IMPORTANT: NetApp is in the process of rebuilding the online repository that hosts software and firmware bundle downloads that support the NetApp Hybrid Cloud Control automated upgrade workflow. https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU474[Learn More]
 
 [NOTE]
 ======================
@@ -108,6 +110,7 @@ Online software repository:
 
 * `https://repo.netapp.com/bintray/api/package`
 * `https://repo.netapp.com/downloads`
+* `https://netappdownloads.jfrog.io:443`
 
 a|
 443
@@ -293,22 +296,22 @@ a|
 2181
 a|
 Intercluster communication for remote replication
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-80
-a|
-(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-443
-a|
-(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//80
+//a|
+//(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//443
+//a|
+//(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
 a|
 Storage node SIP
 a|

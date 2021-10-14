@@ -92,6 +92,9 @@ NOTE: If you need an additional NIC to isolate storage traffic, see instructions
 == Configure time sync
 
 . Ensure time is synced between the management node and the storage cluster using NTP:
+
+NOTE: Starting with Element 12.3.1, substeps (a) to (e) are performed automatically. For management node 12.3.1, proceed to <<substep_f_install_config_time_sync,substep (f)>> to complete the time sync configuration.
+
 .. Log in to the management node using SSH or the console provided by your hypervisor.
 .. Stop NTPD:
 +
@@ -126,7 +129,7 @@ sudo ntpd -gq
 sudo service ntpd start
 ----
 
-.. Disable time synchronization with host via the hypervisor (the following is a VMware example):
+.. [[substep_f_install_config_time_sync]]Disable time synchronization with host via the hypervisor (the following is a VMware example):
 +
 NOTE: If you deploy the mNode in a hypervisor environment other than VMware, for example, from the .iso image in an Openstack environment, refer to the hypervisor documentation for the equivalent commands.
 
@@ -142,8 +145,10 @@ vmware-toolbox-cmd timesync disable
 vmware-toolbox-cmd timesync status
 ----
 ...	In vSphere, verify that the `Synchronize guest time with host` box is un-checked in the VM options.
-
++
 NOTE: Do not enable this option if you make future changes to the VM.
+
+NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#set-up-the-management-node[setup command] on the management node.
 
 == Set up the management node
 
@@ -222,6 +227,9 @@ https://[management node IP]/mnode
 ... Select *Authorize* to begin a session.
 ... Close the window.
 .. Select *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
++
+NOTE: It is recommended that you create a new NetApp HCC role in vCenter to add a controller sub-asset. This new NetApp HCC role will limit the management node services view to NetApp-only assets. See link:task_mnode_create_netapp_hcc_role_vcenter.html[Create a NetApp HCC role in vCenter].
+
 .. Select *Try it out*.
 .. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
