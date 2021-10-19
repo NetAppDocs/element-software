@@ -24,7 +24,5 @@ entries:
        url: /hccstorage/task-hcc-nodes.html
      - title: Monitor volumes on your storage cluster with NetApp Hybrid Cloud Control
        url: /hccstorage/task-hcc-volumes.html
-     - title: Monitor performance, capacity, and cluster health with NetApp Hybrid Cloud Control connections to Active IQ
-       url: /hccstorage/task-hcc-activeiq.html
      - title: Collect logs for troubleshooting
        url: /hccstorage/task-hcc-collectlogs.html

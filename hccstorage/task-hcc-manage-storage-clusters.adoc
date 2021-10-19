@@ -111,11 +111,11 @@ NOTE: Only one node can be in maintenance mode at a time.
 .	Open a web browser and browse to the IP address of the management node. For example:
 +
 `https://[management node IP address]`
-.	Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
+.	Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
 +
 NOTE: The maintenance mode feature options are disabled at the read-only level.
 
-.	In the left navigation blue box, select the NetApp HCI installation.
+.	In the left navigation blue box, select the SolidFire all-flash installation.
 .	In the left navigation pane, select *Nodes*.
 .	To view storage inventory information, select *Storage*.
 .	Enable maintenance mode on a storage node:
