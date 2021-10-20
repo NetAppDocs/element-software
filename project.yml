@@ -57,6 +57,8 @@ homepage:
       links:
         - title: Use Element software UI
           url: /storage/index.html
+        - title: Use NetApp Hybrid Cloud Control
+          url: /hccstorage/index.html
         - title: Use Element software API
           url: /api/index.html
         - title: Use Element Plug-in for vCenter Server
