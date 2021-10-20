@@ -63,7 +63,7 @@ Look at the vertical lines to determine whether your used capacity is less than 
 +
 NOTE: You can set the threshold for Warning, which defaults to 3% below the Error threshold. The Error and Critical thresholds are preset and not configurable by design. The Error threshold indicates that less than one node of capacity remains in the cluster. For steps on setting the threshold, see link:../storage/task_system_manage_cluster_set_the_cluster_full_threshold.html[Setting cluster full threshold].
 +
-TIP: For details about the related cluster thresholds Element API, see link:../storage/task_system_manage_cluster_set_the_cluster_full_threshold.html[“getClusterFullThreshold”] in the _Element software API documentation_. To view details about block and metadata capacity, see link:../storage/concept_monitor_understand_cluster_fullness_levels.html[Understanding cluster fullness levels] in the _Element software documentation_.
+TIP: For details about the related cluster thresholds Element API, see link:../api/reference_element_api_getclusterfullthreshold.html[“getClusterFullThreshold”] in the _Element software API documentation_. To view details about block and metadata capacity, see link:../storage/concept_monitor_understand_cluster_fullness_levels.html[Understanding cluster fullness levels] in the _Element software documentation_.
 
 .	Select the *EFFECTIVE* tab, to see information about total storage provisioned to connected hosts and to see efficiency ratings.
 
