@@ -47,7 +47,7 @@ If you have collected logs before, you can download the existing log package, or
 If you specify a custom start date, you can select the date to begin the date range. Logs will be collected from that date up to the present time.
 . In the *Log Collection* section, select the types of log files the log package should include.
 +
-For storage and compute logs, you can expand the list of storage or compute nodes and select individual nodes to collect logs from (or all nodes in the list).
+For storage logs, you can expand the list of storage nodes and select individual nodes to collect logs from (or all nodes in the list).
 . Select *Collect Logs* to start log collection.
 +
 Log collection runs in the background, and the page shows the progress.
@@ -83,14 +83,6 @@ https://[management node IP]/logs/1/
 |`modifiedSince`
 |Date string
 |Only include logs modified after this date and time. For example, the value "2020-07-14T20:19:00.000Z" defines a start date of July 14, 2020 at 20:19 UTC.
-
-|`computeLogs`
-|Boolean
-|Set this parameter to `true` to include compute node logs.
-
-|`computeIds`
-|UUID array
-|If `computeLogs` is set to `true`, populate this parameter with the management node asset IDs of compute nodes to limit log collection to those specific compute nodes. Use the `GET https://[management node IP]/logs/1/bundle/options` endpoint to see all possible node IDs you can use.
 
 |`mnodeLogs`
 |Boolean
