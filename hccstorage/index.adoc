@@ -5,7 +5,7 @@ summary: With NetApp SolidFire all-flash storage, you can manage and monitor sto
 keywords: netapp, element, cluster, element, account, user, volume, hybrid cloud control, hcc
 ---
 
-= Manage and monitor storage with NetApp Hybrid Cloud Control overview
+= Manage and monitor storage with NetApp Hybrid Cloud Control
 
 :hardbreaks:
 :nofooter:

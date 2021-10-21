@@ -53,8 +53,6 @@ You can see the total physical storage space available in your cluster on the *R
 
 image::hcc_dashboard_storage_capacity_effective.png[HCC Dashboard > Storage Capacity pane]
 
-TIP: To view cluster health, also look at the SolidFire Active IQ Dashboard. See link:https://docs.netapp.com/us-en/hci/docs/task_hcc_activeiq.html[Monitor performance, capacity, and cluster health in NetApp SolidFire Active IQ^].
-
 .Steps
 
 .	Select the *RAW* tab, to see the total physical storage space used and available in your cluster.
