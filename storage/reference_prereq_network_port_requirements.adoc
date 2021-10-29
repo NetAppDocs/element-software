@@ -296,22 +296,22 @@ a|
 2181
 a|
 Intercluster communication for remote replication
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-80
-a|
-(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-443
-a|
-(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//80
+//a|
+//(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//443
+//a|
+//(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
 a|
 Storage node SIP
 a|
