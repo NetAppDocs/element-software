@@ -37,8 +37,6 @@ Storage nodes need to be able to communicate before, during, and after deploymen
 
 If you are implementing separate management networks for storage nodes, ensure that these management networks have network routes between them. These networks must have gateways assigned, and there must be a route between the gateways. Ensure that each new node has a gateway assigned to facilitate communication between nodes and management networks.
 
-For details about switch requirements using NetApp HCI and Element software, see link:https://docs.netapp.com/us-en/hci/docs/hci_prereqs_network_switch.html[Network and switch requirements^].
-
 NetApp Element requires the following:
 
 * All switch ports connected to NetApp HCI nodes must be configured as spanning tree edge ports.
