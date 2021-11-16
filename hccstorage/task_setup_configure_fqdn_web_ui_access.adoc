@@ -1,5 +1,5 @@
 ---
-permalink: setup/task_setup_configure_fqdn_web_ui_access.html
+permalink: hccstorage/task-setup-configure-fqdn-web-ui-access.html
 sidebar: sidebar
 keywords: netapp, element, fqdn, ui, access, web, administration
 summary: Learn how to configure, remove and troubleshoot your system FQDN web UI access.
@@ -87,6 +87,7 @@ For example:
  .. Enter any proxy setting values you recorded earlier in the remaining parameters in the request body. If you leave the proxy parameters empty or do not include them in the request body, existing proxy settings will be removed.
  .. Click *Execute*.
 
+
 == Remove FQDN web UI access using NetApp Hybrid Cloud Control
 
 You can use this procedure to remove FQDN web access for the management node and the storage clusters.
@@ -167,6 +168,7 @@ a|* You get a browser error when attempting to access the management node FQDN.
 |The management node FQDN is incorrectly configured, but the storage cluster FQDN is correctly configured.
 
 |Log in to NetApp Hybrid Cloud Control to correct the management node FQDN settings in the UI, or use the REST API instructions on this page to correct the settings.
+
 |===
 
 == Find more information
