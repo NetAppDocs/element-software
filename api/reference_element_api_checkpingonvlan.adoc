@@ -191,9 +191,7 @@ This method returns a response similar to the following example:
       "successful": true,
       "virtualNetworkTag": 4001
     }
-  },
-  "duration": "00:00:00.244379",
-  "result": "Passed"
+  }
 }
 ----
 
