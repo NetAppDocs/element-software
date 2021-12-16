@@ -17,6 +17,8 @@ NOTE: In the case of H610S, the terms "node" and "chassis" are used interchangea
 
 Alarms in the Element UI provide information about the failed power supply unit, referring to it as PS1 or PS2. In a NetApp HCI 2U, four-node chassis, PS1 refers to the unit on the top row of the chassis and PS2 refers to the unit on the bottom row of the chassis. You can replace the faulty power supply unit while your chassis is powered on and working, as long as the redundant power supply unit is functioning.
 
+NOTE: Both PSUs in the node must have the same part number and wattage, else damage to the system can occur.
+
 .Steps
 
 . Locate the faulty power supply unit in the chassis. The LED on the faulty unit displays amber.
