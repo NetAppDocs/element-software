@@ -62,6 +62,9 @@ https://<ManagementNodeIP>
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
 . Select *Upgrade* near the top right of the interface.
++
+NOTE: Beginning with management services 2.20, the first time you select Upgrade, the End User License Agreement (EULA) pops up. Scroll down, select *I accept for current and all future updates*, and select *Save*. After you accept and save the EULA, it is recorded for all future updates.
+
 . On the *Upgrades* page, select *Storage*.
 +
 NOTE: The *Storage* tab lists the storage clusters that are part of your installation. If a cluster is inaccessible by NetApp Hybrid Cloud Control, it will not be displayed on the *Upgrades* page. If you have clusters running Element 12.0 or later, you will see the current firmware bundle version listed for these clusters. If the nodes in a single cluster have different firmware versions on them or as the upgrade progresses, you will see *Multiple* in the *Current Firmware Bundle Version* column. You can select *Multiple* to navigate to the *Nodes* page to compare firmware versions. If all your clusters are running Element versions earlier than 12.0, you will not see any information about firmware bundle version numbers.
