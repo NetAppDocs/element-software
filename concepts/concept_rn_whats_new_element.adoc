@@ -21,6 +21,10 @@ Known and resolved issues are now listed in the NetApp Bugs Online tool. You can
 image:bol_filters.PNG[BOL filters, align "center" ]
 . To filter by release, type the release version in the *Fixed in Versions* field.
 
+== Element 12.3.2
+
+Element 12.3.2 contains ...... 
+
 == Element 12.3.1
 
 Learn more about what is new in Element 12.3.1.
