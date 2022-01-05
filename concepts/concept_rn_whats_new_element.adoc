@@ -23,7 +23,7 @@ image:bol_filters.PNG[BOL filters, align "center" ]
 
 == Element 12.3.2
 
-Element 12.3.2 contains ...... 
+The Element software 12.3.2 release contains the mitigation that closes the Element software exposure to the Apache Log4j vulnerability. NetApp SolidFire storage clusters with the Virtual Volumes (VVols) feature enabled are exposed to the Apache Log4j vulnerability.
 
 == Element 12.3.1
 
