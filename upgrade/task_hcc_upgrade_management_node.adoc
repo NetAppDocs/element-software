@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: upgrade/task_hcc_upgrade_management_node.html
 summary: As part of a NetApp SolidFire storage system upgrade, you upgrade the management node.
-keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1
+keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x
 ---
 
 = Upgrade a management node
@@ -14,7 +14,7 @@ keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade your management node to management node version 12.3.1 or 12.3 from version 11.0 or later.
+You can upgrade your management node to management node version 12.3.x from version 11.0 or later.
 
 Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. If the management node is version 11.3 or higher, you can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
 
@@ -24,7 +24,11 @@ NOTE: The vCenter Plug-in 4.4 or later requires a management node 11.3 or later 
 
 Choose one of the following management node upgrade options:
 
-NOTE: There are no additional functionality changes or bug fixes in management node 12.3.1. If you are already running management node 12.3, you do not need to upgrade it to 12.3.1.
+[NOTE]
+====
+* Management node 12.3.2 contains a security mitigation for storage clusters with the Virtual Volumes (VVols) feature enabled. If your storage cluster is already at Element 12.3 and the VVols feature is enabled, upgrading to 12.3.2 is highly recommended.
+* There are no additional functionality changes or bug fixes in management node 12.3.1. If you are already running management node 12.3, you do not need to upgrade it to 12.3.1.
+====
 
 * If you are upgrading from management node 12.2:
 <<Upgrade a management node to version 12.3.x from 12.2>>
