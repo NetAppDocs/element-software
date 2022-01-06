@@ -21,6 +21,12 @@ Known and resolved issues are now listed in the NetApp Bugs Online tool. You can
 image:bol_filters.PNG[BOL filters, align "center" ]
 . To filter by release, type the release version in the *Fixed in Versions* field.
 
+== Element 12.3.2
+
+Learn more about what is new in Element 12.3.2.
+
+The Element software 12.3.2 release contains the mitigation that closes the Element software exposure to the Apache Log4j vulnerability. NetApp SolidFire storage clusters with the Virtual Volumes (VVols) feature enabled are exposed to this vulnerability.
+
 == Element 12.3.1
 
 Learn more about what is new in Element 12.3.1.
