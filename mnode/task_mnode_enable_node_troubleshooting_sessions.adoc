@@ -41,6 +41,7 @@ WARNING: Unless advised by NetApp Support, any alterations to this system are un
 * <<Troubleshoot a node that is not part of cluster>>
 
 == Troubleshoot a cluster node
+
 You can perform basic troubleshooting using the sflocal system account:
 
 .Steps
