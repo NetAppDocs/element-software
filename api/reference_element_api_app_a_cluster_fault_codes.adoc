@@ -64,6 +64,12 @@ A block service is using too much space.
 +
 To resolve this fault, purge or delete volumes or add another storage node to the storage cluster.
 
+* *BmcSelfTestFail*
++
+The Baseboard Management Controller (BMC) failed a self-test.
++
+Contact NetApp support for assistance.
+
 * *clockSkewExceedsFaultThreshold*
 +
 The time skew between the cluster master and the node which is presenting a token exceeds the recommended threshold.
@@ -696,7 +702,7 @@ The fault clears if the scheduled activity runs again and succeeds, if the sched
 
 * *sensorReadingFailed*
 +
-The Baseboard Management Controller (BMC) self-test failed or a sensor could not communicate with the BMC.
+A sensor could not communicate with the Baseboard Management Controller (BMC).
 +
 Contact NetApp Support for assistance.
 
