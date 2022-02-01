@@ -47,7 +47,6 @@ The Element 12.2 management node is an optional upgrade. It is not required for 
 Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
 
 .Steps
-
 . <<Download ISO or OVA and deploy the VM>>
 . <<Create the management node admin and configure the network>>
 . <<Configure time sync>>
@@ -67,6 +66,10 @@ Prior to following this procedure, you should have an understanding of link:../c
 +
 * Six virtual CPUs
 * 24GB RAM
+* Storage adapter type set to LSI Logic Parallel
++
+IMPORTANT: The default for your management node might be LSI Logic SAS. In the *New Virtual Machine* window, verify the storage adapter configuration by selecting *Customize hardware* > *Virtual Hardware*. If required, change LSI Logic SAS to *LSI Logic Parallel*.
+
 * 400GB virtual disk, thin provisioned
 * One virtual network interface with internet access and access to the storage MVIP.
 * (Optional) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
@@ -92,6 +95,9 @@ NOTE: If you need an additional NIC to isolate storage traffic, see instructions
 == Configure time sync
 
 . Ensure time is synced between the management node and the storage cluster using NTP:
+
+NOTE: Starting with Element 12.3.1, substeps (a) to (e) are performed automatically. For management node 12.3.1, proceed to <<substep_f_install_config_time_sync,substep (f)>> to complete the time sync configuration.
+
 .. Log in to the management node using SSH or the console provided by your hypervisor.
 .. Stop NTPD:
 +
@@ -126,7 +132,7 @@ sudo ntpd -gq
 sudo service ntpd start
 ----
 
-.. Disable time synchronization with host via the hypervisor (the following is a VMware example):
+.. [[substep_f_install_config_time_sync]]Disable time synchronization with host via the hypervisor (the following is a VMware example):
 +
 NOTE: If you deploy the mNode in a hypervisor environment other than VMware, for example, from the .iso image in an Openstack environment, refer to the hypervisor documentation for the equivalent commands.
 
@@ -142,8 +148,10 @@ vmware-toolbox-cmd timesync disable
 vmware-toolbox-cmd timesync status
 ----
 ...	In vSphere, verify that the `Synchronize guest time with host` box is un-checked in the VM options.
-
++
 NOTE: Do not enable this option if you make future changes to the VM.
+
+NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#set-up-the-management-node[setup command] on the management node.
 
 == Set up the management node
 
@@ -196,7 +204,7 @@ NOTE: Use a unique account name for persistent volumes that is different from an
 .. Open the inventory service REST API UI on the management node:
 +
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
@@ -213,7 +221,7 @@ Your installation has a base asset configuration that was created during install
 .. Access the mnode service API UI on the management node by entering the management node IP address followed by `/mnode`:
 +
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 
 .. Select *Authorize* or any lock icon and complete the following:
@@ -222,6 +230,9 @@ https://[management node IP]/mnode
 ... Select *Authorize* to begin a session.
 ... Close the window.
 .. Select *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
++
+NOTE: It is recommended that you create a new NetApp HCC role in vCenter to add a controller sub-asset. This new NetApp HCC role will limit the management node services view to NetApp-only assets. See link:task_mnode_create_netapp_hcc_role_vcenter.html[Create a NetApp HCC role in vCenter].
+
 .. Select *Try it out*.
 .. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
 .. Enter the required payload values with type `vCenter` and vCenter credentials.

@@ -7,6 +7,8 @@ entries:
     entries:
     - title: Install a management node
       url: /mnode/task_mnode_install.html
+    - title: Create a NetApp HCC role in vCenter
+      url: /mnode/task_mnode_create_netapp_hcc_role_vcenter.html
     - title: Configure a storage Network Interface Controller (NIC)
       url: /mnode/task_mnode_install_add_storage_NIC.html
     - title: Recover a management node

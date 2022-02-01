@@ -1,8 +1,13 @@
 ---
 permalink: storage/concept_intro_custom_protection_domains.html
 sidebar: sidebar
+<<<<<<< HEAD
 keywords: protection domain layout, user-defined custom layout, separate nodes, slices, ensemble, chassis. protection domain
 summary: 'You can define a custom protection domain layout, where each node is associated with one and only one custom protection domain. By default, each node is assigned to the same default custom protection domain.'
+=======
+keywords: Protection Domain layout,user-defined,custom layout
+summary: 'You can define a custom Protection Domain layout, where each node is associated with one and only one custom Protection Domain. By default, each node is assigned to the same default custom Protection Domain.'
+>>>>>>> 9d66269284942a0aab2a91a3757669bc11390c8b
 ---
 = Custom Protection Domains
 :icons: font
