@@ -27,6 +27,7 @@ Element Demo Node is only intended for use as a demonstration and development to
 * It supports a maximum of 100 volumes per account.
 * It supports a maximum of 200 vVols per account.
 * It supports a maximum volume size of 100 GiB.
+* It supports a sustained cluster limit of 3000 IOPS.
 
 NOTE: All other Element software limitations apply. See the latest Element software Release Notes for details.
 
