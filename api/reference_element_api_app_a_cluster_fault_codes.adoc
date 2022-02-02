@@ -64,7 +64,7 @@ A block service is using too much space.
 +
 To resolve this fault, purge or delete volumes or add another storage node to the storage cluster.
 
-* *BmcSelfTestFail*
+* *BmcSelfTestFailed*
 +
 The Baseboard Management Controller (BMC) failed a self-test.
 +
