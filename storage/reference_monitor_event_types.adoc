@@ -49,7 +49,9 @@ Events appearing upon cluster initialization or upon configuration changes to th
 
 * *csumEvent*
 +
-Events related to invalid data checksums on the disk.
+Events related to the detection of invalid data on the disk during end-to-end checksum validation.
++
+Services that detect invalid data will *Exit No Restart* after generating this event.
 
 * *dataEvent*
 +
@@ -101,7 +103,9 @@ Events related to the node maintenance mode, such as disabling the node.
 
 * *networkEvent*
 +
-Events related to the status of virtual networking.
+Events related to the status of networking.
++
+These events are triggered when network interface errors such as received misses, cyclic redundancy check (CRC) errors, length errors, over errors, and frame errors exceed a threshold value during a monitoring interval.
 
 * *platformHardwareEvent*
 +
