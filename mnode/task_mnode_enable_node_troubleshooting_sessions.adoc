@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: mnode/task_mnode_enable_node_troubleshooting_sessions.html
-summary: For Element 12.5 and later, you can enable the sflocal user account on the management node to troubleshoot system components without help from NetApp Support. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
-keywords: netapp, sflocal, connect to support, support tunnel, rst, mnode, management node
+summary: For Element 12.5 and later, you can enable the sfreadonly user account on the management node to troubleshoot system components without help from NetApp Support. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
+keywords: netapp, sfreadonly, connect to support, support tunnel, rst, mnode, management node
 ---
 
 = Accessing storage nodes using SSH for basic troubleshooting
@@ -14,9 +14,9 @@ keywords: netapp, sflocal, connect to support, support tunnel, rst, mnode, manag
 :imagesdir: ../media/
 
 [.lead]
-Beginning with Element 12.5, you can use the sflocal system account on the storage nodes for basic troubleshooting. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
+Beginning with Element 12.5, you can use the sfreadonly system account on the storage nodes for basic troubleshooting. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
 
-The sflocal system account enables access to run basic Linux system and network troubleshooting commands, including `ipmitool` and `ping`.
+The sfreadonly system account enables access to run basic Linux system and network troubleshooting commands, including `ipmitool` and `ping`.
 
 WARNING: Unless advised by NetApp Support, any alterations to this system are unsupported, voiding your support contract, and may result in instability or inaccessibility of data.
 
@@ -42,7 +42,7 @@ WARNING: Unless advised by NetApp Support, any alterations to this system are un
 
 == Troubleshoot a cluster node
 
-You can perform basic troubleshooting using the sflocal system account:
+You can perform basic troubleshooting using the sfreadonly system account:
 
 .Steps
 . SSH to the management node using your account login credentials you selected when installing the management node VM.
@@ -57,7 +57,7 @@ NOTE: For management node versions 12.3 or earlier, you can run the Bash script 
 +
 //Need NSS/GH/KB location for GA???
 
-. Run the script on the management node to generate the SSH keychain. The script enables SSH access using the sflocal system account across all nodes in the cluster.
+. Run the script on the management node to generate the SSH keychain. The script enables SSH access using the sfreadonly system account across all nodes in the cluster.
 +
 ----
 SignSshKeys --ip [ip address] --user [username] --duration [hours] --publickey [public key path]
@@ -85,7 +85,7 @@ sh /sf/bin/SignSshKeys.sh --ip 10.116.139.195 --user admin --duration 2
 . SSH to the node IPs:
 +
 ----
-ssh -i user sflocal@[node_ip]
+ssh -i user sfreadonly@[node_ip]
 ----
 +
 You will be able to run basic Linux system and network troubleshooting commands, such as `ipmitool`, `ping`, and other read-only commands.
@@ -157,14 +157,14 @@ NOTE: SSH remains enabled on the management node if you do not disable it. SSH e
 
 
 == Troubleshoot a node that is not part of cluster
-You can perform basic troubleshooting of a node that has not yet been added to a cluster. You can use the sflocal system account for this purpose with or without the help of NetApp Support. If you have a management node set up, you can use it for SSH and run the script provided for this task.
+You can perform basic troubleshooting of a node that has not yet been added to a cluster. You can use the sfreadonly system account for this purpose with or without the help of NetApp Support. If you have a management node set up, you can use it for SSH and run the script provided for this task.
 
 . From a Windows, Linux, or Mac machine that has an SSH client installed, run the appropriate script for your system provided by NetApp Support.
 //Need NSS/GH/KB location for GA???
 . SSH to the node IP:
 +
 ----
-ssh -i user sflocal@[node_ip]
+ssh -i user sfreadonly@[node_ip]
 ----
 
 . (Optional) Disable link:task_mnode_ssh_management.html[remote access functionality] again after troubleshooting is complete.

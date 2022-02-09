@@ -2,7 +2,7 @@
 permalink: api/reference_element_api_signsshkeys.html
 sidebar: sidebar
 keywords: ssh, sign key
-summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys method to gain access to a shell on a node as either sfadmin or sflocal. sflocal is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.'
+summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys method to gain access to a shell on a node as either sfadmin or sfreadonly. sfreadonly is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.'
 ---
 = SignSshKeys
 :icons: font
@@ -11,14 +11,14 @@ summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys
 [.lead]
 After SSH is enabled on the cluster using the link:../api/reference_element_api_enablessh.html[EnableSSH method], you can use the `SignSshKeys` method to gain access to a shell on a node.
 
-sflocal is a new system account as of Element 12.5 that allows for basic troubleshooting on a node. This API enables SSH access using the sflocal system account across all nodes in the cluster.
+sfreadonly is a new system account as of Element 12.5 that allows for basic troubleshooting on a node. This API enables SSH access using the sfreadonly system account across all nodes in the cluster.
 
 WARNING: Unless advised by NetApp Support, any alterations to the system are unsupported, voiding your support contract, and may result in instability or inaccessibility of data.
 
 After you use the method, you must copy the keychain from the response, save it to the system that will be initiating the SSH connection, then run the following command:
 
 ----
-ssh -i <user> sflocal@<node_ip>
+ssh -i <user> sfreadonly@<node_ip>
 ----
 
 `User` is the cluster username used to run the API command and `node_ip` is the IP address of the node.
