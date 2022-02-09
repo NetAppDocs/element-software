@@ -18,7 +18,7 @@ Beginning with Element 12.5, you can use the sfreadonly system account on the st
 
 The sfreadonly system account enables access to run basic Linux system and network troubleshooting commands, including `ipmitool` and `ping`.
 
-WARNING: Unless advised by NetApp Support, any alterations to this system are unsupported, voiding your support contract, and may result in instability or inaccessibility of data.
+WARNING: Unless advised by NetApp Support, any alterations to this system are unsupported, voiding your support contract, and might result in instability or inaccessibility of data.
 
 .Before you begin
 * *(Optional) Generate your own key pair*: Run `ssh-keygen` from Windows 10, MacOS, or Linux distribution. This is a one-time action to create a user key pair and can be reused for future troubleshooting sessions. You might want to use certificates associated with employee accounts, which would also work in this model.
@@ -123,6 +123,8 @@ NOTE: For management node versions 12.3 or earlier, you can run the Bash script 
 ----
 SignSshKeys --ip [ip address] --user [username] --duration [hours] --sfadmin
 ----
++
+NOTE: To SSH as sfadmin into a clustered node, you must generate the signed keychain using a `--user` that has `SupportAdmin` access on the cluster.
 
 .. Replace the value in [ ] brackets (including the brackets) for each of the following parameters:
 +
