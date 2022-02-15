@@ -124,7 +124,7 @@ NOTE: For management node versions 12.3 or earlier, you can run the Bash script 
 SignSshKeys --ip [ip address] --user [username] --duration [hours] --sfadmin
 ----
 +
-NOTE: To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain using a `--user` with SupportAdmin access on the cluster.
+NOTE: To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain using a `--user` with supportAdmin access on the cluster.
 
 .. Replace the value in [ ] brackets (including the brackets) for each of the following parameters:
 +

@@ -53,6 +53,16 @@ a|
 Null
 a|
 No
+a|
+sfadmin
+a|
+Allows access to the sfadmin shell account when you make the API call with supportAdmin cluster access, or when the node is not in a cluster.
+a|
+boolean
+a|
+False
+a|
+No
 |===
 
 == Return values
@@ -72,12 +82,18 @@ a|
 private_key
 a|
 A private SSH key value is only returned if the API is generating a complete keychain for the end user.
+
+NOTE: The value is Base64 encoded; you must decode the value when it is written to a file to ensure it is read as a valid private key.
+
 a|
 string
 a|
 public_key
 a|
 A public SSH key value is only returned if the API is generating a complete keychain for the end user.
+
+NOTE: When you pass a public_key parameter to the API method, only the `signed_public_key` value is returned in the response.
+
 a|
 string
 a|
