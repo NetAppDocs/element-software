@@ -16,7 +16,7 @@ keywords: netapp, element, cluster, inventory, nodes, storage
 [.lead]
 You can view your storage assets in your system and determine their IP addresses, names, and software versions.
 
-You can view storage information for your multiple node systems. If link:../storage/concept_intro_custom_protection_domains.html[custom protection domains] are assigned, you can see which protection domains are assigned to specific nodes.
+You can view storage information for your multiple node systems. If link:../concepts/concept_solidfire_concepts_data_protection.html#custom_protection_domains[custom protection domains] are assigned, you can see which protection domains are assigned to specific nodes.
 
 For SolidFire Enterprise SDS nodes, you can monitor inventory on the Storage tab.
 
