@@ -18,7 +18,7 @@ Element storage data protection includes the following concepts:
 * <<Volume clones>>
 * <<Backup and restore process overview for Element storage>>
 * <<Protection Domains>>
-* <<Custom Protection Domains>>
+* <<custom_pd,Custom Protection Domains>>
 * <<Double Helix high availability>>
 
 == Remote replication types
@@ -152,5 +152,4 @@ You can configure custom Protection Domains by using the following API methods:
 * link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout^] - enables a custom Protection Domain to be assigned to each node.
 
 == Double Helix high availability
-
 Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The “RAID-less” approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.
