@@ -27,7 +27,7 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 
 .Health check options
 
-You can run health checks using NetApp Hybrid Cloud Control, NetApp Hybrid Cloud Control API, or the HealthTools suite:
+You can run health checks using the NetApp Hybrid Cloud Control UI, the NetApp Hybrid Cloud Control API, or the HealthTools suite:
 
 * <<Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage>> (Preferred method)
 * <<Use API to run Element storage health checks prior to upgrading storage>>
