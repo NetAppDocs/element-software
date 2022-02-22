@@ -176,7 +176,7 @@ https://<ManagementNodeIP>/package-repository/1/
 
 |Your management node is within a dark site without external connectivity.
 a|
-. Download the storage firmware upgrade package to a device that is accessible to the management node. For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^] and download the latest storage firmware image.
+. Download the storage firmware upgrade package to a device that is accessible to the management node; go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage firmware image.
 
 . Upload the storage firmware upgrade package to the management node:
 .. Open the management node REST API UI on the management node:
