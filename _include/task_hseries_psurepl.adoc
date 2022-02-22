@@ -42,7 +42,6 @@ a|
 image::h610s_psu.png[Shows the power supply units in a H610S chassis.]
 
 |===
-
 . Identify the correct node using the blue pullout tag or serial number. The blue pull-out tag lists the serial number (S/N) and drive layout. Confirm the node’s serial number to be serviced.
 * If you are replacing both power supply units, continue to step 3.
 * If you are replacing only one power supply unit, skip to step 4.
