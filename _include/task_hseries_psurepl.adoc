@@ -20,7 +20,6 @@ Alarms in the Element UI provide information about the failed power supply unit,
 NOTE: If replacing both PSUs in the node, they must have the same part number and wattage, else damage to the system might occur.
 
 .Steps
-
 . Locate the faulty power supply unit in the chassis. The LED on the faulty unit displays amber.
 +
 NOTE: The power supply units are located differently based on the type of chassis.
