@@ -152,4 +152,5 @@ You can use the Element UI to link:task_data_protection_configure_custom_protect
 * link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout^] - enables a custom Protection Domain to be assigned to each node.
 
 == Double Helix high availability
+
 Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The “RAID-less” approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.
