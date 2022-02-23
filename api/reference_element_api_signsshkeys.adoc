@@ -83,7 +83,7 @@ private_key
 a|
 A private SSH key value is only returned if the API is generating a complete keychain for the end user.
 
-NOTE: The value is Base64 encoded; you must decode the value when it is written to a file to ensure it is read as a valid private key.
+NOTE: The value is Base64 encoded; you must decode the value when it is written to a file to ensure that it is read as a valid private key.
 
 a|
 string
