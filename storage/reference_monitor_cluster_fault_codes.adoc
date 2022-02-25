@@ -102,6 +102,12 @@ Cluster IOPS are over provisioned. The sum of all minimum QoS IOPS is greater th
 +
 To resolve this issue, lower the minimum QoS IOPS settings for volumes.
 
+* *CpuThermalEventThreshold*
++
+The number of CPU thermal events on one or more CPUs exceeds the configured threshold.
++
+If no new CPU thermal events are detected within ten minutes, the warning will resolve itself.
+
 * *disableDriveSecurityFailed*
 +
 The cluster is not configured to enable drive security (Encryption at Rest), but at least one drive has drive security enabled, meaning that disabling drive security on those drives failed. This fault is logged with "`Warning`" severity.
