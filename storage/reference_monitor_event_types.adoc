@@ -47,9 +47,11 @@ Events related to volume cloning.
 +
 Events appearing upon cluster initialization or upon configuration changes to the cluster, such as adding or removing nodes.
 
-* *csumEvent*
+* *cSumEvent*
 +
-Events related to invalid data checksums on the disk.
+Events related to the detection of a checksum mismatch during end-to-end checksum validation.
++
+Services that detect a checksum mismatch are automatically stopped and not restarted after generating this event.
 
 * *dataEvent*
 +
@@ -101,7 +103,9 @@ Events related to the node maintenance mode, such as disabling the node.
 
 * *networkEvent*
 +
-Events related to the status of virtual networking.
+Events related to the network error reporting for each physical network interface card (NIC) interface.
++
+These events are triggered when any error count for an interface exceeds a default threshold of 1000 during a 10-minute monitoring interval. These events apply to network errors such as received misses, cyclic redundancy check (CRC) errors, length errors, overrun errors, and frame errors.
 
 * *platformHardwareEvent*
 +
