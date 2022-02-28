@@ -219,7 +219,7 @@ NOTE: The Element 12.3.x management node is an optional upgrade. It is not requi
 +
 TIP: To check the version of your management node, log in to your management node and view the Element version number in the login banner.
 
-* You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `https://<ManagementNodeIP>`
+* You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
 * If you are updating your management node to version 12.3.x, you need management services 2.14.60 or later to proceed.
 
