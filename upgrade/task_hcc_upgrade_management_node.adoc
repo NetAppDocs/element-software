@@ -219,7 +219,7 @@ NOTE: The Element 12.3.x management node is an optional upgrade. It is not requi
 +
 TIP: To check the version of your management node, log in to your management node and view the Element version number in the login banner.
 
-* You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `https://<ManagementNodeIP>`
+* You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
 * If you are updating your management node to version 12.3.x, you need management services 2.14.60 or later to proceed.
 
@@ -230,7 +230,6 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 * Storage nodes are running Element 11.3 or later.
 
 .Steps
-
 . Configure the management node VM RAM:
 .. Power off the management node VM.
 .. Change the RAM of the management node VM from 12GB to 24GB RAM.
