@@ -128,9 +128,9 @@ SignSshKeys --ip [ip address] --user [username] --duration [hours] --sfadmin
 ====
 To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain using a `--user` with `supportAdmin` access on the cluster.
 
-You can configure `supportAdmin` access for a new cluster user account by using the link:../api/reference_element_api_addclusteradmin[`AddClusterAdmin` API], and an existing user account by using the link:../api/reference_element_api_modifyclusteradmin.html[`ModifyClusterAdmin` API], and adding `"supportAdmin"` as `"access"` in the API request.
+You can configure `supportAdmin` access for a new cluster user account by using the link:../api/reference_element_api_addclusteradmin.html[AddClusterAdmin API], and an existing cluster user account by using the link:../api/reference_element_api_modifyclusteradmin.html[ModifyClusterAdmin API] and adding `"supportAdmin"` as the `"access"` type in the API request. To get the `clusterAdminID` for a given user, you can use the link:../api/reference_element_api_listclusteradmins.html[ListClusterAdmins API].
 
-To configure `supportAdmin` access, you must have cluster administrator or administrator privileges.
+To add `supportAdmin` access, you must have cluster administrator or administrator privileges.
 ====
 
 .. Replace the value in [ ] brackets (including the brackets) for each of the following parameters:
