@@ -125,9 +125,7 @@ NetApp Support will log in to your management node using the support tunnel.
 * For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
 * The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory. However, when a public key file is provided to the script, only a `<public_key>-cert.pub` file (with `<public_key>` replaced with the prefix of the public key passed into the script) is written out of the directory.
 ====
-
 //Need NSS/GH/KB location for GA???
-
 . Run the script to generate the SSH keychain with the `--sfadmin` flag. The script enables SSH across all nodes.
 +
 ----
@@ -142,7 +140,7 @@ To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain us
 
 To configure `supportAdmin` access for cluster administrator accounts, you can use the Element UI or APIs:
 
-* link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details[Configure "supportAdmin" access by using the Element UI]
+* link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details[Configure "supportAdmin" access using the Element UI]
 * Configure `supportAdmin` access by using APIs and adding `"supportAdmin"` as the `"access"` type in the API request:
 ** link:../api/reference_element_api_addclusteradmin.html[Configure "supportAdmin" access for a new account]
 ** link:../api/reference_element_api_modifyclusteradmin.html[Configure "supportAdmin" access for an existing account]
