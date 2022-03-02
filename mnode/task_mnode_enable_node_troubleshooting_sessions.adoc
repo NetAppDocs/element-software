@@ -57,7 +57,7 @@ You can perform basic troubleshooting using the sfreadonly system account:
 [NOTE]
 ====
 * For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
-* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory. However, when a public key file is provided to the script, only a `<public_key>-cert.pub` file (with `<public_key>` replaced with the prefix of the public key passed into the script) is written out of the directory.
+* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
 ====
 //Need NSS/GH/KB location for GA???
 
@@ -66,8 +66,6 @@ You can perform basic troubleshooting using the sfreadonly system account:
 ----
 SignSshKeys --ip [ip address] --user [username] --duration [hours] --publickey [public key path]
 ----
-+
-NOTE: The `--duration` parameter is optional and defaults to 24 hours.
 
 .. Replace the value in [ ] brackets (including the brackets) for each of the following parameters:
 +
@@ -77,7 +75,7 @@ NOTE: You can use either the abbreviated or full form parameter.
 
 * *--user | -u [username]*: Cluster user used to run the API call.
 
-* *--duration | -d [hours]*: The duration a signed key should remain valid as an integer in hours.
+* *(Optional) --duration | -d [hours]*: The duration a signed key should remain valid as an integer in hours. The default is 24 hours.
 
 * *(Optional) --publickey | -k [public key path]*: The path to a public key, if the user chooses to provide one.
 
@@ -123,7 +121,7 @@ NetApp Support will log in to your management node using the support tunnel.
 [NOTE]
 ====
 * For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
-* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory. However, when a public key file is provided to the script, only a `<public_key>-cert.pub` file (with `<public_key>` replaced with the prefix of the public key passed into the script) is written out of the directory.
+* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
 ====
 //Need NSS/GH/KB location for GA???
 . Run the script to generate the SSH keychain with the `--sfadmin` flag. The script enables SSH across all nodes.
@@ -134,8 +132,6 @@ SignSshKeys --ip [ip address] --user [username] --duration [hours] --sfadmin
 +
 [NOTE]
 ====
-The `--duration` parameter is optional and defaults to 24 hours.
-
 To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain using a `--user` with `supportAdmin` access on the cluster.
 
 To configure `supportAdmin` access for cluster administrator accounts, you can use the Element UI or APIs:
