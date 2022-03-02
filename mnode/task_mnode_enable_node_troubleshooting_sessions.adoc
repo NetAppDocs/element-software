@@ -21,7 +21,7 @@ The sfreadonly system account enables access to run basic Linux system and netwo
 WARNING: Unless advised by NetApp Support, any alterations to this system are unsupported, voiding your support contract, and might result in instability or inaccessibility of data.
 
 .Before you begin
-* *Write permission*: Verify that you have write permissions to the current working directory.
+* *Write permissions*: Verify that you have write permissions to the current working directory.
 * *(Optional) Generate your own key pair*: Run `ssh-keygen` from Windows 10, MacOS, or Linux distribution. This is a one-time action to create a user key pair and can be reused for future troubleshooting sessions. You might want to use certificates associated with employee accounts, which would also work in this model.
 * *Enable SSH capability on the management node*: To enable remote access functionality on the management mode, see link:task_mnode_ssh_management.html[this topic]. For management services 2.18 and later, the capability for remote access is disabled on the management node by default.
 * *Enable SSH capability on the storage cluster*: To enable remote access functionality on the storage cluster nodes, see link:https://docs.netapp.com/us-en/element-software/storage/task_system_manage_cluster_enable_and_disable_support_access.html[this topic].
