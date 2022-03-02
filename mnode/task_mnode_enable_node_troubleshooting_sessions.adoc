@@ -130,8 +130,8 @@ To SSH as `--sfadmin` to a clustered node, you must generate the SSH keychain us
 
 You can configure `supportAdmin` access for cluster administrator accounts by using APIs and adding `"supportAdmin"` as the `"access"` type in the API request:
 
-* link:../api/reference_element_api_addclusteradmin.html[Configure `supportAdmin` access for a new account]
-* link:../api/reference_element_api_modifyclusteradmin.html[Configure `supportAdmin` access for an existing account]
+* link:../api/reference_element_api_addclusteradmin.html[Configure "supportAdmin" access for a new account]
+* link:../api/reference_element_api_modifyclusteradmin.html[Configure "supportAdmin" access for an existing account]
 +
 To get the `clusterAdminID` for a given account, you can use the link:../api/reference_element_api_listclusteradmins.html[ListClusterAdmins API].
 
