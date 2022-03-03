@@ -64,7 +64,7 @@ A block service is using too much space.
 +
 To resolve this fault, purge or delete volumes or add another storage node to the storage cluster.
 
-* *BmcSelfTestFailed*
+* [[bmcselftestfailed]]*BmcSelfTestFailed*
 +
 The Baseboard Management Controller (BMC) failed a self-test.
 +
@@ -96,7 +96,7 @@ Storage cluster IOPS are over provisioned. The sum of all minimum QoS IOPS is gr
 +
 To resolve this fault, lower the minimum QoS IOPS settings for volumes.
 
-* *CpuThermalEventThreshold*
+* [[cputhermaleventthreshold]]*CpuThermalEventThreshold*
 +
 The number of CPU thermal events on one or more CPUs exceeds the configured threshold.
 +

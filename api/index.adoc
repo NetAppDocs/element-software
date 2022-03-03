@@ -40,6 +40,11 @@ The Element API is based on the JSON-RPC protocol over HTTPS. JSON-RPC is a simp
 * xref:reference_element_api_app_b_access_control.adoc[Access control]
 * xref:concept_element_api_response_examples.adoc[Response examples]
 
+== What's new
+Element 12.5 introduces improved storage node access with the introduction of the xref:reference_element_api_signsshkeys.adoc[SignSshKeys API method].
+
+Element 12.5 enhances your system troubleshooting with the introduction of the new cluster fault codes link:../api/reference_element_api_app_a_cluster_fault_codes.html#bmcselftestfailed[BmcSelfTestFailed] and link:../api/reference_element_api_app_a_cluster_fault_codes.html#cputhermaleventthreshold[CpuThermalEventThreshold].
+
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
 * http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]

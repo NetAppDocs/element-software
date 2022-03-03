@@ -25,6 +25,10 @@ The software interface is built upon the Element API.
 * link:concept_data_protection.html[Protect your data]
 * link:concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system]
 
+== What's new
+Element 12.5 features a new user interface that enables you to quickly and easily link:../storage/task_data_protection_configure_custom_protection_domains.html[view existing custom Protection Domains and configure new custom Protection Domains].
+
+Element 12.5 also contains robustness improvements for existing cluster events such as link:../storage/reference_monitor_event_types.html#csumevent[cSumEvent] and link:../storage/reference_monitor_event_types.html#networkevent[networkEvent].
 
 == Find more information
 
