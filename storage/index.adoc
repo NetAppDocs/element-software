@@ -11,7 +11,7 @@ summary: ''
 [.lead]
 Element 12.5 features a new user interface that enables you to quickly and easily link:../storage/task_data_protection_configure_custom_protection_domains.html[view existing custom Protection Domains and configure new custom Protection Domains].
 
-Element 12.5 also contains robustness improvements for existing cluster events such as link:../storage/reference_monitor_event_types.html#csumevent[cSumEvent] and link:../storage/reference_monitor_event_types.html#networkevent[networkEvent].
+Element 12.5 also contains robustness improvements for existing cluster events such as link:../storage/reference_monitor_event_types.html#csum_event[cSumEvent] and link:../storage/reference_monitor_event_types.html#network_event[networkEvent].
 
 = Manage storage with Element software
 Use Element software to set up SolidFire storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure.

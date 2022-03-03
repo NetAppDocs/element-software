@@ -11,7 +11,7 @@ summary: Learn how to manage NetApp Element storage clusters using the Element A
 [.lead]
 Element 12.5 introduces improved storage node access with the introduction of the xref:reference_element_api_signsshkeys.adoc[SignSshKeys API method].
 
-Element 12.5 enhances your system troubleshooting with the introduction of the new cluster fault codes link:../api/reference_element_api_app_a_cluster_fault_codes.html#bmcselftestfailed[BmcSelfTestFailed] and link:../api/reference_element_api_app_a_cluster_fault_codes.html#cputhermaleventthreshold[CpuThermalEventThreshold].
+Element 12.5 enhances your system troubleshooting with the introduction of the new cluster fault codes link:../api/reference_element_api_app_a_cluster_fault_codes.html#bmc_selftest_failed[BmcSelfTestFailed] and link:../api/reference_element_api_app_a_cluster_fault_codes.html#cpu_thermal_event_threshold[CpuThermalEventThreshold].
 
 = Manage storage with Element API
 You can manage Element storage clusters using the Element software API.

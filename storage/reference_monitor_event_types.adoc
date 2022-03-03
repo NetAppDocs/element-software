@@ -47,7 +47,7 @@ Events related to volume cloning.
 +
 Events appearing upon cluster initialization or upon configuration changes to the cluster, such as adding or removing nodes.
 
-* [[csumevent]]*cSumEvent*
+* [[csum_event]]*cSumEvent*
 +
 Events related to the detection of a checksum mismatch during end-to-end checksum validation.
 +
@@ -101,7 +101,7 @@ Events related to the number of volumes or virtual volumes in an account or in t
 +
 Events related to the node maintenance mode, such as disabling the node.
 
-* [[networkevent]]*networkEvent*
+* [[network_event]]*networkEvent*
 +
 Events related to the network error reporting for each physical network interface card (NIC) interface.
 +
