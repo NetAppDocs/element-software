@@ -5,15 +5,16 @@ summary: You can use the management node (mNode) to use system services, manage 
 keywords: netapp, mnode, api, rest api, mnode ui, management node ui
 ---
 
-= Management node overview
-
+= What's new
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
 
-[.lead]
+Element 12.5 brings improved remote access to individual nodes using link:../mnode/task_mnode_enable_node_troubleshooting_sessions.html[signed SSH certificates].
+
+= Management node overview
 You can use the management node (mNode) to use system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.
 
 NOTE: As a best practice, only associate one management node with one VMware vCenter instance, and avoid defining the same storage and compute resources or vCenter instances in multiple management nodes.
@@ -46,9 +47,6 @@ Disable or enable remote SSH functionality or start a remote support tunnel sess
 - link:task_mnode_enable_node_troubleshooting_sessions.html[Accessing storage nodes using SSH for basic troubleshooting]
 * link:task_mnode_enable_remote_support_connections.html[Enable remote NetApp Support connections (Element 12.3 and earlier)]
 * link:task_mnode_ssh_management.html[Manage SSH functionality on the management node]
-
-== What's new
-Element 12.5 brings improved remote access to individual nodes using link:../mnode/task_mnode_enable_node_troubleshooting_sessions.html[signed SSH certificates].
 
 [discrete]
 == Find more information
