@@ -154,7 +154,7 @@ NOTE: You can use either the abbreviated or full form parameter.
 
 * *--user | -u [username]*: Cluster user used to run the API call.
 
-* *--duration | -d [hours]*: The duration a signed key should remain valid as an integer in hours.
+* *(Optional) --duration | -d [hours]*: The duration a signed key should remain valid as an integer in hours. The default is 24 hours.
 
 .. Compare your input against the following sample command. In this example, `192.168.0.1` is the IP of the storage node, `admin` is the cluster username, duration of key validity is two hours, and `--sfadmin` allows NetApp Support node access for troubleshooting:
 +
