@@ -78,7 +78,6 @@ The Baseboard Management Controller (BMC) failed a self-test.
 +
 Contact NetApp support for assistance.
 +
-+
 During an Element 12.5 upgrade, the `BmcSelfTestFailed` fault is not generated for a node that has a preexisting failed BMC, or when a node's BMC fails during the upgrade. The BMCs that fail the self-tests during the upgrade will issue a `BmcSelfTestFailed` warning fault after the entire cluster completes the upgrade.
 
 * *clockSkewExceedsFaultThreshold*
