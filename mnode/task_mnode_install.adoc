@@ -47,7 +47,6 @@ The Element 12.2 management node is an optional upgrade. It is not required for 
 Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
 
 .Steps
-
 . <<Download ISO or OVA and deploy the VM>>
 . <<Create the management node admin and configure the network>>
 . <<Configure time sync>>
@@ -67,6 +66,10 @@ Prior to following this procedure, you should have an understanding of link:../c
 +
 * Six virtual CPUs
 * 24GB RAM
+* Storage adapter type set to LSI Logic Parallel
++
+IMPORTANT: The default for your management node might be LSI Logic SAS. In the *New Virtual Machine* window, verify the storage adapter configuration by selecting *Customize hardware* > *Virtual Hardware*. If required, change LSI Logic SAS to *LSI Logic Parallel*.
+
 * 400GB virtual disk, thin provisioned
 * One virtual network interface with internet access and access to the storage MVIP.
 * (Optional) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
