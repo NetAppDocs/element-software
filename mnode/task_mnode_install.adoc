@@ -86,15 +86,15 @@ NOTE: Installing a management node using the image might result in 30-second del
 
 [NOTE]
 ====
-If there is a Dynamic Host Configuration Protocol (DHCP) server on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, you cannot configure the management node network or use the Element web UI. To avoid this issue, you can use the following procedure:
+If there is a Dynamic Host Configuration Protocol (DHCP) server on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, you cannot configure the management node network or use the management node UI. To avoid this issue, you can use the following procedure:
 
 . Temporarily put the management node on a vSphere network without DHCP, such as iSCSI.
 . Reboot the VM or restart the VM network.
-. Configure the correct IP on the management network with an MTU of greater than or equal to 1500 bytes.
+. Using the terminal user interface (TUI), configure the correct IP on the management network with an MTU of greater than or equal to 1500 bytes.
 . Re-assign the correct VM network to the VM.
 ====
 
-. Using the terminal user interface (TUI), create a management node admin user.
+. Using the TUI, create a management node admin user.
 +
 TIP: To move through the menu options, press the Up or Down arrow keys. To move through the buttons, press Tab. To move from the buttons to the fields, press Tab. To navigate between fields, press the Up or Down arrow keys.
 
