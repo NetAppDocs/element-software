@@ -72,7 +72,6 @@ A banner appears in the registration utility UI when the registration is success
 NOTE: This action creates a new database and completes the installation in the vSphere Web Client.
 
 . In the vSphere Web Client, look for the following completed tasks in the task monitor to ensure installation has completed: `Download plug-in` and `Deploy plug-in`.
-
 . Verify that the NetApp Element Configuration and Management extension points appear in the *Shortcuts* tab of the vSphere Web Client and in the side panel.
 +
 image::vcp_shortcuts_page_accessing_plugin.png[depicts the plug-in extension points after a successful upgrade or install]
