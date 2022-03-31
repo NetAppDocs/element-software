@@ -85,16 +85,16 @@ NOTE: Installing a management node using the image might result in 30-second del
 [[create_mnode_admin]]
 == Create the management node admin and configure the network
 
-Before you begin, you should check if you have a Dynamic Host Configuration Protocol (DHCP) server on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, which prevents you configuring the management node network or using the management node UI. If you have a DHCP that assigns IPs with an MTU less than 1500 bytes, you should perform the following steps:
+. If there is a Dynamic Host Configuration Protocol (DHCP) on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, perform the following steps:
 
-. Temporarily put the management node on a vSphere network without DHCP, such as iSCSI.
-. Reboot the VM or restart the VM network.
-. Using the terminal user interface (TUI), configure the correct IP on the management network with an MTU of greater than or equal to 1500 bytes.
-. Re-assign the correct VM network to the VM.
+.. Temporarily put the management node on a vSphere network without DHCP, such as iSCSI.
+.. Reboot the VM or restart the VM network.
+.. Using the terminal user interface (TUI), configure the correct IP on the management network with an MTU greater than or equal to 1500 bytes.
+.. Re-assign the correct VM network to the VM.
 
-Create the management node admin and configure the network by performing the following steps. 
++
+NOTE: A DHCP that assigns IPs with an MTU less than 1500 bytes can prevent you configuring the management node network or using the management node UI.
 
-.Steps
 . Using the TUI, create a management node admin user.
 +
 TIP: To move through the menu options, press the Up or Down arrow keys. To move through the buttons, press Tab. To move from the buttons to the fields, press Tab. To navigate between fields, press the Up or Down arrow keys.
