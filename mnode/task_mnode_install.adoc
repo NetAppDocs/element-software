@@ -85,7 +85,7 @@ NOTE: Installing a management node using the image might result in 30-second del
 [[create_mnode_admin]]
 == Create the management node admin and configure the network
 
-. If there is a Dynamic Host Configuration Protocol (DHCP) on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, perform the following steps:
+. If there is a Dynamic Host Configuration Protocol (DHCP) server on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, you must perform the following steps:
 
 .. Temporarily put the management node on a vSphere network without DHCP, such as iSCSI.
 .. Reboot the VM or restart the VM network.
