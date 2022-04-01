@@ -39,7 +39,7 @@ NOTE: When you accept the EULA, it is recorded for all future updates and the au
 
 .Health check options
 
-You can run health checks using NetApp Hybrid Cloud Control (HCC) UI, HCC API, or the HealthTools suite:
+You can run health checks using the NetApp Hybrid Cloud Control UI, the NetApp Hybrid Cloud Control API, or the HealthTools suite:
 
 * <<Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage>> (Preferred method)
 * <<Use API to run Element storage health checks prior to upgrading storage>>
@@ -51,7 +51,7 @@ You can also find out more about storage health checks that are run by the servi
 
 == Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage
 
-Using NetApp Hybrid Cloud Control (HCC), you can verify that a storage cluster is ready to be upgraded.
+Using NetApp Hybrid Cloud Control, you can verify that a storage cluster is ready to be upgraded.
 
 .Steps
 

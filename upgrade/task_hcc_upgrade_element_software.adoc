@@ -188,7 +188,7 @@ https://<ManagementNodeIP>/package-repository/1/
 a|
 . Download the storage upgrade package to a device that is accessible to the management node.
 +
-For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^] and download the latest storage node image.
+Go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage node image.
 . Upload the storage upgrade package to the management node:
 .. Open the management node REST API UI on the management node:
 +
@@ -389,7 +389,7 @@ CAUTION: Aborting the cluster upgrade while a node is being updated might result
 
 .Steps
 
-. Download the storage upgrade package. For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^] and download the latest storage node image to a device that not the management node.
+. Download the storage upgrade package; go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage node image to a device that not the management node.
 +
 NOTE: You need the latest version of HealthTools to upgrade Element storage software.
 
@@ -541,7 +541,7 @@ You can use the HealthTools suite of tools to update NetApp Element software at 
 
 .What you'll need
 
-. For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^].
+. Go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^].
 . Select the correct software release and download the latest storage node image to a computer that is not the management node.
 +
 NOTE: You need the latest version of HealthTools to upgrade Element storage software.
