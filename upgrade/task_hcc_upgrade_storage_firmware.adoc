@@ -23,8 +23,8 @@ Starting with Element 12.0 and management services version 2.14, you can perform
 * *System ports*: If you are using NetApp Hybrid Cloud Control for upgrades, you have ensured that the necessary ports are open. See link:../storage/reference_prereq_network_port_requirements.html[Network ports] for more information.
 * *Management node*: For NetApp Hybrid Cloud Control UI and API, the management node in your environment is running version 11.3.
 * *Management services*: You have updated your management services bundle to the latest version.
-* *End User License Agreement (EULA)*: Beginning with management services 2.20, before you can use the NetApp Hybrid Cloud Control UI or API to upgrade management services, you must perform the following steps to accept and save the EULA:
-
+* *End User License Agreement (EULA)*: Beginning with management services 2.20, you have accepted and saved the EULA before using the NetApp Hybrid Cloud Control UI or API to upgrade storage firmware:
++
 . Open a web browser and browse to the IP address of the management node:
 +
 ----
