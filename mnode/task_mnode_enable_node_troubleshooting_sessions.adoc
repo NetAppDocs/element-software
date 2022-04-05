@@ -124,6 +124,7 @@ NetApp Support will log in to your management node using the support tunnel.
 * The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
 ====
 //Need NSS/GH/KB location for GA???
+
 . Run the script to generate the SSH keychain with the `--sfadmin` flag. The script enables SSH across all nodes.
 +
 ----
@@ -155,6 +156,7 @@ NOTE: You can use either the abbreviated or full form parameter.
 * *--user | -u [username]*: Cluster user used to run the API call.
 
 * *(Optional) --duration | -d [hours]*: The duration a signed key should remain valid as an integer in hours. The default is 24 hours.
+
 
 .. Compare your input against the following sample command. In this example, `192.168.0.1` is the IP of the storage node, `admin` is the cluster username, duration of key validity is two hours, and `--sfadmin` allows NetApp Support node access for troubleshooting:
 +

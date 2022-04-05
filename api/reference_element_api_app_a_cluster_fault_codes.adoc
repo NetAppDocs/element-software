@@ -316,11 +316,11 @@ The bond modes on the VLAN device are missing. This fault will display the expec
 +
 To resolve this fault, modify the bond modes in the per-node web UI.
 
-* *inconsistentInterfaceConfiguration*
-+
-The interface configuration is inconsistent.
-+
-To resolve this fault, ensure the node interfaces in the storage cluster are consistently configured.
+//* *inconsistentInterfaceConfiguration*
+//+
+//The interface configuration is inconsistent.
+//+
+//To resolve this fault, ensure the node interfaces in the storage cluster are consistently configured.
 
 * *inconsistentMtus*
 +

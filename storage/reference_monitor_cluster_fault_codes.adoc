@@ -315,11 +315,11 @@ To resolve this fault, update the SSL certificate before it expires. Use the Upd
 +
 The bond modes on the VLAN device are missing. This fault will display the expected bond mode and the bond mode currently in use.
 
-* *inconsistentInterfaceConfiguration*
-+
-The interface configuration is inconsistent.
-+
-To resolve this fault, ensure the node interfaces in the storage cluster are consistently configured.
+//* *inconsistentInterfaceConfiguration*
+//+
+//The interface configuration is inconsistent.
+//+
+//To resolve this fault, ensure the node interfaces in the storage cluster are consistently configured.
 
 * *inconsistentMtus*
 +
