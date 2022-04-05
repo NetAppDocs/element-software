@@ -16,7 +16,7 @@ keywords: netapp, sfreadonly, connect to support, support tunnel, rst, mnode, ma
 [.lead]
 Beginning with Element 12.5, you can use the sfreadonly system account on the storage nodes for basic troubleshooting. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
 
-The sfreadonly system account enables access to run basic Linux system and network troubleshooting commands, including `ipmitool` and `ping`.
+The sfreadonly system account enables access to run basic Linux system and network troubleshooting commands, including `ping`.
 
 WARNING: Unless advised by NetApp Support, any alterations to this system are unsupported, voiding your support contract, and might result in instability or inaccessibility of data.
 
