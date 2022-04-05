@@ -92,7 +92,7 @@ sh /sf/bin/SignSshKeys.sh --ip 10.116.139.195 --user admin --duration 2
 ssh -i user sfreadonly@[node_ip]
 ----
 +
-You will be able to run basic Linux system and network troubleshooting commands, such as `ipmitool`, `ping`, and other read-only commands.
+You will be able to run basic Linux system and network troubleshooting commands, such as `ping`, and other read-only commands.
 
 . (Optional) Disable link:task_mnode_ssh_management.html[remote access functionality] again after troubleshooting is complete.
 +
