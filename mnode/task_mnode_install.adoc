@@ -62,7 +62,7 @@ Prior to following this procedure, you should have an understanding of link:../c
 .. Deploy the OVA.
 .. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (for example, eth1) or ensure that the management network can route to the storage network.
 . If you downloaded the ISO, follow these steps:
-.. Create a new 64-bit virtual machine from your hypervisor with the following configuration:
+.. Create a new 64-bit VM from your hypervisor with the following configuration:
 +
 * Six virtual CPUs
 * 24GB RAM
@@ -74,13 +74,13 @@ IMPORTANT: The default for your management node might be LSI Logic SAS. In the *
 * One virtual network interface with internet access and access to the storage MVIP.
 * (Optional) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
 +
-IMPORTANT: Do not power on the virtual machine prior to the step indicating to do so later in this procedure.
+IMPORTANT: Do not power on the VM prior to the step indicating to do so later in this procedure.
 
-.. Attach the ISO to the virtual machine and boot to the .iso install image.
+.. Attach the ISO to the VM and boot to the .iso install image.
 +
 NOTE: Installing a management node using the image might result in 30-second delay before the splash screen appears.
 
-. Power on the virtual machine for the management node after the installation completes.
+. Power on the VM for the management node after the installation completes.
 
 [[create_mnode_admin]]
 == Create the management node admin and configure the network
