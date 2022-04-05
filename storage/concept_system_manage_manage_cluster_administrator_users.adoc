@@ -43,6 +43,7 @@ NOTE: A local (non-LDAP) cluster administrator account is required to access act
  ** accounts
  ** clusterAdmins
  ** administrator
+ ** supportAdmin
 
 +
 NOTE: All permissions are available to the administrator access type.

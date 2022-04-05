@@ -4,11 +4,16 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= Manage storage with Element software
+= What's new
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+Element 12.5 features a new user interface that enables you to quickly and easily link:../storage/task_data_protection_configure_custom_protection_domains.html[view existing custom Protection Domains and configure new custom Protection Domains].
+
+Element 12.5 also contains robustness improvements for existing cluster events such as link:../storage/reference_monitor_event_types.html#csum_event[cSumEvent] and link:../storage/reference_monitor_event_types.html#network_event[networkEvent].
+
+= Manage storage with Element software
 Use Element software to set up SolidFire storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure.
 
 Element is the storage operating system at the heart of a SolidFire cluster. Element software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources and present as a single storage system to external clients. Element software is responsible for all cluster coordination, scale and management of the system as a whole.
@@ -24,7 +29,6 @@ The software interface is built upon the Element API.
 * link:concept_data_manage_data_management.html[Manage volumes and virtual volumes]
 * link:concept_data_protection.html[Protect your data]
 * link:concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system]
-
 
 == Find more information
 

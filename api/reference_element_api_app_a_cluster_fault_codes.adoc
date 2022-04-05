@@ -64,6 +64,14 @@ A block service is using too much space.
 +
 To resolve this fault, purge or delete volumes or add another storage node to the storage cluster.
 
+* [[bmc_selftest_failed]]*BmcSelfTestFailed*
++
+The Baseboard Management Controller (BMC) failed a self-test.
++
+Contact NetApp support for assistance.
++
+During an Element 12.5 upgrade, the `BmcSelfTestFailed` fault is not generated for a node that has a preexisting failed BMC, or when a node's BMC fails during the upgrade. The BMCs that fail the self-tests during the upgrade will issue a `BmcSelfTestFailed` warning fault after the entire cluster completes the upgrade.
+
 * *clockSkewExceedsFaultThreshold*
 +
 The time skew between the cluster master and the node which is presenting a token exceeds the recommended threshold.
@@ -87,6 +95,12 @@ To resolve this fault, add more storage.
 Storage cluster IOPS are over provisioned. The sum of all minimum QoS IOPS is greater than the expected IOPS of the cluster. The system cannot maintain minimum QoS for all volumes simultaneously.
 +
 To resolve this fault, lower the minimum QoS IOPS settings for volumes.
+
+* [[cpu_thermal_event_threshold]]*CpuThermalEventThreshold*
++
+The number of CPU thermal events on one or more CPUs exceeds the configured threshold.
++
+If no new CPU thermal events are detected within ten minutes, the warning will resolve itself.
 
 * *disableDriveSecurityFailed*
 +
@@ -696,7 +710,7 @@ The fault clears if the scheduled activity runs again and succeeds, if the sched
 
 * *sensorReadingFailed*
 +
-The Baseboard Management Controller (BMC) self-test failed or a sensor could not communicate with the BMC.
+A sensor could not communicate with the Baseboard Management Controller (BMC).
 +
 Contact NetApp Support for assistance.
 

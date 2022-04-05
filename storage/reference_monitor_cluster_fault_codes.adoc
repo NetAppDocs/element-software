@@ -72,6 +72,14 @@ A block service has been detected as unhealthy:
  ** Severity = Critical: There are failed block services on several nodes greater than or equal to the replication count (2 for double helix). Data is unavailable and bin syncing will not finish.
 Check for network connectivity issues and hardware errors. There will be other faults if specific hardware components have failed. The fault will clear when the block service is accessible or when the service has been decommissioned.
 
+* *BmcSelfTestFailed*
++
+The Baseboard Management Controller (BMC) failed a self-test.
++
+Contact NetApp support for assistance.
++
+During an Element 12.5 upgrade, the `BmcSelfTestFailed` fault is not generated for a node that has a preexisting failed BMC, or when a node's BMC fails during the upgrade. The BMCs that fail the self-tests during the upgrade will issue a `BmcSelfTestFailed` warning fault after the entire cluster completes the upgrade.
+
 * *clockSkewExceedsFaultThreshold*
 +
 Time skew between the Cluster master and the node which is presenting a token exceeds the recommended threshold. Storage cluster cannot correct the time skew between the nodes automatically.
@@ -95,6 +103,12 @@ To resolve this fault, add more storage.
 Cluster IOPS are over provisioned. The sum of all minimum QoS IOPS is greater than the expected IOPS of the cluster. Minimum QoS cannot be maintained for all volumes simultaneously.
 +
 To resolve this issue, lower the minimum QoS IOPS settings for volumes.
+
+* *CpuThermalEventThreshold*
++
+The number of CPU thermal events on one or more CPUs exceeds the configured threshold.
++
+If no new CPU thermal events are detected within ten minutes, the warning will resolve itself.
 
 * *disableDriveSecurityFailed*
 +
@@ -632,7 +646,7 @@ The fault clears if the scheduled activity runs again and succeeds, if the sched
 
 * *sensorReadingFailed*
 +
-The Baseboard Management Controller (BMC) self-test failed or a sensor could not communicate with the BMC.
+A sensor could not communicate with the Baseboard Management Controller (BMC).
 +
 Contact NetApp Support for assistance.
 

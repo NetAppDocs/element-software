@@ -5,8 +5,7 @@ summary: You can use the management node (mNode) to use system services, manage 
 keywords: netapp, mnode, api, rest api, mnode ui, management node ui
 ---
 
-= Management node overview
-
+= What's new
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -14,6 +13,9 @@ keywords: netapp, mnode, api, rest api, mnode ui, management node ui
 :imagesdir: ../media/
 
 [.lead]
+Element 12.5 brings improved remote access to individual nodes using signed SSH certificates. A new, limited-privilege local user account called `sfreadonly` enables access to the storage node backend for basic maintenance or troubleshooting purposes. You can also configure the `supportAdmin` access type for a cluster administrator user to allow NetApp support access the cluster on an as-needed basis. For more information; see link:../mnode/task_mnode_enable_node_troubleshooting_sessions.html[Accessing storage nodes using SSH for basic troubleshooting].
+
+= Management node overview
 You can use the management node (mNode) to use system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.
 
 NOTE: As a best practice, only associate one management node with one VMware vCenter instance, and avoid defining the same storage and compute resources or vCenter instances in multiple management nodes.
