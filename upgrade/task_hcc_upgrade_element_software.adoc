@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: upgrade/task_hcc_upgrade_element_software.html
 summary: As part of a NetApp SolidFire system upgrade, you upgrade NetApp Element software.
-keywords: netapp, solidfire, HealthTools, cluster, element, H610S upgrade, hcc, ansible upgrades, upgrade role
+keywords: netapp, solidfire, cluster, element, H610S upgrade, hcc, ansible upgrades, upgrade role
 ---
 
 = Upgrade Element software
@@ -14,7 +14,9 @@ keywords: netapp, solidfire, HealthTools, cluster, element, H610S upgrade, hcc, 
 :imagesdir: ../media/
 
 [.lead]
-To upgrade NetApp Element software, you can use the NetApp Hybrid Cloud Control UI, REST API, or the HealthTools suite of tools. Certain operations are suppressed during an Element software upgrade, such as adding and removing nodes, adding and removing drives, and commands associated with initiators, volume access groups, and virtual networks, among others.
+To upgrade NetApp Element software, you can use the NetApp Hybrid Cloud Control UI or REST API. Certain operations are suppressed during an Element software upgrade, such as adding and removing nodes, adding and removing drives, and commands associated with initiators, volume access groups, and virtual networks, among others.
+
+NOTE: Beginning with Element 12.5, NetApp HealthTools is no longer supported for Element software upgrades.
 
 .What you'll need
 
@@ -55,13 +57,13 @@ CAUTION: For potential issues while upgrading storage clusters using NetApp Hybr
 [TIP]
 ====
 The upgrade process time varies depending on the Element version and firmware updates.
-* For nodes running Element 12.x, when there are no firmware updates to install, the process can take 20-30 minutes per node.
-* For H610S nodes running Element 12.x, when there are BIOS and BMC firmware updates to install, the process can take 60-70 minutes per node.
-* For H610S nodes running Element 11.x, when there are firmware updates to install, the firmware updates keep the node offline for a period of time. As a result, the process can take approximately 2 hours per node."
+
+* For nodes running Element 12.x, when there are no firmware updates to install, the process takes 20-30 minutes per node.
+* For H610S nodes running Element 12.x, when there are BIOS and BMC firmware updates to install, the process takes 60-70 minutes per node.
+* For H610S nodes running Element 11.x, when there are firmware updates to install, the firmware updates keep the node offline for a period of time. As a result, the process takes approximately 2 hours per node.
 ====
 
 .Steps
-
 . Open a web browser and browse to the IP address of the management node:
 +
 ----
