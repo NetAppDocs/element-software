@@ -28,7 +28,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_S
 * *Management node*: For NetApp Hybrid Cloud Control UI and API, the management node in your environment is running version 11.3.
 * *Management services*: You have updated your management services bundle to the latest version.
 
-IMPORTANT: You must upgrade to the latest management services bundle before upgrading your Element software to version 12.3.x. If you are updating your Element software to version 12.3.x, you need management services 2.14.60 or later to proceed.
+IMPORTANT: You must upgrade to the latest management services bundle before upgrading your Element software to version 12.3.x. If you are updating your Element software to version 12.5, you need management services 2.14.60 or later to proceed.
 
 * *Cluster health*: You have verified that the cluster is ready to be upgraded. See link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
 * *Updated baseboard management controller (BMC) for H610S storage nodes*: You have upgraded the BMC version for your H610S nodes. See the link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
@@ -39,9 +39,8 @@ Choose one of the following Element software upgrade options:
 
 * <<Use NetApp Hybrid Cloud Control UI to upgrade Element storage>>
 * <<Use NetApp Hybrid Cloud Control API to upgrade Element storage>>
-* <<Upgrade Element software at dark sites using HealthTools>>
 
-IMPORTANT: If you are upgrading an H610S series node to Element 12.3.x and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.3.x (phase 2),phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required.
+IMPORTANT: If you are upgrading an H610S series node to Element 12.5 and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.3.x (phase 2),phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required.
 
 == Use NetApp Hybrid Cloud Control UI to upgrade Element storage
 
@@ -58,9 +57,11 @@ CAUTION: For potential issues while upgrading storage clusters using NetApp Hybr
 ====
 The upgrade process time varies depending on the Element version and firmware updates.
 
-* For nodes running Element 12.x, when there are no firmware updates to install, the process takes 20-30 minutes per node.
-* For H610S nodes running Element 12.x, when there are BIOS and BMC firmware updates to install, the process takes 60-70 minutes per node.
-* For H610S nodes running Element 11.x, when there are firmware updates to install, the firmware updates keep the node offline for a period of time. As a result, the process takes approximately 2 hours per node.
+* For nodes running Element 12.x, when there are no firmware updates to install, the process takes approximately 20-30 minutes per node.
+* For H610S nodes running Element 12.x, when there are BIOS and BMC firmware updates to install, the process takes approximately 60-70 minutes per node.
+* For H610S nodes running Element 11.x, the firmware updates keep the node offline for a period of time. As a result, the process takes approximately 2 hours per node. You must also https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure[perform a complete node shutdown and power disconnect^] for each H610S node.
+
+NOTE: For a complete matrix of firmware and driver firmware for your hardware, see this https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software[KB article^] (login required).
 ====
 
 .Steps
@@ -381,79 +382,6 @@ NetApp Hybrid Cloud Control has a pre-set three-hour waiting period, during whic
 * NetApp Support has determined that the upgrade needs to be temporarily aborted to take corrective action before the three-hour window. Support will use the API to abort the upgrade.
 
 CAUTION: Aborting the cluster upgrade while a node is being updated might result in the drives being ungracefully removed from the node. If the drives are ungracefully removed, adding the drives back during an upgrade will require manual intervention by NetApp Support. The node might be taking longer to do firmware updates or post update syncing activities. If the upgrade progress seems stalled, contact NetApp Support for assistance.
-
-== Upgrade Element software at dark sites using HealthTools
-You can use the HealthTools suite of tools to update NetApp Element software at a dark site that has no external connectivity.
-
-.What you'll need
-
-. Go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^].
-. Select the correct software release and download the latest storage node image to a computer that is not the management node.
-+
-NOTE: You need the latest version of HealthTools to upgrade Element storage software.
-
-. Download this https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740[JSON file^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740) from the NetApp Support Site on a computer that is not the management node and rename it to `metadata.json`.
-. Copy the ISO file to the management node in an accessible location like `/tmp`.
-+
-TIP: You can do this by using, for example, SCP. When you upload the ISO file, make sure that the name of the file does not change, otherwise later steps will fail.
-
-.Steps
-
-. Run the `sfupdate-healthtools` command:
-+
-----
-sfupdate-healthtools <path-to-healthtools-package>
-----
-. Check the installed version:
-+
-----
-sfupdate-healthtools -v
-----
-. Check the latest version against the metadata JSON file:
-+
-----
-sfupdate-healthtools -l --metadata=<path-to-metadata-json>
-----
-. Ensure that the cluster is ready:
-+
-----
-sudo sfupgradecheck -u <cluster_username> -p <cluster_password> MVIP --metadata=<path-to-metadata-json>
-----
-. Run the `sfinstall` command with the path to the ISO file and the metadata JSON file:
-+
-----
-sfinstall -u <cluster_username> <MVIP> <path-toinstall-file-ISO> --metadata=<path-to-metadata-json-file>
-----
-+
-See the following sample input command:
-+
-----
-sfinstall -u admin 10.117.78.244 /tmp/solidfire-rtfi-11.3.0.345.iso --metadata=/tmp/metadata.json
-----
-+
-*Optional* You can add the `--stage` flag to the `sfinstall` command to pre-stage the upgrade in advance.
-
-IMPORTANT: If you are upgrading an H610S series node to Element 12.3.x and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.3.x (phase 2), phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required.
-
-== What happens if an upgrade fails using HealthTools
-If the software upgrade fails, you can pause the upgrade.
-
-TIP: You should pause an upgrade only with Ctrl-C. This enables the system to clean itself up.
-
-When `sfinstall` waits for cluster faults to clear and if any failure causes the faults to remain, `sfinstall` will not proceed to the next node.
-
-.Steps
-. You should stop `sfinstall` with Ctrl+C.
-. Contact NetApp Support to assist with the failure investigation.
-. Resume the upgrade with the same `sfinstall` command.
-. When an upgrade is paused by using Ctrl+C, if the upgrade is currently upgrading a node, choose one of these options:
-
-* *Wait*: Allow the currently upgrading node to finish before resetting the cluster constants.
-* *Continue*: Continue the upgrade, which cancels the pause.
-* *Abort*: Reset the cluster constants and abort the upgrade immediately.
-+
-NOTE: Aborting the cluster upgrade while a node is being updated might result in the drives being ungracefully removed from the node. If the drives are ungracefully removed, adding the drives back during an upgrade will require manual intervention by NetApp Support. The node might be taking longer to do firmware updates or post update syncing activities. If the upgrade progress seems stalled, contact NetApp Support for assistance.
-
 
 [discrete]
 == Find more information
