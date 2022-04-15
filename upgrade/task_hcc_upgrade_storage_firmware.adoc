@@ -30,9 +30,9 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 
 * *Cluster health*: You have run health checks. See link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
 
-* *End User License Agreement (EULA)*: Beginning with management services 2.20, you have accepted and saved the EULA before using the NetApp Hybrid Cloud Control UI or API to upgrade storage firmware:
+* *End User License Agreement (EULA)*: Beginning with management services 2.20, you must accept and save the EULA before using the NetApp Hybrid Cloud Control UI or API to upgrade storage firmware:
 +
-. Open a web browser and browse to the IP address of the management node:
+. Open the IP address of the management node in a web browser:
 +
 ----
 https://<ManagementNodeIP>
@@ -67,7 +67,7 @@ TIP: The upgrade process takes approximately 30 minutes per storage node. If you
 
 .Steps
 
-. Open a web browser and browse to the IP address of the management node:
+. Open the IP address of the management node in a web browser:
 +
 ----
 https://<ManagementNodeIP>
