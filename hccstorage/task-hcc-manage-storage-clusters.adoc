@@ -110,7 +110,9 @@ NOTE: Only one node can be in maintenance mode at a time.
 .Steps
 .	Open the IP address of the management node in a web browser. For example:
 +
-`https://[management node IP address]`
+----
+https://[management node IP address]
+----
 .	Log in to NetApp Hybrid Cloud Control by providing the SolidFire all-flash storage cluster administrator credentials.
 +
 NOTE: The maintenance mode feature options are disabled at the read-only level.
