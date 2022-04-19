@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: SolidFire and Element Software 12.3.x Documentation
+    - title: SolidFire and Element Software 12.5 Documentation
       url: /index.html
     - title: Release notes
       url: /concepts/concept_rn_relatedrn_element.html

@@ -50,7 +50,7 @@ NOTE: If you do not sequentially update your management services followed by Ele
 
 == Upgrade a management node to version 12.5 from 12.2
 
-You can perform an in-place upgrade of the management node from version 12.2 to version 12.3.x without needing to provision a new management node virtual machine.
+You can perform an in-place upgrade of the management node from version 12.2 to version 12.5 without needing to provision a new management node virtual machine.
 
 NOTE: The Element 12.5 management node is an optional upgrade. It is not required for existing deployments.
 
