@@ -63,7 +63,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
-* If you are updating your management node to version 12.5, you need management services 2.20.67 or later to proceed.
+* If you are updating your management node to version 12.5, you need management services 2.20.67 to proceed.
 
 * You have configured an additional network adapter (if required) using the instructions for link:../mnode/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
@@ -140,7 +140,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
-* If you are updating your management node to version 12.5, you need management services 2.20.67 or later to proceed.
+* If you are updating your management node to version 12.5, you need management services 2.20.67 to proceed.
 
 * You have configured an additional network adapter (if required) using the instructions for link:../mnode/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
@@ -221,7 +221,7 @@ TIP: To check the version of your management node, log in to your management nod
 
 * You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
-* If you are updating your management node to version 12.5, you need management services 2.20.67 or later to proceed.
+* If you are updating your management node to version 12.5, you need management services 2.20.67 to proceed.
 
 * You have configured an additional network adapter (if required) using the instructions for link:../mnode/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +
