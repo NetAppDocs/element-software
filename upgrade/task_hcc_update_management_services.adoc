@@ -6,7 +6,6 @@ keywords: netapp, solidfire, cluster, management services, hcc, update managemen
 ---
 
 = Update management services
-
 :hardbreaks:
 :nofooter:
 :icons: font
