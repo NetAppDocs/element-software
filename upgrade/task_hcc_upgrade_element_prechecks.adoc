@@ -41,7 +41,6 @@ You can also find out more about storage health checks that are run by the servi
 Using NetApp Hybrid Cloud Control, you can verify that a storage cluster is ready to be upgraded.
 
 .Steps
-
 . Open a web browser and browse to the IP address of the management node:
 +
 ----
