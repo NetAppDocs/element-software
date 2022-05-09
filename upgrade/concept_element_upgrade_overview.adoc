@@ -36,7 +36,7 @@ Upgrades using NetApp Hybrid Cloud Control are not available in earlier service 
 
 == [[sys_upgrade]]System upgrade sequence
 
-You can use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.3.x.
+You can use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element software 12.5.
 
 .Steps
 

@@ -56,8 +56,8 @@ You can perform basic troubleshooting using the sfreadonly system account:
 +
 [NOTE]
 ====
-* For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
-* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
+//* For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
+The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
 ====
 //Need NSS/GH/KB location for GA???
 
@@ -120,8 +120,8 @@ NetApp Support will log in to your management node using the support tunnel.
 +
 [NOTE]
 ====
-* For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
-* The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
+//* For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
+The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
 ====
 //Need NSS/GH/KB location for GA???
 
