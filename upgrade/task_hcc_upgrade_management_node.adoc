@@ -26,12 +26,11 @@ Choose one of the following options:
 
 * <<Upgrade a management node to version 12.5 from 12.3.x>>
 
-Choose the following option if you have *sequentially* updated (1) your management services version and (2) your Element storage version and you want to *keep* your existing management node:
+* <<Reconfigure authentication using the management node REST API>>
++
+Choose this option if you have *sequentially* updated (1) your management services version and (2) your Element storage version and you want to *keep* your existing management node:
 
 NOTE: If you do not sequentially update your management services followed by Element storage, you cannot reconfigure reauthentication using this procedure. Follow the appropriate upgrade procedure instead.
-
-* If you are keeping existing management node:
-<<Reconfigure authentication using the management node REST API>>
 
 == Upgrade a management node to version 12.5 from 12.3.x
 
