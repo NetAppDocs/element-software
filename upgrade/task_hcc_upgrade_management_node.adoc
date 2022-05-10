@@ -18,7 +18,7 @@ You can upgrade your management node to management node 12.5 from version 12.3.x
 
 Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. You can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
 
-NOTE: This procedure is for upgrading to management node 12.5 from version 12.3.x. For information on upgrading management nodes 12.2 or earlier, see the https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_management_node.html[earlier version of the management node upgrade documentation^].
+NOTE: If you require information on upgrading management nodes 12.2 or earlier, see the https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_management_node.html[Element 12.3.x management node upgrade documentation^].
 
 .Upgrade options
 
