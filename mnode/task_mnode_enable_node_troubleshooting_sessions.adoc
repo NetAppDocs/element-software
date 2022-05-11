@@ -56,7 +56,7 @@ You can perform basic troubleshooting using the sfreadonly system account:
 +
 [NOTE]
 ====
-SignSshKeys.ps1 is dependent on PowerShell 7 or later and SignSshKeys.py is dependent on Python 3.6.0 or later.
+SignSshKeys.ps1 is dependent on PowerShell 7 or later and SignSshKeys.py is dependent on Python 3.6.0 or later and the https://docs.python-requests.org/[requests module^].
 
 //* For management node versions 12.3 or earlier, you can run the Bash script provided by NetApp Support.
 The `SignSshKeys` script writes `user`, `user.pub`, and `user-cert.pub` files into the current working directory, which are later used by the `ssh` command. However, when a public key file is provided to the script, only a `<public_key>` file (with `<public_key>` replaced with the prefix of the public key file passed into the script) is written out to the directory.
