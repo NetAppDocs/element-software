@@ -33,7 +33,7 @@ You can navigate to specific tasks from the overview page.
 
 == Use Element APIs on SolidFire eSDS clusters
 
-* *Software encryption at rest enhancements*: Element 12.3 introduces enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO. The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+* *Software encryption at rest enhancements*: Enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster, were introduced with Element 12.3. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO. The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
 
 ** `CreateCluster`
 ** `DisableEncryptionAtRest`
@@ -41,7 +41,7 @@ You can navigate to specific tasks from the overview page.
 ** `GetSoftwareEncryptionAtRestInfo`
 ** `RekeySoftwareEncryptionAtRestMasterKey`
 
-* *Ability to define a maximum number of snapshots to retain*: Element 12.3 introduces enhancements to the snapshot retention feature. The following APIs have been modified to support this enhancement (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+* *Ability to define a maximum number of snapshots to retain*: nhancements to the snapshot retention feature were introduced with Element 12.3. The following APIs have been modified to support this enhancement (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
 
 **	`CreateVolume`
 **	`ModifyVolume`
