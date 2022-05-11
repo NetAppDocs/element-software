@@ -32,8 +32,7 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 
 * *Cluster health*: You have verified that the cluster is ready to be upgraded. See link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
 * *Updated baseboard management controller (BMC) for H610S storage nodes*: You have upgraded the BMC version for your H610S nodes. See the link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
-
-[element_upgrade_time]
+[[element_upgrade_time]]
 include::../_include/element_software_and_storage_firmware_upgrade_time.adoc[]
 
 .Upgrade options

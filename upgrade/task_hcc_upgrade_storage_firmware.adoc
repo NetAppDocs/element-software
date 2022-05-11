@@ -32,8 +32,7 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 * *Updated BMC for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
 
 NOTE: For a complete matrix of firmware and driver firmware for your hardware, see https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software[this KB article^] (login required).
-
-[storage_firmware_upgrade]
+[[storage_firmware_upgrade]]
 include::../_include/element_software_and_storage_firmware_upgrade_time.adoc[]
 
 .Upgrade options
