@@ -46,7 +46,6 @@ Volumes that have a Max or Burst IOPS value greater than 20,000 IOPS might requi
 
 == View volume details
 
-
 . Select *Management* > *Volumes*.
 . Review the details.
 
@@ -61,11 +60,14 @@ Volumes that have a Max or Burst IOPS value greater than 20,000 IOPS might requi
 ** ReplicationTarget: Designated as a target volume in a replicated volume pair.
 * *Used*: The percentage of used space in the volume.
 * *Size*: The total size (in GB) of the volume.
-* *Snapshots*: The number of snapshots created for the volume.
+* *Primary Node ID*: The primary node for this volume.
+* *Secondary Node ID*: The list of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
+* *QoS Throttle*:	Identifies if the volume is being throttled due to high load on the primary storage node.
 * *QoS Policy*: The name and link to the user-defined QoS policy.
 * *Min IOPS*: The minimum number of IOPS guaranteed for the volume.
 * *Max IOPS*: The maximum number of IOPS allowed for the volume.
 * *Burst IOPS*: The maximum number of IOPS allowed over a short period of time for the volume. Default = 15,000.
+* *Snapshots*: The number of snapshots created for the volume.
 * *Attributes*: Attributes that have been assigned to the volume as a key/value pair through an API method.
 * *512e*: Indication of whether 512e is enabled on a volume. Possible values:
 ** Yes
