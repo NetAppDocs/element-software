@@ -5,7 +5,7 @@ summary: You can keep your SolidFire Element storage system up-to-date after dep
 keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
 ---
 
-= Upgrade overview
+= Upgrade sequence overview
 :hardbreaks:
 :nofooter:
 :icons: font
