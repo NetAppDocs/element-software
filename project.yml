@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: SolidFire and Element Software 12.3.x Documentation
+    - title: SolidFire and Element Software 12.5 Documentation
       url: /index.html
     - title: Release notes
       url: /concepts/concept_rn_relatedrn_element.html
@@ -123,6 +123,8 @@ homepage:
           url: https://mysupport.netapp.com/site/products/all/details/element-software/guideme-tab
     - title: Earlier versions
       links:
+        - title: Element 12.5 documentation
+          url: https://docs.netapp.com/us-en/element-software-123/
         - title: Element 12.2 documentation
           url: https://docs.netapp.com/sfe-122/index.jsp
         - title: Element 12.0 documentation

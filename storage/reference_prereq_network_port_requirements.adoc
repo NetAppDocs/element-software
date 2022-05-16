@@ -18,7 +18,6 @@ All ports are TCP unless stated otherwise, and should permit bi-directional comm
 The NetApp Hybrid Cloud Control web UI and API download software packages from the NetApp online software repository. Because of this, some URLs or IP addresses might resolve to other URLs or IP addresses based on the content delivery network. If possible, you should work with a network engineer to add these URLs or IP addresses to the firewall rules, using the following general steps:
 
 .Steps
-
 . Use the Wget or cURL utilities to access a URL (support-sg-nawest.netapp.com, for example).
 . Check for connectivity as shown in the following example:
 +

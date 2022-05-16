@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
+
 = Manage storage with Element software
 :icons: font
 :imagesdir: ../media/
@@ -24,7 +25,6 @@ The software interface is built upon the Element API.
 * link:concept_data_manage_data_management.html[Manage volumes and virtual volumes]
 * link:concept_data_protection.html[Protect your data]
 * link:concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system]
-
 
 == Find more information
 

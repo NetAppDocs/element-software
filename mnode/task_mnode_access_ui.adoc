@@ -21,7 +21,6 @@ For clusters running Element software version 11.3 or later, you can make use on
 * By using the management node UI (`https:// [mNode IP}:442`), you can make changes to network and cluster settings, run system tests, or use system utilities.
 * By using the built-in REST API UI (`https://[mNode IP}/mnode`), you can run or understand APIs relating to the management node services, including proxy server configuration, service level updates, or asset management.
 
-
 == Access the management node per-node UI
 
 From the per-node UI, you can access network and cluster settings and utilize system tests and utilities.

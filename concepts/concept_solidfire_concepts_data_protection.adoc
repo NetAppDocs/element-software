@@ -146,10 +146,10 @@ When you configure custom Protection Domains for a cluster, there are three poss
 
 If more than one custom Protection Domain is assigned, each subsystem will assign duplicates to separate custom Protection Domains. If this is not possible, it reverts to assigning duplicates to separate nodes. Each subsystem (for example, bins, slices, protocol endpoint providers, and ensemble) does this independently.
 
-You can configure custom Protection Domains by using the following API methods:
+You can use the Element UI to link:..storage/task_data_protection_configure_custom_protection_domains.html[configure custom Protection Domains], or you can use the following API methods:
 
-* link:../api/reference_element_api_getprotectiondomainlayout.html[GetProtectionDomainLayout^] - shows which chassis and which custom Protection Domain each node is in.
-* link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout^] - enables a custom Protection Domain to be assigned to each node.
+* link:../api/reference_element_api_getprotectiondomainlayout.html[GetProtectionDomainLayout] - shows which chassis and which custom Protection Domain each node is in.
+* link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout] - enables a custom Protection Domain to be assigned to each node.
 
 == Double Helix high availability
 Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The “RAID-less” approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.

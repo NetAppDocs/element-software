@@ -1,5 +1,5 @@
 section: upgrade
-title: Upgrade your NetApp SolidFire all-flash storage system for Element 12.3.x
+title: Upgrade your NetApp SolidFire all-flash storage system for Element software 12.5
 entries:
   - title: Upgrade sequence overview
     url: /upgrade/concept_element_upgrade_overview.html
@@ -7,8 +7,8 @@ entries:
     entries:
     - title: Update management services
       url: /upgrade/task_hcc_update_management_services.html
-    - title: Upgrade to the latest HealthTools
-      url: /upgrade/task_upgrade_element_latest_healthtools.html
+  # - title: Upgrade to the latest HealthTools
+  #  url: /upgrade/task_upgrade_element_latest_healthtools.html
     - title: Run Element storage health checks prior to upgrading storage
       url: /upgrade/task_hcc_upgrade_element_prechecks.html
     - title: Upgrade Element software
