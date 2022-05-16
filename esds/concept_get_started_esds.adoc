@@ -122,8 +122,8 @@ Here is the high-level overview of the installation using Ansible:
 image::../media/esds_installation_workflow.png[Shows the installation workflow.]
 
 == Dynamic node rating
-
 Dynamic node rating, which was introduced in Element 12.3.1, enables you to leverage 24 supported CPUs per eSDS platform as opposed to today’s model of a single CPU per platform.
+
 
 Dynamic node rating is supported on all platforms that are currently supported on eSDS: DL360, DL380, and R640.
 
