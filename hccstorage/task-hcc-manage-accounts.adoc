@@ -22,6 +22,7 @@ Manage the following types of accounts:
 * <<Manage volume accounts>>
 
 == Enable LDAP
+
 To use LDAP for any user account, you must first enable LDAP.
 
 .Steps

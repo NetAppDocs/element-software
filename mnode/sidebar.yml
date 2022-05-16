@@ -49,7 +49,9 @@ entries:
       url: /mnode/task_mnode_logs.html
   - title: Manage support connections
     entries:
-    - title: Start a remote NetApp Support session
+    - title: Accessing storage nodes using SSH for basic troubleshooting
+      url: /mnode/task_mnode_enable_node_troubleshooting_sessions.html
+    - title: Start a remote NetApp Support session (Element 12.3 and earlier)
       url: /mnode/task_mnode_enable_remote_support_connections.html
     - title: Manage SSH functionality on the management node
       url: /mnode/task_mnode_ssh_management.html

@@ -13,6 +13,7 @@ summary: Documentation for previous releases is available in case you’re not r
 [.lead]
 Documentation for previous releases is available in our documentation centers.
 
+* https://docs.netapp.com/us-en/element-software-123/index.html[Element 12.3.x documentation^]
 * https://docs.netapp.com/sfe-122/index.jsp[Element 12.2 documentation^]
 * https://docs.netapp.com/sfe-120/index.jsp[Element 12.0 documentation^]
 * https://docs.netapp.com/sfe-118/index.jsp[Element 11.8 documentation^]
