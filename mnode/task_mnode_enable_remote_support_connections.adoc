@@ -5,7 +5,7 @@ summary: You can use the management node to enable NetApp Support access for tro
 keywords: netapp, mnode, management node, connect to support, support tunnel, rst
 ---
 
-= Start a remote NetApp Support session (Element 12.3 and earlier)
+= Start a remote NetApp Support session
 
 :hardbreaks:
 :nofooter:
@@ -14,7 +14,7 @@ keywords: netapp, mnode, management node, connect to support, support tunnel, rs
 :imagesdir: ../media/
 
 [.lead]
-If you are running Element 12.3 and earlier and you require technical support for your SolidFire all-flash storage system, NetApp Support can connect remotely with your system. To start a session and gain remote access, NetApp Support can open a reverse Secure Shell (SSH) connection to your environment.
+If you require technical support for your SolidFire all-flash storage system, NetApp Support can connect remotely with your system. To start a session and gain remote access, NetApp Support can open a reverse Secure Shell (SSH) connection to your environment.
 
 You can open a TCP port for an SSH reverse tunnel connection with NetApp Support. This connection enables NetApp Support to log in to your management node.
 
