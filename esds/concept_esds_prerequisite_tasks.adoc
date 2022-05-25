@@ -16,11 +16,11 @@ Ensure that you perform the necessary checks and verify that your environment me
 ** Ensure that your hardware configuration is balanced and all channels are populated. For more information about maximizing bandwidth, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_balance_memory_and_maximize_bandwidth_for_your_hardware_configurations[KB article^] (login required).
 
 .*Configure the host (node)*
-** Install RHEL based on the supported versions listed in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[NetApp Interoperability Matrix (login required)^].
+** Install Red Hat Package Manager based on the supported versions listed in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[NetApp Interoperability Matrix (login required)^].
 ** Configure a Network Time Protocol (NTP) server to use with all the hosts in your network.
 ** When selecting the installation destination, select the radio button to manually configure file system partitioning. On the *Manual Partitioning* page, use the *+* and *-* buttons to remove any existing partitions, and create new partitions and size them following the recommendations listed here. Using the default LVM partitioning scheme enables you to easily resize later, if needed.
 +
-NOTE: By default, RHEL chooses `xfs` as the default file system for the partitions that you manually create. You should change it to `ext4`, except for the `/boot` and `swap` partitions. Your `/boot` partition should use `ext2`.
+NOTE: By default, Red Hat Package Manager chooses `xfs` as the default file system for the partitions that you manually create. You should change it to `ext4`, except for the `/boot` and `swap` partitions. Your `/boot` partition should use `ext2`.
 +
 If your SATA disk is 250GB, follow the recommended partition below. If your SATA disk has more space, you can increase the /opt and /var partition sizes.
 +
@@ -60,7 +60,7 @@ a|
 NOTE: The `/dev/sdb` disk is not used by any process.
 
 ** Disable RAID for /boot.
-** On the Software Selection screen, where you select specific packages to install, select *Server* or *Infrastructure Server* based on your RHEL version.
+** On the Software Selection screen, where you select specific packages to install, select *Server* or *Infrastructure Server* based on your Red Hat Package Manager version.
 ** After the first boot, do the following:
 *** Install Red Hat Subscription Manager, and enable the following repositories:
 +
@@ -77,7 +77,25 @@ rhel-7-server-extras-rpms
 .*Install the required software*
 ** Install Ansible, Git, Podman, and Python 3.0.
 +
-NOTE: For Element 12.3, the supported Podman version is 1.6.4.
+[NOTE]
+====
+For Element 12.5, the supported Podman version depends on your Red Hat Package Manager version:
+
+[cols=2*,options="header",cols="35,65"]
+|===
+|Red Hat Package Manager version
+|Podman version
+
+|7.x
+|1.6.4
+|8.1, 8.2, 8.3, and 8.4
+a|
+3.1.x, 3.2.x, 3.3.x, 3.4.1, and 3.4.2
+
+NOTE: When available, NetApp recommends that you accept security updates for your Podman version.
+|===
+
+====
 
 .*Verify that your configuration matches NetApp's requirements for installing SolidFire eSDS*
 ** Use the SolidFire eSDS configuration listed in the https://mysupport.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)] as a reference.
@@ -123,7 +141,7 @@ NOTE: Ensure that you always download the latest versions of the roles.
 NOTE: Even after you start using the SolidFire eSDS system, you should run the compliance check regularly to ensure that your system is in compliance. In some cases, NetApp Support will ask you to run the compliance check to help diagnose and troubleshoot issues.
 
 .*Understand network and IP address requirements*
-** Familiarize yourself with how to configure and manage networks and network interfaces in RHEL. See the https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index[ RedHat documentation^].
+** Familiarize yourself with how to configure and manage networks and network interfaces in Red Hat Package Manager. See the https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index[RedHat documentation^].
 ** Configure your network following the IP requirements detailed here:
 +
 [%header,cols=4*]
@@ -179,7 +197,7 @@ IMPORTANT: The illustration given here is intended to be an example. Your actual
 ** Change the switch port MTU to 9216 bytes.
 
 .*Allow specific ports through your datacenter's firewall*
-** If `firewalld` is enabled on the storage node running RHEL, ensure that you have the following ports open, so that you can manage the system remotely, allow clients outside of your datacenter to connect to resources, and ensure that internal services can function properly:
+** If `firewalld` is enabled on the storage node running Red Hat Package Manager, ensure that you have the following ports open, so that you can manage the system remotely, allow clients outside of your datacenter to connect to resources, and ensure that internal services can function properly:
 +
 [%header,cols=4*]
 |===
