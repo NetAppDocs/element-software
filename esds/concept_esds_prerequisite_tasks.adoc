@@ -92,7 +92,7 @@ For Element 12.5, the supported Podman version depends on your Red Hat Package M
 a|
 3.1.x, 3.2.x, 3.3.x, 3.4.1, and 3.4.2
 
-NOTE: When available, NetApp recommends that you accept the security updates for your Podman version.
+NOTE: When available, NetApp recommends that you accept security updates for your Podman version.
 |===
 
 ====
@@ -141,7 +141,7 @@ NOTE: Ensure that you always download the latest versions of the roles.
 NOTE: Even after you start using the SolidFire eSDS system, you should run the compliance check regularly to ensure that your system is in compliance. In some cases, NetApp Support will ask you to run the compliance check to help diagnose and troubleshoot issues.
 
 .*Understand network and IP address requirements*
-** Familiarize yourself with how to configure and manage networks and network interfaces in . See the https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index[ RedHat documentation^].
+** Familiarize yourself with how to configure and manage networks and network interfaces in Red Hat Package Manager. See the https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index[RedHat documentation^].
 ** Configure your network following the IP requirements detailed here:
 +
 [%header,cols=4*]
