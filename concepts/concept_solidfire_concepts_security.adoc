@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire security, element security, encryption at rest, software encryption at rest, external key management, fips 140-2, mfa
 summary: When you use NetApp Element software, your data is protected by industry-standard security protocols.
 ---
+
 = Security
 :icons: font
 :imagesdir: ../media/

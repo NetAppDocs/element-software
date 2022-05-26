@@ -6,7 +6,6 @@ keywords: netapp, sfreadonly, connect to support, support tunnel, rst, mnode, ma
 ---
 
 = Accessing storage nodes using SSH for basic troubleshooting
-
 :hardbreaks:
 :nofooter:
 :icons: font
