@@ -123,7 +123,7 @@ homepage:
           url: https://mysupport.netapp.com/site/products/all/details/element-software/guideme-tab
     - title: Earlier versions
       links:
-        - title: Element 12.5 documentation
+        - title: Element 12.3 documentation
           url: https://docs.netapp.com/us-en/element-software-123/
         - title: Element 12.2 documentation
           url: https://docs.netapp.com/sfe-122/index.jsp
