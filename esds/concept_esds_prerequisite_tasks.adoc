@@ -82,11 +82,10 @@ rhel-7-server-extras-rpms
 ====
 For Element 12.5, the supported Podman version depends on your Red Hat Package Manager version:
 
-[cols=2*,options="header",cols="35,65"]
+[%header,cols=2*,cols="35,65"]
 |===
 |Red Hat Package Manager version
 |Podman version
-
 |7.x
 |1.6.4
 |8.1, 8.2, 8.3, and 8.4
