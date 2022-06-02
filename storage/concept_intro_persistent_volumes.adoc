@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: persistent volumes, what are persistent volumes
 summary: 'Persistent volumes allow management node configuration data to be stored on a specified storage cluster, rather than locally with a VM, so that data can be preserved in the event of management node loss or removal. Persistent volumes are an optional but recommended management node configuration.'
 ---
+
 = Persistent volumes
 :icons: font
 :imagesdir: ../media/

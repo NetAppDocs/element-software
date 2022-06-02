@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: Protection Domain layout,user-defined,custom layout
 summary: 'You can define a custom Protection Domain layout, where each node is associated with one and only one custom Protection Domain. By default, each node is assigned to the same default custom Protection Domain.'
 ---
+
 = Custom Protection Domains
 :icons: font
 :imagesdir: ../media/

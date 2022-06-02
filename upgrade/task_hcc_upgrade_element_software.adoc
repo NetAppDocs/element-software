@@ -6,7 +6,6 @@ keywords: netapp, solidfire, cluster, element, H610S upgrade, hcc, ansible upgra
 ---
 
 = Upgrade Element software
-
 :hardbreaks:
 :nofooter:
 :icons: font
