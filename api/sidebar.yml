@@ -307,7 +307,7 @@ entries:
     - title: SetLoginSessionInfo
       url: "/api/reference_element_api_setloginsessioninfo.html"
     - title: Shutdown
-      url: "/api/reference_element_api_shutdown.html"
+      url: "/api/reference_element_api_cluster_shutdown.html"
   - title: Cluster creation API Methods
     url: "/api/concept_element_api_create_cluster_api_methods.html"
     entries:
@@ -493,7 +493,7 @@ entries:
     - title: SetNodeSupplementalTlsCiphers
       url: "/api/reference_element_api_setnodesupplementaltlsciphers.html"
     - title: Shutdown
-      url: "/api/reference_element_api_shutdown.html"
+      url: "/api/reference_element_api_node_shutdown.html"
     - title: TestConnectEnsemble
       url: "/api/reference_element_api_testconnectensemble.html"
     - title: TestConnectMvip
