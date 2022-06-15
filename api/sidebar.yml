@@ -449,7 +449,7 @@ entries:
     - title: GetNodeActiveTlsCiphers
       url: "/api/reference_element_api_getnodeactivetlsciphers.html"
     - title: GetNodeFipsDrivesReport
-      url: "/api/reference_element_api_getnodefipsdrivesreport.html"
+      url: "/api/reference_element_api_node_getnodefipsdrivesreport.html"
     - title: GetNodeSSLCertificate
       url: "/api/reference_element_api_getnodesslcertificate.html"
     - title: GetNodeSupportedTlsCiphers
@@ -673,7 +673,7 @@ entries:
     - title: GetLldpInfo
       url: "/api/reference_element_api_getlldpinfo.html"
     - title: GetNodeFipsDrivesReport
-      url: "/api/reference_element_api_getnodefipsdrivesreport.html"
+      url: "/api/reference_element_api_system_configuration_getnodefipsdrivesreport.html"
     - title: GetNtpInfo
       url: "/api/reference_element_api_getntpinfo.html"
     - title: GetNvramInfo
