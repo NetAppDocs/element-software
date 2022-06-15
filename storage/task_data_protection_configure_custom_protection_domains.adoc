@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can configure custom Protection Domains to improve resiliency of the cluster.'
 ---
+
 = Configure custom Protection Domains
 :icons: font
 :imagesdir: ../media/

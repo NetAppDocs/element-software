@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds,software-defined storage,ports,prerequisites
 summary: Ensure that you perform the necessary checks and verify that your environment meets the configuration, IP addressing, and networking requirements before you install SolidFire eSDS.
 ---
+
 = Perform the prerequisite tasks for installation
 :icons: font
 :imagesdir: ../media/
@@ -80,8 +81,6 @@ rhel-7-server-extras-rpms
 [NOTE]
 ====
 For Element 12.5, the supported Podman version depends on your Red Hat Package Manager version:
-
-
 
 [%header,cols=2*,cols="35,65"]
 |===

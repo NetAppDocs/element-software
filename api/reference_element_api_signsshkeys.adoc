@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssh, sign key
 summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys method to gain access to a shell on a node as either sfadmin or sfreadonly. sfreadonly is a new user account as of Element 12.5 that allows for initial troubleshooting on a node but lacks privileges to make elevated commands.'
 ---
+
 = SignSshKeys
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: install management node,install mNode,install Active IQ,install AIQ
 summary: 'You can install the NetApp Element software management node \(mNode\) to upgrade and provide system services, manage cluster assets and settings, run system tests and utilities, and enable NetApp Support access for troubleshooting.'
 ---
+
 = Set up a management node
 :icons: font
 :imagesdir: ../media/
