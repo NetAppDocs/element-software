@@ -1,8 +1,8 @@
 ---
 permalink: storage/concept_system_manage_account_management.html
 sidebar: sidebar
-keywords: element, cluster, fips, cluster, multi-factor authentication, authentication
-summary: 'You can manage your system in the Element UI. This includes enabling multi-factor authentication, managing cluster settings, supporting Federal Information Processing Standards (FIPS), and using external key management.'
+keywords: element, chap, cluster, accounts, administrator
+summary: 'You can manage accounts in the Element UI. This includes working with accounts using CHAP and managing cluster administrator user accounts.'
 ---
 
 = Manage accounts
