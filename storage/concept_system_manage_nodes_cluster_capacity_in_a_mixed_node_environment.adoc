@@ -29,4 +29,4 @@ a|
 |Beginning with Element 12.7 |SF2405
 |===
 
-If you upgrade one of these storage nodes, you will see an error stating that this node is not supported by Element 12.x.
+If you upgrade one of these storage nodes to an unsupported Element version, you will see an error stating that this node is not supported by Element 12.x.
