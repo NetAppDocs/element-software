@@ -26,7 +26,12 @@ a|
 * SF3010
 * SF6010
 * SF9010
-|Beginning with Element 12.7 |SF2405
+|Beginning with Element 12.7
+a|
+* SF2405
+* FC0025
+* SF-FCN-01
+* SF9608
 |===
 
 If you upgrade one of these storage nodes to an unsupported Element version, you will see an error stating that this node is not supported by Element 12.x.
