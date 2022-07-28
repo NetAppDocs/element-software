@@ -29,8 +29,6 @@ a|
 |Beginning with Element 12.7
 a|
 * SF2405
-* FC0025
-* SF-FCN-01
 * SF9608
 |===
 
