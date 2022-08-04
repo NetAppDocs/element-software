@@ -33,7 +33,9 @@ Beginning with Element 12.5, you can enable serial creation and select to retain
 If you leave the field blank, the system uses the time and date of the snapshot's creation as the name.
 
 . *Optional:* Select the *Include Snapshots in Replication When Paired* check box to ensure that the snapshots are captured in replication when the parent volume is paired.
+. *Optional:* Select the *Enable Serial Creation* check box to ensure that only one snapshot is replicated at a time.
 . To set the retention for the snapshot, select from the following options:
+ ** *Optional:* Select the *FIFO (First In First out)* check box to retain a consistent number of the latest snapshots.
  ** Select *Keep Forever* to retain the snapshot on the system indefinitely.
  ** Select *Set Retention Period* and use the date spin boxes to choose a length of time for the system to retain the snapshot.
 . Select *Create Schedule*.
