@@ -35,7 +35,7 @@ sidebar:
     - title: Manage storage with the Element Plug-in for vCenter Server (link)
       url: https://docs.netapp.com/us-en/vcp/
     - title: Monitor storage with NetApp SolidFire Active IQ
-      url: /concepts/concept_intro_solidfire_active_iq.html
+      url: /monitor-storage-active-iq.adoc
     - section: mnode
     - section: upgrade
     - title: Earlier versions
