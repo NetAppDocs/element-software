@@ -65,7 +65,6 @@ NOTE: You can select *Custom URL* to customize the URL if you are using an HTTP 
 . Select *Update*.
 +
 A banner appears in the registration utility UI when the registration is successful.
-
 . Log in to the vSphere Web Client as a vCenter Administrator. If you are already logged in to the vSphere Web Client, you must first log out, wait two to three minutes, and then log in again.
 +
 NOTE: This action creates a new database and completes the installation in the vSphere Web Client.
