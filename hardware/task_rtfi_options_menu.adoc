@@ -1,0 +1,42 @@
+---
+permalink: hardware/task_rtfi_options_menu.html
+sidebar: sidebar
+keywords:
+summary:
+---
+
+= RTFO options menu
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following options menu appears if the RTFI process is unsuccessful or if you elect not to proceed at the initial RTFI process prompt.
+
+NOTE: Contact NetApp Support before using any of the following command options.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Option |Description
+|Reboot |Exits the RTFI process and reboots the node in its current state. No cleanup is performed. |PowerOff |Gracefully powers off the node in its current state. No cleanup is performed.
+|Exit |Exits the RTFI process and opens a command prompt. |UploadLogs |Collects all logs on the system and uploads a single consolidated log archive to a specified URL.
+|===
+
+== Upload logs
+Collect all logs on the ystem and upload them to a specified URL according to the following procedure.
+.Steps
+. Type *UploadLogs* at the RTFI options menu prompt.
+. Enter the remote directory information.
+.. Type a URL that includes the protocol. For example: `ftp://,scp://,http://,orhttps://`.
+.. (Optional) Add an embedded user name and password. Forexample: `scp://user:password@URLaddress.com`.
++
+NOTE: For a full range of syntax options, see the https://curl.se/docs/manpage.html[cURL^] user manual.
++
+The log file is uploaded and saved to the specified directory as a `.tbz2` archive.
+
+== Use the Support Tunnel
+
+Open and close a reverse SSH connection with NetApp Support according to https://docs.netapp.com/us-en/hci/docs/task_mnode_enable_remote_support_connections.html[this procedure^].
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
