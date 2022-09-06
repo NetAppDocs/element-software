@@ -10,7 +10,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You can begin the Return To Factory Image (RTFI) process by interacting with the node through text console prompts that appear before the system boots.
+You can begin the RTFI process by interacting with the node through text console prompts that appear before the system boots.
 
 WARNING: The RTFI process is data destructive and securely erases all data and configuration details from the node and installs a new operating system. Verify that the node used for the RTFI process is not active as part of a cluster.
 
@@ -19,11 +19,11 @@ The RTFI process performs the following high-level operations:
 . Starts the installation after user confirmation and validates the image.
 . Unlocks all drives on a node.
 . Validates and flashes firmware.
-. Checks hardware.
-. Tests hardware.
+. Checks the hardware.
+. Tests the hardware.
 . Secure erases all selected drives.
 . Partitions root drive and creates file systems.
-. Mounts and unpacks an image.
+. Mounts and unpacks the image.
 . Configures the host name, networking (Dynamic Host Configuration Protocol), default cluster configuration, and GRUB bootloader.
 . Stops all services, collects logs, and reboots.
 
@@ -61,20 +61,20 @@ If there are no USB devices listed, go into the BIOS, verify that the USB is lis
 If that does not resolve the issue, go into the BIOS, browse to the *Save and Exit* tab, select *Restore to Optimized Defaults*, accept and save the settings, and reboot.
 ====
 
-. A list of the images that are on the highlighted USB device appear. Select the desired version and select enter to start the RTFI.
+. A list of the images that are on the highlighted USB device appear. Select the desired version and select enter to start the RTFI process.
 
-. At the initial prompt, you are notified that the process will remove all data from the node and that data is not recoverable after the process begins. Type *Yes* to begin.
+. At the initial prompt, you are notified that the process will remove all data from the node and that data is not recoverable after the process begins. Enter *Yes* to begin.
 +
 WARNING: All data and configuration details will be permanently erased from the node after the process is initiated. If you elect not to proceed, you will be directed to the link:task_rtfi_options_menu.html[RTFI options menu].
 +
 NOTE: If you want to watch the console during the RTFI process, you can press the *ALT+F8* keys to toggle to the verbose mode console. Press *ALT+F7* to return to the primary GUI.
 
-. Enter *no* when prompted to perform extensive hardware tests unless you have a reason to suspect hardware failure or are directed to perform the tests by NetApp Support.
+. Enter *No* when prompted to perform extensive hardware tests unless you have a reason to suspect hardware failure or are directed to perform the tests by NetApp Support.
 +
 A message indicates that the RTFI process has finished and the system powers off.
 . If necessary, remove all bootable installation media after the node powers off.
 +
-The node is now ready to be powered on and configured. See the https://docs.netapp.com/us-en/element-software/setup/concept_setup_overview.html[Element software set up storage^] documentation to configure the storage node.
+The node is now ready to be powered on and configured. See the https://docs.netapp.com/us-en/element-software/setup/concept_setup_overview.html[Element software set up storage documentation^] to configure the storage node.
 +
 If you encountered an error message during the RTFI process, see link:task_rtfi_options_menu.html[RTFI options menu].
 
