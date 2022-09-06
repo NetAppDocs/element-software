@@ -5,14 +5,14 @@ keywords:
 summary:
 ---
 
-= RTFI configuration overview
+= Return to Factory Image configuration overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-NetApp SolidFire storage systems use the Return To Factory Install (RTFI) process to write a software image to a new node or restore a node to its factory original state. The RTFI process securely erases all existing data and configurations (if any) and installs an unconfigured Element OS image. The RTFI process is available for all SolidFire nodes and can also be used on pre-validated hardware configurations that offer Element X support.
+NetApp SolidFire storage systems use the Return To Factory Image (RTFI) process to write a software image to a new node or restore a node to its factory original state. The RTFI process securely erases all existing data and configurations (if any) and installs an unconfigured NetApp Element software image. The RTFI process is available for all SolidFire nodes and can also be used on pre-validated hardware configurations that offer NetApp SolidFire Element X support.
 
-SolidFire systems use one RTFI process for all Element OS installations. This includes internal manual installations performed by developers, automatic installations by automated test framework, field installations by service engineers and customers, and installations performed by various integrators and partners. The same RTFI process is used on all SolidFire nodes and nodes that support Element X, regardless of the chassis or node type in use, to automatically fix any issues.
+SolidFire systems use one RTFI process for all Element software installations. This includes internal manual installations performed by developers, automatic installations by automated test framework, field installations by service engineers and customers, and installations performed by various integrators and partners. The same RTFI process is used on all SolidFire nodes and nodes that support Element X, regardless of the chassis or node type in use, to automatically fix any issues.
 
 The intended audience for this guide is integrators who install, configure, use, or troubleshoot storage-related issues.
 

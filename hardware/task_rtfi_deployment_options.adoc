@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Deployment and installation options
+= Return to Factory Image deployment and installation options
 :icons: font
 :imagesdir: ../media/
 
@@ -14,9 +14,9 @@ The RTFI process uses a bootable, installable media with a completely self-conta
 
 After you have downloaded the RTFI ISO image, you can deploy it according to one of the following commonly used methods:
 
-* Physical USB key: You can write a bootable Element software ISO to a USBkey. For instructions, see this https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_create_an_RTFI_key_to_re-image_a_SolidFire_storage_node[KB article^]. Insert the USB key with the ISO into the node and boot from the USB key.
-* Virtual media by way of the BMC management port: You can use the BMC to dynamically attach to the ISO located on your client system. The ISO is made available to the host OS as a virtual drive (CD/DVD).
-* Network boot by way of PXE/TFTP/FTP: Instead of manually unpacking an ISO image, you can use `autofs` to automatically extract an image when the RTFI process requests it. This deployment mechanism requires more initial setup but allows for proper automation and scalability of installation.
+* Physical USB key: You can write a bootable Element software ISO to a USB key. For instructions, see this https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_create_an_RTFI_key_to_re-image_a_SolidFire_storage_node[KB article^]. Insert the USB key with the ISO into the node and boot from the USB key.
+* Virtual media by way of the BMC management port: You can use the baseboard management controller (BMC) to dynamically attach to the ISO located on your client system. The ISO is made available to the host OS as a virtual drive (CD or DVD).
+* Network boot by way of a Preboot Execution Environment (PXE), Trivial File Transfer Protocol (TFTP), or FTP: Instead of manually unpacking an ISO image, you can use `autofs` to automatically extract an image when the RTFI process requests it. This deployment mechanism requires more initial setup but allows for proper automation and scalability of installation.
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

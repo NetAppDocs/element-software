@@ -24,14 +24,14 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-  - title: Return to Factory Image configuration process
+  - title: Configure the Return to Factory Image
     url: /hardware/concept_sfseries_info.html
     entries:
-    - title: Return to Factory Image overview
+    - title: Return to Factory Image configuration overview
       url: /hardware/concept_rtfi_overview.html
-    - title: Deployment and installation options
+    - title: Return to Factory Image deployment and installation options
       url: /hardware/task_rtfi_deployment_options.html
-    - title: Perform the RTFI process
+    - title: Perform the Return to Factory Image process
       url: /hardware/task_rtfi_process.html
     - title: RTFI menu options
       url: /hardware/task_rtfi_options_menu.html
