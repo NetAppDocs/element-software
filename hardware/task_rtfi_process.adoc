@@ -14,6 +14,8 @@ You can begin the RTFI process by interacting with the node through text console
 
 WARNING: The RTFI process is data destructive and securely erases all data and configuration details from the node and installs a new operating system. Verify that the node used for the RTFI process is not active as part of a cluster.
 
+image::../media/rtfi_warning.PNG[SolidFire warning before continuing]
+
 The RTFI process performs the following high-level operations:
 
 . Starts the installation after user confirmation and validates the image.
@@ -27,11 +29,11 @@ The RTFI process performs the following high-level operations:
 . Configures the host name, networking (Dynamic Host Configuration Protocol), default cluster configuration, and GRUB bootloader.
 . Stops all services, collects logs, and reboots.
 
-To configure your node after the RTFI process successfully completes, see the https://docs.netapp.com/us-en/element-software/index.html[documentation for your Element software version^]. After a node successfully completes the RTFI process, it transitions to the available (unconfigured) state by default.
+To configure your node after the RTFI process successfully completes, see the https://docs.netapp.com/us-en/element-software/index.html[documentation for your Element software version^]. After a node successfully completes the RTFI process, it transitions to the _available_ (unconfigured) state by default.
 
 == Perform the RTFI process
 
-Follow these steps to restore the Element software on your SolidFire storage node.
+Follow these steps to restore the Element software on your SolidFire node.
 
 .Before you begin
 Verify that you have the following setup before you begin:
@@ -62,6 +64,8 @@ If that does not resolve the issue, go into the BIOS, browse to the *Save and Ex
 ====
 
 . A list of the images that are on the highlighted USB device appear. Select the desired version and select enter to start the RTFI process.
++
+The RTFI image Element software name and version number appear.
 
 . At the initial prompt, you are notified that the process will remove all data from the node and that data is not recoverable after the process begins. Enter *Yes* to begin.
 +

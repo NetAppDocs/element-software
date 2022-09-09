@@ -22,8 +22,8 @@ The intended audience for this guide is integrators who install, configure, use,
 WARNING: The RTFI process is data destructive and securely erases all data and configuration details from the node and installs a new operating system. Verify that the node used for the RTFI process is not active as part of a cluster.
 
 * xref:task_rtfi_deployment_options.html[Deployment and installation options]
-* xref:task_rtfi_process.html[Perform the RTFI process]
-* xref:task_rtfi_options_menu.html[RTFI options menu]
+* xref:task_rtfi_process.html[Perform the Return To Factory Image process]
+* xref:task_rtfi_options_menu.html[Return To Factory Image options menu]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

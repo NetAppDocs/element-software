@@ -25,7 +25,6 @@ entries:
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
   - title: Configure the Return to Factory Image
-    url: /hardware/concept_sfseries_info.html
     entries:
     - title: Return to Factory Image process overview
       url: /hardware/concept_rtfi_overview.html
