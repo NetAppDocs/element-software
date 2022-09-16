@@ -24,7 +24,7 @@ entries:
       url: /hardware/task_sfseries_driverepl.html
     - title: Replace a power supply unit
       url: /hardware/task_sfseries_psurepl.html
-  - title:  Return to Factory Image information
+  - title: Return to Factory Image information
     entries:
     - title: Configure the Return to Factory Image
       url: /hardware/concept_rtfi_configure.html
