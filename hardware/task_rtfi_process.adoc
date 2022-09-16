@@ -38,7 +38,7 @@ Follow these steps to restore the Element software on your SolidFire node.
 .Before you begin
 Verify that you have the following setup before you begin:
 
-* You have access to a console for the SolidFire node.
+* Access to a console for the SolidFire node.
 * The node on which you are performing the RTFI process is powered up and connected to a network.
 * The node on which you are performing the RTFI process is not part of an active cluster.
 * Access to bootable installation media that contains the image of the relevant Element software version for your configuration.
