@@ -1,7 +1,7 @@
 You can open a TCP port for an SSH reverse tunnel connection with NetApp Support. This connection enables NetApp Support to log in to your management node.
 
 .Before you begin
-* For management services 2.18 and later, the capability for remote access is disabled on the management node by default. To enable remote access functionality, see https://docs.netapp.com/us-en/hci/docs/task_mnode_ssh_management.html[Manage SSH functionality on the management node].
+* For management services 2.18 and later, the capability for remote access is disabled on the management node by default. To enable remote access functionality, see https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html[Manage SSH functionality on the management node].
 
 * If your management node is behind a proxy server, the following TCP ports are required in the sshd.config file:
 +
@@ -24,6 +24,6 @@ You can open a TCP port for an SSH reverse tunnel connection with NetApp Support
 +
 `rst --killall`
 
-* (Optional) Disable https://docs.netapp.com/us-en/hci/docs/task_mnode_ssh_management.html[remote access functionality] again.
+* (Optional) Disable https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html[remote access functionality] again.
 +
 NOTE: SSH remains enabled on the management node if you do not disable it. SSH enabled configuration persists on the management node through updates and upgrades until it is manually disabled.
