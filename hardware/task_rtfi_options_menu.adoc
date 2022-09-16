@@ -38,7 +38,8 @@ NOTE: For a full range of syntax options, see the https://curl.se/docs/manpage.h
 +
 The log file is uploaded and saved to the specified directory as a `.tbz2` archive.
 
-== Use the Support Tunnel
+== Use the support tunnel
+If you require technical support for your NetApp HCI system or SolidFire all-flash storage system, NetApp Support can connect remotely with your system. To start a session and gain remote access, NetApp Support can open a reverse Secure Shell (SSH) connection to your environment.
 
 include::../_include/enable_remote_ssh_session.adoc[]
 

@@ -1,11 +1,11 @@
 ---
-permalink: hardware/concept_rtfi_overview.html
+permalink: hardware/concept_rtfi_configure.html
 sidebar: sidebar
 keywords:
 summary:
 ---
 
-= Return to Factory Image configuration overview
+= Configure the Return to Factory Image 
 :icons: font
 :imagesdir: ../media/
 
