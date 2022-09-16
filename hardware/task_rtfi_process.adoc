@@ -46,7 +46,7 @@ Verify that you have the following setup before you begin:
 Contact NetApp Support if you have any concerns before performing the RTFI process.
 
 .Steps
-. Connect a monitor and keyboard to the back of the node, or connect to the BMC IP UI, and bring up the *iKVM/HTML5* console from the *Remote Control* tab in UI.
+. Connect a monitor and keyboard to the back of the node, or connect to the BMC IP UI, and bring up the *iKVM/HTML5* console from the *Remote Control* tab in the UI.
 . Insert a USB key with an appropriate image in one of the two USB slots in the back of the node.
 . Power on or power reset the node. During the boot-up, select Boot Device by selecting *F11*:
 +
