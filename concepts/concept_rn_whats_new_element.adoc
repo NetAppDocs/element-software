@@ -4,17 +4,24 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
-
-= What's new in Element software 12.5
+= What's new in Element software 12.5 and later 
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
+NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
+
+== Element 12.7
+
+Learn more about what is new in Element 12.5.
+
+===
+
+
 
 == Element 12.5
 
-Learn more about what is new in Element 12.5.
+Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
 
 === Improved storage node access
 Element 12.5 brings improved remote access to individual nodes using signed SSH certificates. To provide secure remote access to storage nodes, a new, limited-privilege local user account called `sfreadonly` is now created during RTFI of a storage node. The `sfreadonly` account enables access to the storage node backend for basic maintenance or troubleshooting purposes. You can now configure the `supportAdmin` access type for a cluster administrator user to allow NetApp support access to the cluster on an as-needed basis.
