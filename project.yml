@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Supported firmware and ESXi driver versions
+          url: https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html
     - title: Manage storage
       links:
         - title: Use Element software UI
