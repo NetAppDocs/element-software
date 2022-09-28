@@ -31,7 +31,7 @@ Choose this option if you have *sequentially* updated (1) your management servic
 NOTE: If you do not sequentially update your management services followed by Element storage, you cannot reconfigure reauthentication using this procedure. Follow the appropriate upgrade procedure instead.
 
 == Upgrade a management node to version 12.5 or later
-You can upgrade your management node to version 12.5 or later from version 12.3.x.
+
 [role="tabbed-block"]
 ====
 .Upgrade to management node 12.7
