@@ -115,7 +115,7 @@ You can keep your existing management node if you have sequentially upgraded (1)
 
 .Before you begin
 
-* You have updated your management services to 2.20.69 or later.
+* You have updated your management services to version 2.20.69 or later.
 * Your storage cluster is running Element 12.3 or later.
 * You have sequentially updated your management services followed by upgrading your Element storage. You cannot reconfigure authentication using this procedure unless you have completed upgrades in the sequence described.
 
