@@ -20,7 +20,7 @@ These components include management services, NetApp Hybrid Cloud Control, Eleme
 
 [NOTE]
 ====
-* Beginning with Element 12.7, the SF2405 and SF9608 storage nodes are not supported. If you upgrade one of these storage nodes to Element 12.7, you will see an error stating that this node is not supported by Element 12.7.
+* Beginning with Element 12.7, the SF2405 and SF9608 storage nodes and FC0025 and SF-FCN-01 FC nodes are not supported. If you upgrade one of these storage nodes to Element 12.7, you will see an error stating that this node is not supported by Element 12.7.
 * Beginning with Element 12.5, NetApp HealthTools is no longer supported for Element software upgrades. If you are running Element 11.0 or 11.1, you must first link:https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools[upgrade to Element 12.3 using HealthTools^] and then upgrade to Element 12.5 using NetApp Hybrid Cloud Control.
 ====
 
