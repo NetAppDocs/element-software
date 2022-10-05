@@ -41,6 +41,16 @@ The instructions in this document apply if you have a one-rack unit (1U) chassis
 * SF-FCN-01
 * FC0025
 
+[NOTE]
+====
+Depending on your Element software version, the following nodes are not supported:
+
+* Beginning with Element 12.7, SF2405 and SF9608 storage nodes and FC0025 and SF-FCN-01 FC nodes. 
+* Beginning with Element 12.0, SF3010, SF6010, and SF9010 storage nodes.
+
+If you upgrade one these nodes to an unsupported Element version, an error will appear stating that this node is not supported by Element 12.x.
+====
+
 .Steps
 
 . Locate the service tag of the failed chassis and verify that the serial number matches the number on the case you opened with NetApp Support when you ordered the replacement.
