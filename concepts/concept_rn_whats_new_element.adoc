@@ -9,7 +9,9 @@ summary: NetApp periodically updates SolidFire and Element software to bring you
 :imagesdir: ../media/
 
 [.lead]
-NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 includes security and system component updates, operational improvements, and resolved issues.
+NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 in the latest release and includes security and system component updates, operational improvements, and resolved issues.
+
+NOTE: The cumulative software and firmware updates are installed as part of an Element 12.7 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.3.x, you can upgrade directly to Element 12.7 to get the cumulative updates from both Element 12.5 and 12.7. For supported upgrade paths, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[KB article^]
 
 == Element 12.7
 
@@ -34,7 +36,9 @@ For clusters with larger storage nodes, for example, an H610S-4, that have 1PB o
 With Element 12.7, you no longer need to follow specific sequencing when adding multiple storage nodes worth of block and metadata drives to an existing cluster. Using the Element UI or API, you can simply select all Available Drives and bulk add them simultaneously. Element 12.7 automatically manages the data synchronization such that all of the block services are synced in simultaneously. As the block services for each node completes syncing, the metadata drive on that node becomes assignable to host volumes. This improvement significantly reduces read response latency and prevents performance degradation while data is being synced across the newly added storage nodes. 
 
 === Storage node firmware updates
-Element 12.7 includes storage firmware bundle version 2.164.0, which includes support for new system components. link:https://docs.netapp.com/us-en/element-software/concepts/concept_rn_relatedrn_element.html#storage-firmware[Learn more].
+Element 12.7 includes storage firmware bundle version 2.164.0, which includes support for new system components. link:https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.164.0.html[Learn more].
+
+NOTE: There are no new firmware updates in the Element 12.7 release. However, based on the current firmware bundle running on the storage nodes, the cumulative updates are installed when you upgrade to Element 12.7.
 
 === SolidFire Active IQ documentation
 In the SolidFire Active IQ UI, you can now navigate to the QoS Management page to view Recommendations and Node Throttling information for your cluster. In addition, the Cluster Dashboard now displays the total snapshot count. Other recent enhancements include addition of primary and secondary node information for Active Volumes and average throughput, IOPS, and average latency for the last 30 mins on the primary volumes on a node. 
