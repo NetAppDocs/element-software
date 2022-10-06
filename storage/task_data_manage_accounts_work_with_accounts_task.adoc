@@ -14,10 +14,12 @@ In SolidFire storage systems, tenants can use accounts to enable clients to conn
 
 An account can have up to two-thousand volumes assigned to it, but a volume can belong to only one account.
 
+Beginning with Element 12.7, CHAP algorithms SHA1, SHA-256, and SHA3-256 are supported. After you upgrade to Element 12.7, iSCSI selects the most secure algorithm from the list requested by the host iSCSI initiator. If no SHA support is requested, the iSCSI target defaults back to MD5. You might need to change the host iSCSI initiator configuration to enable support for secure algorithms. For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468[Element Software 12.7 Release Notes^].
+
 == Create an account
 
 You can create an account to allow access to volumes.
-
+ 
 Each account name in the system must be unique.
 
 . Select *Management* > *Accounts*.
@@ -91,7 +93,6 @@ IMPORTANT: Persistent volumes that are associated with management services are a
 . Click the Actions icon for the account you want to delete.
 . In the resulting menu, select *Delete*.
 . Confirm the action.
-
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

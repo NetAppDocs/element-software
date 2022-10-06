@@ -55,6 +55,11 @@ This method returns a response similar to the following example:
       {
         "accountID": 1,
         "accountName": "account1",
+        "authentication": {
+            "authMethod": "CHAP",
+            "chapAlgorithm": "SHA3_256",
+            "chapUsername": "iqn.1994-05.com."redhat:1cf11f3eed3",
+            "direction": "two-way"           },.....
         "createTime": "2017-04-11T03:39:32.030291Z",
         "driveID": 23,
         "driveIDs": [23],
