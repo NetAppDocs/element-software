@@ -247,6 +247,8 @@ The total IOPS count is approaching the IOPS limit for Fibre Channel nodes in th
  ** FCN001: 625K OPS limit at 4K block size per Fibre Channel node.
 To resolve this fault, balance the load across all available Fibre Channel nodes.
 
+NOTE: Beginning with Element 12.7, the FC0025 and SF-FCN-01 FC nodes are not supported.
+
 * *fibreChannelStaticIxL*
 +
 The IxL Nexus count is approaching the supported limit of 16000 static sessions per Fibre Channel node.
