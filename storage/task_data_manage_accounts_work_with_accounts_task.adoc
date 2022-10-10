@@ -14,7 +14,10 @@ In SolidFire storage systems, tenants can use accounts to enable clients to conn
 
 An account can have up to two-thousand volumes assigned to it, but a volume can belong to only one account.
 
-Beginning with Element 12.7, CHAP algorithms SHA1, SHA-256, and SHA3-256 are supported. After you upgrade to Element 12.7, iSCSI selects the most secure algorithm from the list requested by the host iSCSI initiator. If no SHA support is requested, the iSCSI target defaults back to MD5. You might need to change the host iSCSI initiator configuration to enable support for secure algorithms. If required, you can use the https://docs.netapp.com/us-en/element-software/api/reference_element_api_listiscsisessions.html[ListISCSISessions] API method to show the new algorithms being used. For more information, see the https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468[Element Software 12.7 Release Notes^].
+== CHAP algorithms
+Beginning with Element 12.7, CHAP algorithms SHA1, SHA-256, and SHA3-256 are supported. You might need to change the host iSCSI initiator configuration to enable support for these secure algorithms. During an Element 12.7 upgrade, when the host iSCSI initiator sends a session request with a list that includes SHA algorithms, the new iSCSI session on the iSCSI target automatically selects the most secure algorithm from that list. If no SHA support is requested, the iSCSI target defaults back to using MD5. If required, you can use the xref:reference_element_api_listiscsisessions.adoc[ListISCSISessions] API method to show the CHAP algorithm being used.
+
+For example, the default host iSCSI initiator in Red Hat Enterprise Linux (RHEL) 8.3 has the `node.session.auth.chap_algs = SHA3-256,SHA256,SHA1,MD5` setting commented out which results in the iSCSI initiator only using MD5. For Element 12.7, uncommenting this setting on the host and restarting the iSCSI initiator triggers target rediscovery, which then triggers new or reconnected iSCSI sessions from that host to start using SHA3-256. 
 
 == Create an account
 

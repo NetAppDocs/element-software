@@ -36,7 +36,7 @@ authentication
 a|
 Authentication information for this iSCSI session.
 a|
-ISCSIAuthentication
+xref:reference_element_api_iscsiauthentication.adoc[ISCSIAuthentication]
 a|
 createTime
 a|

@@ -29,7 +29,7 @@ string
 a|
 chapAlgorithm
 a|
-The CHAP algorithm being used, for example, MD5, SHA1*, SHA-256*, and SHA3-256* 
+The CHAP algorithm being used, for example, MD5, SHA1*, SHA-256*, or SHA3-256* 
 a|
 string
 a|
@@ -46,4 +46,4 @@ a|
 string
 |===
 
-*Available beginning with ELement 12.7.
+*Available beginning with Element 12.7.
