@@ -40,8 +40,6 @@ Depending on your Element software version, the following nodes are not supporte
 
 * Beginning with Element 12.7, SF2405 and SF9608 storage nodes. 
 * Beginning with Element 12.0, SF3010, SF6010, and SF9010 storage nodes.
-
-If you upgrade one these nodes to an unsupported Element version, an error will appear stating that this node is not supported by Element 12.x.
 ====
 
 The following figure shows the placement of the drives in an SF9605 chassis:
