@@ -14,4 +14,4 @@ You must also https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infr
 +
 ^2^If you combine a cluster with a heavy write IOPS load with a longer firmware update time, the data synchronization time will increase.
 +
-^3^Beginning with Element 12.7, the SF2405 storage node is not supported. If you upgrade an SF2405 storage node to Element 12.7, you will see an error stating that this node is not supported by Element 12.7.
+^3^Beginning with Element 12.7, the SF2405 and SF9608 storage nodes and FC0025 and SF-FCN-01 FC nodes are not supported. If you upgrade one of these nodes to Element 12.7, you will see an error stating that this node is not supported by Element 12.7.
