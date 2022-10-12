@@ -22,10 +22,17 @@ You can retrieve logs from the services running on the management node using the
 .Steps
 . Open the REST API UI on the management node:
 +
+Beginning with management services 2.21.61:
++
+----
+https://<ManagementNodeIP>/mnode/4/
+----
++
+For management services 2.20.69 or earlier:
++
 ----
 https://<ManagementNodeIP>/mnode
 ----
-
 . Select *Authorize* or any lock icon and complete the following:
 .. Enter the cluster user name and password.
 .. Enter the client ID as mnode-client if the value is not already populated.
