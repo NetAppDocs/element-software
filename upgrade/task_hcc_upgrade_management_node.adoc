@@ -39,7 +39,7 @@ NOTE: The Element 12.5 or later management node is an optional upgrade. It is no
 .What you'll need
 
 * The RAM of the management node VM is 24GB.
-* The management node you are intending to upgrade is version 12.0 and uses IPv4 networking. The management node version 12.7 does not support IPv6.
+* The management node you are intending to upgrade is version 12.0 and uses IPv4 networking. The management node version 12.5 or later does not support IPv6.
 +
 TIP: To check the version of your management node, log in to your management node and view the Element version number in the login banner.
 

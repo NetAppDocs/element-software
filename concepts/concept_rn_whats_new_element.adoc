@@ -9,7 +9,7 @@ summary: NetApp periodically updates SolidFire and Element software to bring you
 :imagesdir: ../media/
 
 [.lead]
-NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 in the latest release and includes security and system component updates, operational improvements, and resolved issues.
+NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 is the latest release and includes security and system component updates, operational improvements, and resolved issues.
 
 NOTE: The cumulative software and firmware updates are installed as part of an Element 12.7 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.3.x, you can upgrade directly to Element 12.7 to get the cumulative updates from both Element 12.5 and 12.7. For supported upgrade paths, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[KB article^]
 
@@ -19,7 +19,7 @@ Learn more about what is new in Element 12.7.
 
 === Secure CHAP algorithms
 
-Element 12.7 includes support for secure FIPS compliant Challenge-Handshake Authentication Protocol (CHAP) algorithms SHA1, SHA-256, and SHA3-256. link:storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
+Element 12.7 includes support for secure FIPS compliant Challenge-Handshake Authentication Protocol (CHAP) algorithms SHA1, SHA-256, and SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
 
 === Dynamic block (bin) sync-in rate
 
@@ -90,4 +90,4 @@ With Element 12.5, you can automate the Element software upgrade workflow by usi
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center for previous versions^]
 * https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Resources page^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software[Firmware and driver versions for NetApp HCI and NetApp Element software^]
+* https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html[Supported firmware and ESXi driver versions for NetApp HCI and firmware versions for NetApp HCI storage nodes^]
