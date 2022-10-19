@@ -12,7 +12,7 @@ summary: 'After ssh is enabled on a node or cluster, you can use the SignSshKeys
 [.lead]
 After SSH is enabled on the cluster using the link:../api/reference_element_api_enablessh.html[EnableSSH method], you can use the `SignSshKeys` method to gain access to a shell on a node.
 
-`sfreadonly` is a new system account as of Element 12.5 that allows for basic troubleshooting on a node. This API enables SSH access using the `sfreadonly` system account across all nodes in the cluster.
+Beginning with Element 12.5, `sfreadonly` is a new system account allows for basic troubleshooting on a node. This API enables SSH access using the `sfreadonly` system account across all nodes in the cluster.
 
 WARNING: Unless advised by NetApp Support, any alterations to the system are unsupported, voiding your support contract, and may result in instability or inaccessibility of data.
 
