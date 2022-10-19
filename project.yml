@@ -32,8 +32,10 @@ sidebar:
     - section: storage
     - section: hccstorage
     - section: api
-    - title: Manage storage with the Element Plug-in for vCenter Server (link)
-      url: https://docs.netapp.com/us-en/vcp/
+    - title: Manage storage with the Element Plug-in for vCenter Server
+      url: /element-plug-in-index.html
+    - title: Monitor storage with NetApp SolidFire Active IQ
+      url: /monitor-storage-active-iq.html
     - section: mnode
     - section: upgrade
     - title: Earlier versions
@@ -61,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Supported firmware revisions for NetApp H-Series storage nodes
+          url: https://docs.netapp.com/us-en/hci/docs/fw_storage_nodes.html
     - title: Manage storage
       links:
         - title: Use Element software UI
@@ -71,6 +75,8 @@ homepage:
           url: /api/index.html
         - title: Use Element Plug-in for vCenter Server
           url: https://docs.netapp.com/us-en/vcp/
+        - title: Use NetApp SolidFire Active IQ
+          url: https://docs.netapp.com/us-en/solidfire-active-iq/
         - title: Work with the management node
           url: /mnode/task_mnode_work_overview.html
     - title: Install and use SolidFire Enterprise SDS
@@ -78,7 +84,7 @@ homepage:
         - title: SolidFire eSDS overview
           url: /esds/concept_get_started_esds.html
         - title: Quick start
-          url: https://review.docs.netapp.com/us-en/element-software_element_tile_restructure_doc-3473/media/SDS_Quick_Start_Guide.pdf
+          url: https://docs.netapp.com/us-en/element-software/media/SDS_Quick_Start_Guide.pdf
         - title: Requirements for installation
           url: /esds/concept_esds_prerequisite_tasks.html
         - title: Manage storage
