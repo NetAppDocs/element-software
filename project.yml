@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: SolidFire and Element Software 12.5 Documentation
+    - title: SolidFire and Element Software 12.5 and later Documentation
       url: /index.html
     - title: Release notes
       url: /concepts/concept_rn_relatedrn_element.html
@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Supported firmware revisions for NetApp H-Series storage nodes
+          url: https://docs.netapp.com/us-en/hci/docs/fw_storage_nodes.html
     - title: Manage storage
       links:
         - title: Use Element software UI
@@ -139,3 +141,4 @@ homepage:
           url: https://docs.netapp.com/sfe-115/index.jsp
         - title: Element 11.3 documentation
           url: https://docs.netapp.com/sfe-113/index.jsp
+

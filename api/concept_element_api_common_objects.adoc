@@ -39,6 +39,7 @@ The Element software API uses JSON objects to represent organized data concepts.
 * xref:reference_element_api_host.adoc[host (virtual volumes)]
 * xref:reference_element_api_idpconfiginfo.adoc[idpConfigInfo]
 * xref:reference_element_api_initiator.adoc[initiator]
+* xref:reference_element_api_iscsiauthentication.adoc[ISCSIAuthentication]
 * xref:reference_element_api_keyproviderkmip.adoc[keyProviderKmip]
 * xref:reference_element_api_keyserverkmip.adoc[keyServerKmip]
 * xref:reference_element_api_ldapconfiguration.adoc[ldapConfiguration]
