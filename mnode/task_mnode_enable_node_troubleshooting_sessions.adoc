@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: mnode/task_mnode_enable_node_troubleshooting_sessions.html
-summary: For Element 12.5 and later, you can enable the sfreadonly user account on the management node to troubleshoot system components without help from NetApp Support. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
+summary: Beginning with Element 12.5, you can enable the sfreadonly user account on the management node to troubleshoot system components without help from NetApp Support. You can also enable and open remote support tunnel access for NetApp Support for advanced troubleshooting.
 keywords: netapp, sfreadonly, connect to support, support tunnel, rst, mnode, management node
 ---
 

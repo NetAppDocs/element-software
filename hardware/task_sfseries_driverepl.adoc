@@ -25,14 +25,19 @@ You will need the service tag or serial number when you call NetApp Support. Sup
 The instructions apply to the following SolidFire storage node models:
 
 * SF2405
-* SF3010
 * SF4805
-* SF6010
 * SF9605
 * SF9608
-* SF9010
 * SF19210
 * SF38410
+
+[NOTE]
+====
+Depending on your Element software version, the following nodes are not supported:
+
+* Beginning with Element 12.7, SF2405 and SF9608 storage nodes. 
+* Beginning with Element 12.0, SF3010, SF6010, and SF9010 storage nodes.
+====
 
 The following figure shows the placement of the drives in an SF9605 chassis:
 
@@ -40,7 +45,7 @@ image::../media/sf_drives.gif[This figure shows the drives in the SolidFire chas
 
 NOTE: The above figure is an example. SF9608 has a different drive layout that includes only eight drives that are numbered one through eight, from left to right.
 
-Slot 0 holds the metadata drive for the node. If you are replacing the drive in slot 0, you must attach the sticker included in the shipping box on the replacement drive, so that you can identify it separately from the rest. SF3010 is an exception, because metadata is kept on the internal serial advanced technology attachment (SATA) dual inline memory module (DIMM).
+Slot 0 holds the metadata drive for the node. If you are replacing the drive in slot 0, you must attach the sticker included in the shipping box on the replacement drive, so that you can identify it separately from the rest.
 
 [NOTE]
 ===============================
