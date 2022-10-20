@@ -14,7 +14,6 @@ summary: NetApp periodically updates SolidFire and Element software to bring you
 NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
 
 == Element 12.5
-
 Learn more about what is new in Element 12.5.
 
 === Improved storage node access
