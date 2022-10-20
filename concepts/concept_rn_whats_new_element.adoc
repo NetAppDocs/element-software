@@ -55,7 +55,6 @@ You can now access the SolidFire Active IQ documentation from the Element softwa
 Resolved and known issues are listed in the NetApp Bugs Online tool. You can browse these issues for Element software and other products at https://mysupport.netapp.com/site/products/all/details/element-software/bugsonline-tab[NetApp Bugs Online^].
 
 == Element 12.5
-
 Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
 
 === Improved storage node access
