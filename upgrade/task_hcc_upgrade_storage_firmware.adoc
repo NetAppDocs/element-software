@@ -31,7 +31,7 @@ IMPORTANT: You must upgrade to the latest management services bundle before upgr
 
 * *Updated baseboard management controller (BMC) for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
 
-NOTE: For a complete matrix of firmware and driver firmware for your hardware, see https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html[Supported firmware and ESXi driver versions^].
+NOTE: For a complete matrix of firmware and driver firmware for your hardware, see https://docs.netapp.com/us-en/hci/docs/fw_storage_nodes.html[supported storage firmware versions for SolidFire storage nodes^].
 [[storage-firmware-upgrade]]
 include::../_include/element_software_and_storage_firmware_upgrade_time.adoc[]
 
