@@ -5,7 +5,7 @@ keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
 
-= What's new in Element software 12.5 and later
+= What's new in Element software 12.5 and later 
 :url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :icons: font
 :imagesdir: ../media/
