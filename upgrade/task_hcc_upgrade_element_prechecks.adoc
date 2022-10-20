@@ -48,7 +48,6 @@ You can also find out more about storage health checks that are run by the servi
 * <<Storage health checks made by the service>>
 
 == Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage
-
 Using NetApp Hybrid Cloud Control, you can verify that a storage cluster is ready to be upgraded.
 
 .Steps
