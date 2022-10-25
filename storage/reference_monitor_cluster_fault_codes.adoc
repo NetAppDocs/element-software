@@ -262,6 +262,12 @@ There is insufficient space on one of the filesystems.
 +
 To resolve this fault, add more capacity to the filesystem.
 
+* *fileSystemIsReadOnly*
++
+A filesystem has moved into read-only mode. 
++
+Contact NetApp Support for assistance.
+
 * *fipsDrivesMismatch*
 +
 A non-FIPS drive has been physically inserted into a FIPS capable storage node or a FIPS drive has been physically inserted into a non-FIPS storage node. A single fault is generated per node and lists all drives affected.
