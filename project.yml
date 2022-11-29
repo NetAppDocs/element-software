@@ -64,7 +64,7 @@ homepage:
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
         - title: Supported firmware revisions for NetApp H-Series storage nodes
-          url: https://docs.netapp.com/us-en/hci/docs/fw_storage_nodes.html
+          url: /hardware/fw_storage_nodes.html
     - title: Manage storage
       links:
         - title: Use Element software UI
