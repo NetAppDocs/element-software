@@ -145,6 +145,12 @@ a|
 443
 a|
 Provides access to components necessary to install/update on-premises deployment.
+
+|Management node
+|Storage node BMC/IPMI
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
+
 a|
 Management node
 a|
@@ -171,12 +177,18 @@ a|
 SNMP polling
 a|
 SNMP server
-a|
+|
 Storage node MIP
 a|
 161 UDP
 a|
 SNMP polling
+
+|Storage node BMC/IPMI
+|Management node
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
+
 a|
 Storage node MIP
 a|
@@ -450,3 +462,4 @@ vCenter Plug-in registration. The port can be closed after registration is compl
 == For more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+// 2022 DEC 14, DOC-4644
