@@ -20,6 +20,8 @@ NOTE: If a newly added node accounts for more than 50 percent of the total clust
 
 https://www.youtube.com/embed/2smVHWkikXY?rel=0[NetApp video: Scale on Your Terms: Expanding a SolidFire Cluster^]
 
+You can add nodes to NetApp HCI appliances.
+
 .Steps
 . Select *Cluster* > *Nodes*.
 . Click *Pending* to view the list of pending nodes.
