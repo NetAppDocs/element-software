@@ -4,8 +4,7 @@ sidebar: sidebar
 keywords:
 summary:
 ---
-
-= Return to Factory Image options menu
+= RTFI options menu
 :icons: font
 :imagesdir: ../media/
 
@@ -21,7 +20,8 @@ NOTE: Contact NetApp Support before using any of the following command options.
 |Option |Description
 |Reboot |Exits the RTFI process and reboots the node in its current state. No cleanup is performed.
 |PowerOff |Gracefully powers off the node in its current state. No cleanup is performed.
-|Exit |Exits the RTFI process and opens a command prompt. |UploadLogs |Collects all logs on the system and uploads a single consolidated log archive to a specified URL.
+|Exit |Exits the RTFI process and opens a command prompt. 
+|UploadLogs |Collects all logs on the system and uploads a single consolidated log archive to a specified URL.
 |===
 
 == Upload logs
