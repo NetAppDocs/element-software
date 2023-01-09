@@ -14,6 +14,7 @@ NetApp SolidFire storage systems use the Return To Factory Image (RTFI) process 
 SolidFire systems use one RTFI process for all Element software installations. This includes internal manual installations performed by developers, automatic installations by automated test framework, field installations by service engineers and customers, and installations performed by various integrators and partners. The same RTFI process is used on all SolidFire nodes, regardless of the chassis or node type in use, to automatically fix any issues.
 
 The intended audience for this guide is integrators who install, configure, use, or troubleshoot storage-related issues.
+
 * Linux: You have some background with Linux systems.
 * Networking: You have a familiarity with server networking and networked storage, including IP addresses, netmasks, and gateways.
 

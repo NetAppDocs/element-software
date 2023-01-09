@@ -34,7 +34,6 @@ Collect all logs on the system and upload them to a specified URL according to t
 .. (Optional) Add an embedded user name and password. For example: `scp://user:password@URLaddress.com`.
 +
 NOTE: For a full range of syntax options, see the https://curl.se/docs/manpage.html[cURL^] user manual.
-
 +
 The log file is uploaded and saved to the specified directory as a `.tbz2` archive.
 

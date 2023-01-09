@@ -20,8 +20,8 @@ The RTFI process performs the following high-level operations:
 . Starts the installation after user confirmation and validates the image.
 . Unlocks all drives on a node.
 . Validates and flashes firmware.
-. Checks the hardware.
-. Tests the hardware.
+. Checks hardware.
+. Tests hardware.
 . Secure erases all selected drives.
 . Partitions root drive and creates file systems.
 . Mounts and unpacks the image.
@@ -31,7 +31,9 @@ The RTFI process performs the following high-level operations:
 To configure your node after the RTFI process successfully completes, see the https://docs.netapp.com/us-en/element-software/index.html[documentation for your Element software version^]. After a node successfully completes the RTFI process, it transitions to the _available_ (unconfigured) state by default.
 
 == Perform the RTFI process
-You can manually perform the RTFI process using a bootable USB key or the baseboard management controller (BMC). For information on using a USB key or the BMC, see link:task_rtfi_deployment_and_install_options.html[RTFI deployment and installation options]. 
+Use the following procedure to restore the Element software on your SolidFire node. 
+
+For information on creating a USB key or using the BMC to perform the RTFI process, see link:task_rtfi_deployment_and_install_options.html[RTFI deployment and installation options]. 
 
 .Before you begin
 Verify that you meet the following requirements:
