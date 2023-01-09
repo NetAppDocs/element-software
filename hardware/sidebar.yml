@@ -29,7 +29,7 @@ entries:
     - title: Configure the Return to Factory Image
       url: /hardware/concept_rtfi_configure.html
     - title: Return to Factory Image deployment and installation options
-      url: /hardware/task_rtfi_deployment_options.html
+      url: /hardware/task_rtfi_deployment_and_install_options.html
     - title: Perform the Return to Factory Image process
       url: /hardware/task_rtfi_process.html
     - title: Return to Factory Image menu options

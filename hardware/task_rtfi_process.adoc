@@ -31,10 +31,7 @@ The RTFI process performs the following high-level operations:
 To configure your node after the RTFI process successfully completes, see the https://docs.netapp.com/us-en/element-software/index.html[documentation for your Element software version^]. After a node successfully completes the RTFI process, it transitions to the _available_ (unconfigured) state by default.
 
 == Perform the RTFI process
-You can manually perform the RTFI process using a bootable USB key or the baseboard management controller (BMC). 
-
-* To create a bootable USB key, see the Knowledge Base article https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_create_an_RTFI_key_to_re-image_a_SolidFire_storage_node[How to create an RTFI key to re-image a SolidFire storage node^].
-* For information on the RTFI process using the BMC, see the Knowledge Base article https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_RTFI_an_HCI_Compute_Node_via_BMC[How to RTFI an HCI Compute Node using BMC^].
+You can manually perform the RTFI process using a bootable USB key or the baseboard management controller (BMC). For information on using a USB key or the BMC, see link:task_rtfi_deployment_and_install_options.html[RTFI deployment and installation options]. 
 
 .Before you begin
 Verify that you meet the following requirements:
@@ -43,7 +40,6 @@ Verify that you meet the following requirements:
 * The node on which you are performing the RTFI process is powered up and connected to a network.
 * The node on which you are performing the RTFI process is not part of an active cluster.
 * You have access to bootable installation media that contains the image of the relevant Element software version for your configuration.
-
 
 Contact NetApp Support if you have any concerns before performing the RTFI process.
 
