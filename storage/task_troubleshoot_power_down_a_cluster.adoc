@@ -12,11 +12,11 @@ summary: 'You can power down an entire cluster after you have contacted NetApp S
 [.lead]
 You can power down an entire cluster after you have contacted NetApp Support and completed preliminary steps.
 
-Prepare the cluster for shutdown by doing the following:
-
 * Stop all I/O.
 * Disconnect all iSCSI sessions.
 
 . Navigate to the management virtual IP (MVIP) address on the cluster to open the Element UI.
 . Note the nodes listed in the Nodes list.
 . Run the Shutdown API method with the halt option specified on each Node ID in the cluster.
+
+NOTE: If you choose to delay synchronization when you bring a cluster back online to verify that all nodes are successfully powered back up, see the Knowledge Base article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_gracefully_shut_down_and_power_on_a_NetApp_Solidfire_HCI_storage_cluster[How to gracefully shut down and power on a NetApp Solidfire/HCI storage cluster^] and contact technical support for assistance.
