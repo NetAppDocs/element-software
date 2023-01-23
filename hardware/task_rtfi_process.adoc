@@ -22,8 +22,8 @@ The RTFI process performs the following high-level operations:
 . Validates and flashes firmware.
 . Checks hardware.
 . Tests hardware.
-. Secure erases all selected drives.
-. Partitions root drive and creates file systems.
+. Erases all selected drives securely.
+. Partitions the root drive and creates file systems.
 . Mounts and unpacks the image.
 . Configures the host name, networking (Dynamic Host Configuration Protocol), default cluster configuration, and GRUB bootloader.
 . Stops all services, collects logs, and reboots.
@@ -69,7 +69,7 @@ The RTFI image Element software name and version number appear.
 
 . At the initial prompt, you are notified that the process will remove all data from the node and that data is not recoverable after the process begins. Enter *Yes* to begin.
 +
-WARNING: All data and configuration details will be permanently erased from the node after the process is initiated. If you elect not to proceed, you will be directed to the link:task_rtfi_options_menu.html[RTFI options menu].
+WARNING: All data and configuration details are permanently erased from the node after the process is initiated. If you elect not to proceed, you are directed to the link:task_rtfi_options_menu.html[RTFI options menu].
 +
 NOTE: If you want to watch the console during the RTFI process, you can press the *ALT+F8* keys to toggle to the verbose mode console. Press *ALT+F7* to return to the primary GUI.
 
