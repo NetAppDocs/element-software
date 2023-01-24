@@ -34,6 +34,7 @@ There is not enough free block storage space to support a single node loss. See 
  ** stage4Critical (Error): There is not enough space to recover from a 1-node failure. Creation of volumes, snapshots, and clones is not allowed.
  ** stage5CompletelyConsumed (Critical)1; No writes or new iSCSI connections are allowed. Current iSCSI connections will be maintained. Writes will fail until more capacity is added to the cluster.
 
++
 To resolve this fault, purge or delete volumes or add another storage node to the storage cluster.
 
 * *blocksDegraded*
