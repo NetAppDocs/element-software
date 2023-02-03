@@ -1,4 +1,4 @@
-// This include file is used in the element-software and element-sfotware-123 repos. 
+// This include file is used in the element-software and element-software-123 repos. 
 You can begin the Return to Factory Image (RTFI) process by interacting with the node through text console prompts that appear before the system boots.
 
 WARNING: The RTFI process is data destructive and securely erases all data and configuration details from the node and installs a new operating system. Verify that the node used for the RTFI process is not active as part of a cluster.
