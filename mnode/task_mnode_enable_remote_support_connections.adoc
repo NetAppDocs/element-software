@@ -17,7 +17,8 @@ If you require technical support for your SolidFire all-flash storage system, Ne
 
 include::../_include/enable_remote_ssh_session.adoc[]
 
-[discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+
+// 2022 FEB 2, DOC-4281
