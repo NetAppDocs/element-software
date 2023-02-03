@@ -1,4 +1,5 @@
 // This include file is used in the element-software and element-software-123 repos.
+// You must assess updates to this content for impact on all Element software documentation versions.
 The Return To Factory Image (RTFI) process uses a bootable, installable media with a completely self-contained, minimalistic Linux OS to deploy Element software on a node. You can download the RTFI ISO image specific to your Element software version from the https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[NetApp support site^].
 
 After you download the RTFI ISO image, you can deploy it according to one of the following commonly used methods:

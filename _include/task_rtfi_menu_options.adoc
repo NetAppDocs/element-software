@@ -1,4 +1,5 @@
-// This include file is used in the element-software and element-software-123 repos. 
+// This include file is used in the element-software and element-software-123 repos.
+// You must assess updates to this content for impact on all Element software documentation versions.
 The following options menu appears if the RTFI process is unsuccessful or if you elect not to proceed at the initial RTFI process prompt.
 
 image::../media/rtfi_menu_options.PNG[SolidFire RTFI menu options]
