@@ -1,7 +1,5 @@
 // This include file is used in the element-software and vcp repos.
 // You must assess updates to this content for impact on both the Element software and VCP documentation.
-The following list outlines the different types of codes:
-
 * *authenticationServiceFault*
 +
 The Authentication Service on one or more cluster nodes is not functioning as expected.
