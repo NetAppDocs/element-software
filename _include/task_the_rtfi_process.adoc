@@ -13,7 +13,7 @@ The RTFI process performs the following high-level operations:
 . Validates and flashes firmware.
 . Checks hardware.
 . Tests hardware.
-. Erases all selected drives securely.
+. Secure erases all selected drives.
 . Partitions the root drive and creates file systems.
 . Mounts and unpacks the image.
 . Configures the host name, networking (Dynamic Host Configuration Protocol), default cluster configuration, and GRUB bootloader.
