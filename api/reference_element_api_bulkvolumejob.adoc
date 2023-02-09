@@ -10,7 +10,7 @@ summary: 'The bulkVolumeJob object contains information about bulk volume read o
 :imagesdir: ../media/
 
 [.lead]
-The bulkVolumeJob object contains information about bulk volume read or write operations, such as cloning or snapshot creation.
+The `bulkVolumeJob` object contains information about bulk volume read or write operations, such as cloning or snapshot creation.
 
 == Object members
 
@@ -20,31 +20,31 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
-attributes
+`attributes`
 a|
 JSON attribute of the bulk volume job.
 a|
 JSON object
 a|
-bulkVolumeID
+`bulkVolumeID`
 a|
 The internal bulk volume job ID.
 a|
 integer
 a|
-createTime
+`createTime`
 a|
 Timestamp created for the bulk volume job in UTC+0 format.
 a|
 ISO 8601 date string
 a|
-elapsedTime
+`elapsedTime`
 a|
 The number of seconds since the job began.
 a|
 string
 a|
-format
+`format`
 a|
 The format of the bulk volume operation. Possible values:
 
@@ -54,31 +54,31 @@ The format of the bulk volume operation. Possible values:
 a|
 string
 a|
-key
+`key`
 a|
 The unique key created by the bulk volume session.
 a|
 string
 a|
-percentComplete
+`percentComplete`
 a|
 The completed percentage reported by the operation.
 a|
 integer
 a|
-remainingTime
+`remainingTime`
 a|
 The estimated time remaining in seconds.
 a|
 integer
 a|
-srcVolumeID
+`srcVolumeID`
 a|
 The source volume ID.
 a|
 integer
 a|
-status
+`status`
 a|
 The status of the operation. Possible values:
 
@@ -90,19 +90,19 @@ The status of the operation. Possible values:
 a|
 string
 a|
-script
+`script`
 a|
 The name of the script if one is provided.
 a|
 string
 a|
-snapshotID
+`snapshotID`
 a|
 The ID of the snapshot if a snapshot is in the source of the bulk volume job.
 a|
 integer
 a|
-type
+`type`
 a|
 The type of bulk operation. Possible values:
 
