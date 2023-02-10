@@ -10,7 +10,7 @@ summary: 'The account object contains information about an account. This object 
 :imagesdir: ../media/
 
 [.lead]
-The 'account' object contains information about an account. This object includes only "configured" information about the account, not any runtime or usage information.
+The `account` object contains information about an account. This object includes only "configured" information about the account, not any runtime or usage information.
 
 == Object members
 
