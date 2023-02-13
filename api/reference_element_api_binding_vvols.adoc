@@ -32,7 +32,7 @@ The scsiNAADeviceID of the protocol endpoint.
 a|
 string
 a|
-`protocolEndpointTyp`e
+`protocolEndpointType`
 a|
 The type of protocol endpoint. SCSI is the only value returned for the protocol endpoint type.
 a|
