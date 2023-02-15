@@ -20,43 +20,43 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
-protocolEndpointID
+`protocolEndpointID`
 a|
 The unique ID of the protocol endpoint.
 a|
 UUID
 a|
-protocolEndpointInBandID
+`protocolEndpointInBandID`
 a|
 The scsiNAADeviceID of the protocol endpoint.
 a|
 string
 a|
-protocolEndpointType
+`protocolEndpointType`
 a|
 The type of protocol endpoint. SCSI is the only value returned for the protocol endpoint type.
 a|
 string
 a|
-virtualVolumeBindingID
+`virtualVolumeBindingID`
 a|
 The unique ID of the virtual volume binding object.
 a|
 integer
 a|
-virtualVolumeHostID
+`virtualVolumeHostID`
 a|
 The unique ID of the virtual volume host.
 a|
 UUID
 a|
-virtualVolumeID
+`virtualVolumeID`
 a|
 The unique ID of the virtual volume.
 a|
 UUID
 a|
-virtualVolumeSecondaryID
+`virtualVolumeSecondaryID`
 a|
 The secondary ID of the virtual volume.
 a|
