@@ -10,7 +10,7 @@ summary: 'The certificateDetails object contains the decoded information about a
 :imagesdir: ../media/
 
 [.lead]
-The certificateDetails object contains the decoded information about a security certificate.
+The `certificateDetails` object contains the decoded information about a security certificate.
 
 == Object members
 
@@ -20,43 +20,43 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
-issuer
+`issuer`
 a|
 The name of the issuer.
 a|
 string
 a|
-modulus
+`modulus`
 a|
 The modulus of the public key.
 a|
 string
 a|
-notAfter
+`notAfter`
 a|
 The expiry date of the certificate.
 a|
 ISO 8601 string
 a|
-notBefore
+`notBefore`
 a|
 The start date of the certificate.
 a|
 ISO 8601 string
 a|
-serial
+`serial`
 a|
 The certificate serial number.
 a|
 string
 a|
-sha1Fingerprint
+`sha1Fingerprint`
 a|
 The digest of the DER-encoded version of the certificate.
 a|
 string
 a|
-subject
+`subject`
 a|
 The subject name.
 a|
