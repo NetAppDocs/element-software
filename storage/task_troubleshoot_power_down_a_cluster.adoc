@@ -27,7 +27,7 @@ When you restart the cluster, you must follow certain steps to verify that all n
 . Wait for 10 to 15 minutes for the cluster to settle.
 . Start bringing up the hosts to access the data. 
 
-To allow more time to power on nodes and verify that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization and preventing unnecessary bin syncing.
+To allow more time to power on nodes and verify that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization to prevent unnecessary bin syncing.
 ====
 
 == Find more information
