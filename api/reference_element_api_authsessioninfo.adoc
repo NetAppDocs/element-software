@@ -10,7 +10,7 @@ summary: 'The authSessionInfo object contains information about an auth session.
 :imagesdir: ../media/
 
 [.lead]
-The authSessionInfo object contains information about an auth session.
+The `authSessionInfo` object contains information about an auth session.
 
 == Object members
 
@@ -20,13 +20,13 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
-accessGroupList
+`accessGroupList`
 a|
 List of access groups for the user.
 a|
 string array
 a|
-authMethod
+`authMethod`
 a|
 The type of authorization the cluster admin user has. Possible values:
 
@@ -37,43 +37,43 @@ The type of authorization the cluster admin user has. Possible values:
 a|
 string
 a|
-clusterAdminIDs
+`clusterAdminIDs`
 a|
 List of cluster AdminID(s) associated with this session. For sessions related to LDAP or a third-party Identity Provider (IdP), this will be an aggregate list of matching Cluster AdminIDs associated with this session.
 a|
 integer array
 a|
-finalTimeout
+`finalTimeout`
 a|
 Time at which the session becomes invalid.This is set when the session is created and cannot be changed.
 a|
 string
 a|
-idpConfigVersion
+`idpConfigVersion`
 a|
 IdP configuration version when the session was created.
 a|
 integer
 a|
-lastAccessTimeout
+`lastAccessTimeout`
 a|
 Time at which the session becomes invalid due to inactivity.It is set to a new value when the session is accessed for use, up to the time where the session becomes invalid due to finalTimeout being reached.
 a|
 string
 a|
-sessionCreationTime
+`sessionCreationTime`
 a|
 Time at which the session is created.
 a|
 string
 a|
-sessionID
+`sessionID`
 a|
 UUID for this session.
 a|
 UUID
 a|
-username
+`username`
 a|
 Username associated with this session. For sessions related to LDAP, this will be the user's LDAP DN. For sessions related to a third-party IdP, this will be an arbitrary name-value pair that will be used for auditing operations within the session. It will not necessarily match a cluster admin name on the cluster. For example, a SAML Subject NameID,but this will be dictated by the configuration of the IdP and the resultant content of the SAML assertion.
 a|

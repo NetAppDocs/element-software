@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Return to Factory Image information
+          url: /hardware/concept_rtfi_configure.html
         - title: Supported firmware revisions for NetApp H-Series storage nodes
           url: /hardware/fw_storage_nodes.html
     - title: Manage storage
@@ -129,16 +131,15 @@ homepage:
           url: https://mysupport.netapp.com/site/products/all/details/element-software/guideme-tab
     - title: Earlier versions
       links:
-        - title: Element 12.3 documentation
-          url: https://docs.netapp.com/us-en/element-software-123/
+        - title: Element 12.3.x documentation
+          url: https://docs.netapp.com/us-en/element-software-123/index.html
+        - title: Element 12.2.1 documentation
+          url: https://mysupport.netapp.com/documentation/docweb/index.html?productID=63945&language=en-US
         - title: Element 12.2 documentation
-          url: https://docs.netapp.com/sfe-122/index.jsp
+          url: https://mysupport.netapp.com/documentation/docweb/index.html?productID=63593&language=en-US
+        - title: Element 12.0.1 documentation
+          url: https://mysupport.netapp.com/documentation/docweb/index.html?productID=63946&language=en-US
         - title: Element 12.0 documentation
-          url: https://docs.netapp.com/sfe-120/index.jsp
-        - title: Element 11.8 documentation
-          url: https://docs.netapp.com/sfe-118/index.jsp
-        - title: Element 11.5 documentation
-          url: https://docs.netapp.com/sfe-115/index.jsp
-        - title: Element 11.3 documentation
-          url: https://docs.netapp.com/sfe-113/index.jsp
-# 2022 DEC 12, DOC-4643 
+          url: https://mysupport.netapp.com/documentation/docweb/index.html?productID=63368&language=en-US
+        - title: Element 11.8.2 and earlier documentation
+          url: /element-earlierversions.html
