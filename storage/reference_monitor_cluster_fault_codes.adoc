@@ -15,3 +15,5 @@ The system reports an error or a state that might be of interest by generating a
 The following list outlines the different types of codes:
 
 include::../_include/reference_monitor_cluster_fault_codes.adoc[]
+
+// 2022 FEB 7, DOC-4671
