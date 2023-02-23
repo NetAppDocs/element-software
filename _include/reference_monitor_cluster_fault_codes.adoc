@@ -532,7 +532,7 @@ Contact NetApp Support for assistance.
 +
 There are no available virtual network addresses in the block of IP addresses.
 
- ** virtualNetworkID # TAG(###) has no available storage IP addresses. Additional nodes cannot be added to the cluster.
+ ** virtualNetworkID # TAG(\###) has no available storage IP addresses. Additional nodes cannot be added to the cluster.
 
 +
 To resolve this fault, add more IP addresses to the block of virtual network addresses.
