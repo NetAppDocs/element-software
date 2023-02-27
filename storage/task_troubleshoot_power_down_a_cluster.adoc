@@ -14,10 +14,10 @@ You can power down an entire cluster after you have contacted NetApp Support and
 
 .Steps
 . Verify that all I/O has stopped.
-. Disconnect all iSCSI sessions.
-. Navigate to the management virtual IP (MVIP) address on the cluster to open the Element UI.
-. Note the nodes listed in the Nodes list.
-. Run the Shutdown API method with the halt option specified on each Node ID in the cluster.
+. Disconnect all iSCSI sessions:
+.. Navigate to the management virtual IP (MVIP) address on the cluster to open the Element UI.
+.. Note the nodes listed in the Nodes list.
+.. Run the Shutdown API method with the halt option specified on each Node ID in the cluster.
 
 [NOTE]
 ====
@@ -27,7 +27,7 @@ When you restart the cluster, you must follow certain steps to verify that all n
 . Wait for 10 to 15 minutes for the cluster to settle.
 . Start bringing up the hosts to access the data. 
 
-To allow more time to power on nodes and verify that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization to prevent unnecessary bin syncing.
+If you want allow more time when powering on nodes and verifying that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization to prevent unnecessary bin syncing.
 ====
 
 == Find more information
