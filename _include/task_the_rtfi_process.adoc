@@ -24,7 +24,7 @@ To configure your node after the RTFI process successfully completes, see the ht
 == Perform the RTFI process
 Use the following procedure to restore the Element software on your SolidFire node. 
 
-For information on creating a USB key or using the BMC to perform the RTFI process, see xref:task_rtfi_deployment_and_install_options.html[RTFI deployment and installation options]. 
+For information on creating a USB key or using the BMC to perform the RTFI process, see xref:task_rtfi_deployment_and_install_options.adoc[RTFI deployment and installation options]. 
 
 .Before you begin
 Verify that you meet the following requirements:
