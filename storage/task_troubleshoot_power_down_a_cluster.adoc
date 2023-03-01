@@ -34,4 +34,4 @@ If you want allow more time when powering on nodes and verifying that they are h
 == Find more information
 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_gracefully_shut_down_and_power_on_a_NetApp_Solidfire_HCI_storage_cluster[How to gracefully shut down and power on a NetApp Solidfire/HCI storage cluster^]
 
-// 2022 JAN 13, DOC-4662
+// 2023 JAN 13, DOC-4662
