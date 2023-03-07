@@ -69,7 +69,7 @@ This method returns a response similar to the following example:
             "mvipInterface": "team1G",
             "mvipNodeID": 3,
             "mvipVlanTag": "0",
-            "name": "eSDS-1",
+            "name": "ClusterName",
             "repCount": 2,
             "softwareEncryptionAtRestState": "enabled",
             "supportedProtectionSchemes": [

@@ -28,7 +28,7 @@ NOTE: Management services 2.22.7 includes NetApp Element Plug-in for VMware vCen
 Beginning with Element Plug-in for VMware vCenter Server 5.0, this upgrade procedure covers the following upgrade scenarios:
 
 * You are upgrading to Element Plug-in for vCenter Server 5.0.
-* You are upgrading to a 8.0 or 7.0 HTML5 vSphere Web Client.
+* You are upgrading to an 8.0 or 7.0 HTML5 vSphere Web Client.
 +
 IMPORTANT: Element Plug-in for vCenter 5.0 and later is not compatible with vCenter Server 6.7 and 6.5.
 
@@ -69,7 +69,6 @@ IMPORTANT: The plug-in is compatible with vSphere Web Client version 6.7 U2 for 
 * *vSphere Web Client*: You have logged out of the vSphere Web Client before beginning any plug-in upgrade. The web client will not recognize updates made during this process to your plug-in if you do not log out.
 
 .Steps
-
 . Enter the IP address for your management node in a browser, including the TCP port for registration:
 `https://<ManagementNodeIP>:9443`
 The registration utility UI opens to the *Manage QoSSIOC Service Credentials* page for the plug-in.
