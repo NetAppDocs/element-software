@@ -28,7 +28,6 @@ Some cluster API methods operate on nodes that are part of a cluster, or have be
 * xref:reference_element_api_getclusterstats.adoc[GetClusterStats]
 * xref:reference_element_api_getclusterversioninfo.adoc[GetClusterVersionInfo]
 * xref:reference_element_api_getfeaturestatus.adoc[GetFeatureStatus]
-* xref:reference_element_api_getlicensekey.adoc[GetLicenseKey]
 * xref:reference_element_api_getloginsessioninfo.adoc[GetLoginSessionInfo]
 * xref:reference_element_api_getnodehardwareinfo.adoc[GetNodeHardwareInfo]
 * xref:reference_element_api_getnodestats.adoc[GetNodeStats]
@@ -45,7 +44,6 @@ Some cluster API methods operate on nodes that are part of a cluster, or have be
 * xref:reference_element_api_modifyclusterfullthreshold.adoc[ModifyClusterFullThreshold]
 * xref:reference_element_api_modifyclusterinterfacepreference.adoc[ModifyClusterInterfacePreference]
 * xref:reference_element_api_removenodes.adoc[RemoveNodes]
-* xref:reference_element_api_setlicensekey.adoc[SetLicenseKey]
 * xref:reference_element_api_setloginsessioninfo.adoc[SetLoginSessionInfo]
 * xref:reference_element_api_cluster_shutdown.adoc[Shutdown]
 
