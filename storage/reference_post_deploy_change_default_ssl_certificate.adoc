@@ -42,5 +42,6 @@ NOTE: The cluster SSL certificate is automatically applied to all new nodes adde
 
 
 == Find more information
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_are_the_requirements_around_setting_custom_SSL_certificates_in_Element_Software%3F[What are the requirements around setting custom SSL certificates in Element Software?^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
