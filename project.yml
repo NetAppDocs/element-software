@@ -27,7 +27,7 @@ sidebar:
         url: /storage/reference_prereq_network_port_requirements.html
     - section: try
     - section: hardware
-    - section: esds
+  # - section: esds
     - section: setup
     - section: storage
     - section: hccstorage
@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Return to Factory Image information
+          url: /hardware/concept_rtfi_configure.html
         - title: Supported firmware revisions for NetApp H-Series storage nodes
           url: /hardware/fw_storage_nodes.html
     - title: Manage storage
@@ -79,18 +81,18 @@ homepage:
           url: https://docs.netapp.com/us-en/solidfire-active-iq/
         - title: Work with the management node
           url: /mnode/task_mnode_work_overview.html
-    - title: Install and use SolidFire Enterprise SDS
-      links:
-        - title: SolidFire eSDS overview
-          url: /esds/concept_get_started_esds.html
-        - title: Quick start
-          url: https://docs.netapp.com/us-en/element-software/media/SDS_Quick_Start_Guide.pdf
-        - title: Requirements for installation
-          url: /esds/concept_esds_prerequisite_tasks.html
-        - title: Manage storage
-          url: /esds/reference_esds_element_links.html
-        - title: Maintain SolidFire eSDS
-          url: /esds/concept_esds_maintain.html
+    # - title: Install and use SolidFire Enterprise SDS
+      # links:
+        # - title: SolidFire eSDS overview
+          # url: /esds/concept_get_started_esds.html
+        # - title: Quick start
+          # url: https://docs.netapp.com/us-en/element-software/media/SDS_Quick_Start_Guide.pdf
+        # - title: Requirements for installation
+          # url: /esds/concept_esds_prerequisite_tasks.html
+        # - title: Manage storage
+          # url: /esds/reference_esds_element_links.html
+        - # title: Maintain SolidFire eSDS
+          # url: /esds/concept_esds_maintain.html
     - title: Use integration tools (login required)
       links:
         - title: Element CLI

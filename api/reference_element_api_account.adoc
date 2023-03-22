@@ -10,7 +10,7 @@ summary: 'The account object contains information about an account. This object 
 :imagesdir: ../media/
 
 [.lead]
-The account object contains information about an account. This object includes only "configured" information about the account, not any runtime or usage information.
+The `account` object contains information about an account. This object includes only "configured" information about the account, not any runtime or usage information.
 
 == Object members
 
@@ -21,31 +21,31 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
-accountID
+`accountID`
 a|
 The unique account ID for the account.
 a|
 integer
 a|
-attributes
+`attributes`
 a|
 List of name-value pairs in JSON object format.
 a|
 JSON object
 a|
-enableChap
+`enableChap`
 a|
 Specifies whether CHAP account credentials can be used by an initiator to access volumes.
 a|
 boolean
 a|
-initiatorSecret
+`initiatorSecret`
 a|
 The initiator CHAP secret.
 a|
 string
 a|
-status
+`status`
 a|
 The current status of the account. Possible values:
 
@@ -56,25 +56,25 @@ The current status of the account. Possible values:
 a|
 string
 a|
-storageContainerID
+`storageContainerID`
 a|
 The unique ID of the virtual volume storage container associated with this account.
 a|
 UUID
 a|
-targetSecret
+`targetSecret`
 a|
 The target CHAP secret.
 a|
 string
 a|
-username
+`username`
 a|
 The username for the account.
 a|
 string
 a|
-volumes
+`volumes`
 a|
 A list of volume IDs for volumes owned by this account.
 a|
