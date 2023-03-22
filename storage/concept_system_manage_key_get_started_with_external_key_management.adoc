@@ -12,8 +12,6 @@ summary: 'External key management \(EKM\) provides secure Authentication Key \(A
 [.lead]
 External key management (EKM) provides secure Authentication Key (AK) management in conjunction with an off-cluster external key server (EKS). The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when link:../concepts/concept_solidfire_concepts_security.html[encryption at rest] is enabled on the cluster. The EKS provides secure generation and storage of the AKs. The cluster utilizes the Key Management Interoperability Protocol (KMIP), an OASIS defined standard protocol, to communicate with the EKS.
 
-NOTE: Only software encryption at rest is available for SolidFire Enterprise SDS clusters.
-
 * link:task_system_manage_key_set_up_external_key_management.html[Set up external management]
 * link:task_system_manage_rekey_software_ear_master_key.html[Rekey software encryption at rest master key]
 * link:concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys[Recover inaccessible or invalid authentication keys]
