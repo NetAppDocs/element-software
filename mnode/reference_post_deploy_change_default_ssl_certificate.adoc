@@ -35,8 +35,6 @@ You can use the link:../api/reference_element_api_setnodesslcertificate.html[Set
 +
 This link:../api/reference_element_api_removenodesslcertificate.html[RemoveNodeSSLCertificate method] removes the currently installed SSL certificate and private key. The cluster then generates a new self-signed certificate and private key.
 
-NOTE: The cluster SSL certificate is automatically applied to all new nodes added to the cluster. Any node removed from the cluster reverts to a self-signed certificate and all user-defined certificate and key information is removed from the node.
-
 
 == Find more information
 * link:../storage/reference_post_deploy_change_default_ssl_certificate.html[Change the Element software default SSL certificate]
