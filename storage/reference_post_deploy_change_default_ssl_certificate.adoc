@@ -16,32 +16,32 @@ When a NetApp Element software cluster is created, the cluster creates a unique 
 
 * You have a unique SSL certificate made for the storage cluster.
 * The SSL certificate `commonName` field is the cluster name or short name from the fully qualified domain name (FQDN).
-* The `Subject Alternative Name` contains the FQDN of the management virtual IP (MVIP address.
+* The `Subject Alternative Name` contains the FQDN of the management virtual IP (MVIP address).
 * The SSL certificate does not contain additional FQDNs for other systems.
 * The `nslookup [MVIP]` command returns the FQDN. 
 * The `nslookup  [FQDN]` command returns the MVIP address.
  
-
 You can use the following API methods to get more information about the default SSL certificate and make changes.
-
-For information about each method, see the link:../api/index.html[NetApp Element Software API Reference].
 
 * *GetSSLCertificate*
 +
-You can use this method to retrieve information about the currently installed SSL certificate including all certificate details.
+You can use the link:../api/reference_element_api_getsslcertificate.html[GetSSLCertificate method] to retrieve information about the currently installed SSL certificate including all certificate details.
 
 * *SetSSLCertificate*
 +
-You can use this method to set the cluster and per-node SSL certificates to the certificate and private key you supply. The system validates the certificate and private key to prevent an invalid certificate from being applied.
+You can use the link:../api/reference_element_api_setsslcertificate.html[SetSSLCertificate method] to set the cluster and per-node SSL certificates to the certificate and private key you supply. The system validates the certificate and private key to prevent an invalid certificate from being applied.
 
 * *RemoveSSLCertificate*
 +
-This method removes the currently installed SSL certificate and private key. The cluster then generates a new self-signed certificate and private key.
+The link:../api/reference_element_api_removesslcertificate.html[RemoveSSLCertificate method] removes the currently installed SSL certificate and private key. The cluster then generates a new self-signed certificate and private key.
 
 NOTE: The cluster SSL certificate is automatically applied to all new nodes added to the cluster. Any node removed from the cluster reverts to a self-signed certificate and all user-defined certificate and key information is removed from the node.
 
 
 == Find more information
+* link:../mnode/reference_change_mnode_default_ssl_certificate.html[Change the management node default SSL certificate]
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_are_the_requirements_around_setting_custom_SSL_certificates_in_Element_Software%3F[What are the requirements around setting custom SSL certificates in Element Software?^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+
+// 2023 MAR 23, DOC-3452
