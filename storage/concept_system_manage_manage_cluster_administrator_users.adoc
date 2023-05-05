@@ -56,6 +56,7 @@ NOTE: All permissions are available to the administrator access type.
 +
 See link:../api/index.html[NetApp Element Software API Reference].
 
+[[create_cluster_admin_account]]
 == Create a cluster administrator account
 
 You can create new cluster administrator accounts with permissions to allow or restrict access to specific areas of the storage system. When you set cluster administrator account permissions, the system grants read-only rights for any permissions you do not assign to the cluster administrator.
