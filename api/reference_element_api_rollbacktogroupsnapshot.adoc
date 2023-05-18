@@ -18,7 +18,7 @@ Rolling back to a group snapshot creates a temporary snapshot of each volume wit
 ====
 * Creating a snapshot is allowed if cluster fullness is at stage 1, 2, or 3. Snapshots are not created when cluster fullness is at stage 4 or 5.
 
-* Rolling back a volume to a snapshot or volumes to a group snapshot might fail when slice synchronization is in progress. Retry `RollbackToGroupSnapshot` after syncing completes.
+* Rolling back volumes to a group snapshot might fail when slice synchronization is in progress. Retry `RollbackToGroupSnapshot` after syncing completes.
 ====
 
 == Parameters
@@ -178,6 +178,5 @@ This method returns a response similar to the following example:
 == New since version
 
 9.6
-
 
 // 2023 MAY 18, DOC-3779
