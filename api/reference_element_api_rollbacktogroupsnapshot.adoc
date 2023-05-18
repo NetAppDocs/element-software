@@ -14,11 +14,11 @@ You can use `RollbackToGroupSnapshot` to roll back all individual volumes in a s
 
 Rolling back to a group snapshot creates a temporary snapshot of each volume within the group snapshot.
 
-[NOTE]:
+[NOTE]
 ====
 * Creating a snapshot is allowed if cluster fullness is at stage 1, 2, or 3. Snapshots are not created when cluster fullness is at stage 4 or 5.
 
-* Roll back volume to a snapshot or volumes to a group snapshot might fail when slice synchronization is in progress. Retry `RollbackToGroupSnapshot` after syncing completes.
+* Rolling back a volume to a snapshot or volumes to a group snapshot might fail when slice synchronization is in progress. Retry `RollbackToGroupSnapshot` after syncing completes.
 ====
 
 == Parameters
