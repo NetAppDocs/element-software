@@ -22,12 +22,9 @@ include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/open-
 * link:./media/Element_Software_12.5.pdf[Notice for Element software 12.5^]
 * link:./media/mNode_12.5.pdf[Notice for Management Node 12.5^]
 * link:media/mgmt_svcs_2.24_notice.pdf[Notice for Management Services 2.24.40 (NetApp Element Plug-in for VMware vCenter Server 5.2.12)^]
-* link:media/mgmt_svcs_2.22_notice.pdf[Notice for Management Services 2.22.7 (NetApp Element Plug-in for VMware vCenter Server 5.0.37)^]
-* link:media/mgmt_svcs_2.21_notice.pdf[Notice for Management Services 2.21.61 (NetApp Element Plug-in for VMware vCenter Server 4.10.12)^]
-
+* link:./media/mgmt_svcs_2.23_notice.pdf[Notice for Management Services 2.23.64 (NetApp Element Plug-in for VMware vCenter Server 5.1.12)^]
 * link:./media/mgmt_svcs_2.22_notice.pdf[Notice for Management Services 2.22.7 (NetApp Element Plug-in for VMware vCenter Server 5.0.37)^]
 * link:./media/mgmt_svcs_2.21_notice.pdf[Notice for Management Services 2.21.61 (NetApp Element Plug-in for VMware vCenter Server 4.10.12)^]
->>>>>>> 072325e01a271276bb14055cccda7eedac85b603
 * link:./media/mgmt_2.20_notice.pdf[Notice for Management Services 2.20.69 (NetApp Element Plug-in for vCenter Server 4.9.14)^]
 * link:./media/mgmt_2.19_notice.pdf[Notice for Management Services 2.19.48 (NetApp Element Plug-in for vCenter Server 4.8.34)^]
 * link:./media/mgmt_svcs_2.18.pdf[Notice for Management Services 2.18.91 (NetApp Element Plug-in for vCenter Server 4.7.10)^]
