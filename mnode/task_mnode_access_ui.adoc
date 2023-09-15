@@ -4,7 +4,6 @@ permalink: mnode/task_mnode_access_ui.html
 summary: You can access the management UI or the REST API UI.
 keywords: netapp, mnode, management node, api, Element
 ---
-
 = Access the management node
 :hardbreaks:
 :nofooter:
