@@ -91,7 +91,7 @@ homepage:
           # url: /esds/concept_esds_prerequisite_tasks.html
         # - title: Manage storage
           # url: /esds/reference_esds_element_links.html
-        - # title: Maintain SolidFire eSDS
+        # - title: Maintain SolidFire eSDS
           # url: /esds/concept_esds_maintain.html
     - title: Use integration tools (login required)
       links:
