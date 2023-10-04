@@ -4,7 +4,6 @@ permalink: hccstorage/task-hcc-dashboard.html
 summary: You can view storage resources on the NetApp Hybrid Cloud Control Dashboard. Additionally, you can monitor storage capacity and storage performance.
 keywords: netapp, element, hcc, hybrid cloud control, storage, storage performance, capacity
 ---
-
 = Monitor storage resources on the Hybrid Cloud Control Dashboard
 :hardbreaks:
 :nofooter:
