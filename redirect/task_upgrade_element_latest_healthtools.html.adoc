@@ -1,0 +1,6 @@
+---
+permalink: /upgrade/task_upgrade_element_latest_healthtools.html
+redirect: element-software/upgrade/concept_element_upgrade_overview.html
+---
+
+// 2022-8-30, DOC-4474, move contents to above redirect
