@@ -15,7 +15,7 @@ settings:
       url: /element-software-123
 sidebar:
   entries:
-    - title: SolidFire and Element Software 12.5 and later Documentation
+    - title: SolidFire and Element Software Documentation
       url: /index.html
     - title: Release notes
       url: /concepts/concept_rn_relatedrn_element.html
