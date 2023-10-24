@@ -20,9 +20,9 @@ The following abbreviations are used in the tables:
 * MVIP: Management virtual IP address
 * SVIP: Storage virtual IP address
 
-All ports are TCP unless stated otherwise, and should permit bi-directional communications between the NetApp Support Server, management node, and nodes running Element software. The following example shows directional communication for port 3260 between the iSCSI clients and the storage cluster SVIP: 
+All ports are TCP unless stated otherwise, and should permit bi-directional communications between the NetApp Support Server, management node, and nodes running Element software. The following example shows bidirectional communication for port 3260 between the iSCSI clients and the storage cluster SVIP: 
 
-[cols=6*,options="header",cols="20,20,10,20,10,20"]
+[cols=6*,options="header",cols="12,20,10,20,10,28"]
 |===
 |Direction | Source | Port |Destination | Port| Description
 |In
@@ -179,8 +179,6 @@ a|
 80
 a|
 (Optional) HTTP communication to S3/Swift endpoint for backup and recovery
-a|
-(Optional) SNMP traps
 a|
 Storage node MIP
 a|
