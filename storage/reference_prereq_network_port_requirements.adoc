@@ -11,40 +11,16 @@ summary: 'You might need to allow the following TCP ports through your datacente
 [.lead]
 You might need to allow the following TCP and UDP ports through your datacenter's edge firewall so that you can manage the system remotely and allow clients outside of your datacenter to connect to resources. Some of these ports might not be required, depending on how you use the system.
 
+All ports are TCP unless stated otherwise, and all TCP ports must permit support three-way handshake communication between the NetApp Support Server, management node, and nodes running Element software. For example, a host on a management node source communicates with the host on a storage cluster MVIP destination through TCP port 443, and the destination host communicates back to the source host through any port.
+
 TIP: Enable ICMP between the management node, nodes running Element software, and cluster MVIP.
 
-The following abbreviations are used in the tables:
+The following abbreviations are used in the table:
 
 * MIP: Management IP address, a per-node address
 * SIP: Storage IP address, a per-node address
 * MVIP: Management virtual IP address
 * SVIP: Storage virtual IP address
-
-All ports are TCP unless stated otherwise, and all TCP ports must permit bidirectional communication between the NetApp Support Server, management node, and nodes running Element software. The following example shows bidirectional communication for TCP port 3260 between iSCSI clients and a storage cluster SVIP: 
-
-[cols=6*,options="header",cols="12,20,10,20,10,28"]
-|===
-|Direction | Source | Port |Destination | Port| Description
-|In
-|iSCSI clients
-|Any
-|Storage cluster SVIP
-|
-3260
-.2+.^| Client iSCSI communications
-|
-Out
-|
-Storage cluster SVIP
-|
-3260
-|
-iSCSI clients
-|
-Any
-|===
-
-== Ports with bidirectional communication
 
 [cols=4*,options="header",cols="25,25,15,35"]
 |===
@@ -138,6 +114,11 @@ a|
 a|
 Provides access to components necessary to install/update on-premises deployment.
 
+|Management node
+|Storage node BMC/IPMI
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
+
 a|
 Management node
 a|
@@ -154,6 +135,28 @@ a|
 9443
 a|
 vCenter Plug-in registration. The port can be closed after registration is complete.
+
+a|
+SNMP server
+a|
+Storage cluster MVIP
+a|
+161 UDP
+a|
+SNMP polling
+a|
+SNMP server
+|
+Storage node MIP
+a|
+161 UDP
+a|
+SNMP polling
+
+|Storage node BMC/IPMI
+|Management node
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
 
 a|
 Storage node MIP
@@ -179,6 +182,29 @@ a|
 80
 a|
 (Optional) HTTP communication to S3/Swift endpoint for backup and recovery
+Storage node MIP
+a|
+NTP server
+a|
+123 UDP
+a|
+NTP
+a|
+Storage node MIP
+a|
+Management node
+a|
+162 UDP
+a|
+(Optional) SNMP traps
+a|
+Storage node MIP
+a|
+SNMP server
+a|
+162 UDP
+a|
+(Optional) SNMP traps
 a|
 Storage node MIP
 a|
@@ -346,6 +372,14 @@ HTTPS storage cluster creation, post-deployment UI access to storage cluster
 a|
 System administrator PC
 a|
+Storage node BMC/IPMI H410 and H600 series	
+a|
+623 UDP
+a|
+Remote Management Control Protocol port. This is required to manage IPMI-enabled systems.
+a|
+System administrator PC
+a|
 Witness Node
 a|
 8080
@@ -391,69 +425,6 @@ a|
 9443
 a|
 vCenter Plug-in registration. The port can be closed after registration is complete.
-|===
-
-== Ports with unidirectional communication
-
-[cols=4*,options="header",cols="25,25,15,35"]
-|===
-| Source| Destination| Port| Description
-|Management node
-|Storage node BMC/IPMI
-|623 UDP
-|RMCP port. This is required to manage IPMI-enabled systems.
-a|
-SNMP server
-a|
-Storage cluster MVIP
-a|
-161 UDP
-a|
-SNMP polling
-a|
-SNMP server
-|
-Storage node MIP
-a|
-161 UDP
-a|
-SNMP polling
-
-|Storage node BMC/IPMI
-|Management node
-|623 UDP
-|RMCP port. This is required to manage IPMI-enabled systems.
-
-a|
-Storage node MIP
-a|
-NTP server
-a|
-123 UDP
-a|
-NTP
-a|
-Storage node MIP
-a|
-Management node
-a|
-162 UDP
-a|
-(Optional) SNMP traps
-a|
-Storage node MIP
-a|
-SNMP server
-a|
-162 UDP
-a|
-System administrator PC
-a|
-Storage node BMC/IPMI H410 and H600 series	
-a|
-623 UDP
-a|
-Remote Management Control Protocol port. This is required to manage IPMI-enabled systems.
 |===
 
 == For more information
