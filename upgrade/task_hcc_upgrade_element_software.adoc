@@ -340,7 +340,7 @@ CAUTION: Aborting the cluster upgrade while a node is being updated might result
 [discrete]
 == Find more information
 
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
 // 2023 FEB 23, DOC-4667
