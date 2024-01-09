@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: iscsi sessions, monitor
 summary: 'You can view information about the iSCSI sessions that are connected to the cluster.'
 ---
-
 = iSCSI session details
 :icons: font
 :imagesdir: ../media/
@@ -54,6 +53,12 @@ The IP address of the node hosting the volume.
 +
 The IQN of the volume.
 
+* *CHAP*
++
+The CHAP algorithm for an iSCSI session. If a CHAP algorithm is not being used, a dash (-) is displayed. This CHAP information is available beginning with Element 12.8. 
+
 * *Created On*
 +
 Date the session was established.
+
+// 2023 JAN 9, DOC-4725
