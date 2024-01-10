@@ -17,11 +17,10 @@ This method has the following input parameter.
 
 NOTE: For systems running Element software 11.x, enabling virtual volumes before or after setting protection domain monitoring causes the cluster protection domains feature to function only at node level.
 
-[cols:"1a,3a,1a,1a,1a" options="header"]
+[cols="1a,3a,1a,1a,1a" options="header"]
 |===
 |Name |Description |Type |Default value |Required
-a|
-feature
+| feature
 a|
 Enable a cluster feature. Possible values:
 
@@ -31,12 +30,9 @@ Enable a cluster feature. Possible values:
 * `VolumeLoadBalanceOnActualIOPS`: Enable slice balancing on actual IOPS rather than Min IOPS. Available beginning with Element 12.8.
 * `vvols`: Enable the Element software VVols cluster feature.
 
-a|
-string
-a|
-None
-a|
-Yes
+| string
+| None
+| Yes
 |===
 
 == Return value
