@@ -19,7 +19,7 @@ NOTE: For systems running Element software 11.x, enabling virtual volumes before
 
 [cols="1a,3a,1a,1a,1a" options="header"]
 |===
-| Name | Description | Type  Default value | Required
+| Name | Description | Type | Default value | Required
 | feature
 a|
 Enable a cluster feature. Possible values:
