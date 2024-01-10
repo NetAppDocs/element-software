@@ -55,7 +55,7 @@ The IQN of the volume.
 
 * *CHAP*
 +
-The CHAP algorithm for an iSCSI session. If a CHAP algorithm is not being used, a dash (-) is displayed. This CHAP information is available beginning with Element 12.8. 
+The CHAP algorithm for an iSCSI session. If a CHAP algorithm is not being used, a dash (-) is displayed. Available beginning with Element 12.8. 
 
 * *Created On*
 +
