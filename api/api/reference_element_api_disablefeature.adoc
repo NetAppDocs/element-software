@@ -9,32 +9,33 @@ summary: 'You can use the DisableFeature method to disable the VolumeLoadBalance
 :imagesdir: ../media/
 
 [.lead]
-You can use the `DisableFeature` method to disable the `VolumeLoadBalanceOnActualIOPS` feature which is disabled by default. If you try to disable another feature, such as `vvols`, the following error message appears:
+You can use the `DisableFeature` method to disable the `VolumeLoadBalanceOnActualIOPS` feature which is disabled by default. 
+
+[NOTE]
+====
+If you try to disable another feature, such as `vvols`, the following error message appears:
 
 ----
 {"error":{"code":500,"message":"VolumeLoadBalanceOnActualIOPS is the only feature that can be disabled","name":"xAPINotPermitted"},"id":null} 
 ----
+====
 
 == Parameter
 
 This method has the following input parameter.
 
-[cols:"1a,3a,1a,1a,1a" options="header"]
+[cols="1a,3a,1a,1a,1a" options="header"]
 |===
-|Name |Description |Type |Default value |Required
-a|
-feature
+| Name | Description | Type | Default value | Required
+| feature
 a|
 Disable a cluster feature. Possible value:
 
 * `VolumeLoadBalanceOnActualIOPS`: Enable slice balancing on actual IOPS rather than Min IOPS. 
 
-a|
-string
-a|
-None
-a|
-Yes
+| string
+| None
+| Yes
 |===
 
 == Return value
