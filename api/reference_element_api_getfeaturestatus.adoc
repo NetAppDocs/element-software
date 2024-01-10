@@ -16,11 +16,10 @@ You can use the `GetFeatureStatus` method to retrieve the status of a cluster fe
 
 This method has the following input parameter:
 
-[cols:"1a,3a,1a,1a,1a" options="header"]
+[cols="1a,3a,1a,1a,1a" options="header"]
 |===
 |Name |Description |Type |Default value |Required
-a|
-feature
+| feature
 a|
 The status of a cluster feature. If no value is provided, the system returns a status of all features. Possible values:
 
@@ -30,12 +29,9 @@ The status of a cluster feature. If no value is provided, the system returns a s
 * `FipsDrives`: Retrieve status for the FIPS 140-2 drive encryption feature.
 * `VolumeLoadBalanceOnActualIOPS`: Retrieve status for the slice balancing on actual IOPS rather than min IOPS feature. Available beginning with Element 12.8.
 
-a|
-string
-a|
-None
-a|
-No
+| string
+| None
+| No
 |===
 
 == Return value
