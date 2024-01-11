@@ -31,8 +31,8 @@ Select *Enable Load Balancing on Actual IOPS*, and confirm your selection.
 Select *Disable Load Balancing on Actual IOPS*, and confirm your selection.
 --
 ====
-.. Select *Save Changes*.
-.. Optionally, select *Reporting* > *Overview* to confirm the status change for Balance on Actual IOPS, and view the Cluster Input/Output and Throughput graphs for the cluster.
+. Select *Save Changes*.
+. Optionally, select *Reporting* > *Overview* to confirm the status change for Balance on Actual IOPS, and view the Cluster Input/Output and Throughput graphs for the cluster.
 
 == Find more information
 link:../hccstorage/task-hcc-qos-policies.html[Create and manage volume QoS policies]
