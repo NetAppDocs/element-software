@@ -1,0 +1,28 @@
+---
+permalink: storage/task_system_manage_cluster_volume_load_balancing.html
+sidebar: sidebar
+keywords: cluster, volume, volumes, load, balancing, actual, IOPS
+summary: 'Beginning with Element 12.8, you can enable Volume Load Balancing to balance volumes across nodes based on actual IOPS by each volume instead of the minimum IOPS configured in the QoS policy.'
+---
+= Enable and disable Volume Load Balancing
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Beginning with Element 12.8, you can use Volume Load Balancing to balance volumes across nodes based on the actual IOPS by each volume instead of the minimum IOPS configured in the QoS policy. You can enable and disable Volume Load Balancing, which is disabled by default. You can view the status on the *Reporting* > *Overview* page.
+
+.About this task
+When enabling or disabling Volume Load Balancing, the volumes are rebalanced across the cluster. This might temporarily impact client I/O performance.
+
+.Steps
+
+. Select *Cluster* > *Settings*.
+. Enable Volume Load Balancing:
+.. In the Cluster Full Settings section, select *Enable Load Balancing on Actual IOPS* and confirm your selection.
+.. Select *Save Changes*.
+. Disable Volume Load Balancing:
+.. In the Cluster Full Settings section, select *Disable Load Balancing on Actual IOPS* and confirm your selection.
+.. Select *Save Changes*.
+
+== Find more information
+link:../hccstorage/task-hcc-qos-policies.html[Create and manage volume QoS policies]

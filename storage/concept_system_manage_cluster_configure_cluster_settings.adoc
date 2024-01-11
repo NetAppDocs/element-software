@@ -27,9 +27,9 @@ You can configure settings such as cluster fullness threshold, support access, e
 * xref:concept_system_manage_snmp_manage_snmp.adoc[Manage SNMP]
 * xref:concept_system_manage_drives_managing_drives.adoc[Manage drives]
 * xref:concept_system_manage_nodes_manage_nodes.adoc[Manage nodes]
-* xref:concept_system_manage_virtual_manage_virtual_networks.adoc[Manage virtual networks]
 * xref:task_system_manage_fc_view_fibre_channel_ports_details.adoc[View Fibre Channel ports details]
-
+* xref:concept_system_manage_virtual_manage_virtual_networks.adoc[Manage virtual networks]
+* xref:task_system_manage_cluster_volume_load_balancing.adoc[Enable and disable Volume Load Balancing]
 
 == Find more information
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
