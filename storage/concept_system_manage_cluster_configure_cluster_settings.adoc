@@ -19,6 +19,7 @@ You can configure settings such as cluster fullness threshold, support access, e
 * xref:concept_data_manage_vvol_work_virtual_volumes.adoc[Work with virtual volumes]
 * xref:task_snapmirror_use_replication_between_element_and_ontap_clusters.adoc[Use SnapMirror replication between Element and ONTAP clusters]
 * xref:task_system_manage_cluster_set_the_cluster_full_threshold.adoc[Set the cluster full threshold]
+* xref:task_system_manage_cluster_volume_load_balancing.adoc[Enable and disable Volume Load Balancing]
 * xref:task_system_manage_cluster_enable_and_disable_support_access.adoc[Enable and disable support access]
 * https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element[How are the blockSpace thresholds calculated for Element]
 * xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc[Enable and disable encryption for a cluster]
@@ -29,7 +30,6 @@ You can configure settings such as cluster fullness threshold, support access, e
 * xref:concept_system_manage_nodes_manage_nodes.adoc[Manage nodes]
 * xref:task_system_manage_fc_view_fibre_channel_ports_details.adoc[View Fibre Channel ports details]
 * xref:concept_system_manage_virtual_manage_virtual_networks.adoc[Manage virtual networks]
-* xref:task_system_manage_cluster_volume_load_balancing.adoc[Enable and disable Volume Load Balancing]
 
 == Find more information
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
