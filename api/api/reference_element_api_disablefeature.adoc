@@ -31,7 +31,7 @@ This method has the following input parameter.
 a|
 Disable a cluster feature. Possible value:
 
-* `VolumeLoadBalanceOnActualIOPS`: Enable slice balancing on actual IOPS rather than Min IOPS. 
+* `VolumeLoadBalanceOnActualIOPS`: Disable slice balancing on actual IOPS rather than Min IOPS. 
 
 | string
 | None
