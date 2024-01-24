@@ -10,17 +10,29 @@ summary: NetApp periodically updates SolidFire and Element software to bring you
 :imagesdir: ../media/
 
 [.lead]
-NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 is the latest release and includes security and system component updates, operational improvements, and resolved issues.
+NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.8 is the latest release and includes security and system component updates, operational improvements, and resolved issues.
 
-NOTE: The cumulative software and firmware updates are installed as part of an Element 12.7 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.3.x, you can upgrade directly to Element 12.7 to get the cumulative updates from both Element 12.5 and 12.7. For supported upgrade paths, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[KB article^]
+NOTE: The cumulative software and firmware updates are installed as part of an Element 12.8 or 12.7 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.3.x, you can upgrade directly to Element 12.8 to get the cumulative updates from Element 12.8, 12.7, and 12.5. For supported upgrade paths, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[KB article^]
+
+== Element 12.8
+
+Learn more about what is new in Element 12.8.
+
+=== Volume Load Balancing
+
+The new Volume Load Balancing feature is introduced in Element 12.8. You can use this feature to balance volumes across nodes based on the actual IOPS by each volume instead of the minimum IOPS configured in the QoS policy. link:../storage/task_system_manage_cluster_volume_load_balancing.html[Learn more].
+
+=== CHAP algorithm for iSCSI session
+
+Beginning with Element 12.8, you can view the Challenge-Handshake Authentication Protocol (CHAP) for an iSCSI session. link:../storage/reference_monitor_iscsi_session_details.html[Learn more].
 
 == Element 12.7
 
-Learn more about what is new in Element 12.7.
+Element 12.7 includes support for secure FIPS compliant CHAP algorithms, dynamic block (bin) sync-in rate, Garbage Collection, system scale, and iSCSI session improvements, and enhanced security.
 
 === Secure CHAP algorithms
 
-Element 12.7 includes support for secure FIPS compliant Challenge-Handshake Authentication Protocol (CHAP) algorithms SHA1, SHA-256, and SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
+Element 12.7 includes support for secure FIPS compliant CHAP algorithms SHA1, SHA-256, and SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
 
 === Dynamic block (bin) sync-in rate
 
