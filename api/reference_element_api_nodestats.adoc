@@ -88,11 +88,11 @@ integer
 a|
 nodeHeat
 a|
-Available beginning with Element 12.8. Members: 
-* primaryTotalHeat = node primary total IOPS / node configured IOPS averaged over the long time period
-* recentPrimaryTotalHeat = node primary total IOPS / node configured IOPS averaged over the recent time period
-* recentTotalHeat = node total IOPS / node configured IOPS averaged over the recent time period
-* totalHeat = node total total IOPS / node configured IOPS averaged over the recent time period
+Node utilization information. Available beginning with Element 12.8. Members: 
+* primaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over the long time period
+* recentPrimaryTotalHea: Node primary total IOPS / node configured IOPS averaged over the recent time period
+* recentTotalHeat: Node total IOPS / node configured IOPS averaged over the recent time period
+* totalHeat: Node total IOPS / node configured IOPS averaged over the recent time period
 a|
 JSON object
 a|
