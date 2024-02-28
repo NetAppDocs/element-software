@@ -86,6 +86,16 @@ Network interface utilization (in %) for the storage network interface.
 a|
 integer
 a|
+nodeHeat
+a|
+Available beginning with Element 12.8. Members: 
+* primaryTotalHeat = node primary total IOPS / node configured IOPS averaged over the long time period
+* recentPrimaryTotalHeat = node primary total IOPS / node configured IOPS averaged over the recent time period
+* recentTotalHeat = node total IOPS / node configured IOPS averaged over the recent time period
+* totalHeat = node total total IOPS / node configured IOPS averaged over the recent time period
+a|
+JSON object
+a|
 readLatencyUSecTotal
 a|
 Monotonically increasing value of total time spent performing read operations to the node.
@@ -134,3 +144,5 @@ integer
 
 * xref:reference_element_api_getnodestats.adoc[GetNodeStats]
 * xref:reference_element_api_listnodestats.adoc[ListNodeStats]
+
+// 2024 FEB 28, DOC-4741
