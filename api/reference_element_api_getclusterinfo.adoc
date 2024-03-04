@@ -50,40 +50,40 @@ This method returns a response similar to the following example:
 ----
 {
     "id": null,
-  "result": {
-    "clusterInfo": {
-      "attributes": {},
-      "defaultProtectionScheme": "doubleHelix",
-      "enabledProtectionSchemes": [
-        "doubleHelix"
-      ],
-      "encryptionAtRestState": "disabled",
-      "ensemble": [
-        "10.117.179.73",
-        "10.117.179.75",
-        "10.117.179.76",
-        "10.117.179.77",
-        "10.117.179.78"
-      ],
-      "mvip": "10.117.179.6",
-      "mvipInterface": "Bond1G",
-      "mvipNodeID": 1,
-      "mvipVlanTag": "2150",
-      "name": "hci-tt-jan25-cluster",
-      "repCount": 2,
-      "softwareEncryptionAtRestState": "disabled",
-      "supportedProtectionSchemes": [
-        "doubleHelix"
-      ],
-      "svip": "10.117.179.72",
-      "svipInterface": "Bond10G",
-      "svipNodeID": 1,
-      "svipVlanTag": "2151",
-      "uniqueID": "ahf7",
-      "uuid": "bcfd04b6-9151-4b3a-a6fa-bca22dd145cd",
-      "volumeLoadBalanceOnActualIopsState": "enabled"
-    }
-  } 
+    "result": {
+        "clusterInfo": {
+            "attributes": {},
+            "defaultProtectionScheme": "doubleHelix",
+            "enabledProtectionSchemes": [
+                "doubleHelix"
+            ],
+            "encryptionAtRestState": "disabled",
+            "ensemble": [
+                "10.117.179.73",
+                "10.117.179.75",
+                "10.117.179.76",
+                "10.117.179.77",
+                "10.117.179.78"
+            ],
+            "mvip": "10.117.179.6",
+            "mvipInterface": "Bond1G",
+            "mvipNodeID": 1,
+            "mvipVlanTag": "2150",
+            "name": "hci-tt-jan25-cluster",
+            "repCount": 2,
+            "softwareEncryptionAtRestState": "disabled",
+            "supportedProtectionSchemes": [
+                "doubleHelix"
+            ],
+            "svip": "10.117.179.72",
+            "svipInterface": "Bond10G",
+            "svipNodeID": 1,
+            "svipVlanTag": "2151",
+            "uniqueID": "ahf7",
+            "uuid": "bcfd04b6-9151-4b3a-a6fa-bca22dd145cd",
+            "volumeLoadBalanceOnActualIopsState": "enabled"
+        }
+    } 
 }
 ----
 
