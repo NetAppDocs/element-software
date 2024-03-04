@@ -91,7 +91,7 @@ a|
 Node utilization information. Available beginning with Element 12.8. Members: 
 
 * primaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over a long time period
-* recentPrimaryTotalHea: Node primary total IOPS / node configured IOPS averaged over a recent time period
+* recentPrimaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over a recent time period
 * recentTotalHeat: Node total IOPS / node configured IOPS averaged over a recent time period
 * totalHeat: Node total IOPS / node configured IOPS averaged over a long time period
 a|
