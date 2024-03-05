@@ -139,9 +139,9 @@ The unique identifier for the cluster.
 a|
 UUID
 a|
-VolumeLoadBalanceOnActualIOPS
+volumeLoadBalanceOnActualIopsState
 a|
-The status for the slice balancing based on actual IOPS rather than Min IOPS.
+The status for the slice balancing based on actual IOPS rather than Min IOPS feature.
 a|
 string
 |===

@@ -59,26 +59,26 @@ This method returns a response similar to the following example:
             ],
             "encryptionAtRestState": "disabled",
             "ensemble": [
-                "10.117.179.73",
-                "10.117.179.75",
-                "10.117.179.76",
-                "10.117.179.77",
-                "10.117.179.78"
+                "10.10.10.32",
+                "10.10.10.33",
+                "10.10.10.34",
+                "10.10.10.35",
+                "10.10.10.36"
             ],
-            "mvip": "10.117.179.6",
+            "mvip": "10.10.11.225",
             "mvipInterface": "Bond1G",
             "mvipNodeID": 1,
-            "mvipVlanTag": "2150",
-            "name": "hci-tt-jan25-cluster",
+            "mvipVlanTag": "0",
+            "name": "ClusterName",
             "repCount": 2,
             "softwareEncryptionAtRestState": "disabled",
             "supportedProtectionSchemes": [
                 "doubleHelix"
             ],
-            "svip": "10.117.179.72",
+            "svip": "10.10.10.111",
             "svipInterface": "Bond10G",
             "svipNodeID": 1,
-            "svipVlanTag": "2151",
+            "svipVlanTag": "0",
             "uniqueID": "ahf7",
             "uuid": "bcfd04b6-9151-4b3a-a6fa-bca22dd145cd",
             "volumeLoadBalanceOnActualIopsState": "enabled"
