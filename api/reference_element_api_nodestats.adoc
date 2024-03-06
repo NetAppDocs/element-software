@@ -90,10 +90,10 @@ nodeHeat
 a|
 Node utilization information. Available beginning with Element 12.8. Members: 
 
-* primaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over a long time period
-* recentPrimaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over a recent time period
-* recentTotalHeat: Node total IOPS / node configured IOPS averaged over a recent time period
-* totalHeat: Node total IOPS / node configured IOPS averaged over a long time period
+* primaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over 24 hours
+* recentPrimaryTotalHeat: Node primary total IOPS / node configured IOPS averaged over one hour
+* recentTotalHeat: Node total IOPS / node configured IOPS averaged over one hour
+* totalHeat: Node total IOPS / node configured IOPS averaged over 24 hours
 a|
 JSON object
 a|
