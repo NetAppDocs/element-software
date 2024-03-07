@@ -68,7 +68,7 @@ This method returns a response similar to the following example:
 {
    "id" : 1,
    "result" : {
-     "nodeStats" : {
+     "nodeStats": {
        "cBytesIn": 1579657943924,
        "cBytesOut": 1683056745816,
        "count": 119529,
@@ -108,3 +108,5 @@ This method returns a response similar to the following example:
 == New since version
 
 9.6
+
+// 2024 MAR 5, DOC-4741
