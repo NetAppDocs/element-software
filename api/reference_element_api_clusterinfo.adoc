@@ -141,7 +141,7 @@ UUID
 a|
 volumeLoadBalanceOnActualIopsState
 a|
-The status for the slice balancing based on actual IOPS rather than the Min IOPS feature.
+The status for the slice balancing based on actual IOPS rather than the Min IOPS feature. Available beginning with Element 12.8.
 a|
 string
 |===
