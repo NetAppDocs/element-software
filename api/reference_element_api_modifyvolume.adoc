@@ -294,7 +294,7 @@ This method returns a response similar to the following example:
           "virtualVolumeID": null,
           "volumeAccessGroups": [
           22
-          ]
+          ],
           "volumeConsistencyGroupUUID": "3003109e-6e75-444c-8cee-470d641a09c3",
           "volumeID": 319,
           "volumePairs": [],
