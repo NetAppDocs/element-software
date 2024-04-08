@@ -222,7 +222,7 @@ Requests for this method are similar to the following example:
 {
   "method": "ModifyVolumes",
   "params": {
-    "volumeIDs": 319, 
+    "volumeIDs": [319,22], 
     "access": "readWrite", 
     "dontMoveForIopsRebalance": false
   },  
