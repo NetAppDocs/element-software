@@ -108,7 +108,8 @@ image::vcp_registration_utility_ui.png[depicts the registration utility UI for t
 NOTE: The user name and password credentials you enter must be for a user with vCenter Administrator role privileges.
 
 .. The vCenter Administrator password.
-.. (For in-house servers/dark sites) Depending on your Element Plug-in for vCenter version, a custom URL for the plug-in JSON file or plug-in ZIP: 
+.. (For in-house servers/dark sites) Depending on your Element Plug-in for vCenter version, a custom URL for the plug-in JSON file or plug-in ZIP:
++
 [role="tabbed-block"] 
 ==== 
 .Element vCenter Plug-in 5.0 or later 
@@ -141,7 +142,7 @@ NOTE: This action creates a new database and completes the installation in the v
 .Element vCenter Plug-in 5.0 or later 
 -- 
 The NetApp Element Remote Plugin extension point appears:
-+
+
 image::vcp_remote_plugin_icons_home_page.png[depicts the plug-in extension points after a successful upgrade or install for Element Plug-in 5.1 or later]
 --
 
