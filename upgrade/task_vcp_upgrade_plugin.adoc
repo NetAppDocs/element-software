@@ -4,7 +4,6 @@ permalink: upgrade/task_vcp_upgrade_plugin.html
 summary: As part of a NetApp SolidFire storage system upgrade, you can upgrade the Element Plug-in for vCenter Server.
 keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 5.0
 ---
-
 = Upgrade the Element Plug-in for vCenter Server
 :hardbreaks:
 :nofooter:
@@ -89,13 +88,13 @@ image::vcp_registration_utility_ui_qossioc.png[depicts the registration utility 
 ==== 
 .Element vCenter Plug-in 5.0 or later 
 -- 
-The vCenter Plug-in Registration page for Element Plug-in for vCenter Server 5.x:
+The vCenter Plug-in Registration page appears:
 
 image::vcp_remote_plugin_registration_ui.png[depicts the registration utility UI for the plug-in]
 --
 .Element vCenter Plug-in 4.10 or earlier 
 --
-The vCenter Plug-in Registration page for Element Plug-in for vCenter Server 4.10 or earlier:
+The vCenter Plug-in Registration page appears:
 
 image::vcp_registration_utility_ui.png[depicts the registration utility UI for the plug-in]
 --
@@ -114,14 +113,14 @@ NOTE: The user name and password credentials you enter must be for a user with v
 ==== 
 .Element vCenter Plug-in 5.0 or later 
 -- 
-Beginning with Element Plug-in for vCenter Server 5.0, a custom URL for the plug-in JSON file.
+A custom URL for the plug-in JSON file.
 
 NOTE: You can select *Custom URL* to customize the URL if you are using an HTTP or HTTPS server (dark site) or have modified the JSON file name or network settings. For additional configuration steps if you intend to customize a URL, see Element Plug-in for vCenter Server documentation about modifying vCenter properties for an in-house (dark site) HTTP server.
 --
 
 .Element vCenter Plug-in 4.10 or earlier 
 --
-For Element Plug-in for vCenter Server 4.10 or earlier, a custom URL for the plug-in ZIP.
+A custom URL for the plug-in ZIP.
 
 NOTE: You can select *Custom URL* to customize the URL if you are using an HTTP or HTTPS server (dark site) or have modified the ZIP file name or network settings. For additional configuration steps if you intend to customize a URL, see Element Plug-in for vCenter Server documentation about modifying vCenter properties for an in-house (dark site) HTTP server.
 --
