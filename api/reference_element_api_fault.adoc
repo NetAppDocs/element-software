@@ -20,6 +20,15 @@ This object contains the following members:
 |===
 |Name |Description |Type
 a|
+blocksUpgrade
+a|
+The fault blocks an upgrade. Possible values:
+
+* true: The fault blocks an upgrade
+* false: The fault does not block an upgrade
+a|
+boolean
+a|
 clusterFaultID
 a|
 The unique ID associated with each cluster fault.
@@ -126,3 +135,5 @@ string
 
 * xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]
 * link:../storage/reference_monitor_cluster_fault_codes.html[Cluster fault codes]
+
+// 2024 MAY 1, DOC-4754
