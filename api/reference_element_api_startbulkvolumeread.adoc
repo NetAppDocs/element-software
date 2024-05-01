@@ -82,7 +82,7 @@ No
 a|
 attributes
 a|
-List of name-value pairs in JSON object format. link:reference_element_api_attributes.html[Learn more].
+List of name-value pairs in the JSON object format. link:reference_element_api_attributes.html[Learn more].
 a|
 JSON object
 a|
