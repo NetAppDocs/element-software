@@ -82,7 +82,7 @@ No
 a|
 attributes
 a|
-JSON attributes for the bulk volume job.
+List of name-value pairs in the JSON object format. link:reference_element_api_attributes.html[Learn more].
 a|
 JSON object
 a|
@@ -151,3 +151,5 @@ This method returns a response similar to the following example:
 == New since version
 
 9.6
+
+// 2024 APR 26, DOC-4756
