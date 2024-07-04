@@ -24,7 +24,11 @@ Depending on your Element software version, the following SF-series storage node
 |Element 12.7
 a|
 * SF2405
+* SF4805
+* SF9605
 * SF9608
+* SF19210
+* SF38410
 |Element 12.0
 a|
 * SF3010

@@ -35,7 +35,7 @@ The instructions apply to the following SolidFire storage node models:
 ====
 Depending on your Element software version, the following nodes are not supported:
 
-* Beginning with Element 12.7, SF2405 and SF9608 storage nodes. 
+* Beginning with Element 12.7, SF2405, SF4805, SF9605, SF9608, SF19210, and SF38410 storage nodes. 
 * Beginning with Element 12.0, SF3010, SF6010, and SF9010 storage nodes.
 ====
 
