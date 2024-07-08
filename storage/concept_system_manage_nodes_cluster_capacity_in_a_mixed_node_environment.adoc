@@ -26,7 +26,7 @@ a|
 * SF4805
 * SF9605
 * SF19210
-* SF38410nning November 2023, you cannot start a component upgrade using NetApp Hybrid Cloud Control or REST API because the signing key certificates (private and public) expired on November 5
+* SF38410
 |Element 12.7
 a|
 * SF2405
