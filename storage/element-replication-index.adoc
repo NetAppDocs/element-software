@@ -70,7 +70,7 @@ Transfer the Snapshot copy created by SnapMirror and any less recent Snapshot co
 
 [NOTE]
 ====
-For complete background information on SnapMirror policies, including guidance on which policy to use, see link:../data-protection/index.html[Data Protection].
+For complete background information on SnapMirror policies, including guidance on which policy to use, see link:https://docs.netapp.com/us-en/ontap/data-protection-disaster-recovery/index.html[Data protection overview^].
 ====
 
 === Understanding SnapMirror labels
@@ -117,8 +117,7 @@ You must have completed the following tasks before configuring a data protection
 +
 [NOTE]
 ====
-You can perform this task in the Element software web UI only. For more information, see the link:https://docs.netapp.com/us-en/element-software/index.html[NetApp Element software documentation]
-
+You can perform this task in the Element software web UI only.
 ====
 
 * You must have ensured that port 5010 is available.
@@ -190,5 +189,6 @@ a|
 ONTAP volumes in a MetroCluster configuration are not supported.
 |===
 
+// 2024 AUG 30, ONTAPDOC-1436
 // 08 DEC 2021, BURT 1430515
 // 10 JAN 2022, BURT 1448684

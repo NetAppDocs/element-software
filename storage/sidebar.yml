@@ -385,7 +385,7 @@ entries:
       - title: Enable SnapMirror on the Element source volume
         url: "/storage/task-element-replication-enable-snapmirror-source-volume.html"
       - title: Create a SnapMirror endpoint
-        url: "/storage/task-element-replication-create-snapmirror-endpointtask.html"
+        url: "/storage/task-element-replication-create-snapmirror-endpoint.html"
     - title: Configure a replication relationship
       entries:
       - title: Create a replication job schedule

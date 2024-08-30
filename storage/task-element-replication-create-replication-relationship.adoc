@@ -22,8 +22,7 @@ You can use SnapMirror to replicate Snapshot copies of an Element volume to an O
 +
 [NOTE]
 ====
-You can perform this task in the Element software web UI only. For more information, see the https://docs.netapp.com/us-en/element-software/index.html[Element documentation].
-
+You can perform this task in the Element software web UI only.
 ====
 
 .About this task
@@ -74,3 +73,5 @@ cluster_dst::> snapmirror create -source-path 10.0.0.11:/lun/0005 -destination-p
 .After you finish
 
 Use the `snapmirror show` command to verify that the SnapMirror relationship was created. For complete command syntax, see the man page.
+
+// 2024 AUG 30, ONTAPDOC-1436

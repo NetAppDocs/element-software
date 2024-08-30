@@ -134,5 +134,6 @@ cluster_dst::> snapmirror resync -source-path 10.0.0.11:/lun/0005 -destination-p
 
 Use the `snapmirror show` command to verify that the SnapMirror relationship was created. For complete command syntax, see the man page.
 
+// 2024 AUG 30, ONTAPDOC-1436
 // 2024-7-10 ontapdoc-2192
 // 08 DEXC 2021, BURT 1430515

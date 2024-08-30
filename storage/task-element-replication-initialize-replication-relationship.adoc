@@ -47,3 +47,5 @@ The following example initializes the relationship between the source volume `00
 ----
 cluster_dst::> snapmirror initialize -source-path 10.0.0.11:/lun/0005 -destination-path svm_backup:volA_dst
 ----
+
+// 2024 AUG 30, ONTAPDOC-1436

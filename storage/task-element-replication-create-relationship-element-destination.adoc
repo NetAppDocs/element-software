@@ -54,4 +54,5 @@ cluster_dst::> snapmirror create -source-path svm_1:volA_dst -destination-path 1
 
 Use the `snapmirror show` command to verify that the SnapMirror relationship was created. For complete command syntax, see the man page.
 
+// 2024 AUG 30, ONTAPDOC-1436
 // 08 DEC 2021, BURT 1430515

@@ -30,3 +30,5 @@ Once enabled, SnapMirror cannot be disabled. You can only disable the SnapMirror
 . Click *Clusters* > *Settings*.
 . Find the cluster-specific settings for SnapMirror.
 . Click *Enable SnapMirror*.
+
+// 2024 AUG 30, ONTAPDOC-1436
