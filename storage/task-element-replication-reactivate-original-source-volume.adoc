@@ -17,7 +17,7 @@ The procedure below assumes that the baseline in the original source volume is i
 
 You must specify the Element source path in the form `<hostip:>/lun/<name>`, where "`lun`" is the actual string "`lun`" and `name` is the name of the Element volume.
 
-Beginning with ONTAP 9.4, Snapshot copies of a LUN created while you are serving data from the ONTAP destination are automatically replicated when the Element source is reactivated.
+Beginning with ONTAP 9.4, snapshot copies of a LUN created while you are serving data from the ONTAP destination are automatically replicated when the Element source is reactivated.
 
 Replication rules are as follows:
 
@@ -61,7 +61,7 @@ For complete command syntax, see the man page.
 +
 [NOTE]
 ====
-The command fails if a common Snapshot copy does not exist on the source and destination. Use `snapmirror initialize` to re-initialize the relationship.
+The command fails if a common snapshot copy does not exist on the source and destination. Use `snapmirror initialize` to re-initialize the relationship.
 ====
 +
 The following example updates the relationship between the volume you are serving data from, `volA_dst` on `svm_backup`, and the original source volume, `0005` at IP address 10.0.0.11:

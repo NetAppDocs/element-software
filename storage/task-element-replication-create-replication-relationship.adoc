@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-replication-relationship.html
 sidebar: sidebar
 keywords: create, relationship, element, source, ontap, destination
-summary: "You can use SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored."
+summary: "You can use SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored."
 ---
 = Create a relationship from an Element source to an ONTAP destination
 :icons: font
@@ -12,13 +12,13 @@ summary: "You can use SnapMirror to replicate Snapshot copies of an Element volu
 
 The relationship between the source volume in primary storage and the destination volume in secondary storage is called a _data protection relationship_. You can use the `snapmirror create` command to create a data protection relationship from an Element source to an ONTAP destination, or from an ONTAP source to an Element destination.
 
-You can use SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
+You can use SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
 
 .Before you begin
 
 * The Element node containing the volume to be replicated must have been made accessible to ONTAP.
 * The Element volume must have been enabled for SnapMirror replication.
-* If you are using the "`mirror-vault`" policy type, a SnapMirror label must have been configured for the Element Snapshot copies to be replicated.
+* If you are using the "`mirror-vault`" policy type, a SnapMirror label must have been configured for the Element snapshot copies to be replicated.
 +
 [NOTE]
 ====
@@ -36,7 +36,7 @@ Replication rules are as follows:
 * An ONTAP volume can contain data from one Element volume only.
 * You cannot replicate data from an ONTAP volume to multiple Element volumes.
 
-In ONTAP 9.3 and earlier, a destination volume can contain up to 251 Snapshot copies. In ONTAP 9.4 and later, a destination volume can contain up to 1019 Snapshot copies.
+In ONTAP 9.3 and earlier, a destination volume can contain up to 251 snapshot copies. In ONTAP 9.4 and later, a destination volume can contain up to 1019 snapshot copies.
 
 .Step
 

@@ -2,18 +2,18 @@
 permalink: storage/task-element-replication-define-rule-policy.html
 sidebar: sidebar
 keywords: define, rule, policy
-summary: "For custom policies with the “mirror-vault” policy type, you must define at least one rule that determines which Snapshot copies are transferred during initialization and update. You can also define rules for default policies with the “mirror-vault” policy type."
+summary: "For custom policies with the “mirror-vault” policy type, you must define at least one rule that determines which snapshot copies are transferred during initialization and update. You can also define rules for default policies with the “mirror-vault” policy type."
 ---
 = Define a rule for a policy
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For custom policies with the "`mirror-vault`" policy type, you must define at least one rule that determines which Snapshot copies are transferred during initialization and update. You can also define rules for default policies with the "`mirror-vault`" policy type.
+For custom policies with the "`mirror-vault`" policy type, you must define at least one rule that determines which snapshot copies are transferred during initialization and update. You can also define rules for default policies with the "`mirror-vault`" policy type.
 
 .About this task
 
-Every policy with the "`mirror-vault`" policy type must have a rule that specifies which Snapshot copies to replicate. The rule "`bi-monthly`", for example, indicates that only Snapshot copies assigned the SnapMirror label "`bi-monthly`" should be replicated. You assign the SnapMirror label when you configure Element Snapshot copies.
+Every policy with the "`mirror-vault`" policy type must have a rule that specifies which snapshot copies to replicate. The rule "`bi-monthly`", for example, indicates that only snapshot copies assigned the SnapMirror label "`bi-monthly`" should be replicated. You assign the SnapMirror label when you configure Element snapshot copies.
 
 Each policy type is associated with one or more system-defined rules. These rules are automatically assigned to a policy when you specify its policy type. The table below shows the system-defined rules.
 
@@ -27,30 +27,30 @@ sm_created
 a|
 async-mirror, mirror-vault
 a|
-A Snapshot copy created by SnapMirror is transferred on initialization and update.
+A snapshot copy created by SnapMirror is transferred on initialization and update.
 a|
 daily
 a|
 mirror-vault
 a|
-New Snapshot copies on the source with the SnapMirror label "`daily`" are transferred on initialization and update.
+New snapshot copies on the source with the SnapMirror label "`daily`" are transferred on initialization and update.
 a|
 weekly
 a|
 mirror-vault
 a|
-New Snapshot copies on the source with the SnapMirror label "`weekly`" are transferred on initialization and update.
+New snapshot copies on the source with the SnapMirror label "`weekly`" are transferred on initialization and update.
 a|
 monthly
 a|
 mirror-vault
 a|
-New Snapshot copies on the source with the SnapMirror label "`monthly`" are transferred on initialization and update.
+New snapshot copies on the source with the SnapMirror label "`monthly`" are transferred on initialization and update.
 |===
 You can specify additional rules as needed, for default or custom policies. For example:
 
-* For the default `MirrorAndVault` policy, you might create a rule called "`bi-monthly`" to match Snapshot copies on the source with the "`bi-monthly`" SnapMirror label.
-* For a custom policy with the "`mirror-vault`" policy type, you might create a rule called "`bi-weekly`" to match Snapshot copies on the source with the "`bi-weekly`" SnapMirror label.
+* For the default `MirrorAndVault` policy, you might create a rule called "`bi-monthly`" to match snapshot copies on the source with the "`bi-monthly`" SnapMirror label.
+* For a custom policy with the "`mirror-vault`" policy type, you might create a rule called "`bi-weekly`" to match snapshot copies on the source with the "`bi-weekly`" SnapMirror label.
 
 .Step
 
@@ -78,7 +78,7 @@ The following example adds a rule with the SnapMirror label `app_consistent` to 
 cluster_dst::> snapmirror policy add-rule -vserver svm1 -policy Sync -snapmirror-label app_consistent -keep 1
 ----
 +
-You can then replicate Snapshot copies from the source cluster that match this SnapMirror label:
+You can then replicate snapshot copies from the source cluster that match this SnapMirror label:
 +
 ----
 cluster_src::> snapshot create -vserver vs1 -volume vol1 -snapshot snapshot1 -snapmirror-label app_consistent

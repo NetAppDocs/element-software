@@ -2,16 +2,16 @@
 permalink: storage/element-replication-index.html
 sidebar: sidebar
 keywords: decide, replication, netapp element software, ontap, business continuity, element, system, snapmirror, replicate, snapshot, copies, volume
-summary: "You can ensure business continuity on an Element system by using SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination."
+summary: "You can ensure business continuity on an Element system by using SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination."
 ---
 = Replication between NetApp Element software and ONTAP overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can ensure business continuity on an Element system by using SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, and then reactivate the Element system when service is restored.
+You can ensure business continuity on an Element system by using SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, and then reactivate the Element system when service is restored.
 
-Beginning with ONTAP 9.4, you can replicate Snapshot copies of a LUN created on an ONTAP node back to an Element system. You might have created a LUN during an outage at the Element site, or you might be using a LUN to migrate data from ONTAP to Element software.
+Beginning with ONTAP 9.4, you can replicate snapshot copies of a LUN created on an ONTAP node back to an Element system. You might have created a LUN during an outage at the Element site, or you might be using a LUN to migrate data from ONTAP to Element software.
 
 You should work with Element to ONTAP backup if the following apply:
 
@@ -24,22 +24,22 @@ If you require additional SnapMirror configuration or conceptual information, se
 
 == About replication between Element and ONTAP
 
-Beginning with ONTAP 9.3, you can use SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
+Beginning with ONTAP 9.3, you can use SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
 
-Beginning with ONTAP 9.4, you can replicate Snapshot copies of a LUN created on an ONTAP node back to an Element system. You might have created a LUN during an outage at the Element site, or you might be using a LUN to migrate data from ONTAP to Element software.
+Beginning with ONTAP 9.4, you can replicate snapshot copies of a LUN created on an ONTAP node back to an Element system. You might have created a LUN during an outage at the Element site, or you might be using a LUN to migrate data from ONTAP to Element software.
 
 === Types of data protection relationship
 
-SnapMirror offers two types of data protection relationship. For each type, SnapMirror creates a Snapshot copy of the Element source volume before initializing or updating the relationship:
+SnapMirror offers two types of data protection relationship. For each type, SnapMirror creates a snapshot copy of the Element source volume before initializing or updating the relationship:
 
-* In a _disaster recovery (DR)_ data protection relationship, the destination volume contains only the Snapshot copy created by SnapMirror, from which you can continue to serve data in the event of a catastrophe at the primary site.
-* In a _long-term retention_ data protection relationship, the destination volume contains point-in-time Snapshot copies created by Element software, as well as the Snapshot copy created by SnapMirror. You might want to retain monthly Snapshot copies created over a 20-year span, for example.
+* In a _disaster recovery (DR)_ data protection relationship, the destination volume contains only the snapshot copy created by SnapMirror, from which you can continue to serve data in the event of a catastrophe at the primary site.
+* In a _long-term retention_ data protection relationship, the destination volume contains point-in-time snapshot copies created by Element software, as well as the snapshot copy created by SnapMirror. You might want to retain monthly snapshot copies created over a 20-year span, for example.
 
 === Default policies
 
 The first time you invoke SnapMirror, it performs a _baseline transfer_ from the source volume to the destination volume. The _SnapMirror policy_ defines the contents of the baseline and any updates.
 
-You can use a default or custom policy when you create a data protection relationship. The _policy type_ determines which Snapshot copies to include and how many copies to retain.
+You can use a default or custom policy when you create a data protection relationship. The _policy type_ determines which snapshot copies to include and how many copies to retain.
 
 The table below shows the default policies. Use the `MirrorLatest` policy to create a traditional DR relationship. Use the `MirrorAndVault` or `Unified7year` policy to create a unified replication relationship, in which DR and long-term retention are configured on the same destination volume.
 
@@ -53,19 +53,19 @@ MirrorLatest
 a|
 async-mirror
 a|
-Transfer the Snapshot copy created by SnapMirror.
+Transfer the snapshot copy created by SnapMirror.
 a|
 MirrorAndVault
 a|
 mirror-vault
 a|
-Transfer the Snapshot copy created by SnapMirror and any less recent Snapshot copies made since the last update, provided they have SnapMirror labels "`daily`" or "`weekly`".
+Transfer the snapshot copy created by SnapMirror and any less recent snapshot copies made since the last update, provided they have SnapMirror labels "`daily`" or "`weekly`".
 a|
 Unified7year
 a|
 mirror-vault
 a|
-Transfer the Snapshot copy created by SnapMirror and any less recent Snapshot copies made since the last update, provided they have SnapMirror labels "`daily`", "`weekly`", or "`monthly`".
+Transfer the snapshot copy created by SnapMirror and any less recent snapshot copies made since the last update, provided they have SnapMirror labels "`daily`", "`weekly`", or "`monthly`".
 |===
 
 [NOTE]
@@ -75,11 +75,11 @@ For complete background information on SnapMirror policies, including guidance o
 
 === Understanding SnapMirror labels
 
-Every policy with the "`mirror-vault`" policy type must have a rule that specifies which Snapshot copies to replicate. The rule "`daily`", for example, indicates that only Snapshot copies assigned the SnapMirror label "`daily`" should be replicated. You assign the SnapMirror label when you configure Element Snapshot copies.
+Every policy with the "`mirror-vault`" policy type must have a rule that specifies which snapshot copies to replicate. The rule "`daily`", for example, indicates that only snapshot copies assigned the SnapMirror label "`daily`" should be replicated. You assign the SnapMirror label when you configure Element snapshot copies.
 
 === Replication from an Element source cluster to an ONTAP destination cluster
 
-You can use SnapMirror to replicate Snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
+You can use SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination system. In the event of a disaster at the Element site, you can serve data to clients from the ONTAP system, then reactivate the Element source volume when service is restored.
 
 An Element volume is roughly equivalent to an ONTAP LUN. SnapMirror creates a LUN with the name of the Element volume when a data protection relationship between Element software and ONTAP is initialized. SnapMirror replicates data to an existing LUN if the LUN meets the requirements for Element to ONTAP replication.
 
@@ -90,7 +90,7 @@ Replication rules are as follows:
 
 === Replication from an ONTAP source cluster to an Element destination cluster
 
-Beginning with ONTAP 9.4, you can replicate Snapshot copies of a LUN created on an ONTAP system back to an Element volume:
+Beginning with ONTAP 9.4, you can replicate snapshot copies of a LUN created on an ONTAP system back to an Element volume:
 
 * If a SnapMirror relationship already exists between an Element source and an ONTAP destination, a LUN created while you are serving data from the destination is automatically replicated when the source is reactivated.
 * Otherwise, you must create and initialize a SnapMirror relationship between the ONTAP source cluster and the Element destination cluster.
@@ -113,7 +113,7 @@ You must have completed the following tasks before configuring a data protection
 * The ONTAP cluster must be running ONTAP 9.3 or later.
 * SnapMirror must have been licensed on the ONTAP cluster.
 * You must have configured volumes on the Element and ONTAP clusters that are large enough to handle anticipated data transfers.
-* If you are using the "`mirror-vault`" policy type, a SnapMirror label must have been configured for the Element Snapshot copies to be replicated.
+* If you are using the "`mirror-vault`" policy type, a SnapMirror label must have been configured for the Element snapshot copies to be replicated.
 +
 [NOTE]
 ====
@@ -161,7 +161,7 @@ a|
 * Volume block size must be 512 bytes. A 4K byte block size is not supported.
 * Volume size must be a multiple of 1 MiB.
 * Volume attributes are not preserved.
-* Maximum number of Snapshot copies to be replicated is 30.
+* Maximum number of snapshot copies to be replicated is 30.
 
 a|
 Network
