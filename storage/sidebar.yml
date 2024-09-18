@@ -262,7 +262,7 @@ entries:
           url: "/storage/task_data_protection_copy_a_snapshot_schedule.html"
         - title: Delete a snapshot schedule
           url: "/storage/task_data_protection_delete_a_snapshot_schedule.html"
-    - title: Perform remote replication between clusters running NetApp Element software (Element UI)
+    - title: Perform remote replication between clusters running NetApp Element software 
       url: "/storage/task_replication_perform_remote_replication_between_element_clusters.html"
       entries:
       - title: Plan cluster and volume pairing for real-time replication
@@ -317,7 +317,7 @@ entries:
             url: "/storage/reference_replication_volume_pairing_messages.html"
           - title: Volume pairing warnings
             url: "/storage/reference_replication_volume_pairing_warnings.html"
-    - title: Use SnapMirror replication between Element and ONTAP clusters
+    - title: Use SnapMirror replication between Element and ONTAP clusters (Element UI)
       url: "/storage/task_snapmirror_use_replication_between_element_and_ontap_clusters.html"
       entries:
       - title: SnapMirror overview
@@ -355,7 +355,7 @@ entries:
             url: "/storage/task_snapmirror_performing_failback_when_source_volume_no_longer_exists.html"
         - title: Perform a transfer or one-time migration from ONTAP to Element
           url: "/storage/task_snapmirror_transfer_or_one_time_migration_from_ontap_to_element.html"
-    - title:  Perform replication between clusters running NetApp Element software (ONTAP CLI)
+    - title:  Replication between NetApp Element software and ONTAP (ONTAP CLI)
       entries:
       - title: Overview
         url: "/storage/element-replication-index.html"

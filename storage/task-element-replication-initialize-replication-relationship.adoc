@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-initialize-replication-relationship.html
 sidebar: sidebar
-keywords: initialize, replication, relationship
+keywords: ontap, cli, initialize, replication, relationship
 summary: "For all relationship types, initialization performs a baseline transfer: it makes a snapshot copy of the source volume, then transfers that copy and all the data blocks it references to the destination volume."
 ---
 = Initialize a replication relationship

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-enable-snapmirror-cluster.html
 sidebar: sidebar
-keywords: enable, snapmirror, element, cluster
+keywords: ontap, cli, enable, snapmirror, element, cluster
 summary: "You must enable SnapMirror on the Element cluster before you can create a replication relationship. You can perform this task in the Element software web UI only."
 ---
 = Enable SnapMirror on the Element cluster
