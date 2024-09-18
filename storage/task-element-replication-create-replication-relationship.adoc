@@ -22,7 +22,7 @@ You can use SnapMirror to replicate snapshot copies of an Element volume to an O
 +
 [NOTE]
 ====
-You can perform this task in the Element software web UI only.
+You can perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or link:../api/concept_element_api_snapshots_overview.html[API] only.
 ====
 
 .About this task

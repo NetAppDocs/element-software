@@ -16,6 +16,11 @@ For all relationship types, initialization performs a _baseline transfer_: it ma
 * The Element node containing the volume to be replicated must have been made accessible to ONTAP.
 * The Element volume must have been enabled for SnapMirror replication.
 * If you are using the "`mirror-vault`" policy type, a SnapMirror label must have been configured for the Element snapshot copies to be replicated.
++
+[NOTE]
+====
+You can perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or link:../api/concept_element_api_snapshots_overview.html[API] only.
+====
 
 .About this task
 

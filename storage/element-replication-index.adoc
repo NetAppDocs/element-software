@@ -117,7 +117,7 @@ You must have completed the following tasks before configuring a data protection
 +
 [NOTE]
 ====
-You can perform this task in the Element software web UI only.
+You can perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or link:../api/concept_element_api_snapshots_overview.html[API] only.
 ====
 
 * You must have ensured that port 5010 is available.
