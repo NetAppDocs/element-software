@@ -317,7 +317,7 @@ entries:
             url: "/storage/reference_replication_volume_pairing_messages.html"
           - title: Volume pairing warnings
             url: "/storage/reference_replication_volume_pairing_warnings.html"
-    - title: Use SnapMirror replication between Element and ONTAP clusters (Element UI or API)
+    - title: Use SnapMirror replication between Element and ONTAP clusters (Element UI)
       url: "/storage/task_snapmirror_use_replication_between_element_and_ontap_clusters.html"
       entries:
       - title: SnapMirror overview

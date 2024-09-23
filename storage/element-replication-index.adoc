@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ontap, cli, replication, element, software, ontap, business continuity, snapmirror, replicate, snapshot, copies, volume
 summary: "You can ensure business continuity on an Element system by using SnapMirror to replicate snapshot copies of an Element volume to an ONTAP destination."
 ---
-= Replication between NetApp Element software and ONTAP overview
+= Replication between NetApp Element software and ONTAP overview (ONTAP CLI)
 :icons: font
 :imagesdir: ../media/
 
@@ -117,7 +117,7 @@ You must have completed the following tasks before configuring a data protection
 +
 [NOTE]
 ====
-You can perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or link:../api/concept_element_api_snapshots_overview.html[API] only.
+You can only perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or using the ink:../api/concept_element_api_snapshots_overview.html[API methods].
 ====
 
 * You must have ensured that port 5010 is available.
