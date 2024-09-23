@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: what is, element, solidfire, replication, clone, snapshot, protection domain, double helix
 summary: 'Data protection features include remote replication, volume snapshots, volume cloning, Protection Domains, and high availability with double Helix technology.'
 ---
-
 = Data protection
 :icons: font
 :imagesdir: ../media/
@@ -84,7 +83,7 @@ Systems running Element 10.1 and above include code that can communicate directl
 
 Starting with Element 10.3 and ONTAP 9.4 systems, you can replicate ONTAP originated volumes to Element volumes in specific use cases with limited functionality.
 
-For more information, see link:element-replication-index.html[Replication between NetApp Element Software and ONTAP (ONTAP CLI)].
+For more information, see link:../storage/element-replication-index.html[Replication between NetApp Element Software and ONTAP (ONTAP CLI)].
 
 == Volume snapshots for data protection
 A volume snapshot is a point-in-time copy of a volume that you could later use to restore a volume to that specific time.
