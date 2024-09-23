@@ -19,7 +19,7 @@ For all relationship types, initialization performs a _baseline transfer_: it ma
 +
 [NOTE]
 ====
-You can only perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or using the ink:../api/concept_element_api_snapshots_overview.html[API methods].
+You can only perform this task in the link:concept_snapmirror_labels.html[Element software web UI] or using the link:../api/concept_element_api_snapshots_overview.html[API methods].
 ====
 
 .About this task
