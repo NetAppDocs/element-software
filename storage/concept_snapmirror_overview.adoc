@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept_snapmirror_overview.html
 sidebar: sidebar
-keywords: overview, snapmirror, snapshots, replicating between clusters, managing snapmirror relationships, Element and ONTAP
+keywords: element, ui, overview, snapmirror, snapshots, replication, relationships, oontap
 summary: 'Systems running NetApp Element software support SnapMirror functionality to copy and restore snapshots with NetApp ONTAP systems.'
 ---
 = SnapMirror overview
