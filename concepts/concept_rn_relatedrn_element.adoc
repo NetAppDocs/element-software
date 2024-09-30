@@ -50,7 +50,8 @@ NOTE: You will be prompted to log in using your NetApp Support credentials.
 
 
 == Storage firmware
-* https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.175.0.html[Storage Firmware Bundle 2.175.0 Release Notes^] _NEW_
+* https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.182.0.html[Storage Firmware Bundle 2.182.0 Release Notes^] _NEW_
+* https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.175.0.html[Storage Firmware Bundle 2.175.0 Release Notes^]
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.164.0.html[Storage Firmware Bundle 2.164.0 Release Notes^]
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.150.html[Storage Firmware Bundle 2.150 Release Notes^]
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.146.html[Storage Firmware Bundle 2.146 Release Notes^]
