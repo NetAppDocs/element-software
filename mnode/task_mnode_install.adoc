@@ -261,7 +261,7 @@ After configuring the management node and upgrading to vSphere to 7.x or 8.x, yo
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
 . From the vSphere Client Menu, select *VMs and Templates*.
-. Right click on the cirtual machine, and select * *Compatibility* > *Upgrade VM Compatibility*.
+. Right click on the virtual machine, and select *Compatibility* > *Upgrade VM Compatibility*.
 . Select *Yes*.
 . Select ESXi 6.7 or a later version, depending on the version of your vSphere environment. 
 . Select *OK*.
