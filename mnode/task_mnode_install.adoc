@@ -79,7 +79,7 @@ NOTE: Installing a management node using the image might result in 30-second del
 [[create_mnode_admin]]
 == Step 2: Create the management node admin and configure the network
 
-After the installation completes, you create the management node admin user and configure the management node network. 
+After installing the management node, you create the management node admin user and configure the management node network. 
 
 .Steps
 . Using the terminal user interface (TUI), create a management node admin user.
@@ -256,12 +256,12 @@ NOTE: You should create a new NetApp HCC role in vCenter to add a controller sub
 .. Select *Execute*.
 
 == Step 6: Upgrade VM hardware version on the management node
-After setting up a management node and upgrading to vSphere to 7.x or 8.x, you should also upgrade the VM hardware version on the management node.
+After configuring the management node and upgrading to vSphere to 7.x or 8.x, you should also upgrade the VM hardware version on the management node.
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
-. From the vSphere Client Menu, select VMs&Templates.
-. Right click on the cirtual machine, and select * Compatibility* > *Upgrade VM Compatibility*.
+. From the vSphere Client Menu, select *VMs and Templates*.
+. Right click on the cirtual machine, and select * *Compatibility* > *Upgrade VM Compatibility*.
 . Select *Yes*.
 . Select ESXi 6.7 or a later version, depending on the version of your vSphere environment. 
 . Select *OK*.
