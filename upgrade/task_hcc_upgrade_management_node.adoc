@@ -4,7 +4,6 @@ permalink: upgrade/task_hcc_upgrade_management_node.html
 summary: As part of a NetApp SolidFire storage system upgrade, you upgrade the management node.
 keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7
 ---
-
 = Upgrade a management node
 :hardbreaks:
 :nofooter:
@@ -36,7 +35,7 @@ You can perform an in-place upgrade of the management node from version 12.3.x o
 
 NOTE: The Element 12.5 or later management node is an optional upgrade. It is not required for existing deployments.
 
-.What you'll need
+.Before you begin
 
 * The RAM of the management node VM is 24GB.
 * The management node you are intending to upgrade is version 12.0 and uses IPv4 networking. The management node version 12.5 or later does not support IPv6.
@@ -52,6 +51,7 @@ TIP: To check the version of your management node, log in to your management nod
 NOTE: Persistent volumes might require an additional network adapter if eth0 is not able to be routed to the SVIP. Configure a new network adapter on the iSCSI storage network to allow the configuration of persistent volumes.
 
 * Storage nodes are running Element 12.3.x or later.
+* Beginning with Element 12.8, you must link:../mnode/task_mnode_install.html[upgrade the VM hardware version on the management node].
 
 .Steps
 . Log in to the management node virtual machine using SSH or console access.
@@ -136,8 +136,9 @@ https://<ManagementNodeIP>/mnode
 +
 The response body indicates that reconfiguration was successful.
 
-[discrete]
 == Find more information
 
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+
+// 2024 OCT 30, DOC-4773
