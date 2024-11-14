@@ -46,7 +46,7 @@ Prior to following this procedure, you should have an understanding of link:../c
 
 == Step 1: Download ISO or OVA and deploy the VM
 
-To manually install the management node for your cluster, you first download the appropriate ISO or OVA from the NetApp Support Site and install the VM.
+Download the appropriate ISO or OVA from the NetApp Support Site and install the VM.
 
 .Steps
 . Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site.
@@ -79,7 +79,7 @@ NOTE: Installing a management node using the image might result in 30-second del
 [[create_mnode_admin]]
 == Step 2: Create the management node admin and configure the network
 
-After installing the management node, you create the management node admin user and configure the management node network. 
+After the VM installation completes, you create the management node admin user and configure the management node network. 
 
 .Steps
 . Using the terminal user interface (TUI), create a management node admin user.
@@ -212,7 +212,7 @@ NOTE: Use a unique account name for persistent volumes that is different from an
 
 == Step 5: Configure controller assets
 
-To complete the installation configuration, locate the installation ID and add a vCenter controller asset.
+Locate the installation ID and add a vCenter controller asset.
 
 .Steps
 . Locate the installation ID:
@@ -260,8 +260,8 @@ After configuring the management node and upgrading to vSphere to 7.x or 8.x, yo
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
-. From the vSphere Client Menu, select *VMs and Templates*.
-. Right click on the virtual machine, and select *Compatibility* > *Upgrade VM Compatibility*.
+. From the vSphere Client Menu, select *VMs* > *Templates*.
+. Right-click on the virtual machine, and select *Compatibility* > *Upgrade VM Compatibility*.
 . Select *Yes*.
 . Select ESXi 6.7 or a later version, depending on the version of your vSphere environment. 
 . Select *OK*.
