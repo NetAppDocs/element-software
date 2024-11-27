@@ -54,7 +54,7 @@ Prior to following this procedure, you should have an understanding of link:../c
 
 == Download ISO or OVA and deploy the VM
 
-. Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site.
+. Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site. The new OVA contains an updated SSL certificate.  
 .. Select *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
 . If you downloaded the OVA, follow these steps:
@@ -255,3 +255,5 @@ NOTE: You should create a new NetApp HCC role in vCenter to add a controller sub
 * link:task_mnode_install_add_storage_NIC.html[Configure a storage NIC]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
+
+// 2024 NOV 28, DOC-4777
