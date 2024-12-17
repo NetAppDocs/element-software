@@ -256,7 +256,7 @@ NOTE: You should create a new NetApp HCC role in vCenter to add a controller sub
 .. Select *Execute*.
 
 == Step 6: Upgrade VM hardware version on the management node
-Element 12.8 includes vSphere to 7.x or 8. As a result, you must upgrade the VM hardware version on the management node to ESXi 6.7 or later before you upgrade the management node. This ensures that you have a supported ESXi version. 
+Element 12.8 supports vSphere 7.x and 8. As a result, you must upgrade the VM hardware version on the management node to ESXi 6.7 or later before you upgrade a management node. This ensures that you have a supported ESXi version. 
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
