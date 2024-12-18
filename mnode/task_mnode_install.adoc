@@ -79,7 +79,7 @@ NOTE: Installing a management node using the image might result in 30-second del
 [[create_mnode_admin]]
 == Step 2: Create the management node admin and configure the network
 
-After the VM installation completes, you create the management node admin user and configure the management node network. 
+After the VM installation completes, create the management node admin user and configure the management node network. 
 
 .Steps
 . Using the terminal user interface (TUI), create a management node admin user.
@@ -102,7 +102,7 @@ NOTE: If you need an additional NIC to isolate storage traffic, see instructions
 
 == Step 3: Configure time sync
 
-Before setting up the management node, you sync the time between the management node and the storage cluster.
+Before setting up the management node, sync the time between the management node and the storage cluster.
 
 .Steps
 . Ensure time is synced between the management node and the storage cluster using NTP:
