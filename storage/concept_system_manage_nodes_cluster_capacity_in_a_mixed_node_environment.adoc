@@ -32,4 +32,4 @@ a|
 * SF9010
 |===
 
-If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that this node is not supported by Element 12.x.
+If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that the node is not supported by Element 12.x.
