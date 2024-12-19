@@ -73,5 +73,6 @@ NOTE: Upgrading the management node operating system is no longer required to up
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 
+// 2024 DEC 19, DOC-4759
 // 2024 DEC 16, DOC-4721
 // 2023 DEC 5, DOC-4719

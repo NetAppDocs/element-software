@@ -40,3 +40,5 @@ a|
 |===
 
 If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that the node is not supported by Element 12.x.
+
+// 2024 DEC 19, DOC-4759
