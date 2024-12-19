@@ -4,15 +4,33 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
-= What's new in Element software 12.5 and later 
+= What's new in Element software 12.8 
 :url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.7 is the latest release and includes security and system component updates, operational improvements, and resolved issues.
+NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes. Element 12.8 is the latest release and includes security and system component updates, operational improvements, and resolved issues.
 
-NOTE: The cumulative software and firmware updates are installed as part of an Element 12.7 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.3.x, you can upgrade directly to Element 12.7 to get the cumulative updates from both Element 12.5 and 12.7. For supported upgrade paths, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[KB article^]
+NOTE: The cumulative software and firmware updates are installed as part of an Element 12.8 upgrade based on the current Element version running on a storage cluster. For example, if a cluster is currently running Element 12.5, you can upgrade directly to Element 12.8 to get the cumulative updates from both Element 12.7 and 12.8. For supported upgrade paths, see the Knowledge Base article https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[What is the upgrade matrix for storage clusters running NetApp Element software^].
+
+== Element 12.8
+
+Learn more about what is new in Element 12.8.
+
+== Volume Load Balancing
+Element 12.8 introduces the VolumeLoadBalanceOnActualIOPS feature. You can use this feature to balance volumes across nodes based on the actual IOPS level of each volume instead of the minimum IOPS configured in the QoS policy. You can only use VolumeLoadBalanceOnActualIOPS to balance volumes. You can't use it to balance virtual volumes. VolumeLoadBalanceOnActualIOPS is disabled by default. You can enable and disable it by using the API.  
+
+== View node utilization information
+With Element 12.8, you can view node utilization information as "nodeHeat" using the GetNodeStats and ListNodeStats API methods. The nodeHeat object is a member of the nodeStats object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. 
+
+Additionally, using the Element UI, you can view node utilization as a percentage of "recentPrimaryTotalHeat" in the View Details display for a node.
+
+== CHAP algorithm for iSCSI session
+A host iSCSI initiator requests a list of Challenge-Handshake Authentication Protocol (CHAP) algorithms to use when it is creating an iSCSI session with an Element iSCSI target. Beginning with Element 12.8, you can view the supported CHAP algorithm that the Element iSCSI target chooses to use for an iSCSI session.
+
+== Upgrade VM hardware version
+If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../mnode/task_mnode_install.html[Learn more].
 
 == Element 12.7
 
@@ -28,7 +46,7 @@ Cluster operations like additions, upgrades, or maintenance of nodes, or additio
 
 For example, when you add large 28-core storage nodes (H610S, SF19210, and SF38410) running Element 12.7 to an existing cluster, the sync-in rate for data automatically tunes to 110Mbps instead of 60Mbps. Additionally, when you bring these large storage nodes out of node maintenance mode, for example, during an upgrade from Element 12.3.x or later to Element 12.7 using NetApp Hybrid Cloud Control, the sync-in rate for changed block data rate automatically tunes to 110Mbps instead of 20Mbps.
 
-When you add the medium 16-core storage nodes (H410S) and small 12-core storage nodes (SF4805) to an Element 12.7 cluster, the sync-in rate for data remains at 60Mbps; however, for syncing changed blocks when you bring them out of node maintenance mode during upgrades from Element 12.3.x to Element 12.7, the sync-in rate automatically tunes from 20Mbps to 60Mbps for medium storage nodes and 40Mbps for smaller storage nodes.
+When you add the medium 16-core storage nodes (H410S) and small 12-core storage nodes (SF4805) to an Element 12.7 or later cluster, the sync-in rate for data remains at 60Mbps; however, for syncing changed blocks when you bring them out of node maintenance mode during upgrades from Element 12.3.x to Element 12.7 or later, the sync-in rate automatically tunes from 20Mbps to 60Mbps for medium storage nodes and 40Mbps for smaller storage nodes.
 
 When you remove storage nodes, there is no impact on the block sync-out rate which avoids performance impacts on client I/O.
 

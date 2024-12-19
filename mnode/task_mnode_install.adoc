@@ -4,7 +4,6 @@ permalink: mnode/task_mnode_install.html
 summary: You can install the management node for your cluster running NetApp Element software.
 keywords: netapp, element, management node, mnode, storage, install
 ---
-
 = Install a management node
 :hardbreaks:
 :nofooter:
@@ -17,7 +16,7 @@ You can manually install the management node for your cluster running NetApp Ele
 
 This manual process is intended for SolidFire all-flash storage administrators who are not using the NetApp Deployment Engine for management node installation.
 
-.What you'll need
+.Before you begin
 
 * Your cluster version is running NetApp Element software 11.3 or later.
 * Your installation uses IPv4. The management node 11.3 does not support IPv6.
@@ -43,16 +42,12 @@ NOTE: If you need to IPv6 support, you can use the management node 11.1.
 .About this task
 The Element 12.2 management node is an optional upgrade. It is not required for existing deployments.
 
-Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a virtual machine (VM) loss.
+Before following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a virtual machine (VM) loss.
 
-.Steps
-. <<Download ISO or OVA and deploy the VM>>
-. <<create_mnode_admin,Create the management node admin and configure the network>>
-. <<Configure time sync>>
-. <<Set up the management node>>
-. <<Configure controller assets>>
+== Step 1: Download ISO or OVA and deploy the VM
 
-== Download ISO or OVA and deploy the VM
+Download the appropriate ISO or OVA from the NetApp Support Site and install the VM.
+
 
 . Download the OVA or ISO for your installation from the link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Element Software^] page on the NetApp Support Site. The new OVA contains an updated SSL certificate.  
 .. Select *Download Latest Release* and accept the EULA.
@@ -82,8 +77,11 @@ NOTE: Installing a management node using the image might result in 30-second del
 . Power on the VM for the management node after the installation completes.
 
 [[create_mnode_admin]]
-== Create the management node admin and configure the network
+== Step 2: Create the management node admin and configure the network
 
+After the VM installation completes, create the management node admin user and configure the management node network. 
+
+.Steps
 . Using the terminal user interface (TUI), create a management node admin user.
 +
 TIP: To move through the menu options, press the Up or Down arrow keys. To move through the buttons, press Tab. To move from the buttons to the fields, press Tab. To navigate between fields, press the Up or Down arrow keys.
@@ -102,11 +100,14 @@ NOTE: A DHCP that assigns IPs with an MTU less than 1500 bytes can prevent you c
 +
 NOTE: If you need an additional NIC to isolate storage traffic, see instructions on configuring another NIC: link:task_mnode_install_add_storage_NIC.html[Configure a storage Network Interface Controller (NIC)].
 
-== Configure time sync
+== Step 3: Configure time sync
 
-. Ensure time is synced between the management node and the storage cluster using NTP:
+Before setting up the management node, sync the time between the management node and the storage cluster.
 
-NOTE: Starting with Element 12.3.1, substeps (a) to (e) are performed automatically. For management node 12.3.1, proceed to <<substep_f_install_config_time_sync,substep (f)>> to complete the time sync configuration.
+.Steps
+. Verify that the time is synced between the management node and the storage cluster using NTP:
+
+NOTE: Beginning with Element 12.3.1, substeps (a) to (e) are performed automatically. For management node 12.3.1, proceed to <<substep_f_install_config_time_sync,substep (f)>> to complete the time sync configuration.
 
 .. Log in to the management node using SSH or the console provided by your hypervisor.
 .. Stop NTPD:
@@ -163,8 +164,11 @@ NOTE: Do not enable this option if you make future changes to the VM.
 
 NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#set-up-the-management-node[setup command] on the management node.
 
-== Set up the management node
+== Step 4: Set up the management node
 
+Configure the management node using the `setup-mnode` command.
+
+.Steps
 . Configure and run the management node setup command:
 +
 NOTE: You will be prompted to enter passwords in a secure prompt. If your cluster is behind a proxy server, you must configure the proxy settings so you can reach a public network.
@@ -206,8 +210,11 @@ NOTE: Use a unique account name for persistent volumes that is different from an
 * *--help (-h)*: Returns information about each parameter. Parameters are defined as required or optional based on initial deployment. Upgrade and redeployment parameter requirements might vary.
 .. Run the `setup-mnode` command.
 
-== Configure controller assets
+== Step 5: Configure controller assets
 
+Locate the installation ID and add a vCenter controller asset.
+
+.Steps
 . Locate the installation ID:
 .. From a browser, log into the management node REST API UI:
 .. Go to the storage MVIP and log in. This action causes the certificate to be accepted for the next step.
@@ -248,7 +255,6 @@ NOTE: You should create a new NetApp HCC role in vCenter to add a controller sub
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
 .. Select *Execute*.
 
-[discrete]
 == Find more Information
 * link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes]
 * link:task_mnode_add_assets.html[Add a controller asset to the management node]

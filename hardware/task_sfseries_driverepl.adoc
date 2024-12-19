@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: SSDs, drives, replacement, sf-series, nodes
 summary: You can hot-swap a failed solid-state drive with a replacement drive.
 ---
-
 = Replace drives for SF-series storage nodes
 :icons: font
 :imagesdir: ../media/
@@ -33,9 +32,10 @@ The instructions apply to the following SolidFire storage node models:
 
 [NOTE]
 ====
-Depending on your Element software version, the following nodes are not supported:
+Depending on your Element software version, the following nodes aren't supported:
 
-* Beginning with Element 12.7, SF2405 and SF9608 storage nodes. 
+* Beginning with Element 12.8, SF4805, SF9605, SF19210, and SF38410 storage nodes.
+* Beginning with Element 12.7, SF2405 and SF9608  storage nodes. 
 * Beginning with Element 12.0, SF3010, SF6010, and SF9010 storage nodes.
 ====
 
@@ -169,3 +169,5 @@ a|
 == Find more information
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
+
+// 2024 DEC 18, DOC-4759
