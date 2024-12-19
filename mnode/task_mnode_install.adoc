@@ -255,23 +255,9 @@ NOTE: You should create a new NetApp HCC role in vCenter to add a controller sub
 .. Enter the required payload values with type `vCenter` and vCenter credentials.
 .. Select *Execute*.
 
-== Step 6: Upgrade VM hardware version on the management node
-Element 12.8 supports vSphere 7.x and 8. As a result, you must upgrade the VM hardware version on the management node to ESXi 6.7 or later before you upgrade a management node. This ensures that you have a supported ESXi version. 
-
-.Steps
-. Log in to the vSphere Web Client as a vCenter Administrator.
-. From the vSphere Client Menu, select *VMs* > *Templates*.
-. Right-click on the virtual machine, and select *Compatibility* > *Upgrade VM Compatibility*.
-. Select *Yes*.
-. Select ESXi 6.7 or a later version, depending on the version of your vSphere environment. 
-. Select *OK*.
-. After the upgrade is completed, select *vSphere client refresh* and verify that the VM Compatibility is at the desired version.
-
 == Find more Information
 * link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes]
 * link:task_mnode_add_assets.html[Add a controller asset to the management node]
 * link:task_mnode_install_add_storage_NIC.html[Configure a storage NIC]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
-
-// 2024 OCT 30, DOC-4773

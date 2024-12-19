@@ -21,6 +21,13 @@ Depending on your Element software version, the following SF-series storage node
 [cols=2*,options="header",cols="40,40"]
 |===
 |Beginning with... |Storage node not supported...
+
+|Element 12.8
+a|* SF4805
+* SF9605
+* SF19210
+* SF38410
+
 |Element 12.7
 a|
 * SF2405
