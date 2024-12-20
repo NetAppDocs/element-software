@@ -1,6 +1,6 @@
 indexpage:
   title: SolidFire and Element Software Documentation
-  lead: A SolidFire all-flash storage system is comprised of hardware components such as drives and nodes that are combined into a pool of storage resources. Using the Element interface, API, or other management tools, you can manage these storage resource clusters with NetApp Element software. This site contains the documentation for Element software 12.5 and 12.7.
+  lead: A SolidFire all-flash storage system is comprised of hardware components such as drives and nodes that are combined into a pool of storage resources. Using the Element interface, API, or other management tools, you can manage these storage resource clusters with NetApp Element software. This site contains the documentation for Element software 12.8.
   summary: A SolidFire all-flash storage system is comprised of hardware components such as drives and nodes that are combined into a pool of storage resources. As a single storage system, this unified cluster is managed with NetApp Element software.
   keywords: solidfire, all-flash, storage, hardware, install, maintain, element software, esos, element cli
   tiles:
@@ -79,7 +79,8 @@ indexpage:
         - title: NetApp University SolidFire training (login required)
           url: https://netapp.sabacloud.com/Saba/Web_spf/NA1PRD0047/common/searchresults/solidfire/LEARNINGEVENT%2COFFERINGTEMPLATE%2CCERTIFICATION%2CCURRICULUM%2COFFERING%2CPACKAGE
         - title: How to install and scale your NetApp Solidfire cluster (video)
-          url: http://media.netapp.com/detail/video/5778540099001?autoStart=true&page=1&q=solidfire
+        # url: http://media.netapp.com/detail/video/5778540099001?autoStart=true&page=1&q=solidfire
+          url: https://www.youtube.com/watch?v=JOe-zwxIZR4
         - title: NetApp SolidFire installation (video)
           url: https://youtu.be/YKGK5nNSL68
     - title: Blogs & community
@@ -90,6 +91,8 @@ indexpage:
           url: https://mysupport.netapp.com/site/products/all/details/element-software/guideme-tab
     - title: Earlier versions
       links:
+        - title: Element 12.5 documentation
+          url: https://docs.netapp.com/us-en/element-software-125/index.html
         - title: Element 12.3.x documentation
           url: https://docs.netapp.com/us-en/element-software-123/index.html
         - title: Element 12.2.1 documentation

@@ -16,25 +16,22 @@ You can use the `GetFeatureStatus` method to retrieve the status of a cluster fe
 
 This method has the following input parameter:
 
-[options="header"]
+[cols="1a,3a,1a,1a,1a" options="header"]
 |===
 |Name |Description |Type |Default value |Required
-a|
-feature
+| feature
 a|
 The status of a cluster feature. If no value is provided, the system returns a status of all features. Possible values:
 
-* Vvols: Retrieve status for the VVols cluster feature.
-* SnapMirror: Retrieve status for the SnapMirror replication cluster feature.
-* Fips: Retrieve status for the FIPS 140-2 encryption for HTTPS communication feature.
-* fipsDrives: Retrieve status for the FIPS 140-2 drive encryption feature.
+* `Vvols`: Retrieve status for the VVols cluster feature.
+* `SnapMirror`: Retrieve status for the SnapMirror replication cluster feature.
+* `Fips`: Retrieve status for the FIPS 140-2 encryption for HTTPS communication feature.
+* `FipsDrives`: Retrieve status for the FIPS 140-2 drive encryption feature.
+* `VolumeLoadBalanceOnActualIOPS`: Retrieve status for the slice balancing on actual IOPS rather than Min IOPS feature. Available beginning with Element 12.8.
 
-a|
-string
-a|
-None
-a|
-No
+| string
+| None
+| No
 |===
 
 == Return value
@@ -93,6 +90,10 @@ This method returns a response similar to the following example:
             {
                 "enabled": true,
                 "feature": "FipsDrives"
+            },
+            {
+                "enabled": true,
+                "feature": "VolumeLoadBalanceOnActualIOPS"
             }
         ]
     }
