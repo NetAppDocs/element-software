@@ -46,7 +46,7 @@ Cluster operations like additions, upgrades, or maintenance of nodes, or additio
 
 For example, when you add large 28-core storage nodes (H610S, SF19210, and SF38410) running Element 12.7 to an existing cluster, the sync-in rate for data automatically tunes to 110Mbps instead of 60Mbps. Additionally, when you bring these large storage nodes out of node maintenance mode, for example, during an upgrade from Element 12.3.x or later to Element 12.7 using NetApp Hybrid Cloud Control, the sync-in rate for changed block data rate automatically tunes to 110Mbps instead of 20Mbps.
 
-When you add the medium 16-core storage nodes (H410S) and small 12-core storage nodes (SF4805) to an Element 12.7 or later cluster, the sync-in rate for data remains at 60Mbps; however, for syncing changed blocks when you bring them out of node maintenance mode during upgrades from Element 12.3.x to Element 12.7 or later, the sync-in rate automatically tunes from 20Mbps to 60Mbps for medium storage nodes and 40Mbps for smaller storage nodes.
+When you add the medium 16-core storage nodes (H410S) and small 12-core storage nodes (SF4805) to an Element 12.7 cluster, the sync-in rate for data remains at 60Mbps; however, for syncing changed blocks when you bring them out of node maintenance mode during upgrades from Element 12.3.x to Element 12.7, the sync-in rate automatically tunes from 20Mbps to 60Mbps for medium storage nodes and 40Mbps for smaller storage nodes.
 
 When you remove storage nodes, there is no impact on the block sync-out rate which avoids performance impacts on client I/O.
 
