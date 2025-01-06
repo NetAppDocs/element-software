@@ -21,6 +21,13 @@ Depending on your Element software version, the following SF-series storage node
 [cols=2*,options="header",cols="40,40"]
 |===
 |Beginning with... |Storage node not supported...
+
+|Element 12.8
+a|* SF4805
+* SF9605
+* SF19210
+* SF38410
+
 |Element 12.7
 a|
 * SF2405
@@ -32,4 +39,6 @@ a|
 * SF9010
 |===
 
-If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that this node is not supported by Element 12.x.
+If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that the node is not supported by Element 12.x.
+
+// 2024 DEC 19, DOC-4759
