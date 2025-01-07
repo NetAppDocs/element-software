@@ -113,6 +113,14 @@ N/A
 a|
 JSON object
 a|
+normalizedIOPS
+a|
+Average number of IOPS for the entire cluster in the last 500 milliseconds.
+a|
+Point in time
+a|
+integer
+a|
 nonZeroBlocks
 a|
 The total number of 4KiB blocks that contain data after the last garbage collection operation has completed.
@@ -303,3 +311,5 @@ Point in time
 a|
 integer
 |===
+
+// 2025 JAN 6, DOC-4778
