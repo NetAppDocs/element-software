@@ -16,7 +16,7 @@ NOTE: The cumulative software and firmware updates are installed as part of an E
 
 == Element 12.8
 
-Learn more about what is new in Element 12.8.
+Learn more about what's new in Element 12.8.
 
 == Volume Load Balancing
 Element 12.8 introduces the VolumeLoadBalanceOnActualIOPS feature. You can use this feature to balance volumes across nodes based on the actual IOPS level of each volume instead of the minimum IOPS configured in the QoS policy. You can only use VolumeLoadBalanceOnActualIOPS to balance volumes. You can't use it to balance virtual volumes. VolumeLoadBalanceOnActualIOPS is disabled by default. You can enable and disable it by using the API.  
@@ -35,11 +35,11 @@ If you are performing an in-place upgrade of an existing management node to Elem
 
 == Element 12.7
 
-Element 12.7 includes support for secure FIPS compliant CHAP algorithms, dynamic block (bin) sync-in rate, Garbage Collection, system scale, and iSCSI session improvements, and enhanced security.
+Learn more about what's new in Element 12.7.
 
 === Secure CHAP algorithms
 
-Element 12.7 includes support for secure FIPS compliant CHAP algorithms SHA1, SHA-256, and SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
+Element 12.7 includes support for secure FIPS compliant Challenge-Handshake Authentication Protocol (CHAP) algorithms SHA1, SHA-256, and SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Learn more].
 
 === Dynamic block (bin) sync-in rate
 
