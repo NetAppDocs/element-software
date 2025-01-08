@@ -30,7 +30,7 @@ Additionally, using the Element UI, you can view node utilization as a percentag
 A host iSCSI initiator requests a list of Challenge-Handshake Authentication Protocol (CHAP) algorithms to use when it is creating an iSCSI session with an Element iSCSI target. Beginning with Element 12.8, you can view the supported CHAP algorithm that the Element iSCSI target chooses to use for an iSCSI session.
 
 == Upgrade VM hardware version
-If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../mnode/task_mnode_install.html[Learn more].
+If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../upgrade/task_hcc_upgrade_management_node.html#step-1-upgrade-vm-hardware-version-on-a-management-node[Learn more].
 
 == Element 12.7
 
