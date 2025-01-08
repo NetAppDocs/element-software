@@ -33,7 +33,7 @@ Select *Disable Load Balancing on Actual IOPS*, and confirm your selection.
 
 == Find more information
 * link:../api/reference_element_api_enablefeature.html[Enable Volume Load Balancing using the API]
-* https://review.docs.netapp.com/us-en/element-software_doc-4726-pc-element-128/api/reference_element_api_disablefeature.html[Disable Volume Load Balancing using the API]
+* https://docs.netapp.com/us-en/element-software/api/reference_element_api_disablefeature.html[Disable Volume Load Balancing using the API]
 * link:../hccstorage/task-hcc-qos-policies.html[Create and manage volume QoS policies]
 
 // 2024 JAN 12, DOC-4724
