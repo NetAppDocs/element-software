@@ -16,7 +16,7 @@ NOTE: The cumulative software and firmware updates are installed as part of an E
 
 == Element 12.8
 
-Learn more about what is new in Element 12.8.
+Learn more about what's new in Element 12.8.
 
 == Volume Load Balancing
 Element 12.8 introduces the VolumeLoadBalanceOnActualIOPS feature. You can use this feature to balance volumes across nodes based on the actual IOPS level of each volume instead of the minimum IOPS configured in the QoS policy. You can only use VolumeLoadBalanceOnActualIOPS to balance volumes. You can't use it to balance virtual volumes. VolumeLoadBalanceOnActualIOPS is disabled by default. You can enable and disable it by using the API.  
@@ -32,9 +32,10 @@ A host iSCSI initiator requests a list of Challenge-Handshake Authentication Pro
 == Upgrade VM hardware version
 If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../upgrade/task_hcc_upgrade_management_node.html#step-1-upgrade-vm-hardware-version-on-a-management-node[Learn more].
 
+
 == Element 12.7
 
-Learn more about what is new in Element 12.7.
+Learn more about what's new in Element 12.7.
 
 === Secure CHAP algorithms
 
