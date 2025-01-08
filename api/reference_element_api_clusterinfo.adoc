@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: element, api, object, objects, clusterInfo
 summary: 'The clusterInfo object contains information that the node uses to communicate with the cluster. You can get this information with the GetClusterInfo API method.'
 ---
-
 = clusterInfo
 :icons: font
 :imagesdir: ../media/
@@ -139,10 +138,18 @@ a|
 The unique identifier for the cluster.
 a|
 UUID
+a|
+volumeLoadBalanceOnActualIopsState
+a|
+The status for the slice balancing based on actual IOPS rather than the Min IOPS feature. Available beginning with Element 12.8.
+a|
+string
 |===
 
 [discrete]
 == Find more information
 * link:../api/reference_element_api_getclusterinfo.html[GetClusterInfo]
-* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]entation]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
+
+// 2024 FEB 28, DOC-4743

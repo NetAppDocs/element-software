@@ -2,14 +2,14 @@
 permalink: api/reference_element_api_disablefeature.html
 sidebar: sidebar
 keywords: SNMP,disable,disabling,DisableFeature,vvols,virtual volumes
-summary: 'You can use the DisableFeature method to disable the VolumeLoadBalanceOnActualIOPS feature which is disabled by default.'
+summary: 'You can use the DisableFeature method to disable the VolumeLoadBalanceOnActualIOPS.'
 ---
 = DisableFeature
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the `DisableFeature` method to disable the `VolumeLoadBalanceOnActualIOPS` feature which is disabled by default. 
+You can use the `DisableFeature` method to disable the `VolumeLoadBalanceOnActualIOPS` feature. `VolumeLoadBalanceOnActualIOPS` is disabled by default. 
 
 [NOTE]
 ====
