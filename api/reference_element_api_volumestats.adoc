@@ -76,14 +76,6 @@ N/A
 a|
 integer
 a|
-clusterUtilization
-a|
-The amount of cluster capacity being utilized.
-a|
-N/A
-a|
-float
-a|
 desiredMetadataHosts
 a|
 The metadata (slice) services being migrated to if the volume metadata is being migrated between metadata services. A "null" value means the volume is not migrating.
