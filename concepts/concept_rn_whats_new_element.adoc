@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
-= What's new in Element software 12.8 
+= What's new in Element software
 :url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :icons: font
 :imagesdir: ../media/
@@ -25,6 +25,10 @@ Element 12.8 introduces the Volume Load Balancing feature. You can use this feat
 With Element 12.8, you can view node utilization information as `nodeHeat` using the `GetNodeStats` and `ListNodeStats` API methods. The `nodeHeat` object is a member of the `nodeStats` object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. 
 
 Additionally, you can view node utilization as a percentage of `recentPrimaryTotalHeat` in the View Details display for a node in the Element UI.
+
+== View I/O statistics for a volume
+
+With Element 12.8, you can view I/O usage statistics for a volume as `sliceIopsStats` using the `GetVolumeStats` and `ListVolumeStatsByVolumeAccessGroup` API methods. The I/O statistics are calculated using the read and write IOPS information for the volume and measured over two time periods, the last 24 hours and the last hour. link:../api/reference_element_api_volumestats.html#object-members[Learn more].
 
 == CHAP algorithm for iSCSI session
 A host iSCSI initiator requests a list of Challenge-Handshake Authentication Protocol (CHAP) algorithms to use when it is creating an iSCSI session with an Element iSCSI target. Beginning with Element 12.8, you can view the supported CHAP algorithm that the Element iSCSI target chooses to use for an iSCSI session.
@@ -74,7 +78,7 @@ You can now access the SolidFire Active IQ documentation from the Element softwa
 Resolved and known issues are listed in the NetApp Bugs Online tool. You can browse these issues for Element software and other products at https://mysupport.netapp.com/site/products/all/details/element-software/bugsonline-tab[NetApp Bugs Online^].
 
 == Element 12.5
-Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, and enhanced security.
+Learn more about what's new in Element 12.5.
 
 === Improved storage node access
 Element 12.5 brings improved remote access to individual nodes using signed SSH certificates. To provide secure remote access to storage nodes, a new, limited-privilege local user account called `sfreadonly` is now created during RTFI of a storage node. The `sfreadonly` account enables access to the storage node backend for basic maintenance or troubleshooting purposes. You can now configure the `supportAdmin` access type for a cluster administrator user to allow NetApp support access to the cluster on an as-needed basis.
