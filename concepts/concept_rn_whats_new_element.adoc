@@ -28,7 +28,7 @@ Additionally, you can view node utilization as a percentage of `recentPrimaryTot
 
 == View I/O statistics for a volume
 
-With Element 12.8, you can view I/O usage statistics for a volume as `sliceIopsStats` using the `GetVolumeStats` and `ListVolumeStatsByVolumeAccessGroup` API methods. The I/O statistics are calculated using the read and write IOPS information for the volume and measured over two time periods, the last 24 hours and the last hour. link:../api/reference_element_api_volumestats.html#object-members[Learn more].
+With Element 12.8, you can view I/O usage statistics for a volume as `sliceIopsStats` using the `GetVolumeStats` and `ListVolumeStatsByVolume` API methods. The I/O statistics are calculated using the read and write IOPS information for the volume and measured over two time periods, the last 24 hours and the last hour. link:../api/reference_element_api_volumestats.html#object-members[Learn more].
 
 == CHAP algorithm for iSCSI session
 A host iSCSI initiator requests a list of Challenge-Handshake Authentication Protocol (CHAP) algorithms to use when it is creating an iSCSI session with an Element iSCSI target. Beginning with Element 12.8, you can view the supported CHAP algorithm that the Element iSCSI target chooses to use for an iSCSI session.
