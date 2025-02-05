@@ -26,6 +26,7 @@ The fault blocks an upgrade. Possible values:
 
 * true: The fault blocks an upgrade
 * false: The fault does not block an upgrade
+
 a|
 boolean
 a|
