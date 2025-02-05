@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
-
 = What's new in Element software 12.5 and later 
 :url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :icons: font
@@ -56,7 +55,7 @@ You can now access the SolidFire Active IQ documentation from the Element softwa
 Resolved and known issues are listed in the NetApp Bugs Online tool. You can browse these issues for Element software and other products at https://mysupport.netapp.com/site/products/all/details/element-software/bugsonline-tab[NetApp Bugs Online^].
 
 == Element 12.5
-Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, enhanced security, and automated upgrades using Ansible.
+Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, and enhanced security.
 
 === Improved storage node access
 Element 12.5 brings improved remote access to individual nodes using signed SSH certificates. To provide secure remote access to storage nodes, a new, limited-privilege local user account called `sfreadonly` is now created during RTFI of a storage node. The `sfreadonly` account enables access to the storage node backend for basic maintenance or troubleshooting purposes. You can now configure the `supportAdmin` access type for a cluster administrator user to allow NetApp support access to the cluster on an as-needed basis.
@@ -80,15 +79,16 @@ If you're running Element 11.x, 12.0, or 12.2 or your storage cluster is already
 
 Element 12.5 also includes more than 120 CVE security vulnerability remediations.
 
-=== Automated upgrades using Ansible
-With Element 12.5, you can automate the Element software upgrade workflow by using Ansible to perform a rolling upgrade of the entire storage cluster. To get started, navigate to the https://github.com/NetApp-Automation[NetApp Ansible repository^] on GitHub and download the `nar_solidfire_sds_upgrade` role and documentation.
+// === Automated upgrades using Ansible
+// With Element 12.5, you can automate the Element software upgrade workflow by using Ansible to perform a rolling upgrade of the entire storage cluster. To get started, navigate to the https://github.com/NetApp-Automation[NetApp Ansible repository^] on GitHub and download the `nar_solidfire_sds_upgrade` role and documentation.
 
-[discrete]
 == Find more information
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[NetApp Hybrid Cloud Control and Management Services Release Notes^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center for previous versions^]
 * https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Resources page^]
 * link:../hardware/fw_storage_nodes.html[Supported storage firmware versions for SolidFire storage nodes]
+
+// 2023 NOV 27, DOC-4718

@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords:
 summary: 'Before you get started, you should review the prerequisites.'
 ---
-
 = Requirements
 :icons: font
 :imagesdir: ../media/
@@ -18,4 +17,4 @@ Before you get started, you should review the prerequisites to deploy NetApp Ele
 
 
 == Find more information
- * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+ * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]

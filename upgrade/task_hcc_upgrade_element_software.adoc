@@ -2,9 +2,8 @@
 sidebar: sidebar
 permalink: upgrade/task_hcc_upgrade_element_software.html
 summary: As part of a NetApp SolidFire system upgrade, you upgrade NetApp Element software.
-keywords: netapp, solidfire, cluster, element, H610S upgrade, hcc, ansible upgrades, upgrade role
+keywords: netapp, solidfire, cluster, element, H610S upgrade, hcc, upgrade role
 ---
-
 = Upgrade Element software
 :hardbreaks:
 :nofooter:
@@ -340,7 +339,7 @@ CAUTION: Aborting the cluster upgrade while a node is being updated might result
 [discrete]
 == Find more information
 
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
 // 2023 FEB 23, DOC-4667

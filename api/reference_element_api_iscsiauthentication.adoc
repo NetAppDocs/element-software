@@ -46,4 +46,4 @@ a|
 string
 |===
 
-*Available beginning with Element 12.7.
+* Available beginning with Element 12.7.

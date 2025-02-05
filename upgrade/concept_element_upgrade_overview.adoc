@@ -4,14 +4,12 @@ permalink: upgrade/concept_element_upgrade_overview.html
 summary: You can keep your SolidFire Element storage system up-to-date after deployment by upgrading all NetApp storage components.
 keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
 ---
-
 = Upgrade sequence overview
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
-:keywords: solidfire, cloud, onprem, documentation, help
 
 [.lead]
 You can keep your SolidFire Element storage system up-to-date after deployment by sequentially upgrading all NetApp storage components.
@@ -20,6 +18,7 @@ These components include management services, NetApp Hybrid Cloud Control, Eleme
 
 [NOTE]
 ====
+* Beginning November 2023, you cannot start a component upgrade using NetApp Hybrid Cloud Control or REST API because the signing key certificates (private and public) expired on November 5, 2023. You can resolve this issue by following the workaround documented in the Knowledge Base article https://kb.netapp.com/onprem/solidfire/Element_OS/SolidFire_and_HCI_upgrades_unable_to_start_due_to_upgrade_package_upload_error[SolidFire and HCI upgrades unable to start due to upgrade package upload error^].
 * Beginning with Element 12.7, the SF2405 and SF9608 storage nodes and FC0025 and SF-FCN-01 FC nodes are not supported. If you attempt to upgrade one of these nodes to Element 12.7, you will see an error stating that this node is not supported by Element 12.7.
 * Beginning with Element 12.5, NetApp HealthTools is no longer supported for Element software upgrades. If you are running Element 11.0 or 11.1, you must first https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools[upgrade to Element 12.3 using HealthTools^] and then upgrade to Element 12.5 or later using NetApp Hybrid Cloud Control.
 ====
@@ -68,4 +67,6 @@ NOTE: Upgrading the management node operating system is no longer required to up
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
+
+// 2023 DEC 5, DOC-4719

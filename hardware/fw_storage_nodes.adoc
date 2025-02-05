@@ -1,7 +1,7 @@
 ---
 permalink: hardware/fw_storage_nodes.html
 sidebar: sidebar
-keywords: documentation, earlier, previous, versions
+keywords: documentation, earlier, previous, versions, storage, nodes
 summary: Supported firmware and driver versions for storage nodes.
 ---
 

@@ -4,7 +4,6 @@ permalink: hccstorage/task-hcc-dashboard.html
 summary: You can view storage resources on the NetApp Hybrid Cloud Control Dashboard. Additionally, you can monitor storage capacity and storage performance.
 keywords: netapp, element, hcc, hybrid cloud control, storage, storage performance, capacity
 ---
-
 = Monitor storage resources on the Hybrid Cloud Control Dashboard
 :hardbreaks:
 :nofooter:
@@ -106,4 +105,4 @@ https://docs.netapp.com/us-en/vcp/vcp_task_reports_volume_performance.html[Perfo
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
