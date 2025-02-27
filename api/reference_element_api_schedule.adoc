@@ -117,14 +117,10 @@ Includes the unique name given to the schedule, the retention period for the sna
 
 * `enableRemoteReplication`: Indicates if the snapshot should be included in remote replication. (boolean)
 * `ensureSerialCreation`: Specify if a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
-* `fifo`: The snapshot is retained on a First-In-First-Out (FIFO) basis. (string)
 * `name`: The snapshot name to be used. (string)
 * `retention`: The amount of time the snapshot will be retained. Depending on the time, it will display in one of the following formats:
-** HH:mm:ss. 
-** fifo
-+
-If empty, the snapshot is retained forever. (string)
-
+** fifo: The snapshot is retained on a First-In-First-Out (FIFO) basis. If empty, the snapshot is retained forever. (string)
+** HH:mm:ss 
 * `volumeID`: The ID of the volume to be included in the snapshot. (integer)
 * `volumes`: A list of volume IDs to be included in the group snapshot. (integer array)
 
