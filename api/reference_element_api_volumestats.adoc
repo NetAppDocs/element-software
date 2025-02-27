@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: object,objects,volumeStats
 summary: 'The volumeStats object contains statistical data for an individual volume.'
 ---
-
 = volumeStats
 :icons: font
 :imagesdir: ../media/
@@ -23,7 +22,7 @@ You can use the following methods to get volumeStats objects for some or all vol
 
 This object contains the following members:
 
-[options="header"]
+[cols=*,options="header",cols="20,50,15,15"]
 |===
 |Name |Description |Calculation |Type
 a|
@@ -177,6 +176,30 @@ N/A
 a|
 integer
 a|
+sliceIopsStats
+a|
+The I/O usage statistics for a volume. Available beginning with Element 12.8. Possible values for sliceIopsStats:
+
+* largeStatistics: The I/O statistics for the volume measured over a longer time period, typically the last 24 hours.
+* smallStatistics: The I/O statistics for the volume measured over a shorter time period, typically the last hour.
+
+Possible values for largeStatistics and smallStatistics:
+
+* averageReadIops: The average read IOPS for the volume.
+* averageTotalIops: The average total (read + write) IOPS for the volume.
+* averageWriteIops: The average write IOPS for the volume.
+* nSamples: The number of samples included in the statistic calculation.
+* peakReadIops: The maximum read IOPS observed over a statistic interval.
+* peakTotalIops: The maximum total IOPS observed over a statistic interval.
+* peakWriteIops: The maximum write IOPS observed over a statistic interval.
+* sliceID: Volume ID or Slice ID
+
+
+a|
+Point in time
+a|
+JSON object
+a|
 throttle
 a|
 A floating value between 0 and 1 that represents how much the system is throttling clients below their maxIOPS because of re-replication of data, transient errors, and snapshots taken.
@@ -304,4 +327,4 @@ a|
 integer
 |===
 
-// 2025 JAN 6, DOC-4778
+// 2025 FEB 4, DOC-4778

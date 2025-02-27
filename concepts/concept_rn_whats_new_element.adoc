@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
-= What's new in Element software 12.8 
+= What's new in Element software
 :url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround
 :icons: font
 :imagesdir: ../media/
@@ -18,19 +18,23 @@ NOTE: The cumulative software and firmware updates are installed as part of an E
 
 Learn more about what's new in Element 12.8.
 
-== Volume Load Balancing
-Element 12.8 introduces the VolumeLoadBalanceOnActualIOPS feature. You can use this feature to balance volumes across nodes based on the actual IOPS level of each volume instead of the minimum IOPS configured in the QoS policy. You can only use VolumeLoadBalanceOnActualIOPS to balance volumes. You can't use it to balance virtual volumes. VolumeLoadBalanceOnActualIOPS is disabled by default. You can enable and disable it by using the API.  
+=== Volume Load Balancing
+Element 12.8 introduces the Volume Load Balancing feature. You can use this feature to balance volumes across nodes based on the actual IOPS level of each volume instead of the minimum IOPS configured in the QoS policy. You can only use the Volume Load Balancing feature to balance volumes. You can't use it to balance virtual volumes. The Volume Load Balancing feature is disabled by default. You can enable and disable it by using the `VolumeLoadBalanceOnActualIOPS` API parameter with the link:../api/reference_element_api_enablefeature.html[EnableFeature] and link:../api/reference_element_api_disablefeature.html[DisableFeature] API methods or the link:../storage/task_system_manage_cluster_volume_load_balancing.html[Volume Load Balancing] option in the Element UI.
 
-== View node utilization information
-With Element 12.8, you can view node utilization information as "nodeHeat" using the GetNodeStats and ListNodeStats API methods. The nodeHeat object is a member of the nodeStats object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. 
+=== View node utilization information
+With Element 12.8, you can view node utilization information as `nodeHeat` using the `GetNodeStats` and `ListNodeStats` API methods. The `nodeHeat` object is a member of the `nodeStats` object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. 
 
-Additionally, using the Element UI, you can view node utilization as a percentage of "recentPrimaryTotalHeat" in the View Details display for a node.
+Additionally, you can view node utilization as a percentage of `recentPrimaryTotalHeat` in the View Details display for a node in the Element UI.
 
-== CHAP algorithm for iSCSI session
+=== View I/O statistics for a volume
+
+With Element 12.8, you can view I/O usage statistics for a volume as `sliceIopsStats` using the `GetVolumeStats` and `ListVolumeStatsByVolume` API methods. The I/O statistics are calculated using the read and write IOPS information for the volume and measured over two time periods, the last 24 hours and the last hour. link:../api/reference_element_api_volumestats.html#object-members[Learn more].
+
+=== CHAP algorithm for iSCSI session
 A host iSCSI initiator requests a list of Challenge-Handshake Authentication Protocol (CHAP) algorithms to use when it is creating an iSCSI session with an Element iSCSI target. Beginning with Element 12.8, you can view the supported CHAP algorithm that the Element iSCSI target chooses to use for an iSCSI session.
 
-== Upgrade VM hardware version
-If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../mnode/task_mnode_install.html[Learn more].
+=== Upgrade VM hardware version
+If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. link:../upgrade/task_hcc_upgrade_management_node.html#step-1-upgrade-vm-hardware-version-on-a-management-node[Learn more].
 
 
 == Element 12.7
@@ -74,7 +78,7 @@ You can now access the SolidFire Active IQ documentation from the Element softwa
 Resolved and known issues are listed in the NetApp Bugs Online tool. You can browse these issues for Element software and other products at https://mysupport.netapp.com/site/products/all/details/element-software/bugsonline-tab[NetApp Bugs Online^].
 
 == Element 12.5
-Element 12.5 introduces improved storage node access, enhanced custom Protection Domains manageability, new and improved cluster faults and events, enhanced Create Cluster UI functionality, and enhanced security.
+Learn more about what's new in Element 12.5.
 
 === Improved storage node access
 Element 12.5 brings improved remote access to individual nodes using signed SSH certificates. To provide secure remote access to storage nodes, a new, limited-privilege local user account called `sfreadonly` is now created during RTFI of a storage node. The `sfreadonly` account enables access to the storage node backend for basic maintenance or troubleshooting purposes. You can now configure the `supportAdmin` access type for a cluster administrator user to allow NetApp support access to the cluster on an as-needed basis.
