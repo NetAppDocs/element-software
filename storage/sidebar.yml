@@ -52,6 +52,8 @@ entries:
         url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
       - title: Set the cluster full threshold
         url: "/storage/task_system_manage_cluster_set_the_cluster_full_threshold.html"
+      - title: Enable and disable Volume Load Balancing 
+        url: "/storage/task_system_manage_cluster_volume_load_balancing.html"
       - title: Enable and disable support access
         url: "/storage/task_system_manage_cluster_enable_and_disable_support_access.html"
       - title: Manage the Terms of Use banner
