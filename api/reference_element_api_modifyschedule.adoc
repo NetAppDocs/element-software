@@ -16,6 +16,7 @@ You can use `ModifySchedule` to change the intervals at which a scheduled snapsh
 
 This method has the following input parameters:
 
+[options="header"]
 |===
 |Name |Description |Type |Default value |Required
 a|
@@ -152,7 +153,7 @@ The unique name given to the schedule, the retention period for the snapshot tha
 * `ensureSerialCreation`: Specifies whether a new snapshot creation should be allowed if a previous snapshot replication is in progress. (boolean)
 * `name`: The snapshot name to be used. (string)
 * `retention`: The amount of time the snapshot is retained. Depending on the time, it displays in one of the following formats:
-** fifo: The snapshot is retained on a First-In-First-Out (FIFO) basis. If empty, the snapshot is retained forever. (string)
+** `fifo`: The snapshot is retained on a First-In-First-Out (FIFO) basis. If empty, the snapshot is retained forever. (string)
 ** HH:mm:ss 
 * `volumeID`: The ID of the volume to be included in the snapshot. (integer)
 * `volumes`: A list of volume IDs to be included in the group snapshot. (integer array)
