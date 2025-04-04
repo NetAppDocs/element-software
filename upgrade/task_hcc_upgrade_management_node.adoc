@@ -12,7 +12,7 @@ keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3
 :imagesdir: ../media/
 
 [.lead]
-You can upgrade your management node to management node 12.5 or later from version 12.3.x or later.
+You can upgrade your management node to management node 12.8 from version 12.3.x or later.
 
 Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. You can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
 
@@ -30,33 +30,33 @@ If you are performing an in-place upgrade of an existing management node to Elem
 . Select *OK*.
 . After the upgrade is completed, select *vSphere client refresh* and verify that the VM Compatibility is at the desired version.
 
-== Step 2: Upgrade a management node to Element 12.5 or later
+== Step 2: Upgrade a management node to Element 12.8
 
 Choose one of the following upgrade options:
 
-* <<Upgrade a management node to version 12.5 or later from version 12.3.x or later>>
+* <<Upgrade a management node to version 12.8 from version 12.3.x or later>>
 * <<Reconfigure authentication using the management node REST API>>
 +
 Choose this option if you have *sequentially* updated (1) your management services version and (2) your Element storage version and you want to *keep* your existing management node:
 
 NOTE: If you do not sequentially update your management services followed by Element storage, you cannot reconfigure reauthentication using this procedure. Follow the appropriate upgrade procedure instead.
 
-=== Upgrade a management node to version 12.5 or later from version 12.3.x or later
+=== Upgrade a management node to version 12.8 from version 12.3.x or later
 
-You can perform an in-place upgrade of the management node from version 12.3.x or later to version 12.5 or later without needing to provision a new management node virtual machine.
+You can perform an in-place upgrade of the management node from version 12.3.x or later to version 12.8 without needing to provision a new management node virtual machine.
 
-NOTE: The Element 12.5 or later management node is an optional upgrade. It is not required for existing deployments.
+NOTE: The Element 12.8 management node is an optional upgrade. It is not required for existing deployments.
 
 .Before you begin
 
 * The RAM of the management node VM is 24GB.
-* The management node you are intending to upgrade is version 12.0 and uses IPv4 networking. The management node version 12.5 or later does not support IPv6.
+* The management node you are intending to upgrade is version 12.0 and uses IPv4 networking. The management node version 12.8 does not support IPv6.
 +
 TIP: To check the version of your management node, log in to your management node and view the Element version number in the login banner.
 
 * You have updated your management services bundle to the latest version using NetApp Hybrid Cloud Control. You can access NetApp Hybrid Cloud Control from the following IP: `\https://<ManagementNodeIP>`
 
-* If you are updating your management node to version 12.5 or later, you need management services 2.21.61 or later to proceed.
+* If you are updating your management node to version 12.8, you need management services 2.21.61 or later to proceed.
 
 * You have configured an additional network adapter (if required) using the instructions for link:../mnode/task_mnode_install_add_storage_NIC.html[configuring an additional storage NIC].
 +

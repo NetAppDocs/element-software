@@ -25,7 +25,7 @@ If you’re deploying a new management node with version 12.8, you can use the N
 * The following nodes aren't supported. If you attempt to upgrade one of these nodes to an unsupported Element version, you will see an error stating that the node is not supported by Element 12.x: 
 ** Beginning with Element 12.8, SF4805, SF9605, SF19210, and SF38410 storage nodes.
 ** Beginning with Element 12.7, SF2405 and SF9608 storage nodes and FC0025 and SF-FCN-01 FC nodes.
-* Beginning with Element 12.5, NetApp HealthTools is no longer supported for Element software upgrades. If you are running Element 11.0 or 11.1, you must first https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools[upgrade to Element 12.3 using HealthTools^] and then upgrade to Element 12.5 or later using NetApp Hybrid Cloud Control.
+* Beginning with Element 12.5, NetApp HealthTools is no longer supported for Element software upgrades. If you are running Element 11.0 or 11.1, you must first https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools[upgrade to Element 12.3 using HealthTools^] and then upgrade to Element 12.8 using NetApp Hybrid Cloud Control.
 ====
 
 The <<sys_upgrade,system upgrade sequence>> content describes the tasks that are needed to complete a SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
@@ -44,21 +44,25 @@ Upgrades using NetApp Hybrid Cloud Control are not available in earlier service 
 
 * You have ensured that the system time on all nodes is synced and that NTP is correctly configured for the storage cluster and nodes. Each node must be configured with a DNS nameserver in the per-node web UI (`https://[IP address]:442`) with no unresolved cluster faults related to time skew.
 
-* You have scheduled sufficient time for your link:task_hcc_upgrade_element_software.html#element-upgrade-time[Element software] and link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade[storage firmware] upgrades. When you upgrade to Element software 12.5 or later, the upgrade process time varies depending on the Element software version and firmware updates.
+* You have scheduled sufficient time for your link:task_hcc_upgrade_element_software.html#element-upgrade-time[Element software] and link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade[storage firmware] upgrades. When you upgrade to Element software 12.8, the upgrade process time varies depending on the Element software version and firmware updates.
 
 == [[sys_upgrade]]System upgrade sequence
-You can use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.5 or later.
+You can use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.8.
 
 .Steps
-
-. link:task_hcc_update_management_services.html[Update management services from Hybrid Cloud Control].
-+
-IMPORTANT: If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services.
-+
-IMPORTANT: You must update to the latest management services bundle before upgrading your Element software.
-
 . link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
 . link:task_hcc_upgrade_element_software.html[Upgrade your Element software and storage firmware].
+. link:task_hcc_update_management_services.html[Update management services from Hybrid Cloud Control].
++
+[IMPORTANT]
+====
+* The management services 2.27 bundle contains Spring Framework 6, which is only compatible with management node 12.8. If you're updating to management services services 2.27, you must update the management services bundle _after_ upgrading to Element 12.8 to ensure compatibility between the management node and management services. 
+
+* If you're updating to management services 2.21.61 through 2.26.40, you must update the management services bundle _before_ upgrading to Element 12.8.
+====
++
+IMPORTANT: If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services.
+
 . link:task_hcc_upgrade_storage_firmware.html[(Optional) Upgrade your Element storage firmware only].
 +
 NOTE: You might perform this task when a new storage firmware upgrade becomes available outside of a major release.

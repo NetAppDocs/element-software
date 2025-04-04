@@ -4,7 +4,6 @@ permalink: upgrade/task_hcc_update_management_services.html
 summary: As part of a NetApp SolidFire storage system upgrade, you should update management services.
 keywords: netapp, solidfire, cluster, management services, hcc, update management services
 ---
-
 = Update management services
 :hardbreaks:
 :nofooter:
@@ -19,7 +18,9 @@ Beginning with the Element 11.3 management node release, the management node des
 
 .About this task
 
-* You must upgrade to the latest management services bundle before upgrading your Element software.
+The management services 2.27 bundle contains Spring Framework 6, which is only compatible with management node 12.8. If you're updating to management services services 2.27, you must update the management services bundle _after_ upgrading to Element 12.8 to ensure compatibility between the management node and management services. 
+
+If you're updating to management services 2.21.61 through 2.26.40, you must update the management services bundle _before_ upgrading to Element 12.8.
 
 [NOTE]
 ====

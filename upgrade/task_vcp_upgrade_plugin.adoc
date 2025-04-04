@@ -16,7 +16,12 @@ For existing vSphere environments with a registered NetApp Element Plug-in for V
 
 You can update the plug-in registration on vCenter Server Virtual Appliance (vCSA) or Windows using the registration utility. You must change your registration for the vCenter Plug-in on every vCenter Server where you need to use the plug-in.
 
-NOTE: Management services 2.22.7 includes Element Plug-in for vCenter Server 5.0 which contains the remote plug-in. If you use the Element plug-in, you should upgrade to management services 2.22.7 or later to comply with the VMware directive that removes support for local plug-ins. https://kb.vmware.com/s/article/87880[Learn more^].
+[NOTE]
+====
+The management services 2.27 bundle includes in Element Plug-in for vCenter Server 5.5, which contains Spring Framework 6. Spring Framework 6 is only compatible with management node 12.8. If you're updating to management services services 2.27, you must update the management services bundle _after_ upgrading to Element 12.8 to ensure compatibility between the management node and management services.
+
+The management services 2.22.7 bundle includes Element Plug-in for vCenter Server 5.0, which contains the remote plug-in. If you use the Element plug-in, you should upgrade to management services 2.22.7 or later to comply with the VMware directive that removes support for local plug-ins. https://kb.vmware.com/s/article/87880[Learn more^].
+====
 
 [role="tabbed-block"] 
 ==== 
