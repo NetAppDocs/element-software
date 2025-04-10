@@ -486,6 +486,6 @@ RemoveDrives
 |===
 
 .Related information
-link:../storage/concept_system_manage_manage_cluster_administrator_users.html[Learn about the access types available in the Element UI]
+link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details[Learn about the access types available in the Element UI]
 
 // 2025 APR 10, DOC-4783
