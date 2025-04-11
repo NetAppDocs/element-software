@@ -23,7 +23,7 @@ If you are performing an in-place upgrade of an existing management node to Elem
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
-. From the vSphere Client Menu, select *VMs* > *Templates*.
+. From the vSphere Client Menu, select *VMs and Templates*.
 . Right-click on the virtual machine (VM), and select *Power* > *Shut Down Guest OS*.
 +
 Wait until the VM is powered off.
