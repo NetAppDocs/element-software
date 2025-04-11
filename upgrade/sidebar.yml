@@ -5,10 +5,10 @@ entries:
     url: /upgrade/concept_element_upgrade_overview.html
   - title: System upgrade procedures
     entries:
+    - title: Update management services
+      url: /upgrade/task_hcc_update_management_services.html
   # - title: Upgrade to the latest HealthTools
   #  url: /upgrade/task_upgrade_element_latest_healthtools.html
-    - title: Update management services
-      url: /upgrade/task_hcc_update_management_services.html   
     - title: Run Element storage health checks prior to upgrading storage
       url: /upgrade/task_hcc_upgrade_element_prechecks.html
     - title: Upgrade Element software
