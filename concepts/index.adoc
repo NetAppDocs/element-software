@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: element, security, clusters, protection, qos
 summary: Learn basic concepts related to Element software.
 ---
-
 = Concepts
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +20,3 @@ Learn basic concepts related to Element software.
 * link:concept_solidfire_concepts_volumes.html[Volumes]
 * xref:concept_solidfire_concepts_data_protection.adoc[Data protection]
 * xref:concept_data_manage_volumes_solidfire_quality_of_service.adoc[Performance and quality of service]
-
-== Find more information
-* https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]
-* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
