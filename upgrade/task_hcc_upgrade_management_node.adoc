@@ -23,12 +23,16 @@ If you are performing an in-place upgrade of an existing management node to Elem
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
-. From the vSphere Client Menu, select *VMs* > *Templates*.
-. Right-click on the virtual machine, and select *Compatibility* > *Upgrade VM Compatibility*.
+. From the vSphere Client Menu, select *VMs and Templates*.
+. Right-click on the virtual machine (VM), and select *Power* > *Shut Down Guest OS*.
++
+Wait until the VM is powered off.
+. Right-click on the VM, and select *Compatibility* > *Upgrade VM Compatibility*.
 . Select *Yes*.
 . Select ESXi 6.7 or a later version, depending on the version of your vSphere environment. 
 . Select *OK*.
-. After the upgrade is completed, select *vSphere client refresh* and verify that the VM Compatibility is at the desired version.
+. After the upgrade is completed, right-click on the VM, and select *Power* > *Power On*.
+. Select *vSphere client refresh* and verify that the VM Compatibility is at the desired version.
 
 == Step 2: Upgrade a management node to Element 12.5 or later
 
@@ -43,7 +47,7 @@ NOTE: If you do not sequentially update your management services followed by Ele
 
 === Upgrade a management node to version 12.5 or later from version 12.3.x or later
 
-You can perform an in-place upgrade of the management node from version 12.3.x or later to version 12.5 or later without needing to provision a new management node virtual machine.
+You can perform an in-place upgrade of the management node from version 12.3.x or later to version 12.5 or later without needing to provision a new management node VM.
 
 NOTE: The Element 12.5 or later management node is an optional upgrade. It is not required for existing deployments.
 
@@ -65,8 +69,8 @@ NOTE: Persistent volumes might require an additional network adapter if eth0 is 
 * Storage nodes are running Element 12.3.x or later.
 
 .Steps
-. Log in to the management node virtual machine using SSH or console access.
-. Download the https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[management node ISO^] for Element software from the NetApp Support Site to the management node virtual machine.
+. Log in to the management node VM using SSH or console access.
+. Download the https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[management node ISO^] for Element software from the NetApp Support Site to the management node VM.
 +
 NOTE: The name of the ISO is similar to `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
 
@@ -152,4 +156,5 @@ The response body indicates that reconfiguration was successful.
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
+// 2025 APR 10, DOC-4791
 // 2024 OCT 30, DOC-4773
