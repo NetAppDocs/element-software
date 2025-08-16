@@ -29,7 +29,7 @@ The management services 2.22.7 bundle includes Element Plug-in for vCenter Serve
 -- 
 This upgrade procedure covers the following upgrade scenarios:
 
-* You are upgrading to Element Plug-in for vCenter Server 5.4, 5.3, 5.2, 5.1, or 5.0.
+* You are upgrading to Element Plug-in for vCenter Server 5.5, 5.4, 5.3, 5.2, 5.1, or 5.0.
 * You are upgrading to an 8.0 or 7.0 HTML5 vSphere Web Client.
 +
 IMPORTANT: Element Plug-in for vCenter 5.0 or later is not compatible with vCenter Server 6.7 and 6.5.
@@ -168,11 +168,11 @@ After upgrading to NetApp Element Plug-in for vCenter Server 4.8 or later with V
 
 . Verify the version change in the *About* tab in the *NetApp Element Configuration* extension point of the plug-in.
 +
-You should see the following version details or details of a more recent version:
+You should see the following version details:
 +
 ----
-NetApp Element Plug-in Version: 5.4
-NetApp Element Plug-in Build Number: 1
+NetApp Element Plug-in Version: 5.5
+NetApp Element Plug-in Build Number: 16
 ----
 
 NOTE: The vCenter Plug-in contains online Help content. To ensure that your Help contains the latest content, clear your browser cache after upgrading your plug-in.
