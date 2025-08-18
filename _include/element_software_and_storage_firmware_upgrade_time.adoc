@@ -1,4 +1,4 @@
-* *Upgrade process time*: You have scheduled sufficient time to perform your upgrade. When you upgrade to Element software 12.8, the upgrade process time varies depending on your current Element software version and firmware updates.
+* *Upgrade process time*: You have scheduled sufficient time to perform your upgrade. When you upgrade to Element software 12.5 or later, the upgrade process time varies depending on your current Element software version and firmware updates.
 +
 [cols=5*,options="header",cols="20,20,20,20,20"]
 |===
