@@ -50,7 +50,7 @@ Upgrades using NetApp Hybrid Cloud Control are not available in earlier service 
 You can use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.5 or later.
 
 .Steps
-. link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
+. link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks before upgrading storage].
 . link:task_hcc_upgrade_element_software.html[Upgrade your Element software and storage firmware].
 . link:task_hcc_update_management_services.html[Update management services from Hybrid Cloud Control].
 +
