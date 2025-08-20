@@ -61,7 +61,7 @@ You can use the following sequence to upgrade your NetApp SolidFire all-flash st
 * If you're updating to management services 2.21.61 through 2.26.40, you must update the management services bundle _before_ upgrading to Element 12.8.
 ====
 +
-IMPORTANT: If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services.
+IMPORTANT: If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM before updating management services.
 
 . link:task_hcc_upgrade_storage_firmware.html[(Optional) Upgrade your Element storage firmware only].
 +
