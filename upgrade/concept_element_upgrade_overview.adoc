@@ -56,7 +56,7 @@ You can use the following sequence to upgrade your NetApp SolidFire all-flash st
 +
 [IMPORTANT]
 ====
-* The management services 2.27 bundle includes Element Plug-in for vCenter Server 5.5, which is only compatible with management node 12.8. When you update to management services 2.27, you must change the upgrade sequence and update the management services bundle _after_ upgrading to Element 12.8 to ensure compatibility between the management node and management services. 
+* The management services 2.27 bundle includes Element Plug-in for vCenter Server 5.5, which is only compatible with management node 12.8. When you update to management services 2.27, you must change the upgrade sequence and update the management services bundle _after_ upgrading to Element 12.8 to have compatibility between the management node and management services. 
 
 * If you're updating to management services 2.21.61 through 2.26.40, you must update the management services bundle _before_ upgrading to Element 12.8.
 ====
