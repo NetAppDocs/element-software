@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: object,objects,loggingServer
 summary: 'The loggingServer object contains information about any logging hosts configured for the storage cluster. You can use GetRemoteLoggingHosts to determine what the current logging hosts are and then use SetRemoteLoggingHosts to set the desired list of current and new logging hosts.'
 ---
-
 = loggingServer
 :icons: font
 :imagesdir: ../media/
@@ -33,4 +32,8 @@ a|
 integer
 |===
 
+.Related information
+
+* link:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]
+* link:reference_element_api_setremotelogginghosts.adoc[SetRemoteLoggingHosts]
 // 2025 SEP 22, DOC-4796
