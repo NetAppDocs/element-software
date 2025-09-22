@@ -34,6 +34,6 @@ integer
 
 .Related information
 
-* link:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]
-* link:reference_element_api_setremotelogginghosts.adoc[SetRemoteLoggingHosts]
+* link:reference_element_api_getremotelogginghosts.html[GetRemoteLoggingHosts]
+* link:reference_element_api_setremotelogginghosts.html[SetRemoteLoggingHosts]
 // 2025 SEP 22, DOC-4796
