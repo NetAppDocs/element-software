@@ -1,5 +1,5 @@
 ---
-permalink: api/reference_element_api_getremotelogginghosts.html
+permalink: 
 sidebar: sidebar
 keywords: remote,logging,hosts,host,get,getting,getremotelogginghosts
 summary: 'You can use the GetRemoteLoggingHosts method to get the current list of log servers.'
@@ -14,11 +14,11 @@ You can use the `GetRemoteLoggingHosts` method to get the current list of log se
 
 == Parameters
 
-This method has no input parameters.
+There are no input parameters for `GetRemoteLoggingHosts`.
 
 == Return value
 
-This method has the following return value:
+The `GetRemoteLoggingHosts` method has the following return value:
 
 [options="header"]
 |===
@@ -26,7 +26,7 @@ This method has the following return value:
 a|
 remoteHosts
 a|
-List of IP address and port information about hosts configured to receive forwarded logging information.
+List of IP address, FQDN, and port information about hosts configured to receive forwarded logging information
 a|
 xref:reference_element_api_loggingserver.adoc[loggingServer] array
 |===
@@ -66,7 +66,7 @@ This method returns a response similar to the following example:
 
 == New since version
 
-9.6
+Available beginning with ONTAP 9.6.
 
 == Find more information
 
