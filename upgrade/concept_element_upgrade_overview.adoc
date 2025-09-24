@@ -51,7 +51,11 @@ You can use the following sequence to upgrade your NetApp SolidFire all-flash st
 
 .Steps
 . link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks before upgrading storage].
-. link:task_hcc_upgrade_element_software.html[Upgrade your Element software and storage firmware].
+
+. link:task_hcc_upgrade_management_node.html[(Optional) Upgrade your management node].
++
+NOTE: Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. If the management node is version 11.3 or higher, you can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
+
 . link:task_hcc_update_management_services.html[Update management services from Hybrid Cloud Control].
 +
 [IMPORTANT]
@@ -63,13 +67,12 @@ You can use the following sequence to upgrade your NetApp SolidFire all-flash st
 +
 IMPORTANT: If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM before updating management services.
 
+. link:task_hcc_upgrade_element_software.html[Upgrade your Element software and storage firmware].
+
 . link:task_hcc_upgrade_storage_firmware.html[(Optional) Upgrade your Element storage firmware only].
 +
 NOTE: You might perform this task when a new storage firmware upgrade becomes available outside of a major release.
 
-. link:task_hcc_upgrade_management_node.html[(Optional) Upgrade your management node].
-+
-NOTE: Upgrading the management node operating system is no longer required to upgrade Element software on the storage cluster. If the management node is version 11.3 or higher, you can simply upgrade the management services to the latest version to perform Element upgrades using NetApp Hybrid Cloud Control. Follow the management node upgrade procedure for your scenario if you would like to upgrade the management node operating system for other reasons, such as security remediation.
 
 . link:task_vcp_upgrade_plugin.html[Upgrade your Element Plug-in for vCenter Server].
 
@@ -78,6 +81,7 @@ NOTE: Upgrading the management node operating system is no longer required to up
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 
+// 2025 SEP 24,DOC-4798
 // 2025 APR 4, DOC-4765
 // 2024 DEC 19, DOC-4759
 // 2024 DEC 16, DOC-4721
