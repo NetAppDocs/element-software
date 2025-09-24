@@ -63,8 +63,23 @@ This method returns a response similar to the following example:
 
 ----
 {
-    "id" : 1,
-    "result" : {}
+   "id": 1,
+   "method": "SetRemoteLoggingHosts",
+   "params": {
+     "remoteHosts": [
+        {
+          "host": "172.16.1.20",
+          "port": 10514
+        },
+        {
+          "host": "172.16.1.25"
+        },
+        {
+          "host": "syslogs.lab.company.net",
+          "port": 514
+        }
+      ]
+   }
 }
 ----
 
