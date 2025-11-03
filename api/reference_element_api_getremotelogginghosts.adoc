@@ -25,7 +25,7 @@ The `GetRemoteLoggingHosts` method has the following return value:
 a|
 remoteHosts
 a|
-List of IP address, FQDN, and port information about hosts configured to receive forwarded logging information
+Lists the IP address, FQDN, and port information about hosts configured to receive forwarded logging information
 a|
 xref:reference_element_api_loggingserver.adoc[loggingServer] array
 |===
