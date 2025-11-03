@@ -15,7 +15,7 @@ NOTE: You will be prompted to log in using your NetApp Support credentials.
 
 
 == NetApp Element software
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996[NetApp Element Software 12.9 Release Notes^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3362264[NetApp Element Software 12.9 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996[NetApp Element Software 12.8 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468[NetApp Element Software 12.7 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193[NetApp Element Software 12.5 Release Notes^]
