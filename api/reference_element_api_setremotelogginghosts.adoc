@@ -51,10 +51,14 @@ Requests for this method are similar to the following example:
         },
         {
           "host": "172.16.1.25"
+        },
+        {
+          "host": "syslogs.lab.company.net",
+          "port": 514
         }
       ]
    }
-}
+} 
 ----
 
 == Response example
@@ -75,3 +79,5 @@ This method returns a response similar to the following example:
 == Find more information
 
 xref:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]
+
+// 2025 OCT 1, DOC-4796
