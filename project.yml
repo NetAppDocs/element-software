@@ -1,7 +1,6 @@
 ---
 settings:
   name: Element Software
-  downlevel: true
   internal:
     pdf_enabled: true
   prod:
