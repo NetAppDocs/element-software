@@ -205,14 +205,17 @@ entries:
       - title: Delete an initiator
         url: "/storage/task_data_manage_vol_access_group_delete_an_initiator.html"
   - title: Protect your data
-    url: "/storage/concept_data_protection.html"
     entries:
+    - title: Learn about protecting your data
+      url: "/storage/concept_data_protection.html"
     - title: Use volume snapshots for data protection
-      url: "/storage/task_data_protection_using_volume_snapshots.html"
       entries:
+      - title: Learn about using volume snapshots
+        url: "/storage/task_data_protection_using_volume_snapshots.html"
       - title: Use individual volume snapshots for data protection
-        url: "/storage/task_data_protection_use_individual_volume_snapshots.html"
         entries:
+        - title: Learn about using individual volume snapshots
+          url: "/storage/task_data_protection_use_individual_volume_snapshots.html"
         - title: Create a volume snapshot
           url: "/storage/task_data_protection_create_a_volume_snapshot.html"
         - title: Edit snapshot retention
@@ -224,8 +227,9 @@ entries:
         - title: Roll back a volume to a snapshot
           url: "/storage/task_data_protection_roll_back_a_volume_to_a_snapshot.html"
         - title: Back up a volume snapshot
-          url: "/storage/concept_data_protection_volume_snapshot_backup_operations.html"
           entries:
+          - title: Learn about backing up a volume snapshot
+            url: "/storage/concept_data_protection_volume_snapshot_backup_operations.html"
           - title: Back up a volume snapshot to an Amazon S3 object store
             url: "/storage/task_data_protection_back_up_a_volume_snapshot_to_an_amazon_s3_object_store.html"
           - title: Back up a volume snapshot to an OpenStack Swift object store
@@ -233,8 +237,9 @@ entries:
           - title: Back up a volume snapshot to a SolidFire cluster
             url: "/storage/task_data_protection_back_up_volume_snapshot_to_solidfire.html"
       - title: Use group snapshots for data protection
-        url: "/storage/task_data_protection_use_group_snapshots_for_data_protection.html"
         entries:
+        - title: Learn about using group snapshots
+          url: "/storage/task_data_protection_use_group_snapshots_for_data_protection.html"
         - title: Group snapshot details
           url: "/storage/reference_data_protection_group_snapshot_details.html"
         - title: Create a group snapshot
@@ -252,8 +257,9 @@ entries:
         - title: Clone multiple volumes from a group snapshot
           url: "/storage/task_data_protection_clone_multiple_volumes_from_a_group_snapshot.html"
       - title: Schedule a snapshot
-        url: "/storage/task_data_protection_schedule_a_snapshot_task.html"
         entries:
+        - title: Learn about scheduling a snapshot
+          url: "/storage/task_data_protection_schedule_a_snapshot_task.html"
         - title: Snapshot schedule details
           url: "/storage/reference_data_protection_snapshot_schedule_details.html"
         - title: Create a snapshot schedule
@@ -265,34 +271,31 @@ entries:
         - title: Delete a snapshot schedule
           url: "/storage/task_data_protection_delete_a_snapshot_schedule.html"
     - title: Perform remote replication between clusters running NetApp Element software 
-      url: "/storage/task_replication_perform_remote_replication_between_element_clusters.html"
       entries:
+      - title: Learn about performing remote replication
+        url: "/storage/task_replication_perform_remote_replication_between_element_clusters.html"
       - title: Plan cluster and volume pairing for real-time replication
         url: "/storage/task_replication_plan_cluster_and_volume_pairing.html"
       - title: Pair clusters for replication
-        url: "/storage/task_replication_pair_clusters.html"
         entries:
-        - title: Pair clusters using MVIP or a pairing key
-          url: "/storage/task_replication_pair_clusters_using_mvip_or_a_pairing_key.html"
-          entries:
-          - title: Pair clusters using MVIP
-            url: "/storage/task_replication_pair_cluster_using_mvip.html"
-          - title: Pair clusters using a pairing key
-            url: "/storage/task_replication_pair_cluster_using_pairing_key.html"
+        - title: Learn about pairing clusters
+          url: "/storage/task_replication_pair_clusters.html"
+        - title: Pair clusters using MVIP
+          url: "/storage/task_replication_pair_cluster_using_mvip.html"
+        - title: Pair clusters using a pairing key
+          url: "/storage/task_replication_pair_cluster_using_pairing_key.html"
         - title: Validate the cluster pair connection
           url: "/storage/task_replication_validate_the_cluster_pair_connection.html"
       - title: Pair volumes
-        url: "/storage/task_replication_pair_volumes.html"
         entries:
+        - title: Learn about pairing volumes
+          url: "/storage/task_replication_pair_volumes.html"
         - title: Create a target volume with read or write access
           url: "/storage/task_replication_create_a_target_volume_with_read_write_access.html"
-        - title: Pair volumes using a volume ID or pairing key
-          url: "/storage/task_replication_pair_volumes_using_volume_id_or_pairing_key.html"
-          entries:
-          - title: Pair volumes using a volume ID
-            url: "/storage/task_replication_pair_volumes_using_a_volume_id.html"
-          - title: Pair volumes using a pairing key
-            url: "/storage/task_replication_pair_volumes_using_a_pairing_key.html"
+        - title: Pair volumes using a volume ID
+          url: "/storage/task_replication_pair_volumes_using_a_volume_id.html"
+        - title: Pair volumes using a pairing key
+          url: "/storage/task_replication_pair_volumes_using_a_pairing_key.html"
         - title: Assign a replication source and target to paired volumes
           url: "/storage/task_replication_assign_replication_source_and_target_to_paired_volumes.html"
       - title: Validate volume replication
@@ -300,7 +303,6 @@ entries:
       - title: Delete a volume relationship after replication
         url: "/storage/task_replication_delete_volume_relationship_after_replication.html"
       - title: Manage volume relationships
-        url: "/storage/task_replication_manage_volume_relationships.html"
         entries:
         - title: Pause replication
           url: "/storage/task_replication_pause_replication.html"
@@ -312,16 +314,18 @@ entries:
           url: "/storage/task_replication_delete_cluster_pair.html"
         - title: Cluster pair details
           url: "/storage/reference_replication_cluster_pair_details.html"
-        - title: Volume pair details
-          url: "/storage/reference_replication_volume_pair_details.html"
+        - title: Volume pairs
           entries:
+          - title: Volume pair details
+            url: "/storage/reference_replication_volume_pair_details.html"
           - title: Volume pairing messages
             url: "/storage/reference_replication_volume_pairing_messages.html"
           - title: Volume pairing warnings
             url: "/storage/reference_replication_volume_pairing_warnings.html"
     - title: Use SnapMirror replication between Element and ONTAP clusters (Element UI)
-      url: "/storage/task_snapmirror_use_replication_between_element_and_ontap_clusters.html"
       entries:
+      - title: Learn about using SnapMirror replication
+        url: "/storage/task_snapmirror_use_replication_between_element_and_ontap_clusters.html"
       - title: SnapMirror overview
         url: "/storage/concept_snapmirror_overview.html"
       - title: Enable SnapMirror on the cluster
@@ -335,8 +339,9 @@ entries:
       - title: SnapMirror relationship actions
         url: "/storage/reference_snapmirror_relationship_actions.html"
       - title: SnapMirror labels
-        url: "/storage/concept_snapmirror_labels.html"
         entries:
+        - title: Learn about SnapMirror labels
+          url: "/storage/concept_snapmirror_labels.html"
         - title: Add SnapMirror labels to snapshots
           url: "/storage/task_snapmirror_add_labels_to_snapshots.html"
         - title: Add SnapMirror labels to snapshot schedules
@@ -359,7 +364,7 @@ entries:
           url: "/storage/task_snapmirror_transfer_or_one_time_migration_from_ontap_to_element.html"
     - title:  Replication between NetApp Element software and ONTAP (ONTAP CLI)
       entries:
-      - title: Overview
+      - title: Learn about replication using ONTAP CLI
         url: "/storage/element-replication-index.html"
       - title: Workflow
         url: "/storage/concept-element-replication-workflow.html"
@@ -402,8 +407,9 @@ entries:
       - title: Resynchronize a replication relationship
         url: "/storage/task-element-replication-resynchronize-data-protection-relationship.html"
     - title: Back up and restore volumes
-      url: "/storage/task_data_protection_back_up_and_restore_volumes.html"
       entries:
+      - title: Learn about backing up and restoring volumes
+        url: "/storage/task_data_protection_back_up_and_restore_volumes.html"
       - title: Back up a volume to an Amazon S3 object store
         url: "/storage/task_data_protection_back_up_volume_to_amazon_s3.html"
       - title: Back up a volume to an OpenStack Swift object store
@@ -419,11 +425,11 @@ entries:
     - title: Configure custom protection domains
       url: "/storage/task_data_protection_configure_custom_protection_domains.html"
   - title: Troubleshoot your system
-    url: "/storage/concept_system_monitoring_and_troubleshooting.html"
     entries:
-    - title: View information about system events
-      url: "/storage/task_monitor_information_about_system_events.html"
+    - title: System events
       entries:
+      - title: View information about system events
+        url: "/storage/task_monitor_information_about_system_events.html"
       - title: Event types
         url: "/storage/reference_monitor_event_types.html"
     - title: View status of running tasks
