@@ -164,13 +164,15 @@ entries:
       - title: Manage storage containers
         url: "/storage/concept_data_manage_vvol_manage_storage_containers.html"
       - title: Protocol endpoints
-        url: "/storage/concept_data_manage_vvol_protocol_endpoints.html"
         entries:
+        - title: Learn about protocol endpoints
+          url: "/storage/concept_data_manage_vvol_protocol_endpoints.html"
         - title: Protocol endpoints details
           url: "/storage/reference_data_manage_vvol_protocol_endpoints_details.html"
       - title: Bindings
-        url: "/storage/concept_data_manage_vvol_bindings.html"
         entries:
+        - title: Learn about bindings
+          url: "/storage/concept_data_manage_vvol_bindings.html"
         - title: Bindings details
           url: "/storage/reference_data_manage_vvol_bindings_details.html"
       - title: Host details
@@ -452,7 +454,6 @@ entries:
       - title: iSCSI session details
         url: "/storage/reference_monitor_iscsi_session_details.html"
     - title: Fibre Channel sessions
-      url: "/storage/task_monitor_fibre_channel_sessions.html"
       entries:
       - title: View Fibre Channel sessions
         url: "/storage/task_monitor_fibre_channel_sessions.html"
