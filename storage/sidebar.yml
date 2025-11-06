@@ -19,8 +19,12 @@ entries:
     entries:
     - title: Learn about using basic options
       url: "/storage/task_intro_use_basic_options_in_the_element_software_ui.html"
-    - title: View API activity
-      url: "/storage/task_intro_view_api_activity_in_real_time.html"
+    - title: API activity
+      entries:
+      - title: View API activity
+        url: "/storage/task_intro_view_api_activity_in_real_time.html"
+      - title: Interface refresh rate impacted by cluster load
+        url: "/storage/concept_basic_interface_refresh_rate_impacted_by_cluster_load.html"
     - title: Icons in the Element interface
       url: "/storage/reference_intro_icon_reference.html"
     - title: Provide feedback

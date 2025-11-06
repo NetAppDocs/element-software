@@ -4,17 +4,12 @@ sidebar: sidebar
 keywords: virtual volumes, volumes, manage
 summary: 'You can manage the data in a cluster running Element software from the Management tab in the Element UI. Available cluster management functions include creating and managing data volumes, user accounts, volume access groups, initiators, and Quality of Service \(QoS\) policies.'
 ---
-
-= Manage volumes and virtual volumes
+= Learn about managing volumes and virtual volumes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can manage the data in a cluster running Element software from the Management tab in the Element UI. Available cluster management functions include creating and managing data volumes, volume access groups, initiators, and Quality of Service (QoS) policies.
-
-* link:concept_data_manage_volumes_quality_of_service_policies.html[Work with volumes]
-* link:task_data_manage_vvol_enable_virtual_volumes.html[Work with virtual volumes]
-* link:task_data_manage_vol_access_group_create_a_volume_access_group.html[Work with volume access groups and initiators]
 
 == Work with volumes
 
@@ -60,6 +55,7 @@ NOTE: Volume access groups have the following limits:
 * A single volume can belong to a maximum of four access groups.
 
 link:../storage/task_data_manage_vol_access_group_create_a_volume_access_group.html[Learn about working with volume access groups and initiators]
+
 == For more information
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

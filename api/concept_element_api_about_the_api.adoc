@@ -9,9 +9,6 @@ summary: 'The Element API is based on the JSON-RPC protocol over HTTPS. JSON-RPC
 :imagesdir: ../media/
 
 [.lead]
-Learn about the Element API, common objects, methods
-
-== Element software API
 The Element API is based on the JSON-RPC protocol over HTTPS. JSON-RPC is a simple text-based RPC protocol based on the lightweight JSON data-interchange format. Client libraries are available for all major programming languages.
 
 You can make API requests via HTTPS POST requests to the API endpoint. The body of the POST request is a JSON-RPC request object. The API does not currently support batch requests (multiple request objects in a single POST). When submitting API requests, you must use "application/json-rpc" as the content-type of the request, and ensure that the body is not form-encoded.
@@ -58,7 +55,7 @@ link:../api/reference_element_api_checkproposedcluster.html[Learn about cluster 
 == Drive API methods
 You can use drive API methods to add and manage drives that are available to a storage cluster. When you add a storage node to the storage cluster or install new drives in an existing storage node, the drives are available to be added to the storage cluster.
 
-link:../api/concept_element_api_drive_api_methods.html[Learn about drive API methods]
+link:../api/reference_element_api_adddrives.html[Learn about drive API methods]
 
 == Fibre Channel API methods
 You can use Fibre Channel API methods to add, modify, or remove Fibre Channel node members of a storage cluster.
@@ -78,12 +75,12 @@ link:../api/reference_element_api_addldapclusteradmin.html[Learn about LDAP API 
 == Multi-factor authentication API methods
 You can use multi-factor authentication (MFA) to manage user sessions using a third-party Identity Provider (IdP) via the Security Assertion Markup Language (SAML).
 
-link:../api/concept_element_api_multi_factor_authentication_api_methods.html[Learn about multi-factor authentication API methods]
+link:../api/reference_element_api_addidpclusteradmin.htmll[Learn about multi-factor authentication API methods]
 
 == Session authentication API methods
 You can use session-based authentication to manage user sessions.
 
-link:../api/concept_element_api_session_authentication_api_methods.html[Learn about session authentication API methods]
+link:../api/reference_element_api_listauthsessionbyclusteradmin.html[Learn about session authentication API methods]
 
 == Node API methods
 You can use node API methods to configure individual nodes. These methods operate on single nodes that need to be configured, are configured but not yet participating in a cluster, or are actively participating in a cluster. Node API methods enable you to view and modify settings for individual nodes and the cluster network used to communicate with the node. You must run these methods against individual nodes; you cannot run per-node API methods against the address of the cluster.
