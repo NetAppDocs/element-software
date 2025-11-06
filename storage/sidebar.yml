@@ -1,12 +1,14 @@
 section: storage
 title: Manage storage with Element software
-url: /storage/index.html
 entries:
+  - title: Learn about managing storage
+    url: /storage/index.html
   - title: Access the Element software user interface
     url: "/storage/task_post_deploy_access_the_element_software_user_interface.html"
   - title: Configure SolidFire system options after deployment
-    url: "/storage/task_post_deploy_configure_system_options.html"
     entries:
+    - title: Learn about configuring options after deployment
+      url: "/storage/task_post_deploy_configure_system_options.html"
     - title: Change credentials in NetApp HCI and NetApp SolidFire
       url: "/storage/task_post_deploy_credentials.html"
     - title: Change the Element software default SSL certificate
@@ -14,39 +16,36 @@ entries:
     - title: Change the IPMI password for nodes
       url: "/storage/task_post_deploy_credential_change_ipmi_password.html"
   - title: Use basic options in the Element software UI
-    url: "/storage/task_intro_use_basic_options_in_the_element_software_ui.html"
     entries:
+    - title: Learn about using basic options
+      url: "/storage/task_intro_use_basic_options_in_the_element_software_ui.html"
     - title: View API activity
       url: "/storage/task_intro_view_api_activity_in_real_time.html"
-      entries:
-      - title: Interface refresh rate impacted by cluster load
-        url: "/storage/concept_basic_interface_refresh_rate_impacted_by_cluster_load.html"
     - title: Icons in the Element interface
       url: "/storage/reference_intro_icon_reference.html"
     - title: Provide feedback
       url: "/storage/task_intro_provide_feedback.html"
   - title: Manage accounts
-    url: "/storage/concept_system_manage_accounts_overview.html"
     entries:
+    - title: Learn about managing accounts
+      url: "/storage/concept_system_manage_accounts_overview.html"
     - title: Work with accounts using CHAP
       url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
     - title: Manage cluster administrator user accounts
       url: "/storage/concept_system_manage_manage_cluster_administrator_users.html"
-      entries:
-      - title: Manage LDAP
-        url: "/storage/concept_system_manage_manage_ldap.html"
+    - title: Manage LDAP
+      url: "/storage/concept_system_manage_manage_ldap.html"
   - title: Manage your system
-    url: "/storage/concept_system_manage_system_management.html"
     entries:
+    - title: Learn about managing your system
+      url: "/storage/concept_system_manage_system_management.html"
     - title: Enable multi-factor authentication
-      url: "/storage/concept_system_manage_mfa_enable_multi_factor_authentication.html"
       entries:
       - title: Set up multi-factor authentication
         url: "/storage/task_system_manage_mfa_set_up_multi_factor_authentication.html"
       - title: Additional information for Multi-factor authentication
         url: "/storage/concept_system_manage_mfa_additional_information_for_multi_factor_authentication.html"
     - title: Configure cluster settings
-      url: "/storage/concept_system_manage_cluster_configure_cluster_settings.html"
       entries:
       - title: Enable and disable encryption for a cluster
         url: "/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html"
@@ -59,16 +58,14 @@ entries:
       - title: Manage the Terms of Use banner
         url: "/storage/concept_system_manage_cluster_terms_manage_the_terms_of_use_banner.html"
       - title: Set the Network Time Protocol
-        url: "/storage/task_system_manage_cluster_ntp_set_the_network_time_protocol.html"
         entries:
         - title: Configure Network Time Protocol servers for the cluster to query
           url: "/storage/task_system_manage_cluster_ntp_configure.html"
         - title: Configure the cluster to listen for NTP broadcasts
           url: "/storage/task_system_manage_cluster_ntp_configure_to_listen_for_ntp_broadcasts.html"
       - title: Manage SNMP
-        url: "/storage/concept_system_manage_snmp_manage_snmp.html"
         entries:
-        - title: SNMP details
+        - title: Learn about SNMP
           url: "/storage/reference_system_manage_snmp_snmp_details.html"
         - title: Configure an SNMP requestor
           url: "/storage/task_system_manage_snmp_configure_an_snmp_requestor.html"
@@ -80,12 +77,10 @@ entries:
           url: "/storage/task_system_manage_snmp_view_managed_object_data.html"
       - title: Manage drives
         url: "/storage/concept_system_manage_drives_managing_drives.html"
-        entries:
-        - title: Drives details
-          url: "/storage/reference_system_manage_drives_drives_details.html"
       - title: Manage nodes
-        url: "/storage/concept_system_manage_nodes_manage_nodes.html"
         entries:
+        - title: Learn about managing nodes
+          url: "/storage/concept_system_manage_nodes_manage_nodes.html"
         - title: Add a node to a cluster
           url: "/storage/task_system_manage_nodes_adding_a_node_to_a_cluster.html"
         - title: Node versioning and compatibility
@@ -97,8 +92,9 @@ entries:
       - title: View Fibre Channel ports details
         url: "/storage/task_system_manage_fc_view_fibre_channel_ports_details.html"
       - title: Manage virtual networks
-        url: "/storage/concept_system_manage_virtual_manage_virtual_networks.html"
         entries:
+        - title: Learn about managing virtual networks
+          url: "/storage/concept_system_manage_virtual_manage_virtual_networks.html"
         - title: Add a virtual network
           url: "/storage/task_system_manage_virtual_add_a_virtual_network.html"
         - title: Enable virtual routing and forwarding
@@ -109,11 +105,10 @@ entries:
           url: "/storage/task_system_manage_virtual_edit_vrf_vlans.html"
         - title: Delete a virtual network
           url: "/storage/task_system_manage_virtual_delete_a_virtual_network.html"
-    - title: Create a cluster supporting FIPS drives
-      url: "/storage/task_system_manage_fips_create_a_cluster_supporting_fips_drives.html"
+    - title: Create a cluster supporting FIPS drives 
       entries:
-      - title: Avoid mixing nodes for FIPS drives
-        url: "/storage/task_system_manage_fips_avoid_mixing_nodes_for_fips_drives.html"
+      - title: Prepare the cluster
+        url: "/storage/task_system_manage_fips_create_a_cluster_supporting_fips_drives.html"
       - title: Enable encryption at rest
         url: "/storage/task_system_manage_fips_enable_encryption_at_rest.html"
       - title: Identify whether nodes are ready for the FIPS drives feature
@@ -124,14 +119,16 @@ entries:
         url: "/storage/task_system_manage_fips_check_the_fips_drive_status.html"
       - title: Troubleshoot the FIPS drive feature
         url: "/storage/task_system_manage_fips_troubleshoot_the_fips_drive_feature.html"
-    - title: Enable FIPS 140-2 for HTTPS on your cluster
-      url: "/storage/task_system_manage_fips_enable_fips_140_2_for_https.html"
+    - title: Establish secure communication
       entries:
+      - title: Enable FIPS 140-2 for HTTPS on your cluster
+        url: "/storage/task_system_manage_fips_enable_fips_140_2_for_https.html"
       - title: SSL ciphers
         url: "/storage/reference_system_manage_fips_ssl_cipher_changes.html"
     - title: Get started with external key management
-      url: "/storage/concept_system_manage_key_get_started_with_external_key_management.html"
       entries:
+      - title: Learn about external key management
+        url: "/storage/concept_system_manage_key_get_started_with_external_key_management.html"
       - title: Set up external key management
         url: "/storage/task_system_manage_key_set_up_external_key_management.html"
       - title: Rekey software encryption at rest master key
@@ -141,10 +138,10 @@ entries:
       - title: External key management API Commands
         url: "/storage/concept_system_manage_key_external_key_management_api_commands.html"
   - title: Manage volumes and virtual volumes
-    url: "/storage/concept_data_manage_data_management.html"
     entries:
+    - title: Learn about managing volumes and virtual volumes
+      url: "/storage/concept_data_manage_data_management.html"
     - title: Work with volumes
-      url: "/storage/task_data_manage_volumes_work_with_volumes_task.html"
       entries:
       - title: Manage Quality of Service policies
         url: "/storage/concept_data_manage_volumes_quality_of_service_policies.html"
@@ -157,7 +154,6 @@ entries:
       - title: Remove the QoS policy association of a volume
         url: "/storage/task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.html"
     - title: Work with virtual volumes
-      url: "/storage/concept_data_manage_vvol_work_virtual_volumes.html"
       entries:
       - title: Enable virtual volumes
         url: "/storage/task_data_manage_vvol_enable_virtual_volumes.html"
@@ -180,7 +176,6 @@ entries:
       - title: Host details
         url: "/storage/reference_data_manage_vvol_host_details.html"
     - title: Work with volume access groups and initiators
-      url: "/storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html"
       entries:
       - title: Create a volume access group
         url: "/storage/task_data_manage_vol_access_group_create_a_volume_access_group.html"
@@ -292,10 +287,12 @@ entries:
           url: "/storage/task_replication_pair_volumes.html"
         - title: Create a target volume with read or write access
           url: "/storage/task_replication_create_a_target_volume_with_read_write_access.html"
-        - title: Pair volumes using a volume ID
-          url: "/storage/task_replication_pair_volumes_using_a_volume_id.html"
-        - title: Pair volumes using a pairing key
-          url: "/storage/task_replication_pair_volumes_using_a_pairing_key.html"
+        - title: Pair volumes using a volume ID or pairing key
+          entries: 
+          - title: Pair volumes using a volume ID
+            url: "/storage/task_replication_pair_volumes_using_a_volume_id.html"
+          - title: Pair volumes using a pairing key
+            url: "/storage/task_replication_pair_volumes_using_a_pairing_key.html"
         - title: Assign a replication source and target to paired volumes
           url: "/storage/task_replication_assign_replication_source_and_target_to_paired_volumes.html"
       - title: Validate volume replication
@@ -347,15 +344,15 @@ entries:
         - title: Add SnapMirror labels to snapshot schedules
           url: "/storage/task_snapmirror_add_labels_to_snapshot_schedules.html"
       - title: Disaster recovery using SnapMirror
-        url: "/storage/concept_snapmirror_disaster_recovery.html"
         entries:
+        - title: Learn about disaster recovery
+          url: "/storage/concept_snapmirror_disaster_recovery.html"
         - title: Perform a failover from an Element cluster
           url: "/storage/task_snapmirror_perform_failover_from_element_cluster.html"
         - title: Perform a failback to Element
-          url: "/storage/task_snapmirror_perform_failback_to_element.html"
           entries:
-          - title: SnapMirror failback scenarios
-            url: "/storage/concept_snapmirror_failback_scenarios.html"
+          - title: Learn about performing a failback
+            url: "/storage/task_snapmirror_perform_failback_to_element.html"
           - title: Perform a failback when source volume still exists
             url: "/storage/task_snapmirror_perform_failback_when_source_volume_exists.html"
           - title: Perform a failback when source volume no longer exists
@@ -434,31 +431,37 @@ entries:
         url: "/storage/reference_monitor_event_types.html"
     - title: View status of running tasks
       url: "/storage/reference_monitor_status_of_running_tasks.html"
-    - title: View system alerts
-      url: "/storage/task_monitor_system_alerts.html"
+    - title: System alerts
       entries:
+      - title: View system alerts
+        url: "/storage/task_monitor_system_alerts.html"
       - title: Cluster fault codes
         url: "/storage/reference_monitor_cluster_fault_codes.html"
     - title: View node performance activity
       url: "/storage/task_monitor_node_performance_activity.html"
-    - title: View volume performance
-      url: "/storage/task_monitor_volume_performance.html"
+    - title: Volume performance
       entries:
+      - title: View volume performance
+        url: "/storage/task_monitor_volume_performance.html"
       - title: Volume performance details
         url: "/storage/reference_monitor_volume_performance_details.html"
-    - title: View iSCSI sessions
-      url: "/storage/task_monitor_iscsi_sessions.html"
+    - title: iSCSI sessions
       entries:
+      - title: View iSCSI sessions
+        url: "/storage/task_monitor_iscsi_sessions.html"
       - title: iSCSI session details
         url: "/storage/reference_monitor_iscsi_session_details.html"
-    - title: View Fibre Channel sessions
+    - title: Fibre Channel sessions
       url: "/storage/task_monitor_fibre_channel_sessions.html"
       entries:
+      - title: View Fibre Channel sessions
+        url: "/storage/task_monitor_fibre_channel_sessions.html"
       - title: Fibre Channel session details
         url: "/storage/reference_monitor_fibre_channel_session_details.html"
     - title: Troubleshoot drives
-      url: "/storage/concept_troubleshoot_drives.html"
       entries:
+      - title: Learn about troubleshooting drives
+        url: "/storage/concept_troubleshoot_drives.html"
       - title: Remove failed drives from the cluster
         url: "/storage/task_troubleshoot_remove_failed_drives.html"
       - title: Basic MDSS drive troubleshooting
@@ -468,13 +471,15 @@ entries:
       - title: Remove MDSS drives
         url: "/storage/task_troubleshoot_remove_mdss_drives.html"
     - title: Troubleshoot nodes
-      url: "/storage/concept_troubleshoot_nodes.html"
       entries:
+      - title: Remove nodes from a cluster
+        url: "/storage/concept_remove_nodes_from_cluster.html"
       - title: Power down a cluster
         url: "/storage/task_troubleshoot_power_down_a_cluster.html"
     - title: Work with per-node utilities for storage nodes
-      url: "/storage/concept_per_node_work_with_utilities.html"
       entries:
+      - title: Learning about working with per-node utilities
+        url: "/storage/concept_per_node_work_with_utilities.html"
       - title: Access per-node settings using the per-node UI
         url: "/storage/task_per_node_access_settings.html"
       - title: Network settings details from the per-node UI
