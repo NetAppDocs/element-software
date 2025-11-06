@@ -1,8 +1,7 @@
 section: api
 title: Manage storage with Element API
-url: "/api/index.html"
 entries:
-  - title: Element software API
+  - title: Element API software
     entries:
     - title: Learn about Element software API
       url: "/api/concept_element_api_about_the_api.html"

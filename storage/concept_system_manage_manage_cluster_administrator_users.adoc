@@ -59,7 +59,7 @@ There are access types available through the API that aren't available in the El
  ** Ldap
 * *Attributes*: If the cluster administrator account was created using the Element API, this column shows any name-value pairs that were set using that method.
 +
-See link:../api/index.html[NetApp Element Software API Reference].
+See link:../api/concept_element_api_about_the_api.html[NetApp Element Software API Reference].
 
 [[create_cluster_admin_account]]
 == Create a cluster administrator account
