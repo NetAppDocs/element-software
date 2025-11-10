@@ -19,7 +19,7 @@ Upgrading the management node operating system is no longer required to upgrade 
 NOTE: If you require information on upgrading management nodes 12.2 or earlier, see the https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_management_node.html[Element 12.3.x management node upgrade documentation^].
 
 == Step 1: Upgrade VM hardware version on a management node
-If you are performing an in-place upgrade of an existing management node to Element 12.9, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. 
+If you are performing an in-place upgrade of an existing management node to Element 12.8, before you upgrade, you must ensure that the VM hardware version on the management node is compatible with ESXi 6.7 (VM hardware version 14) or later depending on your environment. 
 
 .Steps
 . Log in to the vSphere Web Client as a vCenter Administrator.
