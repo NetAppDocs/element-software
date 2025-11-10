@@ -68,7 +68,7 @@ You can create new cluster administrator accounts with permissions to allow or r
 
 If you want to create an LDAP cluster administrator account, ensure that LDAP is configured on the cluster before you begin.
 
-link:task_system_manage_enable_ldap_authentication.html[Enable LDAP authentication with the Element user interface]
+link:concept_system_manage_manage_ldap.html[Enable LDAP authentication with the Element user interface]
 
 
 You can later change cluster administrator account privileges for reporting, nodes, drives, volumes, accounts, and cluster-level access. When you enable a permission, the system assigns write access for that level. The system grants the administrator user read-only access for the levels that you do not select.
@@ -125,7 +125,7 @@ You can use the Element UI to change cluster administrator passwords.
 
 .Related information
 * link:../api/reference_element_api_app_b_access_control.html[Learn about the access types available for Element APIs]
-* link:task_system_manage_enable_ldap_authentication.html[Enable LDAP authentication with the Element user interface]
+* link:concept_system_manage_manage_ldap.html[Enable LDAP authentication with the Element user interface]
 * link:concept_system_manage_manage_ldap.html[Disable LDAP]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 

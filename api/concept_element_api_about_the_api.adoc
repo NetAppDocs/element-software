@@ -75,7 +75,7 @@ link:../api/reference_element_api_addldapclusteradmin.html[Learn about LDAP API 
 == Multi-factor authentication API methods
 You can use multi-factor authentication (MFA) to manage user sessions using a third-party Identity Provider (IdP) via the Security Assertion Markup Language (SAML).
 
-link:../api/reference_element_api_addidpclusteradmin.htmll[Learn about multi-factor authentication API methods]
+link:../api/reference_element_api_addidpclusteradmin.html[Learn about multi-factor authentication API methods]
 
 == Session authentication API methods
 You can use session-based authentication to manage user sessions.

@@ -21,12 +21,11 @@ NOTE: In the examples here, R1 = the original relationship in which the cluster 
 
 The following image shows the failback scenario when the source volume still exists:
 
-image::../media/snapmirror_element_failback1.gif[]
+image::../media/snapmirror_element_failback1.gif[Image of the failback scenario when the source volume still exists]
 
 The following image shows the failback scenario when the source volume no longer exists:
 
-image::../media/snapmirror_element_failback2.png[]
-
+image::../media/snapmirror_element_failback2.png[Image of the failback scenario when the source volume no longer exists]
 == Find more information
 
 * xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[Perform a failback when source volume still exists]

@@ -13,7 +13,7 @@ indexpage:
         - title: What's new
           url: /concepts/concept_rn_whats_new_element.html
         - title: Requirements
-          url: /setup/concept_requirements_overview.html
+          url: /storage/concept_prereq_networking.html
         - title: Setup overview
           url: /setup/concept_setup_overview.html
     - title: Install & maintain hardware
