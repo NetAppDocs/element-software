@@ -23,7 +23,7 @@ You can set up a cluster with storage nodes and manage it using Element software
 
 * link:../setup/concept_setup_fc_configure_a_fibre_channel_node.html[Set up cluster with Fibre Channel nodes]
 +
-You can set up a cluster with Fibre Channel nodes and manage it using Element software after you install and cable nodes in a rack unit and power them on. You can then install and configure additional components in your storage system.
+You can set up a cluster with Fibre Channel nodes and manage it using Element software after you install and cable the nodes in a rack unit and power them on. You can then install and configure additional components in your storage system.
 . link:../setup/task_setup_determine_which_solidfire_components_to_install.html[Determine which SolidFire components to install]
 . link:../setup/task_setup_gh_redirect_set_up_a_management_node.html[Set up a management node and enable Active IQ telemetry]
 
