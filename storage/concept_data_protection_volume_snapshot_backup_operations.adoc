@@ -14,4 +14,4 @@ You can use the integrated backup feature to back up a volume snapshot. You can 
 
 * link:task_data_protection_back_up_a_volume_snapshot_to_an_amazon_s3_object_store.html[Back up a volume snapshot to an Amazon S3 object store]
 * link:task_data_protection_back_up_a_volume_snapshot_to_openstack_swift.html[Back up a volume snapshot to an OpenStack Swift object store]
-* link:task_data_protection_back_up_volume_to_solidfire[Back up a volume snapshot to a SolidFire cluster]
+* link:task_data_protection_back_up_volume_to_solidfire.html[Back up a volume snapshot to a SolidFire cluster]
